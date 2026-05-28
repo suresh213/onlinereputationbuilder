@@ -7,14 +7,14 @@ import FAQ from "@/components/FAQ";
 import Link from "next/link";
 
 const crisisTypes = [
-  { icon: "📰", title: "Negative Press Coverage", desc: "Damaging news articles or media stories that threaten your brand's public image." },
-  { icon: "⭐", title: "Review Bombing", desc: "Sudden flood of fake or coordinated negative reviews across multiple platforms." },
-  { icon: "📱", title: "Social Media Scandal", desc: "Viral negative content, hashtag campaigns, or social media controversies targeting your brand." },
-  { icon: "👤", title: "Executive Controversy", desc: "Personal controversies involving company leadership that affect brand perception." },
-  { icon: "⚖️", title: "Legal & Compliance Issues", desc: "Court cases, regulatory actions, or legal disputes creating negative search results." },
-  { icon: "💢", title: "Competitor Attacks", desc: "Malicious competitor campaigns designed to damage your reputation unfairly." },
-  { icon: "🔓", title: "Data Breach Fallout", desc: "Managing public trust and communications after a data security incident." },
-  { icon: "😡", title: "Customer Backlash", desc: "Widespread customer complaints that escalate into public relations emergencies." },
+  { icon: "📰", category: "MEDIA RELATIONS", title: "Negative Press Coverage", desc: "Damaging news articles or media stories that threaten your brand's public image." },
+  { icon: "⭐", category: "REVIEWS & SENTIMENT", title: "Review Bombing", desc: "Sudden flood of fake or coordinated negative reviews across multiple platforms." },
+  { icon: "📱", category: "SOCIAL RISK", title: "Social Media Scandal", desc: "Viral negative content, hashtag campaigns, or social media controversies targeting your brand." },
+  { icon: "👤", category: "EXECUTIVE BRAND", title: "Executive Controversy", desc: "Personal controversies involving company leadership that affect brand perception." },
+  { icon: "⚖️", category: "LEGAL & COMPLIANCE", title: "Legal Issues", desc: "Court cases, regulatory actions, or legal disputes creating negative search results." },
+  { icon: "⚖️", category: "COMPETITION SECURITY", title: "Competitor Attacks", desc: "Malicious competitor campaigns designed to damage your reputation unfairly." },
+  { icon: "🔓", category: "DATA FALLOUT", title: "Data Breach Fallout", desc: "Managing public trust and communications after a data security incident." },
+  { icon: "😡", category: "CONSUMER RELATIONS", title: "Customer Backlash", desc: "Widespread customer complaints that escalate into public relations emergencies." },
 ];
 
 const processSteps = [
@@ -34,31 +34,34 @@ const faqs = [
   { q: "How do you handle social media crises specifically?", a: "We monitor all major social platforms in real-time, coordinate rapid response strategies, engage with influencers and key voices, suppress trending negative hashtags, and build counter-narratives using positive social proof." },
 ];
 
+const mediaNames = [
+  "CNW", "ANI", "ET BrandEquity", "Times Now", "Forbes", "DNA India", 
+  "CNBC", "Hindustan Times", "Business Standard", "India Today", "Midday", "Yahoo Finance"
+];
+
 export default function CrisisManagementPage() {
   return (
-    <div>
+    <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col">
       <Topbar />
       <Navbar />
 
       {/* PAGE HERO */}
       <section className="page-hero relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"/>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/10 rounded-full translate-y-1/2 -translate-x-1/2"/>
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
           <div>
-            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5">
+            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-semibold mb-5 uppercase tracking-wider">
               🚨 24/7 Crisis Response Available
             </div>
-            <h1 className="font-heading text-3xl lg:text-4xl font-bold text-white leading-tight mb-4">
-              Online Crisis Management & ORM Services | Brand & Personal Protection
+            <h1 className="font-heading text-3xl lg:text-4xl font-extrabold text-white leading-[1.15] mb-4">
+              Online Crisis Management &amp; ORM Services
             </h1>
-            <p className="text-white/70 text-base mb-5 leading-relaxed">
+            <p className="text-zinc-400 text-sm mb-5 leading-relaxed">
               A crisis has the potential to destroy years of hard work in hours. When your reputation is under attack, every minute counts. Our crisis management experts are on call 24/7 to protect your brand.
             </p>
-            <div className="bg-red-500/20 border border-red-400/30 rounded-xl p-4 mb-6">
-              <p className="text-red-300 font-semibold text-sm mb-1">⚡ Active Crisis? Call Us Now</p>
-              <p className="text-white/60 text-xs">Our emergency response team is available around the clock for immediate assistance.</p>
-              <a href="tel:+919971687251" className="text-brand-gold font-bold text-sm hover:underline">+91 99716 87251</a>
+            <div className="bg-red-950/40 border border-red-500/25 rounded p-4 mb-6">
+              <p className="text-red-400 font-bold text-xs uppercase tracking-wider mb-1">⚡ Active Crisis? Call Us Now</p>
+              <p className="text-zinc-300 text-xs leading-relaxed">Our emergency response team is available around the clock for immediate assistance.</p>
+              <a href="tel:+919971687251" className="text-brand-gold font-bold text-sm hover:underline mt-1 inline-block">+91 99716 87251</a>
             </div>
             <ul className="space-y-2 mb-8">
               {[
@@ -68,48 +71,63 @@ export default function CrisisManagementPage() {
                 "Strategic communications & messaging",
                 "Post-crisis reputation rebuilding",
               ].map((item) => (
-                <li key={item} className="check-item text-sm text-white/80">
-                  <span className="text-brand-gold font-bold flex-shrink-0">✓</span>{item}
+                <li key={item} className="check-item text-xs text-zinc-300">
+                  <span className="text-brand-gold font-bold flex-shrink-0">✓</span>
+                  <span>{item}</span>
                 </li>
               ))}
             </ul>
             <div className="flex flex-wrap gap-3">
-              <Link href="#contact" className="btn-gold">Get Emergency Help</Link>
-              <a href="tel:+919971687251" className="btn-outline">Call Now: +91 99716 87251</a>
+              <Link href="#contact" className="btn-gold">Get Help</Link>
+              <a href="tel:+919971687251" className="btn-outline">Call Now</a>
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-2xl p-7">
-            <p className="section-label mb-2">Emergency Consultation</p>
-            <h3 className="font-heading text-xl font-bold text-brand-dark mb-1">Tell Us About Your Crisis</h3>
-            <p className="text-gray-400 text-xs mb-5">We respond within 2 hours — guaranteed</p>
-            <ContactForm />
+          <div className="bg-slate-900 border border-zinc-800 rounded p-7">
+            <p className="section-label mb-1 text-[0.62rem] text-brand-gold uppercase tracking-widest font-bold">Emergency Consultation</p>
+            <h3 className="font-heading text-lg font-bold text-white mb-1">Tell Us About Your Situation</h3>
+            <p className="text-zinc-400 text-xs mb-5">We respond within 2 hours — guaranteed</p>
+            <ContactForm dark />
           </div>
         </div>
       </section>
 
       {/* MEDIA LOGOS */}
-      <div className="bg-white py-8 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4">
-          <img src="https://buildbrandbetter.io/wp-content/uploads/2023/01/media-logo.png" alt="Featured in media" className="max-w-3xl mx-auto w-full h-auto object-contain opacity-70"/>
+      <div className="bg-zinc-50 py-6 border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto px-4 overflow-hidden">
+          <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max">
+            {mediaNames.map((m, i) => (
+              <span key={i} className="logo-badge-pill">
+                {m}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* TYPES OF CRISES */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-24 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">We Handle Every Type</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">Types of Reputation Crises We Manage</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm mt-3">
-              No matter what kind of crisis you're facing, our team has the experience and tools to respond effectively and protect your reputation.
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Types of Reputation Crises We Manage</h2>
+            <p className="text-zinc-500 max-w-2xl mx-auto text-xs mt-3 leading-relaxed">
+              No matter what kind of crisis you are facing, our team has the experience and tools to respond effectively and protect your reputation.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {crisisTypes.map((c) => (
-              <div key={c.title} className="service-card group">
-                <div className="text-3xl mb-3">{c.icon}</div>
-                <h3 className="font-bold text-brand-dark text-sm mb-2 group-hover:text-brand-blue transition-colors">{c.title}</h3>
-                <p className="text-xs text-gray-600 leading-relaxed">{c.desc}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {crisisTypes.map((c, idx) => (
+              <div 
+                key={c.title} 
+                className={`service-card group ${idx % 2 === 0 ? "card-accent-blue" : "card-accent-gold"}`}
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-[0.58rem] font-bold text-brand-blue uppercase tracking-widest bg-blue-50 border border-blue-100 rounded px-1.5 py-0.5">
+                    {c.category}
+                  </span>
+                  <span className="text-2xl select-none">{c.icon}</span>
+                </div>
+                <h3 className="font-bold text-zinc-900 text-sm mb-2 group-hover:text-brand-blue transition-colors leading-snug">{c.title}</h3>
+                <p className="text-xs text-zinc-500 leading-relaxed">{c.desc}</p>
               </div>
             ))}
           </div>
@@ -117,44 +135,45 @@ export default function CrisisManagementPage() {
       </section>
 
       {/* CRISIS TIMELINE */}
-      <section className="py-16 px-4 bg-brand-light">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-          <div>
+      <section className="py-24 px-4 bg-[#fafafa] border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center lg:divide-x lg:divide-zinc-200">
+          <div className="pr-0 lg:pr-8">
             <p className="section-label mb-2">The Cost of Waiting</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-5">
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900 mb-5">
               Why Immediate Crisis Response is Critical
             </h2>
-            <p className="text-gray-600 leading-relaxed mb-5">
+            <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
               In a reputation crisis, time is the most valuable asset. Every hour that passes without a strategic response allows negative content to spread further, more people to form negative opinions, and the damage to deepen.
             </p>
             <div className="space-y-4 mb-6">
               {[
-                { time: "First 24 Hours", impact: "Crisis reaches your core audience and immediate stakeholders.", color: "border-yellow-400" },
-                { time: "48–72 Hours", impact: "Content indexes on Google. Social shares multiply. Media picks up the story.", color: "border-orange-400" },
-                { time: "1 Week+", impact: "Negative content dominates search results. Long-term brand damage begins.", color: "border-red-500" },
+                { time: "First 24 Hours", impact: "Crisis reaches your core audience and immediate stakeholders.", color: "border-amber-500" },
+                { time: "48–72 Hours", impact: "Content indexes on Google. Social shares multiply. Media picks up the story.", color: "border-red-500" },
+                { time: "1 Week+", impact: "Negative content dominates search results. Long-term brand damage begins.", color: "border-zinc-800" },
               ].map(t => (
-                <div key={t.time} className={`bg-white rounded-lg p-4 border-l-4 ${t.color} shadow-sm`}>
-                  <p className="font-bold text-brand-dark text-sm mb-1">{t.time}</p>
-                  <p className="text-xs text-gray-600">{t.impact}</p>
+                <div key={t.time} className={`bg-white rounded p-4 border border-zinc-200 border-l-4 ${t.color}`}>
+                  <p className="font-bold text-zinc-900 text-xs uppercase tracking-wider mb-1">{t.time}</p>
+                  <p className="text-xs text-zinc-500 leading-relaxed">{t.impact}</p>
                 </div>
               ))}
             </div>
-            <Link href="#contact" className="btn-gold">Act Now — Get Help Immediately</Link>
+            <Link href="#contact" className="btn-gold">Get Help Immediately</Link>
           </div>
-          <div className="text-center">
-            <div className="bg-brand-dark rounded-2xl p-8">
-              <p className="font-heading text-5xl font-bold text-white mb-2">2 hrs</p>
-              <p className="text-white/60 text-sm mb-6">Average response time to active crises</p>
+          
+          <div className="text-center pl-0 lg:pl-12">
+            <div className="bg-brand-dark border border-zinc-800 rounded p-8">
+              <p className="font-heading text-5xl font-extrabold text-white mb-2">2 hrs</p>
+              <p className="text-zinc-400 text-xs mb-6 uppercase tracking-wider font-semibold">Average response time to active crises</p>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { n: "500+", l: "Crises Managed" },
-                  { n: "97%", l: "Resolved Successfully" },
+                  { n: "97%", l: "Success Rate" },
                   { n: "24/7", l: "Availability" },
                   { n: "48 hrs", l: "First Results" },
                 ].map(s => (
-                  <div key={s.l} className="bg-white/10 rounded-lg p-4 text-center">
-                    <p className="font-heading text-2xl font-bold text-brand-gold">{s.n}</p>
-                    <p className="text-white/50 text-xs mt-1">{s.l}</p>
+                  <div key={s.l} className="bg-white/5 border border-white/10 rounded p-4 text-center">
+                    <p className="font-heading text-xl font-extrabold text-brand-gold">{s.n}</p>
+                    <p className="text-zinc-400 text-[0.62rem] uppercase tracking-wider mt-1">{s.l}</p>
                   </div>
                 ))}
               </div>
@@ -164,19 +183,19 @@ export default function CrisisManagementPage() {
       </section>
 
       {/* OUR PROCESS */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-24 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Our Approach</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">Our Crisis Management Process</h2>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Our Crisis Management Process</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {processSteps.map((s) => (
-              <div key={s.n} className="bg-brand-light rounded-xl p-6 flex gap-4 items-start">
+              <div key={s.n} className="bg-[#fafafa] border border-zinc-200 rounded p-6 flex gap-4 items-start">
                 <div className="step-number font-heading flex-shrink-0">{s.n}</div>
                 <div>
-                  <h3 className="font-bold text-brand-dark mb-2">{s.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
+                  <h3 className="font-bold text-zinc-900 mb-2 text-sm">{s.title}</h3>
+                  <p className="text-xs text-zinc-500 leading-relaxed">{s.desc}</p>
                 </div>
               </div>
             ))}
@@ -185,31 +204,33 @@ export default function CrisisManagementPage() {
       </section>
 
       {/* BRAND VS INDIVIDUAL */}
-      <section className="py-16 px-4 bg-brand-blue">
+      <section className="py-24 px-4 bg-[#0f172a] border-b border-zinc-950">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <p className="section-label text-yellow-400/80 mb-2">Tailored Solutions</p>
-            <h2 className="font-heading text-3xl font-bold text-white">Crisis Protection for Brands & Individuals</h2>
+            <p className="section-label text-brand-gold mb-2">Tailored Solutions</p>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-white">Crisis Protection for Brands &amp; Individuals</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-8">
-              <div className="text-4xl mb-4">🏢</div>
-              <h3 className="font-heading text-xl font-bold text-white mb-4">For Businesses & Brands</h3>
+            <div className="bg-[#0c1322] border border-zinc-800 rounded p-8">
+              <div className="text-4xl mb-4 select-none">🏢</div>
+              <h3 className="font-heading text-lg font-bold text-white mb-4">For Businesses &amp; Brands</h3>
               <ul className="space-y-3">
                 {["Corporate crisis communications strategy", "Stakeholder & investor messaging", "Employee and media statement drafting", "Multi-platform content suppression", "Brand recovery and narrative rebuilding", "Competitor sabotage countermeasures"].map(i => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-white/80">
-                    <span className="text-brand-gold mt-0.5">✓</span>{i}
+                  <li key={i} className="flex items-start gap-2 text-xs text-zinc-300 leading-normal">
+                    <span className="text-brand-gold mt-0.5">✓</span>
+                    <span>{i}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-8">
-              <div className="text-4xl mb-4">👤</div>
-              <h3 className="font-heading text-xl font-bold text-white mb-4">For Individuals & Executives</h3>
+            <div className="bg-[#0c1322] border border-zinc-800 rounded p-8">
+              <div className="text-4xl mb-4 select-none">👤</div>
+              <h3 className="font-heading text-lg font-bold text-white mb-4">For Individuals &amp; Executives</h3>
               <ul className="space-y-3">
                 {["Personal reputation emergency response", "Private & discreet handling of sensitive matters", "Social media crisis management", "False allegation countering", "Personal brand narrative control", "Legal content removal coordination"].map(i => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-white/80">
-                    <span className="text-brand-gold mt-0.5">✓</span>{i}
+                  <li key={i} className="flex items-start gap-2 text-xs text-zinc-300 leading-normal">
+                    <span className="text-brand-gold mt-0.5">✓</span>
+                    <span>{i}</span>
                   </li>
                 ))}
               </ul>
@@ -219,61 +240,58 @@ export default function CrisisManagementPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-4 bg-brand-light">
+      <section className="py-24 px-4 bg-[#fafafa] border-b border-zinc-200">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">FAQs</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">Crisis Management Questions</h2>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Crisis Management Questions</h2>
           </div>
           <FAQ items={faqs} />
         </div>
       </section>
 
       {/* EMERGENCY CONTACT */}
-      <section id="contact" className="py-16 px-4 bg-brand-dark relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 right-10 w-80 h-80 bg-red-500 rounded-full"/>
-        </div>
+      <section id="contact" className="py-24 px-4 bg-zinc-900 relative overflow-hidden">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           <div>
-            <div className="bg-red-500/20 border border-red-400/30 rounded-xl p-4 mb-6 inline-flex items-center gap-3">
-              <span className="text-red-400 text-xl">🚨</span>
-              <p className="text-red-300 font-semibold text-sm">Emergency? We respond in 2 hours — guaranteed</p>
+            <div className="bg-red-950/40 border border-red-500/25 rounded p-4 mb-6 inline-flex items-center gap-3">
+              <span className="text-red-400 text-lg select-none">🚨</span>
+              <p className="text-red-400 font-semibold text-xs uppercase tracking-wider">Emergency Response Team Available</p>
             </div>
-            <h2 className="font-heading text-3xl font-bold text-white mb-4">
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-white mb-4">
               Is Your Reputation Under Attack Right Now?
             </h2>
-            <p className="text-white/60 leading-relaxed mb-6">
-              Don't face a reputation crisis alone. Our team of ORM specialists, SEO experts, and crisis communications professionals are ready to mobilize immediately to protect your brand.
+            <p className="text-zinc-400 leading-relaxed mb-6 text-xs">
+              Don&apos;t face a reputation crisis alone. Our team of ORM specialists and crisis communications professionals are ready to mobilize immediately to protect your brand.
             </p>
-            <div className="space-y-4">
+            <div className="space-y-4 border-t border-zinc-800 pt-6">
               <a href="tel:+919971687251" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
-                <span className="w-10 h-10 bg-brand-gold rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-brand-dark" fill="currentColor" viewBox="0 0 20 20">
+                <span className="w-9 h-9 bg-brand-gold rounded flex items-center justify-center flex-shrink-0">
+                  <svg className="w-4.5 h-4.5 text-brand-dark" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                   </svg>
                 </span>
                 <div>
-                  <p className="text-xs text-white/40">Emergency Hotline (24/7)</p>
-                  <p className="font-bold">+91 99716 87251</p>
+                  <p className="text-[0.62rem] text-zinc-500 uppercase tracking-wider mb-0.5">Emergency Hotline (24/7)</p>
+                  <p className="font-bold text-sm">+91 99716 87251</p>
                 </div>
               </a>
-              <a href="mailto:buildbrandbetter@gmail.com" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
-                <span className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <a href="mailto:info@onlinereputationbuilder.com" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
+                <span className="w-9 h-9 bg-white/5 border border-white/10 rounded flex items-center justify-center flex-shrink-0">
+                  <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                   </svg>
                 </span>
                 <div>
-                  <p className="text-xs text-white/40">Email</p>
-                  <p className="font-semibold text-sm">buildbrandbetter@gmail.com</p>
+                  <p className="text-[0.62rem] text-zinc-500 uppercase tracking-wider mb-0.5">Direct Email</p>
+                  <p className="font-bold text-sm">info@onlinereputationbuilder.com</p>
                 </div>
               </a>
             </div>
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-xl p-7">
-            <p className="text-white font-bold text-lg mb-5">Request Emergency Assistance</p>
+          <div className="bg-zinc-950 border border-zinc-800 rounded p-7">
+            <p className="text-white font-bold text-sm mb-4">Request Emergency Assistance</p>
             <ContactForm dark />
           </div>
         </div>

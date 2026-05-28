@@ -8,104 +8,115 @@ import FAQ from "@/components/FAQ";
 import Link from "next/link";
 
 const services = [
-  { icon: "🔍", title: "Reputation Management", desc: "With customized strategies, we improve your online visibility and build trust with reputation management solutions for businesses and individuals.", href: "#" },
-  { icon: "⭐", title: "Review Management", desc: "We maintain a careful check on reviews to earn more positive ones and improve your brand trust while removing those that interfere with your reputation.", href: "/review-management" },
-  { icon: "🗑️", title: "Content Removal", desc: "Remove harmful content and information that has the potential to harm your hard-earned online reputation to manage your excellent image in the market.", href: "#" },
-  { icon: "👁️", title: "Reputation Monitoring", desc: "By monitoring your business, we spot problems before they can harm your business prospects with proactive monitoring solutions designed for your needs.", href: "#" },
-  { icon: "🏆", title: "Branding", desc: "We put a spotlight on your achievements, values, online credibility, and digital reputation with customized branding solutions for companies and individuals.", href: "#" },
-  { icon: "🛡️", title: "Crisis Management", desc: "A crisis has the potential to damage your company's reputation. We identify threats, streamline communications, and recover quickly with crisis management solutions.", href: "/crisis-management" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Reputation Management", desc: "With customized strategies, we improve your online visibility and build trust with reputation management solutions for businesses and individuals.", href: "#" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>, title: "Review Management", desc: "We maintain a careful check on reviews to earn more positive ones and improve your brand trust while removing those that interfere with your reputation.", href: "/review-management" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>, title: "Content Removal", desc: "Remove harmful content and information that has the potential to harm your hard-earned online reputation to manage your excellent image in the market.", href: "#" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, title: "Reputation Monitoring", desc: "By monitoring your business, we spot problems before they can harm your business prospects with proactive monitoring solutions designed for your needs.", href: "#" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>, title: "Branding", desc: "We put a spotlight on your achievements, values, online credibility, and digital reputation with customized branding solutions for companies and individuals.", href: "#" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>, title: "Crisis Management", desc: "A crisis has the potential to damage your company's reputation. We identify threats, streamline communications, and recover quickly with crisis management solutions.", href: "/crisis-management" },
 ];
 
 const platforms = [
-  "Google", "Glassdoor", "Product Reviews", "Twitter", "Ripoff Report",
-  "Facebook", "Tripadvisor", "Google Search", "RateMDs", "Trustpilot",
-  "Indeed", "Yelp", "BBB", "G2", "Clutch",
+  { name: "Google", icon: "https://cdn.simpleicons.org/google/white" },
+  { name: "Glassdoor", icon: "https://cdn.simpleicons.org/glassdoor/white" },
+  { name: "Product Reviews", icon: null },
+  { name: "Twitter", icon: "https://cdn.simpleicons.org/twitter/white" },
+  { name: "Ripoff Report", icon: null },
+  { name: "Facebook", icon: "https://cdn.simpleicons.org/facebook/white" },
+  { name: "Tripadvisor", icon: "https://cdn.simpleicons.org/tripadvisor/white" },
+  { name: "RateMDs", icon: null },
+  { name: "Trustpilot", icon: "https://cdn.simpleicons.org/trustpilot/white" },
+  { name: "Indeed", icon: "https://cdn.simpleicons.org/indeed/white" },
+  { name: "Yelp", icon: "https://cdn.simpleicons.org/yelp/white" },
+  { name: "BBB", icon: null },
+  { name: "G2", icon: "https://cdn.simpleicons.org/g2/white" },
+  { name: "Clutch", icon: null },
 ];
 
 const caseStudies = [
-  { title: "Insurance", desc: "Success stories of building trust and expanding policyholder reach...", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/b-insurance.jpg" },
-  { title: "Real Estate", desc: "Success stories of enhancing property brands and driving investments...", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/real-estat-img.jpg" },
-  { title: "Politics", desc: "Success stories of driving campaigns and engaging communities...", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/politics.png" },
-  { title: "Fast Food Franchise", desc: "Our ORM strategy has transformed the franchise's online reputation...", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/vertfood.jpg" },
-  { title: "Celebrity", desc: "Managing an excellent reputation is crucial for a celebrity...", img: "https://buildbrandbetter.io/wp-content/uploads/2025/01/bg-ing-cle.jpg" },
-  { title: "Healthcare", desc: "Success stories of advancing healthcare brands and patient trust...", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/healthcare.avif" },
-  { title: "Electronic", desc: "Online buzz shapes an electronic brand's reputation and more...", img: "https://buildbrandbetter.io/wp-content/uploads/2025/02/electronic.webp" },
-  { title: "Spiritual", desc: "In today's digital age, religious institutions face online challenges...", img: "https://buildbrandbetter.io/wp-content/uploads/2025/02/varansi.jpg" },
+  { title: "Insurance", desc: "Success stories of building trust and expanding policyholder reach...", color: "bg-blue-50" },
+  { title: "Real Estate", desc: "Success stories of enhancing property brands and driving investments...", color: "bg-zinc-50" },
+  { title: "Politics", desc: "Success stories of driving campaigns and engaging communities...", color: "bg-blue-50" },
+  { title: "Fast Food Franchise", desc: "Our ORM strategy has transformed the franchise's online reputation...", color: "bg-zinc-50" },
+  { title: "Celebrity", desc: "Managing an excellent reputation is crucial for a celebrity...", color: "bg-blue-50" },
+  { title: "Healthcare", desc: "Success stories of advancing healthcare brands and patient trust...", color: "bg-zinc-50" },
+  { title: "Electronic", desc: "Online buzz shapes an electronic brand's reputation and more...", color: "bg-blue-50" },
+  { title: "Spiritual", desc: "In today's digital age, religious institutions face online challenges...", color: "bg-zinc-50" },
 ];
 
 const clients = [
-  { name: "Hitachi", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/hitachi-e1732946923451.png" },
-  { name: "FedEx", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/fedx-e1732947682338-1024x333.png" },
-  { name: "PeopleStrong", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/peoplestrong-e1732947658280.png" },
-  { name: "Caterpillar", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-1-e1732947715601.png" },
-  { name: "Hilton", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/hilton-e1736945095221.png" },
-  { name: "SpiceJet", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/spicejet-e1732947700458.png" },
-  { name: "IKEA", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/IKEA.png" },
-  { name: "Sahara", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/images-e1732946630716.png" },
-  { name: "H&M", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/hm-1024x676.png" },
-  { name: "LPU", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-2-e1732947735848.png" },
-  { name: "Radisson", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-3.png" },
-  { name: "Cure.fit", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-6.png" },
-  { name: "Raymond", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-7.png" },
-  { name: "Apollo", img: "https://buildbrandbetter.io/wp-content/uploads/2025/01/Apollo-Pharmacy.png" },
-  { name: "Nykaa", img: "https://buildbrandbetter.io/wp-content/uploads/2025/01/Nykaa.png" },
-  { name: "Zara", img: "https://buildbrandbetter.io/wp-content/uploads/2024/11/download-1-e1732947825327.jpg" },
+  { name: "Hitachi", img: "/images/logos/hitachi.png" },
+  { name: "FedEx", img: "/images/logos/fedex.png" },
+  { name: "PeopleStrong", img: "/images/logos/peoplestrong.png" },
+  { name: "Caterpillar", img: "/images/logos/caterpillar.png" },
+  { name: "Hilton", img: "/images/logos/hilton.png" },
+  { name: "SpiceJet", img: "/images/logos/spicejet.png" },
+  { name: "IKEA", img: "/images/logos/ikea.png" },
+  { name: "Sahara", img: "/images/logos/sahara.png" },
+  { name: "H&M", img: "/images/logos/hm.png" },
+  { name: "LPU", img: "/images/logos/lpu.png" },
+  { name: "Radisson", img: "/images/logos/radisson.png" },
+  { name: "Cure.fit", img: "/images/logos/curefit.png" },
+  { name: "Raymond", img: "/images/logos/raymond.png" },
+  { name: "Apollo", img: "/images/logos/apollo.png" },
+  { name: "Nykaa", img: "/images/logos/nykaa.png" },
+  { name: "Zara", img: "/images/logos/zara.jpg" },
 ];
 
 const mediaLogos = [
-  { name: "CNW", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/cnw-1.png" },
-  { name: "ANI", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/ANI.png" },
-  { name: "ET", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/ET.png" },
-  { name: "Times Now", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/TImes-now.png" },
-  { name: "Forbes", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/fobes.png" },
-  { name: "DNA", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/DNA.png" },
-  { name: "CNBC", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/cnbc.png" },
-  { name: "Hindustan", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/hindustan.png" },
-  { name: "Business Standard", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/BS.png" },
-  { name: "India Today", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/india-today.png" },
-  { name: "Midday", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/midday.png" },
-  { name: "Yahoo", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/yahoo.png" },
-  { name: "Outlook", img: "https://buildbrandbetter.io/wp-content/uploads/2024/12/outlook.png" },
+  { name: "CNW", img: "/images/media/cnw.png" },
+  { name: "ANI", img: "/images/media/ani.png" },
+  { name: "ET", img: "/images/media/et.png" },
+  { name: "Times Now", img: "/images/media/timesnow.png" },
+  { name: "Forbes", img: "/images/media/forbes.png" },
+  { name: "DNA", img: "/images/media/dna.png" },
+  { name: "CNBC", img: "/images/media/cnbc.png" },
+  { name: "Hindustan", img: "/images/media/hindustan.png" },
+  { name: "Business Standard", img: "/images/media/businessstandard.png" },
+  { name: "India Today", img: "/images/media/indiatoday.png" },
+  { name: "Midday", img: "/images/media/midday.png" },
+  { name: "Yahoo", img: "/images/media/yahoo.png" },
+  { name: "Outlook", img: "/images/media/outlook.png" },
 ];
 
 const faqs = [
   { q: "Will Online Reputation Management Help my Business Grow?", a: "Yes, ORM is an opportunity to grow the business by promoting trust, strengthening search engine results, and boosting conversion rates. Positive presence online attracts customers, increases revenue, and generates loyalty. As the best ORM company in Delhi, we guarantee strong digital presence for long-term success and competitive superiority." },
-  { q: "Is there a Service to Remove Google Reviews?", a: "Yes. Specialized ORM services can help remove fake, misleading, or defamatory Google reviews by reporting policy violations directly to Google. At Build Brand Better, we analyze the review, collect supporting evidence, submit professional removal requests, and follow up rigorously to maximize success rates." },
-  { q: "Is it Possible to Remove Negative Online Reviews?", a: "Yes. Negative reviews that do not comply with platform guidelines may be deleted by means of efficient flagging and provision of evidence. Build Brand Better works across several sites for deletion and reputation protection efficiently using Google and other platforms." },
+  { q: "Is there a Service to Remove Google Reviews?", a: "Yes. Specialized ORM services can help remove fake, misleading, or defamatory Google reviews by reporting policy violations directly to Google. At Online Reputation Builder, we analyze the review, collect supporting evidence, submit professional removal requests, and follow up rigorously to maximize success rates." },
+  { q: "Is it Possible to Remove Negative Online Reviews?", a: "Yes. Negative reviews that do not comply with platform guidelines may be deleted by means of efficient flagging and provision of evidence. Online Reputation Builder works across several sites for deletion and reputation protection efficiently using Google and other platforms." },
   { q: "Why do you need Online Reputation Management Services?", a: "ORM services protect against digital crisis, track mentions online, and publish positive content. They create trust, improve search rates, and make sales in a market dominated by reviews. We protect brands to build long-term trust and development." },
   { q: "How does online reputation management work?", a: "Online Reputation Management works by tracking online mentions, responding to feedback quickly, and creating positive content. We improve brand image, counter negative information, and boost customer trust through strategic online presence management." },
   { q: "How long does it take to see results with ORM services?", a: "You can start seeing positive results from ORM services within 1-3 months with enhanced ranking and sentiment shifts. Major changes are seen between 3-6 months; complete rebuilding is seen between 6-12 months. We achieve beneficial changes through persistent diligence." },
 ];
 
 const howTos = [
-  { title: "What is online reputation management, and why do you need excellent ORM for your business?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New-Project-10-1.png", desc: "All businesses work hard to keep their customers happy, but even with the best customer service, a business is bound to see its reputation take a hit every now and then." },
-  { title: "What is personal branding and how do you do it?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New_Project__13_-removebg-preview-2.png", desc: "Personal branding is the process of creating a brand identity for a person or company, establishing your unique value proposition in the market." },
-  { title: "Why do celebrities need online reputation management?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New_Project__5_-removebg-preview-2.png", desc: "Celebrity reputation management helps you protect what you have built as your brand. Anything that damages your reputation can put your present and future at risk." },
-  { title: "How to manage and respond to a negative customer review?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New_Project__7_-removebg-preview-2.png", desc: "Customer reviews impact business tremendously and the decisions potential customers make to patronize or not patronize your business." },
-  { title: "How to remove negative news articles from Google?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New_Project__11_-removebg-preview-2.png", desc: "Understanding your personal or brand's online reputation is becoming increasingly essential as more users move to search engines for research." },
-  { title: "How to push down or bury negative search results?", img: "https://buildbrandbetter.io/wp-content/uploads/2023/01/New_Project__4_-removebg-preview-2.png", desc: "Every company is different with different challenges, and they each deal differently with negative or fake search results on Google." },
+  { category: "STRATEGY", time: "5 MIN READ", title: "What is online reputation management, and why do you need excellent ORM for your business?", desc: "All businesses work hard to keep their customers happy, but even with the best customer service, a business is bound to see its reputation take a hit every now and then." },
+  { category: "BRANDING", time: "4 MIN READ", title: "What is personal branding and how do you do it?", desc: "Personal branding is the process of creating a brand identity for a person or company, establishing your unique value proposition in the market." },
+  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why do celebrities need online reputation management?", desc: "Celebrity reputation management helps you protect what you have built as your brand. Anything that damages your reputation can put your present and future at risk." },
+  { category: "REVIEWS", time: "5 MIN READ", title: "How to manage and respond to a negative customer review?", desc: "Customer reviews impact business tremendously and the decisions potential customers make to patronize or not patronize your business." },
+  { category: "CONTENT", time: "7 MIN READ", title: "How to remove negative news articles from Google?", desc: "Understanding your personal or brand's online reputation is becoming increasingly essential as more users move to search engines for research." },
+  { category: "SEARCH", time: "4 MIN READ", title: "How to push down or bury negative search results?", desc: "Every company is different with different challenges, and they each deal differently with negative or fake search results on Google." },
 ];
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col">
       <Topbar />
       <Navbar />
 
       {/* HERO */}
-      <section className="hero-bg relative overflow-hidden">
-        {/* Background decorative elements */}
+      <section className="hero-bg relative overflow-hidden bg-zinc-950">
+        {/* Background decorative elements - Flat solid colors, no shadows/gradients */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"/>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/10 rounded-full translate-y-1/2 -translate-x-1/2"/>
 
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           {/* Left */}
           <div>
-            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5">
+            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
               🏆 India's #1 ORM Company · Delhi NCR
             </div>
-            <h1 className="font-heading text-3xl lg:text-5xl font-bold text-white leading-tight mb-4">
-              Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company in Delhi NCR
+            <h1 className="font-heading text-3xl lg:text-5xl font-bold text-white leading-tight mb-4 tracking-tight">
+              Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company
             </h1>
             <p className="text-white/70 text-base mb-6 leading-relaxed">
               Manage and Improve your Online Reputation With a top-rated Online Reputation Management Agency.
@@ -134,7 +145,7 @@ export default function HomePage() {
           </div>
 
           {/* Right: Contact Form */}
-          <div className="bg-white rounded-xl shadow-2xl p-7">
+          <div className="bg-white border border-zinc-200 rounded-xl p-7">
             <p className="section-label mb-2">Get Free Consultation</p>
             <h2 className="font-heading text-xl font-bold text-brand-dark mb-5">Take Control of Your Online Reputation Today</h2>
             <ContactForm />
@@ -143,10 +154,10 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED IN MARQUEE */}
-      <div className="bg-white py-8 border-b border-gray-100 overflow-hidden">
-        <p className="text-center text-xs font-bold text-gray-400 uppercase tracking-widest mb-5">Featured In</p>
+      <div className="bg-zinc-50 py-8 border-b border-zinc-200 overflow-hidden">
+        <p className="text-center text-xs font-bold text-zinc-400 uppercase tracking-widest mb-5">Featured In Publications</p>
         <div className="overflow-hidden">
-          <div className="marquee-track flex items-center gap-12 whitespace-nowrap w-max">
+          <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max">
             {[...mediaLogos, ...mediaLogos].map((m, i) => (
               <img key={i} src={m.img} alt={m.name} className="h-8 w-auto object-contain trust-logo-strip"/>
             ))}
@@ -155,23 +166,23 @@ export default function HomePage() {
       </div>
 
       {/* TAKE CONTROL SECTION */}
-      <section className="py-16 px-4 bg-brand-light">
+      <section className="py-16 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
           <div>
             <p className="section-label mb-2">What We Do</p>
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-brand-dark mb-5">Take Control of Your Online Image</h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-5 leading-tight">Take Control of Your Online Image</h2>
+            <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
               Build a reputation that speaks for itself. Strengthen your online presence, gain trust, and stay ahead in the digital world effortlessly.
             </p>
 
             <div className="space-y-6 mb-8">
-              <div className="bg-white rounded-lg p-5 shadow-sm border-l-4 border-brand-blue">
-                <h3 className="font-bold text-brand-dark mb-2">Suppress Negative Google Results</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form — blogs, forums, reviews, complaints, videos. At Build Brand Better, we help brands clean the negative content and control the damage.</p>
+              <div className="bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-blue">
+                <h3 className="font-bold text-zinc-900 mb-2">Suppress Negative Google Results</h3>
+                <p className="text-sm text-zinc-500 leading-relaxed">A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form — blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.</p>
               </div>
-              <div className="bg-white rounded-lg p-5 shadow-sm border-l-4 border-brand-gold">
-                <h3 className="font-bold text-brand-dark mb-2">Impress Everyone</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">With Build Brand Better's customized ORM solution, clean your negative image on the search and impress your customers with a positive presence. We help you minimize risk factors on Google and social media, maximize positive visibility, and monitor your reputation.</p>
+              <div className="bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-gold">
+                <h3 className="font-bold text-zinc-900 mb-2">Impress Everyone</h3>
+                <p className="text-sm text-zinc-500 leading-relaxed">With customized ORM solutions, clean your negative image on the search and impress your customers with a positive presence. We help you minimize risk factors on Google and social media, maximize positive visibility, and monitor your reputation.</p>
               </div>
             </div>
 
@@ -182,11 +193,14 @@ export default function HomePage() {
           </div>
 
           <div className="text-center">
-            <img
-              src="https://buildbrandbetter.io/wp-content/uploads/2022/12/Build-Brand-gif.gif"
-              alt="ORM Visualization"
-              className="w-full max-w-md mx-auto rounded-xl shadow-lg"
-            />
+            {/* High-quality Internet Photo replacing AI image */}
+            <div className="w-full max-w-md mx-auto border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                alt="ORM Dashboard Strategy"
+                className="w-full rounded border border-zinc-200"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -195,23 +209,28 @@ export default function HomePage() {
       <StatsBar />
 
       {/* COMPREHENSIVE ORM SERVICES */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Our Services</p>
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-brand-dark">
+            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900">
               Comprehensive ORM Services to Strengthen Your<br className="hidden lg:block"/> Brand & Individual Presence
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
-              <div key={s.title} className="service-card group">
-                <div className="text-3xl mb-4">{s.icon}</div>
-                <h3 className="font-bold text-lg text-brand-dark mb-3 group-hover:text-brand-blue transition-colors">{s.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed mb-4">{s.desc}</p>
-                <Link href={s.href} className="text-brand-blue font-semibold text-sm hover:text-brand-gold transition-colors inline-flex items-center gap-1">
-                  Learn More <span>→</span>
+              <div key={s.title} className="group relative bg-white border border-zinc-200 rounded-xl p-8 hover:border-brand-blue transition-all duration-300 overflow-hidden flex flex-col h-full hover:-translate-y-1 hover:shadow-2xl hover:shadow-brand-blue/5">
+                <div className="absolute top-0 left-0 w-1.5 h-full bg-transparent group-hover:bg-brand-blue transition-colors"></div>
+                <div className="w-14 h-14 bg-zinc-50 border border-zinc-100 flex items-center justify-center rounded-lg mb-6 text-zinc-500 group-hover:bg-blue-50 group-hover:text-brand-blue transition-colors">
+                  {s.icon}
+                </div>
+                <h3 className="font-heading font-bold text-xl text-zinc-900 mb-3 leading-snug">{s.title}</h3>
+                <p className="text-sm text-zinc-500 leading-relaxed mb-6 flex-1">{s.desc}</p>
+                
+                <Link href={s.href} className="mt-auto text-brand-blue font-bold text-sm hover:text-brand-dark transition-colors inline-flex items-center gap-2 group/link">
+                  Explore Service 
+                  <svg className="w-4 h-4 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>
               </div>
             ))}
@@ -220,25 +239,28 @@ export default function HomePage() {
       </section>
 
       {/* DELETE ONLINE CONTENT SECTION */}
-      <section className="py-16 px-4 bg-brand-light">
+      <section className="py-20 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
           <div className="text-center">
-            <img
-              src="https://buildbrandbetter.io/wp-content/uploads/2022/12/Build-Brand-2nd.gif"
-              alt="Delete Online Content"
-              className="w-full max-w-md mx-auto rounded-xl shadow-lg"
-            />
+            {/* High-quality Internet Photo replacing AI image */}
+            <div className="w-full max-w-md mx-auto border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80"
+                alt="Content Removal Process"
+                className="w-full rounded border border-zinc-200"
+              />
+            </div>
           </div>
           <div>
             <p className="section-label mb-2">Content Removal</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-4">Delete Online Content</h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-4">Delete Online Content</h2>
+            <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
               Negative content is hurtful. Using our professional removal process, we will help you get rid of it for good.
             </p>
-            <p className="font-semibold text-brand-dark mb-3">We are professionally skilled at removing:</p>
+            <p className="font-bold text-zinc-900 mb-3 text-sm">We are professionally skilled at removing:</p>
             <ul className="space-y-2 mb-8">
               {["News Articles", "Legal Info", "Blog Posts", "Videos & Images", "Reviews"].map((item) => (
-                <li key={item} className="check-item text-sm text-gray-700">
+                <li key={item} className="check-item text-sm text-zinc-700">
                   <span className="check-icon text-brand-gold text-base">✓</span>
                   {item}
                 </li>
@@ -250,19 +272,24 @@ export default function HomePage() {
       </section>
 
       {/* HOW TO SECTION */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Knowledge Hub</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">How To...</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900">How To...</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {howTos.map((h) => (
-              <div key={h.title} className="flex gap-4 items-start p-5 border border-gray-100 rounded-lg hover:border-brand-blue hover:shadow-md transition-all">
-                <img src={h.img} alt="" className="w-14 h-14 object-contain flex-shrink-0"/>
-                <div>
-                  <h4 className="font-semibold text-sm text-brand-dark mb-1 leading-snug hover:text-brand-blue cursor-pointer transition-colors">{h.title}</h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">{h.desc}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {howTos.map((h, i) => (
+              <div key={h.title} className="group flex flex-col p-7 bg-white border border-zinc-200 rounded-xl hover:border-brand-gold transition-colors h-full cursor-pointer hover:-translate-y-1 hover:shadow-2xl hover:shadow-brand-gold/5">
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="px-2.5 py-1 bg-zinc-100 text-zinc-600 text-[0.65rem] font-bold tracking-wider uppercase rounded-sm group-hover:bg-brand-gold/10 group-hover:text-brand-gold transition-colors">{h.category}</span>
+                  <span className="text-zinc-400 text-[0.65rem] font-bold tracking-wider">{h.time}</span>
+                </div>
+                <h4 className="font-heading font-bold text-lg text-zinc-900 mb-3 leading-snug group-hover:text-brand-gold transition-colors">{h.title}</h4>
+                <p className="text-sm text-zinc-500 leading-relaxed mb-6 flex-1">{h.desc}</p>
+                <div className="mt-auto flex items-center gap-2 text-zinc-900 font-bold text-[0.7rem] uppercase tracking-widest group-hover:text-brand-gold transition-colors">
+                  Read Article
+                  <svg className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                 </div>
               </div>
             ))}
@@ -271,114 +298,121 @@ export default function HomePage() {
       </section>
 
       {/* PLATFORMS */}
-      <section className="py-16 px-4 bg-brand-dark">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-20 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-10">
-            <p className="section-label mb-2">Platforms We Manage</p>
+            <p className="section-label mb-2 text-brand-gold">Platforms We Manage</p>
             <h2 className="font-heading text-3xl font-bold text-white mb-3">
-              Reliable ORM Solutions Backed by Trusted Platforms and Technology
+              Reliable ORM Solutions Backed by Trusted Platforms
             </h2>
-            <p className="text-white/60 max-w-2xl mx-auto text-sm">
+            <p className="text-zinc-400 max-w-2xl mx-auto text-sm">
               Trusted by over 50 platforms including Google, Facebook, Yelp, and Twitter, our ORM services empower your brand with expert monitoring and management.
             </p>
           </div>
           <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
             {platforms.map((p) => (
-              <div key={p} className="bg-white/10 hover:bg-white/20 rounded-lg p-3 text-center cursor-pointer transition-all group">
-                <p className="text-white/80 group-hover:text-white text-xs font-semibold">{p}</p>
+              <div key={p.name} className="bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[72px] cursor-pointer transition-colors">
+                {p.icon ? (
+                  <>
+                    <img src={p.icon} alt={p.name} className="w-7 h-7 mb-1.5 opacity-80" />
+                    <span className="sr-only">{p.name}</span>
+                  </>
+                ) : (
+                  <p className="text-zinc-300 text-[0.65rem] font-bold uppercase tracking-wider">{p.name}</p>
+                )}
               </div>
             ))}
-            <div className="bg-brand-gold/20 hover:bg-brand-gold/30 rounded-lg p-3 text-center cursor-pointer transition-all">
-              <p className="text-brand-gold text-xs font-bold">50+ More</p>
+            <div className="bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[72px] cursor-pointer transition-colors">
+              <p className="text-brand-gold text-xs font-bold text-center">50+ More</p>
             </div>
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-10 text-center">
             <Link href="#" className="btn-gold">Schedule a Free Consultation</Link>
           </div>
         </div>
       </section>
 
       {/* SUCCESS STORIES */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-20 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">Success Stories</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-3">We Have Stories to Inspire You</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm">
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-3">We Have Stories to Inspire You</h2>
+            <p className="text-zinc-500 max-w-2xl mx-auto text-sm">
               Discover the journey behind every success. From groundbreaking strategies to stunning transformations, explore how we've partnered with brands to achieve remarkable results.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {caseStudies.map((c) => (
-              <div key={c.title} className="group rounded-xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all cursor-pointer">
-                <div className="overflow-hidden h-40">
-                  <img src={c.img} alt={c.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <div key={c.title} className="group rounded-xl overflow-hidden border border-zinc-200 bg-white hover:border-brand-blue transition-colors cursor-pointer flex flex-col">
+                <div className={`h-32 w-full flex flex-col items-center justify-center border-b border-zinc-200 ${c.color}`}>
+                   <span className="font-heading font-bold text-lg text-zinc-800 opacity-60 tracking-wider uppercase">{c.title}</span>
                 </div>
-                <div className="p-4">
-                  <h3 className="font-bold text-brand-dark text-sm mb-1 group-hover:text-brand-blue transition-colors">{c.title}</h3>
-                  <p className="text-xs text-gray-500">{c.desc}</p>
+                <div className="p-5 flex-1">
+                  <h3 className="font-bold text-zinc-900 text-sm mb-1.5">{c.title} Case Study</h3>
+                  <p className="text-xs text-zinc-500 leading-relaxed">{c.desc}</p>
                 </div>
               </div>
             ))}
           </div>
-          <div className="text-center mt-8">
+          <div className="text-center mt-10">
             <Link href="#" className="btn-blue">Read More Stories</Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-4 bg-brand-light">
+      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">Common Questions</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">You Have Questions? We Have Answers.</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900">You Have Questions? We Have Answers.</h2>
           </div>
           <FAQ items={faqs} />
         </div>
       </section>
 
       {/* TESTIMONIALS STRIP */}
-      <section className="py-14 px-4 bg-brand-blue">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <p className="section-label text-yellow-400/80 mb-2">Our Testimonials</p>
+      <section className="py-20 px-4 bg-zinc-950 relative overflow-hidden border-b border-zinc-900">
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-12">
+            <p className="section-label text-brand-gold mb-2">Our Testimonials</p>
             <h2 className="font-heading text-3xl font-bold text-white">What Our Clients Say</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { name: "Rajesh Kumar", role: "CEO, TechCorp India", text: "Build Brand Better transformed our online image completely. Negative reviews that were hurting our business are gone, and our Google rankings improved dramatically within 3 months." },
+              { name: "Rajesh Kumar", role: "CEO, TechCorp India", text: "Online Reputation Builder transformed our online image completely. Negative reviews that were hurting our business are gone, and our Google rankings improved dramatically within 3 months." },
               { name: "Priya Sharma", role: "Real Estate Developer", text: "After facing a PR crisis, their team worked tirelessly to repair our reputation. Professional, discreet, and incredibly effective. Our business is back on track." },
-              { name: "Amit Singh", role: "Healthcare Professional", text: "I had false reviews affecting my practice. Their team handled everything professionally and quickly. I highly recommend Build Brand Better for any ORM needs." },
+              { name: "Amit Singh", role: "Healthcare Professional", text: "I had false reviews affecting my practice. Their team handled everything professionally and quickly. I highly recommend Online Reputation Builder for any ORM needs." },
             ].map((t) => (
-              <div key={t.name} className="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <div className="flex text-yellow-400 text-lg mb-3">★★★★★</div>
-                <p className="text-white/80 text-sm leading-relaxed mb-4 italic">"{t.text}"</p>
-                <div>
-                  <p className="text-white font-semibold text-sm">{t.name}</p>
-                  <p className="text-white/50 text-xs">{t.role}</p>
+              <div key={t.name} className="bg-zinc-900 rounded-xl p-7 border border-zinc-800">
+                <div className="flex text-brand-gold text-sm mb-4">★★★★★</div>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
+                <div className="border-t border-zinc-800 pt-4">
+                  <p className="text-white font-bold text-sm">{t.name}</p>
+                  <p className="text-zinc-500 text-xs">{t.role}</p>
                 </div>
               </div>
             ))}
           </div>
-          <div className="text-center mt-8">
+          <div className="text-center mt-12">
             <a href="tel:+919971687251" className="btn-gold">Request a Call</a>
           </div>
         </div>
       </section>
 
       {/* TRUSTED BRANDS */}
-      <section className="py-14 px-4 bg-white">
+      <section className="py-16 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <p className="section-label mb-2">Trusted By</p>
-            <h2 className="font-heading text-2xl font-bold text-brand-dark">Trusted by leading 250+ brands across the world</h2>
+            <h2 className="font-heading text-2xl font-bold text-zinc-900">Trusted by leading 250+ brands across the world</h2>
           </div>
           <div className="overflow-hidden">
-            <div className="ticker-track flex items-center gap-10 w-max py-3">
+            <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max py-3">
               {[...clients, ...clients].map((c, i) => (
-                <img key={i} src={c.img} alt={c.name} className="h-10 w-auto object-contain trust-logo-strip"/>
+                 <img key={i} src={c.img} alt={c.name} className="h-10 w-auto object-contain trust-logo-strip"/>
               ))}
             </div>
           </div>
@@ -386,33 +420,33 @@ export default function HomePage() {
       </section>
 
       {/* CONTACT CTA */}
-      <section className="py-16 px-4 bg-brand-dark relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 left-10 w-80 h-80 bg-brand-gold rounded-full"/>
-          <div className="absolute bottom-10 right-10 w-60 h-60 bg-blue-400 rounded-full"/>
-        </div>
+      <section id="contact" className="py-20 px-4 bg-zinc-900 relative overflow-hidden">
+        {/* Flat shapes instead of gradients */}
+        <div className="absolute top-10 left-10 w-80 h-80 bg-brand-gold/5 rounded-full"/>
+        <div className="absolute bottom-10 right-10 w-60 h-60 bg-brand-blue/5 rounded-full"/>
+        
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           <div>
-            <p className="section-label text-yellow-400/80 mb-2">Get Started Today</p>
-            <h2 className="font-heading text-3xl font-bold text-white mb-4">
+            <p className="section-label text-brand-gold mb-2">Get Started Today</p>
+            <h2 className="font-heading text-3xl font-bold text-white mb-5">
               Online Reputation Management Services
             </h2>
-            <p className="text-white/60 leading-relaxed mb-6">
+            <p className="text-zinc-400 leading-relaxed mb-8 text-sm">
               Don't let negative content define your brand. Reach out today for a free, confidential consultation and discover how we can protect and enhance your online reputation.
             </p>
-            <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
-                <p className="text-white/40 text-xs uppercase tracking-wider mb-1">Hotline</p>
-                <p className="text-white font-semibold">+91 99716-87251</p>
+                <p className="text-zinc-500 text-xs uppercase tracking-wider mb-1">Hotline</p>
+                <p className="text-white font-bold">+91 99716-87251</p>
               </div>
               <div>
-                <p className="text-white/40 text-xs uppercase tracking-wider mb-1">Location</p>
-                <p className="text-white font-semibold">Dwarka, New Delhi, 110059</p>
+                <p className="text-zinc-500 text-xs uppercase tracking-wider mb-1">Location</p>
+                <p className="text-white font-bold">Dwarka, New Delhi, 110059</p>
               </div>
             </div>
             <a href="tel:+919971687251" className="btn-gold">Call Now</a>
           </div>
-          <div className="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-7">
+          <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-7">
             <p className="text-white font-bold text-lg mb-5">Send Us a Message</p>
             <ContactForm dark />
           </div>

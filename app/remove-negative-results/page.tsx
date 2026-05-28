@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -32,107 +33,222 @@ const steps = [
   { n: "05", title: "Ongoing Monitoring", desc: "We continuously monitor your online presence and alert you to any new issues before they escalate." },
 ];
 
+const mediaNames = [
+  "CNW", "ANI", "ET BrandEquity", "Times Now", "Forbes", "DNA India", 
+  "CNBC", "Hindustan Times", "Business Standard", "India Today", "Midday", "Yahoo Finance"
+];
+
+// Interactive SERP Suppression Simulation Widget
+function SERPSuppressionWidget() {
+  const [suppressed, setSuppressed] = useState(false);
+  const [animating, setAnimating] = useState(false);
+
+  const handleSimulate = () => {
+    setAnimating(true);
+    setTimeout(() => {
+      setSuppressed(true);
+      setAnimating(false);
+    }, 1500);
+  };
+
+  const handleReset = () => {
+    setSuppressed(false);
+    setAnimating(false);
+  };
+
+  return (
+    <div className="border border-zinc-200 rounded bg-white overflow-hidden text-left font-sans select-none">
+      <div className="bg-zinc-50 border-b border-zinc-200 px-4 py-3 flex items-center gap-3">
+        <div className="flex gap-1.5">
+          <span className="w-2.5 h-2.5 rounded-full bg-zinc-200" />
+          <span className="w-2.5 h-2.5 rounded-full bg-zinc-200" />
+          <span className="w-2.5 h-2.5 rounded-full bg-zinc-200" />
+        </div>
+        <div className="bg-white border border-zinc-200 rounded text-[0.72rem] text-zinc-500 px-3 py-1 flex-1 flex items-center gap-1.5">
+          <svg className="w-3 h-3 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          google.com/search?q=mybrand+reviews
+        </div>
+      </div>
+
+      <div className="p-5 space-y-4">
+        <div className="space-y-4 relative min-h-[290px] overflow-hidden">
+          {/* Result 1: Negative Result */}
+          <div
+            className={`transition-all duration-[1200ms] border p-3 rounded ${
+              suppressed
+                ? "opacity-30 scale-95 border-zinc-200 bg-zinc-50/50 translate-y-[215px]"
+                : "border-red-200 bg-red-50/30 translate-y-0"
+            } absolute inset-x-0 top-0 h-[84px]`}
+          >
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[0.62rem] font-bold text-red-600 border border-red-200 px-1.5 py-0.5 rounded uppercase tracking-wider">Negative Article</span>
+              <span className="text-[0.68rem] text-zinc-400 font-semibold">{suppressed ? "Rank #10" : "Rank #1"}</span>
+            </div>
+            <h5 className="font-bold text-xs text-zinc-800 leading-tight">ALERT: Client Complaints and Scam Claims Against MyBrand</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Reports of poor customer service and scams circulating online forums...</p>
+          </div>
+
+          {/* Result 2: Positive Result 1 */}
+          <div
+            className={`transition-all duration-[1200ms] border border-zinc-200 p-3 rounded bg-white absolute inset-x-0 ${
+              suppressed ? "translate-y-0" : "translate-y-[98px]"
+            } h-[84px]`}
+          >
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[0.62rem] font-bold text-emerald-600 border border-emerald-200 px-1.5 py-0.5 rounded uppercase tracking-wider">Official Site</span>
+              <span className="text-[0.68rem] text-zinc-400 font-semibold">{suppressed ? "Rank #1" : "Rank #2"}</span>
+            </div>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline">MyBrand | Premium Corporate Quality Solutions</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Welcome to the official homepage of MyBrand. Explore our verified credentials...</p>
+          </div>
+
+          {/* Result 3: Positive Result 2 */}
+          <div
+            className={`transition-all duration-[1200ms] border border-zinc-200 p-3 rounded bg-white absolute inset-x-0 ${
+              suppressed ? "translate-y-[98px]" : "translate-y-[196px]"
+            } h-[84px]`}
+          >
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[0.62rem] font-bold text-brand-blue border border-brand-blue/20 px-1.5 py-0.5 rounded uppercase tracking-wider">Press Release</span>
+              <span className="text-[0.68rem] text-zinc-400 font-semibold">{suppressed ? "Rank #2" : "Rank #3"}</span>
+            </div>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline">MyBrand Named Top 10 Best Growing Agencies of 2026</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Industry review lists MyBrand among the fastest-growing and highest-rated...</p>
+          </div>
+
+          {/* Result 4: Positive Result 3 */}
+          <div
+            className={`transition-all duration-[1200ms] border border-zinc-200 p-3 rounded bg-white absolute inset-x-0 ${
+              suppressed ? "translate-y-[196px] opacity-100" : "translate-y-[294px] opacity-0"
+            } h-[84px]`}
+          >
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[0.62rem] font-bold text-amber-600 border border-amber-200 px-1.5 py-0.5 rounded uppercase tracking-wider">Trustpilot Reviews</span>
+              <span className="text-[0.68rem] text-zinc-400 font-semibold">Rank #3</span>
+            </div>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline">Verified Customer Reviews for MyBrand (4.8 / 5.0)</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Over 1,200 verified users rank MyBrand with outstanding scores for support...</p>
+          </div>
+        </div>
+
+        <div className="border-t border-zinc-100 pt-4 flex gap-3 items-center justify-between">
+          <p className="text-[0.68rem] text-zinc-500">
+            {animating ? "Running search suppression..." : suppressed ? "Negative content pushed below Page 1." : "Click button to simulate suppression."}
+          </p>
+          {!suppressed ? (
+            <button
+              onClick={handleSimulate}
+              disabled={animating}
+              className={`btn-blue py-2 px-5 text-[0.7rem] leading-none ${animating ? "opacity-50 cursor-not-allowed" : ""}`}
+            >
+              {animating ? "Suppressing..." : "Suppress Search Results"}
+            </button>
+          ) : (
+            <button onClick={handleReset} className="btn-outline border-zinc-300 text-zinc-600 hover:bg-zinc-50 py-2 px-5 text-[0.7rem] leading-none">
+              Reset Simulator
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function RemoveNegativeResultsPage() {
   return (
-    <div>
+    <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col">
       <Topbar />
       <Navbar />
 
       {/* PAGE HERO */}
       <section className="page-hero relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-80 h-80 bg-white rounded-full -translate-y-1/2 translate-x-1/4"/>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
           <div>
-            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5">
+            <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-semibold mb-5 uppercase tracking-wider">
               🛡️ Negative Content Removal Experts
             </div>
-            <h1 className="font-heading text-3xl lg:text-4xl font-bold text-white leading-tight mb-4">
+            <h1 className="font-heading text-3xl lg:text-4xl font-extrabold text-white leading-[1.15] mb-4">
               Remove Negative Content From Google Search
             </h1>
-            <p className="text-white/70 text-base mb-5 leading-relaxed">
-              Negative Content Removal Services help businesses erase harmful Google search results fast.
+            <p className="text-zinc-400 text-sm mb-5 leading-relaxed">
+              Defend your brand. We permanently remove or aggressively suppress negative listings, unverified complaints, and search results fast.
             </p>
-            <h2 className="text-white/90 text-lg font-semibold mb-3">Has Negative Content Damaged Your Business Reputation?</h2>
-            <p className="text-white/60 text-sm mb-5 leading-relaxed">
-              We specialize in negative content removal to wipe out damaging reviews and articles from Google search results.
+            <h2 className="text-white text-base font-bold mb-3">Has Negative Content Damaged Your Reputation?</h2>
+            <p className="text-zinc-400 text-xs mb-5 leading-relaxed">
+              Over 87% of potential clients search online before buying. A single negative search listing can cause substantial financial damage to businesses and executives.
             </p>
             <ul className="space-y-2 mb-8">
               {[
-                "Quick removal or suppression of negative reviews that damage your credibility",
-                "Proven SEO strategies that push positive content to the first page of Google",
-                "24/7 reputation monitoring to identify issues early",
+                "Flag and remove defamatory reviews violating guidelines",
+                "Deploy search suppression strategies to bury negative coverage",
+                "Proactive reputation threat monitoring",
               ].map((item) => (
-                <li key={item} className="check-item text-sm text-white/80">
+                <li key={item} className="check-item text-xs text-zinc-300">
                   <span className="text-brand-gold text-base font-bold flex-shrink-0">✓</span>
-                  {item}
+                  <span>{item}</span>
                 </li>
               ))}
             </ul>
             <div className="flex flex-wrap gap-3">
-              <Link href="#contact" className="btn-gold">Get A Free Consultation</Link>
+              <Link href="#contact" className="btn-gold">Get Consultation</Link>
             </div>
           </div>
 
-          {/* Form */}
-          <div className="bg-white rounded-xl shadow-2xl p-7">
-            <p className="section-label mb-2">Free Consultation</p>
-            <h3 className="font-heading text-xl font-bold text-brand-dark mb-5">Tell Us About Your Situation</h3>
-            <ContactForm />
+          <div className="bg-slate-900 border border-zinc-800 rounded p-7">
+            <p className="section-label mb-1 text-[0.62rem] text-brand-gold uppercase tracking-widest font-bold">Free Consultation</p>
+            <h3 className="font-heading text-lg font-bold text-white mb-4">Tell Us About Your Situation</h3>
+            <ContactForm dark />
           </div>
         </div>
       </section>
 
       {/* MEDIA LOGOS */}
-      <div className="bg-white py-8 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4">
-          <img
-            src="https://buildbrandbetter.io/wp-content/uploads/2023/01/media-logo.png"
-            alt="Featured in media"
-            className="max-w-3xl mx-auto w-full h-auto object-contain opacity-70"
-          />
+      <div className="bg-zinc-50 py-6 border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto px-4 overflow-hidden">
+          <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max">
+            {mediaNames.map((m, i) => (
+              <span key={i} className="logo-badge-pill">
+                {m}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* NO ONE WANTS NEGATIVE CONTENT */}
-      <section className="py-16 px-4 bg-brand-light">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-          <div>
+      {/* WHY IT MATTERS */}
+      <section className="py-24 px-4 bg-white border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center lg:divide-x lg:divide-zinc-200">
+          <div className="pr-0 lg:pr-12">
             <p className="section-label mb-2">Why It Matters</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-5">
-              No One Wants Negative Content About Their Business or Personal Brand on Google's Search Results
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900 mb-5">
+              Secure Clean &amp; Authoritative Search Result Listings
             </h2>
-            <p className="text-gray-600 leading-relaxed mb-5">
-              Negative content on Google can significantly impact your brand's credibility, customer trust, and revenue. Studies show that 87% of consumers research businesses online before making a decision, and a single negative result can cost you thousands of potential customers.
+            <p className="text-zinc-500 leading-relaxed mb-4 text-sm">
+              Negative articles on Google can impact organic traffic, conversions, and talent recruitment. Potential customers rely heavily on first-page reviews to evaluate business trust.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              If your negative content is ranking high on Google search results, don't panic. There are numerous tactics and strategies that can be implemented to remove or suppress negative content from Google search results. Our online reputation experts specialize in removing, suppressing, and managing negative content on Google using proven legal, technical, and SEO-driven strategies.
+            <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
+              If negative listings dominate your brand name search query, we can help. Our team deploys direct webmaster takedowns, policy violation flagging, and content suppression methodologies to neutralize harmful items.
             </p>
-            <Link href="#contact" className="btn-blue">Start Removal Process</Link>
+            <Link href="#contact" className="btn-blue">Start Suppression</Link>
           </div>
-          <div className="text-center">
-            <img
-              src="https://buildbrandbetter.io/wp-content/uploads/2023/01/Build-brandRemove-Negative-google-result-1.gif"
-              alt="Remove Negative Results"
-              className="w-full max-w-md mx-auto rounded-xl shadow-lg"
-            />
+          <div className="w-full max-w-md mx-auto pl-0 lg:pl-12">
+            <SERPSuppressionWidget />
           </div>
         </div>
       </section>
 
       {/* WHAT WE REMOVE */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-24 px-4 bg-[#fafafa] border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Our Expertise</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">Types of Negative Content We Remove</h2>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Types of Negative Content We Suppress</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {contentTypes.map((c) => (
-              <div key={c.label} className="platform-item flex flex-col items-center gap-3 py-6">
-                <span className="text-3xl">{c.icon}</span>
-                <span className="font-semibold text-sm text-brand-dark text-center">{c.label}</span>
+              <div key={c.label} className="border border-zinc-200 rounded flex flex-col items-center gap-3 py-6 px-4 bg-white hover:border-brand-blue transition-colors">
+                <span className="text-3xl select-none">{c.icon}</span>
+                <span className="font-bold text-xs text-zinc-800 text-center uppercase tracking-wider">{c.label}</span>
               </div>
             ))}
           </div>
@@ -140,19 +256,19 @@ export default function RemoveNegativeResultsPage() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="py-16 px-4 bg-brand-light">
+      <section className="py-24 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Our Process</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">How Our Removal Process Works</h2>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">How Our Removal Process Works</h2>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-4">
             {steps.map((s) => (
-              <div key={s.n} className="process-step bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-                <div className="step-number font-heading">{s.n}</div>
+              <div key={s.n} className="bg-[#fafafa] border border-zinc-200 rounded p-6 flex gap-4 items-start">
+                <div className="step-number font-heading flex-shrink-0">{s.n}</div>
                 <div>
-                  <h3 className="font-bold text-brand-dark mb-2">{s.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
+                  <h3 className="font-bold text-zinc-900 mb-2 text-sm">{s.title}</h3>
+                  <p className="text-xs text-zinc-500 leading-relaxed">{s.desc}</p>
                 </div>
               </div>
             ))}
@@ -161,54 +277,55 @@ export default function RemoveNegativeResultsPage() {
       </section>
 
       {/* STATS */}
-      <section className="py-14 px-4 bg-brand-blue">
+      <section className="py-14 px-4 bg-brand-blue border-b border-brand-mid">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { n: "98%", l: "Content Removal Success Rate" },
+            { n: "98%", l: "Suppression Success" },
             { n: "1200+", l: "Clients Protected" },
-            { n: "50+", l: "Platforms Covered" },
-            { n: "48 hrs", l: "Average Response Time" },
+            { n: "50+", l: "Aggregator Cover" },
+            { n: "48 hrs", l: "First Blueprint" },
           ].map((s) => (
             <div key={s.l} className="text-center">
-              <p className="font-heading text-4xl font-bold text-white mb-1">{s.n}</p>
-              <p className="text-white/60 text-sm font-medium">{s.l}</p>
+              <p className="font-heading text-3xl font-extrabold text-white mb-1">{s.n}</p>
+              <p className="text-zinc-300 text-xs font-semibold uppercase tracking-wider">{s.l}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[#fafafa] border-b border-zinc-200">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">FAQs</p>
-            <h2 className="font-heading text-3xl font-bold text-brand-dark">Frequently Asked Questions</h2>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Frequently Asked Questions</h2>
           </div>
           <FAQ items={faqs} />
         </div>
       </section>
 
       {/* CONTACT SECTION */}
-      <section id="contact" className="py-16 px-4 bg-brand-dark relative overflow-hidden">
+      <section id="contact" className="py-24 px-4 bg-zinc-900 relative overflow-hidden">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="section-label text-yellow-400/80 mb-2">Take Action Now</p>
-            <h2 className="font-heading text-3xl font-bold text-white mb-4">
-              Don't Let Negative Content Define Your Brand
+            <p className="section-label text-brand-gold mb-2">Protect Your Future</p>
+            <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-white mb-4">
+              Don&apos;t Let Negative Content Control Your Brand
             </h2>
-            <p className="text-white/60 leading-relaxed mb-6">
-              Every day that negative content stays on Google is another day of lost opportunities. Contact us now for a free, confidential consultation and take the first step toward a cleaner online presence.
+            <p className="text-zinc-400 leading-relaxed mb-6 text-xs">
+              Every day a negative listing ranks on page one of Google represents another lost client. Contact Online Reputation Builder for a completely confidential strategy blueprint.
             </p>
-            <div className="space-y-3">
-              {["Fast-track removal for urgent cases", "Confidential and discreet service", "Proven track record with 1200+ clients", "No cure, no fee guarantee available"].map(i => (
-                <div key={i} className="flex items-center gap-3 text-sm text-white/80">
-                  <span className="text-brand-gold">✓</span> {i}
+            <div className="space-y-3 border-t border-zinc-800 pt-6">
+              {["Fast-track suppression for active crises", "Confidential review auditing", "Proven blueprint with 1200+ clients"].map(i => (
+                <div key={i} className="flex items-center gap-2.5 text-xs text-zinc-300 leading-normal">
+                  <span className="text-brand-gold">✓</span>
+                  <span>{i}</span>
                 </div>
               ))}
             </div>
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-xl p-7">
-            <p className="text-white font-bold text-lg mb-5">Get Free Removal Consultation</p>
+          <div className="bg-zinc-950 border border-zinc-800 rounded p-7">
+            <p className="text-white font-bold text-sm mb-4">Request Search Removal Consultation</p>
             <ContactForm dark />
           </div>
         </div>

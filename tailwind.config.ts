@@ -6,14 +6,20 @@ const config: Config = {
       colors: {
         brand: {
           blue: "#1a3c6e",
-          gold: "#c8a84b",
-          dark: "#0d1f3c",
-          light: "#f4f7fc",
+          gold: "#b8920a",
+          "gold-light": "#e0b840",
+          dark: "#0c1a30",
+          light: "#f6f9fe",
+          mid: "#2251a3",
         },
       },
       fontFamily: {
         heading: ["var(--font-heading)"],
         body: ["var(--font-body)"],
+      },
+      borderRadius: {
+        "2xl": "1rem",
+        "3xl": "1.25rem",
       },
     },
   },

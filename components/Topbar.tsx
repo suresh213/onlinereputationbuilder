@@ -1,21 +1,22 @@
 "use client";
+
 export default function Topbar() {
   return (
     <div className="topbar py-2 px-4 text-xs text-gray-300">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-6">
-          <a href="tel:+919971687251" className="flex items-center gap-1.5 hover:text-yellow-300 transition-colors">
+          <a href="tel:+919971687251" className="flex items-center gap-1.5 hover:text-yellow-400 transition-colors">
             <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
             </svg>
             Call: +91 99716 87251
           </a>
-          <a href="mailto:buildbrandbetter@gmail.com" className="flex items-center gap-1.5 hover:text-yellow-300 transition-colors">
+          <a href="mailto:info@onlinereputationbuilder.com" className="flex items-center gap-1.5 hover:text-yellow-400 transition-colors">
             <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
             </svg>
-            buildbrandbetter@gmail.com
+            info@onlinereputationbuilder.com
           </a>
           <span className="flex items-center gap-1.5">
             <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
@@ -26,12 +27,12 @@ export default function Topbar() {
         </div>
         <div className="flex items-center gap-4">
           {[
-            { icon: "facebook", href: "https://www.facebook.com/BuildBrandBetter/" },
-            { icon: "twitter", href: "https://x.com/buildbrandbeter" },
-            { icon: "linkedin", href: "https://www.linkedin.com/company/build-brand-better" },
-            { icon: "instagram", href: "https://www.instagram.com/buildbrandbetter/" },
+            { icon: "facebook", href: "https://www.facebook.com/onlinereputationbuilder" },
+            { icon: "twitter", href: "https://x.com/reputationbuild" },
+            { icon: "linkedin", href: "https://www.linkedin.com/company/onlinereputationbuilder" },
+            { icon: "instagram", href: "https://www.instagram.com/onlinereputationbuilder" },
           ].map((s) => (
-            <a key={s.icon} href={s.href} target="_blank" rel="noopener" className="hover:text-yellow-300 transition-colors">
+            <a key={s.icon} href={s.href} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
               {s.icon === "facebook" && <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>}
               {s.icon === "twitter" && <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>}
               {s.icon === "linkedin" && <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>}
