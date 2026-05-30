@@ -136,7 +136,7 @@ export default function Footer() {
               </svg>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Email</p>
-                <a href="mailto:info@onlinereputationbuilder.com" className="text-white text-sm hover:text-brand-gold-light transition-colors">info@onlinereputationbuilder.com</a>
+                <a href="mailto:info@onlinereputationbuilder.in" className="text-white text-sm hover:text-brand-gold-light transition-colors">info@onlinereputationbuilder.in</a>
               </div>
             </div>
             <div className="flex items-start gap-3">

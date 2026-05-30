@@ -8,9 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tanstack/react-router": "^1.170.9",
+    "framer-motion": "^12.40.0",
     "next": "14.2.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "use-reveal": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

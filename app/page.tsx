@@ -19,18 +19,19 @@ const services = [
 const platforms = [
   { name: "Google", icon: "https://cdn.simpleicons.org/google/white" },
   { name: "Glassdoor", icon: "https://cdn.simpleicons.org/glassdoor/white" },
-  { name: "Product Reviews", icon: null },
-  { name: "Twitter", icon: "https://cdn.simpleicons.org/twitter/white" },
-  { name: "Ripoff Report", icon: null },
+  { name: "Product Reviews", icon: "https://ui-avatars.com/api/?name=Product+Reviews&background=2563eb&color=fff&bold=true&format=svg" },
+  { name: "Twitter", icon: "https://cdn.simpleicons.org/x/white" },
+  // { name: "Ripoff Report", icon: "https://ui-avatars.com/api/?name=Ripoff+Report&background=c2940a&color=fff&bold=true&format=svg" },
+  { name: "Ripoff Report", icon: "https://ui-avatars.com/api/?name=Ripoff+Report&background=c2940a&color=fff&bold=true&format=svg" },
   { name: "Facebook", icon: "https://cdn.simpleicons.org/facebook/white" },
   { name: "Tripadvisor", icon: "https://cdn.simpleicons.org/tripadvisor/white" },
-  { name: "RateMDs", icon: null },
+  { name: "RateMDs", icon: "https://ui-avatars.com/api/?name=RateMDs&background=090f1c&color=fff&bold=true&format=svg" },
   { name: "Trustpilot", icon: "https://cdn.simpleicons.org/trustpilot/white" },
   { name: "Indeed", icon: "https://cdn.simpleicons.org/indeed/white" },
   { name: "Yelp", icon: "https://cdn.simpleicons.org/yelp/white" },
-  { name: "BBB", icon: null },
+  { name: "BBB", icon: "https://ui-avatars.com/api/?name=BBB&background=2563eb&color=fff&bold=true&format=svg" },
   { name: "G2", icon: "https://cdn.simpleicons.org/g2/white" },
-  { name: "Clutch", icon: null },
+  { name: "Clutch", icon: "https://ik.imagekit.io/j0xzq9pns/Clutch_Logo_1.png" },
 ];
 
 const caseStudies = [
@@ -99,29 +100,31 @@ const howTos = [
 
 export default function HomePage() {
   return (
-    <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col">
+    <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       <Topbar />
       <Navbar />
 
       {/* HERO */}
-      <section className="hero-bg relative overflow-hidden bg-zinc-950">
+      <section className="hero-bg relative overflow-hidden bg-zinc-950 premium-section-dark">
+        <div className="hero-ambient hero-ambient-blue" />
+        <div className="hero-ambient hero-ambient-gold" />
         {/* Background decorative elements - Flat solid colors, no shadows/gradients */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"/>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/10 rounded-full translate-y-1/2 -translate-x-1/2"/>
 
-        <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="max-w-7xl mx-auto px-4 py-10 lg:py-12 grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 xl:gap-14 items-center relative z-10">
           {/* Left */}
-          <div>
+          <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
               🏆 India's #1 ORM Company · Delhi NCR
             </div>
-            <h1 className="font-heading text-3xl lg:text-5xl font-bold text-white leading-tight mb-4 tracking-tight">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.18rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
               Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company
             </h1>
-            <p className="text-white/70 text-base mb-6 leading-relaxed">
+            <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
               Manage and Improve your Online Reputation With a top-rated Online Reputation Management Agency.
             </p>
-            <ul className="space-y-2 mb-8">
+            <ul className="hero-proof-grid mb-8">
               {[
                 "Free reputation consultation",
                 "Build an impressive online presence with us",
@@ -145,7 +148,8 @@ export default function HomePage() {
           </div>
 
           {/* Right: Contact Form */}
-          <div className="bg-white border border-zinc-200 rounded-xl p-7">
+          <div className="premium-form-card bg-white border border-zinc-200 rounded-xl p-6 md:p-8">
+            <div className="form-card-orbit" />
             <p className="section-label mb-2">Get Free Consultation</p>
             <h2 className="font-heading text-xl font-bold text-brand-dark mb-5">Take Control of Your Online Reputation Today</h2>
             <ContactForm />
@@ -154,7 +158,7 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED IN MARQUEE */}
-      <div className="bg-zinc-50 py-8 border-b border-zinc-200 overflow-hidden">
+      <div className="logo-marquee-shell bg-zinc-50 py-8 border-b border-zinc-200 overflow-hidden">
         <p className="text-center text-xs font-bold text-zinc-400 uppercase tracking-widest mb-5">Featured In Publications</p>
         <div className="overflow-hidden">
           <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max">
@@ -166,23 +170,31 @@ export default function HomePage() {
       </div>
 
       {/* TAKE CONTROL SECTION */}
-      <section className="py-16 px-4 bg-white border-b border-zinc-200">
+<section className="py-16 lg:py-24 px-4 bg-white border-b border-zinc-200 premium-section-light">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-          <div>
+          
+          {/* Left Column: Copy Panel */}
+          <div className="premium-copy-panel">
             <p className="section-label mb-2">What We Do</p>
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-5 leading-tight">Take Control of Your Online Image</h2>
+            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-5 leading-tight">
+              Take Control of Your <span className="heading-script text-brand-blue">Online Image</span>
+            </h2>
             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
               Build a reputation that speaks for itself. Strengthen your online presence, gain trust, and stay ahead in the digital world effortlessly.
             </p>
 
             <div className="space-y-6 mb-8">
-              <div className="bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-blue">
+              <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-blue">
                 <h3 className="font-bold text-zinc-900 mb-2">Suppress Negative Google Results</h3>
-                <p className="text-sm text-zinc-500 leading-relaxed">A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form — blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.</p>
+                <p className="text-sm text-zinc-500 leading-relaxed">
+                  A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form — blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.
+                </p>
               </div>
-              <div className="bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-gold">
+              <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-gold">
                 <h3 className="font-bold text-zinc-900 mb-2">Impress Everyone</h3>
-                <p className="text-sm text-zinc-500 leading-relaxed">With customized ORM solutions, clean your negative image on the search and impress your customers with a positive presence. We help you minimize risk factors on Google and social media, maximize positive visibility, and monitor your reputation.</p>
+                <p className="text-sm text-zinc-500 leading-relaxed">
+                  With customized ORM solutions, clean your negative image on the search and impress your customers with a positive presence. We help you minimize risk factors on Google and social media, maximize positive visibility, and monitor your reputation.
+                </p>
               </div>
             </div>
 
@@ -192,15 +204,41 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="text-center">
-            {/* High-quality Internet Photo replacing AI image */}
-            <div className="w-full max-w-md mx-auto border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm">
+          {/* Right Column: Rebuilt Image Frame */}
+          <div className="relative text-center lg:order-none order-2 w-full max-w-md mx-auto mt-8 lg:mt-0">
+            
+            {/* Main Image Frame (Forced to stay open with aspect-video and minHeight) */}
+            <div className="w-full border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                src="https://ik.imagekit.io/j0xzq9pns/orm_dashboard.png"
+                // src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
                 alt="ORM Dashboard Strategy"
-                className="w-full rounded border border-zinc-200"
+                className="w-full h-auto aspect-video object-cover rounded border border-zinc-200"
+                style={{ minHeight: '250px' }} 
               />
             </div>
+
+            {/* Metric 1 - Top Left */}
+            <div className="absolute -top-4 -left-4 bg-brand-blue text-white px-4 py-2 rounded-lg shadow-lg text-left z-10 hidden sm:block">
+              <strong className="block text-xl">89%</strong>
+              <span className="text-xs">Positive visibility lift</span>
+            </div>
+
+            {/* Metric 2 - Bottom Right */}
+            <div className="absolute -bottom-4 -right-4 bg-zinc-950 text-white px-4 py-2 rounded-lg shadow-lg text-left z-10 hidden sm:block">
+              <strong className="block text-xl">97%</strong>
+              <span className="text-xs">Review response accuracy</span>
+            </div>
+
+            {/* Optional Small Portrait Image - Bottom Left */}
+            <div className="absolute -bottom-8 -left-2 w-20 h-20 border-4 border-white rounded-full overflow-hidden shadow-lg bg-zinc-100 hidden sm:block z-10">
+               <img 
+                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=200&q=80" 
+                 alt="Reputation consultation" 
+                 className="w-full h-full object-cover" 
+               />
+            </div>
+
           </div>
         </div>
       </section>
@@ -209,29 +247,64 @@ export default function HomePage() {
       <StatsBar />
 
       {/* COMPREHENSIVE ORM SERVICES */}
-      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="section-label mb-2">Our Services</p>
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900">
-              Comprehensive ORM Services to Strengthen Your<br className="hidden lg:block"/> Brand & Individual Presence
+<section className="relative py-20 lg:py-24 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted overflow-hidden z-0">
+        {/* Premium Background Accents - Visible by default */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none -z-10"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full bg-white border border-zinc-200 shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse"></span>
+              <p className="section-label text-xs font-semibold tracking-wider uppercase text-zinc-600 m-0">Our Services</p>
+            </div>
+            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">
+              Comprehensive ORM Services<br className="hidden lg:block"/> to Strengthen Your <span className="heading-script text-brand-blue relative inline-block">
+                Brand &<br className="hidden lg:block"/> Individual
+                <svg className="absolute -bottom-2 left-0 w-full h-3 text-brand-blue/20 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="4" fill="none"/></svg>
+              </span> Presence
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((s) => (
-              <div key={s.title} className="group relative bg-white border border-zinc-200 rounded-xl p-8 hover:border-brand-blue transition-all duration-300 overflow-hidden flex flex-col h-full hover:-translate-y-1 hover:shadow-2xl hover:shadow-brand-blue/5">
-                <div className="absolute top-0 left-0 w-1.5 h-full bg-transparent group-hover:bg-brand-blue transition-colors"></div>
-                <div className="w-14 h-14 bg-zinc-50 border border-zinc-100 flex items-center justify-center rounded-lg mb-6 text-zinc-500 group-hover:bg-blue-50 group-hover:text-brand-blue transition-colors">
-                  {s.icon}
-                </div>
-                <h3 className="font-heading font-bold text-xl text-zinc-900 mb-3 leading-snug">{s.title}</h3>
-                <p className="text-sm text-zinc-500 leading-relaxed mb-6 flex-1">{s.desc}</p>
+          <div className="services-showcase grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {services.map((s, i) => (
+              <div 
+                key={s.title} 
+                className="group premium-service-card service-showcase-item relative bg-white rounded-2xl p-8 transition-all duration-500 overflow-hidden flex flex-col h-full border border-zinc-200/80 shadow-[0_8px_30px_-15px_rgba(0,0,0,0.06)] hover:border-transparent hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] hover:-translate-y-1 z-10 hover:z-20" 
+                style={{ transitionDelay: `${i * 25}ms` }}
+              >
+                {/* Top Border Gradient - Now partially visible by default, intensifies on hover */}
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-blue/30 to-transparent group-hover:via-brand-blue transition-all duration-500"></div>
                 
-                <Link href={s.href} className="mt-auto text-brand-blue font-bold text-sm hover:text-brand-dark transition-colors inline-flex items-center gap-2 group/link">
-                  Explore Service 
-                  <svg className="w-4 h-4 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
+                {/* Persistent soft gradient background that deepens on hover */}
+                <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/[0.02] via-transparent to-transparent group-hover:from-brand-blue/[0.06] transition-all duration-500 pointer-events-none"></div>
+                
+                <div className="relative z-10 flex flex-col h-full">
+                  {/* Icon shell now has a distinct, premium default state with a soft shadow */}
+                  <div className="w-14 h-14 service-icon-shell flex items-center justify-center rounded-xl mb-8 bg-zinc-50 border border-zinc-100/80 shadow-sm text-zinc-600 group-hover:bg-brand-blue group-hover:text-white group-hover:border-brand-blue group-hover:shadow-lg group-hover:shadow-brand-blue/25 transition-all duration-500 group-hover:scale-110 group-hover:-rotate-3 origin-bottom-left">
+                    {s.icon}
+                  </div>
+                  
+                  <h3 className="font-heading font-bold text-xl text-zinc-900 mb-4 leading-snug group-hover:text-brand-blue transition-colors duration-300">
+                    {s.title}
+                  </h3>
+                  
+                  <p className="text-sm text-zinc-500 leading-relaxed mb-8 flex-1 group-hover:text-zinc-600 transition-colors duration-300">
+                    {s.desc}
+                  </p>
+                  
+                  <Link href={s.href} className="mt-auto text-brand-blue font-bold text-sm hover:text-brand-dark transition-colors inline-flex items-center gap-3 group/link w-fit">
+                    <span className="relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-brand-blue group-hover/link:after:w-full after:transition-all after:duration-300">
+                      Explore Service
+                    </span>
+                    {/* Link icon circle is now visible by default with a soft background */}
+                    <span className="w-8 h-8 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center group-hover/link:bg-brand-blue group-hover/link:text-white transition-all duration-300 overflow-hidden relative">
+                      <svg className="w-4 h-4 transform group-hover/link:translate-x-0 -translate-x-6 absolute opacity-0 group-hover/link:opacity-100 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                      {/* Default arrow visible, slides out on hover */}
+                      <svg className="w-4 h-4 transform group-hover/link:translate-x-6 group-hover/link:opacity-0 transition-all duration-300 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                    </span>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
@@ -239,11 +312,11 @@ export default function HomePage() {
       </section>
 
       {/* DELETE ONLINE CONTENT SECTION */}
-      <section className="py-20 px-4 bg-white border-b border-zinc-200">
+      <section className="py-20 lg:py-24 px-4 bg-white border-b border-zinc-200 premium-section-light">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-          <div className="text-center">
+          <div className="premium-image-stage text-center lg:order-none order-2">
             {/* High-quality Internet Photo replacing AI image */}
-            <div className="w-full max-w-md mx-auto border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm">
+            <div className="w-full max-w-md mx-auto border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50 p-2 shadow-sm premium-image-frame">
               <img
                 src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80"
                 alt="Content Removal Process"
@@ -251,9 +324,9 @@ export default function HomePage() {
               />
             </div>
           </div>
-          <div>
+          <div className="premium-copy-panel">
             <p className="section-label mb-2">Content Removal</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-4">Delete Online Content</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-4">Delete <span className="heading-script text-brand-blue">Online Content</span></h2>
             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
               Negative content is hurtful. Using our professional removal process, we will help you get rid of it for good.
             </p>
@@ -272,15 +345,15 @@ export default function HomePage() {
       </section>
 
       {/* HOW TO SECTION */}
-      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-20 lg:py-24 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <p className="section-label mb-2">Knowledge Hub</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900">How To...</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900">How <span className="heading-script text-brand-blue">To...</span></h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="knowledge-layout">
             {howTos.map((h, i) => (
-              <div key={h.title} className="group flex flex-col p-7 bg-white border border-zinc-200 rounded-xl hover:border-brand-gold transition-colors h-full cursor-pointer hover:-translate-y-1 hover:shadow-2xl hover:shadow-brand-gold/5">
+              <div key={h.title} className="group premium-article-card knowledge-item flex flex-col p-7 bg-white border border-zinc-200 rounded-xl hover:border-brand-gold transition-colors h-full cursor-pointer">
                 <div className="flex items-center gap-3 mb-5">
                   <span className="px-2.5 py-1 bg-zinc-100 text-zinc-600 text-[0.65rem] font-bold tracking-wider uppercase rounded-sm group-hover:bg-brand-gold/10 group-hover:text-brand-gold transition-colors">{h.category}</span>
                   <span className="text-zinc-400 text-[0.65rem] font-bold tracking-wider">{h.time}</span>
@@ -298,31 +371,26 @@ export default function HomePage() {
       </section>
 
       {/* PLATFORMS */}
-      <section className="py-20 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden">
+      <section className="py-20 lg:py-24 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden premium-section-dark">
+        <div className="platform-grid-glow" />
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-10">
             <p className="section-label mb-2 text-brand-gold">Platforms We Manage</p>
             <h2 className="font-heading text-3xl font-bold text-white mb-3">
-              Reliable ORM Solutions Backed by Trusted Platforms
+              Reliable ORM Solutions Backed<br className="hidden lg:block"/> by <span className="heading-script text-brand-gold">Trusted Platforms</span>
             </h2>
             <p className="text-zinc-400 max-w-2xl mx-auto text-sm">
               Trusted by over 50 platforms including Google, Facebook, Yelp, and Twitter, our ORM services empower your brand with expert monitoring and management.
             </p>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
+          <div className="premium-platform-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
             {platforms.map((p) => (
-              <div key={p.name} className="bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[72px] cursor-pointer transition-colors">
-                {p.icon ? (
-                  <>
-                    <img src={p.icon} alt={p.name} className="w-7 h-7 mb-1.5 opacity-80" />
-                    <span className="sr-only">{p.name}</span>
-                  </>
-                ) : (
-                  <p className="text-zinc-300 text-[0.65rem] font-bold uppercase tracking-wider">{p.name}</p>
-                )}
+              <div key={p.name} className="group platform-tile bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[92px] cursor-pointer transition-colors">
+                <img src={p.icon} alt={p.name} className="w-8 h-8 mb-2 opacity-85 platform-icon" />
+                <p className="text-zinc-300 text-[0.62rem] font-bold uppercase tracking-wider text-center leading-tight">{p.name}</p>
               </div>
             ))}
-            <div className="bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[72px] cursor-pointer transition-colors">
+            <div className="platform-tile bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[92px] cursor-pointer transition-colors">
               <p className="text-brand-gold text-xs font-bold text-center">50+ More</p>
             </div>
           </div>
@@ -334,19 +402,19 @@ export default function HomePage() {
       </section>
 
       {/* SUCCESS STORIES */}
-      <section className="py-20 px-4 bg-white border-b border-zinc-200">
+      <section className="py-20 lg:py-24 px-4 bg-white border-b border-zinc-200 premium-section-light">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">Success Stories</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-3">We Have Stories to Inspire You</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-3">We Have Stories to <span className="heading-script text-brand-blue">Inspire You</span></h2>
             <p className="text-zinc-500 max-w-2xl mx-auto text-sm">
               Discover the journey behind every success. From groundbreaking strategies to stunning transformations, explore how we've partnered with brands to achieve remarkable results.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="case-study-board">
             {caseStudies.map((c) => (
-              <div key={c.title} className="group rounded-xl overflow-hidden border border-zinc-200 bg-white hover:border-brand-blue transition-colors cursor-pointer flex flex-col">
-                <div className={`h-32 w-full flex flex-col items-center justify-center border-b border-zinc-200 ${c.color}`}>
+              <div key={c.title} className="group premium-case-card case-study-item rounded-xl overflow-hidden border border-zinc-200 bg-white hover:border-brand-blue transition-colors cursor-pointer flex flex-col">
+                <div className={`case-visual h-32 w-full flex flex-col items-center justify-center border-b border-zinc-200 ${c.color}`}>
                    <span className="font-heading font-bold text-lg text-zinc-800 opacity-60 tracking-wider uppercase">{c.title}</span>
                 </div>
                 <div className="p-5 flex-1">
@@ -363,22 +431,22 @@ export default function HomePage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-20 lg:py-24 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">Common Questions</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900">You Have Questions? We Have Answers.</h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900">You Have Questions?<br/><span className="heading-script text-brand-blue">We Have Answers.</span></h2>
           </div>
           <FAQ items={faqs} />
         </div>
       </section>
 
       {/* TESTIMONIALS STRIP */}
-      <section className="py-20 px-4 bg-zinc-950 relative overflow-hidden border-b border-zinc-900">
+      <section className="py-20 lg:py-24 px-4 bg-zinc-950 relative overflow-hidden border-b border-zinc-900 premium-section-dark">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <p className="section-label text-brand-gold mb-2">Our Testimonials</p>
-            <h2 className="font-heading text-3xl font-bold text-white">What Our Clients Say</h2>
+            <h2 className="font-heading text-3xl font-bold text-white">What Our <span className="heading-script text-brand-gold">Clients Say</span></h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -386,7 +454,7 @@ export default function HomePage() {
               { name: "Priya Sharma", role: "Real Estate Developer", text: "After facing a PR crisis, their team worked tirelessly to repair our reputation. Professional, discreet, and incredibly effective. Our business is back on track." },
               { name: "Amit Singh", role: "Healthcare Professional", text: "I had false reviews affecting my practice. Their team handled everything professionally and quickly. I highly recommend Online Reputation Builder for any ORM needs." },
             ].map((t) => (
-              <div key={t.name} className="bg-zinc-900 rounded-xl p-7 border border-zinc-800">
+              <div key={t.name} className="premium-testimonial-card bg-zinc-900 rounded-xl p-7 border border-zinc-800">
                 <div className="flex text-brand-gold text-sm mb-4">★★★★★</div>
                 <p className="text-zinc-400 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
                 <div className="border-t border-zinc-800 pt-4">
@@ -403,7 +471,7 @@ export default function HomePage() {
       </section>
 
       {/* TRUSTED BRANDS */}
-      <section className="py-16 px-4 bg-white border-b border-zinc-200">
+      <section className="logo-marquee-shell py-16 px-4 bg-white border-b border-zinc-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <p className="section-label mb-2">Trusted By</p>
@@ -420,16 +488,16 @@ export default function HomePage() {
       </section>
 
       {/* CONTACT CTA */}
-      <section id="contact" className="py-20 px-4 bg-zinc-900 relative overflow-hidden">
+      <section id="contact" className="py-20 lg:py-24 px-4 bg-zinc-900 relative overflow-hidden premium-section-dark">
         {/* Flat shapes instead of gradients */}
         <div className="absolute top-10 left-10 w-80 h-80 bg-brand-gold/5 rounded-full"/>
         <div className="absolute bottom-10 right-10 w-60 h-60 bg-brand-blue/5 rounded-full"/>
         
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
-          <div>
+          <div className="premium-copy-panel-dark">
             <p className="section-label text-brand-gold mb-2">Get Started Today</p>
             <h2 className="font-heading text-3xl font-bold text-white mb-5">
-              Online Reputation Management Services
+              Online Reputation<br className="hidden lg:block"/> <span className="heading-script text-brand-gold">Management Services</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-8 text-sm">
               Don't let negative content define your brand. Reach out today for a free, confidential consultation and discover how we can protect and enhance your online reputation.
@@ -446,7 +514,7 @@ export default function HomePage() {
             </div>
             <a href="tel:+919971687251" className="btn-gold">Call Now</a>
           </div>
-          <div className="bg-zinc-950 border border-zinc-800 rounded-xl p-7">
+          <div className="premium-form-card dark bg-zinc-950 border border-zinc-800 rounded-xl p-7">
             <p className="text-white font-bold text-lg mb-5">Send Us a Message</p>
             <ContactForm dark />
           </div>

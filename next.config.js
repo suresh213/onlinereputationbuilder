@@ -1,3 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { images: { domains: ['buildbrandbetter.io'] } };
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+    domains: ['onlinereputationbuilder.in']
+  }
+};
+
 module.exports = nextConfig;
+
