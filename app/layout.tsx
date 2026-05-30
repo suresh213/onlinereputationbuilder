@@ -9,7 +9,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://www.onlinereputationbuilder.com";
+const siteUrl = "https://www.onlinereputationbuilder.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,7 +78,7 @@ export default function RootLayout({
                 "India's No.1 Online Reputation Management Company in Delhi",
               url: siteUrl,
               telephone: "+91-9971687251",
-              email: "info@onlinereputationbuilder.com",
+              email: "info@onlinereputationbuilder.in",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Dwarka",
