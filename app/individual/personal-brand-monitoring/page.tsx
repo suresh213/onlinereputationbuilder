@@ -169,7 +169,7 @@
 
 //             <div className="flex flex-wrap gap-3">
 //               <Link href="#contact" className="btn-gold">Get A Free Consultation</Link>
-//               <a href="tel:+919971687251" className="btn-outline">Call: +91 99716 87251</a>
+//               <a href="tel:+918882788412" className="btn-outline">Call: +9188827 88412</a>
 //             </div>
 
 //             {/* Live monitoring indicator */}
@@ -420,7 +420,7 @@
 //               <p className="text-zinc-400 text-sm leading-relaxed mb-7">
 //                 Have a specific situation? Contact our brand monitoring experts for a free assessment of your current online presence.
 //               </p>
-//               <a href="tel:+919971687251" className="btn-gold inline-flex items-center gap-2">
+//               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
 //                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //                 Call Us Now
 //               </a>
@@ -451,9 +451,9 @@
 
 //             <div className="space-y-0 mb-8">
 //               {[
-//                 { label: "Hotline", value: "+91 99716-87251", href: "tel:+919971687251" },
-//                 { label: "Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in" },
-//                 { label: "Location", value: "Dwarka, New Delhi, 110059", href: null },
+//                 { label: "Hotline", value: "+9188827 88412", href: "tel:+918882788412" },
+//                 { label: "Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in" },
+//                 { label: "Location", value: "Shantipally, Behala, Kolkata - 700060", href: null },
 //               ].map((item) => (
 //                 <div key={item.label} className="contact-info-item">
 //                   <div>
@@ -467,7 +467,7 @@
 //                 </div>
 //               ))}
 //             </div>
-//             <a href="tel:+919971687251" className="btn-gold inline-flex items-center gap-2">
+//             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
 //               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //               Call Now
 //             </a>
@@ -684,7 +684,7 @@ export default function PersonalBrandMonitoringPage() {
 
             <div className="flex flex-wrap gap-4 items-center">
               <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Get A Free Consultation</Link>
-              <a href="tel:+919971687251" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">Call: +91 99716 87251</a>
+              <a href="tel:+918882788412" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">Call: +9188827 88412</a>
             </div>
 
             {/* Live monitoring indicator - Elevated UI */}
@@ -981,7 +981,7 @@ export default function PersonalBrandMonitoringPage() {
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
                   Have a specific situation? Contact our brand monitoring experts for a free assessment of your current online presence.
                 </p>
-                <a href="tel:+919971687251" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
+                <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
                 </a>
@@ -1017,9 +1017,9 @@ export default function PersonalBrandMonitoringPage() {
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
-                  { label: "Direct Hotline (24/7)", value: "+91 99716-87251", href: "tel:+919971687251", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">

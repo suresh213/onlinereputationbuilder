@@ -357,8 +357,8 @@
 //               <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">
 //                 Get A Free Consultation
 //               </Link>
-//               <a href="tel:+919971687251" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">
-//                 Call: +91 99716 87251
+//               <a href="tel:+918882788412" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">
+//                 Call: +9188827 88412
 //               </a>
 //             </div>
 
@@ -600,7 +600,7 @@
 //                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 //                   </svg>
-//                   Call: +91 99716 87251
+//                   Call: +9188827 88412
 //                 </Link>
 //               </div>
 //             </RevealOnScroll>
@@ -685,7 +685,7 @@
 //                   consultation to assess your current autocomplete visibility.
 //                 </p>
 //                 <a
-//                   href="tel:+919971687251"
+//                   href="tel:+918882788412"
 //                   className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
 //                 >
 //                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -729,19 +729,19 @@
 //                 {[
 //                   {
 //                     label: "Direct Hotline (24/7)",
-//                     value: "+91 99716-87251",
-//                     href: "tel:+919971687251",
+//                     value: "+9188827 88412",
+//                     href: "tel:+918882788412",
 //                     icon: "📞"
 //                   },
 //                   {
 //                     label: "Secure Email",
-//                     value: "info@onlinereputationbuilder.in",
-//                     href: "mailto:info@onlinereputationbuilder.in",
+//                     value: "contact@onlinereputationbuilder.in",
+//                     href: "mailto:contact@onlinereputationbuilder.in",
 //                     icon: "✉️"
 //                   },
 //                   {
 //                     label: "Headquarters",
-//                     value: "Dwarka, New Delhi, 110059",
+//                     value: "Shantipally, Behala, Kolkata - 700060",
 //                     href: null,
 //                     icon: "🏢"
 //                   },
@@ -1149,8 +1149,8 @@ export default function ChangeGoogleAutocompletePage() {
               <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">
                 Get A Free Consultation
               </Link>
-              <a href="tel:+919971687251" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">
-                Call: +91 99716 87251
+              <a href="tel:+918882788412" className="btn-outline px-8 py-3.5 border-zinc-600 text-zinc-300 hover:text-white hover:border-white">
+                Call: +9188827 88412
               </a>
             </div>
 
@@ -1392,7 +1392,7 @@ export default function ChangeGoogleAutocompletePage() {
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                   </svg>
-                  Call: +91 99716 87251
+                  Call: +9188827 88412
                 </Link>
               </div>
             </RevealOnScroll>
@@ -1477,7 +1477,7 @@ export default function ChangeGoogleAutocompletePage() {
                   consultation to assess your current autocomplete visibility.
                 </p>
                 <a
-                  href="tel:+919971687251"
+                  href="tel:+918882788412"
                   className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -1521,19 +1521,19 @@ export default function ChangeGoogleAutocompletePage() {
                 {[
                   {
                     label: "Direct Hotline (24/7)",
-                    value: "+91 99716-87251",
-                    href: "tel:+919971687251",
+                    value: "+9188827 88412",
+                    href: "tel:+918882788412",
                     icon: "📞"
                   },
                   {
                     label: "Secure Email",
-                    value: "info@onlinereputationbuilder.in",
-                    href: "mailto:info@onlinereputationbuilder.in",
+                    value: "contact@onlinereputationbuilder.in",
+                    href: "mailto:contact@onlinereputationbuilder.in",
                     icon: "✉️"
                   },
                   {
                     label: "Headquarters",
-                    value: "Dwarka, New Delhi, 110059",
+                    value: "Shantipally, Behala, Kolkata - 700060",
                     href: null,
                     icon: "🏢"
                   },

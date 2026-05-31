@@ -61,7 +61,7 @@
 //             <div className="bg-red-950/40 border border-red-500/25 rounded p-4 mb-6">
 //               <p className="text-red-400 font-bold text-xs uppercase tracking-wider mb-1">⚡ Active Crisis? Call Us Now</p>
 //               <p className="text-zinc-300 text-xs leading-relaxed">Our emergency response team is available around the clock for immediate assistance.</p>
-//               <a href="tel:+919971687251" className="text-brand-gold font-bold text-sm hover:underline mt-1 inline-block">+91 99716 87251</a>
+//               <a href="tel:+918882788412" className="text-brand-gold font-bold text-sm hover:underline mt-1 inline-block">+9188827 88412</a>
 //             </div>
 //             <ul className="space-y-2 mb-8">
 //               {[
@@ -79,7 +79,7 @@
 //             </ul>
 //             <div className="flex flex-wrap gap-3">
 //               <Link href="#contact" className="btn-gold">Get Help</Link>
-//               <a href="tel:+919971687251" className="btn-outline">Call Now</a>
+//               <a href="tel:+918882788412" className="btn-outline">Call Now</a>
 //             </div>
 //           </div>
 //           <div className="bg-slate-900 border border-zinc-800 rounded p-7">
@@ -265,7 +265,7 @@
 //               Don&apos;t face a reputation crisis alone. Our team of ORM specialists and crisis communications professionals are ready to mobilize immediately to protect your brand.
 //             </p>
 //             <div className="space-y-4 border-t border-zinc-800 pt-6">
-//               <a href="tel:+919971687251" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
+//               <a href="tel:+918882788412" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
 //                 <span className="w-9 h-9 bg-brand-gold rounded flex items-center justify-center flex-shrink-0">
 //                   <svg className="w-4.5 h-4.5 text-brand-dark" fill="currentColor" viewBox="0 0 20 20">
 //                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
@@ -273,10 +273,10 @@
 //                 </span>
 //                 <div>
 //                   <p className="text-[0.62rem] text-zinc-500 uppercase tracking-wider mb-0.5">Emergency Hotline (24/7)</p>
-//                   <p className="font-bold text-sm">+91 99716 87251</p>
+//                   <p className="font-bold text-sm">+9188827 88412</p>
 //                 </div>
 //               </a>
-//               <a href="mailto:info@onlinereputationbuilder.in" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
+//               <a href="mailto:contact@onlinereputationbuilder.in" className="flex items-center gap-3 text-white hover:text-brand-gold transition-colors">
 //                 <span className="w-9 h-9 bg-white/5 border border-white/10 rounded flex items-center justify-center flex-shrink-0">
 //                   <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 20 20">
 //                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
@@ -285,7 +285,7 @@
 //                 </span>
 //                 <div>
 //                   <p className="text-[0.62rem] text-zinc-500 uppercase tracking-wider mb-0.5">Direct Email</p>
-//                   <p className="font-bold text-sm">info@onlinereputationbuilder.in</p>
+//                   <p className="font-bold text-sm">contact@onlinereputationbuilder.in</p>
 //                 </div>
 //               </a>
 //             </div>
@@ -390,7 +390,7 @@ export default function CrisisManagementPage() {
                   ⚡ Active Crisis? Call Us Now
                 </p>
                 <p className="text-zinc-300 text-sm leading-relaxed mb-3">Our emergency response team is available around the clock for immediate assistance.</p>
-                <a href="tel:+919971687251" className="text-white font-heading font-bold text-xl hover:text-red-400 transition-colors inline-block">+91 99716 87251</a>
+                <a href="tel:+918882788412" className="text-white font-heading font-bold text-xl hover:text-red-400 transition-colors inline-block">+9188827 88412</a>
               </div>
             </div>
 
@@ -667,7 +667,7 @@ export default function CrisisManagementPage() {
             </p>
             
             <div className="space-y-6 border-t border-zinc-800/80 pt-8">
-              <a href="tel:+919971687251" className="flex items-center gap-5 text-white hover:text-brand-gold transition-colors group">
+              <a href="tel:+918882788412" className="flex items-center gap-5 text-white hover:text-brand-gold transition-colors group">
                 <span className="w-14 h-14 bg-brand-gold rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform shadow-[0_10px_20px_rgba(194,148,10,0.2)]">
                   <svg className="w-6 h-6 text-brand-dark" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
@@ -675,11 +675,11 @@ export default function CrisisManagementPage() {
                 </span>
                 <div>
                   <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1">Emergency Hotline (24/7)</p>
-                  <p className="font-heading font-bold text-xl tracking-wide">+91 99716 87251</p>
+                  <p className="font-heading font-bold text-xl tracking-wide">+9188827 88412</p>
                 </div>
               </a>
               
-              <a href="mailto:info@onlinereputationbuilder.in" className="flex items-center gap-5 text-white hover:text-brand-blue transition-colors group">
+              <a href="mailto:contact@onlinereputationbuilder.in" className="flex items-center gap-5 text-white hover:text-brand-blue transition-colors group">
                 <span className="w-14 h-14 glass-panel border border-white/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
@@ -688,7 +688,7 @@ export default function CrisisManagementPage() {
                 </span>
                 <div>
                   <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1">Direct Email</p>
-                  <p className="font-heading font-bold text-lg">info@onlinereputationbuilder.in</p>
+                  <p className="font-heading font-bold text-lg">contact@onlinereputationbuilder.in</p>
                 </div>
               </a>
             </div>

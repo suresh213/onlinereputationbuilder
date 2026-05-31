@@ -200,7 +200,7 @@ export default function HomePage() {
 
             <div className="flex flex-wrap gap-3">
               <Link href="#" className="btn-gold">Get A Free Consultation</Link>
-              <a href="tel:+919971687251" className="btn-blue">Call: +91 99716 87251</a>
+              <a href="tel:+918882788412" className="btn-blue">Call: +9188827 88412</a>
             </div>
           </div>
 
@@ -465,7 +465,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-12">
-            <a href="tel:+919971687251" className="btn-gold">Request a Call</a>
+            <a href="tel:+918882788412" className="btn-gold">Request a Call</a>
           </div>
         </div>
       </section>
@@ -505,14 +505,14 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <p className="text-zinc-500 text-xs uppercase tracking-wider mb-1">Hotline</p>
-                <p className="text-white font-bold">+91 99716-87251</p>
+                <p className="text-white font-bold">+9188827 88412</p>
               </div>
               <div>
                 <p className="text-zinc-500 text-xs uppercase tracking-wider mb-1">Location</p>
-                <p className="text-white font-bold">Dwarka, New Delhi, 110059</p>
+                <p className="text-white font-bold">Shantipally, Behala, Kolkata - 700060</p>
               </div>
             </div>
-            <a href="tel:+919971687251" className="btn-gold">Call Now</a>
+            <a href="tel:+918882788412" className="btn-gold">Call Now</a>
           </div>
           <div className="premium-form-card dark bg-zinc-950 border border-zinc-800 rounded-xl p-7">
             <p className="text-white font-bold text-lg mb-5">Send Us a Message</p>

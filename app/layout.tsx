@@ -78,7 +78,7 @@ export default function RootLayout({
                 "India's No.1 Online Reputation Management Company in Delhi",
               url: siteUrl,
               telephone: "+91-9971687251",
-              email: "info@onlinereputationbuilder.in",
+              email: "contact@onlinereputationbuilder.in",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Dwarka",
