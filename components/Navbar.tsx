@@ -786,6 +786,7 @@ const navItems = [
     href: "/business",
     children: [
       { label: "Remove Business Negative Google Results", href: "/business/remove-negative-results" },
+      { label: "Remove Google Business Review", href: "/business/remove-google-business-review" },
       { label: "Review Management", href: "/business/review-management" },
       { label: "Online Reputation Audit", href: "/business/reputation-audit" },
       { label: "Crisis Management", href: "/business/crisis-management" },
@@ -814,6 +815,7 @@ const navItems = [
           { label: "Quora Content Removal", href: "/review-management/quora-content-removal" },
           { label: "Reddit Post Removal", href: "/review-management/reddit-post-removal" },
           { label: "Fake News Removal", href: "/review-management/fake-news-removal" },
+          { label: "Fake Review Removal", href: "/review-management/fake-review-removal" },
           { label: "News Article Removal From The Internet", href: "/review-management/news-article-removal-from-the-internet" },
           { label: "Cam Model Content Removal", href: "/review-management/cam-model-content-removal-service" },
           { label: "Complaint Removal", href: "/review-management/complaint-removal-and-management-services" },
@@ -837,6 +839,8 @@ const navItems = [
           { label: "Youtube Video Removal", href: "/review-management/youtube-removal" },
           { label: "Facebook Content Removal", href: "/review-management/facebook-content-removal" },
           { label: "Twitter Content Removal", href: "/review-management/twitter-content-removal" },
+                { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
+      { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
         ]
       }
     ],
@@ -854,6 +858,8 @@ const navItems = [
       { label: "YouTube Removal", href: "/review-management/youtube-removal" },
       { label: "Facebook Removal", href: "/review-management/facebook-content-removal" },
       { label: "Twitter Removal", href: "/review-management/twitter-content-removal" },
+      { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
+      { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
     ]
   },
   {
