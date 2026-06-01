@@ -789,6 +789,8 @@ const navItems = [
       { label: "Review Management", href: "/business/review-management" },
       { label: "Online Reputation Audit", href: "/business/reputation-audit" },
       { label: "Crisis Management", href: "/business/crisis-management" },
+      { label: "Reputation Monitoring", href: "/business/reputation-monitoring" },
+
     ],
   },
   {
@@ -817,6 +819,8 @@ const navItems = [
           { label: "News Article Removal From The Internet", href: "/review-management/news-article-removal-from-the-internet" },
           { label: "Cam Model Content Removal", href: "/review-management/cam-model-content-removal-service" },
           { label: "Complaint Removal", href: "/review-management/complaint-removal-and-management-services" },
+          { label: "Ambitionbox Reputation Management", href: "/review-management/ambitionbox-reputation-management" },
+
         ]
       },
       {
@@ -845,11 +849,15 @@ const navItems = [
         bgColor: "bg-white",
         links: [
           { label: "Fake Review Removal", href: "/review-management/fake-review-removal" },
+          { label: "Product Review Management", href: "/review-management/product-review-management" },  
           { label: "Remove Google Business Review", href: "/business/remove-google-business-review" },
           { label: "Indeed Reputation Management", href: "/business/indeed-reputation-management" },
           { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
+          { label: "Amplify Reviews", href: "/review-management/amplify-reviews" },
           { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
           { label: "Yelp Reputation Management", href: "/review-management/yelp-reputation-management" },
+          { label: "Wikipedia Writing Services", href: "/review-management/wikipedia-writing-services" },
+
           
         ]
       }
