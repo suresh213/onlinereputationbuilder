@@ -10,66 +10,66 @@ import Link from "next/link";
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "Remove fake and defamatory Trustpilot reviews legally and confidentially",
-  "Boost your Trustpilot TrustScore with genuine positive reviews",
-  "Respond to negative feedback strategically to protect brand trust",
-  "Optimize your Trustpilot company profile to outperform competitors",
+  "Remove fake and defamatory Yelp reviews legally and confidentially",
+  "Boost your Yelp star rating with authentic positive reviews",
+  "Respond to negative feedback professionally and strategically",
+  "Optimize your Yelp business profile to outshine local competitors",
 ];
 
 const stats = [
   { number: "9+", label: "Years of reputation expertise" },
   { number: "98%", label: "Clients Satisfied" },
-  { number: "900+", label: "Trustpilot Reviews Managed" },
+  { number: "1200+", label: "Yelp Reviews Managed" },
   { number: "600+", label: "Projects Delivered Worldwide" },
 ];
 
 const impacts = [
   {
-    title: "Eroded Customer Trust",
-    desc: "Trustpilot is one of the first places prospects check before purchasing. Fake negative reviews or a low TrustScore can stop buyers in their tracks and push them to competitors.",
-    icon: "🔍",
-  },
-  {
-    title: "Revenue Loss & Churn",
-    desc: "A damaged Trustpilot profile directly impacts conversion rates. Even a small drop in your TrustScore can translate to significant revenue loss across your sales funnel.",
+    title: "Lost Customers & Revenue",
+    desc: "A single bad Yelp review can push potential customers toward a competitor. Studies show that one negative review can cost a business up to 30 customers — making swift action essential.",
     icon: "💸",
   },
   {
-    title: "Coordinated Fake Review Attacks",
-    desc: "Competitors and bad actors increasingly use coordinated fake review campaigns on Trustpilot to destroy brand credibility. Without professional intervention, these attacks compound quickly.",
-    icon: "⚔️",
+    title: "Damaged Local SEO Rankings",
+    desc: "Yelp reviews influence local search rankings on Google. A low star rating or flood of negative reviews can drag your visibility down, making it harder for new customers to find you.",
+    icon: "📉",
+  },
+  {
+    title: "Fake & Competitor Reviews",
+    desc: "Competitors and disgruntled individuals often post fake Yelp reviews to sabotage your business. Without professional intervention, these fraudulent reviews can permanently damage your reputation.",
+    icon: "🚫",
   },
 ];
 
 const processSteps = [
   {
     step: "01",
-    title: "Profile & Review Audit",
-    desc: "We conduct a full audit of your Trustpilot profile — identifying fake reviews, flagging Trustpilot guideline violations, and benchmarking your TrustScore against competitors.",
+    title: "Reputation Audit",
+    desc: "We conduct a thorough audit of your Yelp profile — identifying fake reviews, flagging policy violations, and assessing your current star rating impact on local search.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
     ),
   },
   {
     step: "02",
-    title: "Review Removal Strategy",
-    desc: "Our team leverages Trustpilot's flagging system, legal takedown notices, and direct escalation channels to remove fake, defamatory, or guideline-violating reviews.",
+    title: "Removal Strategy",
+    desc: "Our team uses Yelp's reporting tools, DMCA notices, and legal takedown processes to target and remove fake, defamatory, or policy-violating reviews.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
   },
   {
     step: "03",
-    title: "TrustScore Improvement",
-    desc: "We implement ethical strategies to generate verified positive reviews from real customers, steadily improving your TrustScore and public perception.",
+    title: "Rating Improvement",
+    desc: "We implement a proactive strategy to generate genuine positive reviews from satisfied customers, steadily improving your overall Yelp star rating.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
   },
   {
     step: "04",
-    title: "Monitoring & Protection",
-    desc: "After improvement, we continuously monitor your Trustpilot profile for new fake reviews and respond swiftly — keeping your hard-earned reputation protected.",
+    title: "Profile Optimization",
+    desc: "We optimize your Yelp business profile — photos, categories, business info, and keyword alignment — to maximize visibility and conversion in local searches.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -78,48 +78,48 @@ const processSteps = [
 
 const typesOfContent = [
   {
-    title: "Fake & Bot Reviews",
-    desc: "Reviews generated by bots or posted by individuals with no genuine customer relationship are flagged and removed via Trustpilot's reporting and legal processes.",
+    title: "Fake & Fraudulent Reviews",
+    desc: "Reviews posted by bots, competitors, or bad actors with no genuine customer relationship are identified and removed through Yelp's reporting and legal channels.",
   },
   {
     title: "Defamatory Reviews",
-    desc: "Reviews containing false statements of fact are targeted for removal via legal takedown notices sent directly to Trustpilot's trust and safety team.",
+    desc: "Reviews containing false statements of fact that damage your reputation can be removed via legal takedown notices sent directly to Yelp.",
   },
   {
-    title: "Guideline-Violating Reviews",
-    desc: "Reviews that breach Trustpilot's content guidelines — including off-topic content, threats, and personal attacks — are escalated for removal.",
+    title: "Policy-Violating Reviews",
+    desc: "Reviews that violate Yelp's content guidelines — including hate speech, threats, or irrelevant content — are flagged and escalated for removal.",
   },
   {
-    title: "Negative Review Management",
-    desc: "We craft professional public responses to genuine negative reviews that demonstrate accountability and protect your brand's credibility to future readers.",
+    title: "Negative Review Response",
+    desc: "We craft professional, empathetic responses to genuine negative reviews that demonstrate your commitment to customer satisfaction and protect your brand image.",
   },
 ];
 
 const whyUs = [
   {
-    title: "Trustpilot Platform Expertise",
-    desc: "We understand Trustpilot's review guidelines, flagging processes, and legal takedown pathways — maximizing the success rate of every removal request.",
+    title: "Yelp Platform Expertise",
+    desc: "We know Yelp's content policies, reporting mechanisms, and escalation pathways inside out — giving your removal requests the best possible chance of success.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
-    title: "Fast Turnaround",
-    desc: "We prioritize urgent reputation threats and pursue every available escalation path to resolve your case as quickly as possible.",
+    title: "Fast Results",
+    desc: "We prioritize urgent cases and pursue every available removal pathway to protect your business reputation as quickly as possible.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
     ),
   },
   {
     title: "Legal & Ethical Methods",
-    desc: "All our strategies fully comply with Trustpilot's terms of service and applicable law. We never use manipulation or fake reviews to inflate scores.",
+    desc: "All our strategies are fully compliant with Yelp's terms of service and applicable law — no black-hat tactics, ever.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
   },
   {
     title: "Complete Confidentiality",
-    desc: "Your business identity and all case details are kept strictly confidential. We handle every Trustpilot case discreetly and professionally.",
+    desc: "Your business identity and case details are kept strictly confidential throughout the entire process.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
     ),
@@ -128,39 +128,39 @@ const whyUs = [
 
 const faqs = [
   {
-    q: "How long does it take to remove a fake Trustpilot review?",
-    a: "Most Trustpilot review removals are processed within 7–21 business days depending on the review type and escalation required. We prioritize urgent cases for faster resolution.",
+    q: "How long does it take to remove a fake Yelp review?",
+    a: "Most Yelp review removals are processed within 5–14 business days depending on the type of review and escalation required. We prioritize urgent cases for faster resolution.",
   },
   {
-    q: "Can you remove reviews posted by someone I don't know?",
-    a: "Yes. We use Trustpilot's flagging and reporting mechanisms along with legal takedown notices targeting both the reviewer and Trustpilot directly — no prior relationship with the reviewer is needed.",
+    q: "Can you remove reviews from accounts you don't own?",
+    a: "Yes. We use Yelp's reporting mechanisms, DMCA processes, and legal notices targeting the review author and Yelp directly — no ownership of the reviewing account is required.",
   },
   {
-    q: "Will improving my Trustpilot score affect my Google ranking?",
-    a: "Yes. Trustpilot star ratings often appear directly in Google search results as rich snippets. A higher TrustScore improves click-through rates and can positively influence your overall SEO.",
+    q: "Will removing bad reviews also help my Google ranking?",
+    a: "Yes. Improved Yelp ratings positively impact local SEO signals and can improve your visibility in both Yelp and Google local search results.",
   },
   {
-    q: "What happens if new fake reviews appear after removal?",
-    a: "We provide ongoing monitoring and will escalate new fraudulent reviews as they appear. We can also advise on legal options for persistent or coordinated review attacks.",
+    q: "What if new fake reviews appear after removal?",
+    a: "We provide ongoing monitoring and will re-escalate new fraudulent reviews as they appear. We can also advise on legal options for repeat offenders.",
   },
   {
-    q: "Do you work with businesses outside India?",
-    a: "Yes. We manage Trustpilot reputations for businesses across the UK, Europe, North America, Australia, and beyond — not just India.",
+    q: "Do you manage Yelp reviews for all business types?",
+    a: "Yes. We work with restaurants, retail, healthcare, legal, home services, and all other business categories listed on Yelp.",
   },
 ];
 
 const testimonials = [
   {
-    name: "Arjun Kapoor",
-    text: "Our Trustpilot page was being targeted by fake 1-star reviews from competitors. The team identified and removed them systematically. Our TrustScore went from 2.8 to 4.5. Exceptional work.",
+    name: "Amit Sharma",
+    text: "Competitors were flooding our Yelp page with fake 1-star reviews. The team identified and removed them within two weeks. Our rating jumped from 3.1 to 4.4 stars. Truly impressive results.",
   },
   {
-    name: "Sunita Rao",
-    text: "A coordinated fake review campaign nearly destroyed our brand. Build Brand Better removed the reviews and helped us build a genuine review base. Highly professional team.",
+    name: "Priya Menon",
+    text: "A disgruntled ex-employee was leaving defamatory reviews across all our locations. Build Brand Better had them removed quickly and professionally. Highly recommend their services.",
   },
   {
-    name: "Rajesh Pillai",
-    text: "They not only removed the defamatory reviews but also crafted professional responses to legitimate complaints. Our customer trust has been completely restored.",
+    name: "Vikram Nair",
+    text: "Not only did they remove the fake reviews, they also optimized our Yelp profile and helped us get more genuine reviews. Our local bookings have increased significantly.",
   },
 ];
 
@@ -187,7 +187,7 @@ function RevealOnScroll({ children, delay = 0, className = "" }: { children: Rea
 
 /* ─── Page ──────────────────────────────────────────────────────────────── */
 
-export default function TrustpilotReputationManagementPage() {
+export default function YelpReviewsManagementPage() {
   return (
     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       <Topbar />
@@ -206,13 +206,13 @@ export default function TrustpilotReputationManagementPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
                 </span>
-                Trustpilot Reputation Management
+                Yelp Reviews Management
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Protect & Improve Your <span className="text-gradient-gold">Trustpilot TrustScore</span>
+                Turn Yelp Feedback into Your <span className="text-gradient-gold">Business Advantage</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialists manage your Trustpilot reputation — removing fake reviews, boosting your TrustScore, and protecting your brand credibility with fully legal and ethical methods.
+                Our specialists manage your Yelp reputation — removing fake reviews, boosting your star rating, and optimizing your profile to attract more local customers.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -225,7 +225,7 @@ export default function TrustpilotReputationManagementPage() {
                 ))}
               </ul>
               <div className="flex flex-wrap gap-4">
-                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Improve My TrustScore Now</Link>
+                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Improve My Yelp Rating Now</Link>
                 <a href="tel:+918882788412" className="btn-outline border-zinc-700 text-zinc-300 hover:text-white hover:border-white px-8 py-3.5">Call Us Now</a>
               </div>
             </RevealOnScroll>
@@ -242,7 +242,7 @@ export default function TrustpilotReputationManagementPage() {
                   ))}
                 </div>
                 <div className="space-y-4">
-                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Request Trustpilot Management</Link>
+                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Request Yelp Management</Link>
                   <a href="tel:+918882788412" className="btn-outline w-full text-center block border-zinc-700 text-zinc-300 hover:text-white hover:border-white py-4">Call: +9188827 88412</a>
                 </div>
               </div>
@@ -269,8 +269,8 @@ export default function TrustpilotReputationManagementPage() {
           <RevealOnScroll>
             <div>
               <p className="section-label mb-2">Why It Matters</p>
-              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">The Real Cost of a <span className="heading-script text-brand-blue">Damaged TrustScore</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Trustpilot is one of the world's most trusted review platforms. A low TrustScore or wave of fake negative reviews doesn't just hurt your feelings — it directly kills conversions and revenue every day it remains unaddressed.</p>
+              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">The Real Cost of <span className="heading-script text-brand-blue">Poor Yelp Reviews</span></h2>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Yelp is one of the most trusted local review platforms. A low rating or stream of fake negative reviews directly costs you customers, revenue, and search visibility every single day you wait.</p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Assessment</Link>
             </div>
           </RevealOnScroll>
@@ -300,7 +300,7 @@ export default function TrustpilotReputationManagementPage() {
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse" />
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Process</p>
               </div>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">How We <span className="heading-script text-brand-blue">Manage Your Trustpilot</span> Reputation</h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">How We <span className="heading-script text-brand-blue">Manage & Improve Your Yelp</span> Reputation</h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -327,9 +327,9 @@ export default function TrustpilotReputationManagementPage() {
           <div className="premium-copy-panel">
             <RevealOnScroll>
               <p className="section-label mb-2">Our Capability</p>
-              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">Trustpilot Services <span className="heading-script text-brand-gold">We Provide</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">From removing fake reviews to ongoing profile management, our team handles every dimension of your Trustpilot presence with precision.</p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Protect My Trustpilot Today</Link>
+              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">Yelp Reputation Services <span className="heading-script text-brand-gold">We Provide</span></h2>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">From removing fake reviews to full profile optimization, our team handles every aspect of your Yelp presence with precision and professionalism.</p>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Improve My Yelp Today</Link>
             </RevealOnScroll>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 relative">
@@ -338,7 +338,7 @@ export default function TrustpilotReputationManagementPage() {
               <RevealOnScroll key={t.title} delay={i * 100}>
                 <div className="group p-6 rounded-2xl border border-zinc-200 bg-white hover:border-brand-gold/40 hover:shadow-[0_10px_30px_-10px_rgba(194,148,10,0.15)] transition-all duration-300 relative z-10 h-full">
                   <div className="w-10 h-10 rounded-xl bg-zinc-50 border border-zinc-200 flex items-center justify-center text-brand-gold mb-4 shadow-sm">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
                   </div>
                   <h4 className="font-bold text-zinc-900 text-[0.95rem] mb-2 group-hover:text-brand-gold transition-colors">{t.title}</h4>
                   <p className="text-sm text-zinc-500 leading-relaxed">{t.desc}</p>
@@ -359,7 +359,7 @@ export default function TrustpilotReputationManagementPage() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">Why We Are <span className="text-gradient-gold">Trusted Trustpilot Management Experts</span></h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">Why We Are <span className="text-gradient-gold">Trusted Yelp Management Experts</span></h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -415,8 +415,8 @@ export default function TrustpilotReputationManagementPage() {
             <RevealOnScroll>
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
-                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Trustpilot Management <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Trustpilot situation? Our experts offer a free confidential assessment with no obligation.</p>
+                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Yelp Management <span className="heading-script text-brand-blue">FAQs</span></h2>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Yelp situation? Our experts offer a free confidential assessment with no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -442,8 +442,8 @@ export default function TrustpilotReputationManagementPage() {
           <RevealOnScroll>
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
-              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of a Low TrustScore Costs You <span className="heading-script text-brand-blue">Real Business</span></h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Trustpilot specialists will assess your profile and present a clear action plan — with no obligation.</p>
+              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of Low Yelp Ratings Costs You <span className="heading-script text-brand-blue">Real Customers</span></h2>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Yelp management specialists will assess your profile and present a clear action plan — with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },

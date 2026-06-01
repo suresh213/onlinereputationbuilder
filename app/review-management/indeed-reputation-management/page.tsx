@@ -10,116 +10,116 @@ import Link from "next/link";
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "Remove fake and defamatory Trustpilot reviews legally and confidentially",
-  "Boost your Trustpilot TrustScore with genuine positive reviews",
-  "Respond to negative feedback strategically to protect brand trust",
-  "Optimize your Trustpilot company profile to outperform competitors",
+  "Remove negative & fake Indeed company reviews",
+  "Strengthen your employer brand on India's top job platform",
+  "Respond professionally to build candidate confidence",
+  "Attract quality applicants with a strong Indeed profile",
 ];
 
 const stats = [
   { number: "9+", label: "Years of reputation expertise" },
   { number: "98%", label: "Clients Satisfied" },
-  { number: "900+", label: "Trustpilot Reviews Managed" },
+  { number: "2000+", label: "Indeed Reviews Managed" },
   { number: "600+", label: "Projects Delivered Worldwide" },
 ];
 
 const impacts = [
   {
-    title: "Eroded Customer Trust",
-    desc: "Trustpilot is one of the first places prospects check before purchasing. Fake negative reviews or a low TrustScore can stop buyers in their tracks and push them to competitors.",
-    icon: "🔍",
+    title: "Candidate Drop-Off at Application",
+    desc: "Indeed is the most visited job site in India. Candidates research company reviews before applying. A poor rating and unaddressed negative reviews cause high-quality applicants to abandon your listings before even applying.",
+    icon: "📋",
   },
   {
-    title: "Revenue Loss & Churn",
-    desc: "A damaged Trustpilot profile directly impacts conversion rates. Even a small drop in your TrustScore can translate to significant revenue loss across your sales funnel.",
-    icon: "💸",
+    title: "Higher Cost-Per-Hire",
+    desc: "A damaged Indeed reputation forces you to spend more on recruitment advertising to compensate for low application volumes. Negative reviews directly inflate your cost-per-hire across every role.",
+    icon: "💰",
   },
   {
-    title: "Coordinated Fake Review Attacks",
-    desc: "Competitors and bad actors increasingly use coordinated fake review campaigns on Trustpilot to destroy brand credibility. Without professional intervention, these attacks compound quickly.",
-    icon: "⚔️",
+    title: "Brand Credibility Erosion",
+    desc: "Indeed reviews rank in Google search results. Negative feedback about your company doesn't just affect recruitment — it's publicly visible to clients, partners, and investors who search for your business.",
+    icon: "📉",
   },
 ];
 
-const processSteps = [
+const services = [
   {
     step: "01",
-    title: "Profile & Review Audit",
-    desc: "We conduct a full audit of your Trustpilot profile — identifying fake reviews, flagging Trustpilot guideline violations, and benchmarking your TrustScore against competitors.",
+    title: "Indeed Profile Audit",
+    desc: "We audit your complete Indeed company profile — identifying all negative, fake, and policy-violating reviews — and build a prioritised removal and response action plan.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
     ),
   },
   {
     step: "02",
-    title: "Review Removal Strategy",
-    desc: "Our team leverages Trustpilot's flagging system, legal takedown notices, and direct escalation channels to remove fake, defamatory, or guideline-violating reviews.",
+    title: "Negative Review Removal",
+    desc: "We identify reviews that breach Indeed's community guidelines — including fake accounts, defamatory content, and competitor-placed reviews — and submit targeted removal requests.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
     ),
   },
   {
     step: "03",
-    title: "TrustScore Improvement",
-    desc: "We implement ethical strategies to generate verified positive reviews from real customers, steadily improving your TrustScore and public perception.",
+    title: "Employer Response Management",
+    desc: "We craft professional, brand-appropriate responses to negative reviews on your behalf — showing candidates that you listen, value feedback, and actively work to improve.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
     ),
   },
   {
     step: "04",
-    title: "Monitoring & Protection",
-    desc: "After improvement, we continuously monitor your Trustpilot profile for new fake reviews and respond swiftly — keeping your hard-earned reputation protected.",
+    title: "Positive Review Generation",
+    desc: "We implement Indeed-compliant strategies to encourage satisfied employees to leave authentic positive reviews — improving your overall rating and employer brand score.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
   },
 ];
 
-const typesOfContent = [
+const reviewTypes = [
   {
-    title: "Fake & Bot Reviews",
-    desc: "Reviews generated by bots or posted by individuals with no genuine customer relationship are flagged and removed via Trustpilot's reporting and legal processes.",
+    title: "Fake & Competitor Reviews",
+    desc: "Fabricated reviews from fake accounts or competitor-placed attacks are identified using pattern analysis and removed via Indeed's enforcement process.",
   },
   {
-    title: "Defamatory Reviews",
-    desc: "Reviews containing false statements of fact are targeted for removal via legal takedown notices sent directly to Trustpilot's trust and safety team.",
+    title: "Defamatory Employee Reviews",
+    desc: "Reviews containing false factual claims that damage your company's reputation are addressed through Indeed's legal removal channels.",
   },
   {
-    title: "Guideline-Violating Reviews",
-    desc: "Reviews that breach Trustpilot's content guidelines — including off-topic content, threats, and personal attacks — are escalated for removal.",
+    title: "Spam & Duplicate Reviews",
+    desc: "Coordinated spam campaigns with duplicate or near-duplicate negative content are flagged and removed using evidence-based submissions.",
   },
   {
-    title: "Negative Review Management",
-    desc: "We craft professional public responses to genuine negative reviews that demonstrate accountability and protect your brand's credibility to future readers.",
+    title: "Outdated Negative Feedback",
+    desc: "Old reviews that no longer reflect your company's current culture are addressed through professional response strategy and positive content suppression.",
   },
 ];
 
 const whyUs = [
   {
-    title: "Trustpilot Platform Expertise",
-    desc: "We understand Trustpilot's review guidelines, flagging processes, and legal takedown pathways — maximizing the success rate of every removal request.",
+    title: "Indeed Platform Expertise",
+    desc: "We know Indeed's employer review policies and enforcement mechanisms in depth — deploying the right arguments to maximise removal success rates.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
-    title: "Fast Turnaround",
-    desc: "We prioritize urgent reputation threats and pursue every available escalation path to resolve your case as quickly as possible.",
+    title: "Recruitment Brand Focus",
+    desc: "We understand the direct link between your Indeed reputation and your recruitment performance — and we optimise for outcomes that improve hiring, not just ratings.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
-    title: "Legal & Ethical Methods",
-    desc: "All our strategies fully comply with Trustpilot's terms of service and applicable law. We never use manipulation or fake reviews to inflate scores.",
+    title: "Legal-Grade Removal",
+    desc: "All removals are executed through legitimate platform policies and legal routes. No unethical tactics that could put your employer account at risk.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
   },
   {
-    title: "Complete Confidentiality",
-    desc: "Your business identity and all case details are kept strictly confidential. We handle every Trustpilot case discreetly and professionally.",
+    title: "Full Confidentiality",
+    desc: "Your case details and company information are kept strictly confidential throughout. Candidates and employees will never know professional management is in place.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
     ),
@@ -128,39 +128,39 @@ const whyUs = [
 
 const faqs = [
   {
-    q: "How long does it take to remove a fake Trustpilot review?",
-    a: "Most Trustpilot review removals are processed within 7–21 business days depending on the review type and escalation required. We prioritize urgent cases for faster resolution.",
+    q: "Can Indeed company reviews be removed?",
+    a: "Yes — reviews that violate Indeed's community guidelines, including fake accounts, defamatory content, and spam, can be removed. We identify violations and submit the strongest possible case to Indeed's trust and safety team.",
   },
   {
-    q: "Can you remove reviews posted by someone I don't know?",
-    a: "Yes. We use Trustpilot's flagging and reporting mechanisms along with legal takedown notices targeting both the reviewer and Trustpilot directly — no prior relationship with the reviewer is needed.",
+    q: "How long does Indeed review removal take?",
+    a: "Most removals are processed within 14–30 days. Cases with clear policy violations are often resolved faster. We update you regularly throughout the process.",
   },
   {
-    q: "Will improving my Trustpilot score affect my Google ranking?",
-    a: "Yes. Trustpilot star ratings often appear directly in Google search results as rich snippets. A higher TrustScore improves click-through rates and can positively influence your overall SEO.",
+    q: "Do you offer ongoing Indeed management?",
+    a: "Yes. Our monthly Indeed management packages cover ongoing review monitoring, response management, and positive review generation to keep your profile performing at its best.",
   },
   {
-    q: "What happens if new fake reviews appear after removal?",
-    a: "We provide ongoing monitoring and will escalate new fraudulent reviews as they appear. We can also advise on legal options for persistent or coordinated review attacks.",
+    q: "Will improving my Indeed rating actually increase applications?",
+    a: "Yes — Indeed's data shows that companies with higher ratings and actively managed profiles receive significantly more quality applications. A better profile directly improves your recruitment funnel.",
   },
   {
-    q: "Do you work with businesses outside India?",
-    a: "Yes. We manage Trustpilot reputations for businesses across the UK, Europe, North America, Australia, and beyond — not just India.",
+    q: "Can you help if reviews seem genuine but damaging?",
+    a: "Absolutely. For reviews that may be genuine, we focus on professional response strategy and positive review generation to improve your overall profile impression and offset the impact of any negative feedback.",
   },
 ];
 
 const testimonials = [
   {
-    name: "Arjun Kapoor",
-    text: "Our Trustpilot page was being targeted by fake 1-star reviews from competitors. The team identified and removed them systematically. Our TrustScore went from 2.8 to 4.5. Exceptional work.",
+    name: "Ankit Sharma",
+    text: "Our Indeed rating dropped to 2.8 after a disgruntled ex-employee campaign. The team removed the fake reviews and we're back to 4.1. Applications have increased by over 60% since.",
   },
   {
-    name: "Sunita Rao",
-    text: "A coordinated fake review campaign nearly destroyed our brand. Build Brand Better removed the reviews and helped us build a genuine review base. Highly professional team.",
+    name: "Sonia Kapoor",
+    text: "The response management service was a revelation — professional, empathetic responses that actually turned some negative reviews into positive impressions for candidates reading them.",
   },
   {
-    name: "Rajesh Pillai",
-    text: "They not only removed the defamatory reviews but also crafted professional responses to legitimate complaints. Our customer trust has been completely restored.",
+    name: "Vikram Bose",
+    text: "Expert team with deep knowledge of Indeed's platform. They handled our reputation recovery completely and the improvement in both our rating and application quality was remarkable.",
   },
 ];
 
@@ -170,11 +170,14 @@ const publishers = [
 
 /* ─── Animation Components ───────────────────────────────────────────────── */
 
-function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) {
+function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.unobserve(entry.target); } }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.unobserve(entry.target); } },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
@@ -187,13 +190,13 @@ function RevealOnScroll({ children, delay = 0, className = "" }: { children: Rea
 
 /* ─── Page ──────────────────────────────────────────────────────────────── */
 
-export default function TrustpilotReputationManagementPage() {
+export default function IndeedReputationPage() {
   return (
     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       <Topbar />
       <Navbar />
 
-      {/* ── HERO ──────────────────────────────────────────────────────────── */}
+      {/* ── HERO ─────────────────────────────────────────────────────── */}
       <section className="hero-bg relative overflow-hidden bg-zinc-950 premium-section-dark border-b border-zinc-800/50">
         <div className="hero-ambient hero-ambient-blue opacity-40 top-[-10%] right-[-5%]" />
         <div className="hero-ambient hero-ambient-gold opacity-20 bottom-[-10%] left-[-10%]" />
@@ -206,33 +209,38 @@ export default function TrustpilotReputationManagementPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
                 </span>
-                Trustpilot Reputation Management
+                Indeed Reputation Management
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Protect & Improve Your <span className="text-gradient-gold">Trustpilot TrustScore</span>
+                Best Indeed Reputation Management Company in <span className="text-gradient-gold">Delhi, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialists manage your Trustpilot reputation — removing fake reviews, boosting your TrustScore, and protecting your brand credibility with fully legal and ethical methods.
+                Transform your Indeed employer profile and attract top talent. We remove fake and damaging reviews, manage professional responses, and build the strong Indeed reputation your hiring success depends on.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
                   <li key={b} className="flex items-center gap-3 text-white/80 text-sm">
                     <span className="w-5 h-5 rounded-full bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-brand-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+                      <svg className="w-3 h-3 text-brand-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
                     </span>
                     {b}
                   </li>
                 ))}
               </ul>
               <div className="flex flex-wrap gap-4">
-                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Improve My TrustScore Now</Link>
-                <a href="tel:+918882788412" className="btn-outline border-zinc-700 text-zinc-300 hover:text-white hover:border-white px-8 py-3.5">Call Us Now</a>
+                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Improve My Indeed Profile</Link>
+                <a href="tel:+919971687251" className="btn-outline border-zinc-700 text-zinc-300 hover:text-white hover:border-white px-8 py-3.5">Call Us Now</a>
               </div>
             </RevealOnScroll>
           </div>
           <RevealOnScroll delay={200}>
             <div className="sticky top-24">
-              <div className="glass-panel bg-zinc-900/80 backdrop-blur-md border border-zinc-800 rounded-3xl p-8 shadow-2xl">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10" />
+              <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
+                <div className="text-center mb-8">
+                  <p className="section-label text-brand-gold mb-2 justify-center">Win the War for Talent</p>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Indeed reputation management that gets you better hires</h3>
+                </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
                     <div key={s.label} className="text-center p-4 rounded-2xl bg-white/5 border border-white/10">
@@ -242,8 +250,8 @@ export default function TrustpilotReputationManagementPage() {
                   ))}
                 </div>
                 <div className="space-y-4">
-                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Request Trustpilot Management</Link>
-                  <a href="tel:+918882788412" className="btn-outline w-full text-center block border-zinc-700 text-zinc-300 hover:text-white hover:border-white py-4">Call: +9188827 88412</a>
+                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Request Indeed Management</Link>
+                  <a href="tel:+919971687251" className="btn-outline w-full text-center block border-zinc-700 text-zinc-300 hover:text-white hover:border-white py-4">Call: +91 99716 87251</a>
                 </div>
               </div>
             </div>
@@ -251,27 +259,22 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── PUBLISHERS ──────────────────────────────────────────────────── */}
-      <section className="py-10 px-4 bg-zinc-50 border-b border-zinc-200 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-center text-[0.65rem] text-zinc-400 uppercase tracking-[0.2em] font-bold mb-6">As Featured In</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 items-center">
-            {publishers.map((p) => (
-              <span key={p} className="text-zinc-400 text-[0.7rem] font-bold uppercase tracking-widest hover:text-zinc-600 transition-colors">{p}</span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── IMPACT ──────────────────────────────────────────────────── */}
+      {/* ── WHY IT MATTERS ───────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <RevealOnScroll>
             <div>
               <p className="section-label mb-2">Why It Matters</p>
-              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">The Real Cost of a <span className="heading-script text-brand-blue">Damaged TrustScore</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Trustpilot is one of the world's most trusted review platforms. A low TrustScore or wave of fake negative reviews doesn't just hurt your feelings — it directly kills conversions and revenue every day it remains unaddressed.</p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Assessment</Link>
+              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
+                How a Poor Indeed Profile <span className="heading-script text-brand-blue">Costs You Talent</span>
+              </h2>
+              <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
+                Indeed is India's most-used job platform. Your company profile is the first impression millions of active job seekers get of your business. A damaged profile means fewer applications, lower-quality hires, and a higher cost of recruitment.
+              </p>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
+                Our team specialises in restoring and strengthening Indeed profiles for companies across Delhi, India, and beyond — delivering measurable improvements in both profile rating and recruitment outcomes.
+              </p>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Profile Audit</Link>
             </div>
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
@@ -290,7 +293,7 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── PROCESS ───────────────────────────────────────────────────── */}
+      {/* ── SERVICES ─────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden z-0">
         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -298,13 +301,15 @@ export default function TrustpilotReputationManagementPage() {
             <div className="text-center max-w-2xl mx-auto mb-16">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full bg-white border border-zinc-200 shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse" />
-                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Process</p>
+                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">What We Do</p>
               </div>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">How We <span className="heading-script text-brand-blue">Manage Your Trustpilot</span> Reputation</h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
+                Our Indeed <span className="heading-script text-brand-blue">Reputation Services</span>
+              </h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {processSteps.map((s, i) => (
+            {services.map((s, i) => (
               <RevealOnScroll key={s.step} delay={i * 100}>
                 <div className="card-premium-hover group bg-white border border-zinc-200 rounded-3xl p-8 flex flex-col h-full shadow-sm relative overflow-hidden">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-blue to-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
@@ -321,24 +326,28 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── TYPES ─────────────────────────────────────────────────────── */}
+      {/* ── REVIEW TYPES ─────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden z-0">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-16 items-center">
           <div className="premium-copy-panel">
             <RevealOnScroll>
               <p className="section-label mb-2">Our Capability</p>
-              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">Trustpilot Services <span className="heading-script text-brand-gold">We Provide</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">From removing fake reviews to ongoing profile management, our team handles every dimension of your Trustpilot presence with precision.</p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Protect My Trustpilot Today</Link>
+              <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
+                Reviews We <span className="heading-script text-brand-gold">Can Address</span>
+              </h2>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
+                From coordinated fake attacks to outdated feedback, our team deploys the precise strategy needed to address every type of harmful Indeed review.
+              </p>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Improve My Indeed Rating</Link>
             </RevealOnScroll>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 relative">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-gold/10 rounded-full blur-[80px] -z-10" />
-            {typesOfContent.map((t, i) => (
+            {reviewTypes.map((t, i) => (
               <RevealOnScroll key={t.title} delay={i * 100}>
                 <div className="group p-6 rounded-2xl border border-zinc-200 bg-white hover:border-brand-gold/40 hover:shadow-[0_10px_30px_-10px_rgba(194,148,10,0.15)] transition-all duration-300 relative z-10 h-full">
                   <div className="w-10 h-10 rounded-xl bg-zinc-50 border border-zinc-200 flex items-center justify-center text-brand-gold mb-4 shadow-sm">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
                   </div>
                   <h4 className="font-bold text-zinc-900 text-[0.95rem] mb-2 group-hover:text-brand-gold transition-colors">{t.title}</h4>
                   <p className="text-sm text-zinc-500 leading-relaxed">{t.desc}</p>
@@ -349,7 +358,7 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── WHY US ────────────────────────────────────────────────────── */}
+      {/* ── WHY US ───────────────────────────────────────────────────── */}
       <section className="py-24 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden premium-section-dark">
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none translate-x-1/3 -translate-y-1/3" />
@@ -359,7 +368,9 @@ export default function TrustpilotReputationManagementPage() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">Why We Are <span className="text-gradient-gold">Trusted Trustpilot Management Experts</span></h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
+                Why We Are <span className="text-gradient-gold">Delhi's Best Indeed Reputation Company</span>
+              </h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -376,24 +387,24 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ─────────────────────────────────────────────────────── */}
+      {/* ── TESTIMONIALS ─────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label mb-2 justify-center">Client Feedback</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Thousands of <span className="heading-script text-brand-blue">Clients Worldwide</span></h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Employers <span className="heading-script text-brand-blue">Across India</span></h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {testimonials.map((t, i) => (
               <RevealOnScroll key={t.name} delay={i * 100}>
                 <div className="premium-info-card bg-zinc-50 border border-zinc-200 rounded-3xl p-8 flex flex-col h-full hover:border-brand-blue/40 transition-all duration-400">
-                  <div className="flex text-brand-gold text-sm mb-5 gap-1 tracking-widest drop-shadow-sm">{"★★★★★".split("").map((s, idx) => <span key={idx}>{s}</span>)}</div>
+                  <div className="flex text-brand-gold text-sm mb-5 gap-1 tracking-widest">{"★★★★★".split("").map((s, idx) => <span key={idx}>{s}</span>)}</div>
                   <p className="text-zinc-600 text-[0.95rem] leading-relaxed mb-8 italic flex-1">&ldquo;{t.text}&rdquo;</p>
                   <div className="flex items-center gap-4 border-t border-zinc-200 pt-5 mt-auto">
                     <div className="w-10 h-10 rounded-full bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0">
-                      <span className="text-brand-blue text-xs font-bold tracking-wider">{t.name.substring(0, 2)}</span>
+                      <span className="text-brand-blue text-xs font-bold">{t.name.substring(0, 2)}</span>
                     </div>
                     <div>
                       <p className="font-bold text-zinc-900 text-sm leading-none mb-1">{t.name}</p>
@@ -407,7 +418,7 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────── */}
+      {/* ── FAQ ──────────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
         <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-white border-l border-zinc-100 pointer-events-none hidden lg:block" />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -415,9 +426,9 @@ export default function TrustpilotReputationManagementPage() {
             <RevealOnScroll>
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
-                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Trustpilot Management <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Trustpilot situation? Our experts offer a free confidential assessment with no obligation.</p>
-                <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
+                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Indeed Reputation <span className="heading-script text-brand-blue">FAQs</span></h2>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Indeed situation? Get a free profile audit and action plan — no obligation.</p>
+                <a href="tel:+919971687251" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
                 </a>
@@ -441,14 +452,16 @@ export default function TrustpilotReputationManagementPage() {
         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <RevealOnScroll>
             <div className="premium-copy-panel-dark">
-              <p className="section-label text-brand-gold mb-3">Act Fast</p>
-              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of a Low TrustScore Costs You <span className="heading-script text-brand-blue">Real Business</span></h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Trustpilot specialists will assess your profile and present a clear action plan — with no obligation.</p>
+              <p className="section-label text-brand-gold mb-3">Act Now</p>
+              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
+                Don&apos;t Let a Poor Indeed Profile <span className="heading-script text-brand-blue">Cost You Your Best Hires</span>
+              </h2>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free Indeed profile audit today. Our reputation experts will identify every issue and present a clear improvement plan — with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
-                  { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
+                  { label: "Direct Hotline (24/7)", value: "+91 99716-87251", href: "tel:+919971687251", icon: "📞" },
+                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>
