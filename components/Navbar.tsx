@@ -846,7 +846,7 @@ const navItems = [
         links: [
           { label: "Fake Review Removal", href: "/review-management/fake-review-removal" },
           { label: "Remove Google Business Review", href: "/business/remove-google-business-review" },
-          { label: "Remove Google Business Review", href: "/business/remove-google-business-review" },
+          { label: "Indeed Reputation Management", href: "/business/indeed-reputation-management" },
           { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
           { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
           { label: "Yelp Reputation Management", href: "/review-management/yelp-reputation-management" },
