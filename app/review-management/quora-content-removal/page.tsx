@@ -76,7 +76,7 @@
 //   {
 //     step: "02",
 //     title: "Profile Enhancement",
-//     desc: "Our team updates your Quora profile with professional details — an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
+//     desc: "Our team updates your Quora profile with professional details - an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
@@ -106,11 +106,11 @@
 // ];
 
 // const faqs = [
-//   { q: "Can Quora content really affect my Google search results?", a: "Yes — Quora answers frequently rank on Google's first page because the platform has extremely high domain authority. A harmful or defamatory Quora thread about your brand or name can appear in top results for months or years, directly damaging first impressions of your business." },
+//   { q: "Can Quora content really affect my Google search results?", a: "Yes - Quora answers frequently rank on Google's first page because the platform has extremely high domain authority. A harmful or defamatory Quora thread about your brand or name can appear in top results for months or years, directly damaging first impressions of your business." },
 //   { q: "Is it possible to remove a Quora answer about me without my account?", a: "Quora allows reporting of content that violates its policies, including defamation, harassment, and misinformation. Our team files properly documented reports on your behalf, escalates to Quora's trust and safety team, and pursues further legal routes if the platform does not comply." },
 //   { q: "How long does Quora content removal take?", a: "Simple removals for clear policy violations can take 1–3 weeks. More complex cases involving suppression or legal escalation may take 4–12 weeks. We provide regular progress updates so you're never left in the dark." },
-//   { q: "What if Quora refuses to remove the content?", a: "If direct removal is not achievable, we implement SEO suppression strategies — publishing optimized positive content across high-authority platforms to push the Quora thread beyond page one of Google, significantly reducing its visibility and impact." },
-//   { q: "Can you manage our ongoing Quora presence, not just remove content?", a: "Absolutely. We offer full Quora account management including profile optimization, answer creation, audience engagement, and continuous monitoring — building a strong, positive presence that proactively protects your reputation." },
+//   { q: "What if Quora refuses to remove the content?", a: "If direct removal is not achievable, we implement SEO suppression strategies - publishing optimized positive content across high-authority platforms to push the Quora thread beyond page one of Google, significantly reducing its visibility and impact." },
+//   { q: "Can you manage our ongoing Quora presence, not just remove content?", a: "Absolutely. We offer full Quora account management including profile optimization, answer creation, audience engagement, and continuous monitoring - building a strong, positive presence that proactively protects your reputation." },
 // ];
 
 // const testimonials = [
@@ -164,7 +164,7 @@
 //               <div className="w-9 h-9 rounded-lg bg-red-500/20 border border-red-400/30 flex items-center justify-center flex-shrink-0">
 //                 <span className="text-red-300 font-black text-sm">Q</span>
 //               </div>
-//               <p className="text-white/50 text-xs">Quora answers regularly rank on Google&apos;s <span className="text-white/80 font-semibold">first page</span> — negative content there is as damaging as a bad news article</p>
+//               <p className="text-white/50 text-xs">Quora answers regularly rank on Google&apos;s <span className="text-white/80 font-semibold">first page</span> - negative content there is as damaging as a bad news article</p>
 //             </div>
 //           </div>
 //           <div className="relative">
@@ -355,7 +355,7 @@
 //           <div>
 //             <p className="section-label text-brand-gold mb-3">Act Now</p>
 //             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">Don&apos;t Let Negative Quora Content Define Your Brand</h2>
-//             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">Schedule a free consultation. Our Quora removal experts will assess your situation, identify every harmful post, and present a clear action plan — no obligation.</p>
+//             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">Schedule a free consultation. Our Quora removal experts will assess your situation, identify every harmful post, and present a clear action plan - no obligation.</p>
 //             <div className="space-y-0 mb-8">
 //               {[{ label: "Hotline", value: "+9188827 88412", href: "tel:+918882788412" }, { label: "Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in" }, { label: "Location", value: "Shantipally, Behala, Kolkata - 700060", href: null }].map((item) => (
 //                 <div key={item.label} className="contact-info-item">
@@ -469,7 +469,7 @@ const managementMethods = [
   {
     step: "02",
     title: "Profile Enhancement",
-    desc: "Our team updates your Quora profile with professional details — an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
+    desc: "Our team updates your Quora profile with professional details - an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
@@ -499,11 +499,11 @@ const managementMethods = [
 ];
 
 const faqs = [
-  { q: "Can Quora content really affect my Google search results?", a: "Yes — Quora answers frequently rank on Google's first page because the platform has extremely high domain authority. A harmful or defamatory Quora thread about your brand or name can appear in top results for months or years, directly damaging first impressions of your business." },
+  { q: "Can Quora content really affect my Google search results?", a: "Yes - Quora answers frequently rank on Google's first page because the platform has extremely high domain authority. A harmful or defamatory Quora thread about your brand or name can appear in top results for months or years, directly damaging first impressions of your business." },
   { q: "Is it possible to remove a Quora answer about me without my account?", a: "Quora allows reporting of content that violates its policies, including defamation, harassment, and misinformation. Our team files properly documented reports on your behalf, escalates to Quora's trust and safety team, and pursues further legal routes if the platform does not comply." },
   { q: "How long does Quora content removal take?", a: "Simple removals for clear policy violations can take 1–3 weeks. More complex cases involving suppression or legal escalation may take 4–12 weeks. We provide regular progress updates so you're never left in the dark." },
-  { q: "What if Quora refuses to remove the content?", a: "If direct removal is not achievable, we implement SEO suppression strategies — publishing optimized positive content across high-authority platforms to push the Quora thread beyond page one of Google, significantly reducing its visibility and impact." },
-  { q: "Can you manage our ongoing Quora presence, not just remove content?", a: "Absolutely. We offer full Quora account management including profile optimization, answer creation, audience engagement, and continuous monitoring — building a strong, positive presence that proactively protects your reputation." },
+  { q: "What if Quora refuses to remove the content?", a: "If direct removal is not achievable, we implement SEO suppression strategies - publishing optimized positive content across high-authority platforms to push the Quora thread beyond page one of Google, significantly reducing its visibility and impact." },
+  { q: "Can you manage our ongoing Quora presence, not just remove content?", a: "Absolutely. We offer full Quora account management including profile optimization, answer creation, audience engagement, and continuous monitoring - building a strong, positive presence that proactively protects your reputation." },
 ];
 
 const testimonials = [
@@ -650,7 +650,7 @@ export default function QuoraContentRemovalPage() {
                     <span className="text-[#ff6a66] font-black text-lg">Q</span>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    Quora answers regularly rank on Google&apos;s <span className="text-white font-bold">first page</span> — negative content there is as damaging as a bad news article.
+                    Quora answers regularly rank on Google&apos;s <span className="text-white font-bold">first page</span> - negative content there is as damaging as a bad news article.
                   </p>
                 </div>
               </div>
@@ -951,7 +951,7 @@ export default function QuoraContentRemovalPage() {
                 Don&apos;t Let Negative Quora Content <span className="heading-script text-brand-blue">Define Your Brand</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation. Our Quora removal experts will assess your situation, identify every harmful post, and present a clear action plan — no obligation.
+                Schedule a free consultation. Our Quora removal experts will assess your situation, identify every harmful post, and present a clear action plan - no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

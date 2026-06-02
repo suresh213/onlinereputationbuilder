@@ -15,7 +15,7 @@
 // // // const services = [
 // // //   { icon: "👁️", title: "Monitor", desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites with powerful reputation management to identify reviews that can strengthen or damage your online reputation." },
 // // //   { icon: "🗑️", title: "Removal", desc: "No matter how good your products or services are, eventually you will have to deal with bad reviews. Our review management strategy identifies false and unfavorable reviews and flags them for direct platform removals." },
-// // //   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews — positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
+// // //   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews - positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
 // // //   { icon: "⭐", title: "Review Generation", desc: "We help you build a systematic process to generate more authentic positive reviews from your satisfied customers across all major platforms, boosting your overall rating and visibility." },
 // // //   { icon: "📣", title: "Client Outreach", desc: "Strategic outreach campaigns to encourage happy customers to share their experiences online. We make the process easy and natural so customers are happy to leave positive feedback." },
 // // //   { icon: "📊", title: "Analytics & Reporting", desc: "Detailed monthly reports on your review performance, sentiment trends, platform-by-platform analysis, and actionable insights to continuously improve your online reputation." },
@@ -23,10 +23,10 @@
 
 // // // const faqs = [
 // // //   { q: "Can you remove negative reviews from Google?", a: "Yes, we can help remove negative reviews that violate Google's content policies. We analyze the review, gather evidence, submit professional removal requests to Google, and follow up rigorously. For reviews that cannot be removed, we use suppression strategies to minimize their impact." },
-// // //   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously — including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
+// // //   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously - including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
 // // //   { q: "Can fake reviews be removed from Glassdoor or Trustpilot?", a: "Yes. We have experience working directly with Glassdoor, Trustpilot, and other review platforms to flag and remove fake, defamatory, or policy-violating reviews. Each platform has its own process, and our team handles all the communication on your behalf." },
 // // //   { q: "How long does it take to improve my review rating?", a: "With our review generation and removal strategies, most clients see measurable improvement in their average rating within 30-60 days. A comprehensive reputation turnaround typically takes 3-6 months depending on the volume of negative reviews and your industry." },
-// // //   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews — positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
+// // //   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews - positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
 // // // ];
 
 // // // // Interactive Rating Distribution Widget
@@ -266,7 +266,7 @@
 // // //             <div className="space-y-4">
 // // //               <div className="bg-zinc-50 rounded p-4 border border-zinc-200">
 // // //                 <h4 className="font-bold text-zinc-900 text-xs uppercase tracking-wider mb-1">Respond to Reviews</h4>
-// // //                 <p className="text-xs text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say — it shows you care about every customer experience.</p>
+// // //                 <p className="text-xs text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say - it shows you care about every customer experience.</p>
 // // //               </div>
 // // //               <div className="bg-zinc-50 rounded p-4 border border-zinc-200">
 // // //                 <h4 className="font-bold text-zinc-900 text-xs uppercase tracking-wider mb-1">Get More Positive Reviews</h4>
@@ -415,7 +415,7 @@
 // // const services = [
 // //   { icon: "👁️", title: "Monitor", desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites with powerful reputation management to identify reviews that can strengthen or damage your online reputation." },
 // //   { icon: "🗑️", title: "Removal", desc: "No matter how good your products or services are, eventually you will have to deal with bad reviews. Our review management strategy identifies false and unfavorable reviews and flags them for direct platform removals." },
-// //   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews — positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
+// //   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews - positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
 // //   { icon: "⭐", title: "Review Generation", desc: "We help you build a systematic process to generate more authentic positive reviews from your satisfied customers across all major platforms, boosting your overall rating and visibility." },
 // //   { icon: "📣", title: "Client Outreach", desc: "Strategic outreach campaigns to encourage happy customers to share their experiences online. We make the process easy and natural so customers are happy to leave positive feedback." },
 // //   { icon: "📊", title: "Analytics & Reporting", desc: "Detailed monthly reports on your review performance, sentiment trends, platform-by-platform analysis, and actionable insights to continuously improve your online reputation." },
@@ -423,10 +423,10 @@
 
 // // const faqs = [
 // //   { q: "Can you remove negative reviews from Google?", a: "Yes, we can help remove negative reviews that violate Google's content policies. We analyze the review, gather evidence, submit professional removal requests to Google, and follow up rigorously. For reviews that cannot be removed, we use suppression strategies to minimize their impact." },
-// //   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously — including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
+// //   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously - including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
 // //   { q: "Can fake reviews be removed from Glassdoor or Trustpilot?", a: "Yes. We have experience working directly with Glassdoor, Trustpilot, and other review platforms to flag and remove fake, defamatory, or policy-violating reviews. Each platform has its own process, and our team handles all the communication on your behalf." },
 // //   { q: "How long does it take to improve my review rating?", a: "With our review generation and removal strategies, most clients see measurable improvement in their average rating within 30-60 days. A comprehensive reputation turnaround typically takes 3-6 months depending on the volume of negative reviews and your industry." },
-// //   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews — positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
+// //   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews - positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
 // // ];
 
 // // // Interactive Rating Distribution Widget (Upgraded to Premium UI)
@@ -681,7 +681,7 @@
 // //             <div className="space-y-4">
 // //               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200">
 // //                 <h4 className="font-bold text-zinc-900 text-sm mb-2">Respond to Reviews</h4>
-// //                 <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say — it shows you care about every customer experience.</p>
+// //                 <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say - it shows you care about every customer experience.</p>
 // //               </div>
 // //               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200">
 // //                 <h4 className="font-bold text-zinc-900 text-sm mb-2">Get More Positive Reviews</h4>
@@ -853,7 +853,7 @@
 // const services = [
 //   { icon: "👁️", title: "Monitor", desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites with powerful reputation management to identify reviews that can strengthen or damage your online reputation." },
 //   { icon: "🗑️", title: "Removal", desc: "No matter how good your products or services are, eventually you will have to deal with bad reviews. Our review management strategy identifies false and unfavorable reviews and flags them for direct platform removals." },
-//   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews — positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
+//   { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews - positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
 //   { icon: "⭐", title: "Review Generation", desc: "We help you build a systematic process to generate more authentic positive reviews from your satisfied customers across all major platforms, boosting your overall rating and visibility." },
 //   { icon: "📣", title: "Client Outreach", desc: "Strategic outreach campaigns to encourage happy customers to share their experiences online. We make the process easy and natural so customers are happy to leave positive feedback." },
 //   { icon: "📊", title: "Analytics & Reporting", desc: "Detailed monthly reports on your review performance, sentiment trends, platform-by-platform analysis, and actionable insights to continuously improve your online reputation." },
@@ -861,10 +861,10 @@
 
 // const faqs = [
 //   { q: "Can you remove negative reviews from Google?", a: "Yes, we can help remove negative reviews that violate Google's content policies. We analyze the review, gather evidence, submit professional removal requests to Google, and follow up rigorously. For reviews that cannot be removed, we use suppression strategies to minimize their impact." },
-//   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously — including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
+//   { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously - including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
 //   { q: "Can fake reviews be removed from Glassdoor or Trustpilot?", a: "Yes. We have experience working directly with Glassdoor, Trustpilot, and other review platforms to flag and remove fake, defamatory, or policy-violating reviews. Each platform has its own process, and our team handles all the communication on your behalf." },
 //   { q: "How long does it take to improve my review rating?", a: "With our review generation and removal strategies, most clients see measurable improvement in their average rating within 30-60 days. A comprehensive reputation turnaround typically takes 3-6 months depending on the volume of negative reviews and your industry." },
-//   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews — positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
+//   { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews - positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
 // ];
 
 // // Interactive Rating Distribution Widget (Upgraded to a distinct glass panel look)
@@ -1135,7 +1135,7 @@
 //                   <span className="w-8 h-8 rounded-full bg-brand-blue/10 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-colors">💬</span>
 //                   <h4 className="font-bold text-zinc-900 text-sm uppercase tracking-wider">Strategic Responses</h4>
 //                 </div>
-//                 <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say — it shows you care about every customer experience.</p>
+//                 <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say - it shows you care about every customer experience.</p>
 //               </div>
 //               <div className="premium-info-card group bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:border-brand-gold transition-colors">
 //                 <div className="flex items-center gap-3 mb-3">
@@ -1320,7 +1320,7 @@ const platformLogos = [
 const services = [
   { icon: "👁️", title: "Monitor", desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites with powerful reputation management to identify reviews that can strengthen or damage your online reputation." },
   { icon: "🗑️", title: "Removal", desc: "No matter how good your products or services are, eventually you will have to deal with bad reviews. Our review management strategy identifies false and unfavorable reviews and flags them for direct platform removals." },
-  { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews — positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
+  { icon: "💬", title: "Response Automation", desc: "We craft professional, empathetic responses to all reviews - positive and negative. Timely, thoughtful responses show customers you care and can turn a dissatisfied reviewer into a loyal advocate for your brand." },
   { icon: "⭐", title: "Review Generation", desc: "We help you build a systematic process to generate more authentic positive reviews from your satisfied customers across all major platforms, boosting your overall rating and visibility." },
   { icon: "📣", title: "Client Outreach", desc: "Strategic outreach campaigns to encourage happy customers to share their experiences online. We make the process easy and natural so customers are happy to leave positive feedback." },
   { icon: "📊", title: "Analytics & Reporting", desc: "Detailed monthly reports on your review performance, sentiment trends, platform-by-platform analysis, and actionable insights to continuously improve your online reputation." },
@@ -1328,10 +1328,10 @@ const services = [
 
 const faqs = [
   { q: "Can you remove negative reviews from Google?", a: "Yes, we can help remove negative reviews that violate Google's content policies. We analyze the review, gather evidence, submit professional removal requests to Google, and follow up rigorously. For reviews that cannot be removed, we use suppression strategies to minimize their impact." },
-  { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously — including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
+  { q: "How do you manage reviews across multiple platforms?", a: "We use advanced reputation management tools to monitor and manage reviews across all major platforms simultaneously - including Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ others. You get a unified dashboard view of your entire review ecosystem." },
   { q: "Can fake reviews be removed from Glassdoor or Trustpilot?", a: "Yes. We have experience working directly with Glassdoor, Trustpilot, and other review platforms to flag and remove fake, defamatory, or policy-violating reviews. Each platform has its own process, and our team handles all the communication on your behalf." },
   { q: "How long does it take to improve my review rating?", a: "With our review generation and removal strategies, most clients see measurable improvement in their average rating within 30-60 days. A comprehensive reputation turnaround typically takes 3-6 months depending on the volume of negative reviews and your industry." },
-  { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews — positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
+  { q: "Do you help with responding to reviews?", a: "Absolutely. Our team crafts professional, brand-consistent responses to all reviews - positive and negative. Thoughtful responses demonstrate excellent customer service and can significantly improve how potential customers perceive your brand." },
 ];
 
 // Utilizing reliable Favicon API to bypass AdBlockers, retaining all original names
@@ -1674,7 +1674,7 @@ export default function ReviewManagementPage() {
                   <span className="w-8 h-8 rounded-full bg-brand-blue/10 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-colors">💬</span>
                   <h4 className="font-bold text-zinc-900 text-sm uppercase tracking-wider">Respond to Reviews</h4>
                 </div>
-                <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say — it shows you care about every customer experience.</p>
+                <p className="text-sm text-zinc-500 leading-relaxed">Reply to both positive and negative reviews. Potential customers want to see what you have to say - it shows you care about every customer experience.</p>
               </div>
               <div className="premium-info-card group bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:border-brand-gold transition-colors">
                 <div className="flex items-center gap-3 mb-3">

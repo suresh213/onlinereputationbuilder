@@ -197,7 +197,7 @@ export default function CamModelContentRemovalPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Prevent, Protect, and Remove — <span className="text-gradient-gold">Efficient Content Management</span>
+                Prevent, Protect, and Remove - <span className="text-gradient-gold">Efficient Content Management</span>
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -538,7 +538,7 @@ export default function CamModelContentRemovalPage() {
                 Don&apos;t Let Stolen Content <span className="heading-script text-brand-blue">Damage Your Brand</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

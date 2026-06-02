@@ -265,7 +265,7 @@ export default function ContactPage() {
                     <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1.5">Call or WhatsApp</p>
                     <p className="text-white font-heading font-bold text-xl leading-relaxed mb-1">+91 8882788412</p>
                     <p className="text-zinc-400 text-xs mt-2">Available Mon-Sat | 10 AM - 8 PM IST</p>
-                    <p className="text-zinc-500 text-xs italic mt-1">Text us outside hours — we&apos;ll hit you back soon!</p>
+                    <p className="text-zinc-500 text-xs italic mt-1">Text us outside hours - we&apos;ll hit you back soon!</p>
                   </div>
                 </a>
               </RevealOnScroll>

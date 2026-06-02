@@ -57,7 +57,7 @@ const importanceReasons = [
   {
     step: "04",
     title: "Rebuild Audience Confidence",
-    desc: "Effective Facebook reputation management goes beyond removing negative content — it involves building a positive presence that restores confidence. We help you regain control of your Facebook narrative and maintain it long-term.",
+    desc: "Effective Facebook reputation management goes beyond removing negative content - it involves building a positive presence that restores confidence. We help you regain control of your Facebook narrative and maintain it long-term.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
@@ -67,7 +67,7 @@ const importanceReasons = [
 ];
 
 const expertProcess = [
-  { title: "Facebook Audit & Assessment", desc: "We conduct a comprehensive audit of your Facebook presence — pages, groups, reviews, posts, and comments — to identify all harmful content and prioritise action based on impact and urgency." },
+  { title: "Facebook Audit & Assessment", desc: "We conduct a comprehensive audit of your Facebook presence - pages, groups, reviews, posts, and comments - to identify all harmful content and prioritise action based on impact and urgency." },
   { title: "Meta Platform Reporting", desc: "Our team files detailed reports with Meta's content review teams, citing specific community standards violations and building strong documentation for each removal case." },
   { title: "Negative Review Management", desc: "We challenge fake, misleading, or guideline-violating reviews through Meta's formal dispute process, with documentation and contextual evidence to support each case." },
   { title: "Legal Escalation", desc: "For defamatory posts or persistent harassment, our legal partners issue formal cease-and-desist letters, file defamation claims, and pursue court-ordered content removal where necessary." },
@@ -76,10 +76,10 @@ const expertProcess = [
 
 const faqs = [
   { q: "What types of Facebook content can you remove?", a: "We handle removal of defamatory posts, fake reviews, harassment, impersonation pages, misinformation, hate speech, and any content violating Meta's community standards. We also assist with suppression of damaging content that is technically policy-compliant." },
-  { q: "Can you remove negative Facebook reviews?", a: "Yes — we challenge fake, misleading, or guideline-violating reviews through Meta's formal dispute process. For genuine negative reviews that cannot be removed, we implement response strategies and reputation-building campaigns to mitigate their impact." },
+  { q: "Can you remove negative Facebook reviews?", a: "Yes - we challenge fake, misleading, or guideline-violating reviews through Meta's formal dispute process. For genuine negative reviews that cannot be removed, we implement response strategies and reputation-building campaigns to mitigate their impact." },
   { q: "How long does Facebook content removal take?", a: "Standard policy-violation removals take 5–14 business days depending on the type of content. Legal escalation cases may take 3–6 weeks. We implement suppression and reputation-building strategies in parallel throughout the process." },
-  { q: "Can you remove posts from Facebook groups or pages you don't control?", a: "Yes — this is one of the most common cases we handle. We build documented removal requests citing Meta's policies and submit formal reports on your behalf. For content Meta refuses to remove, we pursue legal escalation and deploy suppression strategies." },
-  { q: "Does Facebook reputation management improve my Google search results?", a: "Yes — Facebook pages and posts often rank in Google search results for brand names. Removing negative content and building positive Facebook presence directly improves how your brand appears in search. We track search rankings as part of our reporting." },
+  { q: "Can you remove posts from Facebook groups or pages you don't control?", a: "Yes - this is one of the most common cases we handle. We build documented removal requests citing Meta's policies and submit formal reports on your behalf. For content Meta refuses to remove, we pursue legal escalation and deploy suppression strategies." },
+  { q: "Does Facebook reputation management improve my Google search results?", a: "Yes - Facebook pages and posts often rank in Google search results for brand names. Removing negative content and building positive Facebook presence directly improves how your brand appears in search. We track search rankings as part of our reporting." },
 ];
 
 const testimonials = [
@@ -155,7 +155,7 @@ export default function FacebookReputationPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Negative <span className="text-gradient-gold">Facebook Posts</span> — Expert Reputation Management in Delhi
+                Remove Negative <span className="text-gradient-gold">Facebook Posts</span> - Expert Reputation Management in Delhi
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -186,7 +186,7 @@ export default function FacebookReputationPage() {
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-[#1877f2]/20 border border-[#1877f2]/30 flex items-center justify-center flex-shrink-0 shadow-inner text-lg">👥</div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    With <span className="text-white font-bold">3+ billion monthly users</span>, Facebook is where your reputation is most visible — and most vulnerable.
+                    With <span className="text-white font-bold">3+ billion monthly users</span>, Facebook is where your reputation is most visible - and most vulnerable.
                   </p>
                 </div>
               </div>
@@ -250,7 +250,7 @@ export default function FacebookReputationPage() {
                   Why Negative Facebook Posts Are <span className="heading-script text-brand-blue">So Harmful</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
-                  Facebook is often the first place people research a business before making a purchase decision. Negative posts, fake reviews, and defamatory content on your page are visible to millions — and they influence buyer behaviour directly.
+                  Facebook is often the first place people research a business before making a purchase decision. Negative posts, fake reviews, and defamatory content on your page are visible to millions - and they influence buyer behaviour directly.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                   Meta&apos;s content policies are complex and navigating removal requests without expertise typically results in rejections. Without professional assistance, harmful Facebook content can remain visible for months or years, compounding reputation damage.

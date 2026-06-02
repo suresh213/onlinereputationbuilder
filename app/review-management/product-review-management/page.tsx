@@ -213,7 +213,7 @@ const services = [
   },
   {
     title: "Fake Review Removal",
-    desc: "Policy-violating reviews — spam, bot-generated, competitor sabotage — are flagged and escalated for permanent removal.",
+    desc: "Policy-violating reviews - spam, bot-generated, competitor sabotage - are flagged and escalated for permanent removal.",
     icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
   },
   {
@@ -233,14 +233,14 @@ const services = [
   },
   {
     title: "CRM & E-commerce Integration",
-    desc: "Seamless integration with Shopify, WooCommerce, Salesforce, and more — making review management part of your existing workflow.",
+    desc: "Seamless integration with Shopify, WooCommerce, Salesforce, and more - making review management part of your existing workflow.",
     icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>,
   },
 ];
 
 const processes = [
-  { step: "01", title: "Platform Audit", desc: "We map your entire review presence across all relevant platforms — identifying gaps, fake reviews, unanswered feedback, and rating risks." },
-  { step: "02", title: "Strategy Design", desc: "A custom roadmap is created for your industry, customer base, and platform mix — covering removal, response, and generation goals." },
+  { step: "01", title: "Platform Audit", desc: "We map your entire review presence across all relevant platforms - identifying gaps, fake reviews, unanswered feedback, and rating risks." },
+  { step: "02", title: "Strategy Design", desc: "A custom roadmap is created for your industry, customer base, and platform mix - covering removal, response, and generation goals." },
   { step: "03", title: "Active Management", desc: "Ongoing flagging of policy-violating reviews, professional response drafting, and review generation campaign execution." },
   { step: "04", title: "Amplification", desc: "Positive reviews are strategically highlighted across your marketing channels to maximize social proof impact." },
   { step: "05", title: "Monthly Review & Optimise", desc: "Regular strategy reviews ensure we adapt to platform algorithm changes, seasonal trends, and your evolving product portfolio." },
@@ -259,9 +259,9 @@ const includedFeatures = [
 
 const faqs = [
   { q: "Which platforms do you manage product reviews on?", a: "We manage reviews across all major platforms including Amazon, Flipkart, Google Shopping, Trustpilot, G2, Capterra, Facebook, and niche industry-specific review sites. If your customers leave reviews there, we'll monitor and manage it." },
-  { q: "How do you generate more positive reviews ethically?", a: "We deploy structured post-purchase email and SMS campaigns that invite satisfied customers to share their experience. All campaigns are platform-compliant and never offer incentives in exchange for reviews — only a frictionless path to share genuine feedback." },
+  { q: "How do you generate more positive reviews ethically?", a: "We deploy structured post-purchase email and SMS campaigns that invite satisfied customers to share their experience. All campaigns are platform-compliant and never offer incentives in exchange for reviews - only a frictionless path to share genuine feedback." },
   { q: "Can you remove negative product reviews?", a: "Where a review violates a platform's terms of service (fake, spam, defamatory, or unverified), we flag and escalate for removal. For genuine negative feedback, we focus on professional public responses, resolution workflows, and increasing the volume of positive reviews to improve your overall rating." },
-  { q: "What kind of reporting do I receive?", a: "You receive a monthly reputation report covering overall rating trends, review volume, sentiment breakdown, removal outcomes, and campaign performance — all presented in a clear, executive-ready format." },
+  { q: "What kind of reporting do I receive?", a: "You receive a monthly reputation report covering overall rating trends, review volume, sentiment breakdown, removal outcomes, and campaign performance - all presented in a clear, executive-ready format." },
   { q: "Do you work with multi-location or multi-product businesses?", a: "Yes. We have dedicated workflows for enterprise clients managing dozens of product lines or store locations. Your account manager will tailor a scalable monitoring and response strategy for your specific structure." },
 ];
 
@@ -331,7 +331,7 @@ export default function ProductReviewsManagementPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Over 92% of buyers read product reviews before purchasing. We help you monitor, manage, and amplify reviews across every major platform — so your products earn the trust they deserve.
+                Over 92% of buyers read product reviews before purchasing. We help you monitor, manage, and amplify reviews across every major platform - so your products earn the trust they deserve.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-10">
@@ -432,7 +432,7 @@ export default function ProductReviewsManagementPage() {
                 Everything You Need to <span className="heading-script text-brand-blue">Master</span> Product Reviews
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-                From real-time monitoring to strategic response — we manage the full lifecycle of your product's online reputation.
+                From real-time monitoring to strategic response - we manage the full lifecycle of your product's online reputation.
               </p>
             </div>
           </RevealOnScroll>
@@ -574,7 +574,7 @@ export default function ProductReviewsManagementPage() {
                 Ready to Turn Reviews into <span className="heading-script text-brand-blue">Revenue?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Get a free 14-point review audit across your top platforms. Our experts will assess your situation and present a clear action plan — no commitment, no credit card required.
+                Get a free 14-point review audit across your top platforms. Our experts will assess your situation and present a clear action plan - no commitment, no credit card required.
               </p>
               
               <div className="space-y-6 border-t border-zinc-800/80 pt-8">

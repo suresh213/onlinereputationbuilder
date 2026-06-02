@@ -102,14 +102,14 @@
 //   },
 //   {
 //     label: "Business",
-//     desc: "Personal information businesses put online: people search sites, data breaches, tracking cookies, phone companies, credit cards, banks, and lenders — often without your explicit awareness.",
+//     desc: "Personal information businesses put online: people search sites, data breaches, tracking cookies, phone companies, credit cards, banks, and lenders - often without your explicit awareness.",
 //     icon: "🏢",
 //     accent: "brand-gold",
 //     accentCls: "border-l-brand-gold",
 //   },
 //   {
 //     label: "Government",
-//     desc: "Personal information put online by the government: public records, DMV files, and court cases — all legally visible but often aggregated in ways that create privacy risks.",
+//     desc: "Personal information put online by the government: public records, DMV files, and court cases - all legally visible but often aggregated in ways that create privacy risks.",
 //     icon: "🏛️",
 //     accent: "brand-blue",
 //     accentCls: "border-l-brand-blue",
@@ -161,7 +161,7 @@
 //   {
 //     name: "Kapil",
 //     role: "Entrepreneur",
-//     text: "They helped me take control of my online presence — removed negative content and helped me create a positive image on the web. I highly recommend them.",
+//     text: "They helped me take control of my online presence - removed negative content and helped me create a positive image on the web. I highly recommend them.",
 //     initials: "KA",
 //   },
 //   {
@@ -209,7 +209,7 @@
 //             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
 //               Virtually Everyone&apos;s{" "}
 //               <span className="text-brand-gold-light">Private Information</span>{" "}
-//               Can Be Found Online — Here&apos;s How to Stop It
+//               Can Be Found Online - Here&apos;s How to Stop It
 //             </h1>
 
 //             <p className="text-white/65 text-base mb-7 leading-relaxed">
@@ -326,7 +326,7 @@
 //                 What Kind of Data Is Present Online &amp; Why Is It There?
 //               </h2>
 //               <p className="text-zinc-500 leading-relaxed mb-5 text-sm">
-//                 Today, we do so many activities on the internet — from shopping to banking,
+//                 Today, we do so many activities on the internet - from shopping to banking,
 //                 from studying to entertainment, from socialising to learning. Keeping this in
 //                 mind, it is not a big deal to say that many marketing companies have our
 //                 personal information.
@@ -401,7 +401,7 @@
 //               We Will Help You with Our Best Strategies to Remove Personal Info
 //             </h2>
 //             <p className="text-zinc-400 text-sm mt-4 max-w-xl mx-auto leading-relaxed">
-//               Not only do we remove existing data — we help you establish good privacy habits
+//               Not only do we remove existing data - we help you establish good privacy habits
 //               so your information stays protected long-term.
 //             </p>
 //           </div>
@@ -472,13 +472,13 @@
 //             <p className="text-zinc-500 leading-relaxed mb-5 text-sm">
 //               Removing private information from the Internet can be a complex task. Not only
 //               do you need to learn the most effective strategies for deleting or altering your
-//               personal information — you also need to understand how this information gets
+//               personal information - you also need to understand how this information gets
 //               online in the first place.
 //             </p>
 //             <p className="text-zinc-500 leading-relaxed mb-8 text-sm">
 //               There are a number of steps involved in protecting your personal information; the
 //               best is to start by establishing good privacy habits, like watching what you
-//               share online. We are your Remove Private Info Partner — ready to offer
+//               share online. We are your Remove Private Info Partner - ready to offer
 //               complimentary consultations and provide you with full security.
 //             </p>
 
@@ -620,7 +620,7 @@
 //             </h2>
 //             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">
 //               Schedule a free consultation and let our privacy experts assess your current data
-//               exposure — identifying every risk and presenting a clear removal plan with no
+//               exposure - identifying every risk and presenting a clear removal plan with no
 //               obligation.
 //             </p>
 //             <div className="space-y-0 mb-8">
@@ -793,14 +793,14 @@ const dataSources = [
   },
   {
     label: "Business",
-    desc: "Personal information businesses put online: people search sites, data breaches, tracking cookies, phone companies, credit cards, banks, and lenders — often without your explicit awareness.",
+    desc: "Personal information businesses put online: people search sites, data breaches, tracking cookies, phone companies, credit cards, banks, and lenders - often without your explicit awareness.",
     icon: "🏢",
     accent: "brand-gold",
     accentCls: "border-l-brand-gold",
   },
   {
     label: "Government",
-    desc: "Personal information put online by the government: public records, DMV files, and court cases — all legally visible but often aggregated in ways that create privacy risks.",
+    desc: "Personal information put online by the government: public records, DMV files, and court cases - all legally visible but often aggregated in ways that create privacy risks.",
     icon: "🏛️",
     accent: "brand-blue",
     accentCls: "border-l-brand-blue",
@@ -852,7 +852,7 @@ const testimonials = [
   {
     name: "Kapil",
     role: "Entrepreneur",
-    text: "They helped me take control of my online presence — removed negative content and helped me create a positive image on the web. I highly recommend them.",
+    text: "They helped me take control of my online presence - removed negative content and helped me create a positive image on the web. I highly recommend them.",
     initials: "KA",
   },
   {
@@ -925,7 +925,7 @@ export default function RemovePrivateInfoPage() {
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.3rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Virtually Everyone&apos;s <span className="text-gradient-gold">Private Information</span> Can Be Found Online — Here&apos;s How to Stop It
+              Virtually Everyone&apos;s <span className="text-gradient-gold">Private Information</span> Can Be Found Online - Here&apos;s How to Stop It
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -1016,7 +1016,7 @@ export default function RemovePrivateInfoPage() {
                   What Kind of Data Is Present Online &amp; <span className="heading-script text-brand-blue">Why Is It There?</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
-                  Today, we do so many activities on the internet — from shopping to banking,
+                  Today, we do so many activities on the internet - from shopping to banking,
                   from studying to entertainment, from socialising to learning. Keeping this in
                   mind, it is not a big deal to say that many marketing companies have our
                   personal information.
@@ -1093,7 +1093,7 @@ export default function RemovePrivateInfoPage() {
                 We Will Help You with Our Best Strategies to <span className="heading-script text-brand-blue">Remove Personal Info</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
-                Not only do we remove existing data — we help you establish good privacy habits
+                Not only do we remove existing data - we help you establish good privacy habits
                 so your information stays protected long-term.
               </p>
             </div>
@@ -1160,13 +1160,13 @@ export default function RemovePrivateInfoPage() {
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
                 Removing private information from the Internet can be a complex task. Not only
                 do you need to learn the most effective strategies for deleting or altering your
-                personal information — you also need to understand how this information gets
+                personal information - you also need to understand how this information gets
                 online in the first place.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                 There are a number of steps involved in protecting your personal information; the
                 best is to start by establishing good privacy habits, like watching what you
-                share online. We are your Remove Private Info Partner — ready to offer
+                share online. We are your Remove Private Info Partner - ready to offer
                 complimentary consultations and provide you with full security.
               </p>
 
@@ -1281,7 +1281,7 @@ export default function RemovePrivateInfoPage() {
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation and let our privacy experts assess your current data
-                exposure — identifying every risk and presenting a clear removal plan with no
+                exposure - identifying every risk and presenting a clear removal plan with no
                 obligation.
               </p>
               

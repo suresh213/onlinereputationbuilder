@@ -241,7 +241,7 @@
 //   { step: "02", title: "Strategy Proposal", desc: "You receive a clear action plan with projected outcomes, timelines, and a breakdown of recoverable vs. non-removable reviews." },
 //   { step: "03", title: "Active Removal Campaign", desc: "Our team systematically flags and escalates each eligible review, providing detailed documentation to support each case." },
 //   { step: "04", title: "Brand Rebuilding", desc: "Parallel to removals, we launch ethical positive review campaigns and craft employer response templates to rebuild trust." },
-//   { step: "05", title: "Reporting & Monitoring", desc: "Monthly reports track your rating improvement, reviews removed, and new submissions — keeping you fully informed at every step." },
+//   { step: "05", title: "Reporting & Monitoring", desc: "Monthly reports track your rating improvement, reviews removed, and new submissions - keeping you fully informed at every step." },
 // ];
 
 // const whyItMatters = [
@@ -253,10 +253,10 @@
 // ];
 
 // const faqs = [
-//   { q: "Can fake AmbitionBox reviews really be removed?", a: "Yes. If a review violates AmbitionBox's community guidelines — including defamatory, fake, or abusive content — it can be flagged and escalated to AmbitionBox moderators. Our team builds a documented case for each review and manages the entire process on your behalf." },
+//   { q: "Can fake AmbitionBox reviews really be removed?", a: "Yes. If a review violates AmbitionBox's community guidelines - including defamatory, fake, or abusive content - it can be flagged and escalated to AmbitionBox moderators. Our team builds a documented case for each review and manages the entire process on your behalf." },
 //   { q: "How long does the review removal process take?", a: "Timelines vary depending on the complexity of each case. Straightforward policy violations are typically resolved within 7–14 business days. Complex or disputed reviews may take longer, especially if escalation or legal support is required." },
 //   { q: "Will removing negative reviews affect my company's overall rating?", a: "Removing fake or defamatory reviews that artificially lower your score will improve your overall rating. At the same time, we run parallel campaigns to encourage genuine positive reviews from satisfied employees, further strengthening your profile." },
-//   { q: "Is it ethical to request review removal?", a: "Absolutely — when done correctly. We only target reviews that violate platform policies: fake submissions, defamatory statements, or reviews from people who never worked at your company. Genuine feedback, even if negative, is handled through response strategy and culture-improvement guidance." },
+//   { q: "Is it ethical to request review removal?", a: "Absolutely - when done correctly. We only target reviews that violate platform policies: fake submissions, defamatory statements, or reviews from people who never worked at your company. Genuine feedback, even if negative, is handled through response strategy and culture-improvement guidance." },
 //   { q: "Do you offer ongoing monitoring after the initial cleanup?", a: "Yes. Our retainer packages include continuous monitoring of your AmbitionBox profile, immediate flagging of new policy-violating reviews, and monthly reputation health reports." },
 // ];
 
@@ -326,7 +326,7 @@
 //               </h1>
 
 //               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-//                 Fake and defamatory employee reviews on AmbitionBox can damage your hiring pipeline overnight. Our specialist team removes policy-violating reviews, rebuilds your employer brand, and keeps your profile protected — ethically and permanently.
+//                 Fake and defamatory employee reviews on AmbitionBox can damage your hiring pipeline overnight. Our specialist team removes policy-violating reviews, rebuilds your employer brand, and keeps your profile protected - ethically and permanently.
 //               </p>
 
 //               <div className="flex flex-wrap gap-4">
@@ -403,7 +403,7 @@
 //                 Full-Spectrum AmbitionBox <span className="heading-script text-brand-blue">Reputation Management</span>
 //               </h2>
 //               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-//                 From review removal to proactive employer branding — we cover every angle of your AmbitionBox presence.
+//                 From review removal to proactive employer branding - we cover every angle of your AmbitionBox presence.
 //               </p>
 //             </div>
 //           </RevealOnScroll>
@@ -441,7 +441,7 @@
 //                 How We <span className="heading-script text-brand-blue">Protect</span> Your AmbitionBox Profile
 //               </h2>
 //               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-//                 A structured, transparent approach — no black-hat tactics, no empty promises. Just proven methodology delivered by ORM specialists.
+//                 A structured, transparent approach - no black-hat tactics, no empty promises. Just proven methodology delivered by ORM specialists.
 //               </p>
 //             </div>
 //           </RevealOnScroll>
@@ -675,7 +675,7 @@ const processes = [
   { step: "02", title: "Strategy Proposal", desc: "You receive a clear action plan with projected outcomes, timelines, and a breakdown of recoverable vs. non-removable reviews." },
   { step: "03", title: "Active Removal Campaign", desc: "Our team systematically flags and escalates each eligible review, providing detailed legal and technical documentation to support each case." },
   { step: "04", title: "Brand Rebuilding", desc: "Parallel to removals, we launch ethical positive review campaigns and craft employer response templates to rebuild candidate trust." },
-  { step: "05", title: "Reporting & Monitoring", desc: "Monthly reports track your rating improvement, reviews removed, and new submissions — keeping you fully informed at every step." },
+  { step: "05", title: "Reporting & Monitoring", desc: "Monthly reports track your rating improvement, reviews removed, and new submissions - keeping you fully informed at every step." },
 ];
 
 const whyItMatters = [
@@ -708,10 +708,10 @@ const testimonials = [
 ];
 
 const faqs = [
-  { q: "Can fake AmbitionBox reviews really be removed?", a: "Yes. If a review violates AmbitionBox's community guidelines — including defamatory, fake, or abusive content — it can be flagged and escalated to AmbitionBox moderators. Our team builds a documented case for each review and manages the entire process on your behalf." },
+  { q: "Can fake AmbitionBox reviews really be removed?", a: "Yes. If a review violates AmbitionBox's community guidelines - including defamatory, fake, or abusive content - it can be flagged and escalated to AmbitionBox moderators. Our team builds a documented case for each review and manages the entire process on your behalf." },
   { q: "How long does the review removal process take?", a: "Timelines vary depending on the complexity of each case. Straightforward policy violations are typically resolved within 7–14 business days. Complex or disputed reviews may take longer, especially if escalation or legal support is required." },
   { q: "Will removing negative reviews affect my company's overall rating?", a: "Removing fake or defamatory reviews that artificially lower your score will immediately improve your overall rating. At the same time, we run parallel campaigns to encourage genuine positive reviews from satisfied employees, exponentially accelerating your rating recovery." },
-  { q: "Is it ethical to request review removal?", a: "Absolutely — when done correctly. We only target reviews that violate platform policies: fake submissions, defamatory statements, or reviews from people who never worked at your company. Genuine feedback, even if negative, is handled through response strategy and culture-improvement guidance." },
+  { q: "Is it ethical to request review removal?", a: "Absolutely - when done correctly. We only target reviews that violate platform policies: fake submissions, defamatory statements, or reviews from people who never worked at your company. Genuine feedback, even if negative, is handled through response strategy and culture-improvement guidance." },
   { q: "What if an employee names a specific manager in a review?", a: "AmbitionBox has strict privacy guidelines that prohibit naming non-executive staff members. If a mid-level manager or peer is named in a review, it violates the Terms of Service and we can guarantee its removal." },
   { q: "Do you offer ongoing monitoring after the initial cleanup?", a: "Yes. Our retainer packages include continuous 24/7 monitoring of your AmbitionBox profile, immediate flagging of new policy-violating reviews, and monthly reputation health reports to ensure your brand remains protected." },
 ];
@@ -782,7 +782,7 @@ export default function AmbitionBoxPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Fake and defamatory employee reviews on AmbitionBox can damage your hiring pipeline overnight. Our specialist team removes policy-violating reviews, rebuilds your employer brand, and keeps your profile protected — ethically and permanently.
+                Fake and defamatory employee reviews on AmbitionBox can damage your hiring pipeline overnight. Our specialist team removes policy-violating reviews, rebuilds your employer brand, and keeps your profile protected - ethically and permanently.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">
@@ -929,7 +929,7 @@ export default function AmbitionBoxPage() {
                 Full-Spectrum AmbitionBox <span className="heading-script text-brand-blue">Reputation Management</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-                From technical review removal to proactive employer branding — we cover every angle of your corporate presence.
+                From technical review removal to proactive employer branding - we cover every angle of your corporate presence.
               </p>
             </div>
           </RevealOnScroll>
@@ -967,7 +967,7 @@ export default function AmbitionBoxPage() {
                 How We <span className="heading-script text-brand-blue">Protect</span> Your AmbitionBox Profile
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-                A structured, transparent approach — no black-hat tactics, no empty promises. Just proven methodology delivered by ORM specialists.
+                A structured, transparent approach - no black-hat tactics, no empty promises. Just proven methodology delivered by ORM specialists.
               </p>
             </div>
           </RevealOnScroll>
@@ -1095,7 +1095,7 @@ export default function AmbitionBoxPage() {
                     <p className="text-zinc-400 text-xs mt-0.5">Our ORM crisis team is available 24/7.</p>
                   </div>
                 </div>
-                <a href="tel:+919971687251" className="btn-gold w-full text-center block py-3.5 text-sm shadow-lg shadow-brand-gold/20">Talk to an ORM Expert</a>
+                <a href="tel:+918882788412" className="btn-gold w-full text-center block py-3.5 text-sm shadow-lg shadow-brand-gold/20">Talk to an ORM Expert</a>
               </div>
             </div>
           </RevealOnScroll>
@@ -1128,7 +1128,7 @@ export default function AmbitionBoxPage() {
               
               <div className="space-y-6 border-t border-zinc-800/80 pt-8">
                 {[
-                  { label: "Direct Hotline", value: "+91 99716-87251", href: "tel:+919971687251", icon: "📞" },
+                  { label: "Direct Hotline", value: "+91 88827 88412", href: "tel:+918882788412", icon: "📞" },
                   { label: "Secure Email", value: "buildbrandbetter@gmail.com", href: "mailto:buildbrandbetter@gmail.com", icon: "✉️" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">

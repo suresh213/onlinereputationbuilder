@@ -276,7 +276,7 @@ export default function Footer() {
             {[
               { label: "About Us", href: "#" }, 
               { label: "Blog", href: "/blog" },
-              { label: "Case Studies", href: "/solution" },
+              // { label: "Case Studies", href: "/solution" },
               { label: "Contact Us", href: "/contact-us" },
               { label: "Privacy Policy", href: "#" },
               { label: "Terms & Conditions", href: "#" },

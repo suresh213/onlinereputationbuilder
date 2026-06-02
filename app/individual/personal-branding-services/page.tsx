@@ -90,7 +90,7 @@
 //   {
 //     step: "05",
 //     title: "Strategically Build an Audience to Amplify Opportunities",
-//     desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities — speaking, collaborations, media features — come your way.",
+//     desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities - speaking, collaborations, media features - come your way.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -142,12 +142,12 @@
 //   { q: "What are personal branding services?", a: "Personal branding services are professional services that help individuals develop and promote their personal brand. These include creating a personal brand strategy, designing a personal website and social media presence, creating and managing content, and providing coaching and guidance." },
 //   { q: "How can personal branding services help an individual's career?", a: "Personal branding services help by increasing visibility, credibility, and reputation, making you more attractive to employers or clients. A strong personal brand can establish you as a thought leader, increase chances of high-profile positions, and build a more fulfilling career." },
 //   { q: "What are the benefits of using personal branding services?", a: "Benefits include increased visibility and opportunities, better alignment with personal and career goals, stronger credibility and trust, and the ability to stand out in a competitive market. Personal branding services also provide guidance for individuals unsure about how to develop their brand." },
-//   { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit — those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
+//   { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit - those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
 // ];
 
 // const testimonials = [
 //   { name: "Scott", role: "Business Owner", text: "I'm really happy with the results I've seen from working with this company. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward. Highly recommend.", initials: "SC" },
-//   { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them — highly recommend to anyone in need of ORM services.", initials: "JU" },
+//   { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them - highly recommend to anyone in need of ORM services.", initials: "JU" },
 //   { name: "Abhay", role: "Entrepreneur", text: "I am so much happier with the results I've seen. They helped me clean up my online presence and improve my search results, which has been invaluable for my business.", initials: "AB" },
 // ];
 
@@ -174,14 +174,14 @@
 //             </div>
 
 //             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
-//               Powerful Personal Branding Services — Build{" "}
+//               Powerful Personal Branding Services - Build{" "}
 //               <span className="text-brand-gold-light">Trust</span>,{" "}
 //               <span className="text-brand-gold-light">Authority</span>{" "}
 //               &amp; Influence
 //             </h1>
 
 //             <p className="text-white/65 text-base mb-7 leading-relaxed">
-//               Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy — it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
+//               Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy - it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
 //             </p>
 
 //             <ul className="space-y-2 mb-8">
@@ -581,7 +581,7 @@ const howItWorks = [
   {
     step: "05",
     title: "Strategically Build an Audience to Amplify Opportunities",
-    desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities — speaking, collaborations, media features — come your way.",
+    desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities - speaking, collaborations, media features - come your way.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -633,12 +633,12 @@ const faqs = [
   { q: "What are personal branding services?", a: "Personal branding services are professional services that help individuals develop and promote their personal brand. These include creating a personal brand strategy, designing a personal website and social media presence, creating and managing content, and providing coaching and guidance." },
   { q: "How can personal branding services help an individual's career?", a: "Personal branding services help by increasing visibility, credibility, and reputation, making you more attractive to employers or clients. A strong personal brand can establish you as a thought leader, increase chances of high-profile positions, and build a more fulfilling career." },
   { q: "What are the benefits of using personal branding services?", a: "Benefits include increased visibility and opportunities, better alignment with personal and career goals, stronger credibility and trust, and the ability to stand out in a competitive market. Personal branding services also provide guidance for individuals unsure about how to develop their brand." },
-  { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit — those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
+  { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit - those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
 ];
 
 const testimonials = [
   { name: "Scott", role: "Business Owner", text: "I'm really happy with the results I've seen from working with this company. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward. Highly recommend.", initials: "SC" },
-  { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them — highly recommend to anyone in need of ORM services.", initials: "JU" },
+  { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them - highly recommend to anyone in need of ORM services.", initials: "JU" },
   { name: "Abhay", role: "Entrepreneur", text: "I am so much happier with the results I've seen. They helped me clean up my online presence and improve my search results, which has been invaluable for my business.", initials: "AB" },
 ];
 
@@ -696,14 +696,14 @@ export default function PersonalBrandingServicesPage() {
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Powerful Personal Branding Services — Build{" "}
+              Powerful Personal Branding Services - Build{" "}
               <span className="text-gradient-gold">Trust</span>,{" "}
               <span className="text-gradient-gold">Authority</span>{" "}
               &amp; Influence
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-              Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy — it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
+              Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy - it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
@@ -786,13 +786,13 @@ export default function PersonalBrandingServicesPage() {
             <RevealOnScroll delay={200}>
               <div className="relative w-full max-w-lg mx-auto lg:ml-auto">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
-                <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
-                  <img
-                    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
-                    alt="Personal Branding Strategy"
-                    className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
+<div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
+  <img
+    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+    alt="Personal Branding Strategy"
+    className="w-full h-[600px] object-cover object-top hover:scale-105 transition-transform duration-700"
+  />
+</div>
                 
                 <div className="absolute -bottom-6 -left-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl flex items-center gap-4 hidden md:flex">
                   <div className="w-12 h-12 rounded-xl bg-amber-100/80 border border-amber-200 flex items-center justify-center flex-shrink-0 text-xl shadow-inner">

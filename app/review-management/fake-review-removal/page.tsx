@@ -287,7 +287,7 @@ const removalProcess = [
   {
     step: "02",
     title: "TOS Compliance Mapping",
-    desc: "Every platform (Google, Trustpilot, Yelp) has strict Terms of Service. We map the fraudulent content directly to specific TOS violations—such as spam or conflict of interest—to force action.",
+    desc: "Every platform (Google, Trustpilot, Yelp) has strict Terms of Service. We map the fraudulent content directly to specific TOS violations-such as spam or conflict of interest-to force action.",
   },
   {
     step: "03",
@@ -336,7 +336,7 @@ const testimonials = [
 const faqs = [
   { q: "How can you prove to a platform that a review is fake?", a: "Platforms look for specific signals. We utilize digital forensics to identify velocity spikes (too many reviews at once), location mismatches, generic repetitive text, lack of transaction history, and violations of conflict-of-interest policies. We package this data into an undeniable compliance report." },
   { q: "Can we find out who is posting the fake reviews?", a: "In many cases involving aggressive competitor sabotage or ex-employee harassment, we can use legal subpoenas (John Doe lawsuits) to force platforms or ISPs to hand over the IP addresses and identifying information of the attackers." },
-  { q: "What happens if a platform absolutely refuses to remove a fake review?", a: "If a platform's moderation team makes an error, we escalate the claim to their legal department. If the content is protected by safe harbor laws and cannot be removed, we pivot to advanced SEO suppression—flooding the profile with verified, authentic 5-star reviews to bury the fake content so deeply it is never seen." },
+  { q: "What happens if a platform absolutely refuses to remove a fake review?", a: "If a platform's moderation team makes an error, we escalate the claim to their legal department. If the content is protected by safe harbor laws and cannot be removed, we pivot to advanced SEO suppression-flooding the profile with verified, authentic 5-star reviews to bury the fake content so deeply it is never seen." },
   { q: "Do you protect against automated bot attacks?", a: "Yes. Bot attacks usually follow predictable patterns. We monitor your profiles 24/7, flag the influx of automated spam immediately, and work with platform engineers to roll back the entire batch of bot-generated reviews in one sweep." },
   { q: "Will removing fake reviews improve my local SEO?", a: "Drastically. Google prioritizes businesses with high aggregate star ratings and authentic review velocity in the Local Map Pack. Removing a cluster of 1-star fake reviews immediately restores your aggregate score and triggers a rebound in your local search rankings." },
   { q: "Is it possible to remove reviews from years ago?", a: "Yes. Fake reviews do not have an expiration date on platform policy violations. If we can prove a review from 3 years ago violates the Terms of Service (e.g., it was left by a competitor), we can still successfully petition for its removal." },

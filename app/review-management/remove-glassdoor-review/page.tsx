@@ -26,7 +26,7 @@ const stats = [
 const impacts = [
   {
     title: "Top Talent Avoids You",
-    desc: "Over 75% of job seekers research a company on Glassdoor before accepting an offer. Negative reviews — real or fabricated — cause high-quality candidates to self-select out before ever applying.",
+    desc: "Over 75% of job seekers research a company on Glassdoor before accepting an offer. Negative reviews - real or fabricated - cause high-quality candidates to self-select out before ever applying.",
     icon: "👥",
   },
   {
@@ -53,7 +53,7 @@ const services = [
   {
     step: "02",
     title: "Negative Review Removal",
-    desc: "Policy-violating reviews — including fake, defamatory, or guideline-breaching content — are flagged and removed through Glassdoor's official enforcement channels.",
+    desc: "Policy-violating reviews - including fake, defamatory, or guideline-breaching content - are flagged and removed through Glassdoor's official enforcement channels.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
     ),
@@ -61,7 +61,7 @@ const services = [
   {
     step: "03",
     title: "Professional Review Response",
-    desc: "We craft thoughtful, professional responses to negative reviews on your behalf — demonstrating transparency and a commitment to improvement to candidates and stakeholders reading your profile.",
+    desc: "We craft thoughtful, professional responses to negative reviews on your behalf - demonstrating transparency and a commitment to improvement to candidates and stakeholders reading your profile.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
     ),
@@ -98,21 +98,21 @@ const reviewTypes = [
 const whyUs = [
   {
     title: "Glassdoor Platform Experts",
-    desc: "We understand Glassdoor's policies and enforcement mechanisms in depth — knowing exactly which arguments succeed and how to present them for maximum removal success.",
+    desc: "We understand Glassdoor's policies and enforcement mechanisms in depth - knowing exactly which arguments succeed and how to present them for maximum removal success.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
     title: "Employer Brand Specialists",
-    desc: "We don't just remove reviews — we help rebuild your employer brand with a comprehensive strategy that attracts the talent you need.",
+    desc: "We don't just remove reviews - we help rebuild your employer brand with a comprehensive strategy that attracts the talent you need.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     title: "Transparent Reporting",
-    desc: "You receive clear, regular updates on every action taken — review statuses, response drafts, and rating progress — so you always know where you stand.",
+    desc: "You receive clear, regular updates on every action taken - review statuses, response drafts, and rating progress - so you always know where you stand.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
     ),
@@ -129,7 +129,7 @@ const whyUs = [
 const faqs = [
   {
     q: "Can Glassdoor reviews really be removed?",
-    a: "Yes. Reviews that violate Glassdoor's community guidelines — including fake accounts, defamatory content, and spam — can be removed through the platform's enforcement process. We identify the violation and present the strongest possible case.",
+    a: "Yes. Reviews that violate Glassdoor's community guidelines - including fake accounts, defamatory content, and spam - can be removed through the platform's enforcement process. We identify the violation and present the strongest possible case.",
   },
   {
     q: "How long does Glassdoor review removal take?",
@@ -145,7 +145,7 @@ const faqs = [
   },
   {
     q: "Will this affect my ability to recruit?",
-    a: "Positively — yes. A well-managed Glassdoor profile with a strong rating directly improves your ability to attract quality candidates and reduce time-to-hire.",
+    a: "Positively - yes. A well-managed Glassdoor profile with a strong rating directly improves your ability to attract quality candidates and reduce time-to-hire.",
   },
 ];
 
@@ -212,7 +212,7 @@ export default function GlassdoorReviewManagementPage() {
                 Glassdoor Review Management
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Glassdoor Review Management — Remove Negative Reviews &amp; <span className="text-gradient-gold">Attract Top Talent</span>
+                Glassdoor Review Management - Remove Negative Reviews &amp; <span className="text-gradient-gold">Attract Top Talent</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
                 Elevate your employer brand with expert Glassdoor reputation management. We remove fake and damaging reviews, craft professional responses, and help you build the credibility that attracts the best candidates.
@@ -452,7 +452,7 @@ export default function GlassdoorReviewManagementPage() {
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Glassdoor Management <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Glassdoor situation? Get a free confidential consultation and action plan — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Glassdoor situation? Get a free confidential consultation and action plan - no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -481,12 +481,12 @@ export default function GlassdoorReviewManagementPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Don&apos;t Let Bad Glassdoor Reviews <span className="heading-script text-brand-blue">Cost You Top Talent</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free Glassdoor audit. Our employer branding experts will assess your profile and present a clear improvement plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free Glassdoor audit. Our employer branding experts will assess your profile and present a clear improvement plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

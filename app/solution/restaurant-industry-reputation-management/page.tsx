@@ -727,7 +727,7 @@ export default function RestaurantIndustryPage() {
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation today. Our restaurant reputation experts will assess your brand&apos;s
-                digital footprint, identify review gaps, and present a clear strategy — with no obligation.
+                digital footprint, identify review gaps, and present a clear strategy - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

@@ -45,7 +45,7 @@ const processSteps = [
   {
     step: "01",
     title: "Video Discovery & Assessment",
-    desc: "We locate every instance of harmful video content — on YouTube, social media, video hosting sites, and search engine caches — to map the full scope of the problem.",
+    desc: "We locate every instance of harmful video content - on YouTube, social media, video hosting sites, and search engine caches - to map the full scope of the problem.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.276A1 1 0 0121 8.382v7.236a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
     ),
@@ -53,7 +53,7 @@ const processSteps = [
   {
     step: "02",
     title: "Legal Route Identification",
-    desc: "We determine the strongest removal avenue for each video — DMCA copyright claims, platform community guidelines violations, privacy law, or formal legal notice to content owners.",
+    desc: "We determine the strongest removal avenue for each video - DMCA copyright claims, platform community guidelines violations, privacy law, or formal legal notice to content owners.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
@@ -91,7 +91,7 @@ const typesOfVideos = [
   },
   {
     title: "Leaked & Unauthorized Footage",
-    desc: "Videos published without authorization — whether from hacked accounts, covert recordings, or unauthorized distribution — are removed using DMCA and privacy law.",
+    desc: "Videos published without authorization - whether from hacked accounts, covert recordings, or unauthorized distribution - are removed using DMCA and privacy law.",
   },
 ];
 
@@ -105,7 +105,7 @@ const whyUs = [
   },
   {
     title: "Legal-Grade Removal",
-    desc: "Every removal is legally compliant — DMCA, right-to-be-forgotten, privacy statutes, and platform policy expertise applied to each case.",
+    desc: "Every removal is legally compliant - DMCA, right-to-be-forgotten, privacy statutes, and platform policy expertise applied to each case.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -119,7 +119,7 @@ const whyUs = [
   },
   {
     title: "Full Confidentiality",
-    desc: "All cases are handled with strict discretion. Your identity and case details are never shared — ever.",
+    desc: "All cases are handled with strict discretion. Your identity and case details are never shared - ever.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
     ),
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Can you remove videos I don't own the copyright to?",
-    a: "Yes. Many removals proceed under privacy law, defamation grounds, or platform community guidelines — not copyright alone. We identify the strongest legal avenue for your specific case.",
+    a: "Yes. Many removals proceed under privacy law, defamation grounds, or platform community guidelines - not copyright alone. We identify the strongest legal avenue for your specific case.",
   },
   {
     q: "What if the video is re-uploaded after removal?",
@@ -212,7 +212,7 @@ export default function VideoRemovalPage() {
                 Remove Harmful Videos <span className="text-gradient-gold">Fast, Legally &amp; Permanently</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialist team removes defamatory, private, and damaging videos from YouTube, social media, and Google search — using proven legal methods and platform policy expertise.
+                Our specialist team removes defamatory, private, and damaging videos from YouTube, social media, and Google search - using proven legal methods and platform policy expertise.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -236,7 +236,7 @@ export default function VideoRemovalPage() {
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
                 <div className="text-center mb-8">
                   <p className="section-label text-brand-gold mb-2 justify-center">Act Before It Spreads</p>
-                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Get expert video removal — fast and permanent</h3>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Get expert video removal - fast and permanent</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
@@ -263,7 +263,7 @@ export default function VideoRemovalPage() {
             <div>
               <p className="section-label mb-2">Why It Matters</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">The Danger of <span className="heading-script text-brand-blue">Harmful Videos Online</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Videos are the most damaging form of online content — they spread faster, rank higher, and leave a deeper impression than text or images alone. Every hour a harmful video remains online increases the damage.</p>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Videos are the most damaging form of online content - they spread faster, rank higher, and leave a deeper impression than text or images alone. Every hour a harmful video remains online increases the damage.</p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Assessment</Link>
             </div>
           </RevealOnScroll>
@@ -409,7 +409,7 @@ export default function VideoRemovalPage() {
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Video Removal <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific video situation? Get a free confidential assessment from our experts — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific video situation? Get a free confidential assessment from our experts - no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -436,7 +436,7 @@ export default function VideoRemovalPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Don&apos;t Let Harmful Videos <span className="heading-script text-brand-blue">Spread Further</span></h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our video removal specialists will assess your case and provide a clear action plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our video removal specialists will assess your case and provide a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },

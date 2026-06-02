@@ -31,7 +31,7 @@
 //   {
 //     step: "02",
 //     title: "Strategic Storytelling",
-//     desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences — converting passive readers into loyal brand advocates across every channel.",
+//     desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences - converting passive readers into loyal brand advocates across every channel.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -53,7 +53,7 @@
 //   {
 //     step: "04",
 //     title: "Brand Image Management",
-//     desc: "We enhance and safeguard your brand image through strategic communications — building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
+//     desc: "We enhance and safeguard your brand image through strategic communications - building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -64,7 +64,7 @@
 //   {
 //     step: "05",
 //     title: "Community Engagement",
-//     desc: "We foster meaningful interactions between your brand and its audiences — building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
+//     desc: "We foster meaningful interactions between your brand and its audiences - building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -75,7 +75,7 @@
 //   {
 //     step: "06",
 //     title: "Press Release Distribution",
-//     desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets — ensuring your news reaches the audiences that matter most.",
+//     desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets - ensuring your news reaches the audiences that matter most.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
@@ -85,7 +85,7 @@
 //   },
 // ];
 
-// // 50+ media outlets — text-only since images aren't available
+// // 50+ media outlets - text-only since images aren't available
 // const mediaOutlets = [
 //   "1st India", "ABP News", "Ahmedabad Live", "Ahmedabad Mirror",
 //   "Analytics Insight", "Author", "Bollywood Hungama", "Breezy",
@@ -105,7 +105,7 @@
 // const whyPR = [
 //   {
 //     title: "Brand Visibility",
-//     desc: "PR amplifies your brand's presence across the media landscape — print, digital, broadcast — ensuring you're seen by the audiences that drive decisions.",
+//     desc: "PR amplifies your brand's presence across the media landscape - print, digital, broadcast - ensuring you're seen by the audiences that drive decisions.",
 //     icon: "📢",
 //     stat: "3x",
 //     statLabel: "more credible than paid ads",
@@ -119,14 +119,14 @@
 //   },
 //   {
 //     title: "SEO & Digital Reach",
-//     desc: "High-authority media mentions generate powerful backlinks and improve your Google rankings — your PR investment creates compounding digital value over time.",
+//     desc: "High-authority media mentions generate powerful backlinks and improve your Google rankings - your PR investment creates compounding digital value over time.",
 //     icon: "🔍",
 //     stat: "50+",
 //     statLabel: "premium media placements",
 //   },
 //   {
 //     title: "Crisis Protection",
-//     desc: "A proactive PR strategy means you control the narrative before a crisis hits — not after. We prepare, monitor, and respond so your reputation stays intact.",
+//     desc: "A proactive PR strategy means you control the narrative before a crisis hits - not after. We prepare, monitor, and respond so your reputation stays intact.",
 //     icon: "🛡️",
 //     stat: "24/7",
 //     statLabel: "reputation monitoring",
@@ -137,17 +137,17 @@
 //   {
 //     number: "01",
 //     title: "Discovery & Brand Audit",
-//     desc: "We begin with a comprehensive analysis of your brand, competitive landscape, target audiences, and current media footprint — creating a clear baseline and opportunity map.",
+//     desc: "We begin with a comprehensive analysis of your brand, competitive landscape, target audiences, and current media footprint - creating a clear baseline and opportunity map.",
 //   },
 //   {
 //     number: "02",
 //     title: "PR Strategy Development",
-//     desc: "Our team crafts a tailored PR strategy aligned with your business goals — identifying key messages, target publications, story angles, and a 90-day execution roadmap.",
+//     desc: "Our team crafts a tailored PR strategy aligned with your business goals - identifying key messages, target publications, story angles, and a 90-day execution roadmap.",
 //   },
 //   {
 //     number: "03",
 //     title: "Content Creation & Pitching",
-//     desc: "We write compelling press releases, thought leadership articles, and media pitches — then proactively distribute them to our network of 50+ curated journalists and publications.",
+//     desc: "We write compelling press releases, thought leadership articles, and media pitches - then proactively distribute them to our network of 50+ curated journalists and publications.",
 //   },
 //   {
 //     number: "04",
@@ -157,23 +157,23 @@
 //   {
 //     number: "05",
 //     title: "Monitoring & Amplification",
-//     desc: "We monitor every mention and coverage piece in real time — then amplify earned media across your own channels to maximise the reach and longevity of every placement.",
+//     desc: "We monitor every mention and coverage piece in real time - then amplify earned media across your own channels to maximise the reach and longevity of every placement.",
 //   },
 //   {
 //     number: "06",
 //     title: "Reporting & Optimisation",
-//     desc: "Monthly performance reports track media reach, sentiment, backlink value, and share of voice — with ongoing strategy refinements to continuously improve results.",
+//     desc: "Monthly performance reports track media reach, sentiment, backlink value, and share of voice - with ongoing strategy refinements to continuously improve results.",
 //   },
 // ];
 
 // const faqs = [
 //   {
 //     q: "What is Public Relations and why does my brand need it?",
-//     a: "Public Relations is a multifaceted discipline dedicated to managing and enhancing the reputation of individuals, organisations, or brands. Your brand needs PR because it builds credibility through third-party editorial coverage, controls your narrative, reaches new audiences, and creates compounding SEO value — all of which paid advertising cannot replicate.",
+//     a: "Public Relations is a multifaceted discipline dedicated to managing and enhancing the reputation of individuals, organisations, or brands. Your brand needs PR because it builds credibility through third-party editorial coverage, controls your narrative, reaches new audiences, and creates compounding SEO value - all of which paid advertising cannot replicate.",
 //   },
 //   {
 //     q: "How is PR different from advertising?",
-//     a: "Advertising is paid placement where you control the message entirely. PR is earned media — journalists and editors independently choose to cover your brand, which makes it far more credible and trusted by audiences. A PR mention in a top publication carries significantly more weight than a paid ad in the same outlet.",
+//     a: "Advertising is paid placement where you control the message entirely. PR is earned media - journalists and editors independently choose to cover your brand, which makes it far more credible and trusted by audiences. A PR mention in a top publication carries significantly more weight than a paid ad in the same outlet.",
 //   },
 //   {
 //     q: "How long does it take to see PR results?",
@@ -185,11 +185,11 @@
 //   },
 //   {
 //     q: "Can PR help with online reputation management?",
-//     a: "Absolutely — PR and ORM work hand in hand. Positive media placements push down negative search results, establish your brand as credible, and create a strong positive content footprint that shapes how people perceive you when they search your name or brand online.",
+//     a: "Absolutely - PR and ORM work hand in hand. Positive media placements push down negative search results, establish your brand as credible, and create a strong positive content footprint that shapes how people perceive you when they search your name or brand online.",
 //   },
 //   {
 //     q: "Do you handle crisis PR as well?",
-//     a: "Yes. Crisis communication is one of our core specialisations. We develop proactive crisis PR plans, monitor for emerging issues 24/7, and provide rapid-response media communications when crises arise — protecting your reputation and minimising long-term damage.",
+//     a: "Yes. Crisis communication is one of our core specialisations. We develop proactive crisis PR plans, monitor for emerging issues 24/7, and provide rapid-response media communications when crises arise - protecting your reputation and minimising long-term damage.",
 //   },
 // ];
 
@@ -482,7 +482,7 @@
 //                 How We Build Your PR Strategy
 //               </h2>
 //               <p className="text-zinc-500 text-sm leading-relaxed mb-8">
-//                 A structured, transparent process from strategy to execution — you always
+//                 A structured, transparent process from strategy to execution - you always
 //                 know exactly what we&apos;re doing and why.
 //               </p>
 
@@ -558,7 +558,7 @@
 //             </p>
 //           </div>
 
-//           {/* Outlet grid — premium pill style */}
+//           {/* Outlet grid - premium pill style */}
 //           <div className="flex flex-wrap gap-2.5 justify-center mb-12">
 //             {mediaOutlets.map((name, i) => (
 //               <div
@@ -584,7 +584,7 @@
 //         </div>
 //       </section>
 
-//       {/* ── WHY CHOOSE US — dark feature strip ───────────────── */}
+//       {/* ── WHY CHOOSE US - dark feature strip ───────────────── */}
 //       <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-100 relative overflow-hidden">
 //         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
 //         <div className="max-w-7xl mx-auto relative z-10">
@@ -600,7 +600,7 @@
 //             {[
 //               {
 //                 title: "Integrated PR + ORM Approach",
-//                 desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management — giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
+//                 desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management - giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
 //                 icon: (
 //                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -609,7 +609,7 @@
 //               },
 //               {
 //                 title: "50+ Media Outlet Network",
-//                 desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks — and get published, not ignored.",
+//                 desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks - and get published, not ignored.",
 //                 icon: (
 //                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -627,7 +627,7 @@
 //               },
 //               {
 //                 title: "Transparent Monthly Reporting",
-//                 desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was — no vague metrics or vanity numbers.",
+//                 desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was - no vague metrics or vanity numbers.",
 //                 icon: (
 //                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -748,7 +748,7 @@
 //             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">
 //               Schedule a free PR consultation today. Our team will assess your brand&apos;s
 //               media presence, identify the right publications, and present a clear PR
-//               strategy — with no obligation.
+//               strategy - with no obligation.
 //             </p>
 
 //             {/* Contact info list */}
@@ -856,7 +856,7 @@ const prServices = [
   {
     step: "02",
     title: "Strategic Storytelling",
-    desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences — converting passive readers into loyal brand advocates across every channel.",
+    desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences - converting passive readers into loyal brand advocates across every channel.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -878,7 +878,7 @@ const prServices = [
   {
     step: "04",
     title: "Brand Image Management",
-    desc: "We enhance and safeguard your brand image through strategic communications — building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
+    desc: "We enhance and safeguard your brand image through strategic communications - building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -889,7 +889,7 @@ const prServices = [
   {
     step: "05",
     title: "Community Engagement",
-    desc: "We foster meaningful interactions between your brand and its audiences — building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
+    desc: "We foster meaningful interactions between your brand and its audiences - building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -900,7 +900,7 @@ const prServices = [
   {
     step: "06",
     title: "Press Release Distribution",
-    desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets — ensuring your news reaches the audiences that matter most.",
+    desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets - ensuring your news reaches the audiences that matter most.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
@@ -910,7 +910,7 @@ const prServices = [
   },
 ];
 
-// 50+ media outlets — text-only since images aren't available
+// 50+ media outlets - text-only since images aren't available
 const mediaOutlets = [
   "1st India", "ABP News", "Ahmedabad Live", "Ahmedabad Mirror",
   "Analytics Insight", "Author", "Bollywood Hungama", "Breezy",
@@ -930,7 +930,7 @@ const mediaOutlets = [
 const whyPR = [
   {
     title: "Brand Visibility",
-    desc: "PR amplifies your brand's presence across the media landscape — print, digital, broadcast — ensuring you're seen by the audiences that drive decisions.",
+    desc: "PR amplifies your brand's presence across the media landscape - print, digital, broadcast - ensuring you're seen by the audiences that drive decisions.",
     icon: "📢",
     stat: 3,
     suffix: "x",
@@ -946,7 +946,7 @@ const whyPR = [
   },
   {
     title: "SEO & Digital Reach",
-    desc: "High-authority media mentions generate powerful backlinks and improve your Google rankings — your PR investment creates compounding digital value over time.",
+    desc: "High-authority media mentions generate powerful backlinks and improve your Google rankings - your PR investment creates compounding digital value over time.",
     icon: "🔍",
     stat: 50,
     suffix: "+",
@@ -954,7 +954,7 @@ const whyPR = [
   },
   {
     title: "Crisis Protection",
-    desc: "A proactive PR strategy means you control the narrative before a crisis hits — not after. We prepare, monitor, and respond so your reputation stays intact.",
+    desc: "A proactive PR strategy means you control the narrative before a crisis hits - not after. We prepare, monitor, and respond so your reputation stays intact.",
     icon: "🛡️",
     stat: 24,
     suffix: "/7",
@@ -966,17 +966,17 @@ const prProcess = [
   {
     number: "01",
     title: "Discovery & Brand Audit",
-    desc: "We begin with a comprehensive analysis of your brand, competitive landscape, target audiences, and current media footprint — creating a clear baseline and opportunity map.",
+    desc: "We begin with a comprehensive analysis of your brand, competitive landscape, target audiences, and current media footprint - creating a clear baseline and opportunity map.",
   },
   {
     number: "02",
     title: "PR Strategy Development",
-    desc: "Our team crafts a tailored PR strategy aligned with your business goals — identifying key messages, target publications, story angles, and a 90-day execution roadmap.",
+    desc: "Our team crafts a tailored PR strategy aligned with your business goals - identifying key messages, target publications, story angles, and a 90-day execution roadmap.",
   },
   {
     number: "03",
     title: "Content Creation & Pitching",
-    desc: "We write compelling press releases, thought leadership articles, and media pitches — then proactively distribute them to our network of 50+ curated journalists and publications.",
+    desc: "We write compelling press releases, thought leadership articles, and media pitches - then proactively distribute them to our network of 50+ curated journalists and publications.",
   },
   {
     number: "04",
@@ -986,23 +986,23 @@ const prProcess = [
   {
     number: "05",
     title: "Monitoring & Amplification",
-    desc: "We monitor every mention and coverage piece in real time — then amplify earned media across your own channels to maximise the reach and longevity of every placement.",
+    desc: "We monitor every mention and coverage piece in real time - then amplify earned media across your own channels to maximise the reach and longevity of every placement.",
   },
   {
     number: "06",
     title: "Reporting & Optimisation",
-    desc: "Monthly performance reports track media reach, sentiment, backlink value, and share of voice — with ongoing strategy refinements to continuously improve results.",
+    desc: "Monthly performance reports track media reach, sentiment, backlink value, and share of voice - with ongoing strategy refinements to continuously improve results.",
   },
 ];
 
 const faqs = [
   {
     q: "What is Public Relations and why does my brand need it?",
-    a: "Public Relations is a multifaceted discipline dedicated to managing and enhancing the reputation of individuals, organisations, or brands. Your brand needs PR because it builds credibility through third-party editorial coverage, controls your narrative, reaches new audiences, and creates compounding SEO value — all of which paid advertising cannot replicate.",
+    a: "Public Relations is a multifaceted discipline dedicated to managing and enhancing the reputation of individuals, organisations, or brands. Your brand needs PR because it builds credibility through third-party editorial coverage, controls your narrative, reaches new audiences, and creates compounding SEO value - all of which paid advertising cannot replicate.",
   },
   {
     q: "How is PR different from advertising?",
-    a: "Advertising is paid placement where you control the message entirely. PR is earned media — journalists and editors independently choose to cover your brand, which makes it far more credible and trusted by audiences. A PR mention in a top publication carries significantly more weight than a paid ad in the same outlet.",
+    a: "Advertising is paid placement where you control the message entirely. PR is earned media - journalists and editors independently choose to cover your brand, which makes it far more credible and trusted by audiences. A PR mention in a top publication carries significantly more weight than a paid ad in the same outlet.",
   },
   {
     q: "How long does it take to see PR results?",
@@ -1014,11 +1014,11 @@ const faqs = [
   },
   {
     q: "Can PR help with online reputation management?",
-    a: "Absolutely — PR and ORM work hand in hand. Positive media placements push down negative search results, establish your brand as credible, and create a strong positive content footprint that shapes how people perceive you when they search your name or brand online.",
+    a: "Absolutely - PR and ORM work hand in hand. Positive media placements push down negative search results, establish your brand as credible, and create a strong positive content footprint that shapes how people perceive you when they search your name or brand online.",
   },
   {
     q: "Do you handle crisis PR as well?",
-    a: "Yes. Crisis communication is one of our core specialisations. We develop proactive crisis PR plans, monitor for emerging issues 24/7, and provide rapid-response media communications when crises arise — protecting your reputation and minimising long-term damage.",
+    a: "Yes. Crisis communication is one of our core specialisations. We develop proactive crisis PR plans, monitor for emerging issues 24/7, and provide rapid-response media communications when crises arise - protecting your reputation and minimising long-term damage.",
   },
 ];
 
@@ -1378,7 +1378,7 @@ export default function PublicRelationPage() {
                 How We Build Your <span className="heading-script text-brand-blue">PR Strategy</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-10">
-                A structured, transparent process from strategy to execution — you always
+                A structured, transparent process from strategy to execution - you always
                 know exactly what we&apos;re doing and why.
               </p>
             </RevealOnScroll>
@@ -1490,7 +1490,7 @@ export default function PublicRelationPage() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE US — Embedded JSX Handled Elegantly ───────────────── */}
+      {/* ── WHY CHOOSE US - Embedded JSX Handled Elegantly ───────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden z-0">
         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -1511,7 +1511,7 @@ export default function PublicRelationPage() {
             {[
               {
                 title: "Integrated PR + ORM Approach",
-                desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management — giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
+                desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management - giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -1520,7 +1520,7 @@ export default function PublicRelationPage() {
               },
               {
                 title: "50+ Media Outlet Network",
-                desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks — and get published, not ignored.",
+                desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks - and get published, not ignored.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1538,7 +1538,7 @@ export default function PublicRelationPage() {
               },
               {
                 title: "Transparent Monthly Reporting",
-                desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was — no vague metrics or vanity numbers.",
+                desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was - no vague metrics or vanity numbers.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -1653,7 +1653,7 @@ export default function PublicRelationPage() {
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free PR consultation today. Our team will assess your brand&apos;s
                 media presence, identify the right publications, and present a clear PR
-                strategy — with no obligation.
+                strategy - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

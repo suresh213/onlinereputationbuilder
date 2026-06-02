@@ -172,7 +172,20 @@ const testimonials = [
 ];
 
 const publishers = [
-  "INDIAN EXPRESS", "BusinessLine", "Bloomberg", "MONEY", "FINANCIAL", "Games", "Military.com", "MarketWatch", "CNN", "Outlook", "People", "CRAIN'S", "siliconindia", "St.Louis"
+  { name: "Bloomberg",       style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 22, letterSpacing: "-0.5px" } },
+  { name: "Forbes",          style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 24, fontStyle: "italic" } },
+  { name: "Reuters",         style: { fontFamily: "sans-serif", fontWeight: 400, fontSize: 20, letterSpacing: "2px" } },
+  { name: "CNN",             style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 24, letterSpacing: "1px" } },
+  { name: "MarketWatch",     style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "Indian Express",  style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
+  { name: "Outlook",         style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 20, fontStyle: "italic" } },
+  { name: "People",          style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 22, letterSpacing: "3px" } },
+  { name: "BusinessLine",    style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
+  { name: "siliconindia",    style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "CRAIN'S",         style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 18, letterSpacing: "2px" } },
+  { name: "Military.com",    style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "MONEY",           style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 22, letterSpacing: "3px" } },
+  { name: "St.Louis",        style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */
@@ -522,16 +535,43 @@ export default function NewsArticleRemovalPage() {
           </div>
 
           {/* Trusted Brand Marquee (Placeholder based on PDF) */}
-          <RevealOnScroll delay={300}>
-             <div className="mt-20 border-t border-zinc-800 pt-10">
-               <p className="text-center text-[0.65rem] font-bold text-zinc-500 uppercase tracking-widest mb-8">We Are Proudly Featured With</p>
-               <div className="flex flex-wrap justify-center gap-4 lg:gap-8">
-                 {publishers.map((pub) => (
-                   <span key={pub} className="text-zinc-600 font-heading font-bold text-sm md:text-lg uppercase tracking-wider">{pub}</span>
-                 ))}
-               </div>
-             </div>
-          </RevealOnScroll>
+<RevealOnScroll delay={300}>
+  <div className="mt-20 border-t border-zinc-800 pt-10">
+    <p className="text-center text-[0.65rem] font-bold text-zinc-500 uppercase tracking-widest mb-8">
+      We Are Proudly Featured With
+    </p>
+
+    <div className="group relative overflow-hidden">
+      <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-zinc-950 to-transparent" />
+      <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-zinc-950 to-transparent" />
+
+      <div
+        className="flex items-center w-max"
+        style={{ animation: "publisher-marquee 40s linear infinite" }}
+      >
+        {[...publishers, ...publishers].map((pub, i) => (
+          <span
+            key={`${pub.name}-${i}`}
+            className="flex-shrink-0 mx-10 text-zinc-400 hover:text-white transition-colors duration-300 whitespace-nowrap opacity-50 hover:opacity-100"
+            style={pub.style as React.CSSProperties}
+          >
+            {pub.name}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <style>{`
+    @keyframes publisher-marquee {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .group:hover .flex.items-center.w-max {
+      animation-play-state: paused;
+    }
+  `}</style>
+</RevealOnScroll>
         </div>
       </section>
 
@@ -612,7 +652,7 @@ export default function NewsArticleRemovalPage() {
                 Don&apos;t Let Harmful News Articles <span className="heading-script text-brand-blue">Damage Your Brand</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

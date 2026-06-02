@@ -36,7 +36,7 @@ const impacts = [
   },
   {
     title: "Brand Credibility Erosion",
-    desc: "Indeed reviews rank in Google search results. Negative feedback about your company doesn't just affect recruitment — it's publicly visible to clients, partners, and investors who search for your business.",
+    desc: "Indeed reviews rank in Google search results. Negative feedback about your company doesn't just affect recruitment - it's publicly visible to clients, partners, and investors who search for your business.",
     icon: "📉",
   },
 ];
@@ -45,7 +45,7 @@ const services = [
   {
     step: "01",
     title: "Indeed Profile Audit",
-    desc: "We audit your complete Indeed company profile — identifying all negative, fake, and policy-violating reviews — and build a prioritised removal and response action plan.",
+    desc: "We audit your complete Indeed company profile - identifying all negative, fake, and policy-violating reviews - and build a prioritised removal and response action plan.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
     ),
@@ -53,7 +53,7 @@ const services = [
   {
     step: "02",
     title: "Negative Review Removal",
-    desc: "We identify reviews that breach Indeed's community guidelines — including fake accounts, defamatory content, and competitor-placed reviews — and submit targeted removal requests.",
+    desc: "We identify reviews that breach Indeed's community guidelines - including fake accounts, defamatory content, and competitor-placed reviews - and submit targeted removal requests.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
     ),
@@ -61,7 +61,7 @@ const services = [
   {
     step: "03",
     title: "Employer Response Management",
-    desc: "We craft professional, brand-appropriate responses to negative reviews on your behalf — showing candidates that you listen, value feedback, and actively work to improve.",
+    desc: "We craft professional, brand-appropriate responses to negative reviews on your behalf - showing candidates that you listen, value feedback, and actively work to improve.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
     ),
@@ -69,7 +69,7 @@ const services = [
   {
     step: "04",
     title: "Positive Review Generation",
-    desc: "We implement Indeed-compliant strategies to encourage satisfied employees to leave authentic positive reviews — improving your overall rating and employer brand score.",
+    desc: "We implement Indeed-compliant strategies to encourage satisfied employees to leave authentic positive reviews - improving your overall rating and employer brand score.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
@@ -98,14 +98,14 @@ const reviewTypes = [
 const whyUs = [
   {
     title: "Indeed Platform Expertise",
-    desc: "We know Indeed's employer review policies and enforcement mechanisms in depth — deploying the right arguments to maximise removal success rates.",
+    desc: "We know Indeed's employer review policies and enforcement mechanisms in depth - deploying the right arguments to maximise removal success rates.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
     title: "Recruitment Brand Focus",
-    desc: "We understand the direct link between your Indeed reputation and your recruitment performance — and we optimise for outcomes that improve hiring, not just ratings.",
+    desc: "We understand the direct link between your Indeed reputation and your recruitment performance - and we optimise for outcomes that improve hiring, not just ratings.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
@@ -129,7 +129,7 @@ const whyUs = [
 const faqs = [
   {
     q: "Can Indeed company reviews be removed?",
-    a: "Yes — reviews that violate Indeed's community guidelines, including fake accounts, defamatory content, and spam, can be removed. We identify violations and submit the strongest possible case to Indeed's trust and safety team.",
+    a: "Yes - reviews that violate Indeed's community guidelines, including fake accounts, defamatory content, and spam, can be removed. We identify violations and submit the strongest possible case to Indeed's trust and safety team.",
   },
   {
     q: "How long does Indeed review removal take?",
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: "Will improving my Indeed rating actually increase applications?",
-    a: "Yes — Indeed's data shows that companies with higher ratings and actively managed profiles receive significantly more quality applications. A better profile directly improves your recruitment funnel.",
+    a: "Yes - Indeed's data shows that companies with higher ratings and actively managed profiles receive significantly more quality applications. A better profile directly improves your recruitment funnel.",
   },
   {
     q: "Can you help if reviews seem genuine but damaging?",
@@ -156,7 +156,7 @@ const testimonials = [
   },
   {
     name: "Sonia Kapoor",
-    text: "The response management service was a revelation — professional, empathetic responses that actually turned some negative reviews into positive impressions for candidates reading them.",
+    text: "The response management service was a revelation - professional, empathetic responses that actually turned some negative reviews into positive impressions for candidates reading them.",
   },
   {
     name: "Vikram Bose",
@@ -272,7 +272,7 @@ export default function IndeedReputationPage() {
                 Indeed is India's most-used job platform. Your company profile is the first impression millions of active job seekers get of your business. A damaged profile means fewer applications, lower-quality hires, and a higher cost of recruitment.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our team specialises in restoring and strengthening Indeed profiles for companies across Delhi, India, and beyond — delivering measurable improvements in both profile rating and recruitment outcomes.
+                Our team specialises in restoring and strengthening Indeed profiles for companies across Delhi, India, and beyond - delivering measurable improvements in both profile rating and recruitment outcomes.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Profile Audit</Link>
             </div>
@@ -427,7 +427,7 @@ export default function IndeedReputationPage() {
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Indeed Reputation <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Indeed situation? Get a free profile audit and action plan — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Indeed situation? Get a free profile audit and action plan - no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -456,12 +456,12 @@ export default function IndeedReputationPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Don&apos;t Let a Poor Indeed Profile <span className="heading-script text-brand-blue">Cost You Your Best Hires</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free Indeed profile audit today. Our reputation experts will identify every issue and present a clear improvement plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free Indeed profile audit today. Our reputation experts will identify every issue and present a clear improvement plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

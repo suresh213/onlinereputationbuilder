@@ -10,52 +10,52 @@ import Link from "next/link";
 /* ─── Original Data Extracted from PDF ─────────────────────────────────────── */
 
 const heroBullets = [
-  "Continuous monitoring of reviews across major platforms", //[cite: 12]
-  "Professional responses to positive and negative feedback", //[cite: 12]
-  "Detection and reporting of fake or spam reviews", //[cite: 12]
-  "Reputation improvement strategies to build long-term trust", //[cite: 12]
+  "Continuous monitoring of reviews across major platforms", 
+  "Professional responses to positive and negative feedback", 
+  "Detection and reporting of fake or spam reviews", 
+  "Reputation improvement strategies to build long-term trust", 
 ];
 
 const importancePoints = [
-  "Build brand and authority and capture trust", //[cite: 12]
-  "Higher visibility through positive reviews", //[cite: 12]
-  "Better customer engagement and issue handling", //[cite: 12]
-  "Full control over your online reputation narrative", //[cite: 12]
+  "Build brand and authority and capture trust", 
+  "Higher visibility through positive reviews", 
+  "Better customer engagement and issue handling", 
+  "Full control over your online reputation narrative", 
 ];
 
 const repairSteps = [
   {
-    title: "Have an online presence everywhere", //[cite: 12]
-    desc: "To fix the negative aspects of your reputation, you need to be present all of the top review sites. If someone leaves a not-so-good review, you are more likely to see it and deal with it quickly or properly.", //[cite: 12]
+    title: "Have an online presence everywhere", 
+    desc: "To fix the negative aspects of your reputation, you need to be present all of the top review sites. If someone leaves a not-so-good review, you are more likely to see it and deal with it quickly or properly.", 
   },
   {
-    title: "Respond to reviews", //[cite: 12]
-    desc: "You should try to reply to positive as well as negative reviews. There are potential customers who want to see what you have to say in your replies.", //[cite: 12]
+    title: "Respond to reviews", 
+    desc: "You should try to reply to positive as well as negative reviews. There are potential customers who want to see what you have to say in your replies.", 
   },
   {
-    title: "Get more positive reviews", //[cite: 12]
-    desc: "Great reviews tend to outnumber negative reviews. Start out by implementing a plan to obtain new and great reviews from happy and satisfied customers.", //[cite: 12]
+    title: "Get more positive reviews", 
+    desc: "Great reviews tend to outnumber negative reviews. Start out by implementing a plan to obtain new and great reviews from happy and satisfied customers.", 
   },
 ];
 
 const advancedSolutions = [
   {
-    title: "Reporting", //[cite: 12]
-    desc: "We look at all your reviews and develop strategies for managing reviews efficiently and effectively.", //[cite: 12]
+    title: "Reporting", 
+    desc: "We look at all your reviews and develop strategies for managing reviews efficiently and effectively.", 
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
     ),
   },
   {
-    title: "Monitor", //[cite: 12]
-    desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites.", //[cite: 12]
+    title: "Monitor", 
+    desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites.", 
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
     ),
   },
   {
-    title: "Reputation Management", //[cite: 12]
-    desc: "With powerful reputation management. With review monitoring, we identify reviews that can strengthen or damage your online reputation.", //[cite: 12]
+    title: "Reputation Management", 
+    desc: "With powerful reputation management. With review monitoring, we identify reviews that can strengthen or damage your online reputation.", 
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
     ),
@@ -63,39 +63,39 @@ const advancedSolutions = [
 ];
 
 const faqs = [
-  { q: "What is a review management service?", a: "We provide comprehensive solutions to monitor, control, and respond to your customer reviews across all leading platforms to protect your brand image." }, //[cite: 12]
-  { q: "What are the benefits of reviews management services?", a: "Benefits include building brand authority, capturing trust, improving search visibility, better customer engagement, and gaining full control over your online narrative." }, //[cite: 12]
-  { q: "What does Review Management Services do?", a: "We track customer reviews, scour millions of web pages, report on fake reviews, and develop strategies for managing feedback efficiently." }, //[cite: 12]
-  { q: "How do I remove negative reviews from Google?", a: "We assist in the creation, handling, and trimming to fight fake reviews and downplay the bad stuff to ensure your business remains reputable." }, //[cite: 12]
-  { q: "How long does it take to remove google reviews?", a: "Timelines vary depending on the platform and the nature of the review. We implement highly effective strategies to address harmful content as quickly as possible." }, //[cite: 12]
+  { q: "What is a review management service?", a: "We provide comprehensive solutions to monitor, control, and respond to your customer reviews across all leading platforms to protect your brand image." }, 
+  { q: "What are the benefits of reviews management services?", a: "Benefits include building brand authority, capturing trust, improving search visibility, better customer engagement, and gaining full control over your online narrative." }, 
+  { q: "What does Review Management Services do?", a: "We track customer reviews, scour millions of web pages, report on fake reviews, and develop strategies for managing feedback efficiently." }, 
+  { q: "How do I remove negative reviews from Google?", a: "We assist in the creation, handling, and trimming to fight fake reviews and downplay the bad stuff to ensure your business remains reputable." }, 
+  { q: "How long does it take to remove google reviews?", a: "Timelines vary depending on the platform and the nature of the review. We implement highly effective strategies to address harmful content as quickly as possible." }, 
 ];
 
 const testimonials = [
   {
-    name: "Garima", //[cite: 12]
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", //[cite: 12]
+    name: "Garima", 
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
     initials: "G",
   },
   {
-    name: "Kapil", //[cite: 12]
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", //[cite: 12]
+    name: "Kapil", 
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
     initials: "K",
   },
   {
-    name: "Jashmin", //[cite: 12]
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", //[cite: 12]
+    name: "Jashmin", 
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
     initials: "J",
   },
 ];
 
 // Reconstructed sliding marquee data using Favicon API
 const publisherLogos = [
-  { name: "TikTok", img: "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128" }, //[cite: 12]
-  { name: "CNN", img: "https://www.google.com/s2/favicons?domain=cnn.com&sz=128" }, //[cite: 12]
-  { name: "CBC News", img: "https://www.google.com/s2/favicons?domain=cbc.ca&sz=128" }, //[cite: 12]
-  { name: "Forbes", img: "https://www.google.com/s2/favicons?domain=forbes.com&sz=128" }, //[cite: 12]
-  { name: "Daily Journal", img: "https://www.google.com/s2/favicons?domain=dailyjournal.com&sz=128" }, //[cite: 12]
-  { name: "St. Louis", img: "https://www.google.com/s2/favicons?domain=stltoday.com&sz=128" }, //[cite: 12]
+  { name: "TikTok", img: "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128" }, 
+  { name: "CNN", img: "https://www.google.com/s2/favicons?domain=cnn.com&sz=128" }, 
+  { name: "CBC News", img: "https://www.google.com/s2/favicons?domain=cbc.ca&sz=128" }, 
+  { name: "Forbes", img: "https://www.google.com/s2/favicons?domain=forbes.com&sz=128" }, 
+  { name: "Daily Journal", img: "https://www.google.com/s2/favicons?domain=dailyjournal.com&sz=128" }, 
+  { name: "St. Louis", img: "https://www.google.com/s2/favicons?domain=stltoday.com&sz=128" }, 
   { name: "Indian Express", img: "https://www.google.com/s2/favicons?domain=indianexpress.com&sz=128" },
   { name: "BusinessLine", img: "https://www.google.com/s2/favicons?domain=thehindubusinessline.com&sz=128" },
   { name: "Bloomberg", img: "https://www.google.com/s2/favicons?domain=bloomberg.com&sz=128" },
@@ -543,7 +543,7 @@ export default function ReviewManagementPage() {
                 Don't let a single negative Google result <span className="heading-script text-brand-blue">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

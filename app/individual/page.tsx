@@ -309,7 +309,7 @@ export default function IndividualSolutionsPage() {
                 Don't let a single negative Google result <span className="heading-script text-brand-blue">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

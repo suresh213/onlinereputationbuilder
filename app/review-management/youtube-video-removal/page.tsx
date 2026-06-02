@@ -47,7 +47,7 @@ const importanceReasons = [
   {
     step: "03",
     title: "Address Legal Violations",
-    desc: "Many harmful YouTube videos involve copyright infringement, defamation, or invasion of privacy — all actionable grounds for removal. Taking legal action promptly prevents further spread and establishes a paper trail for future claims.",
+    desc: "Many harmful YouTube videos involve copyright infringement, defamation, or invasion of privacy - all actionable grounds for removal. Taking legal action promptly prevents further spread and establishes a paper trail for future claims.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
@@ -77,14 +77,14 @@ const expertProcess = [
 const faqs = [
   { q: "What types of YouTube videos can you remove?", a: "We handle removal of defamatory videos, fake news content, copyright-infringing material, harassment, impersonation channels, and videos violating YouTube's community guidelines. We also assist with suppression of damaging content that is technically policy-compliant." },
   { q: "How long does YouTube video removal take?", a: "Policy-violation removals typically take 3–10 business days. DMCA copyright claims are often resolved within 7–14 days. Legal escalation cases may take 3–6 weeks. We deploy suppression strategies in parallel throughout the process." },
-  { q: "Can you remove a video uploaded by someone else?", a: "Yes — this is our core speciality. We build documented removal cases citing YouTube's policies, copyright law, or defamation grounds and submit formal requests on your behalf. Where YouTube refuses, we escalate through legal channels and implement suppression strategies." },
+  { q: "Can you remove a video uploaded by someone else?", a: "Yes - this is our core speciality. We build documented removal cases citing YouTube's policies, copyright law, or defamation grounds and submit formal requests on your behalf. Where YouTube refuses, we escalate through legal channels and implement suppression strategies." },
   { q: "Will a removed YouTube video affect my Google search results?", a: "Yes, positively. YouTube videos often rank prominently in Google search results. Once removed, those positions are freed up for positive content about your brand. We also run parallel SEO campaigns to accelerate the replacement of negative results with favourable ones." },
   { q: "What if YouTube rejects the removal request?", a: "We appeal through YouTube's formal review process, provide additional documentation, and simultaneously escalate legal options. In parallel, we implement suppression strategies so the video loses visibility even if it cannot be immediately removed." },
 ];
 
 const testimonials = [
   { name: "Sandeep K.", role: "Business Owner", text: "A competitor had uploaded defamatory videos about my company. The team filed the takedown, had the videos removed within a week, and cleaned up my Google search results completely.", initials: "SK" },
-  { name: "Pooja M.", role: "Personal Brand", text: "Someone was uploading fake exposé videos about me. These experts handled everything — the videos are gone and my YouTube reputation is fully restored. Exceptional service.", initials: "PM" },
+  { name: "Pooja M.", role: "Personal Brand", text: "Someone was uploading fake exposé videos about me. These experts handled everything - the videos are gone and my YouTube reputation is fully restored. Exceptional service.", initials: "PM" },
   { name: "Rohan T.", role: "CEO", text: "Negative videos were ranking top on Google searches for my company name. After the removal and suppression campaign, my brand results are completely clean and professional.", initials: "RT" },
 ];
 
@@ -155,7 +155,7 @@ export default function YouTubeRemovalPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Negative <span className="text-gradient-gold">YouTube Videos</span> — Protect Your Brand with Ease
+                Remove Negative <span className="text-gradient-gold">YouTube Videos</span> - Protect Your Brand with Ease
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -186,7 +186,7 @@ export default function YouTubeRemovalPage() {
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-red-600/20 border border-red-600/30 flex items-center justify-center flex-shrink-0 shadow-inner text-lg">🎬</div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    YouTube videos rank in <span className="text-white font-bold">Google search results</span> — every day a negative video stays live, it damages your brand across the entire web.
+                    YouTube videos rank in <span className="text-white font-bold">Google search results</span> - every day a negative video stays live, it damages your brand across the entire web.
                   </p>
                 </div>
               </div>

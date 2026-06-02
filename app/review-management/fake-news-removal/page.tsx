@@ -73,10 +73,10 @@
 
 // const faqs = [
 //   { q: "What counts as 'fake news' for removal purposes?", a: "Fake news includes fabricated stories, doctored images, manipulated statistics, out-of-context information, and deliberately misleading articles published about your brand or name. We assess each case individually and build removal documentation based on the specific type of misinformation." },
-//   { q: "How quickly does fake news spread online?", a: "Research shows that fake news spreads six times faster than true information on digital platforms. A false story about your brand can reach tens of thousands of people within hours. That's why rapid identification and removal is critical — every hour of delay amplifies the damage." },
+//   { q: "How quickly does fake news spread online?", a: "Research shows that fake news spreads six times faster than true information on digital platforms. A false story about your brand can reach tens of thousands of people within hours. That's why rapid identification and removal is critical - every hour of delay amplifies the damage." },
 //   { q: "Can you remove fake news from major news websites?", a: "We contact news publication editors directly with documented evidence of inaccuracies, request corrections or retractions, and file formal complaints with editorial boards. We also work with legal partners to pursue defamation claims where applicable, and simultaneously deploy suppression strategies." },
-//   { q: "What if the platform refuses to remove the fake news?", a: "We escalate through legal channels and pursue suppression strategies in parallel — creating authoritative positive content that dominates search results for your brand name, effectively burying the false story. We continue monitoring to ensure it doesn't re-emerge." },
-//   { q: "Does removing fake news improve my Google search results?", a: "Yes — removal or effective suppression of fake news directly improves your search results. As harmful pages are taken down or pushed beyond page one, your positive content fills the top positions. We track before/after search rankings as part of our reporting." },
+//   { q: "What if the platform refuses to remove the fake news?", a: "We escalate through legal channels and pursue suppression strategies in parallel - creating authoritative positive content that dominates search results for your brand name, effectively burying the false story. We continue monitoring to ensure it doesn't re-emerge." },
+//   { q: "Does removing fake news improve my Google search results?", a: "Yes - removal or effective suppression of fake news directly improves your search results. As harmful pages are taken down or pushed beyond page one, your positive content fills the top positions. We track before/after search rankings as part of our reporting." },
 // ];
 
 // const testimonials = [
@@ -108,7 +108,7 @@
 //             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
 //               Remove{" "}
 //               <span className="text-brand-gold-light">Fake News</span>{" "}
-//               from the Searches — Protect Your Brand Today
+//               from the Searches - Protect Your Brand Today
 //             </h1>
 //             <p className="text-white/65 text-base mb-7 leading-relaxed">
 //               With 12+ years of experience, we are a trustworthy name in fake news removal services. Our fake news removal services ensure that misleading content doesn&apos;t tarnish your online image. Protect your brand with efficient and reliable solutions.
@@ -129,7 +129,7 @@
 //               <div className="w-9 h-9 rounded-lg bg-red-500/20 border border-red-400/30 flex items-center justify-center flex-shrink-0">
 //                 <svg className="w-4 h-4 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
 //               </div>
-//               <p className="text-white/50 text-xs">Fake news spreads <span className="text-white/80 font-semibold">6× faster</span> than true information — every hour of delay amplifies the damage to your brand</p>
+//               <p className="text-white/50 text-xs">Fake news spreads <span className="text-white/80 font-semibold">6× faster</span> than true information - every hour of delay amplifies the damage to your brand</p>
 //             </div>
 //           </div>
 //           <div className="relative">
@@ -425,10 +425,10 @@ const expertProcess = [
 
 const faqs = [
   { q: "What counts as 'fake news' for removal purposes?", a: "Fake news includes fabricated stories, doctored images, manipulated statistics, out-of-context information, and deliberately misleading articles published about your brand or name. We assess each case individually and build removal documentation based on the specific type of misinformation." },
-  { q: "How quickly does fake news spread online?", a: "Research shows that fake news spreads six times faster than true information on digital platforms. A false story about your brand can reach tens of thousands of people within hours. That's why rapid identification and removal is critical — every hour of delay amplifies the damage." },
+  { q: "How quickly does fake news spread online?", a: "Research shows that fake news spreads six times faster than true information on digital platforms. A false story about your brand can reach tens of thousands of people within hours. That's why rapid identification and removal is critical - every hour of delay amplifies the damage." },
   { q: "Can you remove fake news from major news websites?", a: "We contact news publication editors directly with documented evidence of inaccuracies, request corrections or retractions, and file formal complaints with editorial boards. We also work with legal partners to pursue defamation claims where applicable, and simultaneously deploy suppression strategies." },
-  { q: "What if the platform refuses to remove the fake news?", a: "We escalate through legal channels and pursue suppression strategies in parallel — creating authoritative positive content that dominates search results for your brand name, effectively burying the false story. We continue monitoring to ensure it doesn't re-emerge." },
-  { q: "Does removing fake news improve my Google search results?", a: "Yes — removal or effective suppression of fake news directly improves your search results. As harmful pages are taken down or pushed beyond page one, your positive content fills the top positions. We track before/after search rankings as part of our reporting." },
+  { q: "What if the platform refuses to remove the fake news?", a: "We escalate through legal channels and pursue suppression strategies in parallel - creating authoritative positive content that dominates search results for your brand name, effectively burying the false story. We continue monitoring to ensure it doesn't re-emerge." },
+  { q: "Does removing fake news improve my Google search results?", a: "Yes - removal or effective suppression of fake news directly improves your search results. As harmful pages are taken down or pushed beyond page one, your positive content fills the top positions. We track before/after search rankings as part of our reporting." },
 ];
 
 const testimonials = [
@@ -537,7 +537,7 @@ export default function FakeNewsRemovalPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove <span className="text-gradient-gold">Fake News</span> from the Searches — Protect Your Brand Today
+                Remove <span className="text-gradient-gold">Fake News</span> from the Searches - Protect Your Brand Today
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -575,7 +575,7 @@ export default function FakeNewsRemovalPage() {
                     <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    Fake news spreads <span className="text-white font-bold">6× faster</span> than true information — every hour of delay amplifies the damage to your brand.
+                    Fake news spreads <span className="text-white font-bold">6× faster</span> than true information - every hour of delay amplifies the damage to your brand.
                   </p>
                 </div>
               </div>

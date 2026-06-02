@@ -26,7 +26,7 @@ const stats = [
 const impacts = [
   {
     title: "Lost Customers & Revenue",
-    desc: "A single bad Yelp review can push potential customers toward a competitor. Studies show that one negative review can cost a business up to 30 customers — making swift action essential.",
+    desc: "A single bad Yelp review can push potential customers toward a competitor. Studies show that one negative review can cost a business up to 30 customers - making swift action essential.",
     icon: "💸",
   },
   {
@@ -45,7 +45,7 @@ const processSteps = [
   {
     step: "01",
     title: "Reputation Audit",
-    desc: "We conduct a thorough audit of your Yelp profile — identifying fake reviews, flagging policy violations, and assessing your current star rating impact on local search.",
+    desc: "We conduct a thorough audit of your Yelp profile - identifying fake reviews, flagging policy violations, and assessing your current star rating impact on local search.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
     ),
@@ -69,7 +69,7 @@ const processSteps = [
   {
     step: "04",
     title: "Profile Optimization",
-    desc: "We optimize your Yelp business profile — photos, categories, business info, and keyword alignment — to maximize visibility and conversion in local searches.",
+    desc: "We optimize your Yelp business profile - photos, categories, business info, and keyword alignment - to maximize visibility and conversion in local searches.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -87,7 +87,7 @@ const typesOfContent = [
   },
   {
     title: "Policy-Violating Reviews",
-    desc: "Reviews that violate Yelp's content guidelines — including hate speech, threats, or irrelevant content — are flagged and escalated for removal.",
+    desc: "Reviews that violate Yelp's content guidelines - including hate speech, threats, or irrelevant content - are flagged and escalated for removal.",
   },
   {
     title: "Negative Review Response",
@@ -98,7 +98,7 @@ const typesOfContent = [
 const whyUs = [
   {
     title: "Yelp Platform Expertise",
-    desc: "We know Yelp's content policies, reporting mechanisms, and escalation pathways inside out — giving your removal requests the best possible chance of success.",
+    desc: "We know Yelp's content policies, reporting mechanisms, and escalation pathways inside out - giving your removal requests the best possible chance of success.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -112,7 +112,7 @@ const whyUs = [
   },
   {
     title: "Legal & Ethical Methods",
-    desc: "All our strategies are fully compliant with Yelp's terms of service and applicable law — no black-hat tactics, ever.",
+    desc: "All our strategies are fully compliant with Yelp's terms of service and applicable law - no black-hat tactics, ever.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Can you remove reviews from accounts you don't own?",
-    a: "Yes. We use Yelp's reporting mechanisms, DMCA processes, and legal notices targeting the review author and Yelp directly — no ownership of the reviewing account is required.",
+    a: "Yes. We use Yelp's reporting mechanisms, DMCA processes, and legal notices targeting the review author and Yelp directly - no ownership of the reviewing account is required.",
   },
   {
     q: "Will removing bad reviews also help my Google ranking?",
@@ -165,7 +165,17 @@ const testimonials = [
 ];
 
 const publishers = [
-  "INDIAN EXPRESS", "BusinessLine", "Bloomberg", "MONEY", "FINANCIAL", "Games", "Military.com", "MarketWatch", "CNN", "Outlook", "People", "CRAIN'S", "siliconindia", "St.Louis"
+  { name: "Bloomberg",       logo: "https://www.vectorlogo.zone/logos/bloomberg/bloomberg-ar21.svg" },
+  { name: "Forbes",          logo: "https://www.vectorlogo.zone/logos/forbes/forbes-ar21.svg" },
+  { name: "Reuters",         logo: "https://www.vectorlogo.zone/logos/reuters/reuters-ar21.svg" },
+  { name: "CNN",             logo: "https://www.vectorlogo.zone/logos/cnn/cnn-ar21.svg" },
+  { name: "MarketWatch",     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MarketWatch_Logo.svg/320px-MarketWatch_Logo.svg.png" },
+  { name: "Indian Express",  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Indian_Express_logo.svg/320px-The_Indian_Express_logo.svg.png" },
+  { name: "Outlook",         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Outlook_India_logo.svg/320px-Outlook_India_logo.svg.png" },
+  { name: "People",          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/People_Magazine_logo.svg/320px-People_Magazine_logo.svg.png" },
+  { name: "Financial Times", logo: "https://www.vectorlogo.zone/logos/ft/ft-ar21.svg" },
+  { name: "Silicon India",   logo: "https://www.siliconindia.com/images/si-logo.png" },
+  { name: "Money",           logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Money_magazine_logo.svg/320px-Money_magazine_logo.svg.png" },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────────────── */
@@ -212,7 +222,7 @@ export default function YelpReviewsManagementPage() {
                 Turn Yelp Feedback into Your <span className="text-gradient-gold">Business Advantage</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialists manage your Yelp reputation — removing fake reviews, boosting your star rating, and optimizing your profile to attract more local customers.
+                Our specialists manage your Yelp reputation - removing fake reviews, boosting your star rating, and optimizing your profile to attract more local customers.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -252,16 +262,57 @@ export default function YelpReviewsManagementPage() {
       </section>
 
       {/* ── PUBLISHERS ──────────────────────────────────────────────────── */}
-      <section className="py-10 px-4 bg-zinc-50 border-b border-zinc-200 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-center text-[0.65rem] text-zinc-400 uppercase tracking-[0.2em] font-bold mb-6">As Featured In</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 items-center">
-            {publishers.map((p) => (
-              <span key={p} className="text-zinc-400 text-[0.7rem] font-bold uppercase tracking-widest hover:text-zinc-600 transition-colors">{p}</span>
-            ))}
-          </div>
+<section className="py-10 px-4 bg-zinc-50 border-b border-zinc-200 overflow-hidden">
+  <div className="max-w-7xl mx-auto">
+    <p className="text-center text-[0.65rem] text-zinc-400 uppercase tracking-[0.2em] font-bold mb-6">As Featured In</p>
+  </div>
+
+  {/* Marquee track */}
+  <div className="group relative overflow-hidden">
+    {/* Left fade */}
+    <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-r from-zinc-50 to-transparent" />
+    {/* Right fade */}
+    <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-l from-zinc-50 to-transparent" />
+
+    <div
+      className="flex items-center w-max"
+      style={{ animation: "publisher-marquee 35s linear infinite" }}
+    >
+      {[...publishers, ...publishers].map((pub, i) => (
+        <div
+          key={`${pub.name}-${i}`}
+          className="flex items-center justify-center flex-shrink-0 mx-10 opacity-50 hover:opacity-100 transition-opacity duration-300"
+          style={{ height: 40 }}
+        >
+          <img
+            src={pub.logo}
+            alt={pub.name}
+            className="h-8 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+            loading="lazy"
+            onError={(e) => {
+              const el = e.target as HTMLImageElement;
+              el.style.display = "none";
+              const span = document.createElement("span");
+              span.className = "text-zinc-400 text-[0.65rem] font-bold uppercase tracking-widest whitespace-nowrap";
+              span.textContent = pub.name;
+              el.parentElement?.appendChild(span);
+            }}
+          />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+
+  <style>{`
+    @keyframes publisher-marquee {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .group:hover .flex.items-center.w-max {
+      animation-play-state: paused;
+    }
+  `}</style>
+</section>
 
       {/* ── IMPACT ──────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden">
@@ -443,7 +494,7 @@ export default function YelpReviewsManagementPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of Low Yelp Ratings Costs You <span className="heading-script text-brand-blue">Real Customers</span></h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Yelp management specialists will assess your profile and present a clear action plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Yelp management specialists will assess your profile and present a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },

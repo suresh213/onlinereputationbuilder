@@ -11,7 +11,7 @@
 // //   { q: "Can negative content be permanently removed from Google?", a: "Yes, in many cases negative content can be permanently removed from Google through official removal requests, legal takedowns, or direct outreach to webmasters. Our team evaluates each case and uses the most effective strategy for permanent removal." },
 // //   { q: "How long does it take to remove negative Google search results?", a: "The timeline varies depending on the type of content and platform. Some removals happen within days, while others may take 4-8 weeks. SEO suppression strategies typically show results in 60-90 days." },
 // //   { q: "What types of negative content can be removed?", a: "We can assist with removing news articles, blog posts, forum threads, defamatory reviews, legal information, images, videos, and other harmful online content through various legal and technical methods." },
-// //   { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals — whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
+// //   { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals - whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
 // // ];
 
 // // const contentTypes = [
@@ -348,7 +348,7 @@
 //   { q: "Can negative content be permanently removed from Google?", a: "Yes, in many cases negative content can be permanently removed from Google through official removal requests, legal takedowns, or direct outreach to webmasters. Our team evaluates each case and uses the most effective strategy for permanent removal." },
 //   { q: "How long does it take to remove negative Google search results?", a: "The timeline varies depending on the type of content and platform. Some removals happen within days, while others may take 4-8 weeks. SEO suppression strategies typically show results in 60-90 days." },
 //   { q: "What types of negative content can be removed?", a: "We can assist with removing news articles, blog posts, forum threads, defamatory reviews, legal information, images, videos, and other harmful online content through various legal and technical methods." },
-//   { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals — whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
+//   { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals - whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
 // ];
 
 // const contentTypes = [
@@ -730,7 +730,7 @@ const faqs = [
   { q: "Can negative content be permanently removed from Google?", a: "Yes, in many cases negative content can be permanently removed from Google through official removal requests, legal takedowns, or direct outreach to webmasters. Our team evaluates each case and uses the most effective strategy for permanent removal." },
   { q: "How long does it take to remove negative Google search results?", a: "The timeline varies depending on the type of content and platform. Some removals happen within days, while others may take 4-8 weeks. SEO suppression strategies typically show results in 60-90 days." },
   { q: "What types of negative content can be removed?", a: "We can assist with removing news articles, blog posts, forum threads, defamatory reviews, legal information, images, videos, and other harmful online content through various legal and technical methods." },
-  { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals — whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
+  { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals - whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
 ];
 
 const contentTypes = [

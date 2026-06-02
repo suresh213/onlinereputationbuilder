@@ -168,84 +168,84 @@ import Link from "next/link";
 /* ─── Original Data Preserved & Cited ─────────────────────────────────────── */
 
 const heroBullets = [
-  "Suppressed negative search results on priority Google pages[cite: 18]",
-  "Built high-quality positive content around college strengths[cite: 18]",
-  "Improved local SEO and Google Business Profile visibility[cite: 18]",
-  "Increased student inquiries and online engagement[cite: 18]",
+  "Suppressed negative search results on priority Google pages",
+  "Built high-quality positive content around college strengths",
+  "Improved local SEO and Google Business Profile visibility",
+  "Increased student inquiries and online engagement",
 ];
 
 const faqs = [
   {
-    q: "What was the main challenge in this education case study?[cite: 18]",
-    a: "The private college had negative news coverage, low visibility of positive content, weak SEO, and damaging reviews across platforms like Google, Yelp, and Facebook.[cite: 18]",
+    q: "What was the main challenge in this education case study?",
+    a: "The private college had negative news coverage, low visibility of positive content, weak SEO, and damaging reviews across platforms like Google, Yelp, and Facebook.",
   },
   {
-    q: "How did Build Brand Better start the project?[cite: 18]",
-    a: "We began with a detailed online audit, search ranking evaluation, negative content analysis, keyword research, and review of website and social profile SEO gaps.[cite: 18]",
+    q: "How did Build Brand Better start the project?",
+    a: "We began with a detailed online audit, search ranking evaluation, negative content analysis, keyword research, and review of website and social profile SEO gaps.",
   },
   {
-    q: "What content was created for the college?[cite: 18]",
-    a: "We promoted student and graduate success stories, faculty achievements, research highlights, campus events, partnerships, new programs, and high-authority guest posts.[cite: 18]",
+    q: "What content was created for the college?",
+    a: "We promoted student and graduate success stories, faculty achievements, research highlights, campus events, partnerships, new programs, and high-authority guest posts.",
   },
   {
-    q: "How was local SEO improved?[cite: 18]",
-    a: "We optimized the Google Business Profile, added current images and event updates, improved location details, encouraged positive reviews, and fixed citations in educational directories.[cite: 18]",
+    q: "How was local SEO improved?",
+    a: "We optimized the Google Business Profile, added current images and event updates, improved location details, encouraged positive reviews, and fixed citations in educational directories.",
   },
   {
-    q: "What results did the college achieve?[cite: 18]",
-    a: "Seventy-five percent of first-page negative articles were pushed down, positive content ranked in top results, engagement improved by 87%, and admission inquiries increased.[cite: 18]",
+    q: "What results did the college achieve?",
+    a: "Seventy-five percent of first-page negative articles were pushed down, positive content ranked in top results, engagement improved by 87%, and admission inquiries increased.",
   },
   {
-    q: "Can this strategy work for other institutions?[cite: 18]",
-    a: "Yes. The same framework can be tailored for schools, universities, private colleges, coaching institutes, and education brands facing search or review reputation issues.[cite: 18]",
+    q: "Can this strategy work for other institutions?",
+    a: "Yes. The same framework can be tailored for schools, universities, private colleges, coaching institutes, and education brands facing search or review reputation issues.",
   },
 ];
 
 const services = [
   {
     label: "Audit",
-    title: "Comprehensive Online Audit and Keyword Research[cite: 18]",
-    desc: "We evaluated search rankings, identified negative Google content on the first two pages, examined harmful keywords, and mapped positive assets that could be optimized.[cite: 18]",
+    title: "Comprehensive Online Audit and Keyword Research",
+    desc: "We evaluated search rankings, identified negative Google content on the first two pages, examined harmful keywords, and mapped positive assets that could be optimized.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
     ),
   },
   {
     label: "Content",
-    title: "Positive Content Marketing[cite: 18]",
-    desc: "We created and promoted student success stories, graduate outcomes, faculty achievements, research highlights, campus events, partnerships, and new programs.[cite: 18]",
+    title: "Positive Content Marketing",
+    desc: "We created and promoted student success stories, graduate outcomes, faculty achievements, research highlights, campus events, partnerships, and new programs.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
     ),
   },
   {
     label: "SEO",
-    title: "Search Engine Optimization Implementation[cite: 18]",
-    desc: "We optimized the official website with keyword-rich metadata, refreshed existing content, improved internal linking, and built authoritative backlinks.[cite: 18]",
+    title: "Search Engine Optimization Implementation",
+    desc: "We optimized the official website with keyword-rich metadata, refreshed existing content, improved internal linking, and built authoritative backlinks.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
     ),
   },
   {
     label: "Local",
-    title: "Local SEO and Google Business Profile Enhancement[cite: 18]",
-    desc: "We updated college listing details, images, locations, event updates, and citations while encouraging satisfied students and alumni to share reviews.[cite: 18]",
+    title: "Local SEO and Google Business Profile Enhancement",
+    desc: "We updated college listing details, images, locations, event updates, and citations while encouraging satisfied students and alumni to share reviews.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Social",
-    title: "Social Media Reputation Management[cite: 18]",
-    desc: "We improved social presence through student achievements, institutional news, alumni engagement, influencer amplification, and professional negative comment handling.[cite: 18]",
+    title: "Social Media Reputation Management",
+    desc: "We improved social presence through student achievements, institutional news, alumni engagement, influencer amplification, and professional negative comment handling.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "ORM",
-    title: "Continuous Search Monitoring[cite: 18]",
-    desc: "We tracked search rankings and emerging negative content, then adjusted SEO and content strategies to keep reputation damage under control.[cite: 18]",
+    title: "Continuous Search Monitoring",
+    desc: "We tracked search rankings and emerging negative content, then adjusted SEO and content strategies to keep reputation damage under control.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     ),
@@ -255,26 +255,26 @@ const services = [
 const impacts = [
   {
     label: "Suppression",
-    title: "Negative Search Results Pushed Down[cite: 18]",
-    desc: "Seventy-five percent of negative articles that appeared on first-page results were pushed down and replaced with positive articles.[cite: 18]",
+    title: "Negative Search Results Pushed Down",
+    desc: "Seventy-five percent of negative articles that appeared on first-page results were pushed down and replaced with positive articles.",
     icon: "📉",
   },
   {
     label: "Ranking",
-    title: "Positive Content Reached Top Results[cite: 18]",
-    desc: "The official website and newly published positive content ranked in the top five search results for education-centric queries.[cite: 18]",
+    title: "Positive Content Reached Top Results",
+    desc: "The official website and newly published positive content ranked in the top five search results for education-centric queries.",
     icon: "🏆",
   },
   {
     label: "Engagement",
-    title: "Student and Faculty Stories Gained Traction[cite: 18]",
-    desc: "Positive engagement increased by 87% as student testimonials and faculty spotlights gathered more shares and comments.[cite: 18]",
+    title: "Student and Faculty Stories Gained Traction",
+    desc: "Positive engagement increased by 87% as student testimonials and faculty spotlights gathered more shares and comments.",
     icon: "💬",
   },
   {
     label: "Admissions",
-    title: "Higher Student Inquiries[cite: 18]",
-    desc: "With a stronger online presence, the college recorded more admission inquiries compared to the previous year.[cite: 18]",
+    title: "Higher Student Inquiries",
+    desc: "With a stronger online presence, the college recorded more admission inquiries compared to the previous year.",
     icon: "🎓",
   },
 ];
@@ -282,23 +282,23 @@ const impacts = [
 const processes = [
   {
     label: "Diagnose",
-    title: "Identify Harmful Search Patterns[cite: 18]",
-    desc: "We mapped the negative results, harmful keywords, search result pages, weak assets, and SEO gaps that were amplifying the problem.[cite: 18]",
+    title: "Identify Harmful Search Patterns",
+    desc: "We mapped the negative results, harmful keywords, search result pages, weak assets, and SEO gaps that were amplifying the problem.",
   },
   {
     label: "Publish",
-    title: "Create Strong Positive Assets[cite: 18]",
-    desc: "We built credible stories and optimized pages that showcased the college's academic value, student outcomes, faculty expertise, and campus momentum.[cite: 18]",
+    title: "Create Strong Positive Assets",
+    desc: "We built credible stories and optimized pages that showcased the college's academic value, student outcomes, faculty expertise, and campus momentum.",
   },
   {
     label: "Amplify",
-    title: "Improve Authority and Local Trust[cite: 18]",
-    desc: "We used backlinks, directories, Google Business Profile updates, reviews, media coverage, and social proof to make positive assets more competitive.[cite: 18]",
+    title: "Improve Authority and Local Trust",
+    desc: "We used backlinks, directories, Google Business Profile updates, reviews, media coverage, and social proof to make positive assets more competitive.",
   },
   {
     label: "Sustain",
-    title: "Monitor and Keep Optimizing[cite: 18]",
-    desc: "We continued tracking rankings, feedback, and emerging content so the institution could maintain long-term reputation control.[cite: 18]",
+    title: "Monitor and Keep Optimizing",
+    desc: "We continued tracking rankings, feedback, and emerging content so the institution could maintain long-term reputation control.",
   },
 ];
 
@@ -410,19 +410,19 @@ export default function EducationCaseStudyPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-blue opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-blue" />
                 </span>
-                Case Study - Education Reputation Management[cite: 18]
+                Case Study - Education Reputation Management
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
                 Suppressing Negative Search Results for a{" "}
-                <span className="text-gradient-gold">Private College[cite: 18]</span>
+                <span className="text-gradient-gold">Private College</span>
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-xl">
-                The online reputation of an educational institution shapes perceptions among students, parents, faculty, and stakeholders. Negative search results can influence enrollment, funding opportunities, and institutional credibility.[cite: 18]
+                The online reputation of an educational institution shapes perceptions among students, parents, faculty, and stakeholders. Negative search results can influence enrollment, funding opportunities, and institutional credibility.
               </p>
               <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-xl">
-                This case study focuses on Build Brand Better's intervention to suppress negative search results and repair a college's online image using strategic SEO and content marketing.[cite: 18]
+                This case study focuses on Build Brand Better's intervention to suppress negative search results and repair a college's online image using strategic SEO and content marketing.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-lg">
@@ -439,13 +439,13 @@ export default function EducationCaseStudyPage() {
           <div className="relative">
             <RevealOnScroll delay={200}>
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-blue/20 to-brand-gold/10 rounded-3xl blur-2xl pointer-events-none opacity-50" />
-              <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-700/50 relative z-10">
-                <img
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
-                  alt="Education reputation management case study[cite: 18]"
-                  className="w-full h-auto object-cover aspect-[4/3] hover:scale-105 transition-transform duration-700"
-                />
-              </div>
+<div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-700/50 relative z-10">
+  <img
+    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+    alt="Education reputation management case study"
+    className="w-full h-[500px] lg:h-[600px] object-cover object-top hover:scale-105 transition-transform duration-700"
+  />
+</div>
 
               {/* Floating Stat Card */}
               <div className="absolute -bottom-6 -left-6 z-20 glass-panel p-5 rounded-2xl border border-white/20 shadow-xl hidden sm:flex items-center gap-5">
@@ -458,7 +458,7 @@ export default function EducationCaseStudyPage() {
                   <p className="font-heading text-2xl font-black text-white leading-none mb-1">
                     <AnimatedCounter end={75} suffix="%" duration={2000} />
                   </p>
-                  <p className="text-[0.65rem] text-zinc-400 font-bold uppercase tracking-widest">Negative Results Pushed Down[cite: 18]</p>
+                  <p className="text-[0.65rem] text-zinc-400 font-bold uppercase tracking-widest">Negative Results Pushed Down</p>
                 </div>
               </div>
             </RevealOnScroll>
@@ -495,11 +495,11 @@ export default function EducationCaseStudyPage() {
               <div className="premium-copy-panel pr-0 lg:pr-8">
                 <p className="section-label mb-2 text-brand-gold">The Problem</p>
                 <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                  Challenges Faced by the <span className="heading-script text-brand-blue">Private College</span>[cite: 18]
+                  Challenges Faced by the <span className="heading-script text-brand-blue">Private College</span>
                 </h2>
                 <div className="bg-white border-l-4 border-red-500 rounded-r-xl p-6 md:p-8 shadow-sm">
                   <p className="text-zinc-600 leading-relaxed text-[0.95rem]">
-                    Before associating with Build Brand Better, the institution faced older allegations that had generated negative news coverage, low visibility of positive content, damaging reviews from dissatisfied students, and weak SEO across the official website and related digital assets.[cite: 18]
+                    Before associating with Build Brand Better, the institution faced older allegations that had generated negative news coverage, low visibility of positive content, damaging reviews from dissatisfied students, and weak SEO across the official website and related digital assets.
                   </p>
                 </div>
               </div>
@@ -508,9 +508,9 @@ export default function EducationCaseStudyPage() {
             <RevealOnScroll delay={200}>
               <div className="grid grid-cols-1 gap-5">
                 {[
-                  { value: 75, suffix: "%", label: "Negative Results Pushed Down[cite: 18]", color: "text-brand-blue" },
-                  { value: 5, prefix: "Top ", label: "Positive Rankings[cite: 18]", color: "text-brand-gold" },
-                  { value: 87, suffix: "%", label: "Engagement Lift[cite: 18]", color: "text-zinc-900" },
+                  { value: 75, suffix: "%", label: "Negative Results Pushed Down", color: "text-brand-blue" },
+                  { value: 5, prefix: "Top ", label: "Positive Rankings", color: "text-brand-gold" },
+                  { value: 87, suffix: "%", label: "Engagement Lift", color: "text-zinc-900" },
                 ].map((stat, i) => (
                   <div key={i} className="glass-panel-light bg-white border border-zinc-200 shadow-sm rounded-2xl p-6 flex items-center justify-between group hover:border-brand-blue/30 transition-all">
                     <p className="text-[0.7rem] text-zinc-500 font-bold uppercase tracking-widest w-1/2">{stat.label}</p>
@@ -536,10 +536,10 @@ export default function EducationCaseStudyPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">The Solution</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Step-by-Step Strategy to <span className="heading-script text-brand-gold">Regain Online Trust</span>[cite: 18]
+                Step-by-Step Strategy to <span className="heading-script text-brand-gold">Regain Online Trust</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
-                The project combined technical SEO, strategic content marketing, local visibility, review improvement, social reputation management, and continuous ORM monitoring.[cite: 18]
+                The project combined technical SEO, strategic content marketing, local visibility, review improvement, social reputation management, and continuous ORM monitoring.
               </p>
             </div>
           </RevealOnScroll>
@@ -582,10 +582,10 @@ export default function EducationCaseStudyPage() {
                 The Results
               </p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Successful Results From <span className="text-gradient-gold">Education ORM</span>[cite: 18]
+                Successful Results From <span className="text-gradient-gold">Education ORM</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] max-w-2xl mx-auto leading-relaxed">
-                The private college regained stronger control over its digital space, restored credibility, and improved visibility for content that reflected its true strengths.[cite: 18]
+                The private college regained stronger control over its digital space, restored credibility, and improved visibility for content that reflected its true strengths.
               </p>
             </div>
           </RevealOnScroll>
@@ -613,10 +613,10 @@ export default function EducationCaseStudyPage() {
             <div className="text-center mb-16">
               <p className="section-label mb-2 text-brand-blue">Execution</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-5 leading-tight">
-                How We Repaired the College's <span className="heading-script text-brand-blue">Online Reputation</span>[cite: 18]
+                How We Repaired the College's <span className="heading-script text-brand-blue">Online Reputation</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
-                The campaign proves the power of SEO suppression and strategic content marketing for educational institutions that need to regain digital credibility.[cite: 18]
+                The campaign proves the power of SEO suppression and strategic content marketing for educational institutions that need to regain digital credibility.
               </p>
             </div>
           </RevealOnScroll>
@@ -652,7 +652,7 @@ export default function EducationCaseStudyPage() {
               <div className="sticky top-24">
                 <p className="section-label mb-2">Knowledge Base</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
-                  Education Reputation Case Study <span className="heading-script text-brand-blue">FAQs</span>[cite: 18]
+                  Education Reputation Case Study <span className="heading-script text-brand-blue">FAQs</span>
                 </h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
                   Learn more about the specifics of this campaign and how we approach academic reputation recovery.
@@ -688,7 +688,7 @@ export default function EducationCaseStudyPage() {
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation today. Our education reputation experts will assess your institution&apos;s
-                digital footprint, identify review gaps, and present a clear strategy — with no obligation.
+                digital footprint, identify review gaps, and present a clear strategy - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

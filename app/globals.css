@@ -78,7 +78,10 @@ body {
   border-radius: 4px;
   border: 1px solid var(--brand-gold);
   transition: all 0.2s ease-in-out;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   white-space: nowrap;
   font-family: var(--font-body);
   text-align: center;

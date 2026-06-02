@@ -527,13 +527,13 @@ export default function EducationIndustryPage() {
             <RevealOnScroll delay={200}>
               <div className="relative w-full max-w-lg mx-auto lg:ml-auto">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
-                <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
-                  <img
-                    src="https://buildbrandbetter.io/wp-content/uploads/2025/01/Strengthening-Educational-Brands.png"
-                    alt="Strengthening educational brands with reputation management"
-                    className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
+<div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
+  <img
+    src="https://buildbrandbetter.io/wp-content/uploads/2025/01/Strengthening-Educational-Brands.png"
+    alt="Strengthening educational brands with reputation management"
+    className="w-full h-[600px] object-cover object-top hover:scale-105 transition-transform duration-700"
+  />
+</div>
                 
                 {/* Floating Metric Card leveraging data stats */}
                 <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[90%] z-20 glass-panel-light p-3 rounded-2xl border border-white shadow-xl hidden md:block">
@@ -729,7 +729,7 @@ export default function EducationIndustryPage() {
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation today. Our education reputation experts will assess your institution&apos;s
-                digital footprint, identify review gaps, and present a clear strategy — with no obligation.
+                digital footprint, identify review gaps, and present a clear strategy - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

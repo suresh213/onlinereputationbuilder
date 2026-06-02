@@ -18,7 +18,7 @@
 // ];
 
 // const processSteps = [
-//   { n: "01", title: "Emergency Assessment", desc: "Within hours of your call, we assess the scope and severity of the crisis — identifying all affected platforms, the source, and immediate risks to your reputation." },
+//   { n: "01", title: "Emergency Assessment", desc: "Within hours of your call, we assess the scope and severity of the crisis - identifying all affected platforms, the source, and immediate risks to your reputation." },
 //   { n: "02", title: "Crisis Containment", desc: "We act immediately to contain the spread of damaging content, coordinate platform takedowns, and prevent further escalation." },
 //   { n: "03", title: "Strategic Communications", desc: "Our team crafts precise messaging and response strategies that address the crisis head-on while protecting your brand's core reputation." },
 //   { n: "04", title: "Content Suppression", desc: "We deploy aggressive SEO and content strategies to push negative results down while elevating positive, authoritative content." },
@@ -28,7 +28,7 @@
 
 // const faqs = [
 //   { q: "How quickly can you respond to a reputation crisis?", a: "We offer 24/7 emergency response for active reputation crises. Our team can begin assessment and containment within hours of your first contact. For severe crises, we can have a full team mobilized within 24 hours." },
-//   { q: "What makes a reputation crisis different from regular ORM?", a: "A reputation crisis requires immediate, coordinated action across multiple fronts simultaneously — unlike regular ORM which is proactive and gradual. Crisis management involves rapid response, media coordination, legal considerations, and aggressive content suppression all at once." },
+//   { q: "What makes a reputation crisis different from regular ORM?", a: "A reputation crisis requires immediate, coordinated action across multiple fronts simultaneously - unlike regular ORM which is proactive and gradual. Crisis management involves rapid response, media coordination, legal considerations, and aggressive content suppression all at once." },
 //   { q: "Can you help if a crisis has already been going on for weeks?", a: "Absolutely. While early intervention gives the best results, we have successfully managed and resolved crises that had been ongoing for months. It's never too late to start repairing your reputation." },
 //   { q: "Do you work with legal teams during a crisis?", a: "Yes. Our crisis management team works closely with your legal counsel to ensure all strategies are legally sound and complement any ongoing legal proceedings. We coordinate messaging to support your legal strategy." },
 //   { q: "How do you handle social media crises specifically?", a: "We monitor all major social platforms in real-time, coordinate rapid response strategies, engage with influencers and key voices, suppress trending negative hashtags, and build counter-narratives using positive social proof." },
@@ -85,7 +85,7 @@
 //           <div className="bg-slate-900 border border-zinc-800 rounded p-7">
 //             <p className="section-label mb-1 text-[0.62rem] text-brand-gold uppercase tracking-widest font-bold">Emergency Consultation</p>
 //             <h3 className="font-heading text-lg font-bold text-white mb-1">Tell Us About Your Situation</h3>
-//             <p className="text-zinc-400 text-xs mb-5">We respond within 2 hours — guaranteed</p>
+//             <p className="text-zinc-400 text-xs mb-5">We respond within 2 hours - guaranteed</p>
 //             <ContactForm dark />
 //           </div>
 //         </div>
@@ -321,7 +321,7 @@ const crisisTypes = [
 ];
 
 const processSteps = [
-  { n: "01", title: "Emergency Assessment", desc: "Within hours of your call, we assess the scope and severity of the crisis — identifying all affected platforms, the source, and immediate risks to your reputation." },
+  { n: "01", title: "Emergency Assessment", desc: "Within hours of your call, we assess the scope and severity of the crisis - identifying all affected platforms, the source, and immediate risks to your reputation." },
   { n: "02", title: "Crisis Containment", desc: "We act immediately to contain the spread of damaging content, coordinate platform takedowns, and prevent further escalation." },
   { n: "03", title: "Strategic Communications", desc: "Our team crafts precise messaging and response strategies that address the crisis head-on while protecting your brand's core reputation." },
   { n: "04", title: "Content Suppression", desc: "We deploy aggressive SEO and content strategies to push negative results down while elevating positive, authoritative content." },
@@ -331,7 +331,7 @@ const processSteps = [
 
 const faqs = [
   { q: "How quickly can you respond to a reputation crisis?", a: "We offer 24/7 emergency response for active reputation crises. Our team can begin assessment and containment within hours of your first contact. For severe crises, we can have a full team mobilized within 24 hours." },
-  { q: "What makes a reputation crisis different from regular ORM?", a: "A reputation crisis requires immediate, coordinated action across multiple fronts simultaneously — unlike regular ORM which is proactive and gradual. Crisis management involves rapid response, media coordination, legal considerations, and aggressive content suppression all at once." },
+  { q: "What makes a reputation crisis different from regular ORM?", a: "A reputation crisis requires immediate, coordinated action across multiple fronts simultaneously - unlike regular ORM which is proactive and gradual. Crisis management involves rapid response, media coordination, legal considerations, and aggressive content suppression all at once." },
   { q: "Can you help if a crisis has already been going on for weeks?", a: "Absolutely. While early intervention gives the best results, we have successfully managed and resolved crises that had been ongoing for months. It's never too late to start repairing your reputation." },
   { q: "Do you work with legal teams during a crisis?", a: "Yes. Our crisis management team works closely with your legal counsel to ensure all strategies are legally sound and complement any ongoing legal proceedings. We coordinate messaging to support your legal strategy." },
   { q: "How do you handle social media crises specifically?", a: "We monitor all major social platforms in real-time, coordinate rapid response strategies, engage with influencers and key voices, suppress trending negative hashtags, and build counter-narratives using positive social proof." },
@@ -421,7 +421,7 @@ export default function CrisisManagementPage() {
               <div className="relative z-10">
                 <p className="section-label mb-2 text-red-400">Emergency Consultation</p>
                 <h3 className="font-heading text-2xl font-bold text-white mb-2">Tell Us About Your Situation</h3>
-                <p className="text-zinc-400 text-sm mb-6">We respond within 2 hours — guaranteed</p>
+                <p className="text-zinc-400 text-sm mb-6">We respond within 2 hours - guaranteed</p>
                 <ContactForm dark />
               </div>
             </div>

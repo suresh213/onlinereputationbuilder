@@ -213,17 +213,17 @@ const stats = [
 const impacts = [
   {
     title: "Threats Go Undetected Until It's Too Late",
-    desc: "Negative news, viral complaints, and fake reviews spread rapidly. Without real-time monitoring, a damaging story can reach thousands of people before you even know it exists — making recovery far harder.",
+    desc: "Negative news, viral complaints, and fake reviews spread rapidly. Without real-time monitoring, a damaging story can reach thousands of people before you even know it exists - making recovery far harder.",
     icon: "🔍",
   },
   {
     title: "Missed Opportunities to Respond",
-    desc: "A timely, professional response to a negative review can neutralise its impact. Without monitoring, you lose the critical response window — letting negative narratives define your brand unchallenged.",
+    desc: "A timely, professional response to a negative review can neutralise its impact. Without monitoring, you lose the critical response window - letting negative narratives define your brand unchallenged.",
     icon: "⏱️",
   },
   {
     title: "Blind Spots in Your Online Presence",
-    desc: "Your brand is mentioned across dozens of platforms simultaneously. Social media, review sites, forums, news — without centralised monitoring you have no visibility into how your reputation is evolving.",
+    desc: "Your brand is mentioned across dozens of platforms simultaneously. Social media, review sites, forums, news - without centralised monitoring you have no visibility into how your reputation is evolving.",
     icon: "📊",
   },
 ];
@@ -232,7 +232,7 @@ const services = [
   {
     step: "01",
     title: "Multi-Platform Review Monitoring",
-    desc: "We monitor Google, Glassdoor, Indeed, Trustpilot, Facebook, and 50+ review platforms in real time — capturing every new review the moment it goes live.",
+    desc: "We monitor Google, Glassdoor, Indeed, Trustpilot, Facebook, and 50+ review platforms in real time - capturing every new review the moment it goes live.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
     ),
@@ -240,7 +240,7 @@ const services = [
   {
     step: "02",
     title: "Social Media & News Monitoring",
-    desc: "Track brand mentions, hashtags, and news coverage across Twitter/X, LinkedIn, Facebook, Instagram, and major Indian and international news outlets — all in one place.",
+    desc: "Track brand mentions, hashtags, and news coverage across Twitter/X, LinkedIn, Facebook, Instagram, and major Indian and international news outlets - all in one place.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
     ),
@@ -266,7 +266,7 @@ const services = [
 const monitoringChannels = [
   {
     title: "Google Business & Search",
-    desc: "Monitor Google reviews, Google News mentions, and organic search results that feature your brand name — the most visible layer of your online reputation.",
+    desc: "Monitor Google reviews, Google News mentions, and organic search results that feature your brand name - the most visible layer of your online reputation.",
   },
   {
     title: "Glassdoor & Job Platforms",
@@ -274,7 +274,7 @@ const monitoringChannels = [
   },
   {
     title: "Social Media Channels",
-    desc: "Monitor Twitter/X, LinkedIn, Facebook, Instagram, and YouTube for mentions, tags, and comments — including indirect references that don't tag your handle.",
+    desc: "Monitor Twitter/X, LinkedIn, Facebook, Instagram, and YouTube for mentions, tags, and comments - including indirect references that don't tag your handle.",
   },
   {
     title: "News & Media Outlets",
@@ -285,21 +285,21 @@ const monitoringChannels = [
 const whyUs = [
   {
     title: "50+ Platform Coverage",
-    desc: "We monitor more platforms than any competitor in India — ensuring no mention slips through regardless of where your audience talks about you.",
+    desc: "We monitor more platforms than any competitor in India - ensuring no mention slips through regardless of where your audience talks about you.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
     title: "Real-Time Intelligence",
-    desc: "Our monitoring system detects new mentions within minutes — not hours or days — giving you the response window that makes the difference in a crisis.",
+    desc: "Our monitoring system detects new mentions within minutes - not hours or days - giving you the response window that makes the difference in a crisis.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
     ),
   },
   {
     title: "Expert Human Analysis",
-    desc: "Beyond automated alerts, our reputation analysts review critical mentions and provide strategic guidance on how to respond — combining technology with expertise.",
+    desc: "Beyond automated alerts, our reputation analysts review critical mentions and provide strategic guidance on how to respond - combining technology with expertise.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
@@ -324,7 +324,7 @@ const faqs = [
   },
   {
     q: "Can I monitor competitors as well?",
-    a: "Yes. Competitive monitoring packages allow you to track competitor mentions, sentiment trends, and review activity — giving you valuable market intelligence alongside your own brand data.",
+    a: "Yes. Competitive monitoring packages allow you to track competitor mentions, sentiment trends, and review activity - giving you valuable market intelligence alongside your own brand data.",
   },
   {
     q: "What does the monthly report include?",
@@ -343,7 +343,7 @@ const testimonials = [
   },
   {
     name: "Priya Nair",
-    text: "The weekly reports and sentiment dashboards have become a core part of our brand team's workflow. The level of detail and insight is exceptional — we always know exactly where we stand.",
+    text: "The weekly reports and sentiment dashboards have become a core part of our brand team's workflow. The level of detail and insight is exceptional - we always know exactly where we stand.",
   },
   {
     name: "Deepak Verma",
@@ -352,9 +352,19 @@ const testimonials = [
 ];
 
 const publishers = [
-  "INDIAN EXPRESS", "BusinessLine", "Bloomberg", "MONEY", "FINANCIAL", "Outlook", "CNN", "MarketWatch", "People", "siliconindia", "CRAIN'S", "St.Louis"
+  "Bloomberg",
+  "Forbes",
+  "Reuters",
+  "CNN",
+  "MarketWatch",
+  "Indian Express",
+  "Outlook",
+  "People",
+  "Financial Times",
+  "Silicon India",
+  "BusinessLine",
+  "MONEY",
 ];
-
 /* ─── Animation Components ───────────────────────────────────────────────── */
 
 function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
@@ -402,7 +412,7 @@ export default function ReputationMonitoringPage() {
                 Best Online Reputation Monitoring Company in <span className="text-gradient-gold">Delhi, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Know exactly what the world is saying about your brand — the moment they say it. We monitor 50+ platforms in real time so you can respond fast, protect your reputation, and stay ahead of every threat.
+                Know exactly what the world is saying about your brand - the moment they say it. We monitor 50+ platforms in real time so you can respond fast, protect your reputation, and stay ahead of every threat.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -435,16 +445,49 @@ export default function ReputationMonitoringPage() {
       </section>
 
       {/* ── PUBLISHERS ───────────────────────────────────────────────── */}
-      <section className="py-6 bg-zinc-900 border-b border-zinc-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4">
-          <p className="text-center text-zinc-500 text-[0.65rem] uppercase tracking-widest font-bold mb-4">As Featured In</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
-            {publishers.map((p) => (
-              <span key={p} className="text-zinc-600 text-[0.7rem] font-bold tracking-wider uppercase hover:text-zinc-400 transition-colors">{p}</span>
-            ))}
-          </div>
+<section className="py-10 px-4 bg-zinc-50 border-b border-zinc-200 overflow-hidden">
+  <div className="max-w-7xl mx-auto">
+    <p className="text-center text-[0.65rem] text-zinc-400 uppercase tracking-[0.2em] font-bold mb-6">
+      As Featured In
+    </p>
+  </div>
+
+  <div className="group relative overflow-hidden">
+    <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-r from-zinc-50 to-transparent" />
+    <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-l from-zinc-50 to-transparent" />
+
+    <div
+      className="flex items-center w-max"
+      style={{ animation: "publisher-marquee 35s linear infinite" }}
+    >
+      {[...publishers, ...publishers].map((pub, i) => (
+        <div
+          key={`${pub}-${i}`}
+          className="flex items-center justify-center flex-shrink-0 mx-10"
+        >
+          <span className="text-zinc-500 text-lg font-bold uppercase tracking-wide opacity-60 hover:opacity-100 hover:text-zinc-800 transition-all duration-300 whitespace-nowrap">
+            {pub}
+          </span>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+
+  <style>{`
+    @keyframes publisher-marquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .group:hover .flex.items-center.w-max {
+      animation-play-state: paused;
+    }
+  `}</style>
+</section>
 
       {/* ── WHY IT MATTERS ───────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden">
@@ -456,10 +499,10 @@ export default function ReputationMonitoringPage() {
                 What You Don&apos;t Know <span className="heading-script text-brand-blue">Can Hurt Your Brand</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Your brand is being discussed right now — on review platforms, social media, news sites, and forums. Without real-time monitoring, you have no visibility into how your reputation is developing or where the next threat is coming from.
+                Your brand is being discussed right now - on review platforms, social media, news sites, and forums. Without real-time monitoring, you have no visibility into how your reputation is developing or where the next threat is coming from.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our reputation monitoring service gives Delhi and India-based businesses a complete, always-on view of their online presence — so nothing slips through and you always have the intelligence to act.
+                Our reputation monitoring service gives Delhi and India-based businesses a complete, always-on view of their online presence - so nothing slips through and you always have the intelligence to act.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Monitoring Demo</Link>
             </div>
@@ -523,7 +566,7 @@ export default function ReputationMonitoringPage() {
                 Channels We <span className="heading-script text-brand-gold">Monitor For You</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                From review platforms to social media and breaking news, we cover every channel where your brand reputation lives — giving you a single, unified view.
+                From review platforms to social media and breaking news, we cover every channel where your brand reputation lives - giving you a single, unified view.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">See Full Channel List</Link>
             </RevealOnScroll>
@@ -614,7 +657,7 @@ export default function ReputationMonitoringPage() {
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Reputation Monitoring <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about monitoring your brand? Get a free consultation and platform demo — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about monitoring your brand? Get a free consultation and platform demo - no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -643,12 +686,12 @@ export default function ReputationMonitoringPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Start Monitoring Your Brand <span className="heading-script text-brand-blue">Before the Next Crisis Hits</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free brand monitoring consultation today. Our experts will show you exactly what&apos;s being said about your brand online — and how to stay in control.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free brand monitoring consultation today. Our experts will show you exactly what&apos;s being said about your brand online - and how to stay in control.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

@@ -47,7 +47,7 @@ const importanceReasons = [
   {
     step: "03",
     title: "Avoid Legal Consequences",
-    desc: "Some harmful TikTok content — including defamatory claims, copyright violations, or harassment — can expose you to legal liability. Prompt removal protects you from potential lawsuits and reduces the risk of costly litigation.",
+    desc: "Some harmful TikTok content - including defamatory claims, copyright violations, or harassment - can expose you to legal liability. Prompt removal protects you from potential lawsuits and reduces the risk of costly litigation.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
@@ -77,9 +77,9 @@ const expertProcess = [
 const faqs = [
   { q: "What types of TikTok content can you remove?", a: "We handle removal of defamatory videos, fake news posts, harassing content, copyright-infringing material, impersonation accounts, and any content that violates TikTok's community guidelines. We also assist with suppression of content that technically complies with policies but is damaging to your reputation." },
   { q: "How long does TikTok video removal take?", a: "Timelines vary based on the type of content and grounds for removal. Platform-policy violations can be resolved within days. More complex cases involving legal channels may take 2–4 weeks. We deploy suppression strategies in parallel to minimise impact during the removal process." },
-  { q: "Can you remove a TikTok video posted by someone else?", a: "Yes — we specialise in third-party content removal. We build documented cases citing TikTok's policies, copyright law, or defamation grounds and submit formal requests on your behalf. Where platform removal is refused, we pursue legal escalation and suppression strategies." },
-  { q: "What if TikTok refuses to remove the content?", a: "We escalate through legal channels and simultaneously deploy suppression strategies — creating authoritative positive content that dominates TikTok search and recommendation results for your brand name, effectively burying the harmful video. Monitoring continues to prevent re-emergence." },
-  { q: "Does removing TikTok content help my overall online reputation?", a: "Yes — removing or suppressing harmful TikTok content directly improves how your brand appears across the web, since TikTok videos often rank in Google search results as well. We track before-and-after results as part of our reporting." },
+  { q: "Can you remove a TikTok video posted by someone else?", a: "Yes - we specialise in third-party content removal. We build documented cases citing TikTok's policies, copyright law, or defamation grounds and submit formal requests on your behalf. Where platform removal is refused, we pursue legal escalation and suppression strategies." },
+  { q: "What if TikTok refuses to remove the content?", a: "We escalate through legal channels and simultaneously deploy suppression strategies - creating authoritative positive content that dominates TikTok search and recommendation results for your brand name, effectively burying the harmful video. Monitoring continues to prevent re-emergence." },
+  { q: "Does removing TikTok content help my overall online reputation?", a: "Yes - removing or suppressing harmful TikTok content directly improves how your brand appears across the web, since TikTok videos often rank in Google search results as well. We track before-and-after results as part of our reporting." },
 ];
 
 const testimonials = [
@@ -164,7 +164,7 @@ export default function TikTokRemovalPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Harmful <span className="text-gradient-gold">TikTok Videos</span> &amp; Posts — Fast &amp; Permanently
+                Remove Harmful <span className="text-gradient-gold">TikTok Videos</span> &amp; Posts - Fast &amp; Permanently
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -195,7 +195,7 @@ export default function TikTokRemovalPage() {
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-[#ff0050]/20 border border-[#ff0050]/30 flex items-center justify-center flex-shrink-0 shadow-inner text-lg">🎵</div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    TikTok videos can reach <span className="text-white font-bold">millions of viewers</span> within hours — early removal is critical to preventing permanent reputation damage.
+                    TikTok videos can reach <span className="text-white font-bold">millions of viewers</span> within hours - early removal is critical to preventing permanent reputation damage.
                   </p>
                 </div>
               </div>

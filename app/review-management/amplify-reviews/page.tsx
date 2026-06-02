@@ -213,7 +213,7 @@ const stats = [
 const impacts = [
   {
     title: "Low Star Ratings Destroy First Impressions",
-    desc: "Over 90% of consumers check online reviews before making a purchase decision. A low average rating on Google or industry platforms directly translates to lost revenue — before a prospect ever contacts you.",
+    desc: "Over 90% of consumers check online reviews before making a purchase decision. A low average rating on Google or industry platforms directly translates to lost revenue - before a prospect ever contacts you.",
     icon: "⭐",
   },
   {
@@ -223,7 +223,7 @@ const impacts = [
   },
   {
     title: "Competitors Are Outranking You on Trust",
-    desc: "Review volume and recency are ranking factors on Google Maps and major platforms. Competitors with more frequent, recent positive reviews outrank you — capturing customers that should be yours.",
+    desc: "Review volume and recency are ranking factors on Google Maps and major platforms. Competitors with more frequent, recent positive reviews outrank you - capturing customers that should be yours.",
     icon: "🏆",
   },
 ];
@@ -232,7 +232,7 @@ const services = [
   {
     step: "01",
     title: "Review Generation Strategy",
-    desc: "We design and implement a tailored review generation programme — identifying your happiest customers and the right moments in their journey to request authentic, platform-compliant reviews.",
+    desc: "We design and implement a tailored review generation programme - identifying your happiest customers and the right moments in their journey to request authentic, platform-compliant reviews.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
     ),
@@ -240,7 +240,7 @@ const services = [
   {
     step: "02",
     title: "Multi-Platform Amplification",
-    desc: "We amplify your positive reviews across Google, Glassdoor, Indeed, Trustpilot, Facebook, and industry-specific platforms — building a consistent 5-star presence everywhere your customers look.",
+    desc: "We amplify your positive reviews across Google, Glassdoor, Indeed, Trustpilot, Facebook, and industry-specific platforms - building a consistent 5-star presence everywhere your customers look.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
@@ -248,7 +248,7 @@ const services = [
   {
     step: "03",
     title: "Review Outreach Campaigns",
-    desc: "We run structured, automated email and SMS outreach campaigns to your existing customer base — converting satisfied customers into published advocates at scale.",
+    desc: "We run structured, automated email and SMS outreach campaigns to your existing customer base - converting satisfied customers into published advocates at scale.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
     ),
@@ -278,7 +278,7 @@ const platforms = [
   },
   {
     title: "Industry-Specific Platforms",
-    desc: "From Practo and JustDial to real estate and hospitality portals — we generate reviews on the niche platforms that matter most in your industry.",
+    desc: "From Practo and JustDial to real estate and hospitality portals - we generate reviews on the niche platforms that matter most in your industry.",
   },
 ];
 
@@ -292,14 +292,14 @@ const whyUs = [
   },
   {
     title: "Proven Volume Growth",
-    desc: "Our clients see an average 3x increase in monthly review volume within the first 90 days — with measurable improvement in average star rating across all monitored platforms.",
+    desc: "Our clients see an average 3x increase in monthly review volume within the first 90 days - with measurable improvement in average star rating across all monitored platforms.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
     ),
   },
   {
     title: "Multi-Platform Expertise",
-    desc: "We understand the unique requirements, policies, and best practices of every major review platform — deploying the right approach for each to maximise review retention and impact.",
+    desc: "We understand the unique requirements, policies, and best practices of every major review platform - deploying the right approach for each to maximise review retention and impact.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
     ),
@@ -316,7 +316,7 @@ const whyUs = [
 const faqs = [
   {
     q: "Are the reviews generated genuinely authentic?",
-    a: "Yes, always. We contact your actual customers and employees and make it easy for them to share their genuine experience. Every review reflects a real person's real opinion — we never fabricate or purchase reviews.",
+    a: "Yes, always. We contact your actual customers and employees and make it easy for them to share their genuine experience. Every review reflects a real person's real opinion - we never fabricate or purchase reviews.",
   },
   {
     q: "How quickly will I see results?",
@@ -332,7 +332,7 @@ const faqs = [
   },
   {
     q: "Is there a risk to my Google or platform listings?",
-    a: "No — our approach is fully compliant with platform terms of service. We never use prohibited tactics, incentivised schemes, or fake accounts that could trigger platform penalties.",
+    a: "No - our approach is fully compliant with platform terms of service. We never use prohibited tactics, incentivised schemes, or fake accounts that could trigger platform penalties.",
   },
 ];
 
@@ -352,7 +352,17 @@ const testimonials = [
 ];
 
 const publishers = [
-  "INDIAN EXPRESS", "BusinessLine", "Bloomberg", "MONEY", "FINANCIAL", "Outlook", "CNN", "MarketWatch", "People", "siliconindia", "CRAIN'S", "St.Louis"
+  { name: "Bloomberg",       logo: "https://www.vectorlogo.zone/logos/bloomberg/bloomberg-ar21.svg" },
+  { name: "Forbes",          logo: "https://www.vectorlogo.zone/logos/forbes/forbes-ar21.svg" },
+  { name: "Reuters",         logo: "https://www.vectorlogo.zone/logos/reuters/reuters-ar21.svg" },
+  { name: "CNN",             logo: "https://www.vectorlogo.zone/logos/cnn/cnn-ar21.svg" },
+  { name: "MarketWatch",     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MarketWatch_Logo.svg/320px-MarketWatch_Logo.svg.png" },
+  { name: "Indian Express",  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Indian_Express_logo.svg/320px-The_Indian_Express_logo.svg.png" },
+  { name: "Outlook",         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Outlook_India_logo.svg/320px-Outlook_India_logo.svg.png" },
+  { name: "People",          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/People_Magazine_logo.svg/320px-People_Magazine_logo.svg.png" },
+  { name: "Financial Times", logo: "https://www.vectorlogo.zone/logos/ft/ft-ar21.svg" },
+  { name: "Silicon India",   logo: "https://www.siliconindia.com/images/si-logo.png" },
+  { name: "Money",           logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Money_magazine_logo.svg/320px-Money_magazine_logo.svg.png" },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────────────── */
@@ -402,7 +412,7 @@ export default function AmplifyReviewsPage() {
                 Best Review Amplification Company in <span className="text-gradient-gold">Delhi, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Turn your happiest customers into your most powerful marketing asset. We ethically amplify genuine positive reviews across every platform that matters — driving measurable improvement in your star rating, trust, and revenue.
+                Turn your happiest customers into your most powerful marketing asset. We ethically amplify genuine positive reviews across every platform that matters - driving measurable improvement in your star rating, trust, and revenue.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -434,16 +444,57 @@ export default function AmplifyReviewsPage() {
       </section>
 
       {/* ── PUBLISHERS ───────────────────────────────────────────────── */}
-      <section className="py-6 bg-zinc-900 border-b border-zinc-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4">
-          <p className="text-center text-zinc-500 text-[0.65rem] uppercase tracking-widest font-bold mb-4">As Featured In</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
-            {publishers.map((p) => (
-              <span key={p} className="text-zinc-600 text-[0.7rem] font-bold tracking-wider uppercase hover:text-zinc-400 transition-colors">{p}</span>
-            ))}
-          </div>
+<section className="py-10 px-4 bg-zinc-50 border-b border-zinc-200 overflow-hidden">
+  <div className="max-w-7xl mx-auto">
+    <p className="text-center text-[0.65rem] text-zinc-400 uppercase tracking-[0.2em] font-bold mb-6">As Featured In</p>
+  </div>
+
+  {/* Marquee track */}
+  <div className="group relative overflow-hidden">
+    {/* Left fade */}
+    <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-r from-zinc-50 to-transparent" />
+    {/* Right fade */}
+    <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-l from-zinc-50 to-transparent" />
+
+    <div
+      className="flex items-center w-max"
+      style={{ animation: "publisher-marquee 35s linear infinite" }}
+    >
+      {[...publishers, ...publishers].map((pub, i) => (
+        <div
+          key={`${pub.name}-${i}`}
+          className="flex items-center justify-center flex-shrink-0 mx-10 opacity-50 hover:opacity-100 transition-opacity duration-300"
+          style={{ height: 40 }}
+        >
+          <img
+            src={pub.logo}
+            alt={pub.name}
+            className="h-8 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+            loading="lazy"
+            onError={(e) => {
+              const el = e.target as HTMLImageElement;
+              el.style.display = "none";
+              const span = document.createElement("span");
+              span.className = "text-zinc-400 text-[0.65rem] font-bold uppercase tracking-widest whitespace-nowrap";
+              span.textContent = pub.name;
+              el.parentElement?.appendChild(span);
+            }}
+          />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+
+  <style>{`
+    @keyframes publisher-marquee {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .group:hover .flex.items-center.w-max {
+      animation-play-state: paused;
+    }
+  `}</style>
+</section>
 
       {/* ── WHY IT MATTERS ───────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light overflow-hidden">
@@ -455,10 +506,10 @@ export default function AmplifyReviewsPage() {
                 Your Satisfied Customers Are <span className="heading-script text-brand-blue">Your Best Asset</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Most businesses have far more happy customers than unhappy ones — but unhappy customers are three times more likely to leave a review spontaneously. Our amplification service redresses this imbalance, ensuring your online reputation reflects your actual customer satisfaction.
+                Most businesses have far more happy customers than unhappy ones - but unhappy customers are three times more likely to leave a review spontaneously. Our amplification service redresses this imbalance, ensuring your online reputation reflects your actual customer satisfaction.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                With a proven, platform-compliant methodology refined across hundreds of campaigns, we drive measurable increases in review volume and star rating — with complete transparency and zero risk to your listings.
+                With a proven, platform-compliant methodology refined across hundreds of campaigns, we drive measurable increases in review volume and star rating - with complete transparency and zero risk to your listings.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Review Audit</Link>
             </div>
@@ -613,7 +664,7 @@ export default function AmplifyReviewsPage() {
               <div className="sticky top-24 lg:col-span-2">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Review Amplification <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Ready to improve your star rating? Get a free review audit and action plan — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Ready to improve your star rating? Get a free review audit and action plan - no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -642,12 +693,12 @@ export default function AmplifyReviewsPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Don&apos;t Let a Low Rating <span className="heading-script text-brand-blue">Cost You Customers</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free review audit today. Our experts will show you exactly where your rating stands and present a clear amplification plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free review audit today. Our experts will show you exactly where your rating stands and present a clear amplification plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

@@ -47,7 +47,7 @@
 //   {
 //     step: "04",
 //     title: "Improves Professional Opportunities",
-//     desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships — directly converting into better business outcomes.",
+//     desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships - directly converting into better business outcomes.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
@@ -111,10 +111,10 @@
 // ];
 
 // const faqs = [
-//   { q: "Can Reddit posts really rank on Google?", a: "Yes — Reddit is one of Google's most trusted domains. Subreddit threads regularly rank on the first page of Google searches, including for brand names. A damaging Reddit post can be seen by thousands of potential customers every month, making removal or suppression essential." },
+//   { q: "Can Reddit posts really rank on Google?", a: "Yes - Reddit is one of Google's most trusted domains. Subreddit threads regularly rank on the first page of Google searches, including for brand names. A damaging Reddit post can be seen by thousands of potential customers every month, making removal or suppression essential." },
 //   { q: "What types of Reddit content can you remove?", a: "We handle removal of posts, comments, threads, and user-submitted content that is defamatory, factually incorrect, harassment-based, or in violation of Reddit's site-wide or community-level rules. We also handle suppression for content that cannot be removed outright." },
-//   { q: "How do you achieve a 97% success rate?", a: "Our success rate comes from thorough content analysis before any action, building compelling documentation of policy violations, leveraging relationships with platform trust and safety teams, and combining removal efforts with suppression campaigns — so even if removal is partial, the content becomes far less visible." },
-//   { q: "What if Reddit mods or admins refuse to remove it?", a: "If platform-level removal is refused, we pivot to suppression — creating and optimising positive content across high-authority platforms to push the Reddit thread off page one. We also pursue legal avenues for content that constitutes defamation under applicable law." },
+//   { q: "How do you achieve a 97% success rate?", a: "Our success rate comes from thorough content analysis before any action, building compelling documentation of policy violations, leveraging relationships with platform trust and safety teams, and combining removal efforts with suppression campaigns - so even if removal is partial, the content becomes far less visible." },
+//   { q: "What if Reddit mods or admins refuse to remove it?", a: "If platform-level removal is refused, we pivot to suppression - creating and optimising positive content across high-authority platforms to push the Reddit thread off page one. We also pursue legal avenues for content that constitutes defamation under applicable law." },
 //   { q: "How long does Reddit post removal take?", a: "Clear-cut policy violations can be addressed in 1–4 weeks. More complex removals or suppression campaigns typically take 4–12 weeks. We provide regular status updates so you always know what's happening with your case." },
 // ];
 
@@ -150,7 +150,7 @@
 //               Removal Services
 //             </h1>
 //             <p className="text-white/65 text-base mb-7 leading-relaxed">
-//               Reddit post removal services by our experts ensure your brand&apos;s reputation remains untarnished by harmful or fake content. Tailored solutions to address and resolve unwanted posts effectively — with a 97% success rate.
+//               Reddit post removal services by our experts ensure your brand&apos;s reputation remains untarnished by harmful or fake content. Tailored solutions to address and resolve unwanted posts effectively - with a 97% success rate.
 //             </p>
 //             <ul className="space-y-2 mb-8">
 //               {["Identify and analyse harmful Reddit posts impacting your brand", "Take appropriate action to delete Reddit content that violates policies", "Mitigate risks by resolving issues caused by fake Reddit content", "Implement ethical strategies to permanently remove Reddit content"].map((item) => (
@@ -169,7 +169,7 @@
 //               <div className="w-9 h-9 rounded-full bg-orange-500/20 border border-orange-400/30 flex items-center justify-center flex-shrink-0">
 //                 <svg className="w-5 h-5 text-orange-300" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
 //               </div>
-//               <p className="text-white/50 text-xs">Reddit ranks on Google — harmful subreddit threads can appear in searches for your <span className="text-white/80 font-semibold">brand name for years</span></p>
+//               <p className="text-white/50 text-xs">Reddit ranks on Google - harmful subreddit threads can appear in searches for your <span className="text-white/80 font-semibold">brand name for years</span></p>
 //             </div>
 //           </div>
 //           <div className="relative">
@@ -221,7 +221,7 @@
 //                 Social media platforms like Reddit are powerful tools for businesses to engage with customers and build brand visibility. However, negative or fake content can harm your reputation and affect customer trust in ways that are difficult to undo.
 //               </p>
 //               <p className="text-zinc-500 leading-relaxed mb-7 text-sm">
-//                 Managing your presence on these platforms ensures your business remains credible and trustworthy. The impact of harmful Reddit posts goes far beyond the platform itself — these posts frequently rank on Google and other search engines.
+//                 Managing your presence on these platforms ensures your business remains credible and trustworthy. The impact of harmful Reddit posts goes far beyond the platform itself - these posts frequently rank on Google and other search engines.
 //               </p>
 //               {/* Impact bullets */}
 //               <div className="bg-red-50 border border-red-100 rounded-xl p-5 mb-8">
@@ -366,7 +366,7 @@
 //           <div>
 //             <p className="section-label text-brand-gold mb-3">Act Fast</p>
 //             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">Don&apos;t Let Harmful Reddit Posts Damage Your Brand</h2>
-//             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">Schedule a free consultation today. Our Reddit removal experts will assess your situation and present a clear action plan — with no obligation.</p>
+//             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">Schedule a free consultation today. Our Reddit removal experts will assess your situation and present a clear action plan - with no obligation.</p>
 //             <div className="space-y-0 mb-8">
 //               {[{ label: "Hotline", value: "+9188827 88412", href: "tel:+918882788412" }, { label: "Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in" }, { label: "Location", value: "Shantipally, Behala, Kolkata - 700060", href: null }].map((item) => (
 //                 <div key={item.label} className="contact-info-item">
@@ -449,7 +449,7 @@ const removalReasons = [
   {
     step: "04",
     title: "Improves Professional Opportunities",
-    desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships — directly converting into better business outcomes.",
+    desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships - directly converting into better business outcomes.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
@@ -513,10 +513,10 @@ const removalProcess = [
 ];
 
 const faqs = [
-  { q: "Can Reddit posts really rank on Google?", a: "Yes — Reddit is one of Google's most trusted domains. Subreddit threads regularly rank on the first page of Google searches, including for brand names. A damaging Reddit post can be seen by thousands of potential customers every month, making removal or suppression essential." },
+  { q: "Can Reddit posts really rank on Google?", a: "Yes - Reddit is one of Google's most trusted domains. Subreddit threads regularly rank on the first page of Google searches, including for brand names. A damaging Reddit post can be seen by thousands of potential customers every month, making removal or suppression essential." },
   { q: "What types of Reddit content can you remove?", a: "We handle removal of posts, comments, threads, and user-submitted content that is defamatory, factually incorrect, harassment-based, or in violation of Reddit's site-wide or community-level rules. We also handle suppression for content that cannot be removed outright." },
-  { q: "How do you achieve a 97% success rate?", a: "Our success rate comes from thorough content analysis before any action, building compelling documentation of policy violations, leveraging relationships with platform trust and safety teams, and combining removal efforts with suppression campaigns — so even if removal is partial, the content becomes far less visible." },
-  { q: "What if Reddit mods or admins refuse to remove it?", a: "If platform-level removal is refused, we pivot to suppression — creating and optimising positive content across high-authority platforms to push the Reddit thread off page one. We also pursue legal avenues for content that constitutes defamation under applicable law." },
+  { q: "How do you achieve a 97% success rate?", a: "Our success rate comes from thorough content analysis before any action, building compelling documentation of policy violations, leveraging relationships with platform trust and safety teams, and combining removal efforts with suppression campaigns - so even if removal is partial, the content becomes far less visible." },
+  { q: "What if Reddit mods or admins refuse to remove it?", a: "If platform-level removal is refused, we pivot to suppression - creating and optimising positive content across high-authority platforms to push the Reddit thread off page one. We also pursue legal avenues for content that constitutes defamation under applicable law." },
   { q: "How long does Reddit post removal take?", a: "Clear-cut policy violations can be addressed in 1–4 weeks. More complex removals or suppression campaigns typically take 4–12 weeks. We provide regular status updates so you always know what's happening with your case." },
 ];
 
@@ -630,7 +630,7 @@ export default function RedditPostRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Reddit post removal services by our experts ensure your brand&apos;s reputation remains untarnished by harmful or fake content. Tailored solutions to address and resolve unwanted posts effectively — with a 97% success rate.
+                Reddit post removal services by our experts ensure your brand&apos;s reputation remains untarnished by harmful or fake content. Tailored solutions to address and resolve unwanted posts effectively - with a 97% success rate.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">
@@ -664,7 +664,7 @@ export default function RedditPostRemovalPage() {
                     <svg className="w-5 h-5 text-[#FF4500]" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    Reddit ranks on Google — harmful subreddit threads can appear in searches for your <span className="text-white font-bold">brand name for years.</span>
+                    Reddit ranks on Google - harmful subreddit threads can appear in searches for your <span className="text-white font-bold">brand name for years.</span>
                   </p>
                 </div>
               </div>
@@ -746,7 +746,7 @@ export default function RedditPostRemovalPage() {
                   Social media platforms like Reddit are powerful tools for businesses to engage with customers and build brand visibility. However, negative or fake content can harm your reputation and affect customer trust in ways that are difficult to undo.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                  Managing your presence on these platforms ensures your business remains credible and trustworthy. The impact of harmful Reddit posts goes far beyond the platform itself — these posts frequently rank on Google and other search engines.
+                  Managing your presence on these platforms ensures your business remains credible and trustworthy. The impact of harmful Reddit posts goes far beyond the platform itself - these posts frequently rank on Google and other search engines.
                 </p>
                 
                 {/* Impact callout */}
@@ -981,7 +981,7 @@ export default function RedditPostRemovalPage() {
                 Don&apos;t Let Harmful Reddit Posts <span className="heading-script text-brand-blue">Damage Your Brand</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our Reddit removal experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a free consultation today. Our Reddit removal experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

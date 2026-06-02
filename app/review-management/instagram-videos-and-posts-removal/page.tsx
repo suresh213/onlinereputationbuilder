@@ -45,7 +45,7 @@ const processSteps = [
   {
     step: "01",
     title: "Content Identification",
-    desc: "We identify all harmful Instagram content — including Reels, posts, stories, comments, and fake accounts — and map every piece that needs to be addressed.",
+    desc: "We identify all harmful Instagram content - including Reels, posts, stories, comments, and fake accounts - and map every piece that needs to be addressed.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
     ),
@@ -91,7 +91,7 @@ const typesOfContent = [
   },
   {
     title: "Impersonation Accounts",
-    desc: "Fake Instagram accounts impersonating you or your brand are reported and removed — along with all content published from those accounts.",
+    desc: "Fake Instagram accounts impersonating you or your brand are reported and removed - along with all content published from those accounts.",
   },
 ];
 
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Can you remove posts from accounts you don't own?",
-    a: "Yes. We work via Instagram's reporting mechanisms, DMCA processes, and legal notices sent to account owners and Meta directly — no ownership of the posting account is required.",
+    a: "Yes. We work via Instagram's reporting mechanisms, DMCA processes, and legal notices sent to account owners and Meta directly - no ownership of the posting account is required.",
   },
   {
     q: "Can fake Instagram accounts impersonating me be removed?",
@@ -212,7 +212,7 @@ export default function InstagramRemovalPage() {
                 Remove Fake Reels, Posts &amp; Comments from <span className="text-gradient-gold">Instagram Fast</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialists remove harmful Instagram content — including fake Reels, defamatory posts, harassing comments, and impersonation accounts — using legal and platform-policy methods.
+                Our specialists remove harmful Instagram content - including fake Reels, defamatory posts, harassing comments, and impersonation accounts - using legal and platform-policy methods.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -236,7 +236,7 @@ export default function InstagramRemovalPage() {
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
                 <div className="text-center mb-8">
                   <p className="section-label text-brand-gold mb-2 justify-center">Take Back Your Instagram Reputation</p>
-                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Expert removal of harmful Instagram content — fast and permanent</h3>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Expert removal of harmful Instagram content - fast and permanent</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
@@ -263,7 +263,7 @@ export default function InstagramRemovalPage() {
             <div>
               <p className="section-label mb-2">Why It Matters</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">The Real Harm of <span className="heading-script text-brand-blue">Harmful Instagram Content</span></h2>
-              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Instagram content reaches millions in seconds. Harmful posts, Reels, and comments don't just disappear — they linger, spread, and continue damaging your reputation long after they're first posted.</p>
+              <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">Instagram content reaches millions in seconds. Harmful posts, Reels, and comments don't just disappear - they linger, spread, and continue damaging your reputation long after they're first posted.</p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Assessment</Link>
             </div>
           </RevealOnScroll>
@@ -436,7 +436,7 @@ export default function InstagramRemovalPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Don&apos;t Let Harmful Instagram Content <span className="heading-script text-brand-blue">Go Viral</span></h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Instagram removal specialists will assess your case and present a clear action plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Instagram removal specialists will assess your case and present a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },

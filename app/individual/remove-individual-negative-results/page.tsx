@@ -24,7 +24,7 @@
 // //       </svg>
 // //     ),
 // //     title: "Content Suppression",
-// //     desc: "We create positive, optimized content campaigns that push unwanted links down the search results — pushing your narrative to the top where it belongs.",
+// //     desc: "We create positive, optimized content campaigns that push unwanted links down the search results - pushing your narrative to the top where it belongs.",
 // //     accent: "gold",
 // //   },
 // //   {
@@ -43,7 +43,7 @@
 // //   {
 // //     step: "01",
 // //     title: "Contact the Owner to Take It Down",
-// //     desc: "The most direct approach — we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
+// //     desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
 // //     icon: (
 // //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
@@ -53,7 +53,7 @@
 // //   {
 // //     step: "02",
 // //     title: "Bad Review Removal Request",
-// //     desc: "We file a formal request directly with Google to remove reviews that violate user policy — spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
+// //     desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
 // //     icon: (
 // //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
@@ -117,7 +117,7 @@
 // //   { q: "Can bad reviews be completely removed from Google?", a: "Yes, if they violate Google policies. Otherwise, professional ORM and suppression techniques can help reduce their visibility significantly, pushing them off page one of search results." },
 // //   { q: "How can an online review be deleted?", a: "You can report or flag fake or inappropriate reviews for policy violations to request deletion from the platform. Our team handles the entire process, including evidence gathering and submission." },
 // //   { q: "How can a Google review be deleted?", a: "Google only removes reviews that violate its policies, such as fake, spam, or inappropriate content. You cannot delete reviews directly. Our experts know exactly how to build a case and file effective removal requests with Google." },
-// //   { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans — producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
+// //   { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans - producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
 // // ];
 
 // // const testimonials = [
@@ -310,7 +310,7 @@
 // //               <div>
 // //                 <p className="section-label text-brand-gold mb-3">When Google Won't Remove Content</p>
 // //                 <h3 className="font-heading text-2xl font-bold text-white mb-4 leading-tight">
-// //                   We Have a Plan B — And a Plan C
+// //                   We Have a Plan B - And a Plan C
 // //                 </h3>
 // //                 <p className="text-zinc-400 text-sm leading-relaxed">
 // //                   In cases where Google does not comply with removal requests, our agency focuses on SEO suppression and reputation recovery. We produce high-quality optimized content to outperform negatives, activate PR, and pursue legal action where needed. Constant monitoring keeps your online profile positive and professionally controlled.
@@ -469,12 +469,12 @@
 
 // //         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 // //           <div>
-// //             <p className="section-label text-brand-gold mb-3">Don't Wait — Act Now</p>
+// //             <p className="section-label text-brand-gold mb-3">Don't Wait - Act Now</p>
 // //             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">
 // //               Don't Let a Single Negative Result Ruin Your Reputation
 // //             </h2>
 // //             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">
-// //               Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan — with no obligation.
+// //               Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan - with no obligation.
 // //             </p>
 // //             <div className="space-y-0 mb-8">
 // //               {[
@@ -543,7 +543,7 @@
 //       </svg>
 //     ),
 //     title: "Content Suppression",
-//     desc: "We create positive, optimized content campaigns that push unwanted links down the search results — pushing your narrative to the top where it belongs.",
+//     desc: "We create positive, optimized content campaigns that push unwanted links down the search results - pushing your narrative to the top where it belongs.",
 //     accent: "gold",
 //   },
 //   {
@@ -562,7 +562,7 @@
 //   {
 //     step: "01",
 //     title: "Contact the Owner to Take It Down",
-//     desc: "The most direct approach — we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
+//     desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
@@ -572,7 +572,7 @@
 //   {
 //     step: "02",
 //     title: "Bad Review Removal Request",
-//     desc: "We file a formal request directly with Google to remove reviews that violate user policy — spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
+//     desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
@@ -636,7 +636,7 @@
 //   { q: "Can bad reviews be completely removed from Google?", a: "Yes, if they violate Google policies. Otherwise, professional ORM and suppression techniques can help reduce their visibility significantly, pushing them off page one of search results." },
 //   { q: "How can an online review be deleted?", a: "You can report or flag fake or inappropriate reviews for policy violations to request deletion from the platform. Our team handles the entire process, including evidence gathering and submission." },
 //   { q: "How can a Google review be deleted?", a: "Google only removes reviews that violate its policies, such as fake, spam, or inappropriate content. You cannot delete reviews directly. Our experts know exactly how to build a case and file effective removal requests with Google." },
-//   { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans — producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
+//   { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans - producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
 // ];
 
 // const testimonials = [
@@ -883,7 +883,7 @@
 //               <div>
 //                 <p className="section-label text-brand-gold mb-3">When Google Won't Remove Content</p>
 //                 <h3 className="font-heading text-3xl font-bold text-white mb-5 leading-tight">
-//                   We Have a Plan B — <span className="heading-script text-brand-gold">And a Plan C</span>
+//                   We Have a Plan B - <span className="heading-script text-brand-gold">And a Plan C</span>
 //                 </h3>
 //                 <p className="text-zinc-400 text-[0.95rem] leading-relaxed">
 //                   In cases where Google does not comply with removal requests, our agency focuses on SEO suppression and reputation recovery. We produce high-quality optimized content to outperform negatives, activate PR, and pursue legal action where needed. Constant monitoring keeps your online profile positive and professionally controlled.
@@ -1064,12 +1064,12 @@
 
 //         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 //           <div className="premium-copy-panel-dark">
-//             <p className="section-label text-brand-gold mb-3">Don't Wait — Act Now</p>
+//             <p className="section-label text-brand-gold mb-3">Don't Wait - Act Now</p>
 //             <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
 //               Don't Let Negative Content <span className="heading-script text-brand-blue">Ruin Your Reputation</span>
 //             </h2>
 //             <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-//               Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan — with no obligation.
+//               Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan - with no obligation.
 //             </p>
             
 //             <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
@@ -1138,7 +1138,7 @@ const approachSteps = [
       </svg>
     ),
     title: "Content Suppression",
-    desc: "We create positive, optimized content campaigns that push unwanted links down the search results — pushing your narrative to the top where it belongs.",
+    desc: "We create positive, optimized content campaigns that push unwanted links down the search results - pushing your narrative to the top where it belongs.",
     accent: "gold",
   },
   {
@@ -1157,7 +1157,7 @@ const removalMethods = [
   {
     step: "01",
     title: "Contact the Owner to Take It Down",
-    desc: "The most direct approach — we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
+    desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
@@ -1167,7 +1167,7 @@ const removalMethods = [
   {
     step: "02",
     title: "Bad Review Removal Request",
-    desc: "We file a formal request directly with Google to remove reviews that violate user policy — spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
+    desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
@@ -1231,7 +1231,7 @@ const faqs = [
   { q: "Can bad reviews be completely removed from Google?", a: "Yes, if they violate Google policies. Otherwise, professional ORM and suppression techniques can help reduce their visibility significantly, pushing them off page one of search results." },
   { q: "How can an online review be deleted?", a: "You can report or flag fake or inappropriate reviews for policy violations to request deletion from the platform. Our team handles the entire process, including evidence gathering and submission." },
   { q: "How can a Google review be deleted?", a: "Google only removes reviews that violate its policies, such as fake, spam, or inappropriate content. You cannot delete reviews directly. Our experts know exactly how to build a case and file effective removal requests with Google." },
-  { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans — producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
+  { q: "What if Google won't remove the content?", a: "We shift to SEO suppression and reputation recovery plans - producing high-quality optimized content to outperform negatives, activating PR, and taking legal action where needed. Constant monitoring keeps your profile professionally controlled." },
 ];
 
 const testimonials = [
@@ -1478,7 +1478,7 @@ export default function RemoveIndividualNegativeResultsPage() {
               <div>
                 <p className="section-label text-brand-gold mb-3">When Google Won't Remove Content</p>
                 <h3 className="font-heading text-3xl font-bold text-white mb-5 leading-tight">
-                  We Have a Plan B — <span className="heading-script text-brand-gold">And a Plan C</span>
+                  We Have a Plan B - <span className="heading-script text-brand-gold">And a Plan C</span>
                 </h3>
                 <p className="text-zinc-400 text-[0.95rem] leading-relaxed">
                   In cases where Google does not comply with removal requests, our agency focuses on SEO suppression and reputation recovery. We produce high-quality optimized content to outperform negatives, activate PR, and pursue legal action where needed. Constant monitoring keeps your online profile positive and professionally controlled.
@@ -1659,12 +1659,12 @@ export default function RemoveIndividualNegativeResultsPage() {
 
         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="premium-copy-panel-dark">
-            <p className="section-label text-brand-gold mb-3">Don't Wait — Act Now</p>
+            <p className="section-label text-brand-gold mb-3">Don't Wait - Act Now</p>
             <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
               Don't Let Negative Content <span className="heading-script text-brand-blue">Ruin Your Reputation</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-              Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan — with no obligation.
+              Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan - with no obligation.
             </p>
             
             <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

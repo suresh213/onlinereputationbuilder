@@ -24,7 +24,7 @@
 //       </svg>
 //     ),
 //     title: "Track Brand Mentions",
-//     desc: "Personal brand monitoring is the process of tracking different channels to identify where your brand is mentioned — including news, social media, forums, and review sites.",
+//     desc: "Personal brand monitoring is the process of tracking different channels to identify where your brand is mentioned - including news, social media, forums, and review sites.",
 //   },
 //   {
 //     icon: (
@@ -33,7 +33,7 @@
 //       </svg>
 //     ),
 //     title: "Handle Issues Before They Escalate",
-//     desc: "It is very essential to any business, as it helps maintain the overall reputation and handle issues before they get out of control — a proactive approach beats a reactive one.",
+//     desc: "It is very essential to any business, as it helps maintain the overall reputation and handle issues before they get out of control - a proactive approach beats a reactive one.",
 //   },
 //   {
 //     icon: (
@@ -58,7 +58,7 @@
 //   },
 //   {
 //     title: "Manage Your Brand on Search Engines",
-//     desc: "Manage how your name appears on search engine rankings. Your profile needs to be clearly visible with your name and tagline at the top — we handle the technical and strategic aspects of this.",
+//     desc: "Manage how your name appears on search engine rankings. Your profile needs to be clearly visible with your name and tagline at the top - we handle the technical and strategic aspects of this.",
 //     icon: (
 //       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
@@ -67,7 +67,7 @@
 //   },
 //   {
 //     title: "Manage Your Brand on Social Media",
-//     desc: "Always keep your profiles updated and renewed on Facebook, Google+, Twitter, LinkedIn, and beyond. Social currency is real — and we help you maintain it consistently.",
+//     desc: "Always keep your profiles updated and renewed on Facebook, Google+, Twitter, LinkedIn, and beyond. Social currency is real - and we help you maintain it consistently.",
 //     icon: (
 //       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -76,7 +76,7 @@
 //   },
 //   {
 //     title: "Upload Videos on YouTube",
-//     desc: "Make short, valuable videos about your work for YouTube. Video content ranks exceptionally well and creates a lasting impression — we help you produce and optimise this content.",
+//     desc: "Make short, valuable videos about your work for YouTube. Video content ranks exceptionally well and creates a lasting impression - we help you produce and optimise this content.",
 //     icon: (
 //       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
@@ -85,7 +85,7 @@
 //     ),
 //   },
 //   {
-//     title: "Be Vigilant — Stay Alert",
+//     title: "Be Vigilant - Stay Alert",
 //     desc: "Always be alert, keep your eyes open, and see what is happening around you. If something is related to you or your brand, familiarise yourself with it and keep updating your knowledge.",
 //     icon: (
 //       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -109,7 +109,7 @@
 //   { q: "Why is personal brand monitoring important?", a: "Personal brand monitoring is important because what people find about you online can greatly impact your personal and professional life. It can influence hiring decisions, business opportunities, and even personal relationships. By monitoring your online presence, you can take control and ensure the information being shared is positive and accurate." },
 //   { q: "What should I monitor as part of my personal brand?", a: "Key elements to monitor include your social media profiles, online reviews and ratings, personal website or blog, and any mentions of your name or personal brand in the news or on forums. We track all of these on your behalf with real-time alerts." },
 //   { q: "How do I monitor my personal brand online?", a: "You can use tools such as Google Alerts, social media monitoring tools, and reputation management services. You can also regularly search for your name on various search engines. Our agency provides a comprehensive, automated monitoring service so you never miss a mention." },
-//   { q: "What can I do if I find negative information about myself online?", a: "First, assess whether the information is accurate. If so, address the issue and promote positive content. If not, take steps to have it removed or corrected. Our team handles all of this — from outreach to suppression to legal escalation where necessary." },
+//   { q: "What can I do if I find negative information about myself online?", a: "First, assess whether the information is accurate. If so, address the issue and promote positive content. If not, take steps to have it removed or corrected. Our team handles all of this - from outreach to suppression to legal escalation where necessary." },
 //   { q: "How often should I monitor my personal brand online?", a: "We recommend monitoring your personal brand at least once a month. However, for public figures and high-profile individuals, continuous real-time monitoring is essential. Our agency provides ongoing 24/7 brand monitoring so you're always informed immediately." },
 // ];
 
@@ -147,7 +147,7 @@
 //             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
 //               Your Personal Brand Is a{" "}
 //               <span className="text-brand-gold-light">Priceless Asset</span>{" "}
-//               — Protect It
+//               - Protect It
 //             </h1>
 
 //             <p className="text-white/65 text-base mb-7 leading-relaxed">
@@ -223,7 +223,7 @@
 //                 It is very important to know about both positive mentions and negative comments about you or your company. This knowledge allows you to know when damage control is needed and proactively shapes the overall perception of your brand.
 //               </p>
 //               <p className="text-zinc-500 leading-relaxed mb-8 text-sm">
-//                 Your personal brand can be damaged at any time — by a competitor, customer, ex-employee, or anyone. Whether it is a removal or a response, it is important to act quickly. Therefore, you need to monitor your personal brand and know how it stands up to the competition.
+//                 Your personal brand can be damaged at any time - by a competitor, customer, ex-employee, or anyone. Whether it is a removal or a response, it is important to act quickly. Therefore, you need to monitor your personal brand and know how it stands up to the competition.
 //               </p>
 
 //               {/* Risk callout */}
@@ -277,7 +277,7 @@
 //           <div className="text-center max-w-2xl mx-auto mb-14">
 //             <p className="section-label mb-3 justify-center">Key Benefits</p>
 //             <h2 className="font-heading text-3xl font-bold text-zinc-900 leading-tight">
-//               Your Personal Brand is Not About a Name or Logo — It&apos;s More Than That
+//               Your Personal Brand is Not About a Name or Logo - It&apos;s More Than That
 //             </h2>
 //             <p className="text-zinc-400 text-sm mt-4 max-w-lg mx-auto leading-relaxed">
 //               We help with brand monitoring by making it easier to identify how people feel about your brand, informing your marketing decisions and helping you respond quickly.
@@ -446,7 +446,7 @@
 //               Don&apos;t Let a Single Negative Google Result Ruin Your Business
 //             </h2>
 //             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">
-//               Schedule a free consultation and let our experts assess your current brand health — identifying risks, monitoring gaps, and opportunities to strengthen your reputation immediately.
+//               Schedule a free consultation and let our experts assess your current brand health - identifying risks, monitoring gaps, and opportunities to strengthen your reputation immediately.
 //             </p>
 
 //             <div className="space-y-0 mb-8">
@@ -516,7 +516,7 @@ const monitoringBenefits = [
       </svg>
     ),
     title: "Track Brand Mentions",
-    desc: "Personal brand monitoring is the process of tracking different channels to identify where your brand is mentioned — including news, social media, forums, and review sites.",
+    desc: "Personal brand monitoring is the process of tracking different channels to identify where your brand is mentioned - including news, social media, forums, and review sites.",
   },
   {
     icon: (
@@ -525,7 +525,7 @@ const monitoringBenefits = [
       </svg>
     ),
     title: "Handle Issues Before They Escalate",
-    desc: "It is very essential to any business, as it helps maintain the overall reputation and handle issues before they get out of control — a proactive approach beats a reactive one.",
+    desc: "It is very essential to any business, as it helps maintain the overall reputation and handle issues before they get out of control - a proactive approach beats a reactive one.",
   },
   {
     icon: (
@@ -550,7 +550,7 @@ const monitoringMethods = [
   },
   {
     title: "Manage Your Brand on Search Engines",
-    desc: "Manage how your name appears on search engine rankings. Your profile needs to be clearly visible with your name and tagline at the top — we handle the technical and strategic aspects of this.",
+    desc: "Manage how your name appears on search engine rankings. Your profile needs to be clearly visible with your name and tagline at the top - we handle the technical and strategic aspects of this.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
@@ -559,7 +559,7 @@ const monitoringMethods = [
   },
   {
     title: "Manage Your Brand on Social Media",
-    desc: "Always keep your profiles updated and renewed on Facebook, Google+, Twitter, LinkedIn, and beyond. Social currency is real — and we help you maintain it consistently.",
+    desc: "Always keep your profiles updated and renewed on Facebook, Google+, Twitter, LinkedIn, and beyond. Social currency is real - and we help you maintain it consistently.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -568,7 +568,7 @@ const monitoringMethods = [
   },
   {
     title: "Upload Videos on YouTube",
-    desc: "Make short, valuable videos about your work for YouTube. Video content ranks exceptionally well and creates a lasting impression — we help you produce and optimise this content.",
+    desc: "Make short, valuable videos about your work for YouTube. Video content ranks exceptionally well and creates a lasting impression - we help you produce and optimise this content.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
@@ -577,7 +577,7 @@ const monitoringMethods = [
     ),
   },
   {
-    title: "Be Vigilant — Stay Alert",
+    title: "Be Vigilant - Stay Alert",
     desc: "Always be alert, keep your eyes open, and see what is happening around you. If something is related to you or your brand, familiarise yourself with it and keep updating your knowledge.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -601,7 +601,7 @@ const faqs = [
   { q: "Why is personal brand monitoring important?", a: "Personal brand monitoring is important because what people find about you online can greatly impact your personal and professional life. It can influence hiring decisions, business opportunities, and even personal relationships. By monitoring your online presence, you can take control and ensure the information being shared is positive and accurate." },
   { q: "What should I monitor as part of my personal brand?", a: "Key elements to monitor include your social media profiles, online reviews and ratings, personal website or blog, and any mentions of your name or personal brand in the news or on forums. We track all of these on your behalf with real-time alerts." },
   { q: "How do I monitor my personal brand online?", a: "You can use tools such as Google Alerts, social media monitoring tools, and reputation management services. You can also regularly search for your name on various search engines. Our agency provides a comprehensive, automated monitoring service so you never miss a mention." },
-  { q: "What can I do if I find negative information about myself online?", a: "First, assess whether the information is accurate. If so, address the issue and promote positive content. If not, take steps to have it removed or corrected. Our team handles all of this — from outreach to suppression to legal escalation where necessary." },
+  { q: "What can I do if I find negative information about myself online?", a: "First, assess whether the information is accurate. If so, address the issue and promote positive content. If not, take steps to have it removed or corrected. Our team handles all of this - from outreach to suppression to legal escalation where necessary." },
   { q: "How often should I monitor my personal brand online?", a: "We recommend monitoring your personal brand at least once a month. However, for public figures and high-profile individuals, continuous real-time monitoring is essential. Our agency provides ongoing 24/7 brand monitoring so you're always informed immediately." },
 ];
 
@@ -666,7 +666,7 @@ export default function PersonalBrandMonitoringPage() {
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.4rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
               Your Personal Brand Is a{" "}
               <span className="text-gradient-gold">Priceless Asset</span>{" "}
-              — Protect It
+              - Protect It
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -739,7 +739,7 @@ export default function PersonalBrandMonitoringPage() {
                   It is very important to know about both positive mentions and negative comments about you or your company. This knowledge allows you to know when damage control is needed and proactively shapes the overall perception of your brand.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                  Your personal brand can be damaged at any time — by a competitor, customer, ex-employee, or anyone. Whether it is a removal or a response, it is important to act quickly. Therefore, you need to monitor your personal brand and know how it stands up to the competition.
+                  Your personal brand can be damaged at any time - by a competitor, customer, ex-employee, or anyone. Whether it is a removal or a response, it is important to act quickly. Therefore, you need to monitor your personal brand and know how it stands up to the competition.
                 </p>
 
                 {/* Risk callout - SaaS style alert */}
@@ -803,7 +803,7 @@ export default function PersonalBrandMonitoringPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Key Benefits</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Your Personal Brand is Not About a Name or Logo — <span className="heading-script text-brand-blue">It&apos;s More Than That</span>
+                Your Personal Brand is Not About a Name or Logo - <span className="heading-script text-brand-blue">It&apos;s More Than That</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
                 We help with brand monitoring by making it easier to identify how people feel about your brand, informing your marketing decisions and helping you respond quickly.
@@ -1012,7 +1012,7 @@ export default function PersonalBrandMonitoringPage() {
                 Don&apos;t Let a Single Negative Google Result <span className="heading-script text-brand-blue">Ruin Your Business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation and let our experts assess your current brand health — identifying risks, monitoring gaps, and opportunities to strengthen your reputation immediately.
+                Schedule a free consultation and let our experts assess your current brand health - identifying risks, monitoring gaps, and opportunities to strengthen your reputation immediately.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

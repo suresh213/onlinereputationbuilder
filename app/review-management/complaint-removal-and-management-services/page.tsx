@@ -26,7 +26,7 @@ const stats = [
 const impacts = [
   {
     title: "Loss of Customer Trust",
-    desc: "Online complaints — real or fabricated — are often the first thing potential customers see. Even a single unresolved complaint can cause visitors to choose a competitor, directly reducing your conversions.",
+    desc: "Online complaints - real or fabricated - are often the first thing potential customers see. Even a single unresolved complaint can cause visitors to choose a competitor, directly reducing your conversions.",
     icon: "😟",
   },
   {
@@ -61,7 +61,7 @@ const processSteps = [
   {
     step: "03",
     title: "Execute & Monitor",
-    desc: "Our specialists submit removal requests, coordinate with platform moderators, and apply legal pressure where necessary — then monitor results in real time.",
+    desc: "Our specialists submit removal requests, coordinate with platform moderators, and apply legal pressure where necessary - then monitor results in real time.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
     ),
@@ -98,14 +98,14 @@ const typesOfComplaints = [
 const whyUs = [
   {
     title: "97% Success Rate",
-    desc: "Our track record speaks for itself — we've successfully removed thousands of harmful complaints for businesses across India and globally.",
+    desc: "Our track record speaks for itself - we've successfully removed thousands of harmful complaints for businesses across India and globally.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
     title: "Legal & Ethical Methods",
-    desc: "Every removal is executed within the bounds of platform policies and applicable law. No black-hat tactics — ever.",
+    desc: "Every removal is executed within the bounds of platform policies and applicable law. No black-hat tactics - ever.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
@@ -165,7 +165,20 @@ const testimonials = [
 ];
 
 const publishers = [
-  "INDIAN EXPRESS", "BusinessLine", "Bloomberg", "MONEY", "FINANCIAL", "Games", "Military.com", "MarketWatch", "CNN", "Outlook", "People", "CRAIN'S", "siliconindia", "St.Louis"
+  { name: "Bloomberg",       style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 22, letterSpacing: "-0.5px" } },
+  { name: "Forbes",          style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 24, fontStyle: "italic" } },
+  { name: "Reuters",         style: { fontFamily: "sans-serif", fontWeight: 400, fontSize: 20, letterSpacing: "2px" } },
+  { name: "CNN",             style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 24, letterSpacing: "1px" } },
+  { name: "MarketWatch",     style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "Indian Express",  style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
+  { name: "Outlook",         style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 20, fontStyle: "italic" } },
+  { name: "People",          style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 22, letterSpacing: "3px" } },
+  { name: "BusinessLine",    style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
+  { name: "siliconindia",    style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "CRAIN'S",         style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 18, letterSpacing: "2px" } },
+  { name: "Military.com",    style: { fontFamily: "sans-serif", fontWeight: 700, fontSize: 18 } },
+  { name: "MONEY",           style: { fontFamily: "sans-serif", fontWeight: 900, fontSize: 22, letterSpacing: "3px" } },
+  { name: "St.Louis",        style: { fontFamily: "Georgia, serif", fontWeight: 700, fontSize: 18 } },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────────────── */
@@ -247,7 +260,7 @@ export default function ComplaintRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Safeguard your brand with our proven complaint removal solutions. We specialize in eliminating fake and negative online complaints permanently — restoring trust and protecting your digital reputation.
+                Safeguard your brand with our proven complaint removal solutions. We specialize in eliminating fake and negative online complaints permanently - restoring trust and protecting your digital reputation.
               </p>
 
               <ul className="space-y-3 mb-10">
@@ -274,7 +287,7 @@ export default function ComplaintRemovalPage() {
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
                 <div className="text-center mb-8">
                   <p className="section-label text-brand-gold mb-2 justify-center">Protect Your Brand Today</p>
-                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Get expert complaint removal — fast, legal, and permanent</h3>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Get expert complaint removal - fast, legal, and permanent</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
@@ -453,16 +466,43 @@ export default function ComplaintRemovalPage() {
             ))}
           </div>
 
-          <RevealOnScroll delay={300}>
-            <div className="mt-20 border-t border-zinc-800 pt-10">
-              <p className="text-center text-[0.65rem] font-bold text-zinc-500 uppercase tracking-widest mb-8">We Are Proudly Featured With</p>
-              <div className="flex flex-wrap justify-center gap-4 lg:gap-8">
-                {publishers.map((pub) => (
-                  <span key={pub} className="text-zinc-600 font-heading font-bold text-sm md:text-lg uppercase tracking-wider">{pub}</span>
-                ))}
-              </div>
-            </div>
-          </RevealOnScroll>
+<RevealOnScroll delay={300}>
+  <div className="mt-20 border-t border-zinc-800 pt-10">
+    <p className="text-center text-[0.65rem] font-bold text-zinc-500 uppercase tracking-widest mb-8">
+      We Are Proudly Featured With
+    </p>
+
+    <div className="group relative overflow-hidden">
+      <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-zinc-950 to-transparent" />
+      <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-zinc-950 to-transparent" />
+
+      <div
+        className="flex items-center w-max"
+        style={{ animation: "publisher-marquee 40s linear infinite" }}
+      >
+        {[...publishers, ...publishers].map((pub, i) => (
+          <span
+            key={`${pub.name}-${i}`}
+            className="flex-shrink-0 mx-10 text-zinc-400 hover:text-white transition-colors duration-300 whitespace-nowrap opacity-50 hover:opacity-100"
+            style={pub.style as React.CSSProperties}
+          >
+            {pub.name}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <style>{`
+    @keyframes publisher-marquee {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .group:hover .flex.items-center.w-max {
+      animation-play-state: paused;
+    }
+  `}</style>
+</RevealOnScroll>
         </div>
       </section>
 
@@ -543,7 +583,7 @@ export default function ComplaintRemovalPage() {
                 Don&apos;t Let Fake Complaints <span className="heading-script text-brand-blue">Destroy Your Reputation</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan — with no obligation.
+                Schedule a free consultation today. Our removal experts will assess your situation and present a clear action plan - with no obligation.
               </p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[

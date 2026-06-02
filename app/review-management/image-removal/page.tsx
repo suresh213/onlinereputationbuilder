@@ -45,7 +45,7 @@ const processSteps = [
   {
     step: "01",
     title: "Image Discovery & Audit",
-    desc: "We conduct a comprehensive scan to locate all instances of harmful images across Google, Bing, and other platforms — including cached versions and indexed copies.",
+    desc: "We conduct a comprehensive scan to locate all instances of harmful images across Google, Bing, and other platforms - including cached versions and indexed copies.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
     ),
@@ -53,7 +53,7 @@ const processSteps = [
   {
     step: "02",
     title: "Source Identification",
-    desc: "We trace every image back to its original hosting source and identify the fastest, most effective removal route — whether direct takedown, DMCA, or legal notice.",
+    desc: "We trace every image back to its original hosting source and identify the fastest, most effective removal route - whether direct takedown, DMCA, or legal notice.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
     ),
@@ -91,7 +91,7 @@ const typesOfImages = [
   },
   {
     title: "Leaked & Unauthorized Images",
-    desc: "Photos published without your authorization — from hacked accounts, data breaches, or unauthorized sharing — are handled with urgency and legal precision.",
+    desc: "Photos published without your authorization - from hacked accounts, data breaches, or unauthorized sharing - are handled with urgency and legal precision.",
   },
 ];
 
@@ -105,7 +105,7 @@ const whyUs = [
   },
   {
     title: "100% Legal Methods",
-    desc: "We only use legitimate DMCA, privacy law, and platform policy routes. No hacking, no grey-hat tactics — results you can trust.",
+    desc: "We only use legitimate DMCA, privacy law, and platform policy routes. No hacking, no grey-hat tactics - results you can trust.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -133,11 +133,11 @@ const faqs = [
   },
   {
     q: "Can images be removed even if I don't own the copyright?",
-    a: "Yes. Many removals are based on privacy law, right-to-be-forgotten regulations, or platform policies — not solely copyright. Our legal team identifies the strongest avenue for each case.",
+    a: "Yes. Many removals are based on privacy law, right-to-be-forgotten regulations, or platform policies - not solely copyright. Our legal team identifies the strongest avenue for each case.",
   },
   {
     q: "What if the image is on multiple websites?",
-    a: "We address every instance simultaneously — tracking all copies across hosting sites and submitting coordinated removal and deindex requests to eliminate the image comprehensively.",
+    a: "We address every instance simultaneously - tracking all copies across hosting sites and submitting coordinated removal and deindex requests to eliminate the image comprehensively.",
   },
   {
     q: "Is the removal permanent?",
@@ -268,7 +268,7 @@ export default function ImageRemovalPage() {
                 The Real Impact of <span className="heading-script text-brand-blue">Harmful Images Online</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                A single harmful image appearing in search results can cause lasting damage to your personal and professional life. Acting quickly is critical — every day the image remains online, the damage compounds.
+                A single harmful image appearing in search results can cause lasting damage to your personal and professional life. Acting quickly is critical - every day the image remains online, the damage compounds.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Assessment</Link>
             </div>
@@ -452,7 +452,7 @@ export default function ImageRemovalPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Don&apos;t Let Harmful Images <span className="heading-script text-brand-blue">Define You Online</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation. Our image removal experts will assess your situation and provide a clear action plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation. Our image removal experts will assess your situation and provide a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },

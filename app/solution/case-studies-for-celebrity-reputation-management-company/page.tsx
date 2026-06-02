@@ -696,7 +696,7 @@ export default function CelebrityCaseStudyPage() {
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation today. Our reputation experts will assess your 
-                digital footprint, identify vulnerabilities, and present a discreet strategy — with no obligation.
+                digital footprint, identify vulnerabilities, and present a discreet strategy - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

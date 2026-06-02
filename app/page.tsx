@@ -187,7 +187,7 @@ export default function HomePage() {
               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-blue">
                 <h3 className="font-bold text-zinc-900 mb-2">Suppress Negative Google Results</h3>
                 <p className="text-sm text-zinc-500 leading-relaxed">
-                  A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form — blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.
+                  A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form - blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.
                 </p>
               </div>
               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-gold">

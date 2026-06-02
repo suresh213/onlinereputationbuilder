@@ -838,7 +838,7 @@ const navItems = [
         links: [
           { label: "Instagram Removal", href: "/review-management/instagram-videos-and-posts-removal" },
           { label: "Tiktok Removal", href: "/review-management/tiktok-video-and-post-removal" },
-          { label: "Youtube Video Removal", href: "/review-management/youtube-removal" },
+          { label: "Youtube Video Removal", href: "/review-management/youtube-video-removal" },
           { label: "Facebook Content Removal", href: "/review-management/facebook-content-removal" },
           { label: "Twitter Content Removal", href: "/review-management/twitter-content-removal" },
           
@@ -855,7 +855,7 @@ const navItems = [
           { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
           { label: "Amplify Reviews", href: "/review-management/amplify-reviews" },
           { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
-          { label: "Yelp Reputation Management", href: "/review-management/yelp-reputation-management" },
+          { label: "Yelp Reputation Management", href: "/review-management/yelp-review-management" },
           { label: "Wikipedia Writing Services", href: "/review-management/wikipedia-writing-services" },
 
           

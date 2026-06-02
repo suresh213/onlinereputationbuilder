@@ -30,7 +30,7 @@
 //   {
 //     step: "02",
 //     title: "Content Creation",
-//     desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative — which directly shapes autocomplete.",
+//     desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative - which directly shapes autocomplete.",
 //     icon: (
 //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
@@ -138,7 +138,7 @@
 //   },
 //   {
 //     q: "How can I change Google Autocomplete suggestions?",
-//     a: "It is not possible to directly edit or change the Google Autocomplete suggestions yourself. However, you can influence the suggestions by consistently creating positive content and by using professional ORM strategies. Our team specializes in exactly this — using proven techniques to shift autocomplete in your favour.",
+//     a: "It is not possible to directly edit or change the Google Autocomplete suggestions yourself. However, you can influence the suggestions by consistently creating positive content and by using professional ORM strategies. Our team specializes in exactly this - using proven techniques to shift autocomplete in your favour.",
 //   },
 //   {
 //     q: "How long does it take for Google Autocomplete suggestions to change?",
@@ -318,13 +318,13 @@
 //             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.3rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
 //               Manage &amp; Fix{" "}
 //               <span className="text-gradient-gold">Google Autocomplete</span>{" "}
-//               — Remove Negative Search Suggestions
+//               - Remove Negative Search Suggestions
 //             </h1>
 
 //             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
 //               Has your business reputation been damaged by negative content on Google
 //               search results? If searching your brand name shows harmful autocomplete
-//               suggestions, don&apos;t panic — we have proven strategies to fix it.
+//               suggestions, don&apos;t panic - we have proven strategies to fix it.
 //             </p>
 
 //             {/* Negative examples showcase - Glassmorphic Pill Design */}
@@ -370,7 +370,7 @@
 //               </div>
 //               <p className="text-white/60 text-sm leading-relaxed mt-0.5 max-w-md">
 //                 <span className="text-brand-gold font-semibold">Guaranteed solution</span>{" "}
-//                 — the only ORM firm offering guaranteed autocomplete change through verified optimization strategies.
+//                 - the only ORM firm offering guaranteed autocomplete change through verified optimization strategies.
 //               </p>
 //             </div>
 //           </div>
@@ -409,18 +409,18 @@
 //               <div className="premium-copy-panel pr-0 lg:pr-8">
 //                 <p className="section-label mb-2 text-brand-gold">The Problem</p>
 //                 <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-//                   Revolutionizing Search — Say Goodbye to <span className="heading-script text-brand-blue">Negative Autocomplete</span>
+//                   Revolutionizing Search - Say Goodbye to <span className="heading-script text-brand-blue">Negative Autocomplete</span>
 //                 </h2>
 //                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
 //                   Google Autocomplete has been a staple feature of the search giant for years,
 //                   providing quick suggestions for users as they type their queries. However,
-//                   these suggestions are not always positive — and when they&apos;re harmful to
+//                   these suggestions are not always positive - and when they&apos;re harmful to
 //                   your brand, they directly damage your reputation and revenue.
 //                 </p>
 //                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
 //                   Say goodbye to limited, negative suggestions and hello to endless positive
 //                   possibilities. With new and improved algorithms, we provide users with more
-//                   accurate and diverse options — giving your brand the positive online identity
+//                   accurate and diverse options - giving your brand the positive online identity
 //                   it deserves.
 //                 </p>
 
@@ -428,14 +428,14 @@
 //                   <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/5 to-transparent pointer-events-none opacity-50"></div>
 //                   <div className="relative z-10">
 //                     <p className="font-heading font-bold text-zinc-900 text-base mb-3 leading-snug">
-//                       This is the future of search — and it starts with changing the way we think
+//                       This is the future of search - and it starts with changing the way we think
 //                       about Google Autocomplete.
 //                     </p>
 //                     <p className="text-zinc-500 text-sm leading-relaxed">
 //                       By utilizing a revolutionary autocomplete management system, businesses can
 //                       gain a significant advantage in the online marketplace. With more accurate and
 //                       relevant suggestions, customers find the products and services they need more
-//                       quickly — driving increased traffic, customer satisfaction, and loyalty.
+//                       quickly - driving increased traffic, customer satisfaction, and loyalty.
 //                     </p>
 //                   </div>
 //                 </div>
@@ -466,7 +466,7 @@
 //                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Strategies</p>
 //               </div>
 //               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-//                 Master the Art of Search — <span className="heading-script text-brand-blue">Transform Your Results</span>
+//                 Master the Art of Search - <span className="heading-script text-brand-blue">Transform Your Results</span>
 //               </h2>
 //               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed max-w-xl mx-auto">
 //                 Discover the power of influencing search results and elevate your online
@@ -538,7 +538,7 @@
 //             <RevealOnScroll>
 //               <p className="section-label mb-2">Why It Matters</p>
 //               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-//                 Unlock the Power of Search — The Vital Importance of <span className="heading-script text-brand-gold">Google Autocomplete</span>
+//                 Unlock the Power of Search - The Vital Importance of <span className="heading-script text-brand-gold">Google Autocomplete</span>
 //               </h2>
 //               <p className="text-zinc-500 leading-relaxed mb-10 text-[0.95rem]">
 //                 Google Autocomplete has become an essential tool for people all over the world.
@@ -722,7 +722,7 @@
 //               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
 //                 Schedule a free consultation today. Our autocomplete experts will assess your
 //                 current situation, identify every harmful suggestion, and present a clear action
-//                 plan — with no obligation.
+//                 plan - with no obligation.
 //               </p>
               
 //               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
@@ -822,7 +822,7 @@ const strategies = [
   {
     step: "02",
     title: "Content Creation",
-    desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative — which directly shapes autocomplete.",
+    desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative - which directly shapes autocomplete.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
@@ -930,7 +930,7 @@ const faqs = [
   },
   {
     q: "How can I change Google Autocomplete suggestions?",
-    a: "It is not possible to directly edit or change the Google Autocomplete suggestions yourself. However, you can influence the suggestions by consistently creating positive content and by using professional ORM strategies. Our team specializes in exactly this — using proven techniques to shift autocomplete in your favour.",
+    a: "It is not possible to directly edit or change the Google Autocomplete suggestions yourself. However, you can influence the suggestions by consistently creating positive content and by using professional ORM strategies. Our team specializes in exactly this - using proven techniques to shift autocomplete in your favour.",
   },
   {
     q: "How long does it take for Google Autocomplete suggestions to change?",
@@ -1110,13 +1110,13 @@ export default function ChangeGoogleAutocompletePage() {
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.3rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
               Manage &amp; Fix{" "}
               <span className="text-gradient-gold">Google Autocomplete</span>{" "}
-              — Remove Negative Search Suggestions
+              - Remove Negative Search Suggestions
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
               Has your business reputation been damaged by negative content on Google
               search results? If searching your brand name shows harmful autocomplete
-              suggestions, don&apos;t panic — we have proven strategies to fix it.
+              suggestions, don&apos;t panic - we have proven strategies to fix it.
             </p>
 
             {/* Negative examples showcase - Glassmorphic Pill Design */}
@@ -1162,7 +1162,7 @@ export default function ChangeGoogleAutocompletePage() {
               </div>
               <p className="text-white/60 text-sm leading-relaxed mt-0.5 max-w-md">
                 <span className="text-brand-gold font-semibold">Guaranteed solution</span>{" "}
-                — the only ORM firm offering guaranteed autocomplete change through verified optimization strategies.
+                - the only ORM firm offering guaranteed autocomplete change through verified optimization strategies.
               </p>
             </div>
           </div>
@@ -1201,18 +1201,18 @@ export default function ChangeGoogleAutocompletePage() {
               <div className="premium-copy-panel pr-0 lg:pr-8">
                 <p className="section-label mb-2 text-brand-gold">The Problem</p>
                 <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                  Revolutionizing Search — Say Goodbye to <span className="heading-script text-brand-blue">Negative Autocomplete</span>
+                  Revolutionizing Search - Say Goodbye to <span className="heading-script text-brand-blue">Negative Autocomplete</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
                   Google Autocomplete has been a staple feature of the search giant for years,
                   providing quick suggestions for users as they type their queries. However,
-                  these suggestions are not always positive — and when they&apos;re harmful to
+                  these suggestions are not always positive - and when they&apos;re harmful to
                   your brand, they directly damage your reputation and revenue.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                   Say goodbye to limited, negative suggestions and hello to endless positive
                   possibilities. With new and improved algorithms, we provide users with more
-                  accurate and diverse options — giving your brand the positive online identity
+                  accurate and diverse options - giving your brand the positive online identity
                   it deserves.
                 </p>
 
@@ -1220,14 +1220,14 @@ export default function ChangeGoogleAutocompletePage() {
                   <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/5 to-transparent pointer-events-none opacity-50"></div>
                   <div className="relative z-10">
                     <p className="font-heading font-bold text-zinc-900 text-base mb-3 leading-snug">
-                      This is the future of search — and it starts with changing the way we think
+                      This is the future of search - and it starts with changing the way we think
                       about Google Autocomplete.
                     </p>
                     <p className="text-zinc-500 text-sm leading-relaxed">
                       By utilizing a revolutionary autocomplete management system, businesses can
                       gain a significant advantage in the online marketplace. With more accurate and
                       relevant suggestions, customers find the products and services they need more
-                      quickly — driving increased traffic, customer satisfaction, and loyalty.
+                      quickly - driving increased traffic, customer satisfaction, and loyalty.
                     </p>
                   </div>
                 </div>
@@ -1258,7 +1258,7 @@ export default function ChangeGoogleAutocompletePage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Strategies</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                Master the Art of Search — <span className="heading-script text-brand-blue">Transform Your Results</span>
+                Master the Art of Search - <span className="heading-script text-brand-blue">Transform Your Results</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed max-w-xl mx-auto">
                 Discover the power of influencing search results and elevate your online
@@ -1330,7 +1330,7 @@ export default function ChangeGoogleAutocompletePage() {
             <RevealOnScroll>
               <p className="section-label mb-2">Why It Matters</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                Unlock the Power of Search — The Vital Importance of <span className="heading-script text-brand-gold">Google Autocomplete</span>
+                Unlock the Power of Search - The Vital Importance of <span className="heading-script text-brand-gold">Google Autocomplete</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-10 text-[0.95rem]">
                 Google Autocomplete has become an essential tool for people all over the world.
@@ -1514,7 +1514,7 @@ export default function ChangeGoogleAutocompletePage() {
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation today. Our autocomplete experts will assess your
                 current situation, identify every harmful suggestion, and present a clear action
-                plan — with no obligation.
+                plan - with no obligation.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

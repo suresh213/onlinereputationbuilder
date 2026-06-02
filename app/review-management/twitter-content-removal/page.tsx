@@ -27,7 +27,7 @@ const importanceReasons = [
   {
     step: "01",
     title: "Stop Viral Damage Immediately",
-    desc: "Twitter/X's retweet mechanism means a single harmful tweet can reach hundreds of thousands of people within hours. Early intervention to remove or suppress damaging content is critical — the longer it stays live, the wider the damage spreads.",
+    desc: "Twitter/X's retweet mechanism means a single harmful tweet can reach hundreds of thousands of people within hours. Early intervention to remove or suppress damaging content is critical - the longer it stays live, the wider the damage spreads.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/>
@@ -37,7 +37,7 @@ const importanceReasons = [
   {
     step: "02",
     title: "Protect Professional Reputation",
-    desc: "Twitter/X is widely used by business leaders, journalists, and decision-makers. Harmful tweets about you or your brand can directly affect professional relationships, partnerships, and career opportunities — making prompt removal essential.",
+    desc: "Twitter/X is widely used by business leaders, journalists, and decision-makers. Harmful tweets about you or your brand can directly affect professional relationships, partnerships, and career opportunities - making prompt removal essential.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
@@ -47,7 +47,7 @@ const importanceReasons = [
   {
     step: "03",
     title: "Prevent Search Result Damage",
-    desc: "Tweets and Twitter threads frequently appear in Google search results for personal and business names. A damaging tweet ranking on page one of your search results is visible to everyone who researches you — making removal a direct SEO priority.",
+    desc: "Tweets and Twitter threads frequently appear in Google search results for personal and business names. A damaging tweet ranking on page one of your search results is visible to everyone who researches you - making removal a direct SEO priority.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
@@ -68,7 +68,7 @@ const importanceReasons = [
 
 const expertProcess = [
   { title: "Tweet & Thread Audit", desc: "We identify all harmful tweets, threads, replies, and accounts targeting your brand, assessing engagement levels, search rankings, and the strongest grounds available for removal." },
-  { title: "X Policy-Based Reporting", desc: "Our team files detailed reports with X's Trust & Safety team, citing specific rules violations — including harassment, hate speech, doxxing, or misinformation — with strong documentation to support each case." },
+  { title: "X Policy-Based Reporting", desc: "Our team files detailed reports with X's Trust & Safety team, citing specific rules violations - including harassment, hate speech, doxxing, or misinformation - with strong documentation to support each case." },
   { title: "Account & Impersonation Removal", desc: "For fake or impersonation accounts spreading harmful content, we file identity and impersonation complaints with X to have the accounts suspended and content removed." },
   { title: "Legal Escalation", desc: "For defamatory tweets or coordinated harassment, our legal partners issue cease-and-desist letters, file formal defamation claims, and pursue court-ordered content and account removal." },
   { title: "Suppression & Monitoring", desc: "For content that resists removal, we implement SEO suppression strategies to push harmful tweets out of search visibility. We continuously monitor X for new harmful content targeting your brand." },
@@ -76,10 +76,10 @@ const expertProcess = [
 
 const faqs = [
   { q: "What types of Twitter/X content can you remove?", a: "We handle removal of defamatory tweets, harassment, hate speech, doxxing (sharing private information), impersonation accounts, fake news, and coordinated attack campaigns. We also assist with suppression of damaging content that technically complies with X's policies." },
-  { q: "Can you remove tweets posted by other users?", a: "Yes — this is our core speciality. We build documented removal cases citing X's specific rules and policies, and submit formal reports on your behalf. For content X refuses to remove, we escalate through legal channels and implement search suppression strategies." },
+  { q: "Can you remove tweets posted by other users?", a: "Yes - this is our core speciality. We build documented removal cases citing X's specific rules and policies, and submit formal reports on your behalf. For content X refuses to remove, we escalate through legal channels and implement search suppression strategies." },
   { q: "How long does Twitter/X content removal take?", a: "Policy-violation removals typically take 5–14 business days. Impersonation account removals often resolve within 7–10 days. Legal escalation cases may take 3–6 weeks. We deploy suppression strategies in parallel throughout the process." },
   { q: "Will removed tweets still appear in Google search results?", a: "Removed tweets are deindexed from Google over time, but this can take days or weeks. We proactively request Google deindexing of removed content and deploy SEO suppression strategies to accelerate the removal of harmful tweets from search results." },
-  { q: "What if X refuses to remove the harmful content?", a: "We escalate through legal channels while simultaneously implementing suppression strategies — creating authoritative positive content that dominates search results for your name, effectively burying harmful tweets. We continue monitoring for re-posting or new attacks." },
+  { q: "What if X refuses to remove the harmful content?", a: "We escalate through legal channels while simultaneously implementing suppression strategies - creating authoritative positive content that dominates search results for your name, effectively burying harmful tweets. We continue monitoring for re-posting or new attacks." },
 ];
 
 const testimonials = [
@@ -155,7 +155,7 @@ export default function TwitterRemovalPage() {
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Harmful <span className="text-gradient-gold">Tweets &amp; X Content</span> — Protect Your Reputation in India
+                Remove Harmful <span className="text-gradient-gold">Tweets &amp; X Content</span> - Protect Your Reputation in India
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
@@ -188,7 +188,7 @@ export default function TwitterRemovalPage() {
                     <svg viewBox="0 0 24 24" className="w-5 h-5 fill-zinc-300" aria-label="X (Twitter)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.849L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                    A single harmful tweet can reach <span className="text-white font-bold">millions through retweets</span> — every hour of inaction allows the damage to compound and spread further.
+                    A single harmful tweet can reach <span className="text-white font-bold">millions through retweets</span> - every hour of inaction allows the damage to compound and spread further.
                   </p>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export default function TwitterRemovalPage() {
                   Why Harmful Tweets Are <span className="heading-script text-brand-blue">So Dangerous</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
-                  Twitter/X&apos;s core mechanic — the retweet — means harmful content can spread exponentially within minutes. A single defamatory tweet or thread targeting your brand can reach a vast audience of journalists, clients, investors, and the general public before you even become aware of it.
+                  Twitter/X&apos;s core mechanic - the retweet - means harmful content can spread exponentially within minutes. A single defamatory tweet or thread targeting your brand can reach a vast audience of journalists, clients, investors, and the general public before you even become aware of it.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                   Since Elon Musk&apos;s acquisition, X&apos;s content moderation has become more complex to navigate. Without deep platform knowledge and documented cases, removal requests are frequently rejected. Professional expertise is essential to achieve results under the current moderation framework.

@@ -31,7 +31,7 @@ const impacts = [
   },
   {
     title: "Damaged Star Rating",
-    desc: "A single coordinated fake-review attack can drag your star rating down by a full point — directly impacting your local pack ranking and converting fewer searchers into customers.",
+    desc: "A single coordinated fake-review attack can drag your star rating down by a full point - directly impacting your local pack ranking and converting fewer searchers into customers.",
     icon: "⭐",
   },
   {
@@ -45,7 +45,7 @@ const services = [
   {
     step: "01",
     title: "Fake Review Removal",
-    desc: "We identify reviews that violate Google's policies — including fake, spammy, defamatory, and competitor-placed reviews — and submit targeted flagging and legal requests for permanent removal.",
+    desc: "We identify reviews that violate Google's policies - including fake, spammy, defamatory, and competitor-placed reviews - and submit targeted flagging and legal requests for permanent removal.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
     ),
@@ -53,7 +53,7 @@ const services = [
   {
     step: "02",
     title: "Review Response Strategy",
-    desc: "We craft professional, brand-aligned responses to negative reviews that demonstrate accountability and rebuild trust — turning a public complaint into a showcase of your customer service.",
+    desc: "We craft professional, brand-aligned responses to negative reviews that demonstrate accountability and rebuild trust - turning a public complaint into a showcase of your customer service.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
     ),
@@ -61,7 +61,7 @@ const services = [
   {
     step: "03",
     title: "Positive Review Generation",
-    desc: "We implement ethical, Google-compliant strategies to encourage satisfied customers to leave genuine positive reviews — steadily improving your rating and overall profile strength.",
+    desc: "We implement ethical, Google-compliant strategies to encourage satisfied customers to leave genuine positive reviews - steadily improving your rating and overall profile strength.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
@@ -98,7 +98,7 @@ const reviewTypes = [
 const whyUs = [
   {
     title: "98% Success Rate",
-    desc: "Our Google-specific removal methodology delivers a 98% success rate — the highest in the industry for Google Business Profile review management.",
+    desc: "Our Google-specific removal methodology delivers a 98% success rate - the highest in the industry for Google Business Profile review management.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -112,7 +112,7 @@ const whyUs = [
   },
   {
     title: "Fully Transparent Process",
-    desc: "You are kept informed at every step — from initial audit to final removal confirmation — with clear reporting on what was done and why.",
+    desc: "You are kept informed at every step - from initial audit to final removal confirmation - with clear reporting on what was done and why.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
     ),
@@ -129,7 +129,7 @@ const whyUs = [
 const faqs = [
   {
     q: "Can Google Business reviews actually be removed?",
-    a: "Yes — reviews that violate Google's policies (fake, spam, defamatory, off-topic) can be removed. We identify the violation type and use the correct removal channel for each review to maximise success rates.",
+    a: "Yes - reviews that violate Google's policies (fake, spam, defamatory, off-topic) can be removed. We identify the violation type and use the correct removal channel for each review to maximise success rates.",
   },
   {
     q: "How long does review removal take?",
@@ -216,7 +216,7 @@ export default function GoogleBusinessReputationPage() {
                 Google Business Profile Reputation Management with a <span className="text-gradient-gold">98% Success Rate</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Protect your brand from false reviews, malicious attacks, and spam. We remove fake Google reviews, improve your star rating, and help your business rank higher in local search — permanently.
+                Protect your brand from false reviews, malicious attacks, and spam. We remove fake Google reviews, improve your star rating, and help your business rank higher in local search - permanently.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -241,7 +241,7 @@ export default function GoogleBusinessReputationPage() {
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
                 <div className="text-center mb-8">
                   <p className="section-label text-brand-gold mb-2 justify-center">Restore Your Google Rating Today</p>
-                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Expert Google Business Profile management — fast, legal, lasting</h3>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Expert Google Business Profile management - fast, legal, lasting</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
@@ -271,7 +271,7 @@ export default function GoogleBusinessReputationPage() {
                 How Fake Reviews <span className="heading-script text-brand-blue">Hurt Your Business</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Your Google Business Profile is often the first thing a potential customer sees. A damaged profile doesn't just look bad — it actively costs you customers, revenue, and local search visibility every single day.
+                Your Google Business Profile is often the first thing a potential customer sees. A damaged profile doesn't just look bad - it actively costs you customers, revenue, and local search visibility every single day.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                 Acting quickly is critical. Our experts have managed thousands of Google Business Profiles back to health, and we can do the same for yours.
@@ -487,13 +487,13 @@ export default function GoogleBusinessReputationPage() {
                 Don&apos;t Let Fake Reviews <span className="heading-script text-brand-blue">Cost You Customers</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free Google Business Profile audit today. Our reputation experts will identify every damaging review and present a clear removal plan — with no obligation.
+                Schedule a free Google Business Profile audit today. Our reputation experts will identify every damaging review and present a clear removal plan - with no obligation.
               </p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "info@onlinereputationbuilder.in", href: "mailto:info@onlinereputationbuilder.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Dwarka, New Delhi, 110059", href: null, icon: "🏢" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

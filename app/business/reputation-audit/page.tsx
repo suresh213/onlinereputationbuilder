@@ -8,9 +8,9 @@
 
 // const auditItems = [
 //   { icon: "🔍", category: "SERP ANALYSIS", title: "Google Search Analysis", desc: "We analyze the first 5 pages of Google results for your brand name, identifying all negative, neutral, and positive content that potential customers see." },
-//   { icon: "⭐", category: "REVIEW TRACKING", title: "Review Platform Audit", desc: "Comprehensive analysis of your reviews across Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ other platforms — rating distribution, sentiment, and response rates." },
+//   { icon: "⭐", category: "REVIEW TRACKING", title: "Review Platform Audit", desc: "Comprehensive analysis of your reviews across Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ other platforms - rating distribution, sentiment, and response rates." },
 //   { icon: "📱", category: "SOCIAL SENTIMENT", title: "Social Media Audit", desc: "Evaluation of your social media presence, mentions, comments, and brand perception across Facebook, Twitter, Instagram, LinkedIn, and YouTube." },
-//   { icon: "📰", category: "MEDIA ALERT", title: "News & Media Coverage", desc: "We scan thousands of news outlets and media sites for any coverage of your brand — positive press, negative articles, or any damaging stories." },
+//   { icon: "📰", category: "MEDIA ALERT", title: "News & Media Coverage", desc: "We scan thousands of news outlets and media sites for any coverage of your brand - positive press, negative articles, or any damaging stories." },
 //   { icon: "📊", category: "COMPETITOR GAP", title: "Competitor Benchmark", desc: "See how your online reputation compares to your key competitors and identify opportunities to gain a competitive edge." },
 //   { icon: "🗺️", category: "ROADMAP", title: "Action Roadmap", desc: "A prioritized, step-by-step roadmap of exactly what needs to be fixed, in what order, and what success metrics to track." },
 // ];
@@ -46,7 +46,7 @@
 //         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
 //           <div>
 //             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-semibold mb-5 uppercase tracking-wider">
-//               📊 Free ORM Audit Report — No Obligation
+//               📊 Free ORM Audit Report - No Obligation
 //             </div>
 //             <h1 className="font-heading text-3xl lg:text-4xl font-extrabold text-white leading-[1.15] mb-4">
 //               Online Reputation Audit to Protect Your Brand Image
@@ -211,7 +211,7 @@
 //       {/* FINAL CTA */}
 //       <section className="py-24 px-4 bg-zinc-900 text-center">
 //         <div className="max-w-3xl mx-auto">
-//           <p className="section-label text-brand-gold mb-2">Free — No Obligation</p>
+//           <p className="section-label text-brand-gold mb-2">Free - No Obligation</p>
 //           <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-white mb-4">
 //             Ready to Know What People See When They Google You?
 //           </h2>
@@ -237,9 +237,9 @@ import Link from "next/link";
 
 const auditItems = [
   { icon: "🔍", category: "SERP ANALYSIS", title: "Google Search Analysis", desc: "We analyze the first 5 pages of Google results for your brand name, identifying all negative, neutral, and positive content that potential customers see." },
-  { icon: "⭐", category: "REVIEW TRACKING", title: "Review Platform Audit", desc: "Comprehensive analysis of your reviews across Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ other platforms — rating distribution, sentiment, and response rates." },
+  { icon: "⭐", category: "REVIEW TRACKING", title: "Review Platform Audit", desc: "Comprehensive analysis of your reviews across Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ other platforms - rating distribution, sentiment, and response rates." },
   { icon: "📱", category: "SOCIAL SENTIMENT", title: "Social Media Audit", desc: "Evaluation of your social media presence, mentions, comments, and brand perception across Facebook, Twitter, Instagram, LinkedIn, and YouTube." },
-  { icon: "📰", category: "MEDIA ALERT", title: "News & Media Coverage", desc: "We scan thousands of news outlets and media sites for any coverage of your brand — positive press, negative articles, or any damaging stories." },
+  { icon: "📰", category: "MEDIA ALERT", title: "News & Media Coverage", desc: "We scan thousands of news outlets and media sites for any coverage of your brand - positive press, negative articles, or any damaging stories." },
   { icon: "📊", category: "COMPETITOR GAP", title: "Competitor Benchmark", desc: "See how your online reputation compares to your key competitors and identify opportunities to gain a competitive edge." },
   { icon: "🗺️", category: "ROADMAP", title: "Action Roadmap", desc: "A prioritized, step-by-step roadmap of exactly what needs to be fixed, in what order, and what success metrics to track." },
 ];
@@ -287,7 +287,7 @@ export default function ReputationAuditPage() {
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center relative z-10">
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.7rem] font-bold mb-6 uppercase tracking-widest bg-brand-gold/10 border-brand-gold/30 text-brand-gold shadow-[0_0_15px_rgba(194,148,10,0.15)]">
-              📊 Free ORM Audit Report — No Obligation
+              📊 Free ORM Audit Report - No Obligation
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
               Online Reputation Audit to Protect Your <span className="text-gradient-gold">Brand Image</span>
@@ -516,7 +516,7 @@ export default function ReputationAuditPage() {
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         
         <div className="max-w-4xl mx-auto text-center relative z-10 premium-copy-panel">
-          <p className="section-label text-brand-gold mb-4">Free — No Obligation</p>
+          <p className="section-label text-brand-gold mb-4">Free - No Obligation</p>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-[3.2rem] font-extrabold text-white mb-6 leading-tight tracking-tight">
             Ready to Know What People See When They <span className="heading-script text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-blue-400">Google You?</span>
           </h2>
