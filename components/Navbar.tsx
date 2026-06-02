@@ -851,7 +851,7 @@ const navItems = [
           { label: "Fake Review Removal", href: "/review-management/fake-review-removal" },
           { label: "Product Review Management", href: "/review-management/product-review-management" },  
           { label: "Remove Google Business Review", href: "/business/remove-google-business-review" },
-          { label: "Indeed Reputation Management", href: "/business/indeed-reputation-management" },
+          { label: "Indeed Reputation Management", href: "/review-management/indeed-reputation-management" },
           { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },
           { label: "Amplify Reviews", href: "/review-management/amplify-reviews" },
           { label: "Trustpilot Reputation Management", href: "/review-management/trustpilot-reputation-management" },
