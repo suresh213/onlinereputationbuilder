@@ -31,7 +31,7 @@ const platforms = [
   { name: "Yelp", icon: "https://cdn.simpleicons.org/yelp/white" },
   { name: "BBB", icon: "https://ui-avatars.com/api/?name=BBB&background=2563eb&color=fff&bold=true&format=svg" },
   { name: "G2", icon: "https://cdn.simpleicons.org/g2/white" },
-  { name: "Clutch", icon: "https://ik.imagekit.io/j0xzq9pns/Clutch_Logo_1.png" },
+  { name: "Clutch", icon: "https://static.cdnlogo.com/logos/c/22/clutch-co_800.png" }
 ];
 
 const caseStudies = [
@@ -386,8 +386,22 @@ export default function HomePage() {
           <div className="premium-platform-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
             {platforms.map((p) => (
               <div key={p.name} className="group platform-tile bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[92px] cursor-pointer transition-colors">
-                <img src={p.icon} alt={p.name} className="w-8 h-8 mb-2 opacity-85 platform-icon" />
-                <p className="text-zinc-300 text-[0.62rem] font-bold uppercase tracking-wider text-center leading-tight">{p.name}</p>
+                <img
+  src={p.icon}
+  alt={p.name}
+  className={`mb-2 opacity-85 platform-icon ${
+    p.name === "Clutch"
+      ? "w-16 h-16 -mt-4"
+      : "w-8 h-8"
+  }`}
+/>
+                <p
+  className={`text-zinc-300 text-[0.62rem] font-bold uppercase tracking-wider text-center leading-tight ${
+    p.name === "Clutch" ? "-mt-5" : ""
+  }`}
+>
+  {p.name}
+</p>
               </div>
             ))}
             <div className="platform-tile bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[92px] cursor-pointer transition-colors">
