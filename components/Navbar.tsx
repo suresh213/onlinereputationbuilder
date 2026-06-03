@@ -873,7 +873,7 @@ const navItems = [
       { label: "Video Removal", href: "/review-management/video-removal" },
       { label: "Instagram Removal", href: "/review-management/instagram-videos-and-posts-removal" },
       { label: "TikTok Removal", href: "/review-management/tiktok-video-and-post-removal" },
-      { label: "YouTube Removal", href: "/review-management/youtube-removal" },
+      { label: "YouTube Removal", href: "/review-management/youtube-video-removal" },
       { label: "Facebook Removal", href: "/review-management/facebook-content-removal" },
       { label: "Twitter Removal", href: "/review-management/twitter-content-removal" },
       { label: "Remove Glassdoor Reviews", href: "/review-management/remove-glassdoor-review" },

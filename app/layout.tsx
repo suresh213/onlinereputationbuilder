@@ -70,25 +70,68 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Online Reputation Builder",
-              description:
-                "India's No.1 Online Reputation Management Company in Delhi",
-              url: siteUrl,
-              telephone: "+91-9971687251",
-              email: "contact@onlinereputationbuilder.in",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Dwarka",
-                addressLocality: "New Delhi",
-                postalCode: "110059",
-                addressCountry: "IN",
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Online Reputation Builder",
+                "description": "India's No.1 Online Reputation Management Company in Delhi",
+                "url": siteUrl,
+                "logo": `${siteUrl}/logo-orm.png`,
+                "telephone": "+918882788412",
+                "email": "contact@onlinereputationbuilder.in",
+                "sameAs": [
+                  "https://www.facebook.com/onlinereputationbuilder",
+                  "https://x.com/reputationbuild",
+                  "https://www.linkedin.com/company/onlinereputationbuilder",
+                  "https://www.instagram.com/onlinereputationbuilder"
+                ],
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Shantipally, Behala",
+                  "addressLocality": "Kolkata",
+                  "postalCode": "700060",
+                  "addressCountry": "IN"
+                },
+                "areaServed": "IN",
+                "serviceType": "Online Reputation Management"
               },
-              areaServed: "IN",
-              serviceType: "Online Reputation Management",
-            }),
+              {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Online Reputation Builder",
+                "image": `${siteUrl}/logo-orm.png`,
+                "telephone": "+918882788412",
+                "email": "contact@onlinereputationbuilder.in",
+                "url": siteUrl,
+                "priceRange": "$$",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Shantipally, Behala",
+                  "addressLocality": "Kolkata",
+                  "postalCode": "700060",
+                  "addressCountry": "IN"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 22.4996,
+                  "longitude": 88.3103
+                },
+                "openingHoursSpecification": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              }
+            ]),
           }}
         />
       </head>
