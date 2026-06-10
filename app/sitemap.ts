@@ -68,8 +68,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     } else if (route.startsWith("/business") || route.startsWith("/individual") || route.startsWith("/review-management")) {
       priority = 0.8;
       changefreq = "weekly";
-    } else if (route.startsWith("/blog")) {
-      priority = 0.6;
+    } else if (route === "/blog") {
+      priority = 0.7;
+      changefreq = "daily";
+    } else if (route.startsWith("/blog/")) {
+      // High-commercial-intent blog posts get higher priority
+      const highValueSlugs = [
+        "/blog/remove-negative-glassdoor-reviews-employers",
+        "/blog/remove-fake-news-articles-google-search",
+        "/blog/top-10-orm-companies-india-2026",
+        "/blog/corporate-pr-crisis-control-guide",
+        "/blog/celebrity-influencer-reputation-management",
+        "/blog/personal-branding-corporate-executives",
+        "/blog/healthcare-doctor-reputation-management",
+      ];
+      priority = highValueSlugs.includes(route) ? 0.8 : 0.7;
       changefreq = "weekly";
     } else if (route === "/contact-us") {
       priority = 0.5;

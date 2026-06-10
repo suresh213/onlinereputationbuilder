@@ -148,15 +148,99 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
+// Maps each blog slug to a relevant service page for internal linking
+const serviceLinks: Record<string, { url: string; title: string; cta: string }> = {
+  "remove-fake-news-articles-google-search": {
+    url: "/review-management/fake-news-removal",
+    title: "Fake News & Defamatory Article Removal Service",
+    cta: "Get Professional Removal Help",
+  },
+  "remove-negative-glassdoor-reviews-employers": {
+    url: "/review-management/remove-glassdoor-review",
+    title: "Glassdoor Review Removal & Repair Service",
+    cta: "Restore Your Glassdoor Rating",
+  },
+  "google-play-app-store-review-management": {
+    url: "/review-management/fake-review-removal",
+    title: "Fake Review Removal Service",
+    cta: "Remove Fake App Reviews Now",
+  },
+  "real-estate-developer-reputation-management": {
+    url: "/business/remove-negative-results",
+    title: "Remove Negative Search Results",
+    cta: "Protect Your Developer Reputation",
+  },
+  "healthcare-doctor-reputation-management": {
+    url: "/individual/personal-branding-services",
+    title: "Personal Branding Services for Doctors & Professionals",
+    cta: "Build Your Medical Authority Online",
+  },
+  "law-firm-reputation-management": {
+    url: "/business/remove-negative-results",
+    title: "Remove Negative Search Results for Law Firms",
+    cta: "Protect Your Legal Practice Reputation",
+  },
+  "financial-services-orm-fintech": {
+    url: "/business/review-management",
+    title: "Business Review Management Service",
+    cta: "Manage Your Financial Firm's Reviews",
+  },
+  "top-10-orm-companies-india-2026": {
+    url: "/business",
+    title: "Business ORM Services by Online Reputation Builder",
+    cta: "Get a Free ORM Consultation",
+  },
+  "orm-tools-vs-professional-services-comparison": {
+    url: "/business",
+    title: "Professional ORM Services — Full-Service Reputation Management",
+    cta: "See What a Full-Service ORM Agency Can Do",
+  },
+  "personal-branding-corporate-executives": {
+    url: "/individual/personal-branding-services",
+    title: "Executive Personal Branding Services",
+    cta: "Build Your Executive Personal Brand",
+  },
+  "celebrity-influencer-reputation-management": {
+    url: "/individual/personal-branding-services",
+    title: "Celebrity & Influencer Reputation Management",
+    cta: "Protect Your Public Image Now",
+  },
+  "corporate-pr-crisis-control-guide": {
+    url: "/business/crisis-management",
+    title: "Corporate Reputation Crisis Management Service",
+    cta: "Get Emergency Crisis Management Help",
+  },
+  "suppress-negative-search-results": {
+    url: "/business/remove-negative-results",
+    title: "Remove & Suppress Negative Search Results",
+    cta: "Start Suppressing Negative Results Today",
+  },
+  "remove-defamatory-online-reviews": {
+    url: "/review-management/fake-review-removal",
+    title: "Fake & Defamatory Review Removal Service",
+    cta: "Remove Defamatory Reviews Professionally",
+  },
+  "personal-branding-search-proof-image": {
+    url: "/individual/personal-branding-services",
+    title: "Personal Branding & Digital Authority Services",
+    cta: "Build Your Search-Proof Personal Brand",
+  },
+};
+
 export default function BlogDetailPage({ params }: Props) {
   const post = blogPosts.find((p) => p.slug === params.slug);
-  
+
   if (!post) {
     notFound();
   }
 
-  // Get related posts (excluding current post)
-  const relatedPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2);
+  // Get related posts (same category first, then others — excluding current post)
+  const relatedPosts = blogPosts
+    .filter((p) => p.slug !== post.slug)
+    .sort((a, b) => (a.category === post!.category ? -1 : 1))
+    .slice(0, 2);
+
+  const serviceLink = serviceLinks[post.slug];
 
   // Generate BlogPosting JSON-LD Schema
   const schema = {
@@ -308,6 +392,30 @@ export default function BlogDetailPage({ params }: Props) {
                 }
               })}
             </article>
+
+            {/* Internal Service CTA — contextual link to relevant service page */}
+            {serviceLink && (
+              <div className="mt-10 rounded-2xl bg-gradient-to-br from-brand-blue/[0.06] to-brand-gold/[0.04] border border-brand-blue/20 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5">
+                <div className="w-12 h-12 rounded-xl bg-brand-blue flex items-center justify-center shrink-0 shadow-md">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <p className="text-[0.65rem] font-bold text-brand-blue uppercase tracking-widest mb-1">Professional Service</p>
+                  <h4 className="font-heading font-bold text-zinc-900 text-base leading-snug mb-1">{serviceLink.title}</h4>
+                  <p className="text-zinc-500 text-xs leading-relaxed">
+                    Our specialists handle this for you — faster results, legal protection, guaranteed approach.
+                  </p>
+                </div>
+                <Link
+                  href={serviceLink.url}
+                  className="btn-blue shrink-0 text-xs font-bold px-5 py-2.5 rounded-lg shadow-sm whitespace-nowrap"
+                >
+                  {serviceLink.cta} →
+                </Link>
+              </div>
+            )}
 
             {/* Right Column: Sidebar */}
             <aside className="space-y-8 lg:sticky lg:top-28">
