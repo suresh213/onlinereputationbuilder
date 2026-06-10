@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Product Review Management Services | E-commerce ORM",
   description: "Increase product sales by managing e-commerce reviews across Amazon, Flipkart, Shopify, and local directories. Drive ratings and customer trust.",
-  keywords: ["product review management", "amazon review repair", "ecommerce rating boost", "flipkart review monitoring"],
+  keywords: ["product review management", "amazon review repair", "ecommerce rating boost", "flipkart review monitoring", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
     canonical: "/review-management/product-review-management",
   },

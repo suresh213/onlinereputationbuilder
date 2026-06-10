@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Remove Instagram Posts, Videos, Comments & Accounts",
   description: "Get rid of negative Instagram comments, impersonation accounts, copyrighted video uploads, and cyberbullying posts. Protect your profile.",
-  keywords: ["remove instagram post", "delete instagram comment", "instagram copycat take down", "remove leaked instagram video"],
+  keywords: ["remove instagram post", "delete instagram comment", "instagram copycat take down", "remove leaked instagram video", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
     canonical: "/review-management/instagram-videos-and-posts-removal",
   },

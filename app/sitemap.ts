@@ -1,9 +1,10 @@
 import { MetadataRoute } from "next";
+import { blogPosts } from "./blog/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.onlinereputationbuilder.in";
   
-  const routes = [
+  const staticRoutes = [
     "",
     "/business",
     "/business/crisis-management",
@@ -50,11 +51,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/solution/case-studies-for-education-reputation-management-company",
     "/solution/education-industry-reputation-management",
     "/solution/restaurant-industry-reputation-management",
-    "/blog",
-    "/blog/suppress-negative-search-results",
-    "/blog/remove-defamatory-online-reviews",
-    "/blog/personal-branding-search-proof-image",
+    "/blog"
   ];
+
+  // Dynamically append blog article routes
+  const blogRoutes = blogPosts.map((post) => `/blog/${post.slug}`);
+  const routes = [...staticRoutes, ...blogRoutes];
 
   return routes.map((route) => {
     let priority = 0.7;

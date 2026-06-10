@@ -51,6 +51,90 @@ export async function generateMetadata({ params }: Props) {
       "thought leadership branding",
       "executive reputation building",
       "defend personal brand online"
+    ],
+    "remove-fake-news-articles-google-search": [
+      "remove fake news articles",
+      "remove defamatory articles google",
+      "delete fake news from google",
+      "suppress negative press coverage",
+      "DMCA takedown fake news"
+    ],
+    "remove-negative-glassdoor-reviews-employers": [
+      "remove glassdoor reviews",
+      "glassdoor review removal for employers",
+      "delete negative glassdoor reviews",
+      "dispute fake glassdoor reviews",
+      "suppress glassdoor ratings"
+    ],
+    "google-play-app-store-review-management": [
+      "google play review management",
+      "app store review removal",
+      "remove fake app reviews",
+      "app rating suppression",
+      "manage app store reviews"
+    ],
+    "real-estate-developer-reputation-management": [
+      "real estate ORM",
+      "developer reputation management",
+      "builder review management",
+      "property review suppression",
+      "real estate negative reviews"
+    ],
+    "healthcare-doctor-reputation-management": [
+      "doctor reputation management",
+      "healthcare ORM",
+      "manage doctor reviews",
+      "practo review management",
+      "patient feedback management"
+    ],
+    "law-firm-reputation-management": [
+      "law firm reputation management",
+      "attorney review management",
+      "lawyer review suppression",
+      "legal professional ORM",
+      "manage client reviews law firm"
+    ],
+    "financial-services-orm-fintech": [
+      "financial services ORM",
+      "fintech reputation management",
+      "investment firm reviews",
+      "suppress fraud accusations",
+      "financial advisor reputation"
+    ],
+    "top-10-orm-companies-india-2026": [
+      "best ORM companies India",
+      "top online reputation management agencies",
+      "ORM company comparison",
+      "best reputation management services",
+      "ORM agency reviews"
+    ],
+    "orm-tools-vs-professional-services-comparison": [
+      "ORM tools vs agencies",
+      "brand monitoring tools",
+      "reputation management software",
+      "professional ORM services",
+      "Brand24 vs ORM agency"
+    ],
+    "personal-branding-corporate-executives": [
+      "executive personal branding",
+      "CEO reputation management",
+      "corporate executive branding",
+      "thought leadership for executives",
+      "personal brand for leaders"
+    ],
+    "celebrity-influencer-reputation-management": [
+      "celebrity reputation management",
+      "influencer ORM",
+      "manage viral crises",
+      "celebrity scandal management",
+      "influencer brand protection"
+    ],
+    "corporate-pr-crisis-control-guide": [
+      "corporate crisis management",
+      "PR crisis response",
+      "brand damage control",
+      "crisis communication strategy",
+      "corporate reputation recovery"
     ]
   };
 

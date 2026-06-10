@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -40,12 +41,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "Online Reputation Builder",
+    images: [
+      {
+        url: "/logo-orm.png",
+        width: 1200,
+        height: 630,
+        alt: "Online Reputation Builder Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Online Reputation Builder – #1 ORM Company in India",
     description:
       "Protect & enhance your online reputation with India's #1 ORM agency. Trusted by 1200+ clients.",
+    images: ["/logo-orm.png"],
   },
   robots: {
     index: true,
@@ -135,7 +145,23 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {/* Google Analytics (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3HQP074NNT"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3HQP074NNT');
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }

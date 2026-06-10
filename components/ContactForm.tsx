@@ -181,6 +181,18 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         throw new Error("Unable to submit your request right now.");
       }
 
+      // Track successful form submission event in Google Analytics
+      if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+        (window as any).gtag("event", "generate_lead", {
+          event_category: "Lead Generation",
+          event_label: `Contact Form Submission from: ${window.location.pathname}`,
+          value: 1,
+          lead_service: form.service,
+          lead_country: form.country,
+          page_url: window.location.href,
+        });
+      }
+
       setForm(initialForm);
       setIsSuccess(true); 
 
