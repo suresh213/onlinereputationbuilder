@@ -242,39 +242,143 @@ export default function BlogDetailPage({ params }: Props) {
 
   const serviceLink = serviceLinks[post.slug];
 
-  // Generate BlogPosting JSON-LD Schema
-  const schema = {
+  const siteUrl = "https://www.onlinereputationbuilder.in";
+
+  const authorUrls: Record<string, string> = {
+    "Suresh Sharma": `${siteUrl}/about`,
+    "Rohan Sen": `${siteUrl}/about`,
+    "Meera Nair": `${siteUrl}/about`,
+  };
+
+  // HowTo schema data for step-based posts
+  const howToData: Record<string, { name: string; description: string; steps: { name: string; text: string }[] }> = {
+    "remove-fake-news-articles-google-search": {
+      name: "How to Remove Fake News Articles from Google Search",
+      description: "Step-by-step guide to remove defamatory articles and fake news from Google using DMCA takedowns, legal requests, and suppression strategies.",
+      steps: [
+        { name: "Document Everything", text: "Screenshot the fake article with date and time. Record the exact URL, publisher, and claims made as evidence." },
+        { name: "File a DMCA Takedown", text: "If the article copies your work or photos without permission, file a DMCA notice. Google honors valid DMCA claims within 48 hours." },
+        { name: "Submit Legal Defamation Request", text: "If the article contains false, provable lies that harm your reputation, submit a formal legal notice with proof of falsity and harm." },
+        { name: "Report to Google Directly", text: "Use Google Search Console removal tool under Removal requests > Remove outdated content or report the URL as policy-violating." },
+        { name: "Suppress via Positive Content", text: "While waiting for removal, publish 10+ high-authority positive articles to push the fake news to page 2-3 of Google." },
+      ],
+    },
+    "remove-negative-glassdoor-reviews-employers": {
+      name: "How to Remove Negative Glassdoor Reviews as an Employer",
+      description: "Actionable steps for HR teams and business leaders to dispute fake Glassdoor reviews and suppress negative employer ratings.",
+      steps: [
+        { name: "Report Policy Violations", text: "Flag the review in Glassdoor reporting system with evidence of competitor sabotage, personal attacks, spam, or unverified claims." },
+        { name: "Identify Fake Review Patterns", text: "Document generic complaints, identical phrasing, and lack of specific examples as evidence of coordinated sabotage." },
+        { name: "Request Glassdoor Removal", text: "Email Glassdoor employer support with evidence the review is fake or violates their terms. Response time is 3-7 business days." },
+        { name: "Send Legal Cease-and-Desist", text: "If the review contains specific provable lies, send a formal cease-and-desist. Glassdoor typically removes reviews facing legal action." },
+        { name: "Suppress with Positive Reviews", text: "Encourage real employees to post honest reviews. Five positive reviews dilute the impact of one negative review." },
+      ],
+    },
+    "suppress-negative-search-results": {
+      name: "How to Suppress Negative Google Search Results",
+      description: "The exact suppression framework used to push negative articles off Google first page.",
+      steps: [
+        { name: "Create High-Authority Profiles", text: "Establish profiles on high-DA websites like LinkedIn, Crunchbase, Twitter/X, Medium, and YouTube, optimized with your brand keywords." },
+        { name: "Build an Owned Domain Asset", text: "Register an exact-match domain such as YourName.com and publish regular high-value articles that Google ranks highly for branded searches." },
+        { name: "Distribute Press Releases", text: "Publish news stories on top-tier media publications via ANI, Business Standard, or CNW to generate high-authority links." },
+        { name: "Leverage Active Social Hubs", text: "Consistently update 3-4 active social profiles. Google prioritizes active social channels with current engagement signals." },
+      ],
+    },
+    "remove-defamatory-online-reviews": {
+      name: "How to Remove Defamatory Online Reviews",
+      description: "Legal and platform-compliant steps to flag, challenge, and remove policy-violating reviews from Google, Glassdoor, Yelp, and Trustpilot.",
+      steps: [
+        { name: "Document and Screenshot", text: "Capture the reviewer name, review text, time, and link. Fake reviewers often delete text when challenged, so proof is essential." },
+        { name: "Identify Platform Violations", text: "Review Google Maps Contributor policies or Glassdoor community guidelines and map the exact policy breached." },
+        { name: "Flag the Review", text: "Use the platform reporting utility. Explain clearly why the review violates guidelines. Do not argue or post emotional replies." },
+        { name: "Submit Legal Requests", text: "If flagging fails and the review contains provable lies, submit a formal legal request via the platform legal removal channel." },
+      ],
+    },
+  };
+
+  const howTo = howToData[post.slug];
+
+  // Approximate word count from content blocks
+  const wordCount = post.content.reduce((total, block) => {
+    if (block.text) return total + block.text.split(" ").length;
+    if (block.items) return total + block.items.join(" ").split(" ").length;
+    return total;
+  }, 0);
+
+  const blogSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.title,
     "image": post.image,
     "datePublished": post.date,
+    "dateModified": post.date,
+    "articleSection": post.category,
+    "wordCount": wordCount,
     "author": {
       "@type": "Person",
       "name": post.author,
+      "url": authorUrls[post.author] || siteUrl,
     },
     "publisher": {
       "@type": "Organization",
       "name": "Online Reputation Builder",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.onlinereputationbuilder.in/logo-orm.png",
+        "url": `${siteUrl}/logo-orm.png`,
       },
     },
     "description": post.excerpt,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", "h2", ".blog-excerpt"],
+    },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.onlinereputationbuilder.in/blog/${post.slug}`,
+      "@id": `${siteUrl}/blog/${post.slug}`,
     },
   };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog` },
+      { "@type": "ListItem", "position": 3, "name": post.title, "item": `${siteUrl}/blog/${post.slug}` },
+    ],
+  };
+
+  const howToSchema = howTo
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": howTo.name,
+        "description": howTo.description,
+        "step": howTo.steps.map((s) => ({
+          "@type": "HowToStep",
+          "name": s.name,
+          "text": s.text,
+        })),
+      }
+    : null;
 
   return (
     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       {/* Schema Injection */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
 
       <Topbar />
       <Navbar />

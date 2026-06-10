@@ -20,7 +20,7 @@ const faqSchema = {
       "name": "How do I remove negative results from Google search?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There are two approaches to removing negative Google results: direct removal and suppression. Direct removal works when content violates Google's policies, contains your personal information, is outdated, or when the publisher agrees to take it down. Suppression works in all other cases — you publish high-authority positive content that outranks the negative results, pushing them to page 2 or 3 where 95% of searchers never look. Most ORM campaigns combine both strategies."
+        "text": "There are two approaches to removing negative Google results: direct removal and suppression. Direct removal works when content violates Google's policies, contains your personal information, is outdated, or when the publisher agrees to take it down. Suppression works in all other cases: you publish high-authority positive content that outranks the negative results, pushing them to page 2 or 3 where 95% of searchers never look. Most ORM campaigns combine both strategies."
       }
     },
     {
@@ -28,7 +28,7 @@ const faqSchema = {
       "name": "How long does it take to suppress negative Google results?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Suppression timelines depend on the authority of the negative content. Forum posts and low-authority blogs: 3–6 weeks. Medium-authority news articles: 6–12 weeks. High-authority publications (major news sites): 3–6 months. Our suppression strategy builds a network of authoritative positive assets — websites, press releases, profiles, articles — that outrank the negative content in search results."
+        "text": "Suppression timelines depend on the authority of the negative content. Forum posts and low-authority blogs: 3-6 weeks. Medium-authority news articles: 6-12 weeks. High-authority publications (major news sites): 3-6 months. Our suppression strategy builds a network of authoritative positive assets including websites, press releases, profiles, and articles that outrank the negative content in search results."
       }
     },
     {
@@ -50,6 +50,21 @@ const faqSchema = {
   ]
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Remove Negative Search Results Service",
+  "description": "Suppress and remove negative Google search results, complaint pages, and forum posts. Rank positive content on the first page permanently.",
+  "url": "https://www.onlinereputationbuilder.in/business/remove-negative-results",
+  "provider": {
+    "@type": "Organization",
+    "name": "Online Reputation Builder",
+    "url": "https://www.onlinereputationbuilder.in"
+  },
+  "areaServed": "IN",
+  "serviceType": "Online Reputation Management"
+};
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
@@ -57,6 +72,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         id="faq-remove-negative-results"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="service-remove-negative-results"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       {children}
       <div className="bg-zinc-50 border-t border-zinc-200 py-6 px-4">

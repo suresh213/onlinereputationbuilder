@@ -19,7 +19,7 @@ const faqSchema = {
       "name": "Can I remove a news article from Google search results?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. There are three main ways to remove news articles from Google: (1) Request the publisher to retract or update the article — most reputable news outlets comply when presented with documented proof of inaccuracy, (2) Submit a Google de-indexing request if the article violates Google's content policies or contains personal sensitive information, (3) File a legal defamation claim if the article contains provably false statements that cause reputational harm. If direct removal isn't possible, a content suppression strategy can push the article off Google's first page within 4–8 weeks."
+        "text": "Yes. There are three main ways to remove news articles from Google: (1) Request the publisher to retract or update the article, as most reputable news outlets comply when presented with documented proof of inaccuracy, (2) Submit a Google de-indexing request if the article violates Google's content policies or contains personal sensitive information, (3) File a legal defamation claim if the article contains provably false statements that cause reputational harm. If direct removal isn't possible, a content suppression strategy can push the article off Google's first page within 4–8 weeks."
       }
     },
     {

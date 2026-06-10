@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Fake news articles and defamatory press coverage can destroy your reputation overnight. When malicious or false articles rank on Google's first page, they damage your credibility, cost you business, and destroy personal relationships. This guide shows you exactly how to remove or suppress fake news articles from Google search results—legally and ethically."
+        text: "Fake news articles and defamatory press coverage can destroy your reputation overnight. When malicious or false articles rank on Google's first page, they damage your credibility, cost you business, and destroy personal relationships. This guide shows you exactly how to remove or suppress fake news articles from Google search results - legally and ethically."
       },
       {
         type: "heading",
@@ -59,7 +59,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "quote",
-        text: "The best defense against fake news isn't fighting the article—it's drowning it in positive, authoritative content that outranks it."
+        text: "The best defense against fake news isn't fighting the article - it's drowning it in positive, authoritative content that outranks it."
       },
       {
         type: "heading",
@@ -84,7 +84,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "A single fake 1-star Glassdoor review can cost your company $500K+ in lost recruitment. Job candidates research companies before applying, and negative reviews directly impact your ability to hire top talent. This guide reveals exactly how to identify, challenge, and suppress fake Glassdoor reviews—and why suppression often works better than direct removal."
+        text: "A single fake 1-star Glassdoor review can cost your company $500K+ in lost recruitment. Job candidates research companies before applying, and negative reviews directly impact your ability to hire top talent. This guide reveals exactly how to identify, challenge, and suppress fake Glassdoor reviews - and why suppression often works better than direct removal."
       },
       {
         type: "heading",
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Glassdoor is the #1 employer research platform. 78% of job candidates read company reviews before applying. One fake 1-star review can drop your rating from 4.2 to 3.8—directly reducing application rates by 30-40%. Worse, disgruntled ex-employees often post false claims about pay, management, and culture that you can't easily prove false."
+        text: "Glassdoor is the #1 employer research platform. 78% of job candidates read company reviews before applying. One fake 1-star review can drop your rating from 4.2 to 3.8 - directly reducing application rates by 30-40%. Worse, disgruntled ex-employees often post false claims about pay, management, and culture that you can't easily prove false."
       },
       {
         type: "heading",
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Report Policy Violations: Glassdoor removes reviews for: competitor sabotage (ex-employee working for rival), personal attacks, unverified claims, spam, or recruiting violations. Flag the review within Glassdoor's reporting system with evidence.",
-          "Identify Fake Reviews: False reviews have patterns—generic complaints, no specific examples, identical phrasing to other negative reviews. Use this as evidence of coordinated sabotage.",
+          "Identify Fake Reviews: False reviews have patterns - generic complaints, no specific examples, identical phrasing to other negative reviews. Use this as evidence of coordinated sabotage.",
           "Request Glassdoor Removal: Email Glassdoor's employer support with evidence that the review is fake or violates their terms. Response time: 3-7 business days.",
           "Legal Route (If Necessary): If the review contains specific, provable lies (e.g., 'paid $30k/year' when minimum was $50k), send a formal cease-and-desist. Glassdoor typically removes reviews facing legal action.",
           "Suppress with Positive Reviews: Encourage real employees to post honest reviews. 5 positive reviews dilute the impact of 1 negative. This is the fastest-working solution."
@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Don't just fight the negative review—overwhelm it. Ask satisfied employees to post reviews (offer $10 referral bonus if legal in your region). Get real testimonials. Share company culture posts on LinkedIn. When your Glassdoor page shows 50+ 4-5 star reviews with 1-2 fake 1-star reviews mixed in, the fake reviews become noise. Most candidates ignore outliers."
+        text: "Don't just fight the negative review - overwhelm it. Ask satisfied employees to post reviews (offer $10 referral bonus if legal in your region). Get real testimonials. Share company culture posts on LinkedIn. When your Glassdoor page shows 50+ 4-5 star reviews with 1-2 fake 1-star reviews mixed in, the fake reviews become noise. Most candidates ignore outliers."
       }
     ]
   },
@@ -225,7 +225,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Claim & Optimize Google Business Profile: Ensure your developer profile is fully optimized with project images, testimonials, certifications. Respond to every review—even negative ones—with professionalism and solutions.",
+          "Claim & Optimize Google Business Profile: Ensure your developer profile is fully optimized with project images, testimonials, certifications. Respond to every review - even negative ones - with professionalism and solutions.",
           "Publish Project Case Studies: Create dedicated landing pages for each project showing completion status, buyer testimonials, photo galleries. Link these from review responses to provide proof.",
           "Monitor & Suppress Complaint Sites: Track 99acres, Justdial, housing forums. Respond to complaints with documented proof of resolution. If fake, report for removal.",
           "Legal Protection: For defamatory claims (false statements about construction quality, safety violations), work with legal team to file removal requests and cease-and-desist letters."
@@ -287,7 +287,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The best healthcare ORM strategy is prevention. Actively encourage satisfied patients to leave reviews (but never coerce or offer incentives—this violates FTC rules). Implement a 'before checkout' review request system. This generates a ratio of 10 positive reviews per 1 negative review, naturally burying negative feedback."
+        text: "The best healthcare ORM strategy is prevention. Actively encourage satisfied patients to leave reviews (but never coerce or offer incentives - this violates FTC rules). Implement a 'before checkout' review request system. This generates a ratio of 10 positive reviews per 1 negative review, naturally burying negative feedback."
       }
     ]
   },
@@ -303,7 +303,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Law is a trust-based industry. Prospective clients don't hire unknown lawyers—they hire lawyers with visible authority, positive reviews, and thought leadership. A negative review about 'unethical practices' or 'poor case handling' can destroy a law firm's reputation. Additionally, legal competitors often post fake reviews to sabotage rivals. This guide shows boutique law firms how to build authority and suppress malicious reviews."
+        text: "Law is a trust-based industry. Prospective clients don't hire unknown lawyers - they hire lawyers with visible authority, positive reviews, and thought leadership. A negative review about 'unethical practices' or 'poor case handling' can destroy a law firm's reputation. Additionally, legal competitors often post fake reviews to sabotage rivals. This guide shows boutique law firms how to build authority and suppress malicious reviews."
       },
       {
         type: "heading",
@@ -357,7 +357,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "In financial services, trust IS the product. Investors don't care about flashy marketing—they care about whether they'll lose their money. A single negative review claiming 'fraud,' 'Ponzi scheme,' or 'lost my entire investment' can trigger panic selling and regulatory investigation. Financial services ORM requires simultaneously building trust signals while managing reputation risk. This guide covers ethical, SEC-compliant reputation management for fintech, advisors, and investment firms."
+        text: "In financial services, trust IS the product. Investors don't care about flashy marketing - they care about whether they'll lose their money. A single negative review claiming 'fraud,' 'Ponzi scheme,' or 'lost my entire investment' can trigger panic selling and regulatory investigation. Financial services ORM requires simultaneously building trust signals while managing reputation risk. This guide covers ethical, SEC-compliant reputation management for fintech, advisors, and investment firms."
       },
       {
         type: "heading",
@@ -380,7 +380,7 @@ export const blogPosts: BlogPost[] = [
           "Google Maps & Search: Highest-visibility platform for advisor reputation searches",
           "Reddit & Complaint Forums: Financial subreddits where investors discuss investment fraud, losses, and bad advisors",
           "Glassdoor: For fintech companies, employee reviews reveal internal culture and scams",
-          "SEC/RBI Databases: Public regulatory complaint databases (your worst nightmare—these rank #1 on Google)"
+          "SEC/RBI Databases: Public regulatory complaint databases (your worst nightmare - these rank #1 on Google)"
         ]
       },
       {
@@ -393,7 +393,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Build Regulatory Trust: Prominently display SEC registration, licenses, certifications, audit reports. Get third-party validation (Moody's, S&P ratings, etc.)",
           "Publish Transparent Performance Reports: Create annual investor reports showing fund performance, risk metrics, fee structures. Transparency crushes fraud accusations.",
-          "Manage Complaint Platforms: Monitor Trustpilot, Google, BBB. Respond professionally to complaints. Never deny client experiences—instead, offer solutions.",
+          "Manage Complaint Platforms: Monitor Trustpilot, Google, BBB. Respond professionally to complaints. Never deny client experiences - instead, offer solutions.",
           "Create Educational Content: Write blog posts explaining investment strategies, risk management, market trends. Educational content builds trust and naturally suppresses negative reviews.",
           "Track Regulatory Mentions: Set up alerts for your company name + 'SEC,' 'fraud,' 'lawsuit.' Respond immediately to false accusations with documented proof."
         ]
@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "The ORM industry in India is booming—but not all agencies deliver results. Some promise 'guaranteed page 1 rankings' (impossible), others use black-hat techniques (risky), and many lack transparency on pricing and deliverables. This guide reviews the 10 most trusted ORM companies in India, comparing their methodologies, results, and pricing models. Use this to find the right agency for your reputation crisis."
+        text: "The ORM industry in India is booming - but not all agencies deliver results. Some promise 'guaranteed page 1 rankings' (impossible), others use black-hat techniques (risky), and many lack transparency on pricing and deliverables. This guide reviews the 10 most trusted ORM companies in India, comparing their methodologies, results, and pricing models. Use this to find the right agency for your reputation crisis."
       },
       {
         type: "heading",
@@ -475,7 +475,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "There's a massive difference between monitoring your reputation and actually fixing it. ORM tools (Brand24, Mention, Semrush) monitor brand mentions and send alerts. Professional ORM agencies remove negative content, suppress bad rankings, and build positive assets. This guide explains when each approach works—and why most businesses need BOTH."
+        text: "There's a massive difference between monitoring your reputation and actually fixing it. ORM tools (Brand24, Mention, Semrush) monitor brand mentions and send alerts. Professional ORM agencies remove negative content, suppress bad rankings, and build positive assets. This guide explains when each approach works - and why most businesses need BOTH."
       },
       {
         type: "heading",
@@ -508,7 +508,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Professional agencies combine monitoring + action. They identify problems, create removal strategies, publish suppression content, coordinate legal actions if needed, and manage the entire reputation repair process. This requires human expertise, legal knowledge, and execution—not just software."
+        text: "Professional agencies combine monitoring + action. They identify problems, create removal strategies, publish suppression content, coordinate legal actions if needed, and manage the entire reputation repair process. This requires human expertise, legal knowledge, and execution - not just software."
       },
       {
         type: "heading",
@@ -549,7 +549,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Research shows: Companies with strong executive personal brands attract 30% more qualified talent, generate 20% higher deal flow, and maintain higher stock valuations during market downturns. When investors Google a CEO and see thought leadership, impressive biography, and positive coverage—they're more confident in the business. When they see negative articles—they question the company's stability."
+        text: "Research shows: Companies with strong executive personal brands attract 30% more qualified talent, generate 20% higher deal flow, and maintain higher stock valuations during market downturns. When investors Google a CEO and see thought leadership, impressive biography, and positive coverage - they're more confident in the business. When they see negative articles - they question the company's stability."
       },
       {
         type: "heading",
@@ -573,7 +573,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Executive brand is also about defense. As your profile grows, you become a target for competitors and critics. The solution: build a 'reputation moat'—a network of positive, authoritative assets so strong that negative articles can't break through. This means: 20+ positive ranking assets on page 1 for your name, regular thought leadership content, active community engagement, crisis monitoring system."
+        text: "Executive brand is also about defense. As your profile grows, you become a target for competitors and critics. The solution: build a 'reputation moat' - a network of positive, authoritative assets so strong that negative articles can't break through. This means: 20+ positive ranking assets on page 1 for your name, regular thought leadership content, active community engagement, crisis monitoring system."
       }
     ]
   },
@@ -589,7 +589,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "A single viral tweet, leaked photo, or false rumor can destroy a celebrity's career overnight. Unlike traditional businesses, celebrity reputation exists in real-time internet. One false accusation can spread globally before you can respond. This guide explains why celebrities and influencers MUST have proactive reputation protection systems in place—and exactly how to implement them."
+        text: "A single viral tweet, leaked photo, or false rumor can destroy a celebrity's career overnight. Unlike traditional businesses, celebrity reputation exists in real-time internet. One false accusation can spread globally before you can respond. This guide explains why celebrities and influencers MUST have proactive reputation protection systems in place - and exactly how to implement them."
       },
       {
         type: "heading",
@@ -617,7 +617,7 @@ export const blogPosts: BlogPost[] = [
           "Hour 1: Identify the rumor source, assess severity (false rumor vs. leaked content vs. legitimate criticism), mute social media temporarily to prevent adding fuel to fire.",
           "Hour 2-4: Prepare response statement (short, factual, non-defensive). Coordinate with legal team if appropriate.",
           "Hour 4-12: Release response on owned channels (personal website, direct email to fans). Don't debate on social media.",
-          "Day 2-3: Begin suppression strategy—publish positive news, coordinate friendly coverage, activate supporter amplification.",
+          "Day 2-3: Begin suppression strategy - publish positive news, coordinate friendly coverage, activate supporter amplification.",
           "Week 1-2: Monitor search rankings, manage second-wave rumor spin-offs, maintain media silence unless responding to major outlet"
         ]
       },
@@ -674,7 +674,7 @@ export const blogPosts: BlogPost[] = [
           "Hour 0-1: Activate crisis team (CEO, CFO, PR lead, legal counsel, ORM lead). Assess severity and impact scope.",
           "Hour 1-4: Prepare official statement. Be honest, take accountability where appropriate, outline immediate actions. Clear with legal team.",
           "Hour 4-6: Release official statement on: corporate website, press release distribution (ANI, PTI, Business Standard), official social accounts.",
-          "Hour 6-24: Begin ORM suppression—publish positive company news, coordinate sympathetic media coverage, activate employee/customer advocates on social media.",
+          "Hour 6-24: Begin ORM suppression - publish positive company news, coordinate sympathetic media coverage, activate employee/customer advocates on social media.",
           "Hour 24-48: Monitor search rankings of crisis keywords. Begin short-term suppression with positive content assets."
         ]
       },
@@ -711,7 +711,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "In today's digital first economy, your brand is what Google says it is. A single piece of negative content—whether it's an outdated news article, a bitter employee complaint, or a consumer forum thread—can ruin years of hard-earned trust. When users search your name or business, the first page of Google acts as your digital lobby. If that lobby has a negative result, it can cost you up to 70% of potential leads."
+        text: "In today's digital first economy, your brand is what Google says it is. A single piece of negative content - whether it's an outdated news article, a bitter employee complaint, or a consumer forum thread - can ruin years of hard-earned trust. When users search your name or business, the first page of Google acts as your digital lobby. If that lobby has a negative result, it can cost you up to 70% of potential leads."
       },
       {
         type: "heading",
@@ -724,7 +724,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Direct deletion is often difficult due to jurisdiction, freedom of speech, or publisher policies. Therefore, the most viable alternative is suppression—pushing the negative link down to the second or third page of Google, where less than 5% of searchers ever click."
+        text: "Direct deletion is often difficult due to jurisdiction, freedom of speech, or publisher policies. Therefore, the most viable alternative is suppression - pushing the negative link down to the second or third page of Google, where less than 5% of searchers ever click."
       },
       {
         type: "quote",
@@ -831,7 +831,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "For executives, founders, and public figures, personal branding is no longer a vanity project—it is a critical security shield. If a crisis hits your company, search engines will immediately focus on your personal name. If you do not actively curate your personal brand, Google's algorithms will pick whatever random content is available, including negative forum posts or outdated records."
+        text: "For executives, founders, and public figures, personal branding is no longer a vanity project - it is a critical security shield. If a crisis hits your company, search engines will immediately focus on your personal name. If you do not actively curate your personal brand, Google's algorithms will pick whatever random content is available, including negative forum posts or outdated records."
       },
       {
         type: "heading",

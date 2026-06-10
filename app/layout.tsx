@@ -140,6 +140,27 @@ export default function RootLayout({
                   "opens": "09:00",
                   "closes": "18:00"
                 }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Online Reputation Builder",
+                "url": siteUrl,
+                "description": "India's #1 Online Reputation Management Company. We remove negative results, manage reviews, and build strong digital reputations.",
+                "inLanguage": "en-IN",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Online Reputation Builder",
+                  "url": siteUrl
+                },
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": `${siteUrl}/blog?q={search_term_string}`
+                  },
+                  "query-input": "required name=search_term_string"
+                }
               }
             ]),
           }}

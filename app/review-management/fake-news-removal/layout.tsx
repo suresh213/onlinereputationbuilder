@@ -36,7 +36,7 @@ const faqSchema = {
       "name": "What is the difference between DMCA removal and defamation removal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A DMCA removal is for copyright violations — when someone uses your images, videos, or written content without permission. A defamation removal is for false factual statements that damage your reputation. Both can result in content being de-indexed from Google, but they require different documentation and follow different legal processes."
+        "text": "A DMCA removal is for copyright violations: when someone uses your images, videos, or written content without permission. A defamation removal is for false factual statements that damage your reputation. Both can result in content being de-indexed from Google, but they require different documentation and follow different legal processes."
       }
     },
     {
@@ -50,6 +50,21 @@ const faqSchema = {
   ]
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Fake News & Defamatory Article Removal Service",
+  "description": "Remove fake news posts, online defamation, and unverified allegations from search indexes using DMCA takedowns and legal defamation tools.",
+  "url": "https://www.onlinereputationbuilder.in/review-management/fake-news-removal",
+  "provider": {
+    "@type": "Organization",
+    "name": "Online Reputation Builder",
+    "url": "https://www.onlinereputationbuilder.in"
+  },
+  "areaServed": "IN",
+  "serviceType": "Online Reputation Management"
+};
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
@@ -57,6 +72,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         id="faq-fake-news-removal"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="service-fake-news-removal"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       {children}
       <div className="bg-zinc-50 border-t border-zinc-200 py-6 px-4">

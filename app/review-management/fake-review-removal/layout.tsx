@@ -36,7 +36,7 @@ const faqSchema = {
       "name": "What if Google refuses to remove the fake review?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If Google rejects the initial removal request, we escalate using a legal defamation notice, re-flag with stronger evidence, and simultaneously launch a suppression campaign — publishing positive content to push the fake review off page one of Google search results."
+        "text": "If Google rejects the initial removal request, we escalate using a legal defamation notice, re-flag with stronger evidence, and simultaneously launch a suppression campaign, publishing positive content to push the fake review off page one of Google search results."
       }
     },
     {
@@ -58,6 +58,21 @@ const faqSchema = {
   ]
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Fake Review Removal Service",
+  "description": "Legal identification, reporting, and removal of fake, spam, and policy-violating reviews from Google, Yelp, Trustpilot, and Glassdoor.",
+  "url": "https://www.onlinereputationbuilder.in/review-management/fake-review-removal",
+  "provider": {
+    "@type": "Organization",
+    "name": "Online Reputation Builder",
+    "url": "https://www.onlinereputationbuilder.in"
+  },
+  "areaServed": "IN",
+  "serviceType": "Online Reputation Management"
+};
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
@@ -65,6 +80,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         id="faq-fake-review-removal"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="service-fake-review-removal"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       {children}
       <div className="bg-zinc-50 border-t border-zinc-200 py-6 px-4">
