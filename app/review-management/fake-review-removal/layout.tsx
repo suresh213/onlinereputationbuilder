@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Remove Fake Reviews from Google, Yelp & Trustpilot | ORM",
-  description: "Are fake reviews hurting your sales? Our legal and technical experts help identify, report, and remove fake, policy-violating reviews from Google, Yelp, and Trustpilot.",
+  description: "Fake reviews hurting your sales? Our legal experts identify, report, and remove policy-violating reviews from Google, Yelp, and Trustpilot. Fast results.",
   keywords: ["remove fake reviews", "google fake reviews deletion", "dispute yelp rating", "fake review report", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
     canonical: "/review-management/fake-review-removal",

@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Online Reputation Management Blog | ORM Strategies",
-  description: "Expert guides on removing negative search results, managing online reviews, suppressing fake news, building personal brands, and crisis management. Real strategies that work.",
+  description: "Expert guides on removing negative search results, managing reviews, suppressing fake news, and crisis management. Real ORM strategies that work.",
   keywords: [
     "online reputation management blog",
     "how to remove negative reviews",
