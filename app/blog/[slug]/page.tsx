@@ -383,58 +383,56 @@ export default function BlogDetailPage({ params }: Props) {
       <Topbar />
       <Navbar />
 
-      {/* Article Header */}
-      <section className="bg-zinc-50 border-b border-zinc-200 py-10">
-        <div className="max-w-4xl mx-auto px-4">
-          {/* Breadcrumb */}
-          <div className="flex items-center gap-2 text-xs font-bold text-zinc-400 mb-6 uppercase tracking-wider">
-            <Link href="/" className="hover:text-brand-blue transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/blog" className="hover:text-brand-blue transition-colors">Blog</Link>
-            <span>/</span>
-            <span className="text-zinc-500 truncate max-w-[200px] sm:max-w-xs">{post.title}</span>
-          </div>
-
-          <span className="inline-block bg-brand-blue text-white text-[0.62rem] font-bold tracking-widest uppercase px-3 py-1.5 rounded-md mb-4">
-            {post.category}
-          </span>
-          
-          <h1 className="font-heading text-3xl sm:text-4xl lg:text-[2.85rem] font-black text-zinc-900 leading-[1.12] mb-6 tracking-tight">
-            {post.title}
-          </h1>
-
-          <div className="flex flex-wrap items-center gap-6 text-xs font-bold text-zinc-500 border-t border-zinc-200/60 pt-5">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center font-black text-[0.65rem] tracking-wider border border-brand-blue/10">
-                {post.author.split(" ").map(n => n[0]).join("")}
-              </div>
-              <span>By {post.author}</span>
-            </div>
-            <span>•</span>
-            <span>{post.date}</span>
-            <span>•</span>
-            <span>{post.readTime}</span>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content Layout */}
-      <section className="py-12 lg:py-20 px-4 bg-white relative overflow-hidden z-0">
+      <section className="py-10 lg:py-16 px-4 bg-white relative overflow-hidden z-0">
         <div className="absolute inset-0 bg-dot-pattern opacity-30 pointer-events-none" />
-        
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="max-w-4xl mx-auto mb-12">
-            <div className="rounded-3xl overflow-hidden shadow-md bg-zinc-100 aspect-[21/9]">
-              <img 
-                src={post.image} 
-                alt={post.title} 
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
 
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16 items-start">
-            {/* Left Column: Article Body */}
+            {/* Left Column: Header + Image + Article */}
+            <div>
+              {/* Article Header */}
+              <div className="bg-zinc-50 border border-zinc-200 rounded-2xl px-6 py-8 mb-8">
+                {/* Breadcrumb */}
+                <div className="flex items-center gap-2 text-xs font-bold text-zinc-400 mb-5 uppercase tracking-wider">
+                  <Link href="/" className="hover:text-brand-blue transition-colors">Home</Link>
+                  <span>/</span>
+                  <Link href="/blog" className="hover:text-brand-blue transition-colors">Blog</Link>
+                  <span>/</span>
+                  <span className="text-zinc-500 truncate max-w-[200px] sm:max-w-xs">{post.title}</span>
+                </div>
+
+                <span className="inline-block bg-brand-blue text-white text-[0.62rem] font-bold tracking-widest uppercase px-3 py-1.5 rounded-md mb-4">
+                  {post.category}
+                </span>
+
+                <h1 className="font-heading text-3xl sm:text-4xl lg:text-[2.6rem] font-black text-zinc-900 leading-[1.12] mb-6 tracking-tight">
+                  {post.title}
+                </h1>
+
+                <div className="flex flex-wrap items-center gap-5 text-xs font-bold text-zinc-500 border-t border-zinc-200/60 pt-5">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center font-black text-[0.65rem] tracking-wider border border-brand-blue/10">
+                      {post.author.split(" ").map(n => n[0]).join("")}
+                    </div>
+                    <span>By {post.author}</span>
+                  </div>
+                  <span>•</span>
+                  <span>{post.date}</span>
+                  <span>•</span>
+                  <span>{post.readTime}</span>
+                </div>
+              </div>
+
+              {/* Featured Image */}
+              <div className="rounded-2xl overflow-hidden shadow-md bg-zinc-100 aspect-[16/7] mb-10">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
             <article className="prose prose-zinc max-w-none">
               {post.content.map((block, idx) => {
                 switch (block.type) {
@@ -491,35 +489,60 @@ export default function BlogDetailPage({ params }: Props) {
                         {block.text}
                       </div>
                     );
+                  case "table":
+                    return (
+                      <div key={idx} className="overflow-x-auto my-8 rounded-xl border border-zinc-200 shadow-sm">
+                        <table className="w-full text-sm text-left">
+                          {block.headers && (
+                            <thead className="bg-zinc-900 text-white">
+                              <tr>
+                                {block.headers.map((h, hi) => (
+                                  <th key={hi} className="px-4 py-3 font-bold text-xs uppercase tracking-wider border-r border-zinc-700 last:border-r-0">{h}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                          )}
+                          <tbody>
+                            {block.rows?.map((row, ri) => (
+                              <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-zinc-50"}>
+                                {row.map((cell, ci) => (
+                                  <td key={ci} className="px-4 py-3 text-zinc-700 border-r border-zinc-200 last:border-r-0 align-top">{cell}</td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    );
                   default:
                     return null;
                 }
               })}
+              {/* Internal Service CTA — contextual link to relevant service page */}
+              {serviceLink && (
+                <div className="mt-10 rounded-2xl bg-gradient-to-br from-brand-blue/[0.06] to-brand-gold/[0.04] border border-brand-blue/20 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-brand-blue flex items-center justify-center shrink-0 shadow-md">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-[0.65rem] font-bold text-brand-blue uppercase tracking-widest mb-1">Professional Service</p>
+                    <h4 className="font-heading font-bold text-zinc-900 text-base leading-snug mb-1">{serviceLink.title}</h4>
+                    <p className="text-zinc-500 text-xs leading-relaxed">
+                      Our specialists handle this for you - faster results, legal protection, guaranteed approach.
+                    </p>
+                  </div>
+                  <Link
+                    href={serviceLink.url}
+                    className="btn-blue shrink-0 text-xs font-bold px-5 py-2.5 rounded-lg shadow-sm whitespace-nowrap"
+                  >
+                    {serviceLink.cta} →
+                  </Link>
+                </div>
+              )}
             </article>
-
-            {/* Internal Service CTA — contextual link to relevant service page */}
-            {serviceLink && (
-              <div className="mt-10 rounded-2xl bg-gradient-to-br from-brand-blue/[0.06] to-brand-gold/[0.04] border border-brand-blue/20 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5">
-                <div className="w-12 h-12 rounded-xl bg-brand-blue flex items-center justify-center shrink-0 shadow-md">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <p className="text-[0.65rem] font-bold text-brand-blue uppercase tracking-widest mb-1">Professional Service</p>
-                  <h4 className="font-heading font-bold text-zinc-900 text-base leading-snug mb-1">{serviceLink.title}</h4>
-                  <p className="text-zinc-500 text-xs leading-relaxed">
-                    Our specialists handle this for you — faster results, legal protection, guaranteed approach.
-                  </p>
-                </div>
-                <Link
-                  href={serviceLink.url}
-                  className="btn-blue shrink-0 text-xs font-bold px-5 py-2.5 rounded-lg shadow-sm whitespace-nowrap"
-                >
-                  {serviceLink.cta} →
-                </Link>
-              </div>
-            )}
+            </div>{/* end left column */}
 
             {/* Right Column: Sidebar */}
             <aside className="space-y-8 lg:sticky lg:top-28">

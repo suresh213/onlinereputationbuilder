@@ -11,7 +11,7 @@ import { blogPosts, BlogPost } from "./data";
 export default function BlogListingPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "Strategy", "Removal", "Branding", "Industry", "Comparison", "Crisis"];
+  const categories = ["All", "Strategy", "Removal", "Branding", "Industry", "Comparison", "Crisis", "Reviews", "Individual", "Content", "Search"];
   
   // Find featured post
   const featuredPost = blogPosts.find(post => post.featured) || blogPosts[0];

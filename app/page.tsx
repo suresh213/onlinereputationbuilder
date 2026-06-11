@@ -90,12 +90,12 @@ const faqs = [
 ];
 
 const howTos = [
-  { category: "STRATEGY", time: "5 MIN READ", title: "What is online reputation management, and why do you need excellent ORM for your business?", desc: "All businesses work hard to keep their customers happy, but even with the best customer service, a business is bound to see its reputation take a hit every now and then." },
-  { category: "BRANDING", time: "4 MIN READ", title: "What is personal branding and how do you do it?", desc: "Personal branding is the process of creating a brand identity for a person or company, establishing your unique value proposition in the market." },
-  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why do celebrities need online reputation management?", desc: "Celebrity reputation management helps you protect what you have built as your brand. Anything that damages your reputation can put your present and future at risk." },
-  { category: "REVIEWS", time: "5 MIN READ", title: "How to manage and respond to a negative customer review?", desc: "Customer reviews impact business tremendously and the decisions potential customers make to patronize or not patronize your business." },
-  { category: "CONTENT", time: "7 MIN READ", title: "How to remove negative news articles from Google?", desc: "Understanding your personal or brand's online reputation is becoming increasingly essential as more users move to search engines for research." },
-  { category: "SEARCH", time: "4 MIN READ", title: "How to push down or bury negative search results?", desc: "Every company is different with different challenges, and they each deal differently with negative or fake search results on Google." },
+  { category: "STRATEGY", time: "5 MIN READ", title: "What is online reputation management, and why do you need excellent ORM for your business?", desc: "All businesses work hard to keep their customers happy, but even with the best customer service, a business is bound to see its reputation take a hit every now and then.", href: "/blog/what-is-online-reputation-management" },
+  { category: "BRANDING", time: "4 MIN READ", title: "What is personal branding and how do you do it?", desc: "Personal branding is the process of creating a brand identity for a person or company, establishing your unique value proposition in the market.", href: "/blog/what-is-personal-branding" },
+  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why do celebrities need online reputation management?", desc: "Celebrity reputation management helps you protect what you have built as your brand. Anything that damages your reputation can put your present and future at risk.", href: "/blog/why-celebrities-need-orm" },
+  { category: "REVIEWS", time: "5 MIN READ", title: "How to manage and respond to a negative customer review?", desc: "Customer reviews impact business tremendously and the decisions potential customers make to patronize or not patronize your business.", href: "/blog/how-to-respond-to-negative-customer-reviews" },
+  { category: "CONTENT", time: "7 MIN READ", title: "How to remove negative news articles from Google?", desc: "Understanding your personal or brand's online reputation is becoming increasingly essential as more users move to search engines for research.", href: "/blog/how-to-remove-negative-news-articles-from-google" },
+  { category: "SEARCH", time: "4 MIN READ", title: "How to push down or bury negative search results?", desc: "Every company is different with different challenges, and they each deal differently with negative or fake search results on Google.", href: "/blog/how-to-push-down-negative-search-results" },
 ];
 
 export default function HomePage() {
@@ -118,7 +118,7 @@ export default function HomePage() {
             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
               🏆 India's #1 ORM Company · Delhi NCR
             </div>
-            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.18rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
+            <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
               Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company
             </h1>
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
@@ -353,7 +353,7 @@ export default function HomePage() {
           </div>
           <div className="knowledge-layout">
             {howTos.map((h, i) => (
-              <div key={h.title} className="group premium-article-card knowledge-item flex flex-col p-7 bg-white border border-zinc-200 rounded-xl hover:border-brand-gold transition-colors h-full cursor-pointer">
+              <Link key={h.title} href={h.href} className="group premium-article-card knowledge-item flex flex-col p-7 bg-white border border-zinc-200 rounded-xl hover:border-brand-gold transition-colors h-full cursor-pointer">
                 <div className="flex items-center gap-3 mb-5">
                   <span className="px-2.5 py-1 bg-zinc-100 text-zinc-600 text-[0.65rem] font-bold tracking-wider uppercase rounded-sm group-hover:bg-brand-gold/10 group-hover:text-brand-gold transition-colors">{h.category}</span>
                   <span className="text-zinc-400 text-[0.65rem] font-bold tracking-wider">{h.time}</span>
@@ -364,7 +364,7 @@ export default function HomePage() {
                   Read Article
                   <svg className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
