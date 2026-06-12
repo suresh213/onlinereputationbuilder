@@ -1277,7 +1277,7 @@ export default function RemovePrivateInfoPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Protect Yourself Today</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don&apos;t Let a Single Negative Google Result <span className="heading-script text-brand-blue">Ruin Your Business</span>
+                Don&apos;t Let a Single Negative Google Result <span className="heading-script text-blue-400">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation and let our privacy experts assess your current data

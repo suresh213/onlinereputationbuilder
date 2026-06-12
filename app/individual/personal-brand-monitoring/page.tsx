@@ -506,7 +506,7 @@ const monitoringBenefits = [
       </svg>
     ),
     title: "Protect Your Personal Brand",
-    desc: "You need to protect your personal brand, and the best way to do that is by monitoring it consistently across all digital channels and platforms.",
+    desc: "We help protect your personal brand by continuously monitoring your online presence and addressing potential reputation risks across digital channels.",
   },
   {
     icon: (
@@ -1009,7 +1009,7 @@ export default function PersonalBrandMonitoringPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Before It&apos;s Too Late</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don&apos;t Let a Single Negative Google Result <span className="heading-script text-brand-blue">Ruin Your Business</span>
+                Don&apos;t Let a Single Negative Google Result <span className="heading-script text-blue-400">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free consultation and let our experts assess your current brand health - identifying risks, monitoring gaps, and opportunities to strengthen your reputation immediately.

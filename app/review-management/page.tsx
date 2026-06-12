@@ -10,92 +10,149 @@ import Link from "next/link";
 /* ─── Original Data Extracted from PDF ─────────────────────────────────────── */
 
 const heroBullets = [
-  "Continuous monitoring of reviews across major platforms", 
-  "Professional responses to positive and negative feedback", 
-  "Detection and reporting of fake or spam reviews", 
-  "Reputation improvement strategies to build long-term trust", 
+  "Continuous monitoring of reviews across major platforms",
+  "Professional responses to positive and negative feedback",
+  "Detection and reporting of fake or spam reviews",
+  "Reputation improvement strategies to build long-term trust",
 ];
 
 const importancePoints = [
-  "Build brand and authority and capture trust", 
-  "Higher visibility through positive reviews", 
-  "Better customer engagement and issue handling", 
-  "Full control over your online reputation narrative", 
+  "Build brand and authority and capture trust",
+  "Higher visibility through positive reviews",
+  "Better customer engagement and issue handling",
+  "Full control over your online reputation narrative",
 ];
 
 const repairSteps = [
   {
-    title: "Have an online presence everywhere", 
-    desc: "To fix the negative aspects of your reputation, you need to be present all of the top review sites. If someone leaves a not-so-good review, you are more likely to see it and deal with it quickly or properly.", 
+    title: "Have an online presence everywhere",
+    desc: "To fix the negative aspects of your reputation, you need to be present all of the top review sites. If someone leaves a not-so-good review, you are more likely to see it and deal with it quickly or properly.",
   },
   {
-    title: "Respond to reviews", 
-    desc: "You should try to reply to positive as well as negative reviews. There are potential customers who want to see what you have to say in your replies.", 
+    title: "Respond to reviews",
+    desc: "You should try to reply to positive as well as negative reviews. There are potential customers who want to see what you have to say in your replies.",
   },
   {
-    title: "Get more positive reviews", 
-    desc: "Great reviews tend to outnumber negative reviews. Start out by implementing a plan to obtain new and great reviews from happy and satisfied customers.", 
+    title: "Get more positive reviews",
+    desc: "Great reviews tend to outnumber negative reviews. Start out by implementing a plan to obtain new and great reviews from happy and satisfied customers.",
   },
 ];
 
 const advancedSolutions = [
+
   {
-    title: "Reporting", 
-    desc: "We look at all your reviews and develop strategies for managing reviews efficiently and effectively.", 
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-    ),
-  },
-  {
-    title: "Monitor", 
-    desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites.", 
+    title: "Monitor",
+    desc: "We actively track customer reviews and make your online presence a priority. We scour millions of web pages and thousands of review sites with powerful reputation management. With review monitoring, we identify reviews that can strengthen or damage your online reputation. We look at all your reviews and develop strategies for managing reviews efficiently and effectively.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
     ),
   },
+  // {
+  //   title: "Reputation Management", 
+  //   desc: "With powerful reputation management. With review monitoring, we identify reviews that can strengthen or damage your online reputation.", 
+  //   icon: (
+  //     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+  //   ),
+  // },
   {
-    title: "Reputation Management", 
-    desc: "With powerful reputation management. With review monitoring, we identify reviews that can strengthen or damage your online reputation.", 
+    title: "Removal",
+    desc: "No matter how good your products or services are, eventually you will have to deal with bad reviews. Some people may write false, misleading, or defamatory reviews without ever visiting your business. Our review management strategy identifies false and unfavorable reviews. Then, our team works directly with the review sites to flag and remove these reviews that harm your reputation.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5-3h4a1 1 0 011 1v1H9V5a1 1 0 011-1zM4 7h16"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Response",
+    desc: "Potential customers are more likely to grow trust if they see business owners taking an active role in commenting on customer reviews. As a business owner, you know that consistent response and transparency can help improve the customer experience. With our review response service, we can help you to respond quickly to every new review.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M8 10h8M8 14h5m-9 6l3-3h11a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v11a2 2 0 002 2h1z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Review Generation",
+    desc: "Consumers trust reviews, and the more reviews a business has, the more trust it can generate. Customers often read reviews of businesses before making a decision; It makes sense to encourage as many reviews as possible. With review generation, we gather reviews from consumers using a variety of strategies to improve brand awareness and strengthen customer loyalty to your company.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.963a1 1 0 00.95.69h4.167c.969 0 1.371 1.24.588 1.81l-3.371 2.449a1 1 0 00-.364 1.118l1.287 3.963c.3.921-.755 1.688-1.54 1.118l-3.37-2.449a1 1 0 00-1.176 0l-3.37 2.449c-.785.57-1.84-.197-1.54-1.118l1.287-3.963a1 1 0 00-.364-1.118L2.49 9.39c-.783-.57-.38-1.81.588-1.81h4.167a1 1 0 00.95-.69l1.286-3.963z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Out Reach",
+    desc: "We connect those individuals who had a positive experience with your company and direct these customers to leave reviews on the most visible online review sites for maximum impact and visibility. We also do phone outreach, email outreach, and web-based outreach on behalf of our clients. Also, we target your best clients of present clients to request more high-rated reviews.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M11 5L6 9H3v6h3l5 4V5zm4 4a5 5 0 010 6m2-8a8 8 0 010 10"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Reporting",
+    desc: "We provide monthly reporting with detailed metrics so you know who’s reviewing, when they’re reviewing, what they’re saying, where they’re posting their reviews for your business. With this information, you can identify and respond to trends and allocate advertising and marketing resources more effectively. We also use the most advanced SEO tactics available to move these professional review sites higher in the search rankings.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
     ),
   },
 ];
 
 const faqs = [
-  { q: "What is a review management service?", a: "We provide comprehensive solutions to monitor, control, and respond to your customer reviews across all leading platforms to protect your brand image." }, 
-  { q: "What are the benefits of reviews management services?", a: "Benefits include building brand authority, capturing trust, improving search visibility, better customer engagement, and gaining full control over your online narrative." }, 
-  { q: "What does Review Management Services do?", a: "We track customer reviews, scour millions of web pages, report on fake reviews, and develop strategies for managing feedback efficiently." }, 
-  { q: "How do I remove negative reviews from Google?", a: "We assist in the creation, handling, and trimming to fight fake reviews and downplay the bad stuff to ensure your business remains reputable." }, 
-  { q: "How long does it take to remove google reviews?", a: "Timelines vary depending on the platform and the nature of the review. We implement highly effective strategies to address harmful content as quickly as possible." }, 
+  { q: "What is a review management service?", a: "We provide comprehensive solutions to monitor, control, and respond to your customer reviews across all leading platforms to protect your brand image." },
+  { q: "What are the benefits of reviews management services?", a: "Benefits include building brand authority, capturing trust, improving search visibility, better customer engagement, and gaining full control over your online narrative." },
+  { q: "What does Review Management Services do?", a: "We track customer reviews, scour millions of web pages, report on fake reviews, and develop strategies for managing feedback efficiently." },
+  { q: "How do I remove negative reviews from Google?", a: "We assist in the creation, handling, and trimming to fight fake reviews and downplay the bad stuff to ensure your business remains reputable." },
+  { q: "How long does it take to remove google reviews?", a: "Timelines vary depending on the platform and the nature of the review. We implement highly effective strategies to address harmful content as quickly as possible." },
 ];
 
 const testimonials = [
   {
-    name: "Garima", 
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
+    name: "Garima",
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
     initials: "G",
   },
   {
-    name: "Kapil", 
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
+    name: "Kapil",
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
     initials: "K",
   },
   {
-    name: "Jashmin", 
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.", 
+    name: "Jashmin",
+    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
     initials: "J",
   },
 ];
 
 // Reconstructed sliding marquee data using Favicon API
 const publisherLogos = [
-  { name: "TikTok", img: "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128" }, 
-  { name: "CNN", img: "https://www.google.com/s2/favicons?domain=cnn.com&sz=128" }, 
-  { name: "CBC News", img: "https://www.google.com/s2/favicons?domain=cbc.ca&sz=128" }, 
-  { name: "Forbes", img: "https://www.google.com/s2/favicons?domain=forbes.com&sz=128" }, 
-  { name: "Daily Journal", img: "https://www.google.com/s2/favicons?domain=dailyjournal.com&sz=128" }, 
-  { name: "St. Louis", img: "https://www.google.com/s2/favicons?domain=stltoday.com&sz=128" }, 
+  { name: "TikTok", img: "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128" },
+  { name: "CNN", img: "https://www.google.com/s2/favicons?domain=cnn.com&sz=128" },
+  { name: "CBC News", img: "https://www.google.com/s2/favicons?domain=cbc.ca&sz=128" },
+  { name: "Forbes", img: "https://www.google.com/s2/favicons?domain=forbes.com&sz=128" },
+  { name: "Daily Journal", img: "https://www.google.com/s2/favicons?domain=dailyjournal.com&sz=128" },
+  { name: "St. Louis", img: "https://www.google.com/s2/favicons?domain=stltoday.com&sz=128" },
   { name: "Indian Express", img: "https://www.google.com/s2/favicons?domain=indianexpress.com&sz=128" },
   { name: "BusinessLine", img: "https://www.google.com/s2/favicons?domain=thehindubusinessline.com&sz=128" },
   { name: "Bloomberg", img: "https://www.google.com/s2/favicons?domain=bloomberg.com&sz=128" },
@@ -123,8 +180,8 @@ function RevealOnScroll({ children, delay = 0, className = "" }: { children: Rea
   }, []);
 
   return (
-    <div 
-      ref={ref} 
+    <div
+      ref={ref}
       className={`transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"} ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
@@ -172,7 +229,7 @@ export default function ReviewManagementPage() {
                 {heroBullets.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-zinc-300 font-medium">
                     <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-blue/20 text-brand-blue text-xs flex-shrink-0 mt-0.5 shadow-inner">
-                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7"/></svg>
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
                     </span>
                     <span>{item}</span>
                   </li>
@@ -204,7 +261,7 @@ export default function ReviewManagementPage() {
                     </h2>
                   </div>
                   <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                    <svg className="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    <svg className="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                   </div>
                 </div>
                 <ContactForm dark />
@@ -222,9 +279,9 @@ export default function ReviewManagementPage() {
             {/* Duplicated array for seamless CSS marquee scroll */}
             {[...publisherLogos, ...publisherLogos].map((m, i) => (
               <div key={i} className="flex items-center gap-3 group">
-                <img 
-                  src={m.img} 
-                  alt={m.name} 
+                <img
+                  src={m.img}
+                  alt={m.name}
                   className="h-6 w-auto object-contain rounded-sm filter grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
                 />
                 <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider group-hover:text-zinc-800 transition-colors">{m.name}</span>
@@ -239,7 +296,7 @@ export default function ReviewManagementPage() {
         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
-            
+
             <RevealOnScroll>
               <div className="premium-copy-panel pr-0 lg:pr-8">
                 <p className="section-label mb-2 text-brand-gold">First Impressions Matter</p>
@@ -252,7 +309,7 @@ export default function ReviewManagementPage() {
                 <p className="text-zinc-600 leading-relaxed mb-10 text-[0.95rem]">
                   We assist you in creation, handling and trimming to fight the positive fake reviews and downplay the bad stuff to ensure that your business becomes a good and reputable one.
                 </p>
-                
+
                 <Link href="#contact" className="btn-blue shadow-lg shadow-brand-blue/20 px-8 py-3.5">
                   Protect Your Brand
                 </Link>
@@ -263,16 +320,16 @@ export default function ReviewManagementPage() {
               <div className="relative w-full max-w-lg mx-auto lg:ml-auto">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
-                  <img 
-                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" 
-                    alt="Review Management Team" 
+                  <img
+                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+                    alt="Review Management Team"
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
-                
+
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-blue-100/80 border border-blue-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg className="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">Trust Established</p>
@@ -304,14 +361,14 @@ export default function ReviewManagementPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mb-20">
             <RevealOnScroll delay={100}>
-               <div className="bg-zinc-50 rounded-3xl p-8 lg:p-10 shadow-sm border border-zinc-200">
-                  <p className="text-zinc-600 leading-relaxed mb-6">
-                    Our business review management service focuses on developing a long-term reputation strategy, which leads to sales and conversions. We enhance positive customer experience and fix harmful content by using methods that are ethical and effective through our sophisticated review management program.
-                  </p>
-                  <p className="text-zinc-600 leading-relaxed">
-                    Our experts work with you to implement a highly effective strategy for obtaining positive customer reviews on Google Places, Yelp, and other relevant review sites.
-                  </p>
-               </div>
+              <div className="bg-zinc-50 rounded-3xl p-8 lg:p-10 shadow-sm border border-zinc-200">
+                <p className="text-zinc-600 leading-relaxed mb-6">
+                  Our business review management service focuses on developing a long-term reputation strategy, which leads to sales and conversions. We enhance positive customer experience and fix harmful content by using methods that are ethical and effective through our sophisticated review management program.
+                </p>
+                <p className="text-zinc-600 leading-relaxed">
+                  Our experts work with you to implement a highly effective strategy for obtaining positive customer reviews on Google Places, Yelp, and other relevant review sites.
+                </p>
+              </div>
             </RevealOnScroll>
 
             <RevealOnScroll delay={200}>
@@ -320,7 +377,7 @@ export default function ReviewManagementPage() {
                 {importancePoints.map((item, i) => (
                   <div key={i} className="flex items-center gap-4 p-4 rounded-xl bg-white border border-zinc-200 shadow-sm hover:border-brand-blue/30 transition-all group">
                     <div className="w-10 h-10 rounded-full bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                      <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"/></svg>
+                      <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                     </div>
                     <span className="text-[0.95rem] text-zinc-700 font-medium group-hover:text-zinc-900 transition-colors">{item}</span>
                   </div>
@@ -354,7 +411,7 @@ export default function ReviewManagementPage() {
               {repairSteps.map((step, i) => (
                 <RevealOnScroll key={step.title} delay={i * 100}>
                   <div className="glass-panel border border-zinc-800/80 rounded-3xl p-8 hover:bg-white/5 hover:border-brand-gold/40 transition-all duration-400 h-full">
-                    <div className="text-brand-gold font-mono text-4xl font-black mb-4 opacity-50">0{i+1}</div>
+                    <div className="text-brand-gold font-mono text-4xl font-black mb-4 opacity-50">0{i + 1}</div>
                     <h4 className="font-heading font-bold text-xl text-white mb-3">{step.title}</h4>
                     <p className="text-sm text-zinc-400 leading-relaxed">{step.desc}</p>
                   </div>
@@ -368,14 +425,14 @@ export default function ReviewManagementPage() {
       {/* ── WHY REVIEWS MATTER MORE THAN EVER ────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light relative overflow-hidden z-0">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-16 items-center">
-          
+
           <div className="relative order-2 lg:order-1">
             <RevealOnScroll>
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-gold/10 rounded-full blur-[80px] -z-10"></div>
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-[0_20px_50px_-15px_rgba(0,0,0,0.2)] border border-zinc-200">
-                <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
-                  alt="Business Growth and Charts" 
+                <img
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                  alt="Business Growth and Charts"
                   className="w-full h-auto object-cover aspect-square"
                 />
               </div>
@@ -422,7 +479,7 @@ export default function ReviewManagementPage() {
               <RevealOnScroll key={s.title} delay={i * 100}>
                 <div className="card-premium-hover group bg-white border border-zinc-200 rounded-3xl p-8 flex flex-col h-full shadow-sm relative overflow-hidden hover:border-brand-blue/30 hover:shadow-[0_15px_40px_-10px_rgba(37,99,235,0.15)]">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-blue to-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
-                  
+
                   <div className="flex items-start justify-between mb-8 relative z-10">
                     <div className="w-14 h-14 rounded-2xl bg-zinc-50 border border-zinc-100 shadow-sm flex items-center justify-center text-zinc-600 group-hover:bg-brand-blue group-hover:text-white group-hover:border-brand-blue group-hover:shadow-lg transition-all duration-300">
                       {s.icon}
@@ -442,7 +499,7 @@ export default function ReviewManagementPage() {
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="ambient-glow-blue top-0 left-1/4 opacity-30" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-gold/30 to-transparent" />
-        
+
         <div className="max-w-7xl mx-auto relative z-10">
           <RevealOnScroll>
             <div className="text-center mb-12">
@@ -451,7 +508,7 @@ export default function ReviewManagementPage() {
               <p className="text-zinc-400 text-[0.95rem] mt-4 leading-relaxed">We pay attention to details and quality, good communication and strong customer relationship. Here is what they say about us.</p>
             </div>
           </RevealOnScroll>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {testimonials.map((t, i) => (
               <RevealOnScroll key={t.name} delay={i * 100}>
@@ -481,27 +538,27 @@ export default function ReviewManagementPage() {
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-16 lg:gap-24 items-start">
-            
+
             <RevealOnScroll>
               <div className="sticky top-32">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-6 rounded-full bg-white/5 border border-white/10 shadow-sm backdrop-blur-md">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse"></span>
                   <p className="text-[0.65rem] font-bold tracking-wider uppercase text-brand-gold m-0">Knowledge Base</p>
                 </div>
-                
+
                 <h2 className="font-heading text-4xl lg:text-5xl font-black text-white mb-6 leading-[1.1] tracking-tight">
-                  Frequently Asked <br className="hidden lg:block"/>
+                  Frequently Asked <br className="hidden lg:block" />
                   <span className="text-gradient-gold">Questions</span>
                 </h2>
-                
+
                 <p className="text-zinc-400 text-[0.95rem] leading-relaxed mb-10 max-w-md">
                   Everything you need to know about our review management processes and how we protect your digital footprint.
                 </p>
-                
+
                 <div className="glass-panel p-6 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md hidden lg:block">
                   <div className="flex items-center gap-4 mb-5">
                     <div className="w-12 h-12 rounded-xl bg-brand-blue/20 flex items-center justify-center text-brand-blue border border-brand-blue/30 shadow-inner">
-                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
                     </div>
                     <div>
                       <p className="text-white font-bold text-sm">Still have questions?</p>
@@ -514,7 +571,7 @@ export default function ReviewManagementPage() {
                 </div>
               </div>
             </RevealOnScroll>
-            
+
             <RevealOnScroll delay={200}>
               <div className="relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-b from-brand-gold/30 via-brand-blue/10 to-transparent rounded-3xl opacity-50 blur-sm pointer-events-none"></div>
@@ -523,7 +580,7 @@ export default function ReviewManagementPage() {
                 </div>
               </div>
             </RevealOnScroll>
-            
+
           </div>
         </div>
       </section>
@@ -540,12 +597,12 @@ export default function ReviewManagementPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don't let a single negative Google result <span className="heading-script text-brand-blue">ruin your business</span>
+                Don't let a single negative Google result <span className="heading-script text-blue-400">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan - with no obligation.
               </p>
-              
+
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Hotline", value: "+91 88827 88412", href: "tel:+918882788412", icon: "📞" },
@@ -569,7 +626,7 @@ export default function ReviewManagementPage() {
               </div>
             </div>
           </RevealOnScroll>
-          
+
           <RevealOnScroll delay={200}>
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-blue/10 to-brand-gold/10 rounded-3xl blur-2xl pointer-events-none opacity-50" />

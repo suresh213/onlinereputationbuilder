@@ -306,7 +306,7 @@ export default function IndividualSolutionsPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don't let a single negative Google result <span className="heading-script text-brand-blue">ruin your business</span>
+                Don't let a single negative Google result <span className="heading-script text-blue-400">ruin your business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan - with no obligation.

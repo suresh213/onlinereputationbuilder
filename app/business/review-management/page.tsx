@@ -1434,18 +1434,15 @@ function RatingDistributionWidget() {
 }
 
 // Interactive Review Response Editor Simulation
+// Static Review Response Editor Simulation
 function ReviewResponseWidget() {
-  const [replied, setReplied] = useState(false);
-  const [response, setResponse] = useState("Hi Rajesh, thank you for sharing your experience! We are proud to support your business expansion goals. - Support Team");
-
   return (
     <div className="premium-info-card border border-zinc-200 rounded-2xl bg-white overflow-hidden text-left font-sans select-none shadow-[0_20px_40px_-15px_rgba(9,15,28,0.05)]">
       <div className="bg-zinc-50/80 border-b border-zinc-200 px-5 py-4 flex justify-between items-center">
         <span className="text-[0.7rem] font-bold text-zinc-500 uppercase tracking-wider">Review Management Workspace</span>
-        <span className={`text-[0.65rem] font-bold px-2.5 py-1 rounded border uppercase tracking-wider transition-all duration-300 ${
-          replied ? "bg-emerald-50 border-emerald-200 text-emerald-700 shadow-sm" : "bg-amber-50 border-amber-200 text-amber-700"
-        }`}>
-          {replied ? "Responded" : "Needs Response"}
+        {/* Hardcoded static badge */}
+        <span className="bg-amber-50 border-amber-200 text-amber-700 text-[0.65rem] font-bold px-2.5 py-1 rounded border uppercase tracking-wider">
+          Needs Response
         </span>
       </div>
       <div className="p-6 space-y-5">
@@ -1465,30 +1462,17 @@ function ReviewResponseWidget() {
 
         <div className="space-y-2.5">
           <label className="text-[0.65rem] font-bold text-zinc-500 uppercase tracking-wider">Draft Professional Response</label>
-          <textarea
-            className="form-input text-sm w-full p-4 min-h-[95px] bg-zinc-50/50 focus:bg-white transition-colors"
-            value={response}
-            onChange={(e) => setResponse(e.target.value)}
-            disabled={replied}
-          />
+          {/* Static text div instead of textarea */}
+          <div className="form-input text-sm w-full p-4 min-h-[95px] bg-zinc-50/50 text-zinc-800 border border-zinc-200 rounded-md">
+            Hi Rajesh, thank you for sharing your experience! We are proud to support your business expansion goals. - Support Team
+          </div>
         </div>
 
         <div className="flex justify-end gap-3 pt-2">
-          {!replied ? (
-            <button onClick={() => setReplied(true)} className="btn-blue text-[0.75rem] py-2.5 px-6 shadow-lg shadow-brand-blue/20">
-              Publish Response
-            </button>
-          ) : (
-            <>
-              <span className="text-[0.75rem] text-emerald-600 font-semibold py-2 flex items-center gap-1.5">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                Response published to Google
-              </span>
-              <button onClick={() => setReplied(false)} className="btn-outline !border-zinc-200 !text-zinc-600 hover:!bg-zinc-50 text-[0.75rem] py-2 px-5">
-                Edit
-              </button>
-            </>
-          )}
+          {/* Static button with pointer-events-none so it doesn't even look clickable */}
+          <button className="btn-blue text-[0.75rem] py-2.5 px-6 shadow-lg shadow-brand-blue/20 cursor-default pointer-events-none">
+            Publish Response
+          </button>
         </div>
       </div>
     </div>
