@@ -415,29 +415,50 @@ export default function ImageRemovalPage() {
       </section>
 
       {/* ── FAQ ───────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
-        <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-white border-l border-zinc-100 pointer-events-none hidden lg:block" />
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
-            <RevealOnScroll>
-              <div className="sticky top-24 lg:col-span-2">
-                <p className="section-label mb-2">Common Questions</p>
-                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Image Removal <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific image situation? Get a free, confidential assessment from our experts with no obligation.</p>
-                <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  Call Us Now
-                </a>
-              </div>
-            </RevealOnScroll>
-            <RevealOnScroll delay={200} className="lg:col-span-3">
-              <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-2 md:p-6">
-                <FAQ items={faqs} />
-              </div>
-            </RevealOnScroll>
-          </div>
+<section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
+  <div className="max-w-7xl mx-auto relative z-10">
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
+      
+      <RevealOnScroll>
+        <div className="sticky top-24">
+          <p className="section-label mb-2">Common Questions</p>
+
+          <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
+            Image Removal{" "}
+            <span className="heading-script text-brand-blue">
+              FAQs
+            </span>
+          </h2>
+
+          <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
+            Have a specific image situation? Get a free, confidential assessment from our experts with no obligation.
+          </p>
+
+          <a
+            href="tel:+918882788412"
+            className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
+          >
+            <svg
+              className="w-4 h-4"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+            </svg>
+            Call Us Now
+          </a>
         </div>
-      </section>
+      </RevealOnScroll>
+
+      <RevealOnScroll delay={200}>
+        <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-2 md:p-6">
+          <FAQ items={faqs} />
+        </div>
+      </RevealOnScroll>
+
+    </div>
+  </div>
+</section>
 
       {/* ── CONTACT CTA ──────────────────────────────────────────────── */}
       <section id="contact" className="py-24 lg:py-32 px-4 bg-zinc-950 relative overflow-hidden premium-section-dark border-t-4 border-brand-blue">
@@ -450,7 +471,7 @@ export default function ImageRemovalPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don&apos;t Let Harmful Images <span className="heading-script text-brand-blue">Define You Online</span>
+                Don&apos;t Let Harmful Images <span className="heading-script text-blue-400">Define You Online</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation. Our image removal experts will assess your situation and provide a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

@@ -1163,7 +1163,7 @@ export default function RemoveNegativeResultsPage() {
           <div className="premium-copy-panel-dark">
             <p className="section-label text-brand-gold mb-3">Protect Your Future</p>
             <h2 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white mb-6 leading-tight tracking-tight">
-              Don&apos;t Let Negative Content <br className="hidden lg:block"/><span className="heading-script text-brand-blue">Control Your Brand</span>
+              Don&apos;t Let Negative Content <br className="hidden lg:block"/><span className="heading-script text-blue-500">Control Your Brand</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem]">
               Every day a negative listing ranks on page one of Google represents another lost client. Contact Online Reputation Builder for a completely confidential strategy blueprint.

@@ -1470,7 +1470,7 @@ export default function PublicRelationPage() {
                     i % 7 === 0
                       ? "border-brand-gold/30 bg-brand-gold/5 text-brand-gold/90 hover:bg-brand-gold/20 hover:text-brand-gold hover:-translate-y-1 hover:shadow-brand-gold/20"
                       : i % 5 === 0
-                      ? "border-brand-blue/30 bg-brand-blue/5 text-brand-blue/90 hover:bg-brand-blue/20 hover:text-blue-300 hover:-translate-y-1 hover:shadow-brand-blue/20"
+                      ? "border-brand-blue/30 bg-brand-blue/5 text-blue-500 hover:bg-brand-blue/20 hover:text-blue-300 hover:-translate-y-1 hover:shadow-brand-blue/20"
                       : "border-zinc-800 bg-white/5 text-zinc-400 hover:bg-white/10 hover:text-white hover:border-zinc-600 hover:-translate-y-1"
                   }`}
                 >
@@ -1648,7 +1648,7 @@ export default function PublicRelationPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Let&apos;s Talk PR</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Amplify Your Brand&apos;s Story Across <span className="heading-script text-brand-blue">India&apos;s Top Media?</span>
+                Ready to Amplify Your Brand&apos;s Story Across <span className="heading-script text-blue-400">India&apos;s Top Media?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Schedule a free PR consultation today. Our team will assess your brand&apos;s

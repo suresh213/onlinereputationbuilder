@@ -894,7 +894,7 @@ export default function AmbitionBoxPage() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-orange-500/10 rounded-full blur-[80px] -z-10"></div>
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
                   <img 
-                    src="https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&w=800&q=80" 
+                    src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" 
                     alt="Corporate HR and Employer Branding" 
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
@@ -1120,7 +1120,7 @@ export default function AmbitionBoxPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Get Started</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Reclaim Your <span className="heading-script text-brand-blue">Employer Brand?</span>
+                Ready to Reclaim Your <span className="heading-script text-blue-400">Employer Brand?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Get a free, no-obligation audit of your AmbitionBox profile. We'll identify every removable review and show you exactly what's possible to restore your hiring power.

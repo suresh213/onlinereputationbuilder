@@ -460,11 +460,11 @@ export default function YelpReviewsManagementPage() {
 
       {/* ── FAQ ───────────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
-        <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-white border-l border-zinc-100 pointer-events-none hidden lg:block" />
+        
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
             <RevealOnScroll>
-              <div className="sticky top-24 lg:col-span-2">
+              <div className="sticky top-24">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Yelp Management <span className="heading-script text-brand-blue">FAQs</span></h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Yelp situation? Our experts offer a free confidential assessment with no obligation.</p>
@@ -474,7 +474,7 @@ export default function YelpReviewsManagementPage() {
                 </a>
               </div>
             </RevealOnScroll>
-            <RevealOnScroll delay={200} className="lg:col-span-3">
+            <RevealOnScroll delay={200}>
               <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-2 md:p-6">
                 <FAQ items={faqs} />
               </div>
@@ -493,7 +493,7 @@ export default function YelpReviewsManagementPage() {
           <RevealOnScroll>
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Fast</p>
-              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of Low Yelp Ratings Costs You <span className="heading-script text-brand-blue">Real Customers</span></h2>
+              <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">Every Day of Low Yelp Ratings Costs You <span className="heading-script text-blue-400">Real Customers</span></h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Schedule a free consultation today. Our Yelp management specialists will assess your profile and present a clear action plan - with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[

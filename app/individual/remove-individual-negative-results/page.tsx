@@ -1156,8 +1156,10 @@ const approachSteps = [
 const removalMethods = [
   {
     step: "01",
-    title: "Contact the Owner to Take It Down",
-    desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
+    // title: "Contact the Owner to Take It Down",
+    // desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
+    title: "Reputation Analysis",
+    desc: "We begin by analyzing negative content, reviews, and search results associated with your brand to understand their impact and develop the most effective reputation management strategy.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
@@ -1480,13 +1482,13 @@ export default function RemoveIndividualNegativeResultsPage() {
                 <h3 className="font-heading text-3xl font-bold text-white mb-5 leading-tight">
                   We Have a Plan B - <span className="heading-script text-brand-gold">And a Plan C</span>
                 </h3>
-                <p className="text-zinc-400 text-[0.95rem] leading-relaxed">
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed">
                   In cases where Google does not comply with removal requests, our agency focuses on SEO suppression and reputation recovery. We produce high-quality optimized content to outperform negatives, activate PR, and pursue legal action where needed. Constant monitoring keeps your online profile positive and professionally controlled.
                 </p>
               </div>
-              <div className="space-y-4 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
+              <div className="space-y-4 bg-white/5 border border-white/10 rounded-2xl p-6">
                 {["SEO suppression campaigns targeting page 1", "High-quality positive content creation", "PR activation & media outreach", "Legal escalation where appropriate", "Ongoing 24/7 reputation monitoring"].map((item) => (
-                  <div key={item} className="flex items-center gap-3 text-sm text-zinc-300 font-medium">
+                  <div key={item} className="flex items-center gap-3 text-sm text-zinc-500 font-medium">
                     <div className="w-5 h-5 rounded-full bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center flex-shrink-0">
                       <span className="text-brand-gold text-xs font-bold">✓</span>
                     </div>
@@ -1661,7 +1663,7 @@ export default function RemoveIndividualNegativeResultsPage() {
           <div className="premium-copy-panel-dark">
             <p className="section-label text-brand-gold mb-3">Don't Wait - Act Now</p>
             <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-              Don't Let Negative Content <span className="heading-script text-brand-blue">Ruin Your Reputation</span>
+              Don't Let Negative Content <span className="heading-script text-blue-500">Ruin Your Reputation</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
               Schedule a free consultation today. Our ORM experts will assess your situation, identify every harmful link, and present a clear action plan - with no obligation.
