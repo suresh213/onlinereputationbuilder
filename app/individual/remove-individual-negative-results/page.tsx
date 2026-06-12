@@ -1179,7 +1179,7 @@ const removalMethods = [
   {
     step: "03",
     title: "Bury Negative Content on Google",
-    desc: "When removal isn't possible, we approach the owner to add a NO INDEX tag to the web page's HTML. This pushes irrelevant negative content down so it stops appearing on Google's first page.",
+    desc: "When content cannot be removed, we deploy advanced search engine optimization and digital reputation strategies to elevate positive, authoritative content and suppress unfavorable search results.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7"/>
