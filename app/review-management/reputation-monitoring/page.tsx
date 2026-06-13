@@ -684,7 +684,7 @@ export default function ReputationMonitoringPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Start Monitoring Your Brand <span className="heading-script text-brand-blue">Before the Next Crisis Hits</span>
+                Start Monitoring Your Brand <span className="heading-script text-blue-400">Before the Next Crisis Hits</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free brand monitoring consultation today. Our experts will show you exactly what&apos;s being said about your brand online - and how to stay in control.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

@@ -1479,7 +1479,7 @@ export default function RemoveIndividualNegativeResultsPage() {
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
               <div>
                 <p className="section-label text-brand-gold mb-3">When Google Won't Remove Content</p>
-                <h3 className="font-heading text-3xl font-bold text-white mb-5 leading-tight">
+                <h3 className="font-heading text-3xl font-bold text-black mb-5 leading-tight">
                   We Have a Plan B - <span className="heading-script text-brand-gold">And a Plan C</span>
                 </h3>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed">
@@ -1629,23 +1629,27 @@ export default function RemoveIndividualNegativeResultsPage() {
       </section>
 
       {/* ── FAQ - Asymmetrical Layout ──────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
+<section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
-            <div className="sticky top-24">
+            {/* Added lg: to sticky and top-24 so it only sticks on desktop layouts */}
+            <div className="lg:sticky lg:top-24 text-center sm:text-left">
               <p className="section-label mb-2">Knowledge Base</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
                 Frequently Asked <span className="heading-script text-brand-blue">Questions</span>
               </h2>
-              <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
+              <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8 max-w-lg mx-auto sm:mx-0">
                 Have a specific situation? Our experts offer a free, no-obligation consultation to assess your case confidentially.
               </p>
-              <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
+              {/* Made button full width on mobile, auto width on larger screens */}
+              <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 flex sm:inline-flex w-full sm:w-auto justify-center items-center gap-2 px-8 py-3.5">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call Us Now
               </a>
             </div>
-            <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-2 md:p-6">
+            
+            {/* Increased mobile padding from p-2 to p-4 for better breathing room */}
+            <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-4 md:p-6 lg:p-8">
               <FAQ items={faqs} />
             </div>
           </div>
