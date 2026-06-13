@@ -847,7 +847,7 @@ function SERPSuppressionWidget() {
         </div>
       </div>
 
-      <div className="p-6 space-y-4 bg-white relative">
+<div className="p-6 space-y-4 bg-white relative">
         <div className="absolute top-0 right-0 w-32 h-32 bg-brand-blue/5 rounded-full blur-2xl pointer-events-none"></div>
         
         <div className="space-y-4 relative min-h-[290px] overflow-hidden">
@@ -857,60 +857,61 @@ function SERPSuppressionWidget() {
               suppressed
                 ? "opacity-30 scale-[0.97] border-zinc-200 bg-zinc-50/50 translate-y-[215px]"
                 : "border-red-200 bg-red-50/30 translate-y-0 shadow-sm"
-            } absolute inset-x-0 top-0 h-[84px]`}
+            } absolute inset-x-0 top-0 h-[84px] overflow-hidden`}
           >
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[0.62rem] font-bold text-red-600 border border-red-200 px-2 py-0.5 rounded-sm uppercase tracking-wider bg-white shadow-sm">Negative Article</span>
               <span className="text-[0.68rem] text-zinc-400 font-bold tracking-widest">{suppressed ? "RANK #10" : "RANK #1"}</span>
             </div>
-            <h5 className="font-bold text-xs text-zinc-900 leading-tight">ALERT: Client Complaints and Scam Claims Against MyBrand</h5>
-            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Reports of poor customer service and scams circulating online forums...</p>
+            <h5 className="font-bold text-xs text-zinc-900 leading-tight truncate">ALERT: Client Complaints and Scam Claims Against MyBrand</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug line-clamp-1 sm:line-clamp-2">Reports of poor customer service and scams circulating online forums...</p>
           </div>
 
           {/* Result 2: Positive Result 1 */}
           <div
             className={`transition-all duration-[1200ms] cubic-bezier(0.16, 1, 0.3, 1) border border-zinc-200 p-4 rounded-xl bg-white shadow-sm absolute inset-x-0 ${
               suppressed ? "translate-y-0" : "translate-y-[98px]"
-            } h-[84px] hover:border-brand-blue/40`}
+            } h-[84px] hover:border-brand-blue/40 overflow-hidden`}
           >
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[0.62rem] font-bold text-emerald-600 border border-emerald-200 px-2 py-0.5 rounded-sm uppercase tracking-wider bg-emerald-50/50">Official Site</span>
               <span className="text-[0.68rem] text-zinc-400 font-bold tracking-widest">{suppressed ? "RANK #1" : "RANK #2"}</span>
             </div>
-            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer">MyBrand | Premium Corporate Quality Solutions</h5>
-            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Welcome to the official homepage of MyBrand. Explore our verified credentials...</p>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer truncate">MyBrand | Premium Corporate Quality Solutions</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug line-clamp-1 sm:line-clamp-2">Welcome to the official homepage of MyBrand. Explore our verified credentials...</p>
           </div>
 
           {/* Result 3: Positive Result 2 */}
           <div
             className={`transition-all duration-[1200ms] cubic-bezier(0.16, 1, 0.3, 1) border border-zinc-200 p-4 rounded-xl bg-white shadow-sm absolute inset-x-0 ${
               suppressed ? "translate-y-[98px]" : "translate-y-[196px]"
-            } h-[84px] hover:border-brand-blue/40`}
+            } h-[84px] hover:border-brand-blue/40 overflow-hidden`}
           >
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[0.62rem] font-bold text-brand-blue border border-brand-blue/20 px-2 py-0.5 rounded-sm uppercase tracking-wider bg-blue-50/50">Press Release</span>
               <span className="text-[0.68rem] text-zinc-400 font-bold tracking-widest">{suppressed ? "RANK #2" : "RANK #3"}</span>
             </div>
-            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer">MyBrand Named Top 10 Best Growing Agencies of 2026</h5>
-            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Industry review lists MyBrand among the fastest-growing and highest-rated...</p>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer truncate">MyBrand Named Top 10 Best Growing Agencies of 2026</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug line-clamp-1 sm:line-clamp-2">Industry review lists MyBrand among the fastest-growing and highest-rated...</p>
           </div>
 
           {/* Result 4: Positive Result 3 */}
           <div
             className={`transition-all duration-[1200ms] cubic-bezier(0.16, 1, 0.3, 1) border border-zinc-200 p-4 rounded-xl bg-white shadow-sm absolute inset-x-0 ${
               suppressed ? "translate-y-[196px] opacity-100" : "translate-y-[294px] opacity-0"
-            } h-[84px] hover:border-brand-blue/40`}
+            } h-[84px] hover:border-brand-blue/40 overflow-hidden`}
           >
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[0.62rem] font-bold text-brand-gold border border-brand-gold/30 px-2 py-0.5 rounded-sm uppercase tracking-wider bg-brand-gold/5">Trustpilot Reviews</span>
               <span className="text-[0.68rem] text-zinc-400 font-bold tracking-widest">RANK #3</span>
             </div>
-            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer">Verified Customer Reviews for MyBrand (4.8 / 5.0)</h5>
-            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug">Over 1,200 verified users rank MyBrand with outstanding scores for support...</p>
+            <h5 className="font-bold text-xs text-brand-blue leading-tight hover:underline cursor-pointer truncate">Verified Customer Reviews for MyBrand (4.8 / 5.0)</h5>
+            <p className="text-[0.68rem] text-zinc-500 mt-1 leading-snug line-clamp-1 sm:line-clamp-2">Over 1,200 verified users rank MyBrand with outstanding scores for support...</p>
           </div>
         </div>
 
-        <div className="border-t border-zinc-100 pt-5 mt-2 flex gap-4 items-center justify-between">
+        {/* Updated Bottom Bar for Mobile Support */}
+        <div className="border-t border-zinc-100 pt-5 mt-2 flex flex-col sm:flex-row gap-4 items-center justify-between text-center sm:text-left">
           <p className="text-[0.7rem] text-zinc-500 font-medium">
             {animating ? "Running search suppression protocol..." : suppressed ? "Negative content pushed below Page 1." : "Click button to simulate suppression."}
           </p>
@@ -918,12 +919,12 @@ function SERPSuppressionWidget() {
             <button
               onClick={handleSimulate}
               disabled={animating}
-              className={`btn-blue py-2.5 px-6 text-[0.75rem] leading-none shadow-[0_10px_20px_rgba(37,99,235,0.2)] ${animating ? "opacity-50 cursor-not-allowed" : ""}`}
+              className={`btn-blue w-full sm:w-auto py-2.5 px-6 text-[0.75rem] leading-none shadow-[0_10px_20px_rgba(37,99,235,0.2)] ${animating ? "opacity-50 cursor-not-allowed" : ""}`}
             >
               {animating ? "Suppressing..." : "Suppress Search Results"}
             </button>
           ) : (
-            <button onClick={handleReset} className="btn-outline border-zinc-300 text-zinc-700 hover:bg-zinc-50 hover:border-zinc-400 py-2.5 px-6 text-[0.75rem] leading-none transition-all">
+            <button onClick={handleReset} className="btn-outline w-full sm:w-auto border-zinc-300 text-zinc-700 hover:bg-zinc-50 hover:border-zinc-400 py-2.5 px-6 text-[0.75rem] leading-none transition-all">
               Reset Simulator
             </button>
           )}
