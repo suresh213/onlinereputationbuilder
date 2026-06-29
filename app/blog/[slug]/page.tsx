@@ -242,7 +242,7 @@ export default function BlogDetailPage({ params }: Props) {
 
   const serviceLink = serviceLinks[post.slug];
 
-  const siteUrl = "https://www.onlinereputationbuilder.in";
+  const siteUrl = "https://onlinereputationbuilder.in";
 
   const authorUrls: Record<string, string> = {
     "Suresh Sharma": `${siteUrl}/about`,

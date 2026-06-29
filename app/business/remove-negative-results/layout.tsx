@@ -55,11 +55,11 @@ const serviceSchema = {
   "@type": "ProfessionalService",
   "name": "Remove Negative Search Results Service",
   "description": "Suppress and remove negative Google search results, complaint pages, and forum posts. Rank positive content on the first page permanently.",
-  "url": "https://www.onlinereputationbuilder.in/business/remove-negative-results",
+  "url": "https://onlinereputationbuilder.in/business/remove-negative-results",
   "provider": {
     "@type": "Organization",
     "name": "Online Reputation Builder",
-    "url": "https://www.onlinereputationbuilder.in"
+    "url": "https://onlinereputationbuilder.in"
   },
   "areaServed": "IN",
   "serviceType": "Online Reputation Management"

@@ -55,11 +55,11 @@ const serviceSchema = {
   "@type": "ProfessionalService",
   "name": "Fake News & Defamatory Article Removal Service",
   "description": "Remove fake news posts, online defamation, and unverified allegations from search indexes using DMCA takedowns and legal defamation tools.",
-  "url": "https://www.onlinereputationbuilder.in/review-management/fake-news-removal",
+  "url": "https://onlinereputationbuilder.in/review-management/fake-news-removal",
   "provider": {
     "@type": "Organization",
     "name": "Online Reputation Builder",
-    "url": "https://www.onlinereputationbuilder.in"
+    "url": "https://onlinereputationbuilder.in"
   },
   "areaServed": "IN",
   "serviceType": "Online Reputation Management"

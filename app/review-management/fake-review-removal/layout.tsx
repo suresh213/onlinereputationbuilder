@@ -63,11 +63,11 @@ const serviceSchema = {
   "@type": "ProfessionalService",
   "name": "Fake Review Removal Service",
   "description": "Legal identification, reporting, and removal of fake, spam, and policy-violating reviews from Google, Yelp, Trustpilot, and Glassdoor.",
-  "url": "https://www.onlinereputationbuilder.in/review-management/fake-review-removal",
+  "url": "https://onlinereputationbuilder.in/review-management/fake-review-removal",
   "provider": {
     "@type": "Organization",
     "name": "Online Reputation Builder",
-    "url": "https://www.onlinereputationbuilder.in"
+    "url": "https://onlinereputationbuilder.in"
   },
   "areaServed": "IN",
   "serviceType": "Online Reputation Management"

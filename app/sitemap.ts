@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { blogPosts } from "./blog/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.onlinereputationbuilder.in";
+  const baseUrl = "https://onlinereputationbuilder.in";
   
   const staticRoutes = [
     "",

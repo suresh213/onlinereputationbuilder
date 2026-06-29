@@ -10,7 +10,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://www.onlinereputationbuilder.in";
+const siteUrl = "https://onlinereputationbuilder.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
