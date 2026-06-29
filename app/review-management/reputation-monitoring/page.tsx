@@ -650,11 +650,11 @@ export default function ReputationMonitoringPage() {
 
       {/* ── FAQ ──────────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
-        <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-white border-l border-zinc-100 pointer-events-none hidden lg:block" />
+        
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
             <RevealOnScroll>
-              <div className="sticky top-24 lg:col-span-2">
+              <div className="sticky top-24">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Reputation Monitoring <span className="heading-script text-brand-blue">FAQs</span></h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about monitoring your brand? Get a free consultation and platform demo - no obligation.</p>
@@ -664,7 +664,7 @@ export default function ReputationMonitoringPage() {
                 </a>
               </div>
             </RevealOnScroll>
-            <RevealOnScroll delay={200} className="lg:col-span-3">
+            <RevealOnScroll delay={200}>
               <div className="bg-white rounded-3xl shadow-sm border border-zinc-200/80 p-2 md:p-6">
                 <FAQ items={faqs} />
               </div>
@@ -684,7 +684,7 @@ export default function ReputationMonitoringPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Start Monitoring Your Brand <span className="heading-script text-brand-blue">Before the Next Crisis Hits</span>
+                Start Monitoring Your Brand <span className="heading-script text-blue-400">Before the Next Crisis Hits</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free brand monitoring consultation today. Our experts will show you exactly what&apos;s being said about your brand online - and how to stay in control.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">

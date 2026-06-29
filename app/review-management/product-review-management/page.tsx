@@ -571,7 +571,7 @@ export default function ProductReviewsManagementPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Get Started</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Turn Reviews into <span className="heading-script text-brand-blue">Revenue?</span>
+                Ready to Turn Reviews into <span className="heading-script text-blue-400">Revenue?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
                 Get a free 14-point review audit across your top platforms. Our experts will assess your situation and present a clear action plan - no commitment, no credit card required.
