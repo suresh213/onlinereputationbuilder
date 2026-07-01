@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
     domains: ['onlinereputationbuilder.in']
+  },
+  experimental: {
+    optimizeCss: true
   }
 };
 
