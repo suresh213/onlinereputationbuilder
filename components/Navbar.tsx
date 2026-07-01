@@ -145,7 +145,7 @@
 // //         <Link href="/" className="flex-shrink-0 flex items-center gap-3 group relative z-20">
 // //           <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
 // //             <Image 
-// //               src="/logo-orm.png"
+// //               src="/logo-orm.webp"
 // //               alt="Online Reputation Builder Logo"
 // //               width={48}
 // //               height={48}
@@ -466,7 +466,7 @@
 //         <Link href="/" className="flex-shrink-0 flex items-center gap-3 group relative z-20">
 //           <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
 //             <Image 
-//               src="/logo-orm.png"
+//               src="/logo-orm.webp"
 //               alt="Online Reputation Builder Logo"
 //               width={48}
 //               height={48}
@@ -786,7 +786,7 @@ export default function Navbar() {
         <Link href="/" className="flex-shrink-0 flex items-center gap-2 sm:gap-3 group relative">
           <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
             <Image 
-              src="/logo-orm.png"
+              src="/logo-orm.webp"
               alt="Online Reputation Builder Logo"
               width={48}
               height={48}

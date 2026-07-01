@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Online Reputation Builder",
     images: [
       {
-        url: "/logo-orm.png",
+        url: "/logo-orm.webp",
         width: 1200,
         height: 630,
         alt: "Online Reputation Builder Logo",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Online Reputation Builder – #1 ORM Company in India",
     description:
       "Protect & enhance your online reputation with India's #1 ORM agency. Trusted by 1200+ clients.",
-    images: ["/logo-orm.png"],
+    images: ["/logo-orm.webp"],
   },
   robots: {
     index: true,
@@ -87,7 +87,7 @@ export default function RootLayout({
                 "name": "Online Reputation Builder",
                 "description": "India's No.1 Online Reputation Management Company in Delhi",
                 "url": siteUrl,
-                "logo": `${siteUrl}/logo-orm.png`,
+                "logo": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",
                 "email": "contact@onlinereputationbuilder.in",
                 "sameAs": [
@@ -110,7 +110,7 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
                 "name": "Online Reputation Builder",
-                "image": `${siteUrl}/logo-orm.png`,
+                "image": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",
                 "email": "contact@onlinereputationbuilder.in",
                 "url": siteUrl,

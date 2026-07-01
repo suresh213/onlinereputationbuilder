@@ -38,7 +38,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               "name": "Online Reputation Builder",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://onlinereputationbuilder.in/logo-orm.png"
+                "url": "https://onlinereputationbuilder.in/logo-orm.webp"
               }
             }
           })

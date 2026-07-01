@@ -195,7 +195,7 @@ export default function Footer() {
             {/* Replaced SVG with new logo image */}
             <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
               <Image 
-                src="/logo-orm.png"
+                src="/logo-orm.webp"
                 alt="Online Reputation Builder Logo"
                 width={40}
                 height={40}

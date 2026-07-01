@@ -65,19 +65,19 @@ const clients = [
 ];
 
 const mediaLogos = [
-  { name: "CNW", img: "/images/media/cnw.png" },
+  { name: "CNW", img: "/images/media/cnw.webp" },
   { name: "ANI", img: "/images/media/ani.png" },
-  { name: "ET", img: "/images/media/et.png" },
-  { name: "Times Now", img: "/images/media/timesnow.png" },
-  { name: "Forbes", img: "/images/media/forbes.png" },
+  { name: "ET", img: "/images/media/et.webp" },
+  { name: "Times Now", img: "/images/media/timesnow.webp" },
+  { name: "Forbes", img: "/images/media/forbes.webp" },
   { name: "DNA", img: "/images/media/dna.png" },
-  { name: "CNBC", img: "/images/media/cnbc.png" },
-  { name: "Hindustan", img: "/images/media/hindustan.png" },
-  { name: "Business Standard", img: "/images/media/businessstandard.png" },
-  { name: "India Today", img: "/images/media/indiatoday.png" },
-  { name: "Midday", img: "/images/media/midday.png" },
-  { name: "Yahoo", img: "/images/media/yahoo.png" },
-  { name: "Outlook", img: "/images/media/outlook.png" },
+  { name: "CNBC", img: "/images/media/cnbc.webp" },
+  { name: "Hindustan", img: "/images/media/hindustan.webp" },
+  { name: "Business Standard", img: "/images/media/businessstandard.webp" },
+  { name: "India Today", img: "/images/media/indiatoday.webp" },
+  { name: "Midday", img: "/images/media/midday.webp" },
+  { name: "Yahoo", img: "/images/media/yahoo.webp" },
+  { name: "Outlook", img: "/images/media/outlook.webp" },
 ];
 
 const faqs = [

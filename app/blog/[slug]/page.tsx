@@ -324,7 +324,7 @@ export default function BlogDetailPage({ params }: Props) {
       "name": "Online Reputation Builder",
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/logo-orm.png`,
+        "url": `${siteUrl}/logo-orm.webp`,
       },
     },
     "description": post.excerpt,
