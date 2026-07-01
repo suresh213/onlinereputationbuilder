@@ -29,7 +29,7 @@ const importanceReasons = [
     title: "Protect Your Brand Image",
     desc: "Harmful TikTok videos and posts can spread virally within minutes, damaging your personal or business credibility. If left unchecked, negative TikTok content erodes trust with your audience, potential clients, and partners.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -39,7 +39,7 @@ const importanceReasons = [
     title: "Stop Viral Spread Fast",
     desc: "TikTok's algorithm can push negative content to millions of viewers rapidly. Early removal prevents the snowball effect where damaging videos keep accumulating views and comments, making the problem progressively harder to contain.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/>
       </svg>
     ),
@@ -49,7 +49,7 @@ const importanceReasons = [
     title: "Avoid Legal Consequences",
     desc: "Some harmful TikTok content - including defamatory claims, copyright violations, or harassment - can expose you to legal liability. Prompt removal protects you from potential lawsuits and reduces the risk of costly litigation.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
       </svg>
     ),
@@ -59,7 +59,7 @@ const importanceReasons = [
     title: "Reclaim Your TikTok Narrative",
     desc: "By removing or suppressing damaging content, you regain control over your TikTok presence. With a clean, positive profile, you can rebuild audience trust and ensure your brand's true story is what people see.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
       </svg>
     ),
@@ -285,7 +285,7 @@ export default function TikTokRemovalPage() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">Video Removed</p>
@@ -433,7 +433,7 @@ export default function TikTokRemovalPage() {
             href="tel:+918882788412"
             className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
           >
-            <svg
+            <svg width="16" height="16"
               className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"

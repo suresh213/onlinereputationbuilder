@@ -141,7 +141,7 @@ export default function BlogListingPage() {
                     <span className="text-[0.65rem] font-bold uppercase tracking-wider text-zinc-500">By {post.author}</span>
                     <Link href={`/blog/${post.slug}`} className="text-brand-blue font-bold text-xs hover:text-brand-dark transition-colors inline-flex items-center gap-1 group/link">
                       Read More
-                      <svg className="w-3.5 h-3.5 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg width="14" height="14" className="w-3.5 h-3.5 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </Link>

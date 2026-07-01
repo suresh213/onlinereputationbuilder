@@ -14,7 +14,7 @@
 //     title: "Opt Out of People Search Databases",
 //     desc: "Data broker and people-search sites aggregate your personal details from public records and sell them openly. We identify every database that lists you and file opt-out requests on your behalf.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
 //       </svg>
 //     ),
@@ -24,7 +24,7 @@
 //     title: "Review Social Media Platforms",
 //     desc: "Timely review your social media platforms for information that people can use to guess passwords, locate you, or exploit personal details. We audit and clean your social footprint.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
 //       </svg>
 //     ),
@@ -34,7 +34,7 @@
 //     title: "Review Smartphone App Permissions",
 //     desc: "Many apps collect far more data than they need. We help you audit and restrict app permissions to minimise the amount of personal information being continuously shared.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
 //       </svg>
 //     ),
@@ -44,7 +44,7 @@
 //     title: "Check for Data Breach Exposure",
 //     desc: "Check to see if your information was exposed in a data breach. We scan known breach databases and advise on immediate steps to secure compromised accounts and details.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
 //       </svg>
 //     ),
@@ -54,7 +54,7 @@
 //     title: "Search Through Complex Privacy Policies",
 //     desc: "We help you identify red flags in privacy policies of services you use, highlighting data collection and sharing clauses that put your personal information at risk.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
 //       </svg>
 //     ),
@@ -231,7 +231,7 @@
 //               ].map((item) => (
 //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
 //                   <span className="check-icon">
-//                     <svg
+//                     <svg width="10" height="10"
 //                       className="w-2.5 h-2.5"
 //                       fill="none"
 //                       stroke="currentColor"
@@ -258,7 +258,7 @@
 //             {/* Privacy assurance tag */}
 //             <div className="mt-8 pt-6 border-t border-white/8 flex items-center gap-3">
 //               <div className="w-8 h-8 rounded-full bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center flex-shrink-0">
-//                 <svg
+//                 <svg width="16" height="16"
 //                   className="w-4 h-4 text-brand-gold"
 //                   fill="none"
 //                   stroke="currentColor"
@@ -294,7 +294,7 @@
 //                   </h2>
 //                 </div>
 //                 <div className="w-10 h-10 rounded-lg bg-brand-blue/8 border border-brand-blue/15 flex items-center justify-center flex-shrink-0">
-//                   <svg
+//                   <svg width="20" height="20"
 //                     className="w-5 h-5 text-brand-blue"
 //                     fill="none"
 //                     stroke="currentColor"
@@ -443,7 +443,7 @@
 //             </div>
 //             <div className="floating-badge absolute -bottom-4 -right-4 z-10 flex items-center gap-2.5">
 //               <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
-//                 <svg
+//                 <svg width="16" height="16"
 //                   className="w-4 h-4 text-green-600"
 //                   fill="none"
 //                   stroke="currentColor"
@@ -486,7 +486,7 @@
 //             <div className="bg-red-50 border border-red-100 rounded-xl p-5 mb-8">
 //               <div className="flex items-start gap-3">
 //                 <div className="w-8 h-8 rounded-lg bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-//                   <svg
+//                   <svg width="16" height="16"
 //                     className="w-4 h-4 text-red-500"
 //                     fill="none"
 //                     stroke="currentColor"
@@ -589,7 +589,7 @@
 //                 href="tel:+918882788412"
 //                 className="btn-gold inline-flex items-center gap-2"
 //               >
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 //                 </svg>
 //                 Call Us Now
@@ -664,7 +664,7 @@
 //               href="tel:+918882788412"
 //               className="btn-gold inline-flex items-center gap-2"
 //             >
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 //               </svg>
 //               Call Now
@@ -705,7 +705,7 @@ const selfProtectionSteps = [
     title: "Opt Out of People Search Databases",
     desc: "Data broker and people-search sites aggregate your personal details from public records and sell them openly. We identify every database that lists you and file opt-out requests on your behalf.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
       </svg>
     ),
@@ -715,7 +715,7 @@ const selfProtectionSteps = [
     title: "Review Social Media Platforms",
     desc: "Timely review your social media platforms for information that people can use to guess passwords, locate you, or exploit personal details. We audit and clean your social footprint.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
       </svg>
     ),
@@ -725,7 +725,7 @@ const selfProtectionSteps = [
     title: "Review Smartphone App Permissions",
     desc: "Many apps collect far more data than they need. We help you audit and restrict app permissions to minimise the amount of personal information being continuously shared.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
       </svg>
     ),
@@ -735,7 +735,7 @@ const selfProtectionSteps = [
     title: "Check for Data Breach Exposure",
     desc: "Check to see if your information was exposed in a data breach. We scan known breach databases and advise on immediate steps to secure compromised accounts and details.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
       </svg>
     ),
@@ -745,7 +745,7 @@ const selfProtectionSteps = [
     title: "Search Through Complex Privacy Policies",
     desc: "We help you identify red flags in privacy policies of services you use, highlighting data collection and sharing clauses that put your personal information at risk.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
       </svg>
     ),
@@ -948,7 +948,7 @@ export default function RemovePrivateInfoPage() {
                   "Navigate complex privacy policies on your behalf",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-[0.85rem] text-white/80 font-medium">
-                    <svg className="w-4 h-4 text-brand-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg width="16" height="16" className="w-4 h-4 text-brand-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -968,7 +968,7 @@ export default function RemovePrivateInfoPage() {
 
             <div className="mt-10 pt-6 border-t border-white/10 flex items-start gap-4">
               <div className="w-10 h-10 rounded-xl bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                <svg className="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg width="20" height="20" className="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
@@ -992,7 +992,7 @@ export default function RemovePrivateInfoPage() {
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                  <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
@@ -1139,7 +1139,7 @@ export default function RemovePrivateInfoPage() {
               
               <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl flex items-center gap-4 hidden md:flex">
                 <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="20" height="20" className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
@@ -1174,7 +1174,7 @@ export default function RemovePrivateInfoPage() {
               <div className="bg-red-50/80 border border-red-100 rounded-2xl p-6 mb-10 shadow-sm">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-xl bg-red-100 border border-red-200 flex items-center justify-center flex-shrink-0 mt-0.5 shadow-inner">
-                    <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg width="20" height="20" className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
                   </div>
@@ -1250,7 +1250,7 @@ export default function RemovePrivateInfoPage() {
                   your online data exposure.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                  <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
                 </a>
               </div>

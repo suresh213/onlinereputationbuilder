@@ -16,7 +16,7 @@ export default function FAQ({ items }: { items: FAQItem[] }) {
           >
             <span className="text-sm font-semibold text-gray-800 pr-4 leading-snug">{item.q}</span>
             <span className={`text-brand-blue transition-transform duration-200 flex-shrink-0 ${open === i ? "rotate-180" : ""}`}>
-              <svg className="w-4.5 h-4.5 w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4.5 h-4.5 w-[18px] h-[18px]" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
               </svg>
             </span>

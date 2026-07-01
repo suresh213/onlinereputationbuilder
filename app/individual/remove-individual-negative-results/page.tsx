@@ -9,7 +9,7 @@
 // // const approachSteps = [
 // //   {
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
 // //       </svg>
 // //     ),
@@ -19,7 +19,7 @@
 // //   },
 // //   {
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
 // //       </svg>
 // //     ),
@@ -29,7 +29,7 @@
 // //   },
 // //   {
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
 // //       </svg>
 // //     ),
@@ -45,7 +45,7 @@
 // //     title: "Contact the Owner to Take It Down",
 // //     desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
 // //       </svg>
 // //     ),
@@ -55,7 +55,7 @@
 // //     title: "Bad Review Removal Request",
 // //     desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
 // //       </svg>
 // //     ),
@@ -65,7 +65,7 @@
 // //     title: "Bury Negative Content on Google",
 // //     desc: "When removal isn't possible, we approach the owner to add a NO INDEX tag to the web page's HTML. This pushes irrelevant negative content down so it stops appearing on Google's first page.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7"/>
 // //       </svg>
 // //     ),
@@ -75,7 +75,7 @@
 // //     title: "Suppress via Reputation Management",
 // //     desc: "When information cannot be removed, we suppress it completely through ORM. Preferred content is promoted through SEO, systematically pushing negative results below the fold.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 // //       </svg>
 // //     ),
@@ -85,7 +85,7 @@
 // //     title: "Set Up Social Profiles",
 // //     desc: "We build and optimise authoritative social media profiles that rank well in search engines, ensuring your brand controls the narrative with engaging, consistent presence across platforms.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
 // //       </svg>
 // //     ),
@@ -95,7 +95,7 @@
 // //     title: "Authoritative Content & Press Releases",
 // //     desc: "We publish blog comments on high-DA domains, issue press releases on reputable PR sites, and create a consistent positive content footprint that dominates your branded search results.",
 // //     icon: (
-// //       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
 // //       </svg>
 // //     ),
@@ -170,7 +170,7 @@
 // //               ].map((item) => (
 // //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
 // //                   <span className="check-icon">
-// //                     <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12">
+// //                     <svg width="10" height="10" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12">
 // //                       <path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/>
 // //                     </svg>
 // //                   </span>
@@ -208,7 +208,7 @@
 // //                   <h2 className="font-heading text-lg font-bold text-brand-dark leading-tight">Take Control of Your Online Reputation Today</h2>
 // //                 </div>
 // //                 <div className="w-10 h-10 rounded-lg bg-brand-blue/8 border border-brand-blue/15 flex items-center justify-center flex-shrink-0">
-// //                   <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //                   <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 // //                   </svg>
 // //                 </div>
@@ -262,7 +262,7 @@
 // //               </div>
 // //               <div className="floating-badge absolute -bottom-4 -left-4 z-10 flex items-center gap-2.5">
 // //                 <div className="w-9 h-9 rounded-full bg-red-100 flex items-center justify-center">
-// //                   <svg className="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //                   <svg width="16" height="16" className="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
 // //                   </svg>
 // //                 </div>
@@ -320,7 +320,7 @@
 // //                 {["SEO suppression campaigns targeting page 1", "High-quality positive content creation", "PR activation & media outreach", "Legal escalation where appropriate", "Ongoing 24/7 reputation monitoring"].map((item) => (
 // //                   <div key={item} className="flex items-center gap-2.5 text-sm text-zinc-300">
 // //                     <div className="w-4 h-4 rounded-full bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center flex-shrink-0">
-// //                       <svg className="w-2 h-2 text-brand-gold" fill="currentColor" viewBox="0 0 8 8">
+// //                       <svg width="8" height="8" className="w-2 h-2 text-brand-gold" fill="currentColor" viewBox="0 0 8 8">
 // //                         <circle cx="4" cy="4" r="3"/>
 // //                       </svg>
 // //                     </div>
@@ -449,7 +449,7 @@
 // //               </h2>
 // //               <p className="text-zinc-400 text-sm leading-relaxed mb-7">Have a specific situation? Our experts offer a free, no-obligation consultation to assess your case.</p>
 // //               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-// //                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+// //                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 // //                 Call Us Now
 // //               </a>
 // //             </div>
@@ -495,7 +495,7 @@
 // //               ))}
 // //             </div>
 // //             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-// //               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+// //               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 // //               Call Now
 // //             </a>
 // //           </div>
@@ -528,7 +528,7 @@
 // const approachSteps = [
 //   {
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
 //       </svg>
 //     ),
@@ -538,7 +538,7 @@
 //   },
 //   {
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
 //       </svg>
 //     ),
@@ -548,7 +548,7 @@
 //   },
 //   {
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
 //       </svg>
 //     ),
@@ -564,7 +564,7 @@
 //     title: "Contact the Owner to Take It Down",
 //     desc: "The most direct approach - we reach the content source and request deletion or modification. If they agree and comply, the content disappears entirely from Google search result pages.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
 //       </svg>
 //     ),
@@ -574,7 +574,7 @@
 //     title: "Bad Review Removal Request",
 //     desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
 //       </svg>
 //     ),
@@ -584,7 +584,7 @@
 //     title: "Bury Negative Content on Google",
 //     desc: "When removal isn't possible, we approach the owner to add a NO INDEX tag to the web page's HTML. This pushes irrelevant negative content down so it stops appearing on Google's first page.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7"/>
 //       </svg>
 //     ),
@@ -594,7 +594,7 @@
 //     title: "Suppress via Reputation Management",
 //     desc: "When information cannot be removed, we suppress it completely through ORM. Preferred content is promoted through SEO, systematically pushing negative results below the fold.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -604,7 +604,7 @@
 //     title: "Set Up Social Profiles",
 //     desc: "We build and optimise authoritative social media profiles that rank well in search engines, ensuring your brand controls the narrative with engaging, consistent presence across platforms.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
 //       </svg>
 //     ),
@@ -614,7 +614,7 @@
 //     title: "Authoritative Content & Press Releases",
 //     desc: "We publish blog comments on high-DA domains, issue press releases on reputable PR sites, and create a consistent positive content footprint that dominates your branded search results.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
 //       </svg>
 //     ),
@@ -767,7 +767,7 @@
 //                   <h2 className="font-heading text-xl font-bold text-white leading-tight">Take Control of Your Online Reputation Today</h2>
 //                 </div>
 //                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-//                   <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //                   </svg>
 //                 </div>
@@ -826,7 +826,7 @@
               
 //               <div className="absolute -bottom-6 -left-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl flex items-center gap-4 hidden md:flex">
 //                 <div className="w-12 h-12 rounded-xl bg-red-100/80 border border-red-200 flex items-center justify-center flex-shrink-0">
-//                   <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
 //                   </svg>
 //                 </div>
@@ -1044,7 +1044,7 @@
 //                 Have a specific situation? Our experts offer a free, no-obligation consultation to assess your case confidentially.
 //               </p>
 //               <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //                 Call Us Now
 //               </a>
 //             </div>
@@ -1123,7 +1123,7 @@ import Link from "next/link";
 const approachSteps = [
   {
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     ),
@@ -1133,7 +1133,7 @@ const approachSteps = [
   },
   {
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
       </svg>
     ),
@@ -1143,7 +1143,7 @@ const approachSteps = [
   },
   {
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
       </svg>
     ),
@@ -1161,7 +1161,7 @@ const removalMethods = [
     title: "Reputation Analysis",
     desc: "We begin by analyzing negative content, reviews, and search results associated with your brand to understand their impact and develop the most effective reputation management strategy.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
       </svg>
     ),
@@ -1171,7 +1171,7 @@ const removalMethods = [
     title: "Bad Review Removal Request",
     desc: "We file a formal request directly with Google to remove reviews that violate user policy - spam, off-topic content, profanity, conflict of interest, or hate speech. We flag and document the violation thoroughly.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
       </svg>
     ),
@@ -1181,7 +1181,7 @@ const removalMethods = [
     title: "Bury Negative Content on Google",
     desc: "When content cannot be removed, we deploy advanced search engine optimization and digital reputation strategies to elevate positive, authoritative content and suppress unfavorable search results.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7"/>
       </svg>
     ),
@@ -1191,7 +1191,7 @@ const removalMethods = [
     title: "Suppress via Reputation Management",
     desc: "When information cannot be removed, we suppress it completely through ORM. Preferred content is promoted through SEO, systematically pushing negative results below the fold.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -1201,7 +1201,7 @@ const removalMethods = [
     title: "Set Up Social Profiles",
     desc: "We build and optimise authoritative social media profiles that rank well in search engines, ensuring your brand controls the narrative with engaging, consistent presence across platforms.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
       </svg>
     ),
@@ -1211,7 +1211,7 @@ const removalMethods = [
     title: "Authoritative Content & Press Releases",
     desc: "We publish blog comments on high-DA domains, issue press releases on reputable PR sites, and create a consistent positive content footprint that dominates your branded search results.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
       </svg>
     ),
@@ -1364,7 +1364,7 @@ export default function RemoveIndividualNegativeResultsPage() {
                   <h2 className="font-heading text-xl font-bold text-white leading-tight">Take Control of Your Online Reputation Today</h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                  <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
@@ -1423,7 +1423,7 @@ export default function RemoveIndividualNegativeResultsPage() {
               
               <div className="absolute -bottom-6 -left-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
                   </svg>
                 </div>
@@ -1643,7 +1643,7 @@ export default function RemoveIndividualNegativeResultsPage() {
               </p>
               {/* Made button full width on mobile, auto width on larger screens */}
               <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 flex sm:inline-flex w-full sm:w-auto justify-center items-center gap-2 px-8 py-3.5">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call Us Now
               </a>
             </div>

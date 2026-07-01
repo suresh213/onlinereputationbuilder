@@ -18,7 +18,7 @@
 //     title: "Boosting Brand Visibility",
 //     desc: "A well-maintained Quora profile ensures that your brand appears in positive discussions and answers. This visibility strengthens your credibility and attracts more potential customers searching for reliable information about your services.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
 //       </svg>
@@ -28,7 +28,7 @@
 //     title: "Controlling Negative Narratives",
 //     desc: "Proactively managing your profile helps suppress fake Quora content and ensures accurate information about your brand. This control prevents misleading narratives from gaining traction among your audience.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -37,7 +37,7 @@
 //     title: "Improving Search Engine Rankings",
 //     desc: "Quora profiles often rank highly in search results, making them vital for your online presence. Properly managed profiles can replace unwanted content with valuable, brand-positive insights that dominate page one.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
 //       </svg>
 //     ),
@@ -46,7 +46,7 @@
 //     title: "Building Audience Trust",
 //     desc: "Engaging with users through accurate and helpful responses builds trust in your expertise. A clean and professional Quora profile assures audiences of your brand's reliability and customer focus.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
 //       </svg>
 //     ),
@@ -55,7 +55,7 @@
 //     title: "Enhancing Engagement",
 //     desc: "An optimized Quora profile fosters meaningful interactions with users. By addressing questions and concerns effectively, you create stronger connections with potential and existing customers.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
 //       </svg>
 //     ),
@@ -68,7 +68,7 @@
 //     title: "Content Optimization",
 //     desc: "We carefully craft and refine answers that align with your brand voice and address audience queries effectively. This makes sure your responses are engaging, insightful, and positioned to build trust with your audience.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
 //       </svg>
 //     ),
@@ -78,7 +78,7 @@
 //     title: "Profile Enhancement",
 //     desc: "Our team updates your Quora profile with professional details - an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
 //       </svg>
 //     ),
@@ -88,7 +88,7 @@
 //     title: "Engagement Management",
 //     desc: "We actively interact with questions and topics relevant to your industry, consistently providing valuable insights. This increases your brand's visibility, strengthens credibility, and fosters meaningful connections with the Quora community.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
 //       </svg>
 //     ),
@@ -98,7 +98,7 @@
 //     title: "Reputation Protection",
 //     desc: "Our experts monitor for harmful or misleading content about your brand and address it promptly using ethical practices. This safeguards your online reputation and ensures a positive image across the entire platform.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -150,7 +150,7 @@
 //             <ul className="space-y-2 mb-8">
 //               {["Quickly identify and address damaging Quora posts", "Ensure the removal of false or defamatory content effectively", "Protect your brand from potential online harm", "Restore credibility and maintain a positive reputation"].map((item) => (
 //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
-//                   <span className="check-icon"><svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
+//                   <span className="check-icon"><svg width="10" height="10" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
 //                   {item}
 //                 </li>
 //               ))}
@@ -233,7 +233,7 @@
 //               </div>
 //               <div className="floating-badge absolute -bottom-4 -left-4 z-10 flex items-center gap-2.5">
 //                 <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
-//                   <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+//                   <svg width="16" height="16" className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
 //                 </div>
 //                 <div><p className="text-xs font-bold text-zinc-900">Quora Cleaned</p><p className="text-[0.65rem] text-zinc-500">Profile restored</p></div>
 //               </div>
@@ -291,7 +291,7 @@
 //               {["Suppress false or defamatory content effectively", "Ensure complete removal of negative Quora history", "Improve the visibility of accurate, brand-positive posts", "Protect your online reputation with tailored strategies"].map((item) => (
 //                 <div key={item} className="flex items-center gap-3 p-3 rounded-lg bg-zinc-50 border border-zinc-100 hover:border-brand-gold/30 hover:bg-amber-50/50 transition-all group">
 //                   <div className="w-5 h-5 rounded-full bg-brand-gold/10 border border-brand-gold/25 flex items-center justify-center flex-shrink-0">
-//                     <svg className="w-2.5 h-2.5 text-brand-gold" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg>
+//                     <svg width="10" height="10" className="w-2.5 h-2.5 text-brand-gold" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg>
 //                   </div>
 //                   <span className="text-sm text-zinc-700 font-medium group-hover:text-zinc-900 transition-colors">{item}</span>
 //                 </div>
@@ -336,7 +336,7 @@
 //               <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-5 leading-tight">Quora Removal <span className="text-brand-blue">FAQs</span></h2>
 //               <p className="text-zinc-400 text-sm leading-relaxed mb-7">Have a specific case? Our experts offer a free, no-obligation consultation to assess your Quora content situation.</p>
 //               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //                 Call Us Now
 //               </a>
 //             </div>
@@ -367,7 +367,7 @@
 //               ))}
 //             </div>
 //             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //               Call Now
 //             </a>
 //           </div>
@@ -411,7 +411,7 @@ const profileImportance = [
     title: "Boosting Brand Visibility",
     desc: "A well-maintained Quora profile ensures that your brand appears in positive discussions and answers. This visibility strengthens your credibility and attracts more potential customers searching for reliable information about your services.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
       </svg>
@@ -421,7 +421,7 @@ const profileImportance = [
     title: "Controlling Negative Narratives",
     desc: "Proactively managing your profile helps suppress fake Quora content and ensures accurate information about your brand. This control prevents misleading narratives from gaining traction among your audience.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -430,7 +430,7 @@ const profileImportance = [
     title: "Improving Search Engine Rankings",
     desc: "Quora profiles often rank highly in search results, making them vital for your online presence. Properly managed profiles can replace unwanted content with valuable, brand-positive insights that dominate page one.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     ),
@@ -439,7 +439,7 @@ const profileImportance = [
     title: "Building Audience Trust",
     desc: "Engaging with users through accurate and helpful responses builds trust in your expertise. A clean and professional Quora profile assures audiences of your brand's reliability and customer focus.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
       </svg>
     ),
@@ -448,7 +448,7 @@ const profileImportance = [
     title: "Enhancing Engagement",
     desc: "An optimized Quora profile fosters meaningful interactions with users. By addressing questions and concerns effectively, you create stronger connections with potential and existing customers.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
       </svg>
     ),
@@ -461,7 +461,7 @@ const managementMethods = [
     title: "Content Optimization",
     desc: "We carefully craft and refine answers that align with your brand voice and address audience queries effectively. This makes sure your responses are engaging, insightful, and positioned to build trust with your audience.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
       </svg>
     ),
@@ -471,7 +471,7 @@ const managementMethods = [
     title: "Profile Enhancement",
     desc: "Our team updates your Quora profile with professional details - an impactful bio, branding elements, and relevant links. This establishes your authority and makes your profile stand out as a credible source in your niche.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
       </svg>
     ),
@@ -481,7 +481,7 @@ const managementMethods = [
     title: "Engagement Management",
     desc: "We actively interact with questions and topics relevant to your industry, consistently providing valuable insights. This increases your brand's visibility, strengthens credibility, and fosters meaningful connections with the Quora community.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
       </svg>
     ),
@@ -491,7 +491,7 @@ const managementMethods = [
     title: "Reputation Protection",
     desc: "Our experts monitor for harmful or misleading content about your brand and address it promptly using ethical practices. This safeguards your online reputation and ensures a positive image across the entire platform.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -765,7 +765,7 @@ export default function QuoraContentRemovalPage() {
                 
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">Quora Cleaned</p>
@@ -855,7 +855,7 @@ export default function QuoraContentRemovalPage() {
                 <RevealOnScroll key={item} delay={i * 100}>
                   <div className="flex items-center gap-4 p-4 rounded-xl bg-zinc-50 border border-zinc-100 hover:border-brand-gold/30 hover:bg-amber-50/50 transition-all group">
                     <div className="w-8 h-8 rounded-full bg-brand-gold/10 border border-brand-gold/25 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                      <svg className="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg>
+                      <svg width="16" height="16" className="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg>
                     </div>
                     <span className="text-[0.95rem] text-zinc-700 font-medium group-hover:text-zinc-900 transition-colors">{item}</span>
                   </div>
@@ -931,7 +931,7 @@ export default function QuoraContentRemovalPage() {
             href="tel:+918882788412"
             className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
           >
-            <svg
+            <svg width="16" height="16"
               className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"

@@ -26,7 +26,7 @@
 //     title: "Protect Your Reputation",
 //     desc: "Fake news content can significantly damage personal and business credibility, impacting both short-term and long-term trust. If left unchecked, it can erode relationships with clients, partners, and the public, making it harder to rebuild your reputation.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -36,7 +36,7 @@
 //     title: "Prevent Financial Losses",
 //     desc: "Misleading information can cause businesses to lose clients and revenue, making it critical to take action quickly. The financial fallout from damaged trust can be far-reaching, affecting sales, partnerships, and even employee morale.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
 //       </svg>
 //     ),
@@ -46,7 +46,7 @@
 //     title: "Avoid Legal Consequences",
 //     desc: "Some fake news can result in lawsuits or legal issues if left unaddressed, making removal a proactive solution. Legal claims can further harm your reputation and incur significant costs, making prompt action vital to avoid litigation.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
 //       </svg>
 //     ),
@@ -56,7 +56,7 @@
 //     title: "Control Your Narrative",
 //     desc: "By permanently removing harmful content, you regain control over how your brand is perceived online. Ensuring that accurate and positive information is visible allows you to present the true story and protect your image.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
 //       </svg>
 //     ),
@@ -116,7 +116,7 @@
 //             <ul className="space-y-2 mb-8">
 //               {["Immediate steps to address damaging news content", "Proven strategies for permanently removing harmful content", "Ensuring your digital presence remains trustworthy", "Skilled professionals dedicated to suppressing unwanted or negative content"].map((item) => (
 //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
-//                   <span className="check-icon"><svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
+//                   <span className="check-icon"><svg width="10" height="10" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
 //                   {item}
 //                 </li>
 //               ))}
@@ -127,7 +127,7 @@
 //             </div>
 //             <div className="mt-8 pt-6 border-t border-white/8 flex items-center gap-3">
 //               <div className="w-9 h-9 rounded-lg bg-red-500/20 border border-red-400/30 flex items-center justify-center flex-shrink-0">
-//                 <svg className="w-4 h-4 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+//                 <svg width="16" height="16" className="w-4 h-4 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
 //               </div>
 //               <p className="text-white/50 text-xs">Fake news spreads <span className="text-white/80 font-semibold">6× faster</span> than true information - every hour of delay amplifies the damage to your brand</p>
 //             </div>
@@ -142,7 +142,7 @@
 //                   <h2 className="font-heading text-lg font-bold text-brand-dark leading-tight">We&apos;re Here to Help</h2>
 //                 </div>
 //                 <div className="w-10 h-10 rounded-lg bg-red-50 border border-red-100 flex items-center justify-center flex-shrink-0">
-//                   <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+//                   <svg width="20" height="20" className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
 //                 </div>
 //               </div>
 //               <ContactForm />
@@ -200,7 +200,7 @@
 //               </div>
 //               <div className="floating-badge absolute -bottom-4 -right-4 z-10 flex items-center gap-2.5">
 //                 <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
-//                   <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+//                   <svg width="16" height="16" className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
 //                 </div>
 //                 <div><p className="text-xs font-bold text-zinc-900">Content Removed</p><p className="text-[0.65rem] text-zinc-500">Reputation restored</p></div>
 //               </div>
@@ -295,7 +295,7 @@
 //               <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-5 leading-tight">Fake News Removal <span className="text-brand-blue">FAQs</span></h2>
 //               <p className="text-zinc-400 text-sm leading-relaxed mb-7">Have a specific case? Our experts offer a free assessment of your fake news situation and present a clear removal plan.</p>
 //               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //                 Call Us Now
 //               </a>
 //             </div>
@@ -326,7 +326,7 @@
 //               ))}
 //             </div>
 //             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //               Call Now
 //             </a>
 //           </div>
@@ -378,7 +378,7 @@ const importanceReasons = [
     title: "Protect Your Reputation",
     desc: "Fake news content can significantly damage personal and business credibility, impacting both short-term and long-term trust. If left unchecked, it can erode relationships with clients, partners, and the public, making it harder to rebuild your reputation.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -388,7 +388,7 @@ const importanceReasons = [
     title: "Prevent Financial Losses",
     desc: "Misleading information can cause businesses to lose clients and revenue, making it critical to take action quickly. The financial fallout from damaged trust can be far-reaching, affecting sales, partnerships, and even employee morale.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
       </svg>
     ),
@@ -398,7 +398,7 @@ const importanceReasons = [
     title: "Avoid Legal Consequences",
     desc: "Some fake news can result in lawsuits or legal issues if left unaddressed, making removal a proactive solution. Legal claims can further harm your reputation and incur significant costs, making prompt action vital to avoid litigation.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
       </svg>
     ),
@@ -408,7 +408,7 @@ const importanceReasons = [
     title: "Control Your Narrative",
     desc: "By permanently removing harmful content, you regain control over how your brand is perceived online. Ensuring that accurate and positive information is visible allows you to present the true story and protect your image.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
       </svg>
     ),
@@ -572,7 +572,7 @@ export default function FakeNewsRemovalPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-transparent pointer-events-none" />
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-red-500/20 border border-red-400/30 flex items-center justify-center flex-shrink-0 shadow-inner">
-                    <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <svg width="20" height="20" className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
                     Fake news spreads <span className="text-white font-bold">6× faster</span> than true information - every hour of delay amplifies the damage to your brand.
@@ -605,7 +605,7 @@ export default function FakeNewsRemovalPage() {
                     </h2>
                   </div>
                   <div className="w-12 h-12 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                    <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                   </div>
                 </div>
                 <ContactForm dark />
@@ -690,7 +690,7 @@ export default function FakeNewsRemovalPage() {
                 
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">Content Removed</p>
@@ -858,7 +858,7 @@ export default function FakeNewsRemovalPage() {
             href="tel:+918882788412"
             className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
           >
-            <svg
+            <svg width="16" height="16"
               className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"

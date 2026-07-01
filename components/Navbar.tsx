@@ -166,7 +166,7 @@
 // //                 {/* Changed button to Link for Mega Menu */}
 // //                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
 // //                   {item.label}
-// //                   <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+// //                   <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
 // //                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
 // //                   </svg>
 // //                 </Link>
@@ -197,7 +197,7 @@
 // //                 {/* Changed button to Link for Standard Dropdown */}
 // //                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
 // //                   {item.label}
-// //                   <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+// //                   <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
 // //                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
 // //                   </svg>
 // //                 </Link>
@@ -226,7 +226,7 @@
 // //             className="hidden lg:inline-flex items-center gap-2 btn-gold text-[0.8rem] whitespace-nowrap shadow-[0_8px_20px_rgba(194,148,10,0.2)] hover:shadow-[0_10px_25px_rgba(194,148,10,0.3)] px-6 py-2.5"
 // //             aria-label="Call us"
 // //           >
-// //             <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+// //             <svg width="16" height="16" className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
 // //               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 // //             </svg>
 // //             +9188827 88412
@@ -238,11 +238,11 @@
 // //             aria-label="Toggle menu"
 // //           >
 // //             {mobileOpen ? (
-// //               <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //               <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
 // //               </svg>
 // //             ) : (
-// //               <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //               <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
 // //               </svg>
 // //             )}
@@ -276,7 +276,7 @@
 // //                       aria-label={`Toggle ${item.label} sub-menu`}
 // //                     >
 // //                       <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-300 ${openDrop === item.label ? "rotate-180 bg-brand-blue/10 text-brand-blue" : "bg-zinc-50 text-zinc-500"}`}>
-// //                         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+// //                         <svg width="12" height="12" className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 // //                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7"/>
 // //                         </svg>
 // //                       </div>
@@ -312,7 +312,7 @@
           
 // //           <div className="pt-6 pb-8">
 // //             <a href="tel:+918882788412" className="btn-gold w-full text-center flex items-center justify-center gap-2 py-3.5 shadow-lg shadow-brand-gold/20">
-// //               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+// //               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 // //                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 // //               </svg>
 // //               Call: +9188827 88412
@@ -486,7 +486,7 @@
 //               <div key={item.label} className="group relative flex items-center h-[70px]">
 //                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
 //                   {item.label}
-//                   <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+//                   <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
 //                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
 //                   </svg>
 //                 </Link>
@@ -518,7 +518,7 @@
 //               <div key={item.label} className="dropdown group relative flex items-center h-[70px]">
 //                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
 //                   {item.label}
-//                   <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+//                   <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
 //                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
 //                   </svg>
 //                 </Link>
@@ -551,7 +551,7 @@
 //             className="hidden lg:inline-flex items-center gap-2 btn-gold text-[0.8rem] whitespace-nowrap shadow-[0_8px_20px_rgba(194,148,10,0.2)] hover:shadow-[0_10px_25px_rgba(194,148,10,0.3)] px-6 py-2.5"
 //             aria-label="Call us"
 //           >
-//             <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+//             <svg width="16" height="16" className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
 //               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 //             </svg>
 //             +9188827 88412
@@ -563,11 +563,11 @@
 //             aria-label="Toggle menu"
 //           >
 //             {mobileOpen ? (
-//               <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//               <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
 //               </svg>
 //             ) : (
-//               <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//               <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
 //               </svg>
 //             )}
@@ -600,7 +600,7 @@
 //                       aria-label={`Toggle ${item.label} sub-menu`}
 //                     >
 //                       <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-300 ${openDrop === item.label ? "rotate-180 bg-brand-blue/10 text-brand-blue" : "bg-zinc-50 text-zinc-500"}`}>
-//                         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                         <svg width="12" height="12" className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7"/>
 //                         </svg>
 //                       </div>
@@ -636,7 +636,7 @@
           
 //           <div className="pt-6 pb-8">
 //             <a href="tel:+918882788412" className="btn-gold w-full text-center flex items-center justify-center gap-2 py-3.5 shadow-lg shadow-brand-gold/20">
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 //               </svg>
 //               Call: +9188827 88412
@@ -806,7 +806,7 @@ export default function Navbar() {
               <div key={item.label} className="group relative flex items-center h-[70px]">
                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
                   {item.label}
-                  <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+                  <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
                   </svg>
                 </Link>
@@ -837,7 +837,7 @@ export default function Navbar() {
               <div key={item.label} className="dropdown group relative flex items-center h-[70px]">
                 <Link href={item.href} className="nav-link px-3 py-2 flex items-center gap-1.5 bg-transparent border-none cursor-pointer uppercase text-[0.75rem] font-bold text-zinc-800 tracking-[0.05em] hover:text-brand-blue transition-colors relative after:absolute after:bottom-0 after:left-3 after:w-[calc(100%-1.5rem)] after:h-0.5 after:bg-brand-blue after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
                   {item.label}
-                  <svg className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
+                  <svg width="14" height="14" className="w-3.5 h-3.5 mt-0.5 text-zinc-400 group-hover:text-brand-blue group-hover:rotate-180 transition-all duration-300" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
                   </svg>
                 </Link>
@@ -881,11 +881,11 @@ export default function Navbar() {
             aria-label="Toggle menu"
           >
             {mobileOpen ? (
-              <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
               </svg>
             ) : (
-              <svg className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg width="20" height="20" className="w-5 h-5 text-zinc-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
               </svg>
             )}
@@ -920,7 +920,7 @@ export default function Navbar() {
                       aria-label={`Toggle ${item.label} sub-menu`}
                     >
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-300 ${openDrop === item.label ? "rotate-180 bg-brand-blue/10 text-brand-blue" : "bg-zinc-50 text-zinc-500"}`}>
-                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg width="12" height="12" className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7"/>
                         </svg>
                       </div>
@@ -944,7 +944,7 @@ export default function Navbar() {
                               className="w-full flex items-center justify-between py-2.5 text-[0.8rem] font-bold text-zinc-700 hover:text-brand-blue transition-colors"
                             >
                               {col.title}
-                              <svg className={`w-3.5 h-3.5 transition-transform duration-300 ${openNestedDrop === col.title ? "rotate-180 text-brand-blue" : "text-zinc-400"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <svg width="24" height="24" className={`w-3.5 h-3.5 transition-transform duration-300 ${openNestedDrop === col.title ? "rotate-180 text-brand-blue" : "text-zinc-400"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7"/>
                               </svg>
                             </button>
@@ -991,7 +991,7 @@ export default function Navbar() {
                       aria-label={`Toggle ${item.label} sub-menu`}
                     >
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-300 ${openDrop === item.label ? "rotate-180 bg-brand-blue/10 text-brand-blue" : "bg-zinc-50 text-zinc-500"}`}>
-                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg width="12" height="12" className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7"/>
                         </svg>
                       </div>

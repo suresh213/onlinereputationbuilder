@@ -29,7 +29,7 @@ const importanceReasons = [
     title: "Stop Viral Damage Immediately",
     desc: "Twitter/X's retweet mechanism means a single harmful tweet can reach hundreds of thousands of people within hours. Early intervention to remove or suppress damaging content is critical - the longer it stays live, the wider the damage spreads.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z"/>
       </svg>
     ),
@@ -39,7 +39,7 @@ const importanceReasons = [
     title: "Protect Professional Reputation",
     desc: "Twitter/X is widely used by business leaders, journalists, and decision-makers. Harmful tweets about you or your brand can directly affect professional relationships, partnerships, and career opportunities - making prompt removal essential.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -49,7 +49,7 @@ const importanceReasons = [
     title: "Prevent Search Result Damage",
     desc: "Tweets and Twitter threads frequently appear in Google search results for personal and business names. A damaging tweet ranking on page one of your search results is visible to everyone who researches you - making removal a direct SEO priority.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     ),
@@ -59,7 +59,7 @@ const importanceReasons = [
     title: "Address Legal Rights & Defamation",
     desc: "Defamatory tweets, harassment campaigns, and doxxing on Twitter/X can constitute actionable legal violations. Swift removal combined with legal escalation protects your rights and signals consequences to bad actors.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
       </svg>
     ),
@@ -185,7 +185,7 @@ export default function TwitterRemovalPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-zinc-400/10 to-transparent pointer-events-none" />
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-zinc-400/20 border border-zinc-400/30 flex items-center justify-center flex-shrink-0 shadow-inner">
-                    <svg viewBox="0 0 24 24" className="w-5 h-5 fill-zinc-300" aria-label="X (Twitter)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.849L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" className="w-5 h-5 fill-zinc-300" aria-label="X (Twitter)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.849L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
                     A single harmful tweet can reach <span className="text-white font-bold">millions through retweets</span> - every hour of inaction allows the damage to compound and spread further.
@@ -208,7 +208,7 @@ export default function TwitterRemovalPage() {
                     <h2 className="font-heading text-xl font-bold text-white leading-tight">We&apos;re Here to Help</h2>
                   </div>
                   <div className="w-12 h-12 rounded-xl bg-zinc-400/10 border border-zinc-400/20 flex items-center justify-center flex-shrink-0">
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 fill-zinc-300" aria-label="X (Twitter)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.849L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" className="w-6 h-6 fill-zinc-300" aria-label="X (Twitter)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.849L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                   </div>
                 </div>
                 <ContactForm dark />
@@ -278,7 +278,7 @@ export default function TwitterRemovalPage() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">Tweet Removed</p>
@@ -417,7 +417,7 @@ export default function TwitterRemovalPage() {
                   Have a specific Twitter/X case? Our experts offer a free assessment and a clear removal plan.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                  <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
                 </a>
               </div>

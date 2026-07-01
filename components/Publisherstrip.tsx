@@ -9,7 +9,7 @@ const publishers = [
   {
     name: "Bloomberg",
     svg: (
-      <svg viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="120" height="24" viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Georgia, serif" fontSize="28" fontWeight="700" fill="white" letterSpacing="-0.5">Bloomberg</text>
       </svg>
     ),
@@ -17,7 +17,7 @@ const publishers = [
   {
     name: "Forbes",
     svg: (
-      <svg viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="80" height="24" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Georgia, serif" fontSize="30" fontWeight="700" fill="white" fontStyle="italic">Forbes</text>
       </svg>
     ),
@@ -25,7 +25,7 @@ const publishers = [
   {
     name: "Reuters",
     svg: (
-      <svg viewBox="0 0 130 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="87" height="24" viewBox="0 0 130 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Arial, sans-serif" fontSize="26" fontWeight="400" fill="white" letterSpacing="1">REUTERS</text>
       </svg>
     ),
@@ -33,7 +33,7 @@ const publishers = [
   {
     name: "CNN",
     svg: (
-      <svg viewBox="0 0 90 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="90" height="24" viewBox="0 0 90 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <rect x="0" y="0" width="88" height="34" rx="4" fill="white" fillOpacity="0.15"/>
         <text x="10" y="26" fontFamily="Arial, sans-serif" fontSize="22" fontWeight="900" fill="white">CNN</text>
       </svg>
@@ -42,7 +42,7 @@ const publishers = [
   {
     name: "MarketWatch",
     svg: (
-      <svg viewBox="0 0 190 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="127" height="24" viewBox="0 0 190 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="700" fill="white">MarketWatch</text>
       </svg>
     ),
@@ -50,7 +50,7 @@ const publishers = [
   {
     name: "The Indian Express",
     svg: (
-      <svg viewBox="0 0 230 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="153" height="24" viewBox="0 0 230 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="14" fontFamily="Arial, sans-serif" fontSize="10" fontWeight="400" fill="white" letterSpacing="2">THE</text>
         <text x="0" y="32" fontFamily="Georgia, serif" fontSize="20" fontWeight="700" fill="white">Indian Express</text>
       </svg>
@@ -59,7 +59,7 @@ const publishers = [
   {
     name: "Outlook",
     svg: (
-      <svg viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="93" height="24" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Georgia, serif" fontSize="26" fontWeight="700" fill="white" fontStyle="italic">Outlook</text>
       </svg>
     ),
@@ -67,7 +67,7 @@ const publishers = [
   {
     name: "Business Line",
     svg: (
-      <svg viewBox="0 0 200 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="133" height="24" viewBox="0 0 200 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="14" fontFamily="Arial, sans-serif" fontSize="10" fontWeight="400" fill="white" letterSpacing="2">THE HINDU</text>
         <text x="0" y="32" fontFamily="Georgia, serif" fontSize="19" fontWeight="700" fill="white">BusinessLine</text>
       </svg>
@@ -76,7 +76,7 @@ const publishers = [
   {
     name: "People",
     svg: (
-      <svg viewBox="0 0 110 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="73" height="24" viewBox="0 0 110 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Georgia, serif" fontSize="28" fontWeight="900" fill="white" letterSpacing="1">PEOPLE</text>
       </svg>
     ),
@@ -84,7 +84,7 @@ const publishers = [
   {
     name: "Silicon India",
     svg: (
-      <svg viewBox="0 0 170 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
+      <svg width="113" height="24" viewBox="0 0 170 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-6 w-auto">
         <text x="0" y="27" fontFamily="Arial, sans-serif" fontSize="22" fontWeight="700" fill="white">siliconindia</text>
       </svg>
     ),

@@ -22,7 +22,7 @@
 //     title: "Media Relations",
 //     desc: "We forge strong, ongoing relationships with journalists, editors, and media outlets across India and globally. Our team secures impactful press coverage that elevates your brand's visibility and credibility in the market.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
 //       </svg>
 //     ),
@@ -33,7 +33,7 @@
 //     title: "Strategic Storytelling",
 //     desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences - converting passive readers into loyal brand advocates across every channel.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
 //       </svg>
 //     ),
@@ -44,7 +44,7 @@
 //     title: "Crisis Communication",
 //     desc: "When reputation crises strike, speed and strategy are everything. We swiftly mitigate and navigate challenging PR situations, protecting your brand from long-term damage with expert crisis communication plans.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
 //       </svg>
 //     ),
@@ -55,7 +55,7 @@
 //     title: "Brand Image Management",
 //     desc: "We enhance and safeguard your brand image through strategic communications - building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
 //       </svg>
 //     ),
@@ -66,7 +66,7 @@
 //     title: "Community Engagement",
 //     desc: "We foster meaningful interactions between your brand and its audiences - building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
 //       </svg>
 //     ),
@@ -77,7 +77,7 @@
 //     title: "Press Release Distribution",
 //     desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets - ensuring your news reaches the audiences that matter most.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
 //       </svg>
 //     ),
@@ -260,7 +260,7 @@
 //               {heroBenefits.map((item) => (
 //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
 //                   <span className="check-icon">
-//                     <svg
+//                     <svg width="10" height="10"
 //                       className="w-2.5 h-2.5"
 //                       fill="none"
 //                       stroke="currentColor"
@@ -321,7 +321,7 @@
 //                   </h2>
 //                 </div>
 //                 <div className="w-10 h-10 rounded-lg bg-brand-blue/8 border border-brand-blue/15 flex items-center justify-center flex-shrink-0">
-//                   <svg
+//                   <svg width="20" height="20"
 //                     className="w-5 h-5 text-brand-blue"
 //                     fill="none"
 //                     stroke="currentColor"
@@ -400,7 +400,7 @@
 //               </div>
 //               <div className="floating-badge absolute -bottom-4 -left-4 z-10 flex items-center gap-2.5">
 //                 <div className="w-9 h-9 rounded-full bg-brand-blue/10 flex items-center justify-center">
-//                   <svg
+//                   <svg width="16" height="16"
 //                     className="w-4 h-4 text-brand-blue"
 //                     fill="none"
 //                     stroke="currentColor"
@@ -602,7 +602,7 @@
 //                 title: "Integrated PR + ORM Approach",
 //                 desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management - giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
 //                 icon: (
-//                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
 //                   </svg>
 //                 ),
@@ -611,7 +611,7 @@
 //                 title: "50+ Media Outlet Network",
 //                 desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks - and get published, not ignored.",
 //                 icon: (
-//                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 //                   </svg>
 //                 ),
@@ -620,7 +620,7 @@
 //                 title: "Tailored Strategies, Not Templates",
 //                 desc: "Every PR strategy we build is custom-designed for your specific brand, industry, audience, and goals. We never use one-size-fits-all approaches or recycled campaign templates.",
 //                 icon: (
-//                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
 //                   </svg>
 //                 ),
@@ -629,7 +629,7 @@
 //                 title: "Transparent Monthly Reporting",
 //                 desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was - no vague metrics or vanity numbers.",
 //                 icon: (
-//                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
 //                   </svg>
 //                 ),
@@ -719,7 +719,7 @@
 //                 href="tel:+918882788412"
 //                 className="btn-gold inline-flex items-center gap-2"
 //               >
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 //                 </svg>
 //                 Call Us Now
@@ -794,7 +794,7 @@
 //               href="tel:+918882788412"
 //               className="btn-gold inline-flex items-center gap-2"
 //             >
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 //               </svg>
 //               Call Now
@@ -847,7 +847,7 @@ const prServices = [
     title: "Media Relations",
     desc: "We forge strong, ongoing relationships with journalists, editors, and media outlets across India and globally. Our team secures impactful press coverage that elevates your brand's visibility and credibility in the market.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
       </svg>
     ),
@@ -858,7 +858,7 @@ const prServices = [
     title: "Strategic Storytelling",
     desc: "Every brand has a story worth telling. We craft compelling narratives that resonate deeply with your target audiences - converting passive readers into loyal brand advocates across every channel.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
       </svg>
     ),
@@ -869,7 +869,7 @@ const prServices = [
     title: "Crisis Communication",
     desc: "When reputation crises strike, speed and strategy are everything. We swiftly mitigate and navigate challenging PR situations, protecting your brand from long-term damage with expert crisis communication plans.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
@@ -880,7 +880,7 @@ const prServices = [
     title: "Brand Image Management",
     desc: "We enhance and safeguard your brand image through strategic communications - building a consistent, positive narrative across all touchpoints to shape how the world perceives you.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
@@ -891,7 +891,7 @@ const prServices = [
     title: "Community Engagement",
     desc: "We foster meaningful interactions between your brand and its audiences - building trust, loyalty, and long-term relationships that translate into sustained business growth and advocacy.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
@@ -902,7 +902,7 @@ const prServices = [
     title: "Press Release Distribution",
     desc: "We write, distribute, and pitch press releases to the right journalists and publications across 50+ Indian and international media outlets - ensuring your news reaches the audiences that matter most.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
       </svg>
     ),
@@ -1213,7 +1213,7 @@ export default function PublicRelationPage() {
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                  <svg
+                  <svg width="20" height="20"
                     className="w-5 h-5 text-brand-blue"
                     fill="none"
                     stroke="currentColor"
@@ -1298,7 +1298,7 @@ export default function PublicRelationPage() {
                 
                 <div className="absolute -bottom-6 -left-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl flex items-center gap-4 hidden md:flex">
                   <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
                   </div>
@@ -1513,7 +1513,7 @@ export default function PublicRelationPage() {
                 title: "Integrated PR + ORM Approach",
                 desc: "Unlike standalone PR agencies, we combine Public Relations with Online Reputation Management - giving your brand a 360° positive media presence that's protected, consistent, and conversion-ready.",
                 icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                   </svg>
                 ),
@@ -1522,7 +1522,7 @@ export default function PublicRelationPage() {
                 title: "50+ Media Outlet Network",
                 desc: "Our curated network of journalist relationships across 50+ premium Indian media outlets means your stories reach the right desks - and get published, not ignored.",
                 icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 ),
@@ -1531,7 +1531,7 @@ export default function PublicRelationPage() {
                 title: "Tailored Strategies, Not Templates",
                 desc: "Every PR strategy we build is custom-designed for your specific brand, industry, audience, and goals. We never use one-size-fits-all approaches or recycled campaign templates.",
                 icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                   </svg>
                 ),
@@ -1540,7 +1540,7 @@ export default function PublicRelationPage() {
                 title: "Transparent Monthly Reporting",
                 desc: "You always know exactly what we did, where your brand was mentioned, how many people it reached, and what the tangible business impact was - no vague metrics or vanity numbers.",
                 icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 ),
@@ -1621,7 +1621,7 @@ export default function PublicRelationPage() {
                   no-obligation consultation to assess your brand&apos;s media needs.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                  <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
                 </a>
               </div>

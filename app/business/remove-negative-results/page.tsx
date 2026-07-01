@@ -65,7 +65,7 @@
 // //           <span className="w-2.5 h-2.5 rounded-full bg-zinc-200" />
 // //         </div>
 // //         <div className="bg-white border border-zinc-200 rounded text-[0.72rem] text-zinc-500 px-3 py-1 flex-1 flex items-center gap-1.5">
-// //           <svg className="w-3 h-3 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+// //           <svg width="12" height="12" className="w-3 h-3 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
 // //           google.com/search?q=mybrand+reviews
 // //         </div>
 // //       </div>
@@ -402,7 +402,7 @@
 //           <span className="w-2.5 h-2.5 rounded-full bg-zinc-300" />
 //         </div>
 //         <div className="bg-white border border-zinc-200 shadow-sm rounded text-[0.72rem] text-zinc-500 px-3 py-1 flex-1 flex items-center gap-1.5">
-//           <svg className="w-3 h-3 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+//           <svg width="12" height="12" className="w-3 h-3 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
 //           google.com/search?q=mybrand+reviews
 //         </div>
 //       </div>
@@ -842,7 +842,7 @@ function SERPSuppressionWidget() {
           <span className="w-3 h-3 rounded-full bg-emerald-400/80" />
         </div>
         <div className="bg-white border border-zinc-200 shadow-sm rounded-md text-[0.72rem] text-zinc-500 px-3 py-1.5 flex-1 flex items-center gap-2 group-hover:border-brand-blue/30 transition-colors">
-          <svg className="w-3.5 h-3.5 text-brand-blue/70 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          <svg width="14" height="14" className="w-3.5 h-3.5 text-brand-blue/70 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
           <span className="opacity-70 font-medium tracking-wide">google.com/search?q=mybrand+reviews</span>
         </div>
       </div>

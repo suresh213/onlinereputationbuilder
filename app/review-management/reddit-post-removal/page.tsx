@@ -19,7 +19,7 @@
 //     title: "Misinformation",
 //     desc: "Fake or inaccurate content can mislead audiences, impacting your brand's trustworthiness and causing long-term perception damage. Removing such posts is crucial to safeguard your credibility and restore accurate public understanding.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
 //       </svg>
 //     ),
@@ -29,7 +29,7 @@
 //     title: "Defamation",
 //     desc: "Harmful posts that attack your brand or its representatives can lead to significant reputation damage and potential legal liability. Removing these posts promptly minimises potential backlash and prevents escalation.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
 //       </svg>
 //     ),
@@ -39,7 +39,7 @@
 //     title: "Policy Violations",
 //     desc: "Posts that violate Reddit's terms of service or community guidelines can negatively reflect on your brand. Addressing and removing these posts ensures compliance and demonstrates your commitment to platform integrity.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
 //       </svg>
 //     ),
@@ -49,7 +49,7 @@
 //     title: "Improves Professional Opportunities",
 //     desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships - directly converting into better business outcomes.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
 //       </svg>
 //     ),
@@ -62,7 +62,7 @@
 //     title: "Thorough Content Analysis",
 //     desc: "Our experts carefully review the content to determine its relevance, accuracy, and alignment with Reddit's guidelines. This ensures the issue is addressed effectively without violating platform rules.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
 //       </svg>
 //     ),
@@ -72,7 +72,7 @@
 //     title: "Guideline-Based Reporting",
 //     desc: "We utilise Reddit's reporting tools to flag inappropriate or harmful posts while adhering to the platform's community guidelines for seamless content removal. Our team documents every step professionally.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
 //       </svg>
 //     ),
@@ -82,7 +82,7 @@
 //     title: "Strategic Engagement",
 //     desc: "Our experts participate in discussions to provide factual corrections or counter-narratives, reducing the visibility and impact of negative posts. This approach helps shift the narrative constructively.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
 //       </svg>
 //     ),
@@ -92,7 +92,7 @@
 //     title: "Reputation Management",
 //     desc: "Beyond removal, we work to mitigate any negative impact by promoting positive content and enhancing your Reddit presence with value-driven posts that strengthen your brand narrative.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -102,7 +102,7 @@
 //     title: "Continuous Monitoring",
 //     desc: "Our team provides ongoing surveillance of Reddit to quickly identify and address any future harmful or misleading posts, safeguarding your brand's reputation on a long-term basis.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
 //       </svg>
@@ -155,7 +155,7 @@
 //             <ul className="space-y-2 mb-8">
 //               {["Identify and analyse harmful Reddit posts impacting your brand", "Take appropriate action to delete Reddit content that violates policies", "Mitigate risks by resolving issues caused by fake Reddit content", "Implement ethical strategies to permanently remove Reddit content"].map((item) => (
 //                 <li key={item} className="check-item text-[0.82rem] text-white/75">
-//                   <span className="check-icon"><svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
+//                   <span className="check-icon"><svg width="10" height="10" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12"><path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/></svg></span>
 //                   {item}
 //                 </li>
 //               ))}
@@ -167,7 +167,7 @@
 //             {/* Reddit badge */}
 //             <div className="mt-8 pt-6 border-t border-white/8 flex items-center gap-3">
 //               <div className="w-9 h-9 rounded-full bg-orange-500/20 border border-orange-400/30 flex items-center justify-center flex-shrink-0">
-//                 <svg className="w-5 h-5 text-orange-300" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
+//                 <svg width="20" height="20" className="w-5 h-5 text-orange-300" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
 //               </div>
 //               <p className="text-white/50 text-xs">Reddit ranks on Google - harmful subreddit threads can appear in searches for your <span className="text-white/80 font-semibold">brand name for years</span></p>
 //             </div>
@@ -229,7 +229,7 @@
 //                 <div className="space-y-1.5">
 //                   {["Posts containing misinformation can lead to widespread false perceptions", "Harmful posts can overshadow your brand's positive achievements", "Negative discussions can reduce customer trust and loyalty", "Misleading content may harm your brand's overall market presence"].map((item) => (
 //                     <div key={item} className="flex items-center gap-2 text-xs text-red-600">
-//                       <svg className="w-3 h-3 flex-shrink-0 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/></svg>
+//                       <svg width="12" height="12" className="w-3 h-3 flex-shrink-0 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/></svg>
 //                       {item}
 //                     </div>
 //                   ))}
@@ -243,7 +243,7 @@
 //               </div>
 //               <div className="floating-badge absolute -bottom-4 -left-4 z-10 flex items-center gap-2.5">
 //                 <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
-//                   <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+//                   <svg width="16" height="16" className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
 //                 </div>
 //                 <div><p className="text-xs font-bold text-zinc-900">97% Success Rate</p><p className="text-[0.65rem] text-zinc-500">Proven results</p></div>
 //               </div>
@@ -347,7 +347,7 @@
 //               <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-5 leading-tight">Reddit Removal <span className="text-brand-blue">FAQs</span></h2>
 //               <p className="text-zinc-400 text-sm leading-relaxed mb-7">Need help with a specific Reddit post? Our experts offer a free assessment and action plan.</p>
 //               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //                 Call Us Now
 //               </a>
 //             </div>
@@ -378,7 +378,7 @@
 //               ))}
 //             </div>
 //             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
 //               Call Now
 //             </a>
 //           </div>
@@ -421,7 +421,7 @@ const removalReasons = [
     title: "Misinformation",
     desc: "Fake or inaccurate content can mislead audiences, impacting your brand's trustworthiness and causing long-term perception damage. Removing such posts is crucial to safeguard your credibility and restore accurate public understanding.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
       </svg>
     ),
@@ -431,7 +431,7 @@ const removalReasons = [
     title: "Defamation",
     desc: "Harmful posts that attack your brand or its representatives can lead to significant reputation damage and potential legal liability. Removing these posts promptly minimises potential backlash and prevents escalation.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
       </svg>
     ),
@@ -441,7 +441,7 @@ const removalReasons = [
     title: "Policy Violations",
     desc: "Posts that violate Reddit's terms of service or community guidelines can negatively reflect on your brand. Addressing and removing these posts ensures compliance and demonstrates your commitment to platform integrity.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
       </svg>
     ),
@@ -451,7 +451,7 @@ const removalReasons = [
     title: "Improves Professional Opportunities",
     desc: "A clean online profile fosters trust, enhances credibility, and boosts your chances of building strong and meaningful professional relationships - directly converting into better business outcomes.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
       </svg>
     ),
@@ -464,7 +464,7 @@ const removalProcess = [
     title: "Thorough Content Analysis",
     desc: "Our experts carefully review the content to determine its relevance, accuracy, and alignment with Reddit's guidelines. This ensures the issue is addressed effectively without violating platform rules.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     ),
@@ -474,7 +474,7 @@ const removalProcess = [
     title: "Guideline-Based Reporting",
     desc: "We utilise Reddit's reporting tools to flag inappropriate or harmful posts while adhering to the platform's community guidelines for seamless content removal. Our team documents every step professionally.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
       </svg>
     ),
@@ -484,7 +484,7 @@ const removalProcess = [
     title: "Strategic Engagement",
     desc: "Our experts participate in discussions to provide factual corrections or counter-narratives, reducing the visibility and impact of negative posts. This approach helps shift the narrative constructively.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
       </svg>
     ),
@@ -494,7 +494,7 @@ const removalProcess = [
     title: "Reputation Management",
     desc: "Beyond removal, we work to mitigate any negative impact by promoting positive content and enhancing your Reddit presence with value-driven posts that strengthen your brand narrative.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -504,7 +504,7 @@ const removalProcess = [
     title: "Continuous Monitoring",
     desc: "Our team provides ongoing surveillance of Reddit to quickly identify and address any future harmful or misleading posts, safeguarding your brand's reputation on a long-term basis.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
       </svg>
@@ -661,7 +661,7 @@ export default function RedditPostRemovalPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF4500]/10 to-transparent pointer-events-none" />
                 <div className="relative z-10 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-[#FF4500]/20 border border-[#FF4500]/30 flex items-center justify-center flex-shrink-0 shadow-inner">
-                    <svg className="w-5 h-5 text-[#FF4500]" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
+                    <svg width="20" height="20" className="w-5 h-5 text-[#FF4500]" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path fill="#0a1120" d="M15.5 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 9a6 6 0 00-6 6h12a6 6 0 00-6-6zm0 9c-1.2 0-2.3-.3-3.2-.8.1.7.7 1.3 1.5 1.3h3.4c.8 0 1.4-.6 1.5-1.3-.9.5-2 .8-3.2.8z"/></svg>
                   </div>
                   <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
                     Reddit ranks on Google - harmful subreddit threads can appear in searches for your <span className="text-white font-bold">brand name for years.</span>
@@ -760,7 +760,7 @@ export default function RedditPostRemovalPage() {
                       "Misleading content may harm your brand's overall market presence"
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-3 text-sm text-red-700/80">
-                        <svg className="w-4 h-4 flex-shrink-0 text-red-500 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12"/></svg>
+                        <svg width="16" height="16" className="w-4 h-4 flex-shrink-0 text-red-500 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12"/></svg>
                         <span className="leading-snug">{item}</span>
                       </div>
                     ))}
@@ -786,7 +786,7 @@ export default function RedditPostRemovalPage() {
                 
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-100/80 border border-green-200 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
+                    <svg width="24" height="24" className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-zinc-900 mb-0.5">97% Success Rate</p>
@@ -961,7 +961,7 @@ export default function RedditPostRemovalPage() {
             href="tel:+918882788412"
             className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
           >
-            <svg
+            <svg width="16" height="16"
               className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"

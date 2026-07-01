@@ -22,7 +22,7 @@
 //     title: "SEO Optimization",
 //     desc: "Optimizing your website with relevant keywords and phrases improves your search rankings and visibility, which in turn positively impacts autocomplete results over time.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
 //       </svg>
 //     ),
@@ -32,7 +32,7 @@
 //     title: "Content Creation",
 //     desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative - which directly shapes autocomplete.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
 //       </svg>
 //     ),
@@ -42,7 +42,7 @@
 //     title: "Social Media Marketing",
 //     desc: "Building a strong online presence through social media establishes your brand as credible and authoritative, which positively impacts autocomplete results across all major search engines.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
 //       </svg>
 //     ),
@@ -52,7 +52,7 @@
 //     title: "Search Engine Reputation Management (SERM)",
 //     desc: "Managing your online reputation through SERM reduces the visibility of negative or misleading information in search results, which directly and measurably improves autocomplete suggestions.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
 //       </svg>
 //     ),
@@ -62,7 +62,7 @@
 //     title: "Paid Search Advertising",
 //     desc: "Running targeted paid search advertising campaigns improves your visibility in search results and signals relevance to Google's algorithm, positively impacting autocomplete results.",
 //     icon: (
-//       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/>
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/>
 //       </svg>
@@ -93,7 +93,7 @@
 //     title: "Expertise and Experience",
 //     desc: "Our team has a deep understanding of Google Autocomplete algorithms and a proven track record of delivering results. Highly skilled professionals with extensive experience managing autocomplete suggestions.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
 //       </svg>
 //     ),
@@ -102,7 +102,7 @@
 //     title: "Transparent Communication",
 //     desc: "We maintain open and transparent communication throughout the entire process, providing regular updates and reports to ensure full transparency and accountability with every client.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
 //       </svg>
 //     ),
@@ -111,7 +111,7 @@
 //     title: "Customer-Focused Approach",
 //     desc: "We have a strong focus on customer satisfaction and work closely with every client to understand their unique needs, developing customized solutions that meet those needs and deliver measurable results.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
 //       </svg>
 //     ),
@@ -120,7 +120,7 @@
 //     title: "Cutting-Edge Technology",
 //     desc: "We use the latest tools and technologies to manage and change Google Autocomplete suggestions, including advanced SEO techniques, data analysis, and machine learning algorithms.",
 //     icon: (
-//       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
 //       </svg>
 //     ),
@@ -233,7 +233,7 @@
 
 //       <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-zinc-200 overflow-hidden relative z-10">
 //         <div className="flex items-center gap-3 px-5 py-4 border-b border-zinc-100">
-//           <svg className="w-5 h-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+//           <svg width="20" height="20" className="w-5 h-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
 //           <span className="text-lg text-zinc-900 font-medium">
 //             {typed}<span className="inline-block w-0.5 h-5 bg-brand-blue animate-pulse align-middle ml-0.5"></span>
 //           </span>
@@ -339,7 +339,7 @@
 //                     key={e.text}
 //                     className="flex items-center gap-2.5 text-[0.85rem] text-white/80 font-medium"
 //                   >
-//                     <svg
+//                     <svg width="16" height="16"
 //                       className="w-4 h-4 text-red-500 flex-shrink-0"
 //                       fill="none"
 //                       stroke="currentColor"
@@ -364,7 +364,7 @@
 
 //             <div className="mt-10 pt-6 border-t border-white/10 flex items-start gap-4">
 //               <div className="w-10 h-10 rounded-xl bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-//                 <svg className="w-5 h-5 text-brand-gold" fill="currentColor" viewBox="0 0 20 20">
+//                 <svg width="20" height="20" className="w-5 h-5 text-brand-gold" fill="currentColor" viewBox="0 0 20 20">
 //                   <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
 //                 </svg>
 //               </div>
@@ -388,7 +388,7 @@
 //                   </h2>
 //                 </div>
 //                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-//                   <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+//                   <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 //                   </svg>
 //                 </div>
@@ -597,7 +597,7 @@
 //                 </p>
 
 //                 <Link href="#contact" className="btn-gold shadow-[0_10px_30px_rgba(194,148,10,0.2)] inline-flex items-center gap-2 px-8 py-3.5">
-//                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
 //                   </svg>
 //                   Call: +9188827 88412
@@ -688,7 +688,7 @@
 //                   href="tel:+918882788412"
 //                   className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
 //                 >
-//                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+//                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 //                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 //                   </svg>
 //                   Call Us Now
@@ -814,7 +814,7 @@ const strategies = [
     title: "SEO Optimization",
     desc: "Optimizing your website with relevant keywords and phrases improves your search rankings and visibility, which in turn positively impacts autocomplete results over time.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
       </svg>
     ),
@@ -824,7 +824,7 @@ const strategies = [
     title: "Content Creation",
     desc: "Consistently creating high-quality content relevant to your business and optimized for search engines establishes your brand as credible and authoritative - which directly shapes autocomplete.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
       </svg>
     ),
@@ -834,7 +834,7 @@ const strategies = [
     title: "Social Media Marketing",
     desc: "Building a strong online presence through social media establishes your brand as credible and authoritative, which positively impacts autocomplete results across all major search engines.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
       </svg>
     ),
@@ -844,7 +844,7 @@ const strategies = [
     title: "Search Engine Reputation Management (SERM)",
     desc: "Managing your online reputation through SERM reduces the visibility of negative or misleading information in search results, which directly and measurably improves autocomplete suggestions.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
@@ -854,7 +854,7 @@ const strategies = [
     title: "Paid Search Advertising",
     desc: "Running targeted paid search advertising campaigns improves your visibility in search results and signals relevance to Google's algorithm, positively impacting autocomplete results.",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/>
       </svg>
@@ -885,7 +885,7 @@ const whyUsPoints = [
     title: "Expertise and Experience",
     desc: "Our team has a deep understanding of Google Autocomplete algorithms and a proven track record of delivering results. Highly skilled professionals with extensive experience managing autocomplete suggestions.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
       </svg>
     ),
@@ -894,7 +894,7 @@ const whyUsPoints = [
     title: "Transparent Communication",
     desc: "We maintain open and transparent communication throughout the entire process, providing regular updates and reports to ensure full transparency and accountability with every client.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
       </svg>
     ),
@@ -903,7 +903,7 @@ const whyUsPoints = [
     title: "Customer-Focused Approach",
     desc: "We have a strong focus on customer satisfaction and work closely with every client to understand their unique needs, developing customized solutions that meet those needs and deliver measurable results.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
       </svg>
     ),
@@ -912,7 +912,7 @@ const whyUsPoints = [
     title: "Cutting-Edge Technology",
     desc: "We use the latest tools and technologies to manage and change Google Autocomplete suggestions, including advanced SEO techniques, data analysis, and machine learning algorithms.",
     icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
       </svg>
     ),
@@ -1025,7 +1025,7 @@ function AutocompleteVisualizer() {
 
       <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-zinc-200 overflow-hidden relative z-10">
         <div className="flex items-center gap-3 px-5 py-4 border-b border-zinc-100">
-          <svg className="w-5 h-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <svg width="20" height="20" className="w-5 h-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
           <span className="text-lg text-zinc-900 font-medium">
             {typed}<span className="inline-block w-0.5 h-5 bg-brand-blue animate-pulse align-middle ml-0.5"></span>
           </span>
@@ -1131,7 +1131,7 @@ export default function ChangeGoogleAutocompletePage() {
                     key={e.text}
                     className="flex items-center gap-2.5 text-[0.85rem] text-white/80 font-medium"
                   >
-                    <svg
+                    <svg width="16" height="16"
                       className="w-4 h-4 text-red-500 flex-shrink-0"
                       fill="none"
                       stroke="currentColor"
@@ -1156,7 +1156,7 @@ export default function ChangeGoogleAutocompletePage() {
 
             <div className="mt-10 pt-6 border-t border-white/10 flex items-start gap-4">
               <div className="w-10 h-10 rounded-xl bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                <svg className="w-5 h-5 text-brand-gold" fill="currentColor" viewBox="0 0 20 20">
+                <svg width="20" height="20" className="w-5 h-5 text-brand-gold" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
               </div>
@@ -1180,7 +1180,7 @@ export default function ChangeGoogleAutocompletePage() {
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
-                  <svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg width="20" height="20" className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </div>
@@ -1389,7 +1389,7 @@ export default function ChangeGoogleAutocompletePage() {
                 </p>
 
                 <Link href="#contact" className="btn-gold shadow-[0_10px_30px_rgba(194,148,10,0.2)] inline-flex items-center gap-2 px-8 py-3.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                   </svg>
                   Call: +9188827 88412
@@ -1480,7 +1480,7 @@ export default function ChangeGoogleAutocompletePage() {
                   href="tel:+918882788412"
                   className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5"
                 >
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                   Call Us Now
