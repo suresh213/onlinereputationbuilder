@@ -66,11 +66,11 @@ const clients = [
 
 const mediaLogos = [
   { name: "CNW", img: "/images/media/cnw.webp" },
-  { name: "ANI", img: "/images/media/ani.png" },
+  { name: "ANI", img: "/images/media/ani.webp" },
   { name: "ET", img: "/images/media/et.webp" },
   { name: "Times Now", img: "/images/media/timesnow.webp" },
   { name: "Forbes", img: "/images/media/forbes.webp" },
-  { name: "DNA", img: "/images/media/dna.png" },
+  { name: "DNA", img: "/images/media/dna.webp" },
   { name: "CNBC", img: "/images/media/cnbc.webp" },
   { name: "Hindustan", img: "/images/media/hindustan.webp" },
   { name: "Business Standard", img: "/images/media/businessstandard.webp" },
