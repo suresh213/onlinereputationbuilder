@@ -32,10 +32,6 @@ export const metadata: Metadata = {
     "review management",
     "ORM agency Delhi NCR",
   ],
-  icons: {
-    icon: "/logo-orm.webp",
-    apple: "/logo-orm.webp",
-  },
   alternates: { canonical: "https://onlinereputationbuilder.in/" },
   openGraph: {
     title: "Online Reputation Builder – #1 ORM Company in India",
