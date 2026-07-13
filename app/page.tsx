@@ -35,14 +35,14 @@ const platforms = [
 ];
 
 const caseStudies = [
-  { title: "Insurance", desc: "Success stories of building trust and expanding policyholder reach...", color: "bg-blue-50" },
-  { title: "Real Estate", desc: "Success stories of enhancing property brands and driving investments...", color: "bg-zinc-50" },
-  { title: "Politics", desc: "Success stories of driving campaigns and engaging communities...", color: "bg-blue-50" },
-  { title: "Fast Food Franchise", desc: "Our ORM strategy has transformed the franchise's online reputation...", color: "bg-zinc-50" },
-  { title: "Celebrity", desc: "Managing an excellent reputation is crucial for a celebrity...", color: "bg-blue-50" },
-  { title: "Healthcare", desc: "Success stories of advancing healthcare brands and patient trust...", color: "bg-zinc-50" },
-  { title: "Electronic", desc: "Online buzz shapes an electronic brand's reputation and more...", color: "bg-blue-50" },
-  { title: "Spiritual", desc: "In today's digital age, religious institutions face online challenges...", color: "bg-zinc-50" },
+  { title: "Insurance", desc: "Success stories of building trust and expanding policyholder reach...", color: "bg-blue-50", href: "/solution/insurance-reputation-management" },
+  { title: "Real Estate", desc: "Success stories of enhancing property brands and driving investments...", color: "bg-zinc-50", href: "/solution/real-estate-reputation-management" },
+  { title: "Politics", desc: "Success stories of driving campaigns and engaging communities...", color: "bg-blue-50", href: "/solution/politics-reputation-management" },
+  { title: "Fast Food Franchise", desc: "Our ORM strategy has transformed the franchise's online reputation...", color: "bg-zinc-50", href: "/solution/restaurant-industry-reputation-management" },
+  { title: "Celebrity", desc: "Managing an excellent reputation is crucial for a celebrity...", color: "bg-blue-50", href: "/solution/case-studies-for-celebrity-reputation-management-company" },
+  { title: "Healthcare", desc: "Success stories of advancing healthcare brands and patient trust...", color: "bg-zinc-50", href: "/solution/healthcare-reputation-management" },
+  { title: "Electronic", desc: "Online buzz shapes an electronic brand's reputation and more...", color: "bg-blue-50", href: "/solution/electronic-reputation-management" },
+  { title: "Spiritual", desc: "In today's digital age, religious institutions face online challenges...", color: "bg-zinc-50", href: "/solution/spiritual-reputation-management" },
 ];
 
 const clients = [
@@ -427,7 +427,7 @@ export default function HomePage() {
           </div>
           <div className="case-study-board">
             {caseStudies.map((c) => (
-              <div key={c.title} className="group premium-case-card case-study-item rounded-xl overflow-hidden border border-zinc-200 bg-white hover:border-brand-blue transition-colors cursor-pointer flex flex-col">
+              <Link href={c.href} key={c.title} className="group premium-case-card case-study-item rounded-xl overflow-hidden border border-zinc-200 bg-white hover:border-brand-blue transition-colors cursor-pointer flex flex-col">
                 <div className={`case-visual h-32 w-full flex flex-col items-center justify-center border-b border-zinc-200 ${c.color}`}>
                    <span className="font-heading font-bold text-lg text-zinc-800 opacity-60 tracking-wider uppercase">{c.title}</span>
                 </div>
@@ -435,7 +435,7 @@ export default function HomePage() {
                   <h3 className="font-bold text-zinc-900 text-sm mb-1.5">{c.title} Case Study</h3>
                   <p className="text-xs text-zinc-500 leading-relaxed">{c.desc}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <div className="text-center mt-10">

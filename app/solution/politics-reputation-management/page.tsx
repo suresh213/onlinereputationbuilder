@@ -13,13 +13,13 @@ const heroBullets = [
   "Increase customer trust with stellar online reviews",
   "Improve search engine visibility with consistent brand management",
   "Build a community of loyal patrons who advocate for your brand",
-  "Loved by more than 250+ restaurant brands",
+  "Loved by more than 250+ politics brands",
 ];
 
 const faqs = [
   {
-    q: "Why is reputation management important for restaurants?",
-    a: "Reputation management helps your restaurant maintain a positive public image, attract more customers, build trust, and improve customer retention and revenue.",
+    q: "Why is reputation management important for politicss?",
+    a: "Reputation management helps your politics maintain a positive public image, attract more customers, build trust, and improve customer retention and revenue.",
   },
   {
     q: "How do you handle negative reviews?",
@@ -27,27 +27,27 @@ const faqs = [
   },
   {
     q: "Can reputation management help increase bookings?",
-    a: "Yes. Strong ratings and positive reviews act as trust signals for diners, leading to more reservations, walk-ins, delivery orders, and repeat visits.",
+    a: "Yes. Strong ratings and positive reviews act as trust signals for clients, leading to more reservations, walk-ins, delivery orders, and repeat visits.",
   },
   {
     q: "What platforms do you monitor for reviews?",
-    a: "We monitor Google, Yelp, TripAdvisor, Facebook, food discovery platforms, local listings, and other niche sites relevant to your restaurant category.",
+    a: "We monitor Google, Yelp, TripAdvisor, Facebook, food discovery platforms, local listings, and other niche sites relevant to your politics category.",
   },
   {
-    q: "How can social media affect my restaurant's reputation?",
+    q: "How can social media affect my politics's reputation?",
     a: "Social media shapes customer perception through photos, comments, messages, influencer posts, and response speed. Engaging content and timely replies improve trust and visibility.",
   },
   {
-    q: "What if my restaurant has a crisis situation?",
-    a: "Our crisis management team acts swiftly to mitigate damage, address concerns transparently, and restore your restaurant's reputation through strategic communication.",
+    q: "What if my politics has a crisis situation?",
+    a: "Our crisis management team acts swiftly to mitigate damage, address concerns transparently, and restore your politics's reputation through strategic communication.",
   },
   {
-    q: "Is reputation management only for large restaurants?",
-    a: "No. A positive reputation is essential for restaurants of every size, from independent cafes and cloud kitchens to multi-location chains.",
+    q: "Is reputation management only for large politicss?",
+    a: "No. A positive reputation is essential for politicss of every size, from independent cafes and cloud kitchens to multi-location chains.",
   },
   {
     q: "How can I get started with Build Brand Better?",
-    a: "Contact us through the consultation form and our experts will tailor a reputation management plan to your restaurant's unique needs.",
+    a: "Contact us through the consultation form and our experts will tailor a reputation management plan to your politics's unique needs.",
   },
 ];
 
@@ -55,7 +55,7 @@ const services = [
   {
     label: "Reviews",
     title: "Review Monitoring and Management",
-    desc: "We track online reviews across Google, Yelp, TripAdvisor, Facebook, and relevant dining platforms, responding to both positive and negative feedback professionally.",
+    desc: "We track online reviews across Google, Yelp, TripAdvisor, Facebook, and relevant industry platforms, responding to both positive and negative feedback professionally.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
@@ -63,22 +63,22 @@ const services = [
   {
     label: "Social",
     title: "Social Media Management",
-    desc: "We create engaging content, respond to customer inquiries, and maintain a consistent presence that builds a strong connection with diners.",
+    desc: "We create engaging content, respond to customer inquiries, and maintain a consistent presence that builds a strong connection with clients.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Local SEO",
-    title: "Restaurant Listing Optimization",
-    desc: "We optimize your online listings with accurate information, keywords, menus, and high-quality photos so potential diners can find and trust you quickly.",
+    title: "politics Listing Optimization",
+    desc: "We optimize your online listings with accurate information, keywords, menus, and high-quality photos so potential clients can find and trust you quickly.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Crisis",
-    title: "Restaurant Crisis Management",
+    title: "politics Crisis Management",
     desc: "A single negative review or viral post can harm your brand. We handle crisis situations promptly and effectively to minimize reputation impact.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
@@ -87,7 +87,7 @@ const services = [
   {
     label: "Growth",
     title: "Positive Review Generation",
-    desc: "We encourage satisfied customers to leave reviews and promote your restaurant's strengths across the platforms that influence dining decisions.",
+    desc: "We encourage satisfied customers to leave reviews and promote your politics's strengths across the platforms that influence industry decisions.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
     ),
@@ -106,7 +106,7 @@ const impacts = [
   {
     label: "Traffic",
     title: "Increased Foot Traffic",
-    desc: "Positive reviews and ratings encourage new customers to choose your restaurant over competitors.",
+    desc: "Positive reviews and ratings encourage new customers to choose your politics over competitors.",
     icon: "🚶‍♂️",
   },
   {
@@ -118,13 +118,13 @@ const impacts = [
   {
     label: "Brand",
     title: "Enhanced Brand Perception",
-    desc: "A well-managed reputation helps customers see your restaurant as a trusted, high-quality choice.",
+    desc: "A well-managed reputation helps customers see your politics as a trusted, high-quality choice.",
     icon: "🌟",
   },
   {
     label: "Retention",
     title: "Customer Retention",
-    desc: "Engaging with your audience builds loyalty and turns first-time diners into regular patrons.",
+    desc: "Engaging with your audience builds loyalty and turns first-time clients into regular patrons.",
     icon: "🤝",
   },
 ];
@@ -137,8 +137,8 @@ const processes = [
   },
   {
     label: "Strategy",
-    title: "Create a Tailored Restaurant Plan",
-    desc: "Each restaurant has unique needs. We build strategies that align with your brand, location, cuisine, customer profile, and growth goals.",
+    title: "Create a Tailored politics Plan",
+    desc: "Each politics has unique needs. We build strategies that align with your brand, location, cuisine, customer profile, and growth goals.",
   },
   {
     label: "Engage",
@@ -242,7 +242,7 @@ function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: { 
 
 /* ─── Page ──────────────────────────────────────────────────────── */
 
-export default function RestaurantIndustryPage() {
+export default function PoliticsIndustryPage() {
   return (
     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       <Topbar />
@@ -261,19 +261,19 @@ export default function RestaurantIndustryPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
               </span>
-              Restaurant ORM - Cafes, Dining Brands and Chains
+              Politics ORM - Politics Businesses and Professionals
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.6rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Restaurant Reputation Management for{" "}
+              Politics Reputation Management for{" "}
               <span className="text-gradient-gold">More Bookings</span>
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-2xl">
-              In the competitive culinary world, a strong reputation is your most valuable ingredient. Build Brand Better ensures your restaurant stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
+              In the competitive culinary world, a strong reputation is your most valuable ingredient. Build Brand Better ensures your politics stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
             </p>
             <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-2xl">
-              We help restaurants protect ratings, manage customer feedback, improve local visibility, and build a loyal community of patrons who advocate for the brand.
+              We help politicss protect ratings, manage customer feedback, improve local visibility, and build a loyal community of patrons who advocate for the brand.
             </p>
 
             <ul className="space-y-3 mb-10 max-w-xl">
@@ -301,7 +301,7 @@ export default function RestaurantIndustryPage() {
                 <div>
                   <p className="section-label text-brand-gold mb-1">Free Consultation</p>
                   <h2 className="font-heading text-xl font-bold text-white leading-tight">
-                    Upgrade Your Dining Reputation
+                    Upgrade Your industry Reputation
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
@@ -349,10 +349,10 @@ export default function RestaurantIndustryPage() {
                   The Role of Reputation Management in <span className="heading-script text-brand-blue">Customer Retention</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-8 text-[0.95rem]">
-                  Happy customers are your best marketers. Reputation management helps ensure diners leave satisfied, feedback is addressed promptly, and your restaurant's image remains impeccable. It is not just damage control; it is about building lasting relationships and turning diners into loyal advocates.
+                  Happy customers are your best marketers. Reputation management helps ensure clients leave satisfied, feedback is addressed promptly, and your politics's image remains impeccable. It is not just damage control; it is about building lasting relationships and turning clients into loyal advocates.
                 </p>
                 <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-8 py-3.5">
-                  Protect Your Restaurant
+                  Protect Your politics
                 </Link>
               </div>
             </RevealOnScroll>
@@ -363,7 +363,7 @@ export default function RestaurantIndustryPage() {
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
                   <img
                     src="https://buildbrandbetter.io/wp-content/uploads/2025/01/img-1-option.png"
-                    alt="Restaurant reputation management services"
+                    alt="politics reputation management services"
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
@@ -375,7 +375,7 @@ export default function RestaurantIndustryPage() {
                       <p className="font-heading text-xl font-black text-brand-blue mb-0.5">
                         <AnimatedCounter end={250} suffix="+" duration={2500} />
                       </p>
-                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Restaurant Brands</p>
+                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Politics Brands</p>
                     </div>
                     <div className="text-center px-2">
                       <p className="font-heading text-xl font-black text-brand-gold mb-0.5">
@@ -408,10 +408,10 @@ export default function RestaurantIndustryPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Expertise</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Comprehensive Restaurant Reputation <span className="heading-script text-brand-gold">Management Services</span>
+                Comprehensive politics Reputation <span className="heading-script text-brand-gold">Management Services</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
-                We provide a full spectrum of services designed to boost your restaurant's reputation and attract more customers.
+                We provide a full spectrum of services designed to boost your politics's reputation and attract more customers.
               </p>
             </div>
           </RevealOnScroll>
@@ -454,7 +454,7 @@ export default function RestaurantIndustryPage() {
                 Financial Impact
               </p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                How Restaurant Reputation Management Impacts <span className="text-gradient-gold">Your Bottom Line</span>
+                How Politics Reputation Management Impacts <span className="text-gradient-gold">Your Bottom Line</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] max-w-2xl mx-auto leading-relaxed">
                 A well-maintained online reputation attracts more customers and drives loyalty, word-of-mouth marketing, repeat business, and stronger revenue.
@@ -488,7 +488,7 @@ export default function RestaurantIndustryPage() {
                 Streamlined Reputation Management with <span className="heading-script text-brand-blue">Build Brand Better</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
-                We simplify and amplify your restaurant's online presence with proven strategies, fast response systems, and expert reputation support.
+                We simplify and amplify your politics's online presence with proven strategies, fast response systems, and expert reputation support.
               </p>
             </div>
           </RevealOnScroll>
@@ -524,11 +524,11 @@ export default function RestaurantIndustryPage() {
               <div className="sticky top-24">
                 <p className="section-label mb-2">Knowledge Base</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
-                  Restaurant Reputation Management <span className="heading-script text-brand-blue">FAQs</span>
+                  Politics Reputation Management <span className="heading-script text-brand-blue">FAQs</span>
                 </h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
                   Have a specific question about our culinary ORM services? Our experts offer a free,
-                  no-obligation consultation to assess your dining brand.
+                  no-obligation consultation to assess your industry brand.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
@@ -558,10 +558,10 @@ export default function RestaurantIndustryPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Let&apos;s Elevate Your Brand</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Attract More Diners with <span className="heading-script text-brand-gold">Stellar Reviews?</span>
+                Ready to Attract More clients with <span className="heading-script text-brand-gold">Stellar Reviews?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our restaurant reputation experts will assess your brand&apos;s
+                Schedule a free consultation today. Our politics reputation experts will assess your brand&apos;s
                 digital footprint, identify review gaps, and present a clear strategy - with no obligation.
               </p>
               
