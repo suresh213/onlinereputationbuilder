@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function RealEstateIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to get a fake 1-star review removed from my real estate agency's Google profile?", answer: "We dispute fake and policy-violating reviews directly with Google and help you generate genuine 5-star reviews from happy home buyers to bury the negativity." },
+        { question: "Why does my competitor rank higher in local search when we have better properties?", answer: "They likely have better Local SEO and review velocity. We optimize your listings, ensure NAP consistency, and implement a robust review generation strategy to help you outrank them." },
+        { question: "How do I fix a damaged reputation after a public dispute with a tenant?", answer: "We deploy aggressive content suppression tactics, highlight your positive community contributions, and push down negative search results so prospective clients see your best side first." }
+      ]} />
       <Footer />
     </div>
   );

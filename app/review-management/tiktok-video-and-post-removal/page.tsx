@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -506,6 +507,10 @@ export default function TikTokRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to take down a viral TikTok video spreading false rumors about my brand?", answer: "We file priority appeals directly to TikTok's Trust and Safety team citing specific Community Guidelines violations—such as harassment or misinformation—which often results in rapid removal." },
+        { question: "Can I remove a TikTok duet or stitch that mocks me?", answer: "Absolutely. We utilize DMCA copyright claims if your original content is being misused, or report the content for bullying and harassment to get the offending duet or stitch deleted." }
+      ]} />
       <Footer />
     </div>
   );

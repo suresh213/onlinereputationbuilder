@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function RestaurantIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove an unfair food poisoning claim from Yelp?", answer: "We report defamatory and unsubstantiated claims to platform moderators and actively manage your Yelp presence to highlight your commitment to food safety and quality." },
+        { question: "Can you help push down negative press about our health inspection score?", answer: "Yes, we flood the first page of Google with high-authority PR, positive reviews, and optimized local listings to ensure old negative news gets buried deep in the search results." },
+        { question: "How do I get more authentic 5-star reviews for my new cafe location?", answer: "We implement automated SMS and email review requests that catch diners right after a great meal, making it incredibly easy for them to leave glowing feedback." }
+      ]} />
       <Footer />
     </div>
   );

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved Verbatim ─────────────────────────────────────── */
@@ -579,6 +580,11 @@ export default function CelebrityCaseStudyPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to get a fake rumor about me removed from Google search?", answer: "We use legal takedowns, DMCA requests, and advanced suppression tactics to push fake rumors off the first page of Google." },
+        { question: "Can you push down negative news articles that show up when someone searches my name?", answer: "Yes, we create and rank high-authority, positive PR articles to bury negative press deep in search results where no one looks." },
+        { question: "How do I fix my public image after a social media cancellation?", answer: "Our crisis team deploys rapid response messaging, shifts the narrative with positive media features, and actively monitors sentiment to rebuild trust fast." }
+      ]} />
       <Footer />
     </div>
   );

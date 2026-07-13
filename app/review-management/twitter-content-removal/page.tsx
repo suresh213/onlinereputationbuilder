@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -482,6 +483,10 @@ export default function TwitterRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove defamatory tweets about me on Twitter?", answer: "We submit specialized reports directly to Twitter's Trust & Safety team targeting harassment, hate speech, and defamation, and follow up with legal escalation if required." },
+        { question: "Can I delete a viral thread on X that is spreading fake news?", answer: "Yes. We act fast to flag the thread for misinformation and platform policy breaches, significantly minimizing its spread and working towards complete takedown." }
+      ]} />
       <Footer />
     </div>
   );

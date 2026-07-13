@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
@@ -520,6 +521,11 @@ export default function GoogleBusinessReputationPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a fake 1-star review from my Google Business Profile?", answer: "We utilize advanced policy flagging and direct appeals to Google to successfully remove fake or defamatory 1-star reviews." },
+        { question: "Can I delete unfair Google reviews left by a competitor?", answer: "Yes, reviews left by competitors violate Google's conflict of interest guidelines. We gather evidence and manage the removal process for you." },
+        { question: "What happens if a former employee leaves a bad review on Google?", answer: "Google policies prohibit former employees from reviewing their past employers. We specialize in identifying these and having them permanently removed." }
+      ]} />
       <Footer />
     </div>
   );

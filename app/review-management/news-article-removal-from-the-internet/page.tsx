@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -710,6 +711,10 @@ export default function NewsArticleRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove an outdated negative news article from Google search?", answer: "We submit formal 'Right to be Forgotten' requests and directly negotiate with publishers' editorial boards, citing journalistic standards or privacy laws to unpublish or de-index the article." },
+        { question: "Can a publisher be forced to delete a defamatory article?", answer: "Yes. If the article contains demonstrable falsehoods, our legal partners issue cease-and-desist letters and leverage defamation laws to force the publication to retract and delete the story." }
+      ]} />
       <Footer />
     </div>
   );

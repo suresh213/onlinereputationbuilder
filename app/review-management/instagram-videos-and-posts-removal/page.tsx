@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -489,6 +490,10 @@ export default function InstagramRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete an impersonating Instagram account ruining my reputation?", answer: "We submit direct, priority reports to Meta’s Trust & Safety team citing trademark or impersonation violations, quickly shutting down the fake profile and all its content." },
+        { question: "Can I remove a defamatory Instagram Reel posted by a competitor?", answer: "Yes. Our team reviews the content for defamation, harassment, or privacy breaches, filing targeted legal takedown notices to ensure the damaging Reel is permanently deleted." }
+      ]} />
       <Footer />
     </div>
   );

@@ -795,6 +795,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1577,6 +1578,11 @@ export default function ChangeGoogleAutocompletePage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a negative Google autocomplete suggestion?", answer: "We use proven search manipulation and positive search volume generation to naturally push out negative suggestions and replace them with positive ones." },
+        { question: "Why does 'scam' show up next to my name on Google?", answer: "This happens when users frequently search your name alongside that keyword. We deploy campaigns to alter search behavior and remove these harmful associations." },
+        { question: "Can I change what Google suggests when people type my name?", answer: "Absolutely. By influencing search algorithms with targeted, high-volume positive queries, we can reshape your Google autocomplete predictions." }
+      ]} />
       <Footer />
     </div>
   );

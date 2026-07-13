@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -488,6 +489,10 @@ export default function IndeedReputationPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a fake Indeed review from someone who never worked at our company?", answer: "We submit structured evidence to Indeed's moderation team proving the reviewer lacks a valid employment record or that the post violates their terms regarding fraudulent accounts, resulting in removal." },
+        { question: "Can I remove a retaliatory 1-star review on Indeed from an angry ex-employee?", answer: "Yes. If the review contains defamatory claims, insider data, or personal attacks against staff, we flag these specific policy violations to compel Indeed to take the review down." }
+      ]} />
       <Footer />
     </div>
   );

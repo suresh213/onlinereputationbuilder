@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
@@ -539,6 +540,11 @@ export default function ReputationMonitoringPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How can I get alerted instantly if someone leaves a bad review?", answer: "Our advanced monitoring system provides real-time alerts the moment a new review or mention is posted, allowing for immediate response." },
+        { question: "Is it possible to monitor my brand reputation across all social media?", answer: "Yes, our tools track mentions across all major social platforms, news sites, blogs, and forums." },
+        { question: "Why is continuous reputation monitoring important for businesses?", answer: "Early detection of negative sentiment allows you to mitigate crises before they escalate and damage your search rankings or sales." }
+      ]} />
       <Footer />
     </div>
   );

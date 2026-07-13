@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -604,6 +605,11 @@ export default function EducationIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to handle a wave of negative reviews from disgruntled former students?", answer: "We flag policy-violating reviews for removal and help you build a massive volume of positive reviews from successful alumni and happy parents to accurately reflect your institution's quality." },
+        { question: "Can you improve our university's search results so parents see our academic achievements first?", answer: "Absolutely. We optimize your digital presence and publish high-authority content highlighting your awards, placements, and campus life to dominate your search results." },
+        { question: "How do we recover from a negative news story about our campus administration?", answer: "We use strategic PR and search suppression to bury negative press, replacing it with positive news about your community involvement, academic excellence, and student success." }
+      ]} />
       <Footer />
     </div>
   );

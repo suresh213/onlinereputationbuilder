@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -526,6 +527,10 @@ export default function TrustpilotReputationManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a defamatory Trustpilot review from an unverified buyer?", answer: "We flag the unverified review through Trustpilot's compliance dashboard and issue formal takedown requests demanding proof of purchase, which leads to the review's removal if the author fails to provide evidence." },
+        { question: "Can I improve my TrustScore quickly after a wave of negative reviews?", answer: "Yes. Alongside disputing the fake reviews, we launch targeted review invitation campaigns to your recent satisfied customers, flooding your profile with authentic positive feedback to restore your TrustScore." }
+      ]} />
       <Footer />
     </div>
   );

@@ -352,6 +352,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -936,6 +937,10 @@ export default function FakeNewsRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove fake news articles published about me on independent blogs?", answer: "We issue formal legal takedown notices based on defamation or copyright violations and work with hosting providers to remove the hosting platform's access to the fake news site if editors ignore the requests." },
+        { question: "Can I delete fabricated press releases appearing on Google News?", answer: "Yes. Our team maps the distribution network of the fake PR, contacting each syndication point and wire service directly to issue retractions and enforce platform guidelines." }
+      ]} />
       <Footer />
     </div>
   );

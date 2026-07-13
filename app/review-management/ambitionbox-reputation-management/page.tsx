@@ -593,6 +593,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1159,6 +1160,10 @@ export default function AmbitionBoxPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a false company review on AmbitionBox?", answer: "We thoroughly audit the review for violations of AmbitionBox guidelines and submit formal takedown requests to their moderation team with clear, documented evidence." },
+        { question: "How to fix a low company rating on AmbitionBox quickly?", answer: "By removing illegitimate negative reviews and running ethical campaigns to encourage genuine positive feedback from your current satisfied employees, your score naturally improves." }
+      ]} />
       <Footer />
     </div>
   );

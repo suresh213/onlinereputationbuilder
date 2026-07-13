@@ -393,6 +393,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1009,6 +1010,10 @@ export default function QuoraContentRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a negative Quora answer about my business?", answer: "We report answers that violate Quora policies—such as defamation, harassment, or misinformation—and escalate the request to their support team to ensure permanent removal." },
+        { question: "Can I remove a Quora thread if I don't own the account?", answer: "Yes. Our reputation management experts file well-documented policy violation reports on your behalf, and can also utilize search engine suppression tactics if Quora refuses removal." }
+      ]} />
       <Footer />
     </div>
   );

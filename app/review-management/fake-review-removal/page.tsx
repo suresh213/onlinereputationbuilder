@@ -201,6 +201,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -779,6 +780,10 @@ export default function FakeReviewRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove coordinated fake reviews on Google and Trustpilot?", answer: "We deploy forensic profile auditing to trace IP anomalies and competitor footprints, using these findings to compel platform trust teams to permanently delete fraudulent ratings." },
+        { question: "Can I take legal action against competitors leaving 1-star reviews?", answer: "Yes. In severe cases, we escalate from standard TOS violations to working with legal partners for cease-and-desist frameworks to stop the competitor attacks at their source." }
+      ]} />
       <Footer />
     </div>
   );

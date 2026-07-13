@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -489,6 +490,10 @@ export default function VideoRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a defamatory video about my business from YouTube?", answer: "We submit formal legal complaints directly to YouTube's legal team, citing specific policy violations such as harassment, defamation, or privacy infringement to mandate the video's removal." },
+        { question: "Can I take down private videos shared without my consent on social media?", answer: "Yes. We act immediately using aggressive DMCA takedown notices and privacy law provisions to force social media platforms to remove non-consensual intimate or private videos." }
+      ]} />
       <Footer />
     </div>
   );

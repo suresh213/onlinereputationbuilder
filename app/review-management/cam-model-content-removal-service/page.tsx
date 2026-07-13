@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -596,6 +597,10 @@ export default function CamModelContentRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove leaked cam videos from adult tube sites?", answer: "We act swiftly by filing aggressive DMCA copyright takedown notices directly with the hosting tube sites and their server providers to ensure immediate removal of unauthorized recordings." },
+        { question: "Can I delete stolen cam content showing up in Google Search?", answer: "Yes. Once the source videos are taken down, we submit specific de-indexing requests to Google so the harmful URLs and thumbnail images are completely removed from search engine results." }
+      ]} />
       <Footer />
     </div>
   );

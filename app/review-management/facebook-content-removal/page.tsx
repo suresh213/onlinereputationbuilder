@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -496,6 +497,10 @@ export default function FacebookReputationPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a defamatory post from a public Facebook group?", answer: "We first contact group admins with evidence of defamation. If they refuse, we escalate the matter to Meta Support citing harassment and community standards violations to force the post's removal." },
+        { question: "Can I delete a fake 1-star review on my Facebook Business Page?", answer: "Yes. We formally report the fake review through Facebook's Business Manager, providing proof of coordinated spam or competitor sabotage to have the fraudulent rating scrubbed." }
+      ]} />
       <Footer />
     </div>
   );

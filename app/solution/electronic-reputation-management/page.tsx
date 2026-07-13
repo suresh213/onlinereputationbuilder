@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function ElectronicIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a viral TikTok video calling my electronic brand a scam?", answer: "We immediately issue takedown notices for defamatory content and counter the narrative with high-quality tech influencer endorsements." },
+        { question: "How to fix my brand's trust score after a major product recall?", answer: "We deploy aggressive PR campaigns highlighting your upgraded quality control and flood search results with positive customer testimonials." },
+        { question: "Why are Reddit users trashing my tech product and how to stop it?", answer: "We monitor niche forums 24/7, engaging authentically to address valid concerns while drowning out trolls with positive, verified community content." }
+      ]} />
       <Footer />
     </div>
   );

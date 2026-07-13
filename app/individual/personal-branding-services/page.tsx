@@ -493,6 +493,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1052,6 +1053,11 @@ export default function PersonalBrandingServicesPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to build a professional personal brand from scratch?", answer: "We start by creating optimized profiles, publishing high-quality thought leadership content, and securing PR placements to establish your authority." },
+        { question: "How can I make my online presence look more trustworthy?", answer: "By managing your search results to highlight your achievements, acquiring positive reviews, and maintaining a consistent, professional image across all platforms." },
+        { question: "What do personal branding services actually do?", answer: "We craft and execute a comprehensive strategy to control your narrative online, ensuring that whoever searches for you sees the best, most accurate version of your professional identity." }
+      ]} />
       <Footer />
     </div>
   );

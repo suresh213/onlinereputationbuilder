@@ -725,6 +725,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 const faqs = [
   { q: "Can negative content be permanently removed from Google?", a: "Yes, in many cases negative content can be permanently removed from Google through official removal requests, legal takedowns, or direct outreach to webmasters. Our team evaluates each case and uses the most effective strategy for permanent removal." },
@@ -1190,6 +1191,11 @@ export default function RemoveNegativeResultsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a negative news article showing up when I search my name?", answer: "We deploy aggressive SEO suppression and legal takedown requests to either remove the article completely or bury it deep in search results." },
+        { question: "Can I force Google to take down a defamatory blog post?", answer: "If the content violates Google's terms of service or is proven defamatory, we can submit formal legal removal requests to take it down." },
+        { question: "How long does it take to hide a bad search result?", answer: "While some removals can happen in weeks, full search suppression typically takes 60-90 days of consistent positive content generation." }
+      ]} />
       <Footer />
     </div>
   );

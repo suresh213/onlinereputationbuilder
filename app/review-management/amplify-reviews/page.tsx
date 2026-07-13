@@ -190,6 +190,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -725,6 +726,10 @@ export default function AmplifyReviewsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to amplify positive reviews on Google without violating their policies?", answer: "We use 100% compliant outreach methods, inviting verified customers to share their feedback via automated SMS and email sequences, ensuring safe and organic review growth." },
+        { question: "Can amplifying positive reviews help push down negative search results?", answer: "Absolutely. A steady influx of high-quality, positive reviews strengthens your overall rating and increases the prominence of positive sentiment, diluting the impact of older negative feedback." }
+      ]} />
       <Footer />
     </div>
   );

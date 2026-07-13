@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -526,6 +527,10 @@ export default function YelpReviewsManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a fake 1-star Yelp review left by a competitor?", answer: "We report the review to Yelp's moderation team with evidence showing it violates their Terms of Service regarding conflict of interest, ensuring swift removal." },
+        { question: "Can I increase my Yelp star rating legitimately?", answer: "Yes. We implement an ethical review generation strategy that encourages your genuine, satisfied customers to share their experiences on Yelp, naturally boosting your overall rating." }
+      ]} />
       <Footer />
     </div>
   );

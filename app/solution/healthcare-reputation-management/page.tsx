@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function HealthcareIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete an unfair review from a disgruntled patient?", answer: "We navigate HIPAA-compliant responses and work with platforms to remove reviews that violate their guidelines, while drowning out negativity with positive patient experiences." },
+        { question: "Can you improve our clinic's rating on healthgrades and local directories?", answer: "Absolutely. We optimize your profiles across all major healthcare directories and implement a seamless feedback loop to capture 5-star reviews from satisfied patients." },
+        { question: "How to protect a doctor's reputation after a malpractice accusation?", answer: "We employ aggressive search suppression to push damaging news off the first page, replacing it with high-authority PR highlighting the doctor's credentials and positive outcomes." }
+      ]} />
       <Footer />
     </div>
   );

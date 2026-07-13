@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -180,6 +181,10 @@ export default function HowToRemoveGlassdoorReviewsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a defamatory Glassdoor review from a disgruntled ex-employee?", answer: "We map the review against Glassdoor's community standards—flagging internal data leaks, personal attacks, or exaggerated claims—and file structural appeals to their compliance team for removal." },
+        { question: "Can you help improve our Glassdoor rating after removing fake reviews?", answer: "Yes. After cleaning up the defamatory posts, we set up secure, automated feedback loops that encourage your genuine team members to post authentic reviews, naturally rebalancing your score." }
+      ]} />
       <Footer />
     </div>
   );

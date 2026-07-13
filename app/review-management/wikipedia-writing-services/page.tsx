@@ -190,6 +190,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -663,6 +664,10 @@ export default function WikipediaWritingServicesPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to create a Wikipedia page for my business without it getting deleted?", answer: "We ensure your business meets Wikipedia's strict notability criteria by securing high-tier media coverage first, then drafting your page in complete compliance with their neutral point of view guidelines to prevent deletion." },
+        { question: "Can I edit an existing Wikipedia article about my brand?", answer: "Direct paid editing without disclosure violates Wikipedia policy. Our specialist team handles compliant edits, proper source building, and monitors your page against bad-faith edits or vandalism." }
+      ]} />
       <Footer />
     </div>
   );

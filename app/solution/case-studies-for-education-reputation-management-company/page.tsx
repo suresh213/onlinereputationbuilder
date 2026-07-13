@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved & Cited ─────────────────────────────────────── */
@@ -571,6 +572,11 @@ export default function EducationCaseStudyPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How do you push down a negative news article about a college?", answer: "We publish high-authority PR, optimize official university web properties, and leverage robust local SEO to outrank and bury the negative article on Google's first page." },
+        { question: "Can reputation management increase university enrollment rates?", answer: "Yes, a pristine digital footprint builds immense trust with prospective students and their parents, directly correlating with higher application and enrollment figures." },
+        { question: "How long does it take to repair an educational institution's reputation?", answer: "While initial search suppression can take 3-6 months, our comprehensive strategy ensures long-term dominance, protecting your institution's legacy for years to come." }
+      ]} />
       <Footer />
     </div>
   );

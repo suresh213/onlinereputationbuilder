@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -513,6 +514,10 @@ export default function GlassdoorReviewManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a fake review left by an ex-employee on Glassdoor?", answer: "We identify policy violations like defamation, fake accounts, or harassment and file evidence-backed appeals to Glassdoor's Trust & Safety team for permanent deletion." },
+        { question: "Can I find out who wrote an anonymous Glassdoor review?", answer: "While Glassdoor protects anonymity, our experts can analyze linguistic patterns and review timing to help you identify the source and build a solid case for its removal." }
+      ]} />
       <Footer />
     </div>
   );

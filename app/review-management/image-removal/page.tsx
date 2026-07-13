@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -505,6 +506,10 @@ export default function ImageRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete an unwanted image of myself from Google Search?", answer: "We locate the original hosting source of the image and submit legally robust takedown requests—such as DMCA or privacy violations—following up with direct Google de-indexing submissions." },
+        { question: "Can I remove private photos posted without my consent?", answer: "Absolutely. We prioritize non-consensual image sharing cases, utilizing strict privacy laws and Right to be Forgotten policies to aggressively scrub these photos from the internet." }
+      ]} />
       <Footer />
     </div>
   );

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function SpiritualIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to respond to a fake review claiming my spiritual retreat is a cult?", answer: "We report defamatory reviews to platform admins for removal while crafting empathetic, transparent responses that showcase your authentic community values." },
+        { question: "Can you hide past news articles about controversy at my healing center?", answer: "Absolutely. We specialize in suppressing outdated or misleading articles by publishing high-authority positive content that dominates Google's first page." },
+        { question: "How to rebuild trust for my astrology business after negative social media backlash?", answer: "We design a comprehensive digital healing strategy, partnering with trusted voices and focusing on positive client transformation stories to reshape your narrative." }
+      ]} />
       <Footer />
     </div>
   );

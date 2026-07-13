@@ -1116,6 +1116,7 @@ import { useState, useEffect, useRef } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1708,6 +1709,11 @@ export default function RemoveIndividualNegativeResultsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a negative news article from Google search?", answer: "We employ a dual approach: issuing legal takedown requests to the publisher and utilizing aggressive SEO to push the article off the first page of Google." },
+        { question: "What if Google refuses to remove a bad review about me?", answer: "If direct removal isn't possible, we create and rank highly authoritative positive content to outrank and bury the negative review so it's practically invisible." },
+        { question: "Can I legally force a website to take down my name?", answer: "In many cases, yes. We work with legal partners to identify terms of service violations, defamation, or privacy breaches to force content removal." }
+      ]} />
       <Footer />
     </div>
   );

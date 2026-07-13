@@ -494,6 +494,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1053,6 +1054,11 @@ export default function PersonalBrandMonitoringPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to track when my name is mentioned online?", answer: "We utilize advanced tracking software that monitors search engines, social media, and news outlets 24/7, alerting you instantly to new mentions." },
+        { question: "What do I do if I find a negative post about me?", answer: "Our team will analyze the post, determine the best course of action—such as suppression or legal removal—and execute a strategy to mitigate its impact." },
+        { question: "Is there a way to monitor my personal brand 24/7?", answer: "Yes, our ongoing brand monitoring service provides round-the-clock surveillance of your digital footprint, keeping your reputation secure." }
+      ]} />
       <Footer />
     </div>
   );

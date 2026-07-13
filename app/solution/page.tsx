@@ -5,6 +5,7 @@ import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import FAQSection from "@/components/FAQSection";
 
 const solutions = [
   {
@@ -167,6 +168,11 @@ export default function SolutionsOverviewPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How do I remove bad reviews from Google?", answer: "We use a mix of policy-violation reporting to remove fake reviews and proactive review generation to bury negative feedback under a flood of 5-star ratings." },
+        { question: "Can online reputation management help my business get more clients?", answer: "Yes, 90% of consumers check online reviews before engaging with a business. A pristine reputation directly translates to higher trust, better local rankings, and more conversions." },
+        { question: "What industries do you specialize in for reputation repair?", answer: "We provide tailored ORM strategies for real estate, healthcare, education, restaurants, politics, and celebrity public figures, understanding the unique challenges of each sector." }
+      ]} />
       <Footer />
     </div>
   );

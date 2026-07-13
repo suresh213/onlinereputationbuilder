@@ -234,6 +234,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 const auditItems = [
   { icon: "🔍", category: "SERP ANALYSIS", title: "Google Search Analysis", desc: "We analyze the first 5 pages of Google results for your brand name, identifying all negative, neutral, and positive content that potential customers see." },
@@ -529,6 +530,11 @@ export default function ReputationAuditPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How do I find out what people are saying about my business online?", answer: "Our comprehensive reputation audit scans search engines, social media, and review platforms to give you a complete picture of your online footprint." },
+        { question: "What does a professional reputation audit include?", answer: "It includes an analysis of search sentiment, backlink profiles, social media mentions, and a vulnerability assessment to identify potential PR risks." },
+        { question: "Can an audit reveal why my competitors are outranking me?", answer: "Yes, our audit benchmarks your digital reputation against competitors to uncover gaps and opportunities for improvement." }
+      ]} />
       <Footer />
     </div>
   );

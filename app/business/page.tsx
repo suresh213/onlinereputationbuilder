@@ -384,6 +384,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 /* ─── Original Data Extracted from PDF ─────────────────────────────────────── */
 
@@ -742,6 +743,11 @@ export default function BusinessAndIndividualSolutionsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to protect my business reputation online?", answer: "We offer comprehensive reputation monitoring, review management, and negative content suppression to safeguard your business's image." },
+        { question: "Can I fix my damaged personal reputation?", answer: "Yes, our individual reputation solutions can help repair and build a positive online presence through strategic content creation and suppression of negative results." },
+        { question: "What is the best way to handle negative reviews for my business?", answer: "The most effective approach involves a combination of removing defamatory reviews, suppressing negative search results, and aggressively generating positive verified reviews." }
+      ]} />
       <Footer />
     </div>
   );

@@ -308,6 +308,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 const crisisTypes = [
   { icon: "📰", category: "MEDIA RELATIONS", title: "Negative Press Coverage", desc: "Damaging news articles or media stories that threaten your brand's public image." },
@@ -704,6 +705,11 @@ export default function CrisisManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to handle a PR crisis that is going viral on social media?", answer: "Immediate action is crucial. We offer 24/7 emergency response to contain the narrative, flag violating content for removal, and deploy positive counter-messaging to regain control." },
+        { question: "Can you suppress negative news articles during a corporate crisis?", answer: "Yes, our rapid-response SEO and technical strategies can aggressively suppress damaging news coverage and replace it with factual, brand-controlled assets." },
+        { question: "What is the best immediate response to online defamatory attacks?", answer: "Do not engage publicly without a strategy. Our experts will quickly analyze the threats, implement legal takedown protocols where applicable, and formulate a robust crisis communication plan." }
+      ]} />
       <Footer />
     </div>
   );

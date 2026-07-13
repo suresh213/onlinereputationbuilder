@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete an unfair 1-star review from a disgruntled policyholder?", answer: "We flag policy-violating reviews to Google for removal, and expertly respond to the rest to show potential clients you handle disputes professionally." },
+        { question: "Why does my insurance agency look like a scam on Google Maps and how to fix it?", answer: "We optimize your local SEO, correct inconsistent contact info, and flood your profile with authentic client reviews so you look established and trusted." },
+        { question: "How to get more 5-star reviews for my local insurance firm?", answer: "We implement automated SMS and email campaigns that make it incredibly easy for your happy clients to leave positive reviews right after a successful claim." }
+      ]} />
       <Footer />
     </div>
   );

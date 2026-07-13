@@ -404,6 +404,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1039,6 +1040,10 @@ export default function RedditPostRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to delete a defamatory Reddit post ranking on Google for my brand?", answer: "We report the post for targeted harassment and defamation using Reddit's administrative channels, providing legal documentation to compel the moderators or Trust & Safety team to remove the thread." },
+        { question: "Can I find out who posted an anonymous negative comment about my business on Reddit?", answer: "While Reddit protects user anonymity, we can often pursue legal avenues such as subpoenas in severe defamation cases to uncover the poster's identity and mandate content removal." }
+      ]} />
       <Footer />
     </div>
   );

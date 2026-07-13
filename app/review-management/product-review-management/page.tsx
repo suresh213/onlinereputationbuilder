@@ -190,6 +190,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -610,6 +611,11 @@ export default function ProductReviewsManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a fake 1-star review from my Amazon product page?", answer: "We use advanced reporting frameworks and submit verified evidence to Amazon Seller Support to escalate and permanently delete fraudulent 1-star ratings that violate their policies." },
+        { question: "How to deal with competitors leaving bad product reviews?", answer: "Our team conducts a deep-dive analysis to trace competitor footprints and fake buyer accounts, submitting these findings through priority platform channels to get malicious reviews taken down." },
+        { question: "Can I delete negative reviews on Flipkart and Shopify?", answer: "Yes, if the reviews violate community guidelines, such as being fake, spam, or defamatory. We handle the end-to-end takedown process for Flipkart, Shopify, and over 50 other e-commerce platforms." }
+      ]} />
       <Footer />
     </div>
   );

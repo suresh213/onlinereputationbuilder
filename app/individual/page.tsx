@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
 
@@ -350,6 +351,11 @@ export default function IndividualSolutionsPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to fix my damaged online reputation?", answer: "We provide tailored solutions including content removal, positive asset creation, and continuous monitoring to suppress negatives and highlight your strengths." },
+        { question: "What is the best way to hide negative search results?", answer: "The most effective method is 'reverse SEO'—creating strong, optimized positive content that ranks above the negative links, pushing them down where nobody looks." },
+        { question: "How long does it take to repair a ruined digital footprint?", answer: "While some removals can happen in weeks, a comprehensive suppression campaign typically takes 3 to 6 months to establish a robust, positive first page of Google." }
+      ]} />
       <Footer />
     </div>
   );

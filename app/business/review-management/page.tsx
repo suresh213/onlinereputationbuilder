@@ -1300,6 +1300,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import FAQSection from "@/components/FAQSection";
 
 // Upgraded to use real online image URLs for platform logos
 const platformLogos = [
@@ -1821,6 +1822,11 @@ export default function ReviewManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How do I get more positive 5-star reviews for my business?", answer: "We implement automated review generation campaigns that seamlessly request feedback from your satisfied customers via email or SMS." },
+        { question: "Can you automate asking my customers for reviews?", answer: "Yes, our review management software integrates with your CRM to automatically trigger review requests at the optimal time." },
+        { question: "What is the best way to respond to both positive and negative reviews?", answer: "Professional, timely responses are key. We help craft template responses and can manage the entire review response process for your team." }
+      ]} />
       <Footer />
     </div>
   );

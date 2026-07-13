@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
+import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
 /* ─── Original Data Preserved ─────────────────────────────────────────────── */
@@ -603,6 +604,11 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to suppress a smear campaign launched by my political opponent?", answer: "We deploy advanced SEO tactics to push defamatory content off the first page of Google, replacing it with high-authority PR and positive campaign messaging." },
+        { question: "Can you remove defamatory news articles about me from Google search?", answer: "While direct removal is difficult for news, our aggressive suppression strategies ensure that positive, verified content ranks higher, burying the negative articles where voters won't see them." },
+        { question: "How do I rebuild trust with voters after a social media controversy?", answer: "Our crisis management team crafts strategic responses, promotes positive community impact stories, and actively monitors sentiment to shift the public narrative back in your favor." }
+      ]} />
       <Footer />
     </div>
   );

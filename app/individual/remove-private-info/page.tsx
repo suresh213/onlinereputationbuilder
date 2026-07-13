@@ -693,6 +693,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -1345,6 +1346,11 @@ export default function RemovePrivateInfoPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to get my address off people search sites quickly?", answer: "We use manual opt-outs and automated scans to remove your personal information from data brokers and people search engines quickly." },
+        { question: "Can someone find my financial info online without permission?", answer: "Yes, data brokers often aggregate and sell this data. Our service identifies these exposures and requests immediate removal to protect your privacy." },
+        { question: "How to delete court case records from public Google searches?", answer: "While public records exist, we employ legal takedowns and advanced SEO strategies to suppress court records from appearing in Google searches for your name." }
+      ]} />
       <Footer />
     </div>
   );

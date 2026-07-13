@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -637,6 +638,10 @@ export default function ComplaintRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to remove a fake consumer complaint from MouthShut?", answer: "We use targeted policy enforcement and legal notices to challenge the authenticity of fake complaints on MouthShut and consumer forums, compelling platform moderators to take them down." },
+        { question: "Can I suppress Ripoff Report complaints if they refuse to remove them?", answer: "Yes. For sites with strict non-removal policies like Ripoff Report, we deploy advanced SEO suppression campaigns to push the negative listings off the first page of Google." }
+      ]} />
       <Footer />
     </div>
   );

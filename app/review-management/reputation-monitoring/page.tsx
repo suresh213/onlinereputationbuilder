@@ -190,6 +190,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -718,6 +719,10 @@ export default function ReputationMonitoringPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to set up real-time alerts for my brand mentions online?", answer: "We deploy advanced scraping and monitoring tools that track your brand keywords across search engines, news sites, and social media, delivering instant alerts when new mentions appear." },
+        { question: "Can reputation monitoring track negative sentiment on Glassdoor?", answer: "Yes. Our systems continuously monitor employer review sites like Glassdoor and Indeed, allowing you to catch and respond to negative employee sentiment before it affects recruitment." }
+      ]} />
       <Footer />
     </div>
   );

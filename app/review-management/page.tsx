@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -641,6 +642,10 @@ export default function ReviewManagementPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How do review management services push down bad search results?", answer: "We publish high-quality, SEO-optimized content across authoritative domains to outrank negative links, effectively burying damaging reviews beyond the first page of Google." },
+        { question: "Can you help automate the collection of positive reviews from my customers?", answer: "Yes. We integrate review generation software with your CRM to automatically send SMS and email requests to satisfied customers, steadily building a strong, 5-star reputation online." }
+      ]} />
       <Footer />
     </div>
   );

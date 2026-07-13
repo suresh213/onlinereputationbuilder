@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
@@ -496,6 +497,10 @@ export default function YouTubeRemovalPage() {
         </div>
       </section>
 
+      <FAQSection items={[
+        { question: "How to take down a competitor's YouTube video that lies about my product?", answer: "We file comprehensive trademark and defamation complaints through YouTube's legal webforms, providing evidence of the falsehoods to trigger a manual review and subsequent takedown." },
+        { question: "Can I remove a YouTube video using a DMCA copyright strike?", answer: "Yes. If the video uses your copyrighted logos, footage, or proprietary materials without permission, we issue a formal DMCA takedown notice, which legally obligates YouTube to remove the content." }
+      ]} />
       <Footer />
     </div>
   );
