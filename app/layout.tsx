@@ -15,7 +15,7 @@ const siteUrl = "https://onlinereputationbuilder.in";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Online Reputation Builder – Top ORM Company in Kolkata, India",
+    default: "Online Reputation Builder – Top ORM Company in India",
     template: "%s | Online Reputation Builder",
   },
   description:
@@ -92,7 +92,7 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Online Reputation Builder",
-                "description": "India's No.1 Online Reputation Management Company in Kolkata",
+                "description": "India's No.1 Online Reputation Management Company",
                 "url": siteUrl,
                 "logo": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",
@@ -158,6 +158,11 @@ export default function RootLayout({
                   ],
                   "opens": "09:00",
                   "closes": "18:00"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "ratingCount": "1247"
                 }
               },
               {
@@ -187,6 +192,16 @@ export default function RootLayout({
                 "name": "About Us",
                 "description": "Learn more about Online Reputation Builder, India's leading ORM agency.",
                 "url": `${siteUrl}/about`
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "Online Reputation Builder – Top ORM Company in India",
+                "keywords": "online reputation management company, online reputation management services, ORM agency, remove negative search results, brand reputation management",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Online Reputation Builder"
+                }
               }
             ]),
           }}
