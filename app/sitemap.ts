@@ -53,6 +53,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/solution/case-studies-for-education-reputation-management-company",
     "/solution/education-industry-reputation-management",
     "/solution/restaurant-industry-reputation-management",
+    "/solution/electronic-reputation-management",
+    "/solution/healthcare-reputation-management",
+    "/solution/insurance-reputation-management",
+    "/solution/politics-reputation-management",
+    "/solution/real-estate-reputation-management",
+    "/solution/spiritual-reputation-management",
     "/blog"
   ];
 

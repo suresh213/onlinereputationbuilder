@@ -170,7 +170,7 @@
 //                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold-light opacity-75" />
 //                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold-light" />
 //               </span>
-//               Personal Branding · Kolkata, India
+//               Personal Branding · India
 //             </div>
 
 //             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
@@ -692,7 +692,7 @@ export default function PersonalBrandingServicesPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
               </span>
-              Personal Branding · Kolkata, India
+              Personal Branding · India
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
@@ -759,7 +759,7 @@ export default function PersonalBrandingServicesPage() {
                   In today&apos;s competitive world, personal branding plays a big role in how people see you online. A strong personal brand highlights your skills, values, and achievements, helping you connect better with your audience, gain new opportunities, and stand out in your industry.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                  With a solid personal brand, you&apos;ll gain an advantage over your competitors and establish your business for long-term growth. Our personal branding agency in Kolkata helps turn your story into a powerful and memorable brand presence.
+                  With a solid personal brand, you&apos;ll gain an advantage over your competitors and establish your business for long-term growth. Our personal branding agency in India helps turn your story into a powerful and memorable brand presence.
                 </p>
 
                 {/* Premium Tip List */}
