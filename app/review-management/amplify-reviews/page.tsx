@@ -409,7 +409,7 @@ export default function AmplifyReviewsPage() {
                 Amplify Reviews Services
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Best Review Amplification Company in <span className="text-gradient-gold">Delhi, India</span>
+                Best Review Amplification Company in <span className="text-gradient-gold">Kolkata, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
                 Turn your happiest customers into your most powerful marketing asset. We ethically amplify genuine positive reviews across every platform that matters - driving measurable improvement in your star rating, trust, and revenue.
@@ -606,7 +606,7 @@ export default function AmplifyReviewsPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">Delhi&apos;s Best Review Amplification Company</span>
+                Why We Are <span className="text-gradient-gold">Kolkata&apos;s Best Review Amplification Company</span>
               </h2>
             </div>
           </RevealOnScroll>

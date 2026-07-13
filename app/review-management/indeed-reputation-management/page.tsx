@@ -212,7 +212,7 @@ export default function IndeedReputationPage() {
                 Indeed Reputation Management
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Best Indeed Reputation Management Company in <span className="text-gradient-gold">Delhi, India</span>
+                Best Indeed Reputation Management Company in <span className="text-gradient-gold">Kolkata, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
                 Transform your Indeed employer profile and attract top talent. We remove fake and damaging reviews, manage professional responses, and build the strong Indeed reputation your hiring success depends on.
@@ -272,7 +272,7 @@ export default function IndeedReputationPage() {
                 Indeed is India's most-used job platform. Your company profile is the first impression millions of active job seekers get of your business. A damaged profile means fewer applications, lower-quality hires, and a higher cost of recruitment.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our team specialises in restoring and strengthening Indeed profiles for companies across Delhi, India, and beyond - delivering measurable improvements in both profile rating and recruitment outcomes.
+                Our team specialises in restoring and strengthening Indeed profiles for companies across Kolkata, India, and beyond - delivering measurable improvements in both profile rating and recruitment outcomes.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Profile Audit</Link>
             </div>
@@ -369,7 +369,7 @@ export default function IndeedReputationPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">Delhi's Best Indeed Reputation Company</span>
+                Why We Are <span className="text-gradient-gold">Kolkata's Best Indeed Reputation Company</span>
               </h2>
             </div>
           </RevealOnScroll>

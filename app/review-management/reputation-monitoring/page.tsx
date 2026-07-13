@@ -409,7 +409,7 @@ export default function ReputationMonitoringPage() {
                 Reputation Monitoring Services
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Best Online Reputation Monitoring Company in <span className="text-gradient-gold">Delhi, India</span>
+                Best Online Reputation Monitoring Company in <span className="text-gradient-gold">Kolkata, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
                 Know exactly what the world is saying about your brand - the moment they say it. We monitor 50+ platforms in real time so you can respond fast, protect your reputation, and stay ahead of every threat.
@@ -502,7 +502,7 @@ export default function ReputationMonitoringPage() {
                 Your brand is being discussed right now - on review platforms, social media, news sites, and forums. Without real-time monitoring, you have no visibility into how your reputation is developing or where the next threat is coming from.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our reputation monitoring service gives Delhi and India-based businesses a complete, always-on view of their online presence - so nothing slips through and you always have the intelligence to act.
+                Our reputation monitoring service gives Kolkata and India-based businesses a complete, always-on view of their online presence - so nothing slips through and you always have the intelligence to act.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Monitoring Demo</Link>
             </div>
@@ -599,7 +599,7 @@ export default function ReputationMonitoringPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">Delhi&apos;s Best Reputation Monitoring Company</span>
+                Why We Are <span className="text-gradient-gold">Kolkata&apos;s Best Reputation Monitoring Company</span>
               </h2>
             </div>
           </RevealOnScroll>

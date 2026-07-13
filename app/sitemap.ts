@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/business/reputation-monitoring",
     "/business/review-management",
     "/contact-us",
+    "/privacy-policy",
+    "/terms-and-conditions",
     "/individual",
     "/individual/change-google-autocomplete",
     "/individual/personal-brand-monitoring",

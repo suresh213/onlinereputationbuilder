@@ -278,8 +278,6 @@ export default function Footer() {
               { label: "Blog", href: "/blog" },
               { label: "Case Studies", href: "/solution" },
               { label: "Contact Us", href: "/contact-us" },
-              { label: "Privacy Policy", href: "#" },
-              { label: "Terms & Conditions", href: "#" },
             ].map((l) => (
               <li key={l.label}>
                 <Link href={l.href} className="text-sm text-gray-400 hover:text-brand-gold-light transition-colors flex items-center gap-2 group">
@@ -332,9 +330,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} Online Reputation Builder. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <Link href="#" className="hover:text-gray-300 transition-colors">Terms & Conditions</Link>
+            <Link href="/terms-and-conditions" className="hover:text-gray-300 transition-colors">Terms & Conditions</Link>
             <span className="opacity-30">|</span>
-            <Link href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
+            <Link href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
           </div>
         </div>
       </div>

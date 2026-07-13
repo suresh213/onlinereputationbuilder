@@ -151,15 +151,15 @@ export default function FacebookReputationPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
                 </span>
-                Facebook Reputation Management · Delhi
+                Facebook Reputation Management · Kolkata
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Negative <span className="text-gradient-gold">Facebook Posts</span> - Expert Reputation Management in Delhi
+                Remove Negative <span className="text-gradient-gold">Facebook Posts</span> - Expert Reputation Management in Kolkata
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Protect your brand on India&apos;s most widely used social platform. Our Facebook reputation management experts in Delhi remove harmful posts, fake reviews, and defamatory content to restore your online credibility.
+                Protect your brand on India&apos;s most widely used social platform. Our Facebook reputation management experts in Kolkata remove harmful posts, fake reviews, and defamatory content to restore your online credibility.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

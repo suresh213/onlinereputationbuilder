@@ -146,7 +146,7 @@
 // // //         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
 // // //           <div>
 // // //             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-semibold mb-5 uppercase tracking-wider">
-// // //               ⭐ Top Review Management Company · Delhi India
+// // //               ⭐ Top Review Management Company · Kolkata India
 // // //             </div>
 // // //             <h1 className="font-heading text-3xl lg:text-4xl font-extrabold text-white leading-[1.15] mb-4">
 // // //               Professional Review Management Services
@@ -553,7 +553,7 @@
 // //         <div className="max-w-7xl mx-auto px-4 py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 xl:gap-14 items-center relative z-10">
 // //           <div className="hero-copy">
 // //             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
-// //               ⭐ Top Review Management Company · Delhi India
+// //               ⭐ Top Review Management Company · Kolkata India
 // //             </div>
 // //             <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.18rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
 // //               Professional Review Management Services
@@ -1494,7 +1494,7 @@ export default function ReviewManagementPage() {
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-20 items-center relative z-10">
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.7rem] font-bold mb-6 uppercase tracking-widest bg-brand-gold/10 border-brand-gold/30 text-brand-gold">
-              ⭐ Top Review Management Company · Delhi India
+              ⭐ Top Review Management Company · Kolkata India
             </div>
             
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.05] mb-6 tracking-tight">

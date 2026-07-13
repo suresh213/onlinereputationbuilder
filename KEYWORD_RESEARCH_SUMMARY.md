@@ -9,7 +9,7 @@
 ```
 Primary Keywords (High Volume, High Intent):
 - "online reputation management company India" (640 searches/mo, ~30 difficulty)
-- "ORM services Delhi" (320 searches/mo, ~25 difficulty)
+- "ORM services Kolkata" (320 searches/mo, ~25 difficulty)
 - "remove negative Google results" (480 searches/mo, ~35 difficulty)
 - "reputation management services" (720 searches/mo, ~40 difficulty)
 - "online reputation repair" (280 searches/mo, ~28 difficulty)

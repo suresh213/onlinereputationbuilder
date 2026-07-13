@@ -371,7 +371,7 @@ export default function GoogleBusinessReputationPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">Delhi's Trusted Google Reputation Experts</span>
+                Why We Are <span className="text-gradient-gold">Kolkata's Trusted Google Reputation Experts</span>
               </h2>
             </div>
           </RevealOnScroll>

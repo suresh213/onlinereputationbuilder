@@ -15,22 +15,22 @@ const siteUrl = "https://onlinereputationbuilder.in";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Online Reputation Builder – #1 ORM Company in Delhi, India",
+    default: "Online Reputation Builder – #1 ORM Company in Kolkata, India",
     template: "%s | Online Reputation Builder",
   },
   description:
-    "Online Reputation Builder is India's No.1 Online Reputation Management Company in Delhi. We protect, repair & enhance your online reputation. Trusted by 1200+ clients across the globe.",
+    "Online Reputation Builder is India's No.1 Online Reputation Management Company in Kolkata. We protect, repair & enhance your online reputation. Trusted by 1200+ clients across the globe.",
   keywords: [
     "online reputation management",
     "ORM company India",
-    "reputation management Delhi",
+    "reputation management kolkata",
     "remove negative Google results",
     "remove negative reviews",
     "brand reputation management",
     "online reputation repair",
     "crisis management",
     "review management",
-    "ORM agency Delhi NCR",
+    "ORM agency Kolkata",
   ],
   alternates: { canonical: "https://onlinereputationbuilder.in/" },
   openGraph: {
@@ -85,7 +85,7 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Online Reputation Builder",
-                "description": "India's No.1 Online Reputation Management Company in Delhi",
+                "description": "India's No.1 Online Reputation Management Company in Kolkata",
                 "url": siteUrl,
                 "logo": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",

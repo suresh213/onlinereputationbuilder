@@ -84,7 +84,7 @@
 //                   </div>
 //                   <div>
 //                     <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1.5">Address</p>
-//                     <p className="text-white font-medium text-[0.95rem] leading-relaxed mb-1">C-72/2, Sainik Nagar, New Delhi - 110059.</p>
+//                     <p className="text-white font-medium text-[0.95rem] leading-relaxed mb-1">C-72/2, Sainik Nagar, Kolkata - 110059.</p>
 //                     <p className="text-zinc-400 text-sm italic">Landmark: Near Metro Pillar No. 742, Nawada Metro Station</p>
 //                   </div>
 //                 </div>

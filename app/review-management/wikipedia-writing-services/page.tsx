@@ -396,7 +396,7 @@ export default function WikipediaWritingServicesPage() {
                 Wikipedia Writing Services
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Best Wikipedia Writing Services Company in <span className="text-gradient-gold">Delhi, India</span>
+                Best Wikipedia Writing Services Company in <span className="text-gradient-gold">Kolkata, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
                 Establish unassailable credibility with a professionally written, policy-compliant Wikipedia article. We create, publish, and protect Wikipedia pages for businesses, brands, and executives — with a proven track record of successful publication.
@@ -544,7 +544,7 @@ export default function WikipediaWritingServicesPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">Delhi&apos;s Best Wikipedia Writing Company</span>
+                Why We Are <span className="text-gradient-gold">Kolkata&apos;s Best Wikipedia Writing Company</span>
               </h2>
             </div>
           </RevealOnScroll>

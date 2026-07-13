@@ -81,7 +81,7 @@ const mediaLogos = [
 ];
 
 const faqs = [
-  { q: "Will Online Reputation Management Help my Business Grow?", a: "Yes, ORM is an opportunity to grow the business by promoting trust, strengthening search engine results, and boosting conversion rates. Positive presence online attracts customers, increases revenue, and generates loyalty. As the best ORM company in Delhi, we guarantee strong digital presence for long-term success and competitive superiority." },
+  { q: "Will Online Reputation Management Help my Business Grow?", a: "Yes, ORM is an opportunity to grow the business by promoting trust, strengthening search engine results, and boosting conversion rates. Positive presence online attracts customers, increases revenue, and generates loyalty. As the best ORM company in Kolkata, we guarantee strong digital presence for long-term success and competitive superiority." },
   { q: "Is there a Service to Remove Google Reviews?", a: "Yes. Specialized ORM services can help remove fake, misleading, or defamatory Google reviews by reporting policy violations directly to Google. At Online Reputation Builder, we analyze the review, collect supporting evidence, submit professional removal requests, and follow up rigorously to maximize success rates." },
   { q: "Is it Possible to Remove Negative Online Reviews?", a: "Yes. Negative reviews that do not comply with platform guidelines may be deleted by means of efficient flagging and provision of evidence. Online Reputation Builder works across several sites for deletion and reputation protection efficiently using Google and other platforms." },
   { q: "Why do you need Online Reputation Management Services?", a: "ORM services protect against digital crisis, track mentions online, and publish positive content. They create trust, improve search rates, and make sales in a market dominated by reviews. We protect brands to build long-term trust and development." },
@@ -116,7 +116,7 @@ export default function HomePage() {
           {/* Left */}
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
-              🏆 India's #1 ORM Company · Delhi NCR
+              🏆 India's #1 ORM Company · Kolkata
             </div>
             <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
               Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company
@@ -132,7 +132,7 @@ export default function HomePage() {
                 "Clean Negative Search Results From Google",
                 "Removal / Suppression of Negative Content",
                 "Removal / Suppression Negative & Fake Reviews",
-                "Ranked as India's top 10 best ORM company in Delhi",
+                "Ranked as India's top 10 best ORM company in Kolkata",
                 "1200+ Happy Clients across the globe",
               ].map((item) => (
                 <li key={item} className="check-item text-sm text-white/80">

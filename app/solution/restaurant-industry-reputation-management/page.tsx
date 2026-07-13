@@ -2,7 +2,7 @@
 // import SolutionDetailPage from "@/components/SolutionDetailPage";
 
 // export const metadata: Metadata = {
-//   title: "Restaurant Reputation Management Services in Delhi, India",
+//   title: "Restaurant Reputation Management Services in Kolkata, India",
 //   description:
 //     "Struggling with bad reviews? Our restaurant ORM services help control online reputation, improve Google ratings, and protect your image.",
 //   alternates: { canonical: "/restaurant-industry-reputation-management" },
