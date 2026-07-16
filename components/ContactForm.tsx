@@ -192,9 +192,9 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           page_url: window.location.href,
         });
 
-        // Track Google Ads conversion (AW-406461196)
+        // Track Google Ads conversion (AW-406461196) - Submit lead form (2) - FINAL
         (window as any).gtag("event", "conversion", {
-          send_to: "AW-406461196/CRduCIy5xtEcEIy26MEB",
+          send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
           value: 1.0,
           currency: "INR",
         });
