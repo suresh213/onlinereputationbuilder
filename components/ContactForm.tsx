@@ -194,7 +194,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
 
         // Track Google Ads conversion (AW-406461196)
         (window as any).gtag("event", "conversion", {
-          send_to: "AW-406461196/yab-CPrc4NEcEIy26MEB",
+          send_to: "AW-406461196/CRduCIy5xtEcEIy26MEB",
           value: 1.0,
           currency: "INR",
         });
