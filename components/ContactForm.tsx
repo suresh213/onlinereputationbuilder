@@ -181,7 +181,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         throw new Error("Unable to submit your request right now.");
       }
 
-      // Track successful form submission event in Google Analytics
+      // Track successful form submission event in Google Analytics (GA4)
       if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
         (window as any).gtag("event", "generate_lead", {
           event_category: "Lead Generation",
@@ -190,6 +190,13 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           lead_service: form.service,
           lead_country: form.country,
           page_url: window.location.href,
+        });
+
+        // Track Google Ads conversion (AW-406461196)
+        (window as any).gtag("event", "conversion", {
+          send_to: "AW-406461196/yab-CPrc4NEcEIy26MEB",
+          value: 1.0,
+          currency: "INR",
         });
       }
 
