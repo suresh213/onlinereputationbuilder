@@ -7,7 +7,7 @@ A pixel-faithful clone of buildbrandbetter.io built with Next.js 14, TypeScript,
 | Route | Page |
 |-------|------|
 | `/` | Homepage (full) |
-| `/remove-negative-results` | Remove Negative Google Results |
+| `/remove-negative-results` | Remove Negative Google Results | 
 | `/review-management` | Review Management |
 | `/reputation-audit` | Online Reputation Audit |
 | `/crisis-management` | Crisis Management |
