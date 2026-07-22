@@ -84,9 +84,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Neha R.", role: "Influencer & Creator", text: "A competitor posted a defamatory duet about my brand. The team had it removed within days and set up monitoring so it couldn't resurface. Incredible service.", initials: "NR" },
-  { name: "Vikram S.", role: "Business Owner", text: "Fake TikTok videos were going viral and hurting my business. These experts acted fast, removed the content, and helped me rebuild my audience's trust.", initials: "VS" },
-  { name: "Ananya M.", role: "Public Figure", text: "I was being harassed through TikTok posts. The team handled everything professionally and the content was taken down quickly. I highly recommend them.", initials: "AM" },
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."},
+  {"name": "Arjun M.", "initials": "AM", "role": "CEO, Tech Startup", "text": "The team was highly professional. They helped us clear our digital footprint and improve our brand image significantly."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."}
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */

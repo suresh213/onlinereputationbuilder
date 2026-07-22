@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Aisha Patel",
-    text: "We went from 3.2 to 4.6 stars on Google in under three months. The team built a systematic programme that turned our happy customers into vocal advocates. Revenue from new leads has increased noticeably.",
-  },
-  {
-    name: "Manish Gupta",
-    text: "The Glassdoor amplification service transformed our employer brand. We now attract significantly better candidates because our employee ratings tell the true story of our culture.",
-  },
-  {
-    name: "Ritu Sharma",
-    text: "Ethical, effective, and completely transparent. I was worried about compliance but they explained everything in detail. Our review count tripled and every single review is from a real customer.",
-  },
+  {"name": "Amit V.", "initials": "AV", "role": "Operations Manager", "text": "Exceptional results. They managed to push down negative links that were hurting our business for years."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."}
 ];
 
 const publishers = [

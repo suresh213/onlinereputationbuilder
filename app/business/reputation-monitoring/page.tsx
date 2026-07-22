@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Rakesh Agarwal",
-    text: "This tracking tool is amazing. I got an SMS about a fake news story and we were able to stop it before it went viral. A must-have for all companies.",
-  },
-  {
-    name: "Sneha Reddy",
-    text: "The weekly reports are very easy to read. I now know exactly what my customers want and what they don't like. Best investment for my brand.",
-  },
-  {
-    name: "Sanjay Gupta",
-    text: "We use their tracking and removal services together. Because they watch my brand 24/7, my Google rating has improved from 3.5 to 4.8.",
-  },
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Amit V.", "initials": "AV", "role": "Operations Manager", "text": "Exceptional results. They managed to push down negative links that were hurting our business for years."}
 ];
 
 const publishers = [

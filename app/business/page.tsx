@@ -67,12 +67,9 @@ const allServices = [
 ];
 
 const testimonials = [
-  {
-    name: "Sunil Verma",
-    role: "Business Owner",
-    text: "I was losing so many clients because of one bad link on Google. This team was completely different from others. They were fast, honest, and actually removed the bad link. My business is growing again.",
-    initials: "S",
-  },
+  {"name": "Arjun M.", "initials": "AM", "role": "CEO, Tech Startup", "text": "The team was highly professional. They helped us clear our digital footprint and improve our brand image significantly."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."}
 ];
 
 /* ─── Animation Hook ───────────────────────────────────────── */

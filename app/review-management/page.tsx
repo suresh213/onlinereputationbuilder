@@ -129,21 +129,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Garima",
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
-    initials: "G",
-  },
-  {
-    name: "Kapil",
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
-    initials: "K",
-  },
-  {
-    name: "Jashmin",
-    text: "I had a bad experience with an online reputation management company in the past, but working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation and it's making a huge impact on my business.",
-    initials: "J",
-  },
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."}
 ];
 
 // Reconstructed sliding marquee data using Favicon API

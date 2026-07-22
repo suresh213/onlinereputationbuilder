@@ -98,24 +98,9 @@ const whyItMatters = [
 ];
 
 const testimonials = [
-  {
-    name: "Vikram M.",
-    role: "HR Director, Tech Solutions",
-    text: "A targeted attack by a disgruntled ex-employee dropped our score to 2.8 in a week. The ORM Pro team mapped the attack and had the reviews removed in 14 days. Absolutely saved our recruitment drive.",
-    initials: "VM",
-  },
-  {
-    name: "Sneha R.",
-    role: "Startup Founder",
-    text: "Candidates were literally ghosting our interviews because of fake AmbitionBox reviews. This team not only removed the defamatory posts but helped us build a strategy to highlight our true company culture.",
-    initials: "SR",
-  },
-  {
-    name: "Arjun P.",
-    role: "Head of Talent Acquisition",
-    text: "Best ORM investment we made this year. We went from a 3.2 to a 4.4 rating in three months. The cost-per-hire savings easily paid for the service ten times over.",
-    initials: "AP",
-  },
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Siddharth N.", "initials": "SN", "role": "Executive Director", "text": "They successfully appealed and removed several defamatory reviews that were violating platform policies."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."}
 ];
 
 const faqs = [

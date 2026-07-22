@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Kavya Reddy",
-    text: "Private photos of mine were shared without consent and appeared on Google. The team had them deindexed and removed within a week. Truly professional and compassionate service.",
-  },
-  {
-    name: "Manish Gupta",
-    text: "An old unflattering image kept coming up in searches for my name. After working with this team, it's completely gone. Fast, discreet, and effective.",
-  },
-  {
-    name: "Sneha Joshi",
-    text: "They handled a very sensitive image removal case with complete professionalism. I felt supported throughout and the results were exactly what I needed.",
-  },
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."}
 ];
 
 const publishers = [

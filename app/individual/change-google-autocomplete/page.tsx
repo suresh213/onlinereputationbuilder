@@ -152,30 +152,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Scott",
-    role: "Business Owner",
-    text: "The impact was undeniable. They cleaned up our search suggestions and provided a clear roadmap for sustaining a positive brand image.",
-    initials: "SC",
-  },
-  {
-    name: "Harold",
-    role: "CEO",
-    text: "A completely professional experience. They delivered exactly what they promised, fundamentally shifting how our company appears in search.",
-    initials: "HA",
-  },
-  {
-    name: "Garima",
-    role: "Marketing Director",
-    text: "Our digital reputation was holding us back until we engaged their services. The autocomplete transformation has directly boosted our lead generation.",
-    initials: "GA",
-  },
-  {
-    name: "Kapil",
-    role: "Entrepreneur",
-    text: "They took complete control of our search narrative. Negative suggestions vanished, replaced by terms that highlight our actual services. Highly recommended.",
-    initials: "KA",
-  },
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."}
 ];
 
 function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) {

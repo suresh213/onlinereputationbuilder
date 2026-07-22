@@ -152,18 +152,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Suresh Iyer",
-    text: "We had tried twice to get a Wikipedia article published and been rejected both times. This team's notability assessment and citation work made all the difference — our article has been live for over a year with no issues.",
-  },
-  {
-    name: "Kavya Reddy",
-    text: "The executive profile they created for our CEO has had a measurable impact on how journalists and investors perceive him. The Google Knowledge Panel now shows our preferred information. Exceptional work.",
-  },
-  {
-    name: "Amit Tiwari",
-    text: "Professional, transparent, and genuinely expert. They told us upfront exactly what was needed and delivered precisely what was promised. Our company Wikipedia page has become one of our most valuable brand assets.",
-  },
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."}
 ];
 
 /* ─── Animation Components ───────────────────────────────────────────────── */

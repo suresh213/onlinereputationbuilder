@@ -116,24 +116,9 @@ const platformsCovered = [
 ];
 
 const testimonials = [
-  {
-    name: "Michael T.",
-    role: "E-Commerce Director",
-    text: "We were hit by a coordinated bot attack that dropped our Google rating from 4.8 to 3.2 in a weekend. The team here mapped the attack and had 140+ fake reviews deleted in under two weeks. Absolutely saved our quarter.",
-    initials: "MT",
-  },
-  {
-    name: "Sarah L.",
-    role: "Clinic Founder",
-    text: "A disgruntled ex-employee created dozens of fake accounts to leave horrible reviews. We tried reporting them ourselves for months with no luck. ORM Pro took over and had them legally removed.",
-    initials: "SL",
-  },
-  {
-    name: "David K.",
-    role: "Restaurant Owner",
-    text: "Competitors were leaving fake food poisoning reviews on our Yelp and TripAdvisor. The forensics team proved they were fake and forced the platforms to take them down. Truly worth every penny.",
-    initials: "DK",
-  },
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."}
 ];
 
 const faqs = [

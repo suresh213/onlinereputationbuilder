@@ -89,18 +89,9 @@ const individualServices = [
 ];
 
 const testimonials = [
-  {
-    name: "Sunil",
-    role: "Doctor",
-    text: "Someone wrote terrible fake news about me. These guys deleted the link very quickly. Now my name is clean on Google. Thank you so much for your great service.",
-    initials: "S",
-  },
-  {
-    name: "Pooja M.",
-    role: "Business Consultant",
-    text: "Before, nothing showed up when you searched my name. Now, my name is on page one with amazing articles. I am getting much better job offers now.",
-    initials: "PM",
-  }
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."}
 ];
 
 /* ─── Animation Hook ───────────────────────────────────────── */

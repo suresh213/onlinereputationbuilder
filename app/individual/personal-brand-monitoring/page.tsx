@@ -116,12 +116,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Scott", role: "Business Owner", text: "I'm really happy with the results I've seen. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward.", initials: "SC" },
-  { name: "Harold", role: "CEO", text: "Working with this company was a completely different experience. They were professional, responsive, and most importantly they delivered results. I can see the difference in my online reputation.", initials: "HA" },
-  { name: "Garima", role: "Public Figure", text: "They were professional, responsive, and delivered results. The difference in my online reputation is making a huge impact on my business. Highly recommend their monitoring services.", initials: "GA" },
-  { name: "Kapil", role: "Healthcare Professional", text: "They helped me take control of my online presence. They removed negative content and helped me create a positive image on the web. I highly recommend them.", initials: "KA" },
-  { name: "Jashmin", role: "Entrepreneur", text: "Outstanding service. The team understood my needs perfectly and delivered a monitoring system that keeps me informed and my reputation protected at all times.", initials: "JA" },
-  { name: "Abhay", role: "Marketing Director", text: "I am so much happier with the results. They helped me clean up my online presence and improve my search results, which has been invaluable for my business growth.", initials: "AB" },
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."}
 ];
 
 // Custom Scroll Reveal Hook for "Experienced Developer" feel

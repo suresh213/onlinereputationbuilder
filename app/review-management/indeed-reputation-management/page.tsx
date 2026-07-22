@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Ankit Sharma",
-    text: "Our Indeed rating dropped to 2.8 after a disgruntled ex-employee campaign. The team removed the fake reviews and we're back to 4.1. Applications have increased by over 60% since.",
-  },
-  {
-    name: "Sonia Kapoor",
-    text: "The response management service was a revelation - professional, empathetic responses that actually turned some negative reviews into positive impressions for candidates reading them.",
-  },
-  {
-    name: "Vikram Bose",
-    text: "Expert team with deep knowledge of Indeed's platform. They handled our reputation recovery completely and the improvement in both our rating and application quality was remarkable.",
-  },
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."}
 ];
 
 const publishers = [

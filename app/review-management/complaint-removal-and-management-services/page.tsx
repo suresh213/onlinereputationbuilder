@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Rajesh Kumar",
-    text: "Our business had fake complaints posted by a competitor. The team had them removed within two weeks and helped us restore customer confidence. Excellent service.",
-  },
-  {
-    name: "Priya Mehta",
-    text: "I was shocked by how quickly they acted. Three damaging MouthShut posts were gone within days. I can't recommend this team highly enough.",
-  },
-  {
-    name: "Suresh Nair",
-    text: "Professional, discreet, and highly effective. They understood our situation perfectly and delivered results that exceeded our expectations.",
-  },
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Amit V.", "initials": "AV", "role": "Operations Manager", "text": "Exceptional results. They managed to push down negative links that were hurting our business for years."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."}
 ];
 
 const publishers = [

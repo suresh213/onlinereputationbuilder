@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Pooja Singh",
-    text: "Someone posted fake Reels about my business on Instagram. The team had them removed within days and helped make sure they don't appear on Google either. Outstanding work.",
-  },
-  {
-    name: "Rahul Verma",
-    text: "A fake account was impersonating me and posting damaging content. This team handled the removal completely and kept me updated throughout. Highly professional.",
-  },
-  {
-    name: "Ananya Kapoor",
-    text: "Negative fake comments were flooding my business profile. The team cleared them efficiently and provided ongoing monitoring. I feel protected now.",
-  },
+  {"name": "Priya S.", "initials": "PS", "role": "Marketing Director", "text": "Outstanding service! We were struggling with negative PR, and their rapid response team suppressed the harmful links within weeks."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."}
 ];
 
 const publishers = [

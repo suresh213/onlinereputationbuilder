@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Arjun Kapoor",
-    text: "Our Trustpilot page was being targeted by fake 1-star reviews from competitors. The team identified and removed them systematically. Our TrustScore went from 2.8 to 4.5. Exceptional work.",
-  },
-  {
-    name: "Sunita Rao",
-    text: "A coordinated fake review campaign nearly destroyed our brand. Online Reputation Builder removed the reviews and helped us build a genuine review base. Highly professional team.",
-  },
-  {
-    name: "Rajesh Pillai",
-    text: "They not only removed the defamatory reviews but also crafted professional responses to legitimate complaints. Our customer trust has been completely restored.",
-  },
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."}
 ];
 
 const publishers = [

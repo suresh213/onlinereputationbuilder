@@ -84,9 +84,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Rajesh K.", role: "Business Owner", text: "Fabricated stories were being shared about my company. The team had them removed and ensured they didn't resurface. Exceptional professionalism throughout.", initials: "RK" },
-  { name: "Priya S.", role: "Public Figure", text: "Fake news can destroy careers. These experts moved quickly, had the content removed from multiple platforms, and my reputation is fully restored.", initials: "PS" },
-  { name: "Amit T.", role: "CEO", text: "I was sceptical, but the results speak for themselves. The false articles are gone and my brand's search results are completely clean now.", initials: "AT" },
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Siddharth N.", "initials": "SN", "role": "Executive Director", "text": "They successfully appealed and removed several defamatory reviews that were violating platform policies."}
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */

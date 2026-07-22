@@ -142,42 +142,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Scott",
-    role: "Business Owner",
-    text: "The sheer volume of my personal data online was terrifying. Their team stepped in, aggressively pursued the data brokers, and completely locked down my profile.",
-    initials: "SC",
-  },
-  {
-    name: "Juli",
-    role: "Professional",
-    text: "Discreet, highly effective, and deeply knowledgeable about privacy laws. They successfully removed my home address from dozens of invasive tracking sites.",
-    initials: "JU",
-  },
-  {
-    name: "Harold",
-    role: "CEO",
-    text: "As an executive, my exposure was a severe corporate risk. They executed a flawless removal campaign that fortified both my personal and professional security.",
-    initials: "HA",
-  },
-  {
-    name: "Kapil",
-    role: "Entrepreneur",
-    text: "I was dealing with persistent harassment due to exposed contact info. Their rapid response and takedown procedures provided immediate relief and lasting security.",
-    initials: "KA",
-  },
-  {
-    name: "Garima",
-    role: "Public Figure",
-    text: "Protecting my family's privacy was paramount. They navigated the complex legal landscape perfectly, ensuring our data was scrubbed from the internet completely.",
-    initials: "GA",
-  },
-  {
-    name: "Jashmin",
-    role: "Healthcare Professional",
-    text: "I highly recommend their services. They identified vulnerabilities I didn't even know existed and systematically eliminated every single one of them.",
-    initials: "JA",
-  },
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."}
 ];
 
 function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) {

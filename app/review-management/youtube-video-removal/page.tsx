@@ -84,9 +84,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Sandeep K.", role: "Business Owner", text: "A competitor had uploaded defamatory videos about my company. The team filed the takedown, had the videos removed within a week, and cleaned up my Google search results completely.", initials: "SK" },
-  { name: "Pooja M.", role: "Personal Brand", text: "Someone was uploading fake exposé videos about me. These experts handled everything - the videos are gone and my YouTube reputation is fully restored. Exceptional service.", initials: "PM" },
-  { name: "Rohan T.", role: "CEO", text: "Negative videos were ranking top on Google searches for my company name. After the removal and suppression campaign, my brand results are completely clean and professional.", initials: "RT" },
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."}
 ];
 
 /* ─── Animation Components ─────────────────────────────────────────────── */

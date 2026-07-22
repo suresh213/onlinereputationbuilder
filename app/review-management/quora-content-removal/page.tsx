@@ -118,9 +118,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Rajesh Kumar", role: "CEO, Tech Startup", text: "The Quora threads attacking my business were appearing right at the top of Google searches. The team had them addressed within weeks. Outstanding service.", initials: "RK" },
-  { name: "Priya S.", role: "Healthcare Professional", text: "False claims on Quora were damaging my practice's reputation. Online Reputation Builder handled everything professionally and my search results are completely clean now.", initials: "PS" },
-  { name: "Amit Singh", role: "Business Owner", text: "I didn't realize how much Quora content was hurting my brand until I saw the before/after difference. Highly recommend their content removal services.", initials: "AS" },
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."}
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */

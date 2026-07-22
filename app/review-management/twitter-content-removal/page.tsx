@@ -84,9 +84,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Arjun K.", role: "Business Executive", text: "A coordinated tweet campaign was spreading false information about my company. The team filed the reports, had the tweets removed, and suppressed the remaining content in search results. Outstanding results.", initials: "AK" },
-  { name: "Meera S.", role: "Personal Brand", text: "I was being harassed through targeted Twitter threads. The experts handled the X reports and legal escalation professionally. The harassment stopped and my profile is clean again.", initials: "MS" },
-  { name: "Rahul V.", role: "CEO", text: "Defamatory tweets were ranking in Google for my name. After the removal and suppression campaign, my search results are fully clean and professional. I can't recommend them highly enough.", initials: "RV" },
+  {"name": "Amit V.", "initials": "AV", "role": "Operations Manager", "text": "Exceptional results. They managed to push down negative links that were hurting our business for years."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."}
 ];
 
 /* ─── Animation Components ─────────────────────────────────────────────── */

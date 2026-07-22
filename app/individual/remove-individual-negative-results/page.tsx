@@ -121,9 +121,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Rahul J.", role: "Business Owner", text: "A competitor wrote a fake story about me. This team completely removed the link from Google in just one month. Highly recommended.", initials: "RJ" },
-  { name: "Sneha", role: "Doctor", text: "Someone was ruining my clinic's name online. They pushed all the bad links down, and now my patients only see my good work.", initials: "S" },
-  { name: "Vikas M.", role: "CEO", text: "I was losing big deals because of one bad search result. They fixed it fast, and my business is growing again.", initials: "VM" },
+  {"name": "Priya S.", "initials": "PS", "role": "Marketing Director", "text": "Outstanding service! We were struggling with negative PR, and their rapid response team suppressed the harmful links within weeks."},
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."}
 ];
 
 // Smooth Animated Counter Component

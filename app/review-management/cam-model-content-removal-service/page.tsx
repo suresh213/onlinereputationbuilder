@@ -89,9 +89,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Rohit Sharma", role: "Verified Client", text: "I was struggling with unwanted content on internet, but their team handled everything efficiently. Highly recommended!", initials: "RS" },
-  { name: "Amit Patel", role: "Verified Client", text: "Their legal awareness and technical expertise made the whole process seamless. Truly reliable.", initials: "AP" },
-  { name: "Anjali Verma", role: "Verified Client", text: "Their professionalism and quick response really impressed me. They resolved my issue without any hassle.", initials: "AV" },
+  {"name": "Arjun M.", "initials": "AM", "role": "CEO, Tech Startup", "text": "The team was highly professional. They helped us clear our digital footprint and improve our brand image significantly."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."}
 ];
 
 const publishers = [

@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Amit Patel",
-    text: "A competitor was giving us 1-star reviews everyday. This team found out the problem and got them all deleted. Now my business is safe. Amazing work.",
-  },
-  {
-    name: "Priya Sharma",
-    text: "Our Google rating fell to 3.8 because of some angry fake accounts. After hiring them, we are back to 4.7. Our phone is ringing with new customers again.",
-  },
-  {
-    name: "Vikram Singh",
-    text: "Very professional and fast service. They removed 5 bad reviews from our clinic's page in just two weeks. Highly recommended for any business owner.",
-  },
+  {"name": "Siddharth N.", "initials": "SN", "role": "Executive Director", "text": "They successfully appealed and removed several defamatory reviews that were violating platform policies."},
+  {"name": "Neha P.", "initials": "NP", "role": "Brand Manager", "text": "Incredible team. They monitored our brand and prevented a major online crisis from escalating."},
+  {"name": "Arjun M.", "initials": "AM", "role": "CEO, Tech Startup", "text": "The team was highly professional. They helped us clear our digital footprint and improve our brand image significantly."}
 ];
 
 const publishers = [

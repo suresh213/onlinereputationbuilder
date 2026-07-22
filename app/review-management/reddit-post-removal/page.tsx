@@ -121,9 +121,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Scott M.", role: "Business Owner", text: "A Reddit thread attacking my business was ranking in Google. The team had it removed within three weeks. Incredibly professional and effective.", initials: "SC" },
-  { name: "Harold K.", role: "CEO", text: "Reddit is brutal. Anonymous users were spreading completely false claims about my company. This team cleaned it up and made sure it won't resurface.", initials: "HA" },
-  { name: "Garima R.", role: "Entrepreneur", text: "I was skeptical anyone could deal with Reddit content, but the 97% success rate is real. They delivered exactly what they promised.", initials: "GA" },
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Priya S.", "initials": "PS", "role": "Marketing Director", "text": "Outstanding service! We were struggling with negative PR, and their rapid response team suppressed the harmful links within weeks."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."}
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */

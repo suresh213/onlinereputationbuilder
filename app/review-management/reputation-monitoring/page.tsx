@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Rahul Mehta",
-    text: "The monitoring service gave us visibility we never had before. We spotted a negative news story within minutes and were able to respond before it gained traction. Invaluable for any serious brand.",
-  },
-  {
-    name: "Priya Nair",
-    text: "The weekly reports and sentiment dashboards have become a core part of our brand team's workflow. The level of detail and insight is exceptional - we always know exactly where we stand.",
-  },
-  {
-    name: "Deepak Verma",
-    text: "We use both the monitoring and review removal services together. The combination means we catch issues early and resolve them fast. Our overall online sentiment has improved dramatically.",
-  },
+  {"name": "Ananya G.", "initials": "AG", "role": "CMO", "text": "Their technical SEO knowledge combined with strategic content placement is completely unmatched in the industry."},
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."}
 ];
 
 const publishers = [

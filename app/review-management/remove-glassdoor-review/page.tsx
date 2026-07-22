@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Priya Agarwal",
-    text: "We were losing great candidates at the offer stage because of a handful of fake negative Glassdoor reviews. The team had them removed and our acceptance rate improved dramatically.",
-  },
-  {
-    name: "Karan Mehta",
-    text: "Their professional review response service transformed how our company is perceived. Candidates now mention our Glassdoor profile positively during interviews.",
-  },
-  {
-    name: "Neha Sharma",
-    text: "Expert, discreet, and highly effective. They managed our entire Glassdoor reputation crisis and delivered results that exceeded every expectation. Highly recommended.",
-  },
+  {"name": "Karan B.", "initials": "KB", "role": "Business Owner", "text": "Professional, discreet, and effective. This was the best investment we made for our company's digital future."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."}
 ];
 
 const publishers = [

@@ -127,9 +127,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Suresh P.", role: "CEO", text: "I wanted to look more professional online. This team created amazing profiles for me. Now, when clients search my name, they are very impressed.", initials: "SP" },
-  { name: "Anjali", role: "Financial Advisor", text: "Before working with them, nothing showed up when you searched my name. Now, my name is everywhere on page one with great articles. It helped my career a lot.", initials: "A" },
-  { name: "Rajat", role: "Real Estate Builder", text: "They completely changed how people see me on the internet. Their work is fast and they keep all promises.", initials: "R" },
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."},
+  {"name": "Priya S.", "initials": "PS", "role": "Marketing Director", "text": "Outstanding service! We were struggling with negative PR, and their rapid response team suppressed the harmful links within weeks."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."}
 ];
 
 // Custom Scroll Reveal Hook for "Experienced Developer" feel

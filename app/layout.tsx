@@ -99,7 +99,7 @@ export default function RootLayout({
                 "email": "contact@onlinereputationbuilder.in",
                 "sameAs": [
                   "https://www.facebook.com/onlinereputationbuilder",
-                  "https://x.com/reputationbuild",
+                  "https://x.com/onlinereputationbuilder",
                   "https://www.linkedin.com/company/onlinereputationbuilder",
                   "https://www.instagram.com/onlinereputationbuilder"
                 ],

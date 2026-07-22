@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Amit Sharma",
-    text: "Competitors were flooding our Yelp page with fake 1-star reviews. The team identified and removed them within two weeks. Our rating jumped from 3.1 to 4.4 stars. Truly impressive results.",
-  },
-  {
-    name: "Priya Menon",
-    text: "A disgruntled ex-employee was leaving defamatory reviews across all our locations. Online Reputation Builder had them removed quickly and professionally. Highly recommend their services.",
-  },
-  {
-    name: "Vikram Nair",
-    text: "Not only did they remove the fake reviews, they also optimized our Yelp profile and helped us get more genuine reviews. Our local bookings have increased significantly.",
-  },
+  {"name": "Arjun M.", "initials": "AM", "role": "CEO, Tech Startup", "text": "The team was highly professional. They helped us clear our digital footprint and improve our brand image significantly."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Rahul T.", "initials": "RT", "role": "Managing Director", "text": "We saw a 40% increase in positive sentiment and inbound leads after they took over our reputation management."}
 ];
 
 const publishers = [

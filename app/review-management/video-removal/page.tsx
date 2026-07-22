@@ -151,18 +151,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Arjun Sharma",
-    text: "A defamatory video about our business was gaining traction on YouTube. The team had it taken down within a week. Excellent legal knowledge and fast execution.",
-  },
-  {
-    name: "Deepika Nair",
-    text: "Private footage of me was uploaded without consent. The team handled the situation with complete professionalism and sensitivity. The video was removed quickly.",
-  },
-  {
-    name: "Vikram Patel",
-    text: "A competitor posted a misleading video about our services. After working with this team, it disappeared from Google entirely. Highly recommend their service.",
-  },
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."}
 ];
 
 const publishers = [

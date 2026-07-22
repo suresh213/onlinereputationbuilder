@@ -199,24 +199,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  {
-    name: "Scott",
-    role: "Business Owner",
-    text: "I'm really happy with the results I've seen. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward. Highly recommend.",
-    initials: "SC",
-  },
-  {
-    name: "Juli",
-    role: "Marketing Director",
-    text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my business and tailor their services to my specific needs.",
-    initials: "JU",
-  },
-  {
-    name: "Harold",
-    role: "CEO",
-    text: "Working with this company was a completely different experience. Professional, responsive, and they delivered results. The difference in my online reputation is making a huge impact.",
-    initials: "HA",
-  },
+  {"name": "Vikram K.", "initials": "VK", "role": "Founder", "text": "Highly recommend their services. They understood our complex situation and delivered results much faster than we expected."},
+  {"name": "Rohan D.", "initials": "RD", "role": "Head of PR", "text": "A reliable partner for brand management. They completely turned our online presence around and restored our credibility."},
+  {"name": "Siddharth N.", "initials": "SN", "role": "Executive Director", "text": "They successfully appealed and removed several defamatory reviews that were violating platform policies."}
 ];
 
 // Custom Scroll Reveal Hook 

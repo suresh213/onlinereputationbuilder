@@ -84,9 +84,9 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: "Sunita R.", role: "Restaurant Owner", text: "Fake negative reviews were destroying my restaurant's reputation on Facebook. The team had them removed quickly and helped me build a much stronger online presence. Excellent work.", initials: "SR" },
-  { name: "Deepak M.", role: "Business Owner", text: "A disgruntled ex-employee was posting defamatory content on my company's Facebook page. The team handled the removal professionally and swiftly. My brand is fully restored.", initials: "DM" },
-  { name: "Kavya T.", role: "Personal Brand", text: "Someone created a fake Facebook page impersonating me and posting harmful content. These experts had the page taken down within days. I can't thank them enough.", initials: "KT" },
+  {"name": "Priya S.", "initials": "PS", "role": "Marketing Director", "text": "Outstanding service! We were struggling with negative PR, and their rapid response team suppressed the harmful links within weeks."},
+  {"name": "Meera J.", "initials": "MJ", "role": "Partner", "text": "We regained our 4.5-star rating across all major platforms thanks to their diligent review management system."},
+  {"name": "Sneha R.", "initials": "SR", "role": "VP of Communications", "text": "Their strategies are brilliant. Our search results now highlight our true achievements rather than past controversies."}
 ];
 
 /* ─── Animation Components ─────────────────────────────────────────────── */
