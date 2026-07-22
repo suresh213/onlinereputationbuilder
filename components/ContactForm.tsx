@@ -116,7 +116,8 @@
 // }
 
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 interface ContactFormProps {
   dark?: boolean;
@@ -143,12 +144,21 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   
   const [isSuccess, setIsSuccess] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const inputCls = `form-input ${dark ? "bg-white/10 border-white/20 text-white placeholder-white/50 focus:border-yellow-400" : ""}`;
   const labelCls = `block text-xs font-semibold mb-1 uppercase tracking-wider ${dark ? "text-white/70" : "text-gray-500"}`;
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    
+    if (!captchaToken) {
+      setErrorMessage("Please complete the reCAPTCHA verification.");
+      return;
+    }
+
     setIsSubmitting(true);
     setIsSuccess(false); 
     setErrorMessage(""); 
@@ -200,7 +210,34 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         });
       }
 
+      // BACKGROUND TASK: Send email notification with tracking metadata
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        fetch('/api/notify', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ...form,
+            page_url: window.location.href,
+            referrer: document.referrer,
+            utm_source: urlParams.get('utm_source'),
+            utm_medium: urlParams.get('utm_medium'),
+            utm_campaign: urlParams.get('utm_campaign'),
+            utm_term: urlParams.get('utm_term'),
+            utm_content: urlParams.get('utm_content'),
+            recaptchaToken: captchaToken
+          })
+        }).catch(err => console.error("Background email fetch failed:", err));
+      } catch (e) {
+        // Ignore errors in tracking so it doesn't break UI
+        console.error("Tracking error:", e);
+      }
+
       setForm(initialForm);
+      setCaptchaToken(null);
+      if (recaptchaRef.current) {
+        recaptchaRef.current.reset();
+      }
       setIsSuccess(true); 
 
       setTimeout(() => {
@@ -268,7 +305,17 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           <label className={labelCls}>Message (optional)</label>
           <textarea rows={3} placeholder="Describe your situation..." className={inputCls} value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
         </div>
-        <button type="submit" className="btn-gold w-full text-center" disabled={isSubmitting}>
+        
+        <div className="flex justify-center my-4">
+          <ReCAPTCHA
+            ref={recaptchaRef}
+            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+            onChange={(token) => setCaptchaToken(token)}
+            theme={dark ? "dark" : "light"}
+          />
+        </div>
+
+        <button type="submit" className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100" disabled={isSubmitting || !captchaToken}>
           {isSubmitting ? "Submitting..." : "Get Free Consultation →"}
         </button>
         <p className={`text-center text-xs ${dark ? "text-white/50" : "text-gray-400"}`}>
