@@ -171,17 +171,17 @@
 // //               Remove Negative Content From Google Search
 // //             </h1>
 // //             <p className="text-zinc-400 text-sm mb-5 leading-relaxed">
-// //               Defend your brand. We permanently remove or aggressively suppress negative listings, unverified complaints, and search results fast.
+// //               Protect your business name. We quickly delete or hide bad search results, fake complaints, and negative articles.
 // //             </p>
-// //             <h2 className="text-white text-base font-bold mb-3">Has Negative Content Damaged Your Reputation?</h2>
+// //             <h2 className="text-white text-base font-bold mb-3">Are Bad Links Hurting Your Business?</h2>
 // //             <p className="text-zinc-400 text-xs mb-5 leading-relaxed">
-// //               Over 87% of potential clients search online before buying. A single negative search listing can cause substantial financial damage to businesses and executives.
+// //               Most people search online before they trust a business. Even one bad link on Google can make you lose many customers and money.
 // //             </p>
 // //             <ul className="space-y-2 mb-8">
 // //               {[
-// //                 "Flag and remove defamatory reviews violating guidelines",
-// //                 "Deploy search suppression strategies to bury negative coverage",
-// //                 "Proactive reputation threat monitoring",
+// //                 "Report and delete fake negative reviews",
+// //                 "Push down bad news articles from page one",
+// //                 "Check your brand name online everyday",
 // //               ].map((item) => (
 // //                 <li key={item} className="check-item text-xs text-zinc-300">
 // //                   <span className="text-brand-gold text-base font-bold flex-shrink-0">✓</span>
@@ -224,10 +224,10 @@
 // //               Secure Clean &amp; Authoritative Search Result Listings
 // //             </h2>
 // //             <p className="text-zinc-500 leading-relaxed mb-4 text-sm">
-// //               Negative articles on Google can impact organic traffic, conversions, and talent recruitment. Potential customers rely heavily on first-page reviews to evaluate business trust.
+// //               Bad articles on Google can stop new customers from calling you. People look at the first page of Google to decide if they should trust you.
 // //             </p>
 // //             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
-// //               If negative listings dominate your brand name search query, we can help. Our team deploys direct webmaster takedowns, policy violation flagging, and content suppression methodologies to neutralize harmful items.
+// //               If bad links are showing up when people search your name, we can fix it. Our team talks to website owners and uses Google policies to remove or hide those bad links forever.
 // //             </p>
 // //             <Link href="#contact" className="btn-blue">Start Suppression</Link>
 // //           </div>
@@ -313,7 +313,7 @@
 // //               Don&apos;t Let Negative Content Control Your Brand
 // //             </h2>
 // //             <p className="text-zinc-400 leading-relaxed mb-6 text-xs">
-// //               Every day a negative listing ranks on page one of Google represents another lost client. Contact Online Reputation Builder for a completely confidential strategy blueprint.
+// //               Every day a bad link stays on page one of Google, you lose another client. Contact us today for a 100% private and free plan to fix your image.
 // //             </p>
 // //             <div className="space-y-3 border-t border-zinc-800 pt-6">
 // //               {["Fast-track suppression for active crises", "Confidential review auditing", "Proven blueprint with 1200+ clients"].map(i => (
@@ -519,15 +519,15 @@
 //             </p>
             
 //             <div className="bg-white/5 border border-white/10 rounded-xl p-5 mb-8 backdrop-blur-sm">
-//               <h2 className="text-white text-sm font-bold mb-3 uppercase tracking-wider">Has Negative Content Damaged Your Reputation?</h2>
+//               <h2 className="text-white text-sm font-bold mb-3 uppercase tracking-wider">Are Bad Links Hurting Your Business?</h2>
 //               <p className="text-zinc-400 text-sm mb-4 leading-relaxed">
-//                 Over 87% of potential clients search online before buying. A single negative search listing can cause substantial financial damage to businesses and executives.
+//                 Most people search online before they trust a business. Even one bad link on Google can make you lose many customers and money.
 //               </p>
 //               <ul className="space-y-2.5">
 //                 {[
-//                   "Flag and remove defamatory reviews violating guidelines",
-//                   "Deploy search suppression strategies to bury negative coverage",
-//                   "Proactive reputation threat monitoring",
+//                   "Report and delete fake negative reviews",
+//                   "Push down bad news articles from page one",
+//                   "Check your brand name online everyday",
 //                 ].map((item) => (
 //                   <li key={item} className="check-item text-sm text-zinc-300">
 //                     <span className="check-icon text-brand-gold text-base border-none bg-brand-gold/20">✓</span>
@@ -694,7 +694,7 @@
 //               Don&apos;t Let Negative Content <span className="heading-script text-brand-gold">Control Your Brand</span>
 //             </h2>
 //             <p className="text-zinc-400 leading-relaxed mb-8 text-sm lg:text-base">
-//               Every day a negative listing ranks on page one of Google represents another lost client. Contact Online Reputation Builder for a completely confidential strategy blueprint.
+//               Every day a bad link stays on page one of Google, you lose another client. Contact us today for a 100% private and free plan to fix your image.
 //             </p>
 //             <div className="space-y-4 border-t border-zinc-800 pt-8 mb-8">
 //               {["Fast-track suppression for active crises", "Confidential review auditing", "Proven blueprint with 1200+ clients"].map(i => (
@@ -728,29 +728,29 @@ import Link from "next/link";
 import FAQSection from "@/components/FAQSection";
 
 const faqs = [
-  { q: "Can negative content be permanently removed from Google?", a: "Yes, in many cases negative content can be permanently removed from Google through official removal requests, legal takedowns, or direct outreach to webmasters. Our team evaluates each case and uses the most effective strategy for permanent removal." },
-  { q: "How long does it take to remove negative Google search results?", a: "The timeline varies depending on the type of content and platform. Some removals happen within days, while others may take 4-8 weeks. SEO suppression strategies typically show results in 60-90 days." },
-  { q: "What types of negative content can be removed?", a: "We can assist with removing news articles, blog posts, forum threads, defamatory reviews, legal information, images, videos, and other harmful online content through various legal and technical methods." },
-  { q: "Do you handle both business and personal reputation issues?", a: "Absolutely. We provide tailored solutions for both businesses and individuals - whether you're a corporation dealing with a PR crisis or an individual facing false allegations online." },
+  { q: "Can we permanently delete negative links from Google?", a: "Yes, in many cases we can completely remove bad links from Google using legal requests and direct talks with website owners. We find the best method for your specific problem." },
+  { q: "How long does it take to see results?", a: "The time depends on the website. Some links can be removed in a few days, while others might take 4 to 8 weeks. For pushing down bad links, it usually takes 60 to 90 days." },
+  { q: "What kind of bad content can you fix?", a: "We can help you remove fake news articles, bad blog posts, negative forum comments, fake reviews, unwanted images, and videos from the internet." },
+  { q: "Do you help both companies and individual people?", a: "Yes. We offer complete solutions for both businesses dealing with bad PR and individuals facing false claims online." },
 ];
 
 const contentTypes = [
-  { icon: "📰", label: "News Articles" },
-  { icon: "⚖️", label: "Legal Info" },
-  { icon: "📝", label: "Blog Posts" },
-  { icon: "🎬", label: "Videos & Images" },
-  { icon: "⭐", label: "Negative Reviews" },
-  { icon: "💬", label: "Forum Threads" },
-  { icon: "📱", label: "Social Media Posts" },
+  { icon: "📰", label: "Fake News" },
+  { icon: "⚖️", label: "Legal Notices" },
+  { icon: "📝", label: "Bad Blogs" },
+  { icon: "🎬", label: "Bad Videos" },
+  { icon: "⭐", label: "Fake Reviews" },
+  { icon: "💬", label: "Forum Chats" },
+  { icon: "📱", label: "Social Media" },
   { icon: "📋", label: "Complaint Sites" },
 ];
 
 const steps = [
-  { n: "01", title: "Free Reputation Analysis", desc: "We conduct a thorough audit of your online presence to identify all negative content affecting your brand or personal reputation." },
-  { n: "02", title: "Strategy Development", desc: "Our experts develop a customized multi-pronged removal and suppression strategy tailored to your specific situation." },
-  { n: "03", title: "Removal & Suppression", desc: "We execute the plan using legal, technical, and SEO-based methods to remove or suppress harmful content from search results." },
-  { n: "04", title: "Positive Content Creation", desc: "We build and promote positive, authoritative content to push negative results further down the search pages." },
-  { n: "05", title: "Ongoing Monitoring", desc: "We continuously monitor your online presence and alert you to any new issues before they escalate." },
+  { n: "01", title: "Free Online Check", desc: "We look at your Google results to find all the negative links that are hurting your brand name." },
+  { n: "02", title: "Making a Plan", desc: "Our team creates a custom plan to remove or hide the bad links, using the best legal and SEO methods." },
+  { n: "03", title: "Action & Removal", desc: "We start our work to delete the negative content or push it down so people cannot find it easily." },
+  { n: "04", title: "Creating Good Content", desc: "We publish positive and strong articles to push any remaining bad links to the 2nd or 3rd page of Google." },
+  { n: "05", title: "24/7 Monitoring", desc: "We keep checking your name online everyday so we can fix any new bad links before they become a problem." },
 ];
 
 // Utilizing reliable Favicon API for media logos
@@ -956,29 +956,29 @@ export default function RemoveNegativeResultsPage() {
             </div>
             
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Remove Negative Content From <span className="text-gradient-gold">Google Search</span>
+              Clean Your Image on <span className="text-gradient-gold">Google Search</span>
             </h1>
             
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              Defend your brand. We permanently remove or aggressively suppress negative listings, unverified complaints, and search results fast.
+              Protect your business name. We quickly delete or hide bad search results, fake complaints, and negative articles.
             </p>
 
             {/* Premium Info Panel */}
             <div className="glass-panel border-l-4 border-l-brand-blue bg-brand-blue/5 rounded-r-xl p-6 mb-8 mt-4 shadow-xl relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/5 to-transparent pointer-events-none group-hover:from-brand-blue/10 transition-colors" />
               <div className="relative z-10">
-                <h2 className="text-white font-heading text-lg font-bold mb-2">Has Negative Content Damaged Your Reputation?</h2>
+                <h2 className="text-white font-heading text-lg font-bold mb-2">Are Bad Links Hurting Your Business?</h2>
                 <p className="text-zinc-300 text-sm leading-relaxed mb-0">
-                  Over 87% of potential clients search online before buying. A single negative search listing can cause substantial financial damage to businesses and executives.
+                  Most people search online before they trust a business. Even one bad link on Google can make you lose many customers and money.
                 </p>
               </div>
             </div>
 
             <ul className="space-y-3 mb-8">
               {[
-                "Flag and remove defamatory reviews violating guidelines",
-                "Deploy search suppression strategies to bury negative coverage",
-                "Proactive reputation threat monitoring",
+                "Report and delete fake negative reviews",
+                "Push down bad news articles from page one",
+                "Check your brand name online everyday",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-zinc-300">
                   <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-gold/20 text-brand-gold text-xs flex-shrink-0 mt-0.5 font-bold">✓</span>
@@ -1032,13 +1032,13 @@ export default function RemoveNegativeResultsPage() {
           <div className="premium-copy-panel pr-0 lg:pr-8">
             <p className="section-label mb-2 text-brand-gold">Why It Matters</p>
             <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-              Secure Clean &amp; Authoritative <br className="hidden lg:block"/><span className="heading-script text-brand-blue">Search Result Listings</span>
+              Get Clean &amp; Positive <br className="hidden lg:block"/><span className="heading-script text-brand-blue">Google Results</span>
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-5 text-[0.95rem]">
-              Negative articles on Google can impact organic traffic, conversions, and talent recruitment. Potential customers rely heavily on first-page reviews to evaluate business trust.
+              Bad articles on Google can stop new customers from calling you. People look at the first page of Google to decide if they should trust you.
             </p>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              If negative listings dominate your brand name search query, we can help. Our team deploys direct webmaster takedowns, policy violation flagging, and content suppression methodologies to neutralize harmful items.
+              If bad links are showing up when people search your name, we can fix it. Our team talks to website owners and uses Google policies to remove or hide those bad links forever.
             </p>
             <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)]">Start Suppression</Link>
           </div>
@@ -1061,7 +1061,7 @@ export default function RemoveNegativeResultsPage() {
               <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Expertise</p>
             </div>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">
-              Types of Negative Content <span className="heading-script text-brand-blue">We Suppress</span>
+              Bad Content We Can <span className="heading-script text-brand-blue">Remove or Hide</span>
             </h2>
           </div>
           
@@ -1090,10 +1090,10 @@ export default function RemoveNegativeResultsPage() {
           <div className="premium-copy-panel">
             <p className="section-label mb-2 text-brand-gold">Our Process</p>
             <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-              How Our Removal <span className="heading-script text-brand-blue">Process Works</span>
+              How We Fix <span className="heading-script text-brand-blue">Your Image</span>
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              We execute a rapid, coordinated response protocol designed to contain the immediate threat while simultaneously building a firewall around your long-term reputation.
+              We work very fast to stop the bad links from hurting you today, while also building a strong and positive image for your future.
             </p>
             <div className="hidden lg:block w-32 h-1 bg-gradient-to-r from-brand-blue to-transparent rounded-full" />
           </div>
@@ -1168,7 +1168,7 @@ export default function RemoveNegativeResultsPage() {
               Don&apos;t Let Negative Content <br className="hidden lg:block"/><span className="heading-script text-blue-500">Control Your Brand</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem]">
-              Every day a negative listing ranks on page one of Google represents another lost client. Contact Online Reputation Builder for a completely confidential strategy blueprint.
+              Every day a bad link stays on page one of Google, you lose another client. Contact us today for a 100% private and free plan to fix your image.
             </p>
             
             <div className="space-y-5 border-t border-zinc-800/80 pt-8">
@@ -1192,9 +1192,9 @@ export default function RemoveNegativeResultsPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to remove a negative news article showing up when I search my name?", answer: "We deploy aggressive SEO suppression and legal takedown requests to either remove the article completely or bury it deep in search results." },
-        { question: "Can I force Google to take down a defamatory blog post?", answer: "If the content violates Google's terms of service or is proven defamatory, we can submit formal legal removal requests to take it down." },
-        { question: "How long does it take to hide a bad search result?", answer: "While some removals can happen in weeks, full search suppression typically takes 60-90 days of consistent positive content generation." }
+        { question: "How can I remove a bad news article about me?", answer: "We use legal requests and SEO techniques to either delete the article or push it very far down in Google results so no one sees it." },
+        { question: "Can you remove a fake blog post made by my competitor?", answer: "Yes. If a competitor is posting fake things about you, we use website policies and legal notices to get those posts deleted." },
+        { question: "How long does it take to hide bad search results?", answer: "Some things can be deleted in a few weeks. But pushing down very strong news articles usually takes 2 to 3 months of steady work." }
       ]} />
       <Footer />
     </div>

@@ -52,7 +52,7 @@
 //               Online Reputation Audit to Protect Your Brand Image
 //             </h1>
 //             <p className="text-zinc-400 text-sm mb-5 leading-relaxed">
-//               At Online Reputation Builder, we do not just conduct surface-level reputation audits. We examine search results, brand mentions, customer reviews, social media sentiment, and negative content to find gaps that influence your trust, conversions, and brand authority.
+//               We don't just do a simple search. Our team deeply checks Google results, social media, news, and reviews to find any hidden bad links that are making you lose customers and trust.
 //             </p>
 //             <p className="text-zinc-400 text-xs leading-relaxed mb-6">
 //               We monitor the presence of your brand in Google, review websites, news outlets, and social media channels with tested reputation management audit tools and provide a comprehensive roadmap to fix what's broken.
@@ -60,7 +60,7 @@
 //             <div className="bg-slate-900 border border-zinc-800 rounded p-5 mb-8">
 //               <p className="text-brand-gold font-bold text-xs uppercase tracking-wider mb-3">✦ What our audit identifies:</p>
 //               <div className="grid grid-cols-1 gap-2">
-//                 {["Areas of reputation weakness", "Trust signals you're missing", "Negative content impacting conversions", "Competitor reputation comparison", "Priority action roadmap"].map(i => (
+//                 {["Hidden bad links on Google", "Reasons why customers don't trust you", "Bad reviews hurting your sales", "How you compare to competitors", "Clear plan to fix your image"].map(i => (
 //                   <div key={i} className="flex items-center gap-2 text-xs text-zinc-300">
 //                     <span className="text-brand-gold">→</span>
 //                     <span>{i}</span>
@@ -179,10 +179,10 @@
 //           </div>
 //           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 //             {[
-//               { icon: "🏢", title: "Businesses", desc: "Companies facing negative reviews, bad press, or declining customer trust" },
-//               { icon: "👤", title: "Individuals", desc: "Professionals, executives, and public figures concerned about their online image" },
-//               { icon: "🚀", title: "Startups", desc: "New businesses wanting to establish a strong foundation before scaling" },
-//               { icon: "⚠️", title: "Crisis Situations", desc: "Organizations dealing with active PR crises needing immediate assessment" },
+//               { icon: "🏢", title: "Businesses", desc: "Companies losing customers because of bad reviews and fake news" },
+//               { icon: "👤", title: "Individuals", desc: "Important people facing fake claims or privacy issues online" },
+//               { icon: "🚀", title: "Startups", desc: "New companies that want a clean and positive image on Google" },
+//               { icon: "⚠️", title: "Crisis Situations", desc: "Businesses that are in trouble and need fast help to hide bad news" },
 //             ].map((c, idx) => (
 //               <div 
 //                 key={c.title} 
@@ -237,27 +237,27 @@ import Link from "next/link";
 import FAQSection from "@/components/FAQSection";
 
 const auditItems = [
-  { icon: "🔍", category: "SERP ANALYSIS", title: "Google Search Analysis", desc: "We analyze the first 5 pages of Google results for your brand name, identifying all negative, neutral, and positive content that potential customers see." },
-  { icon: "⭐", category: "REVIEW TRACKING", title: "Review Platform Audit", desc: "Comprehensive analysis of your reviews across Google, Glassdoor, Trustpilot, Facebook, Yelp, and 50+ other platforms - rating distribution, sentiment, and response rates." },
-  { icon: "📱", category: "SOCIAL SENTIMENT", title: "Social Media Audit", desc: "Evaluation of your social media presence, mentions, comments, and brand perception across Facebook, Twitter, Instagram, LinkedIn, and YouTube." },
-  { icon: "📰", category: "MEDIA ALERT", title: "News & Media Coverage", desc: "We scan thousands of news outlets and media sites for any coverage of your brand - positive press, negative articles, or any damaging stories." },
-  { icon: "📊", category: "COMPETITOR GAP", title: "Competitor Benchmark", desc: "See how your online reputation compares to your key competitors and identify opportunities to gain a competitive edge." },
-  { icon: "🗺️", category: "ROADMAP", title: "Action Roadmap", desc: "A prioritized, step-by-step roadmap of exactly what needs to be fixed, in what order, and what success metrics to track." },
+  { icon: "🔍", category: "GOOGLE SEARCH", title: "Search Results Check", desc: "We look at the first 5 pages of Google for your name, to see what good or bad links your customers are seeing." },
+  { icon: "⭐", category: "REVIEWS", title: "Review Platform Check", desc: "We check your ratings on Google, Trustpilot, Facebook, and other sites to see what people are saying about you." },
+  { icon: "📱", category: "SOCIAL MEDIA", title: "Social Media Check", desc: "We look at Facebook, Twitter, and LinkedIn to find any bad comments or fake accounts using your brand name." },
+  { icon: "📰", category: "NEWS", title: "News and Articles", desc: "We search news websites to see if any positive or negative articles have been published about your business." },
+  { icon: "📊", category: "COMPETITORS", title: "Compare With Competitors", desc: "We see how your online image compares to your top competitors so you know exactly where you need to improve." },
+  { icon: "🗺️", category: "PLAN", title: "Step-by-Step Plan", desc: "We give you a simple roadmap showing exactly what we need to fix first to make your online image perfect." },
 ];
 
 const steps = [
-  { n: "01", title: "Submit Your Details", desc: "Fill out our quick form with your brand name and key online profiles. No commitment needed." },
-  { n: "02", title: "We Conduct the Audit", desc: "Our ORM specialists analyze 100+ data points across search engines, review sites, social media, and news platforms." },
-  { n: "03", title: "Receive Your Report", desc: "Within 48 hours, you receive a comprehensive audit report with your reputation score and detailed findings." },
-  { n: "04", title: "Strategy Session", desc: "We walk you through the report and recommend a customized action plan to fix issues and strengthen your online presence." },
+  { n: "01", title: "Fill the Form", desc: "Just give us your brand name and some basic details. It is completely free." },
+  { n: "02", title: "We Do the Check", desc: "Our team checks over 100 places online, including Google, news sites, and social media." },
+  { n: "03", title: "Get Your Report", desc: "In 48 hours, we will send you a simple report showing exactly what is good and bad about your online image." },
+  { n: "04", title: "Talk to Us", desc: "Our expert will call you to explain the report and suggest how to fix the problems we found." },
 ];
 
 const faqs = [
-  { q: "What does a free reputation audit include?", a: "Our free audit covers analysis of your Google search results (first 5 pages), major review platforms, social media mentions, news coverage, and an overall reputation health score. You receive a detailed report highlighting issues and opportunities." },
-  { q: "How long does the audit take?", a: "Our comprehensive reputation audit is typically completed within 24-48 business hours. You'll receive a detailed report via email with all findings and recommendations." },
-  { q: "Is the audit truly free with no obligation?", a: "Yes, absolutely. Our reputation audit is completely free with no strings attached. We believe in demonstrating our value first. If you like what you see and want our help, we'll be delighted to discuss a plan." },
-  { q: "What happens after I receive my audit report?", a: "After receiving your report, one of our ORM specialists will reach out to walk you through the findings and answer any questions. If you'd like to take action, we'll recommend a tailored ORM strategy. There's no pressure to purchase." },
-  { q: "Do you audit both business and personal reputations?", a: "Yes. We conduct comprehensive audits for both businesses of all sizes (from startups to enterprises) and individuals including executives, professionals, and public figures." },
+  { q: "What do I get in the free check?", a: "You get a report showing your Google search results, social media mentions, review ratings, and a clear list of what needs to be fixed." },
+  { q: "How much time does the check take?", a: "We usually finish the complete check and send you the report in 24 to 48 hours." },
+  { q: "Do I have to pay anything for this?", a: "No, this check is 100% free. We give you this report so you can see how we work before deciding to hire us." },
+  { q: "What happens after I get the report?", a: "Our team member will explain the problems found in the report and tell you the exact steps needed to fix them." },
+  { q: "Who can use this free check?", a: "We do this for big companies, small shops, startups, and even for single individuals who want to protect their name." },
 ];
 
 // Utilizing reliable Favicon API to bypass AdBlockers
@@ -291,16 +291,16 @@ export default function ReputationAuditPage() {
               📊 Free ORM Audit Report - No Obligation
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Online Reputation Audit to Protect Your <span className="text-gradient-gold">Brand Image</span>
+              Check Your Complete <span className="text-gradient-gold">Online Image</span>
             </h1>
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              At Online Reputation Builder, we do not just conduct surface-level reputation audits. We examine search results, brand mentions, customer reviews, social media sentiment, and negative content to find gaps that influence your trust, conversions, and brand authority.
+              We don't just do a simple search. Our team deeply checks Google results, social media, news, and reviews to find any hidden bad links that are making you lose customers and trust.
             </p>
             
             <div className="glass-panel border-l-4 border-l-brand-gold rounded-r-xl p-6 mb-8 mt-4 shadow-xl">
               <p className="text-brand-gold font-bold text-xs uppercase tracking-wider mb-4">✦ What our audit identifies:</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {["Areas of reputation weakness", "Trust signals you're missing", "Negative content impacting conversions", "Competitor reputation comparison", "Priority action roadmap"].map(i => (
+                {["Hidden bad links on Google", "Reasons why customers don't trust you", "Bad reviews hurting your sales", "How you compare to competitors", "Clear plan to fix your image"].map(i => (
                   <div key={i} className="flex items-start gap-2 text-sm text-zinc-300">
                     <span className="text-brand-gold mt-0.5 text-base font-bold">✓</span>
                     <span>{i}</span>
@@ -357,10 +357,10 @@ export default function ReputationAuditPage() {
               <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">What We Examine</p>
             </div>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">
-              A 360° View of Your <span className="heading-script text-brand-blue">Online Reputation</span>
+              Complete Check of Your <span className="heading-script text-brand-blue">Online Image</span>
             </h2>
             <p className="text-zinc-500 max-w-2xl mx-auto text-[0.95rem] mt-4 leading-relaxed">
-              Our audit goes beyond surface-level checks. We dig deep into every corner of the web where your reputation lives, ensuring no platform is overlooked.
+              We look very deeply into every part of the internet. We find bad links and fake complaints that you might not even know about.
             </p>
           </div>
 
@@ -398,10 +398,10 @@ export default function ReputationAuditPage() {
           <div className="premium-copy-panel">
             <p className="section-label mb-2 text-brand-gold">Simple Process</p>
             <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-              How the <span className="heading-script text-brand-blue">Free Audit</span> Works
+              How Our <span className="heading-script text-brand-blue">Free Check</span> Works
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              We've streamlined our audit process to deliver maximum value with zero friction. From initial scan to final strategy, every step is designed to give you clarity and control over your digital footprint.
+              Our process is very simple and fast. From the first check to the final plan, we make sure you easily understand what needs to be fixed.
             </p>
             <div className="hidden lg:block w-32 h-1 bg-gradient-to-r from-brand-blue to-transparent rounded-full" />
           </div>
@@ -437,10 +437,10 @@ export default function ReputationAuditPage() {
           <div className="text-center mb-16">
             <p className="section-label text-brand-gold mb-2">Sample Report</p>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-4 tracking-tight">
-              What You'll Receive in <span className="heading-script text-brand-gold">Your Audit</span>
+              What You Get in <span className="heading-script text-brand-gold">Your Report</span>
             </h2>
             <p className="text-zinc-400 max-w-2xl mx-auto text-[0.95rem] leading-relaxed">
-              A comprehensive, visually-driven, and easy-to-understand report covering every aspect of your online reputation architecture.
+              A very simple and clear report that shows exactly where your online image is weak and how to fix it.
             </p>
           </div>
 
@@ -478,10 +478,10 @@ export default function ReputationAuditPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: "🏢", title: "Businesses", desc: "Companies facing negative reviews, bad press, or declining customer trust" },
-              { icon: "👤", title: "Individuals", desc: "Professionals, executives, and public figures concerned about their online image" },
-              { icon: "🚀", title: "Startups", desc: "New businesses wanting to establish a strong foundation before scaling" },
-              { icon: "⚠️", title: "Crisis Situations", desc: "Organizations dealing with active PR crises needing immediate assessment" },
+              { icon: "🏢", title: "Businesses", desc: "Companies losing customers because of bad reviews and fake news" },
+              { icon: "👤", title: "Individuals", desc: "Important people facing fake claims or privacy issues online" },
+              { icon: "🚀", title: "Startups", desc: "New companies that want a clean and positive image on Google" },
+              { icon: "⚠️", title: "Crisis Situations", desc: "Businesses that are in trouble and need fast help to hide bad news" },
             ].map((c, idx) => (
               <div 
                 key={c.title} 
@@ -519,10 +519,10 @@ export default function ReputationAuditPage() {
         <div className="max-w-4xl mx-auto text-center relative z-10 premium-copy-panel">
           <p className="section-label text-brand-gold mb-4">Free - No Obligation</p>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-[3.2rem] font-extrabold text-white mb-6 leading-tight tracking-tight">
-            Ready to Know What People See When They <span className="heading-script text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-blue-400">Google You?</span>
+            See Exactly What People Find When They <span className="heading-script text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-blue-400">Google You</span>
           </h2>
           <p className="text-zinc-400 mb-10 text-base lg:text-[1.05rem] leading-relaxed max-w-2xl mx-auto">
-            Get your free, comprehensive reputation audit delivered within 48 hours. No credit card. No obligation. Just total clarity on your digital footprint.
+            Get your 100% free online check in 48 hours. We keep everything private. See your real online image today.
           </p>
           <Link href="#get-audit" className="btn-gold text-base px-10 py-4 shadow-[0_10px_30px_rgba(194,148,10,0.3)] hover:shadow-[0_15px_40px_rgba(194,148,10,0.4)]">
             Get My Free Audit Now
@@ -531,9 +531,9 @@ export default function ReputationAuditPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How do I find out what people are saying about my business online?", answer: "Our comprehensive reputation audit scans search engines, social media, and review platforms to give you a complete picture of your online footprint." },
-        { question: "What does a professional reputation audit include?", answer: "It includes an analysis of search sentiment, backlink profiles, social media mentions, and a vulnerability assessment to identify potential PR risks." },
-        { question: "Can an audit reveal why my competitors are outranking me?", answer: "Yes, our audit benchmarks your digital reputation against competitors to uncover gaps and opportunities for improvement." }
+        { question: "How deep do you search?", answer: "We check up to 10 pages deep on Google and search many small websites, forums, and social media platforms to find bad links." },
+        { question: "Will my competitors know I am checking this?", answer: "No. Our checking process is 100% private and secret. No one will know you requested this report." },
+        { question: "How do you calculate my Reputation Score?", answer: "We look at how many good and bad links you have, your review ratings, and what people are saying on social media to give you a simple score out of 100." }
       ]} />
       <Footer />
     </div>

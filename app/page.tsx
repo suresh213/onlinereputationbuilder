@@ -8,12 +8,12 @@ import FAQ from "@/components/FAQ";
 import Link from "next/link";
 
 const services = [
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Reputation Management", desc: "With customized strategies, we improve your online visibility and build trust with reputation management solutions for businesses and individuals.", href: "/reputation-monitoring" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>, title: "Review Management", desc: "We maintain a careful check on the reviews to earn more positive reviews and improve your brand trust while removing those that interfere with your reputation with cutting-edge review management solutions.", href: "/review-management" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>, title: "Content Removal", desc: "Remove harmful content and information that has the potential to harm your hard-earned online reputation to manage your excellent image in the market.", href: "/business/remove-negative-results" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, title: "Reputation Monitoring", desc: "By monitoring your business, we spot problems before they can harm your business prospects with proactive monitoring solutions designed for your needs.", href: "/business/reputation-monitoring" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>, title: "Branding", desc: "We put a spotlight on your achievements, values, online credibility, and digital reputation with customized branding solutions for companies and individuals.", href: "/individual/personal-branding-services" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>, title: "Crisis Management", desc: "A crisis has the potential to damage your company's reputation. We identify threats, streamline communications, and recover quickly with crisis management solutions.", href: "/business/crisis-management" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Protect Your Business", desc: "We completely clean your business name online so customers trust you instantly.", href: "/reputation-monitoring" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>, title: "Fix Bad Reviews", desc: "We delete fake 1-star reviews and help you get real 5-star ratings from happy customers.", href: "/review-management" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>, title: "Delete Bad News", desc: "We use legal tools to permanently remove bad news, fake articles, and bad photos from the internet.", href: "/business/remove-negative-results" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, title: "24/7 Name Checking", desc: "We watch the internet all day and night to catch any bad news before it harms your respect.", href: "/business/reputation-monitoring" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>, title: "Build Personal Respect", desc: "We create a highly professional image for you so everyone respects you as a top expert.", href: "/individual/personal-branding-services" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>, title: "Emergency Help", desc: "If you face a sudden bad news attack, we stop the damage immediately and clear your name.", href: "/business/crisis-management" },
 ];
 
 const platforms = [
@@ -35,14 +35,14 @@ const platforms = [
 ];
 
 const caseStudies = [
-  { title: "Insurance", desc: "Success stories of building trust and expanding policyholder reach...", color: "bg-blue-50", href: "/solution/insurance-reputation-management" },
-  { title: "Real Estate", desc: "Success stories of enhancing property brands and driving investments...", color: "bg-zinc-50", href: "/solution/real-estate-reputation-management" },
-  { title: "Politics", desc: "Success stories of driving campaigns and engaging communities...", color: "bg-blue-50", href: "/solution/politics-reputation-management" },
-  { title: "Fast Food Franchise", desc: "Our ORM strategy has transformed the franchise's online reputation...", color: "bg-zinc-50", href: "/solution/restaurant-industry-reputation-management" },
-  { title: "Celebrity", desc: "Managing an excellent reputation is crucial for a celebrity...", color: "bg-blue-50", href: "/solution/case-studies-for-celebrity-reputation-management-company" },
-  { title: "Healthcare", desc: "Success stories of advancing healthcare brands and patient trust...", color: "bg-zinc-50", href: "/solution/healthcare-reputation-management" },
-  { title: "Electronic", desc: "Online buzz shapes an electronic brand's reputation and more...", color: "bg-blue-50", href: "/solution/electronic-reputation-management" },
-  { title: "Spiritual", desc: "In today's digital age, religious institutions face online challenges...", color: "bg-zinc-50", href: "/solution/spiritual-reputation-management" },
+  { title: "Insurance", desc: "How we restored trust for a major insurer after a coordinated online attack...", color: "bg-blue-50", href: "/solution/insurance-reputation-management" },
+  { title: "Real Estate", desc: "Overcoming negative press to secure high-value property investments...", color: "bg-zinc-50", href: "/solution/real-estate-reputation-management" },
+  { title: "Politics", desc: "Neutralizing opposition smear campaigns during a critical election cycle...", color: "bg-blue-50", href: "/solution/politics-reputation-management" },
+  { title: "Fast Food Franchise", desc: "Reversing a viral crisis and restoring foot traffic for a national chain...", color: "bg-zinc-50", href: "/solution/restaurant-industry-reputation-management" },
+  { title: "Celebrity", desc: "Clearing a public figure's search results of defamatory tabloids...", color: "bg-blue-50", href: "/solution/case-studies-for-celebrity-reputation-management-company" },
+  { title: "Healthcare", desc: "Removing false malpractice claims to protect a prestigious medical facility...", color: "bg-zinc-50", href: "/solution/healthcare-reputation-management" },
+  { title: "Electronic", desc: "Mitigating coordinated fake reviews during a flagship product launch...", color: "bg-blue-50", href: "/solution/electronic-reputation-management" },
+  { title: "Spiritual", desc: "Protecting legacy institutions from baseless digital defamation...", color: "bg-zinc-50", href: "/solution/spiritual-reputation-management" },
 ];
 
 const clients = [
@@ -81,21 +81,21 @@ const mediaLogos = [
 ];
 
 const faqs = [
-  { q: "Will Online Reputation Management Help my Business Grow?", a: "Yes, ORM is an opportunity to grow the business by promoting trust, strengthening search engine results, and boosting conversion rates. Positive presence online attracts customers, increases revenue, and generates loyalty. As the best ORM company in Kolkata, we guarantee strong digital presence for long-term success and competitive superiority." },
-  { q: "Is there a Service to Remove Google Reviews?", a: "Yes. Specialized ORM services can help remove fake, misleading, or defamatory Google reviews by reporting policy violations directly to Google. At Online Reputation Builder, we analyze the review, collect supporting evidence, submit professional removal requests, and follow up rigorously to maximize success rates." },
-  { q: "Is it Possible to Remove Negative Online Reviews?", a: "Yes. Negative reviews that do not comply with platform guidelines may be deleted by means of efficient flagging and provision of evidence. Online Reputation Builder works across several sites for deletion and reputation protection efficiently using Google and other platforms." },
-  { q: "Why do you need Online Reputation Management Services?", a: "ORM services protect against digital crisis, track mentions online, and publish positive content. They create trust, improve search rates, and make sales in a market dominated by reviews. We protect brands to build long-term trust and development." },
-  { q: "How does online reputation management work?", a: "Online Reputation Management works by tracking online mentions, responding to feedback quickly, and creating positive content. We improve brand image, counter negative information, and boost customer trust through strategic online presence management." },
-  { q: "How long does it take to see results with ORM services?", a: "You can start seeing positive results from ORM services within 1-3 months with enhanced ranking and sentiment shifts. Major changes are seen between 3-6 months; complete rebuilding is seen between 6-12 months. We achieve beneficial changes through persistent diligence." },
+  { q: "Will fixing my name online help my business grow?", a: "Yes, definitely. When people search your name and see only good things, they trust you immediately. This brings you more customers, more respect, and more money." },
+  { q: "Can you actually delete bad online reviews?", a: "Yes. If a review is fake or uses bad words, our team knows exactly how to report it to the website and get it removed permanently." },
+  { q: "Can we delete bad news articles from the internet?", a: "Yes. We use strong legal tools to remove fake news completely. If the website refuses to delete it, we write so many good articles about you that the bad news gets buried where no one can find it." },
+  { q: "Why should I hire you?", a: "Because a bad link on the internet ruins your respect and loses you money every single day. We are experts who fix these problems fast so you can live with pride." },
+  { q: "How does your service work?", a: "We first check all the bad links about you. Then we use legal requests to delete them. After that, we create beautiful articles about your good work so search engines only show positive things." },
+  { q: "How much time will this take?", a: "Simple removals take just a few weeks. If the problem is very big, it can take 3 to 6 months to completely clean the first page of search engines." },
 ];
 
 const howTos = [
-  { category: "STRATEGY", time: "5 MIN READ", title: "What is online reputation management, and why do you need excellent ORM for your business?", desc: "All businesses work hard to keep their customers happy, but even with the best customer service, a business is bound to see its reputation take a hit every now and then.", href: "/blog/what-is-online-reputation-management" },
-  { category: "BRANDING", time: "4 MIN READ", title: "What is personal branding and how do you do it?", desc: "Personal branding is the process of creating a brand identity for a person or company, establishing your unique value proposition in the market.", href: "/blog/what-is-personal-branding" },
-  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why do celebrities need online reputation management?", desc: "Celebrity reputation management helps you protect what you have built as your brand. Anything that damages your reputation can put your present and future at risk.", href: "/blog/why-celebrities-need-orm" },
-  { category: "REVIEWS", time: "5 MIN READ", title: "How to manage and respond to a negative customer review?", desc: "Customer reviews impact business tremendously and the decisions potential customers make to patronize or not patronize your business.", href: "/blog/how-to-respond-to-negative-customer-reviews" },
-  { category: "CONTENT", time: "7 MIN READ", title: "How to remove negative news articles from Google?", desc: "Understanding your personal or brand's online reputation is becoming increasingly essential as more users move to search engines for research.", href: "/blog/how-to-remove-negative-news-articles-from-google" },
-  { category: "SEARCH", time: "4 MIN READ", title: "How to push down or bury negative search results?", desc: "Every company is different with different challenges, and they each deal differently with negative or fake search results on Google.", href: "/blog/how-to-push-down-negative-search-results" },
+  { category: "STRATEGY", time: "5 MIN READ", title: "How to Build a Trustworthy Business Profile Online", desc: "Learn simple ways to make your business look very professional online.", href: "/blog/what-is-online-reputation-management" },
+  { category: "BRANDING", time: "4 MIN READ", title: "Making Your Personal Name Highly Respected", desc: "Find out how to show your best skills on the first page of search results.", href: "/blog/what-is-personal-branding" },
+  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why Doctors and CEOs Need a Clean Image", desc: "Understand why professionals lose money if they have bad links on the internet.", href: "/blog/why-celebrities-need-orm" },
+  { category: "REVIEWS", time: "5 MIN READ", title: "How to Delete Fake 1-Star Reviews", desc: "A simple guide to finding fake reviews and forcing websites to remove them.", href: "/blog/how-to-respond-to-negative-customer-reviews" },
+  { category: "CONTENT", time: "7 MIN READ", title: "The Legal Way to Remove Bad News Articles", desc: "Learn how we use laws to permanently delete fake news from search engines.", href: "/blog/how-to-remove-negative-news-articles-from-google" },
+  { category: "SEARCH", time: "4 MIN READ", title: "Pushing Bad Links Down on Search Engines", desc: "How we write good articles to push any bad news far down to page 10.", href: "/blog/how-to-push-down-negative-search-results" },
 ];
 
 export default function HomePage() {
@@ -116,24 +116,24 @@ export default function HomePage() {
           {/* Left */}
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
-              🏆 India's Top ORM Company
+              🏆 India's Most Trusted Online Reputation Experts
             </div>
             <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
-              Rebrand Yourself and Your Business with India's No.1 Online Reputation Management Company
+              Fix and Improve Your <span className="text-gradient-gold">Online Reputation</span> With a Top-Rated Agency
             </h1>
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              Manage and Improve your Online Reputation With a top-rated Online Reputation Management Agency.
+              Manage how people see you on the internet. We help you clean bad links, delete fake reviews, and build a strong, positive image.
             </p>
             <ul className="hero-proof-grid mb-8">
               {[
-                "Free reputation consultation",
-                "Build an impressive online presence with us",
-                "Repair Online Reputation",
-                "Clean Negative Search Results From Google",
-                "Removal / Suppression of Negative Content",
-                "Removal / Suppression Negative & Fake Reviews",
-                "Ranked as India's top 10 best ORM company in Kolkata",
-                "1200+ Happy Clients across the globe",
+                "Free reputation check and advice",
+                "Build a highly impressive online profile",
+                "Fast repair of your online reputation",
+                "Delete bad search results from the internet",
+                "Completely remove or hide negative news",
+                "Delete fake reviews and bad ratings",
+                "Ranked among India's top reputation agencies",
+                "Over 1,200 happy clients all over the world",
               ].map((item) => (
                 <li key={item} className="check-item text-sm text-white/80">
                   <span className="check-icon text-brand-gold text-base">✓</span>
@@ -177,23 +177,23 @@ export default function HomePage() {
           <div className="premium-copy-panel">
             <p className="section-label mb-2">What We Do</p>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-5 leading-tight">
-              Take Control of Your <span className="heading-script text-brand-blue">Online Image</span>
+              Take Control of Your <span className="heading-script text-brand-blue">Online Reputation</span>
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
-              Build a reputation that speaks for itself. Strengthen your online presence, gain trust, and stay ahead in the digital world effortlessly.
+              What people see on the internet decides if they will trust you. We make sure they only see your very best and most professional side.
             </p>
 
             <div className="space-y-6 mb-8">
               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-blue">
-                <h3 className="font-bold text-zinc-900 mb-2">Suppress Negative Google Results</h3>
+                <h3 className="font-bold text-zinc-900 mb-2">Remove Bad Links Completely</h3>
                 <p className="text-sm text-zinc-500 leading-relaxed">
-                  A single piece of negative content has the power to destroy the reputation and hamper the online presence of a brand. These contents can be in any form - blogs, forums, reviews, complaints, videos. We help brands clean the negative content and control the damage.
+                  One fake review or bad news article can destroy your business. Our team works very fast to delete these bad links so your respect is saved.
                 </p>
               </div>
               <div className="premium-info-card bg-zinc-50 rounded-lg p-5 border border-zinc-200 border-l-4 border-l-brand-gold">
-                <h3 className="font-bold text-zinc-900 mb-2">Impress Everyone</h3>
+                <h3 className="font-bold text-zinc-900 mb-2">Look Highly Professional</h3>
                 <p className="text-sm text-zinc-500 leading-relaxed">
-                  With customized ORM solutions, clean your negative image on the search and impress your customers with a positive presence. We help you minimize risk factors on Google and social media, maximize positive visibility, and monitor your reputation.
+                  We do not just delete bad links. We also write very good articles about your success so anyone who searches your name is highly impressed.
                 </p>
               </div>
             </div>
@@ -259,8 +259,8 @@ export default function HomePage() {
               <p className="section-label text-xs font-semibold tracking-wider uppercase text-zinc-600 m-0">Our Services</p>
             </div>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">
-              Comprehensive ORM Services<br className="hidden lg:block"/> to Strengthen Your <span className="heading-script text-brand-blue relative inline-block">
-                Brand &<br className="hidden lg:block"/> Individual
+              Complete Services<br className="hidden lg:block"/> to Clean Your <span className="heading-script text-brand-blue relative inline-block">
+                Name &<br className="hidden lg:block"/> Business
                 <svg className="absolute -bottom-2 left-0 w-full h-3 text-brand-blue/20 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="4" fill="none"/></svg>
               </span> Presence
             </h2>
@@ -326,9 +326,9 @@ export default function HomePage() {
           </div>
           <div className="premium-copy-panel">
             <p className="section-label mb-2">Content Removal</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-4">Delete <span className="heading-script text-brand-blue">Online Content</span></h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-4">Delete <span className="heading-script text-brand-blue">Bad Links & Photos</span></h2>
             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
-              Negative content is hurtful. Using our professional removal process, we will help you get rid of it for good.
+              Bad news on the internet can ruin your life. We use strong legal tools to completely delete fake news, bad reviews, and private photos from the internet.
             </p>
             <p className="font-bold text-zinc-900 mb-3 text-sm">We are professionally skilled at removing:</p>
             <ul className="space-y-2 mb-8">
@@ -377,10 +377,10 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <p className="section-label mb-2 text-brand-gold">Platforms We Manage</p>
             <h2 className="font-heading text-3xl font-bold text-white mb-3">
-              Reliable ORM Solutions Backed<br className="hidden lg:block"/> by <span className="heading-script text-brand-gold">Trusted Platforms</span>
+              We Clean Your Name<br className="hidden lg:block"/> on <span className="heading-script text-brand-gold">All These Websites</span>
             </h2>
             <p className="text-zinc-400 max-w-2xl mx-auto text-sm">
-              Trusted by over 50 platforms including Google, Facebook, Yelp, and Twitter, our ORM services empower your brand with expert monitoring and management.
+              Whether the bad link is on the internet, Facebook, or a news website, we have the power to remove it and protect your respect.
             </p>
           </div>
           <div className="premium-platform-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
@@ -420,9 +420,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <p className="section-label mb-2">Success Stories</p>
-            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-3">We Have Stories to <span className="heading-script text-brand-blue">Inspire You</span></h2>
+            <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-3">Real People We Have <span className="heading-script text-brand-blue">Helped</span></h2>
             <p className="text-zinc-500 max-w-2xl mx-auto text-sm">
-              Discover the journey behind every success. From groundbreaking strategies to stunning transformations, explore how we've partnered with brands to achieve remarkable results.
+              Read how we helped doctors, builders, and business owners remove bad links and get their success back.
             </p>
           </div>
           <div className="case-study-board">
@@ -460,13 +460,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <p className="section-label text-brand-gold mb-2">Our Testimonials</p>
-            <h2 className="font-heading text-3xl font-bold text-white">What Our <span className="heading-script text-brand-gold">Clients Say</span></h2>
+            <h2 className="font-heading text-3xl font-bold text-white">What Our <span className="heading-script text-brand-gold">Happy Clients Say</span></h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { name: "Rajesh Kumar", role: "CEO, TechCorp India", text: "Online Reputation Builder transformed our online image completely. Negative reviews that were hurting our business are gone, and our Google rankings improved dramatically within 3 months." },
-              { name: "Priya Sharma", role: "Real Estate Developer", text: "After facing a PR crisis, their team worked tirelessly to repair our reputation. Professional, discreet, and incredibly effective. Our business is back on track." },
-              { name: "Amit Singh", role: "Healthcare Professional", text: "I had false reviews affecting my practice. Their team handled everything professionally and quickly. I highly recommend Online Reputation Builder for any ORM needs." },
+              { name: "Rajesh Kumar", role: "CEO, TechCorp India", text: "A competitor wrote fake news about my business. This team deleted the link from the internet very fast. My business is growing again." },
+              { name: "Priya Sharma", role: "Real Estate Developer", text: "Someone was ruining my name online. They pushed all the bad links down to page 10 where no one can find them. Thank you!" },
+              { name: "Amit Singh", role: "Healthcare Professional", text: "I was losing a lot of money because of one bad search result. They fixed it fast and made me look highly professional online." },
             ].map((t) => (
               <div key={t.name} className="premium-testimonial-card bg-zinc-900 rounded-xl p-7 border border-zinc-800">
                 <div className="flex text-brand-gold text-sm mb-4">★★★★★</div>
@@ -489,7 +489,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <p className="section-label mb-2">Trusted By</p>
-            <h2 className="font-heading text-2xl font-bold text-zinc-900">Trusted by leading 250+ brands across the world</h2>
+            <h2 className="font-heading text-2xl font-bold text-zinc-900">Trusted by over 250 top professionals and businesses in India</h2>
           </div>
           <div className="overflow-hidden">
             <div className="marquee-track flex items-center gap-6 whitespace-nowrap w-max py-3">
@@ -511,10 +511,10 @@ export default function HomePage() {
           <div className="premium-copy-panel-dark">
             <p className="section-label text-brand-gold mb-2">Get Started Today</p>
             <h2 className="font-heading text-3xl font-bold text-white mb-5">
-              Online Reputation<br className="hidden lg:block"/> <span className="heading-script text-brand-gold">Management Services</span>
+              Fix Your Online<br className="hidden lg:block"/> <span className="heading-script text-brand-gold">Reputation Today</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-8 text-sm">
-              Don't let negative content define your brand. Reach out today for a free, confidential consultation and discover how we can protect and enhance your online reputation.
+              Do not let a bad online link destroy your respect. Call us today and we will tell you exactly how we can fix it, completely free of charge.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>

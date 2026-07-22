@@ -56,19 +56,19 @@
 //               Online Crisis Management &amp; ORM Services
 //             </h1>
 //             <p className="text-zinc-400 text-sm mb-5 leading-relaxed">
-//               A crisis has the potential to destroy years of hard work in hours. When your reputation is under attack, every minute counts. Our crisis management experts are on call 24/7 to protect your brand.
+//               A bad news story or viral post can destroy your business in hours. When you are under attack online, every minute matters. Our team is ready 24/7 to help you.
 //             </p>
 //             <div className="bg-red-950/40 border border-red-500/25 rounded p-4 mb-6">
-//               <p className="text-red-400 font-bold text-xs uppercase tracking-wider mb-1">⚡ Active Crisis? Call Us Now</p>
+//               <p className="text-red-400 font-bold text-xs uppercase tracking-wider mb-1">⚡ Big Problem? Call Us Now</p>
 //               <p className="text-zinc-300 text-xs leading-relaxed">Our emergency response team is available around the clock for immediate assistance.</p>
 //               <a href="tel:+918882788412" className="text-brand-gold font-bold text-sm hover:underline mt-1 inline-block">+9188827 88412</a>
 //             </div>
 //             <ul className="space-y-2 mb-8">
 //               {[
 //                 "24/7 emergency crisis response team",
-//                 "Rapid content removal and suppression",
+//                 "Fast removal of bad links and suppression",
 //                 "Multi-platform crisis containment",
-//                 "Strategic communications & messaging",
+//                 "Smart messaging help & messaging",
 //                 "Post-crisis reputation rebuilding",
 //               ].map((item) => (
 //                 <li key={item} className="check-item text-xs text-zinc-300">
@@ -111,7 +111,7 @@
 //             <p className="section-label mb-2">We Handle Every Type</p>
 //             <h2 className="font-heading text-2xl lg:text-3xl font-extrabold text-zinc-900">Types of Reputation Crises We Manage</h2>
 //             <p className="text-zinc-500 max-w-2xl mx-auto text-xs mt-3 leading-relaxed">
-//               No matter what kind of crisis you are facing, our team has the experience and tools to respond effectively and protect your reputation.
+//               No matter what kind of bad news you are facing, our team knows exactly how to fix it and save your name.
 //             </p>
 //           </div>
 //           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -143,13 +143,13 @@
 //               Why Immediate Crisis Response is Critical
 //             </h2>
 //             <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
-//               In a reputation crisis, time is the most valuable asset. Every hour that passes without a strategic response allows negative content to spread further, more people to form negative opinions, and the damage to deepen.
+//               When bad news hits, time is very important. Every hour you wait, more people see the bad news and share it. This damages your business more and more.
 //             </p>
 //             <div className="space-y-4 mb-6">
 //               {[
-//                 { time: "First 24 Hours", impact: "Crisis reaches your core audience and immediate stakeholders.", color: "border-amber-500" },
-//                 { time: "48–72 Hours", impact: "Content indexes on Google. Social shares multiply. Media picks up the story.", color: "border-red-500" },
-//                 { time: "1 Week+", impact: "Negative content dominates search results. Long-term brand damage begins.", color: "border-zinc-800" },
+//                 { time: "First 24 Hours", impact: "Bad news reaches your customers and partners.", color: "border-amber-500" },
+//                 { time: "2 to 3 Days", impact: "Links show up on Google. People share it on social media. News websites write about it.", color: "border-red-500" },
+//                 { time: "After 1 Week", impact: "Bad links cover the first page of Google. Your business starts losing money.", color: "border-zinc-800" },
 //               ].map(t => (
 //                 <div key={t.time} className={`bg-white rounded p-4 border border-zinc-200 border-l-4 ${t.color}`}>
 //                   <p className="font-bold text-zinc-900 text-xs uppercase tracking-wider mb-1">{t.time}</p>
@@ -311,31 +311,31 @@ import Link from "next/link";
 import FAQSection from "@/components/FAQSection";
 
 const crisisTypes = [
-  { icon: "📰", category: "MEDIA RELATIONS", title: "Negative Press Coverage", desc: "Damaging news articles or media stories that threaten your brand's public image." },
-  { icon: "⭐", category: "REVIEWS & SENTIMENT", title: "Review Bombing", desc: "Sudden flood of fake or coordinated negative reviews across multiple platforms." },
-  { icon: "📱", category: "SOCIAL RISK", title: "Social Media Scandal", desc: "Viral negative content, hashtag campaigns, or social media controversies targeting your brand." },
-  { icon: "👤", category: "EXECUTIVE BRAND", title: "Executive Controversy", desc: "Personal controversies involving company leadership that affect brand perception." },
-  { icon: "⚖️", category: "LEGAL & COMPLIANCE", title: "Legal Issues", desc: "Court cases, regulatory actions, or legal disputes creating negative search results." },
-  { icon: "⚖️", category: "COMPETITION SECURITY", title: "Competitor Attacks", desc: "Malicious competitor campaigns designed to damage your reputation unfairly." },
-  { icon: "🔓", category: "DATA FALLOUT", title: "Data Breach Fallout", desc: "Managing public trust and communications after a data security incident." },
-  { icon: "😡", category: "CONSUMER RELATIONS", title: "Customer Backlash", desc: "Widespread customer complaints that escalate into public relations emergencies." },
+  { icon: "📰", category: "BAD NEWS", title: "Negative News Articles", desc: "Bad news stories that can destroy your brand name and make people not trust you." },
+  { icon: "⭐", category: "FAKE REVIEWS", title: "Fake Review Attacks", desc: "When many fake bad reviews are posted suddenly to bring down your rating." },
+  { icon: "📱", category: "SOCIAL ISSUES", title: "Social Media Problems", desc: "Viral bad videos, angry posts, or trending hashtags against your company." },
+  { icon: "👤", category: "FOUNDER ISSUES", title: "Founder Controversies", desc: "Personal problems or bad news about the company owner or CEO." },
+  { icon: "⚖️", category: "LEGAL CASES", title: "Court Cases Online", desc: "Legal problems or court orders that are showing up on Google search." },
+  { icon: "⚖️", category: "COMPETITORS", title: "Competitor Attacks", desc: "When rival companies post fake news to damage your good name." },
+  { icon: "🔓", category: "DATA LOSS", title: "Data Leak Problems", desc: "Helping you manage the news and customer anger after a data hack." },
+  { icon: "😡", category: "ANGRY CUSTOMERS", title: "Customer Anger", desc: "Big complaints from customers that go viral and become a PR disaster." },
 ];
 
 const processSteps = [
-  { n: "01", title: "Emergency Assessment", desc: "Within hours of your call, we assess the scope and severity of the crisis - identifying all affected platforms, the source, and immediate risks to your reputation." },
-  { n: "02", title: "Crisis Containment", desc: "We act immediately to contain the spread of damaging content, coordinate platform takedowns, and prevent further escalation." },
-  { n: "03", title: "Strategic Communications", desc: "Our team crafts precise messaging and response strategies that address the crisis head-on while protecting your brand's core reputation." },
-  { n: "04", title: "Content Suppression", desc: "We deploy aggressive SEO and content strategies to push negative results down while elevating positive, authoritative content." },
-  { n: "05", title: "Reputation Rebuilding", desc: "Long-term strategies to rebuild trust, strengthen your brand narrative, and emerge from the crisis stronger than before." },
-  { n: "06", title: "Ongoing Monitoring", desc: "Continuous 24/7 monitoring to catch any resurgence of the crisis and react immediately to new threats." },
+  { n: "01", title: "Fast Checking", desc: "When you call us, we check everything in a few hours to see how bad the problem is and where it is spreading." },
+  { n: "02", title: "Stop the Spread", desc: "We work quickly to stop the bad news from spreading to other websites and social media pages." },
+  { n: "03", title: "Right Messaging", desc: "We help you say the right things to your customers and the public to save your reputation." },
+  { n: "04", title: "Hide Bad Links", desc: "We use our tools to push down all the negative Google links so no one can see them." },
+  { n: "05", title: "Rebuild Trust", desc: "We create positive news to make your brand look good again and build back customer trust." },
+  { n: "06", title: "24/7 Watching", desc: "We keep watching your name everyday so the problem does not come back." },
 ];
 
 const faqs = [
-  { q: "How quickly can you respond to a reputation crisis?", a: "We offer 24/7 emergency response for active reputation crises. Our team can begin assessment and containment within hours of your first contact. For severe crises, we can have a full team mobilized within 24 hours." },
-  { q: "What makes a reputation crisis different from regular ORM?", a: "A reputation crisis requires immediate, coordinated action across multiple fronts simultaneously - unlike regular ORM which is proactive and gradual. Crisis management involves rapid response, media coordination, legal considerations, and aggressive content suppression all at once." },
-  { q: "Can you help if a crisis has already been going on for weeks?", a: "Absolutely. While early intervention gives the best results, we have successfully managed and resolved crises that had been ongoing for months. It's never too late to start repairing your reputation." },
-  { q: "Do you work with legal teams during a crisis?", a: "Yes. Our crisis management team works closely with your legal counsel to ensure all strategies are legally sound and complement any ongoing legal proceedings. We coordinate messaging to support your legal strategy." },
-  { q: "How do you handle social media crises specifically?", a: "We monitor all major social platforms in real-time, coordinate rapid response strategies, engage with influencers and key voices, suppress trending negative hashtags, and build counter-narratives using positive social proof." },
+  { q: "How fast can you help in a crisis?", a: "We work 24/7. When you call us with a big problem, our team starts working in just a few hours. For very bad cases, our full team is ready in 24 hours." },
+  { q: "Why is crisis management different from normal ORM?", a: "Normal ORM takes time to slowly build a good image. Crisis management is very fast. We have to stop bad news, handle legal issues, and remove links all at the same time." },
+  { q: "Can you help if the bad news is already old?", a: "Yes. It is best to call us early, but we have helped many companies fix bad news that was online for many months. It is never too late to clean your image." },
+  { q: "Do you talk to our lawyers?", a: "Yes. We work with your legal team to make sure everything we do helps your court cases and follows the law." },
+  { q: "How do you handle social media attacks?", a: "We watch Facebook, Twitter, and Instagram very closely. We help you reply the right way, stop bad hashtags, and put out positive posts to change the story." },
 ];
 
 // Utilizing reliable Favicon API to bypass AdBlockers, retaining all original names
@@ -375,11 +375,11 @@ export default function CrisisManagementPage() {
             </div>
             
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Online Crisis Management &amp; <span className="text-gradient-gold">ORM Services</span>
+              Fast Online Crisis Help &amp; <span className="text-gradient-gold">ORM Services</span>
             </h1>
             
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              A crisis has the potential to destroy years of hard work in hours. When your reputation is under attack, every minute counts. Our crisis management experts are on call 24/7 to protect your brand.
+              A bad news story or viral post can destroy your business in hours. When you are under attack online, every minute matters. Our team is ready 24/7 to help you.
             </p>
 
             {/* Premium Emergency Box */}
@@ -388,7 +388,7 @@ export default function CrisisManagementPage() {
               <div className="relative z-10">
                 <p className="text-red-400 font-bold text-xs uppercase tracking-wider mb-2 flex items-center gap-2">
                   <svg width="16" height="16" className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  ⚡ Active Crisis? Call Us Now
+                  ⚡ Big Problem? Call Us Now
                 </p>
                 <p className="text-zinc-300 text-sm leading-relaxed mb-3">Our emergency response team is available around the clock for immediate assistance.</p>
                 <a href="tel:+918882788412" className="text-white font-heading font-bold text-xl hover:text-red-400 transition-colors inline-block">+9188827 88412</a>
@@ -397,11 +397,11 @@ export default function CrisisManagementPage() {
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
               {[
-                "24/7 emergency response team",
-                "Rapid content removal",
-                "Multi-platform containment",
-                "Strategic communications",
-                "Reputation rebuilding",
+                "24/7 fast action team",
+                "Fast removal of bad links",
+                "Stopping bad news everywhere",
+                "Smart messaging help",
+                "Rebuilding your trust",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2 text-sm text-zinc-300">
                   <span className="text-brand-gold mt-0.5 text-base font-bold">✓</span>
@@ -458,10 +458,10 @@ export default function CrisisManagementPage() {
               <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">We Handle Every Type</p>
             </div>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">
-              Types of Reputation <span className="heading-script text-brand-blue">Crises We Manage</span>
+              Types of Big Problems <span className="heading-script text-brand-blue">We Solve</span>
             </h2>
             <p className="text-zinc-500 max-w-2xl mx-auto text-[0.95rem] mt-4 leading-relaxed">
-              No matter what kind of crisis you are facing, our team has the experience and tools to respond effectively and protect your reputation.
+              No matter what kind of bad news you are facing, our team knows exactly how to fix it and save your name.
             </p>
           </div>
           
@@ -498,17 +498,17 @@ export default function CrisisManagementPage() {
           <div className="premium-copy-panel pr-0 lg:pr-8">
             <p className="section-label mb-2 text-brand-gold">The Cost of Waiting</p>
             <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-              Why Immediate Crisis <br className="hidden lg:block"/><span className="heading-script text-brand-blue">Response is Critical</span>
+              Why You Must Act <br className="hidden lg:block"/><span className="heading-script text-brand-blue">Very Fast</span>
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              In a reputation crisis, time is the most valuable asset. Every hour that passes without a strategic response allows negative content to spread further, more people to form negative opinions, and the damage to deepen.
+              When bad news hits, time is very important. Every hour you wait, more people see the bad news and share it. This damages your business more and more.
             </p>
             
             <div className="space-y-5 mb-8">
               {[
-                { time: "First 24 Hours", impact: "Crisis reaches your core audience and immediate stakeholders.", color: "border-l-amber-500", iconText: "text-amber-500" },
-                { time: "48–72 Hours", impact: "Content indexes on Google. Social shares multiply. Media picks up the story.", color: "border-l-red-500", iconText: "text-red-500" },
-                { time: "1 Week+", impact: "Negative content dominates search results. Long-term brand damage begins.", color: "border-l-zinc-800", iconText: "text-zinc-800" },
+                { time: "First 24 Hours", impact: "Bad news reaches your customers and partners.", color: "border-l-amber-500", iconText: "text-amber-500" },
+                { time: "2 to 3 Days", impact: "Links show up on Google. People share it on social media. News websites write about it.", color: "border-l-red-500", iconText: "text-red-500" },
+                { time: "After 1 Week", impact: "Bad links cover the first page of Google. Your business starts losing money.", color: "border-l-zinc-800", iconText: "text-zinc-800" },
               ].map((t, i) => (
                 <div key={t.time} className={`premium-info-card bg-zinc-50 rounded-xl p-5 border border-zinc-200 border-l-4 ${t.color} flex items-start gap-4 hover:shadow-md transition-shadow`}>
                   <div className={`mt-1 font-bold ${t.iconText}`}>{`0${i+1}`}</div>
@@ -557,10 +557,10 @@ export default function CrisisManagementPage() {
           <div className="premium-copy-panel">
             <p className="section-label mb-2 text-brand-gold">Our Approach</p>
             <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-              Our Crisis Management <span className="heading-script text-brand-blue">Process</span>
+              How We Stop <span className="heading-script text-brand-blue">The Problem</span>
             </h2>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              We execute a rapid, coordinated response protocol designed to contain the immediate threat while simultaneously building a firewall around your long-term reputation.
+              We work very fast to stop the bad news from hurting you today, and we build a strong positive image to keep you safe in the future.
             </p>
             <div className="hidden lg:block w-32 h-1 bg-gradient-to-r from-brand-blue to-transparent rounded-full" />
           </div>
@@ -596,7 +596,7 @@ export default function CrisisManagementPage() {
           <div className="text-center mb-16">
             <p className="section-label text-brand-gold mb-2">Tailored Solutions</p>
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white tracking-tight">
-              Crisis Protection for <span className="heading-script text-brand-gold">Brands &amp; Individuals</span>
+              Help For Both <span className="heading-script text-brand-gold">Companies &amp; People</span>
             </h2>
           </div>
           
@@ -706,9 +706,9 @@ export default function CrisisManagementPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to handle a PR crisis that is going viral on social media?", answer: "Immediate action is crucial. We offer 24/7 emergency response to contain the narrative, flag violating content for removal, and deploy positive counter-messaging to regain control." },
-        { question: "Can you suppress negative news articles during a corporate crisis?", answer: "Yes, our rapid-response SEO and technical strategies can aggressively suppress damaging news coverage and replace it with factual, brand-controlled assets." },
-        { question: "What is the best immediate response to online defamatory attacks?", answer: "Do not engage publicly without a strategy. Our experts will quickly analyze the threats, implement legal takedown protocols where applicable, and formulate a robust crisis communication plan." }
+        { question: "How quickly can you remove a viral bad video?", answer: "We work with website owners and use legal ways to try and take it down as fast as possible, sometimes in a few days." },
+        { question: "Can you stop a trending hashtag against my company?", answer: "Yes, we use positive social media campaigns to change the story and bury the negative hashtags." },
+        { question: "Will people know I hired you to fix my image?", answer: "No, our work is completely private and secret. No one will ever know." }
       ]} />
       <Footer />
     </div>

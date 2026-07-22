@@ -10,78 +10,78 @@ import Link from "next/link";
 /* ─── Original Data Extracted from PDF ─────────────────────────────────────── */
 
 const negativeExamples = [
-  "Your brand with negative review",
-  "Your brand has the worst customer service.",
-  "Your brand is not worth your money"
+  "Fake news targeting your name",
+  "False reviews about your service",
+  "Bad pictures or private details"
 ];
 
 const individualServices = [
   {
-    title: "Remove Negative Google Results",
-    desc: "Bury harmful search results and protect your online reputation with strategic content management.",
+    title: "Delete Bad Google Links",
+    desc: "We completely remove or hide fake news and bad links from Google so nobody can find them.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" /></svg>
     ),
   },
   {
-    title: "Online Reputation",
-    desc: "Strengthen your digital presence and build trust with expert reputation management solutions.",
+    title: "Protect Your Name",
+    desc: "We build a very strong and respectful image for you online so you always look like a top professional.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
     ),
   },
   {
-    title: "Crisis Management",
-    desc: "Navigate online crises effectively and restore your brand's credibility with proactive strategies.",
+    title: "Emergency Help",
+    desc: "If sudden bad news attacks you, our team works fast to stop the damage and clear your name immediately.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
     ),
   },
   {
-    title: "Review Management",
-    desc: "Monitor, respond to, and enhance customer reviews to build a positive brand image.",
+    title: "Fix False Reviews",
+    desc: "We find and delete fake reviews on Google or Facebook that try to ruin your personal respect.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
     ),
   },
   {
-    title: "Remove Negative Content",
-    desc: "Eliminate harmful content from search results and safeguard your online reputation with expert strategies.",
+    title: "Hide Negative Articles",
+    desc: "We use our expert skills to push any bad news so far down on Google that no one will ever find it.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
     ),
   },
   {
-    title: "Personal Branding Services",
-    desc: "Enhance your digital identity and build a strong personal brand with tailored branding solutions.",
+    title: "Build Personal Respect",
+    desc: "We create beautiful articles and profiles to make you look highly respected and famous in your field.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
     ),
   },
   {
-    title: "Remove Unwanted Images",
-    desc: "Erase embarrassing or damaging images from the internet and take control of your online presence.",
+    title: "Remove Bad Photos",
+    desc: "We find and delete any embarrassing or private photos of you from the internet completely.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
     ),
   },
   {
-    title: "Personal Brand Monitoring",
-    desc: "Track and manage your personal brand across platforms to ensure a positive and credible reputation.",
+    title: "24/7 Name Checking",
+    desc: "Our team constantly checks Google to make sure no new bad news or fake links appear about you.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
     ),
   },
   {
-    title: "Change Google Autocomplete",
-    desc: "Influence search suggestions and reshape public perception with strategic autocomplete optimization.",
+    title: "Fix Search Suggestions",
+    desc: "When people type your name on Google, we make sure they only see good and positive words next to it.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
     ),
   },
   {
-    title: "Remove Private Info",
-    desc: "Protect your privacy by removing sensitive personal data from search engines and online platforms.",
+    title: "Delete Private Details",
+    desc: "We force websites to remove your phone number, home address, and other private details from public view.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
     ),
@@ -90,11 +90,17 @@ const individualServices = [
 
 const testimonials = [
   {
-    name: "Juli",
-    role: "Verified Client",
-    text: "I was really impressed with the level of personalization and attention to detail this online reputation management company provided. They took the time to understand my business and tailor their services to my specific needs. I'm so glad I found them and highly recommend them to anyone in need of online reputation management services.",
-    initials: "J",
+    name: "Sunil",
+    role: "Doctor",
+    text: "Someone wrote terrible fake news about me. These guys deleted the link very quickly. Now my name is clean on Google. Thank you so much for your great service.",
+    initials: "S",
   },
+  {
+    name: "Pooja M.",
+    role: "Business Consultant",
+    text: "Before, nothing showed up when you searched my name. Now, my name is on page one with amazing articles. I am getting much better job offers now.",
+    initials: "PM",
+  }
 ];
 
 /* ─── Animation Hook ───────────────────────────────────────── */
@@ -151,15 +157,15 @@ export default function IndividualSolutionsPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-blue opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-blue" />
                 </span>
-                Explore Individual Solutions From Google Search Results
+                Clean Your Name on Google Search
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Has your business reputation been damaged by <span className="text-gradient-gold">negative content?</span>
+                Is fake news or a bad review ruining your <span className="text-gradient-gold">personal respect?</span>
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-                If searching your brand name on Google and seeing first-page results with titles like:
+                If you search your name on Google and see terrible things like:
               </p>
 
               <ul className="space-y-3 mb-8 max-w-xl">
@@ -174,7 +180,7 @@ export default function IndividualSolutionsPage() {
               </ul>
 
               <p className="text-white/70 text-sm mb-10 leading-relaxed max-w-2xl border-l-2 border-brand-gold pl-4">
-                If your negative content is ranking high on google search results so don't panic. There are numerous tactics and strategies that can be implemented to remove or suppress negative content from Google search results.
+                Do not worry. We have the technical and legal power to completely remove or hide these bad links from Google so you can get your respect back.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
@@ -220,13 +226,13 @@ export default function IndividualSolutionsPage() {
             <div className="text-center max-w-3xl mx-auto mb-16">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full bg-white border border-zinc-200 shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse"></span>
-                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Explore Services of 2025</p>
+                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Best Services</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                Best Individual Solution's <span className="heading-script text-brand-blue">Services</span>
+                How We Fix Your <span className="heading-script text-brand-blue">Online Name</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 leading-relaxed">
-                We researched and analyzed the best online reputation management services for individuals and small businesses. Read our reviews to discover which company has the right features for you.
+                Whether you are a doctor, lawyer, or business owner, we have the perfect solution to clean your Google results and build a highly respected image.
               </p>
             </div>
           </RevealOnScroll>
@@ -268,8 +274,8 @@ export default function IndividualSolutionsPage() {
           <RevealOnScroll>
             <div className="text-center mb-12">
               <p className="section-label mb-2 justify-center text-brand-gold">What Our Clients Say</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white tracking-tight">Trust Built on <span className="heading-script text-brand-gold">Real Results</span></h2>
-              <p className="text-zinc-400 text-[0.95rem] mt-4 leading-relaxed">We pay attention to details and quality, good communication and strong customer relationship. Here is what they say about us.</p>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white tracking-tight">Real People We Have <span className="heading-script text-brand-gold">Helped</span></h2>
+              <p className="text-zinc-400 text-[0.95rem] mt-4 leading-relaxed">We work very hard to protect your respect. Here is what some of our happy clients say.</p>
             </div>
           </RevealOnScroll>
           
@@ -307,10 +313,10 @@ export default function IndividualSolutionsPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don't let a single negative Google result <span className="heading-script text-blue-400">ruin your business</span>
+                Do not let a bad Google link <span className="heading-script text-blue-400">destroy your respect</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a Free Consultation. Our experts will assess your situation and present a clear action plan - with no obligation.
+                Call us today. We will check your Google search results and tell you exactly how we can fix them, completely free of charge.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
@@ -342,7 +348,7 @@ export default function IndividualSolutionsPage() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-blue/10 to-brand-gold/10 rounded-3xl blur-2xl pointer-events-none opacity-50" />
               <div className="relative glass-panel bg-zinc-950/90 backdrop-blur-md border border-zinc-800 rounded-3xl p-8 lg:p-10 shadow-2xl">
                 <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-brand-blue/50 via-brand-gold/50 to-transparent" />
-                <p className="text-white font-heading font-bold text-xl mb-2">Business Solution</p>
+                <p className="text-white font-heading font-bold text-xl mb-2">Send Us a Message</p>
                 <p className="text-zinc-500 text-sm mb-6">We respond within 24 hours on business days.</p>
                 <ContactForm dark />
               </div>
@@ -352,9 +358,9 @@ export default function IndividualSolutionsPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to fix my damaged online reputation?", answer: "We provide tailored solutions including content removal, positive asset creation, and continuous monitoring to suppress negatives and highlight your strengths." },
-        { question: "What is the best way to hide negative search results?", answer: "The most effective method is 'reverse SEO'—creating strong, optimized positive content that ranks above the negative links, pushing them down where nobody looks." },
-        { question: "How long does it take to repair a ruined digital footprint?", answer: "While some removals can happen in weeks, a comprehensive suppression campaign typically takes 3 to 6 months to establish a robust, positive first page of Google." }
+        { question: "How can you fix my damaged name on Google?", answer: "We use strong legal tools to delete bad links, or we write many good articles to push the bad news down where no one can find it." },
+        { question: "Can you hide news articles from the first page?", answer: "Yes, we create very powerful positive news that takes over the first page, hiding any bad articles completely." },
+        { question: "How long does it take to clean my name?", answer: "Sometimes it takes just a few weeks. For very difficult cases, it takes 3 to 6 months to make your first page perfectly clean." }
       ]} />
       <Footer />
     </div>

@@ -11,10 +11,10 @@ import FAQSection from "@/components/FAQSection";
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "Remove fake & malicious Google Business reviews permanently",
-  "Protect your profile from spam, attacks & false complaints",
-  "Boost local search visibility with a stronger reputation",
-  "98% success rate across thousands of businesses",
+  "Delete fake Google Maps reviews forever",
+  "Keep your profile safe from spam and bad comments",
+  "Get a 5-star rating to attract more local customers",
+  "98% success rate for all our Indian and global clients",
 ];
 
 const stats = [
@@ -26,18 +26,18 @@ const stats = [
 
 const impacts = [
   {
-    title: "Lost Local Customers",
-    desc: "Over 90% of consumers read Google reviews before visiting a local business. Even a handful of fake negative reviews can devastate footfall and enquiry volume within days.",
+    title: "Losing Local Customers",
+    desc: "Most people read Google reviews before visiting a shop or office. Even a few fake bad reviews can stop people from calling you or visiting your business.",
     icon: "📍",
   },
   {
-    title: "Damaged Star Rating",
-    desc: "A single coordinated fake-review attack can drag your star rating down by a full point - directly impacting your local pack ranking and converting fewer searchers into customers.",
+    title: "Bad Star Rating",
+    desc: "A fake review attack can drop your star rating from 4.5 to 3.5 very quickly. This makes you look bad and helps your competitors get your customers.",
     icon: "⭐",
   },
   {
-    title: "Lower Google Local Ranking",
-    desc: "Google's algorithm factors review quality and sentiment into local search rankings. Persistent negative reviews actively suppress your visibility in the Google Maps local pack.",
+    title: "Lower Search Ranking",
+    desc: "Google shows businesses with good reviews at the top. If you have many bad reviews, your business will not show up when people search for your services in your city.",
     icon: "📉",
   },
 ];
@@ -80,19 +80,19 @@ const services = [
 const reviewTypes = [
   {
     title: "Fake Competitor Reviews",
-    desc: "Reviews placed by competitors to damage your ranking are identified and removed using evidence-based flagging and Google's policy enforcement process.",
+    desc: "When rival businesses post bad things about you, we use Google policies to prove they are fake and get them deleted quickly.",
   },
   {
     title: "Spam & Bot Reviews",
-    desc: "Coordinated spam attacks from fake accounts are tackled with automated detection and mass-flagging strategies to restore your profile's integrity quickly.",
+    desc: "Sometimes fake accounts attack your page. We catch these spam bots and report them in bulk so your page becomes clean again.",
   },
   {
-    title: "Defamatory & False Reviews",
-    desc: "Reviews containing false statements of fact that damage your reputation can be removed via Google's legal removal request process.",
+    title: "False Customer Claims",
+    desc: "If someone tells lies about your service that damage your name, we can use legal requests to force Google to remove those lies.",
   },
   {
-    title: "Outdated & Irrelevant Reviews",
-    desc: "Old reviews that no longer reflect your business are addressed through response strategy and suppression to minimise their ongoing impact.",
+    title: "Old Employee Reviews",
+    desc: "Google does not allow ex-employees to leave bad reviews. We help you find these angry reviews and get them removed permanently.",
   },
 ];
 
@@ -129,39 +129,39 @@ const whyUs = [
 
 const faqs = [
   {
-    q: "Can Google Business reviews actually be removed?",
-    a: "Yes - reviews that violate Google's policies (fake, spam, defamatory, off-topic) can be removed. We identify the violation type and use the correct removal channel for each review to maximise success rates.",
+    q: "Can you really delete bad Google Business reviews?",
+    a: "Yes. If a review is fake, spam, or breaks Google's rules, we can remove it. We know exactly how to report these to Google for fast removal.",
   },
   {
-    q: "How long does review removal take?",
-    a: "Most removals are processed within 7–21 business days. High-severity cases and those with clear policy violations are often resolved faster. We keep you updated throughout.",
+    q: "How many days does it take to remove a bad review?",
+    a: "Most bad reviews are deleted within 7 to 15 days. Sometimes, if the review is very abusive, it can be removed even faster.",
   },
   {
-    q: "Can you remove reviews I simply don't like but that might be genuine?",
-    a: "We focus on reviews that genuinely violate Google's policies. For reviews that may be genuine but negative, we focus on professional response strategy and positive review generation to offset their impact.",
+    q: "Can you delete a real negative review?",
+    a: "We only delete fake or abusive reviews. If a real customer is unhappy, we help you write a good reply and get more positive reviews to hide the bad one.",
   },
   {
-    q: "Will removing reviews affect my overall ranking?",
-    a: "Removing fake or policy-violating reviews typically improves your ranking over time as your genuine star rating rises and profile quality improves.",
+    q: "Will my business ranking improve after you remove bad reviews?",
+    a: "Yes! When we remove fake 1-star reviews, your overall star rating goes up. This helps your business show up higher on Google Maps.",
   },
   {
-    q: "Do you offer ongoing Google Business Profile management?",
-    a: "Yes. We offer monthly reputation management packages that include review monitoring, response management, and proactive positive review generation to keep your profile in excellent health.",
+    q: "Do you also help in getting more 5-star reviews?",
+    a: "Yes. We offer complete packages where we not only remove bad reviews but also help you get real 5-star reviews from your happy customers.",
   },
 ];
 
 const testimonials = [
   {
-    name: "Sunil Kapoor",
-    text: "A competitor was leaving us fake 1-star reviews every week. The team identified the pattern, had them removed, and set up monitoring so we catch anything new immediately. Incredible service.",
+    name: "Amit Patel",
+    text: "A competitor was giving us 1-star reviews everyday. This team found out the problem and got them all deleted. Now my business is safe. Amazing work.",
   },
   {
-    name: "Meera Joshi",
-    text: "Our Google Business rating dropped from 4.7 to 3.9 in a matter of weeks due to fake reviews. After working with this team, we're back to 4.6 and growing. Life-changing for our business.",
+    name: "Priya Sharma",
+    text: "Our Google rating fell to 3.8 because of some angry fake accounts. After hiring them, we are back to 4.7. Our phone is ringing with new customers again.",
   },
   {
-    name: "Rajiv Sharma",
-    text: "Professional, knowledgeable, and effective. They handled our Google review crisis with complete professionalism and the results exceeded what we thought was possible.",
+    name: "Vikram Singh",
+    text: "Very professional and fast service. They removed 5 bad reviews from our clinic's page in just two weeks. Highly recommended for any business owner.",
   },
 ];
 
@@ -214,10 +214,10 @@ export default function GoogleBusinessReputationPage() {
                 Google Business Profile Management
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Google Business Profile Reputation Management with a <span className="text-gradient-gold">98% Success Rate</span>
+                Remove Fake Google Reviews With a <span className="text-gradient-gold">98% Success Rate</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Protect your brand from false reviews, malicious attacks, and spam. We remove fake Google reviews, improve your star rating, and help your business rank higher in local search - permanently.
+                Keep your business safe from fake reviews and spam. We delete bad Google reviews, improve your star rating, and help you get more local customers fast.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -230,7 +230,7 @@ export default function GoogleBusinessReputationPage() {
                 ))}
               </ul>
               <div className="flex flex-wrap gap-4">
-                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Protect My Google Profile</Link>
+                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Delete Bad Reviews Now</Link>
                 <a href="tel:+918882788412" className="btn-outline border-zinc-700 text-zinc-300 hover:text-white hover:border-white px-8 py-3.5">Call Us Now</a>
               </div>
             </RevealOnScroll>
@@ -241,8 +241,8 @@ export default function GoogleBusinessReputationPage() {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10" />
               <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/80 relative z-10 bg-zinc-900/90 backdrop-blur-sm p-8">
                 <div className="text-center mb-8">
-                  <p className="section-label text-brand-gold mb-2 justify-center">Restore Your Google Rating Today</p>
-                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Expert Google Business Profile management - fast, legal, lasting</h3>
+                  <p className="section-label text-brand-gold mb-2 justify-center">Fix Your Google Rating Today</p>
+                  <h3 className="font-heading text-2xl font-bold text-white leading-tight">Best Google Business Profile help - fast, safe, and permanent results</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {stats.map((s) => (
@@ -253,7 +253,7 @@ export default function GoogleBusinessReputationPage() {
                   ))}
                 </div>
                 <div className="space-y-4">
-                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Request Profile Management</Link>
+                  <Link href="#contact" className="btn-gold w-full text-center block shadow-lg shadow-brand-gold/20 py-4">Get Help Now</Link>
                   <a href="tel:+918882788412" className="btn-outline w-full text-center block border-zinc-700 text-zinc-300 hover:text-white hover:border-white py-4">Call: +91 99716 87251</a>
                 </div>
               </div>
@@ -269,15 +269,15 @@ export default function GoogleBusinessReputationPage() {
             <div>
               <p className="section-label mb-2">Why It Matters</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                How Fake Reviews <span className="heading-script text-brand-blue">Hurt Your Business</span>
+                How Bad Reviews <span className="heading-script text-brand-blue">Destroy Your Sales</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Your Google Business Profile is often the first thing a potential customer sees. A damaged profile doesn't just look bad - it actively costs you customers, revenue, and local search visibility every single day.
+                Your Google profile is the first thing customers see. A bad star rating does not just look bad, it makes people buy from your competitors instead of you.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Acting quickly is critical. Our experts have managed thousands of Google Business Profiles back to health, and we can do the same for yours.
+                Do not wait. Our team has helped thousands of businesses fix their Google pages, and we can help your business grow again.
               </p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Profile Audit</Link>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Checkup</Link>
             </div>
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
@@ -307,7 +307,7 @@ export default function GoogleBusinessReputationPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">What We Do</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                Our Google Business Profile <span className="heading-script text-brand-blue">Reputation Services</span>
+                How We Fix Your <span className="heading-script text-brand-blue">Google Profile</span>
               </h2>
             </div>
           </RevealOnScroll>
@@ -336,12 +336,12 @@ export default function GoogleBusinessReputationPage() {
             <RevealOnScroll>
               <p className="section-label mb-2">Our Capability</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                Review Types <span className="heading-script text-brand-gold">We Can Remove</span>
+                Types of Reviews <span className="heading-script text-brand-gold">We Delete</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our team identifies every category of policy-violating review and deploys the precise strategy needed for successful, permanent removal.
+                Our team knows exactly which reviews break Google rules. We use the right methods to get them deleted forever.
               </p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Remove Fake Reviews Now</Link>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">Start Removing Reviews</Link>
             </RevealOnScroll>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 relative">
@@ -372,7 +372,7 @@ export default function GoogleBusinessReputationPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">India's Trusted Google Reputation Experts</span>
+                Why We Are <span className="text-gradient-gold">The Best Google Experts in India</span>
               </h2>
             </div>
           </RevealOnScroll>
@@ -421,8 +421,8 @@ export default function GoogleBusinessReputationPage() {
         <div className="max-w-7xl mx-auto">
           <RevealOnScroll>
             <div className="text-center mb-16">
-              <p className="section-label mb-2 justify-center">Client Feedback</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Thousands of <span className="heading-script text-brand-blue">Businesses Worldwide</span></h2>
+              <p className="section-label mb-2 justify-center">What Customers Say</p>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Thousands of <span className="heading-script text-brand-blue">Businesses in India</span></h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
@@ -456,9 +456,9 @@ export default function GoogleBusinessReputationPage() {
               <div className="sticky top-24">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
-                  Google Profile Reputation <span className="heading-script text-brand-blue">FAQs</span>
+                  Common Questions About <span className="heading-script text-brand-blue">Google Reviews</span>
                 </h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a specific Google Business review problem? Get a free audit and action plan with no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have a problem with bad Google reviews? Contact us for a free plan on how to fix it.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
                   Call Us Now
@@ -485,10 +485,10 @@ export default function GoogleBusinessReputationPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Don&apos;t Let Fake Reviews <span className="heading-script text-blue-400">Cost You Customers</span>
+                Do Not Let Fake Reviews <span className="heading-script text-blue-400">Ruin Your Business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free Google Business Profile audit today. Our reputation experts will identify every damaging review and present a clear removal plan - with no obligation.
+                Contact us today for a free check of your Google page. We will find every fake review and tell you exactly how we will remove it.
               </p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
@@ -522,9 +522,9 @@ export default function GoogleBusinessReputationPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to remove a fake 1-star review from my Google Business Profile?", answer: "We utilize advanced policy flagging and direct appeals to Google to successfully remove fake or defamatory 1-star reviews." },
-        { question: "Can I delete unfair Google reviews left by a competitor?", answer: "Yes, reviews left by competitors violate Google's conflict of interest guidelines. We gather evidence and manage the removal process for you." },
-        { question: "What happens if a former employee leaves a bad review on Google?", answer: "Google policies prohibit former employees from reviewing their past employers. We specialize in identifying these and having them permanently removed." }
+        { question: "How to remove a fake 1-star review from my Google page?", answer: "We report the fake review to Google using the right tools and policies to make sure they delete it fast." },
+        { question: "Can I delete a bad review left by my competitor?", answer: "Yes, Google does not allow competitors to leave bad reviews. We prove they are your rival and get it removed." },
+        { question: "What if an ex-employee leaves a bad review?", answer: "Google policies say old employees cannot leave reviews. We find these and get them permanently deleted." }
       ]} />
       <Footer />
     </div>

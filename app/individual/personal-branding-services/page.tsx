@@ -1,493 +1,3 @@
-// "use client";
-// import Topbar from "@/components/Topbar";
-// import Navbar from "@/components/Navbar";
-// import Footer from "@/components/Footer";
-// import ContactForm from "@/components/ContactForm";
-// import FAQ from "@/components/FAQ";
-// import Link from "next/link";
-
-// const brandingBenefits = [
-//   {
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-//       </svg>
-//     ),
-//     title: "Build a Strong Online Presence",
-//     desc: "Build a strong online presence that clearly shows your skills, experience, and professional success across search, social, and media.",
-//   },
-//   {
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-//       </svg>
-//     ),
-//     title: "Improve Credibility & Trust",
-//     desc: "Improve the credibility and trust of your target audience with authentic and steady personal branding. People work with those they know, like and trust.",
-//   },
-//   {
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
-//       </svg>
-//     ),
-//     title: "Grow Opportunities",
-//     desc: "Grow your chances of collaborations, partnerships, and business opportunities with a strong and positive online reputation that attracts the right people.",
-//   },
-//   {
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
-//       </svg>
-//     ),
-//     title: "Become an Industry Leader",
-//     desc: "Become a leader in your industry with smart content and better online visibility. Establish yourself as the go-to expert in your niche.",
-//   },
-// ];
-
-// const howItWorks = [
-//   {
-//     step: "01",
-//     title: "Helps in Determining the Best Way to Position You Online",
-//     desc: "We start with a deep personal branding session to understand your goals, values, and competitive landscape. Then we develop a strategy for building websites and profiles that will help you stand out from competitors in your market.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
-//       </svg>
-//     ),
-//   },
-//   {
-//     step: "02",
-//     title: "Building an Online Presence That Highlights Your Expertise",
-//     desc: "We craft experienced and professional websites for you, then optimize them to ensure they are as visible as possible when people search for your name on Google and other search engines.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
-//       </svg>
-//     ),
-//   },
-//   {
-//     step: "03",
-//     title: "Make Sure People Find Your Online Presence When They Google You",
-//     desc: "Google's algorithm keeps changing and is never the same. Tactics that worked yesterday may not work today. We help you stay on top by continuously improving your online presence with up-to-date strategies.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-//       </svg>
-//     ),
-//   },
-//   {
-//     step: "04",
-//     title: "Creating Positive Content That Positions You as a Leader",
-//     desc: "Every month, we publish blog posts, videos, social media updates, and presentations that showcase your expertise. This continual creation improves your long-term visibility and authority in your field.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-//       </svg>
-//     ),
-//   },
-//   {
-//     step: "05",
-//     title: "Strategically Build an Audience to Amplify Opportunities",
-//     desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities - speaking, collaborations, media features - come your way.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-//       </svg>
-//     ),
-//   },
-//   {
-//     step: "06",
-//     title: "Report on Your Progress as Your Online Reputation Improves",
-//     desc: "We provide quarterly reports detailing what we've done for you, plus metrics about engagement and positioning of your online properties, so you always know exactly where you stand.",
-//     icon: (
-//       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-//       </svg>
-//     ),
-//   },
-// ];
-
-// const pillars = [
-//   { title: "Gains Trust", desc: "People are more comfortable working with those who have a clear personal brand. It shows genuine intentions, helping in gaining trust with clients and collaborators.", icon: "🤝" },
-//   { title: "Get Connected", desc: "Personal branding helps in building connections in different fields and areas of expertise. Staying connected is key to remaining consistent and building reputation.", icon: "🔗" },
-//   { title: "Builds Reliability", desc: "Personal branding services help establish your name in your field as an expert. You become more visible and accessible to your target audience.", icon: "🏆" },
-//   { title: "Attain Confidence", desc: "You gain confidence while developing your brand. When people know you have something valuable to provide, your self-esteem and authority both boost.", icon: "💡" },
-// ];
-
-// const brandingTips = [
-//   "Define your mission, values, and target audience clearly",
-//   "Maintain consistent visuals, tone, and communication style",
-//   "Share authentic experiences and real success stories",
-//   "Stay active on professional and social platforms",
-//   "Engage with followers through meaningful, relatable content",
-//   "Continuously build credibility with insights, testimonials, and achievements",
-// ];
-
-// const brandingSteps = [
-//   "Set your goals",
-//   "Maintain your brand",
-//   "Formulate your value proposition",
-//   "Research your market",
-//   "Identify your audience",
-//   "Create your visual identity",
-//   "Develop your brand strategy",
-//   "Prepare your content plan",
-//   "Rollout your activities",
-// ];
-
-// const faqs = [
-//   { q: "Why is personal branding important?", a: "Personal branding is important because it helps individuals build a strong and memorable image in the minds of their target audience. This can increase visibility and opportunities, help establish credibility and trust, and differentiate you from others in your industry." },
-//   { q: "What are personal branding services?", a: "Personal branding services are professional services that help individuals develop and promote their personal brand. These include creating a personal brand strategy, designing a personal website and social media presence, creating and managing content, and providing coaching and guidance." },
-//   { q: "How can personal branding services help an individual's career?", a: "Personal branding services help by increasing visibility, credibility, and reputation, making you more attractive to employers or clients. A strong personal brand can establish you as a thought leader, increase chances of high-profile positions, and build a more fulfilling career." },
-//   { q: "What are the benefits of using personal branding services?", a: "Benefits include increased visibility and opportunities, better alignment with personal and career goals, stronger credibility and trust, and the ability to stand out in a competitive market. Personal branding services also provide guidance for individuals unsure about how to develop their brand." },
-//   { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit - those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
-// ];
-
-// const testimonials = [
-//   { name: "Scott", role: "Business Owner", text: "I'm really happy with the results I've seen from working with this company. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward. Highly recommend.", initials: "SC" },
-//   { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them - highly recommend to anyone in need of ORM services.", initials: "JU" },
-//   { name: "Abhay", role: "Entrepreneur", text: "I am so much happier with the results I've seen. They helped me clean up my online presence and improve my search results, which has been invaluable for my business.", initials: "AB" },
-// ];
-
-// export default function PersonalBrandingServicesPage() {
-//   return (
-//     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col">
-//       <Topbar />
-//       <Navbar />
-
-//       {/* ── PAGE HERO ─────────────────────────────────────────── */}
-//       <section className="hero-bg relative overflow-hidden">
-//         <div className="hero-orb w-[500px] h-[500px] bg-brand-gold/8 top-[-100px] right-[-100px] absolute" />
-//         <div className="hero-orb w-[300px] h-[300px] bg-brand-blue/10 bottom-[-60px] left-[-60px] absolute" style={{ animationDelay: "2.5s" }} />
-//         <div className="absolute inset-0 bg-grid-pattern-dark pointer-events-none opacity-60" />
-
-//         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-22 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center relative z-10">
-//           <div>
-//             <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.67rem] font-bold mb-6 uppercase tracking-[0.15em]">
-//               <span className="relative flex h-2 w-2">
-//                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold-light opacity-75" />
-//                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold-light" />
-//               </span>
-//               Personal Branding · India
-//             </div>
-
-//             <h1 className="font-heading text-3xl lg:text-[2.6rem] font-bold text-white leading-[1.15] mb-5 tracking-tight">
-//               Powerful Personal Branding Services - Build{" "}
-//               <span className="text-brand-gold-light">Trust</span>,{" "}
-//               <span className="text-brand-gold-light">Authority</span>{" "}
-//               &amp; Influence
-//             </h1>
-
-//             <p className="text-white/65 text-base mb-7 leading-relaxed">
-//               Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy - it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
-//             </p>
-
-//             <ul className="space-y-2 mb-8">
-//               {brandingBenefits.map((b) => (
-//                 <li key={b.title} className="check-item text-[0.82rem] text-white/75">
-//                   <span className="check-icon">
-//                     <svg width="10" height="10" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 12 12">
-//                       <path strokeLinecap="round" strokeLinejoin="round" d="M2 6l3 3 5-5"/>
-//                     </svg>
-//                   </span>
-//                   {b.title}
-//                 </li>
-//               ))}
-//             </ul>
-
-//             <div className="flex flex-wrap gap-3">
-//               <Link href="#contact" className="btn-gold">Get A Free Consultation</Link>
-//               <a href="tel:+918882788412" className="btn-outline">Call: +9188827 88412</a>
-//             </div>
-//           </div>
-
-//           {/* Right: Form */}
-//           <div className="relative">
-//             <div className="absolute -inset-4 bg-brand-gold/8 rounded-2xl blur-2xl pointer-events-none" />
-//             <div className="relative bg-white rounded-xl p-7 shadow-[0_24px_80px_rgba(0,0,0,0.3)] border border-white/10">
-//               <div className="absolute top-0 left-6 right-6 h-0.5 bg-gradient-to-r from-brand-gold via-brand-blue to-transparent rounded-full -translate-y-px" />
-//               <div className="flex items-center justify-between mb-5">
-//                 <div>
-//                   <p className="section-label text-brand-blue mb-1">Free Consultation</p>
-//                   <h2 className="font-heading text-lg font-bold text-brand-dark leading-tight">Build Your Personal Brand Today</h2>
-//                 </div>
-//                 <div className="w-10 h-10 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center flex-shrink-0">
-//                   <svg width="20" height="20" className="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
-//                   </svg>
-//                 </div>
-//               </div>
-//               <ContactForm />
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── WHY YOU NEED IT ───────────────────────────────────── */}
-//       <section className="py-20 px-4 bg-white border-b border-zinc-100 relative overflow-hidden">
-//         <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-zinc-50/60 border-l border-zinc-100 pointer-events-none" />
-//         <div className="max-w-7xl mx-auto relative z-10">
-//           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-//             <div>
-//               <p className="section-label mb-3">Why Personal Branding</p>
-//               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-5 leading-tight heading-underline">
-//                 Why Do You Need Personal Branding Services?
-//               </h2>
-//               <p className="text-zinc-500 leading-relaxed mb-6 text-sm">
-//                 In today&apos;s competitive world, personal branding plays a big role in how people see you online. A strong personal brand highlights your skills, values, and achievements, helping you connect better with your audience, gain new opportunities, and stand out in your industry.
-//               </p>
-//               <p className="text-zinc-500 leading-relaxed mb-8 text-sm">
-//                 With a solid personal brand, you&apos;ll gain an advantage over your competitors and establish your business for long-term growth. Our personal branding agency in Kolkata helps turn your story into a powerful and memorable brand presence.
-//               </p>
-
-//               {/* Tip list */}
-//               <p className="text-xs font-bold text-zinc-400 uppercase tracking-widest mb-4">Important Tips for Personal Branding</p>
-//               <div className="space-y-2 mb-8">
-//                 {brandingTips.map((tip) => (
-//                   <div key={tip} className="flex items-start gap-2.5 text-sm text-zinc-600">
-//                     <div className="w-4 h-4 rounded-full bg-brand-gold/10 border border-brand-gold/25 flex items-center justify-center flex-shrink-0 mt-0.5">
-//                       <svg width="8" height="8" className="w-2 h-2 text-brand-gold" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 8 8">
-//                         <path strokeLinecap="round" strokeLinejoin="round" d="M1.5 4l2 2 3-3"/>
-//                       </svg>
-//                     </div>
-//                     {tip}
-//                   </div>
-//                 ))}
-//               </div>
-
-//               <Link href="#contact" className="btn-gold">Start Building Your Brand</Link>
-//             </div>
-
-//             <div className="relative">
-//               <div className="img-frame">
-//                 <img
-//                   src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
-//                   alt="Personal Branding Strategy"
-//                 />
-//               </div>
-//               <div className="floating-badge absolute -bottom-4 -right-4 z-10">
-//                 <div className="flex items-center gap-2.5">
-//                   <div className="w-9 h-9 rounded-full bg-amber-100 flex items-center justify-center">
-//                     <span className="text-sm">⭐</span>
-//                   </div>
-//                   <div>
-//                     <p className="text-xs font-bold text-zinc-900">Authority Score</p>
-//                     <p className="text-[0.65rem] text-zinc-500">Industry Leader Status</p>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── 4 PILLARS ────────────────────────────────────────── */}
-//       <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-100 relative overflow-hidden">
-//         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
-//         <div className="max-w-7xl mx-auto relative z-10">
-//           <div className="text-center max-w-2xl mx-auto mb-14">
-//             <p className="section-label mb-3 justify-center">Why It Works</p>
-//             <h2 className="font-heading text-3xl font-bold text-zinc-900 leading-tight">
-//               We Promise to Build a Brand That Makes You Seen as an Expert
-//             </h2>
-//             <p className="text-zinc-400 text-sm mt-4 leading-relaxed">We are committed to helping you build a personal brand that showcases your specialty, spreads your message, and impacts lives.</p>
-//           </div>
-
-//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-//             {pillars.map((p, i) => (
-//               <div key={p.title} className="service-card group flex flex-col text-center items-center">
-//                 <span className="text-3xl mb-4">{p.icon}</span>
-//                 <h3 className="font-heading font-bold text-base text-zinc-900 mb-3 group-hover:text-brand-blue transition-colors">{p.title}</h3>
-//                 <p className="text-sm text-zinc-500 leading-relaxed">{p.desc}</p>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── HOW IT WORKS (6 steps) ────────────────────────────── */}
-//       <section className="py-20 px-4 bg-white border-b border-zinc-100 relative overflow-hidden">
-//         <div className="max-w-7xl mx-auto">
-//           <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 mb-12">
-//             <div>
-//               <p className="section-label mb-3">Our Process</p>
-//               <h2 className="font-heading text-3xl font-bold text-zinc-900">
-//                 How Our Personal Branding Service Works
-//               </h2>
-//             </div>
-//             <Link href="#contact" className="btn-gold whitespace-nowrap flex-shrink-0">Get Started</Link>
-//           </div>
-
-//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-//             {howItWorks.map((step) => (
-//               <div key={step.step} className="group border border-zinc-200 rounded-xl p-6 hover:border-brand-gold/20 hover:shadow-[0_8px_32px_rgba(194,148,10,0.08)] transition-all duration-300 bg-white relative overflow-hidden">
-//                 <div className="absolute top-0 left-0 right-0 h-0.5 bg-brand-gold scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full" />
-//                 <div className="flex items-start justify-between mb-4">
-//                   <div className="w-11 h-11 rounded-lg bg-zinc-50 border border-zinc-100 flex items-center justify-center text-zinc-400 group-hover:bg-amber-50 group-hover:text-brand-gold group-hover:border-amber-100 transition-all">
-//                     {step.icon}
-//                   </div>
-//                   <span className="text-[0.6rem] font-black text-zinc-200 font-mono">{step.step}</span>
-//                 </div>
-//                 <h3 className="font-bold text-zinc-900 text-sm mb-2 leading-snug group-hover:text-brand-gold transition-colors">{step.title}</h3>
-//                 <p className="text-xs text-zinc-500 leading-relaxed">{step.desc}</p>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── HOW TO TRANSFORM YOURSELF ────────────────────────── */}
-//       <section className="py-20 px-4 bg-[#070d1a] relative overflow-hidden border-b border-zinc-900">
-//         <div className="absolute inset-0 bg-grid-pattern-dark opacity-50 pointer-events-none" />
-//         <div className="absolute top-0 left-1/4 w-64 h-64 bg-brand-gold/6 rounded-full blur-3xl pointer-events-none" />
-//         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-brand-blue/8 rounded-full blur-3xl pointer-events-none" />
-//         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-gold/25 to-transparent" />
-
-//         <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-//           <div>
-//             <p className="section-label text-brand-gold mb-3">Brand Transformation</p>
-//             <h2 className="font-heading text-3xl font-bold text-white mb-5 leading-tight">
-//               How to Transform Yourself into a Powerful Brand
-//             </h2>
-//             <p className="text-zinc-400 text-sm leading-relaxed mb-8">
-//               There are essentially nine steps to follow to create, develop and maintain your personal brand. Getting the best personal branding position enables you to shine a spotlight on your expertise, and make you stand out from the crowd.
-//             </p>
-
-//             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-//               {brandingSteps.map((s, i) => (
-//                 <div key={s} className="flex items-center gap-3 p-3 rounded-lg bg-white/4 border border-white/6 hover:bg-white/8 hover:border-brand-gold/20 transition-all group">
-//                   <span className="w-5 h-5 rounded-full bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center flex-shrink-0 text-[0.55rem] font-black text-brand-gold">
-//                     {i + 1}
-//                   </span>
-//                   <span className="text-zinc-300 text-xs font-medium group-hover:text-white transition-colors">{s}</span>
-//                 </div>
-//               ))}
-//             </div>
-//           </div>
-
-//           <div className="relative">
-//             <div className="img-frame border-zinc-800">
-//               <img
-//                 src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=800&q=80"
-//                 alt="Personal Brand Transformation"
-//                 className="opacity-90"
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── TESTIMONIALS ─────────────────────────────────────── */}
-//       <section className="py-20 px-4 bg-zinc-50 border-b border-zinc-100 overflow-hidden">
-//         <div className="max-w-7xl mx-auto">
-//           <div className="text-center mb-12">
-//             <p className="section-label mb-3 justify-center">Client Testimonials</p>
-//             <h2 className="font-heading text-3xl font-bold text-zinc-900">What Our Clients Say</h2>
-//             <p className="text-zinc-400 text-sm mt-3">We pay attention to details and quality, good communication and strong customer relationships.</p>
-//           </div>
-//           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-//             {testimonials.map((t) => (
-//               <div key={t.name} className="testimonial-card">
-//                 <div className="flex text-brand-gold text-sm mb-4 gap-0.5">{"★★★★★".split("").map((s, i) => <span key={i}>{s}</span>)}</div>
-//                 <p className="text-zinc-500 text-sm leading-relaxed mb-6 italic">&ldquo;{t.text}&rdquo;</p>
-//                 <div className="flex items-center gap-3 border-t border-zinc-100 pt-4">
-//                   <div className="w-9 h-9 rounded-full bg-brand-blue flex items-center justify-center flex-shrink-0">
-//                     <span className="text-white text-xs font-bold">{t.initials}</span>
-//                   </div>
-//                   <div>
-//                     <p className="font-bold text-zinc-900 text-sm">{t.name}</p>
-//                     <p className="text-zinc-400 text-xs">{t.role}</p>
-//                   </div>
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── FAQ ──────────────────────────────────────────────── */}
-//       <section className="py-20 px-4 bg-white border-b border-zinc-100 relative overflow-hidden">
-//         <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-zinc-50 border-l border-zinc-100 pointer-events-none hidden lg:block" />
-//         <div className="max-w-7xl mx-auto relative z-10">
-//           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
-//             <div className="lg:col-span-2">
-//               <p className="section-label mb-3">Common Questions</p>
-//               <h2 className="font-heading text-3xl font-bold text-zinc-900 mb-5 leading-tight">
-//                 Personal Branding <span className="text-brand-blue">FAQs</span>
-//               </h2>
-//               <p className="text-zinc-400 text-sm leading-relaxed mb-7">
-//                 Have a question not covered below? Our personal branding experts are happy to discuss your unique situation.
-//               </p>
-//               <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//                 <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-//                 Call Us Now
-//               </a>
-//             </div>
-//             <div className="lg:col-span-3">
-//               <FAQ items={faqs} />
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-
-//       {/* ── CONTACT ───────────────────────────────────────────── */}
-//       <section id="contact" className="py-20 px-4 bg-zinc-900 relative overflow-hidden">
-//         <div className="absolute inset-0 bg-grid-pattern-dark opacity-60 pointer-events-none" />
-//         <div className="absolute top-0 left-1/3 w-96 h-96 bg-brand-gold/6 rounded-full blur-3xl pointer-events-none" />
-//         <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-brand-blue/8 rounded-full blur-3xl pointer-events-none" />
-//         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-gold/30 to-transparent" />
-
-//         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-//           <div>
-//             <p className="section-label text-brand-gold mb-3">Start Today</p>
-//             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">
-//               Don&apos;t Let a Single Negative Google Result Ruin Your Business
-//             </h2>
-//             <p className="text-zinc-400 leading-relaxed mb-8 text-sm max-w-lg">
-//               Schedule a free consultation today. We promise to build a brand for you so that you are seen as an expert in your industry.
-//             </p>
-//             <div className="space-y-0 mb-8">
-//               {[
-//                 { label: "Hotline", value: "+9188827 88412", href: "tel:+918882788412" },
-//                 { label: "Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in" },
-//                 { label: "Location", value: "Shantipally, Behala, Kolkata - 700060", href: null },
-//               ].map((item) => (
-//                 <div key={item.label} className="contact-info-item">
-//                   <div>
-//                     <p className="text-[0.6rem] text-zinc-500 uppercase tracking-widest mb-0.5">{item.label}</p>
-//                     {item.href ? (
-//                       <a href={item.href} className="text-white font-semibold text-sm hover:text-brand-gold-light transition-colors">{item.value}</a>
-//                     ) : (
-//                       <p className="text-white text-sm">{item.value}</p>
-//                     )}
-//                   </div>
-//                 </div>
-//               ))}
-//             </div>
-//             <a href="tel:+918882788412" className="btn-gold inline-flex items-center gap-2">
-//               <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-//               Call Now
-//             </a>
-//           </div>
-//           <div className="relative">
-//             <div className="absolute -inset-3 bg-brand-gold/6 rounded-2xl blur-xl pointer-events-none" />
-//             <div className="relative bg-zinc-950 border border-zinc-800 rounded-xl p-7 shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
-//               <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-brand-gold/50 via-brand-blue/50 to-transparent" />
-//               <p className="text-white font-bold text-base mb-1">Send Us a Message</p>
-//               <p className="text-zinc-500 text-xs mb-5">We respond within 24 hours on business days.</p>
-//               <ContactForm dark />
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-
-//       <Footer />
-//     </div>
-//   );
-// }
-
 "use client";
 import { useState, useEffect, useRef, ReactNode } from "react";
 import Topbar from "@/components/Topbar";
@@ -506,8 +16,8 @@ const brandingBenefits = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
       </svg>
     ),
-    title: "Build a Strong Online Presence",
-    desc: "Build a strong online presence that clearly shows your skills, experience, and professional success across search, social, and media.",
+    title: "Look Professional on Google",
+    desc: "When someone types your name on Google, we make sure they see a highly professional and positive image of you.",
   },
   {
     icon: (
@@ -515,8 +25,8 @@ const brandingBenefits = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
     ),
-    title: "Improve Credibility & Trust",
-    desc: "Improve the credibility and trust of your target audience with authentic and steady personal branding. People work with those they know, like and trust.",
+    title: "Win People's Trust",
+    desc: "People prefer to do business with those they trust. A strong online image makes it easy for others to trust your skills and character.",
   },
   {
     icon: (
@@ -524,8 +34,8 @@ const brandingBenefits = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
       </svg>
     ),
-    title: "Grow Opportunities",
-    desc: "Grow your chances of collaborations, partnerships, and business opportunities with a strong and positive online reputation that attracts the right people.",
+    title: "Get More Job Offers",
+    desc: "Companies are always searching for talented people. With our help, you will get more business deals and job offers easily.",
   },
   {
     icon: (
@@ -533,16 +43,16 @@ const brandingBenefits = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
       </svg>
     ),
-    title: "Become an Industry Leader",
-    desc: "Become a leader in your industry with smart content and better online visibility. Establish yourself as the go-to expert in your niche.",
+    title: "Become Highly Respected",
+    desc: "We will publish articles and blogs that show your deep knowledge, making you a highly respected expert in your field.",
   },
 ];
 
 const howItWorks = [
   {
     step: "01",
-    title: "Helps in Determining the Best Way to Position You Online",
-    desc: "We start with a deep personal branding session to understand your goals, values, and competitive landscape. Then we develop a strategy for building websites and profiles that will help you stand out from competitors in your market.",
+    title: "We Understand Your Goals",
+    desc: "First, we talk with you to know what you want to achieve. Whether you are a doctor, lawyer, or business owner, we make a clear plan for your success.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
@@ -551,8 +61,8 @@ const howItWorks = [
   },
   {
     step: "02",
-    title: "Building an Online Presence That Highlights Your Expertise",
-    desc: "We craft experienced and professional websites for you, then optimize them to ensure they are as visible as possible when people search for your name on Google and other search engines.",
+    title: "We Create Your Profiles",
+    desc: "We create very beautiful and professional websites, Facebook pages, and LinkedIn accounts so that you look your absolute best online.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
@@ -561,8 +71,8 @@ const howItWorks = [
   },
   {
     step: "03",
-    title: "Make Sure People Find Your Online Presence When They Google You",
-    desc: "Google's algorithm keeps changing and is never the same. Tactics that worked yesterday may not work today. We help you stay on top by continuously improving your online presence with up-to-date strategies.",
+    title: "We Rank You on Google",
+    desc: "We use our technical skills to ensure that your new, positive profiles show up on the very first page when people search your name.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
@@ -571,31 +81,11 @@ const howItWorks = [
   },
   {
     step: "04",
-    title: "Creating Positive Content That Positions You as a Leader",
-    desc: "Every month, we publish blog posts, videos, social media updates, and presentations that showcase your expertise. This continual creation improves your long-term visibility and authority in your field.",
+    title: "We Publish Good News",
+    desc: "Every month, we will write articles and post photos about your good work so that your image keeps improving continuously.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-      </svg>
-    ),
-  },
-  {
-    step: "05",
-    title: "Strategically Build an Audience to Amplify Opportunities",
-    desc: "Every brand has an audience that will help them reach the top of their careers. We help you build an audience and promote your content to them so that opportunities - speaking, collaborations, media features - come your way.",
-    icon: (
-      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-      </svg>
-    ),
-  },
-  {
-    step: "06",
-    title: "Report on Your Progress as Your Online Reputation Improves",
-    desc: "We provide quarterly reports detailing what we've done for you, plus metrics about engagement and positioning of your online properties, so you always know exactly where you stand.",
-    icon: (
-      <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
       </svg>
     ),
   },
@@ -630,17 +120,16 @@ const brandingSteps = [
 ];
 
 const faqs = [
-  { q: "Why is personal branding important?", a: "Personal branding is important because it helps individuals build a strong and memorable image in the minds of their target audience. This can increase visibility and opportunities, help establish credibility and trust, and differentiate you from others in your industry." },
-  { q: "What are personal branding services?", a: "Personal branding services are professional services that help individuals develop and promote their personal brand. These include creating a personal brand strategy, designing a personal website and social media presence, creating and managing content, and providing coaching and guidance." },
-  { q: "How can personal branding services help an individual's career?", a: "Personal branding services help by increasing visibility, credibility, and reputation, making you more attractive to employers or clients. A strong personal brand can establish you as a thought leader, increase chances of high-profile positions, and build a more fulfilling career." },
-  { q: "What are the benefits of using personal branding services?", a: "Benefits include increased visibility and opportunities, better alignment with personal and career goals, stronger credibility and trust, and the ability to stand out in a competitive market. Personal branding services also provide guidance for individuals unsure about how to develop their brand." },
-  { q: "Who can benefit from personal branding services?", a: "Anyone who wants to establish or enhance their personal brand can benefit - those starting a new career, transitioning to a new industry, or seeking to increase their visibility. Executives, entrepreneurs, professionals, and public figures all gain measurably from a strong personal brand." },
+  { q: "Why should I care about my personal image online?", a: "Because everyone searches Google before doing business or hiring someone. If your image is clean and professional, you will get more respect and earn more money." },
+  { q: "How long does it take to build a good image?", a: "It depends on what is already on Google, but usually, you will start seeing great improvements within 2 to 3 months of our work." },
+  { q: "Can you help doctors and lawyers?", a: "Yes, we specialize in helping professionals like doctors, lawyers, and CEOs build a highly respected online image to attract the best clients." },
+  { q: "Do I have to write the articles myself?", a: "No, our team of expert writers will handle everything. We will write all the positive stories for you." },
 ];
 
 const testimonials = [
-  { name: "Scott", role: "Business Owner", text: "I'm really happy with the results I've seen from working with this company. They helped me improve my search results and provided valuable insights on how to maintain a positive reputation going forward. Highly recommend.", initials: "SC" },
-  { name: "Juli", role: "Marketing Professional", text: "I was really impressed with the level of personalization and attention to detail. They took the time to understand my specific needs. I'm so glad I found them - highly recommend to anyone in need of ORM services.", initials: "JU" },
-  { name: "Abhay", role: "Entrepreneur", text: "I am so much happier with the results I've seen. They helped me clean up my online presence and improve my search results, which has been invaluable for my business.", initials: "AB" },
+  { name: "Suresh P.", role: "CEO", text: "I wanted to look more professional online. This team created amazing profiles for me. Now, when clients search my name, they are very impressed.", initials: "SP" },
+  { name: "Anjali", role: "Financial Advisor", text: "Before working with them, nothing showed up when you searched my name. Now, my name is everywhere on page one with great articles. It helped my career a lot.", initials: "A" },
+  { name: "Rajat", role: "Real Estate Builder", text: "They completely changed how people see me on the internet. Their work is fast and they keep all promises.", initials: "R" },
 ];
 
 // Custom Scroll Reveal Hook for "Experienced Developer" feel
@@ -704,7 +193,7 @@ export default function PersonalBrandingServicesPage() {
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-              Your Personal Brand is a True Reflection of Who You Are. More than just a marketing strategy - it&apos;s how you appear to the world. We make it powerful, consistent, and unforgettable.
+              How you look on Google changes how people treat you. We will build a very strong and respectful image for you online so you get the success you deserve.
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
@@ -757,7 +246,7 @@ export default function PersonalBrandingServicesPage() {
                   Why Do You Need <span className="heading-script text-brand-blue">Personal Branding Services?</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
-                  In today&apos;s competitive world, personal branding plays a big role in how people see you online. A strong personal brand highlights your skills, values, and achievements, helping you connect better with your audience, gain new opportunities, and stand out in your industry.
+                  Today, everyone checks Google before they meet you. If they see a clean and professional image, they will respect you instantly and want to work with you.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                   With a solid personal brand, you&apos;ll gain an advantage over your competitors and establish your business for long-term growth. Our personal branding agency in India helps turn your story into a powerful and memorable brand presence.
@@ -780,7 +269,7 @@ export default function PersonalBrandingServicesPage() {
                   </div>
                 </div>
 
-                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20">Start Building Your Brand</Link>
+                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20">Start Building Your Image</Link>
               </div>
             </RevealOnScroll>
 
@@ -825,7 +314,7 @@ export default function PersonalBrandingServicesPage() {
                 We Promise to Build a Brand That Makes You <span className="text-gradient-gold">Seen as an Expert</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] mt-5 leading-relaxed">
-                We are committed to helping you build a personal brand that showcases your specialty, spreads your message, and impacts lives.
+                Our team works hard to make sure everyone sees you as a highly skilled and trustworthy person.
               </p>
             </div>
           </RevealOnScroll>
@@ -903,7 +392,7 @@ export default function PersonalBrandingServicesPage() {
                 How to Transform Yourself into a <span className="heading-script text-brand-gold">Powerful Brand</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] leading-relaxed mb-10">
-                There are essentially nine steps to follow to create, develop and maintain your personal brand. Getting the best personal branding position enables you to shine a spotlight on your expertise, and make you stand out from the crowd.
+                It takes careful planning to build a highly respected name. We follow simple and effective steps to make sure you always look your best online.
               </p>
 
               {/* Unique Glassmorphic Chips for the 9 steps */}
@@ -979,7 +468,7 @@ export default function PersonalBrandingServicesPage() {
                   Personal Branding <span className="heading-script text-brand-blue">FAQs</span>
                 </h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
-                  Have a question not covered below? Our personal branding experts are happy to discuss your unique situation.
+                  Want to know how we can make you look great online? Contact us today.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
@@ -1012,7 +501,7 @@ export default function PersonalBrandingServicesPage() {
                 Don&apos;t Let a Single Negative Google Result <span className="heading-script text-brand-gold">Ruin Your Business</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. We promise to build a brand for you so that you are seen as an expert in your industry.
+                Call us today. We will tell you exactly how to make your name famous and respected on Google, completely free of charge.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
@@ -1054,9 +543,9 @@ export default function PersonalBrandingServicesPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to build a professional personal brand from scratch?", answer: "We start by creating optimized profiles, publishing high-quality thought leadership content, and securing PR placements to establish your authority." },
-        { question: "How can I make my online presence look more trustworthy?", answer: "By managing your search results to highlight your achievements, acquiring positive reviews, and maintaining a consistent, professional image across all platforms." },
-        { question: "What do personal branding services actually do?", answer: "We craft and execute a comprehensive strategy to control your narrative online, ensuring that whoever searches for you sees the best, most accurate version of your professional identity." }
+        { question: "Why should I care about my personal image online?", answer: "Because everyone searches Google before doing business or hiring someone. If your image is clean and professional, you will get more respect and earn more money." },
+        { question: "How long does it take to build a good image?", answer: "It depends on what is already on Google, but usually, you will start seeing great improvements within 2 to 3 months of our work." },
+        { question: "Can you help doctors and lawyers?", answer: "Yes, we specialize in helping professionals like doctors, lawyers, and CEOs build a highly respected online image to attract the best clients." }
       ]} />
       <Footer />
     </div>

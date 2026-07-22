@@ -11,33 +11,33 @@ import FAQSection from "@/components/FAQSection";
 /* ─── Data ─────────────────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "24/7 real-time monitoring across Google, Glassdoor, social media & news",
-  "Instant alerts when new mentions or reviews appear online",
-  "Sentiment analysis to track brand perception over time",
-  "Comprehensive dashboards for full online presence visibility",
+  "24/7 tracking of your brand on Google, Facebook, and News",
+  "Get SMS and email alerts when someone posts a bad review",
+  "Easy reports to see if your customers are happy or angry",
+  "Check what people are saying about you in one simple dashboard",
 ];
 
 const stats = [
-  { number: "9+", label: "Years of Reputation Expertise" },
-  { number: "98%", label: "Clients Satisfied" },
-  { number: "500+", label: "Brands Monitored" },
+  { number: "9+", label: "Years of Experience" },
+  { number: "98%", label: "Happy Clients" },
+  { number: "500+", label: "Companies Tracked" },
   { number: "600+", label: "Projects Delivered Worldwide" },
 ];
 
 const impacts = [
   {
-    title: "Threats Go Undetected Until It's Too Late",
-    desc: "Negative news, viral complaints, and fake reviews spread rapidly. Without real-time monitoring, a damaging story can reach thousands of people before you even know it exists - making recovery far harder.",
+    title: "Bad News Spreads Fast",
+    desc: "A fake complaint can reach thousands of people before you even know it is there. If you don't check daily, the damage to your business can be very big.",
     icon: "🔍",
   },
   {
-    title: "Missed Opportunities to Respond",
-    desc: "A timely, professional response to a negative review can neutralise its impact. Without monitoring, you lose the critical response window - letting negative narratives define your brand unchallenged.",
+    title: "Losing the Chance to Reply",
+    desc: "If you reply quickly to a bad review, you can save the customer. If you don't track reviews, you miss this chance and lose trust.",
     icon: "⏱️",
   },
   {
-    title: "Blind Spots in Your Online Presence",
-    desc: "Your brand is mentioned across dozens of platforms simultaneously. Social media, review sites, forums, news - without centralised monitoring you have no visibility into how your reputation is evolving.",
+    title: "Not Knowing What Customers Want",
+    desc: "People talk about your business on many websites. Without tracking, you don't know what they like or hate about your service.",
     icon: "📊",
   },
 ];
@@ -45,32 +45,32 @@ const impacts = [
 const services = [
   {
     step: "01",
-    title: "Multi-Platform Review Monitoring",
-    desc: "We monitor Google, Glassdoor, Indeed, Trustpilot, Facebook, and 50+ review platforms in real time - capturing every new review the moment it goes live.",
+    title: "Review Tracking",
+    desc: "We check Google, Facebook, JustDial, and 50 other sites. The moment a customer leaves a review, our system captures it for you.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
     ),
   },
   {
     step: "02",
-    title: "Social Media & News Monitoring",
-    desc: "Track brand mentions, hashtags, and news coverage across Twitter/X, LinkedIn, Facebook, Instagram, and major Indian and international news outlets - all in one place.",
+    title: "Social Media & News",
+    desc: "We look for your brand name on Facebook, Twitter, Instagram, and Indian news sites so you know exactly what is going viral.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
     ),
   },
   {
     step: "03",
-    title: "Sentiment Analysis & Reporting",
-    desc: "Our platform analyses sentiment trends across all monitored channels, giving you a real-time brand health score and weekly reports that track progress over time.",
+    title: "Simple Weekly Reports",
+    desc: "Every week, we send you a very simple report showing if your online image is getting better or worse.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     ),
   },
   {
     step: "04",
-    title: "Instant Alert System",
-    desc: "Set custom alert thresholds for your brand, executives, and key products. Receive instant notifications by email, SMS, or WhatsApp the moment a critical mention appears.",
+    title: "Instant Mobile Alerts",
+    desc: "If something very bad is posted, our system will immediately send you a message on WhatsApp or email so you can act fast.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
     ),
@@ -79,20 +79,20 @@ const services = [
 
 const monitoringChannels = [
   {
-    title: "Google Business & Search",
-    desc: "Monitor Google reviews, Google News mentions, and organic search results that feature your brand name - the most visible layer of your online reputation.",
+    title: "Google Search & Maps",
+    desc: "We check your Google reviews and Google news mentions every day because this is the first thing your customers see.",
   },
   {
-    title: "Glassdoor & Job Platforms",
-    desc: "Track employer reviews on Glassdoor, Indeed, and AmbitionBox to stay ahead of employee sentiment and employer brand issues before they escalate.",
+    title: "Job Websites",
+    desc: "We watch sites like Glassdoor and AmbitionBox to make sure angry ex-employees are not ruining your company name.",
   },
   {
-    title: "Social Media Channels",
-    desc: "Monitor Twitter/X, LinkedIn, Facebook, Instagram, and YouTube for mentions, tags, and comments - including indirect references that don't tag your handle.",
+    title: "Social Media Sites",
+    desc: "We scan Facebook, Instagram, Twitter, and YouTube to find any bad videos or angry customer posts about you.",
   },
   {
-    title: "News & Media Outlets",
-    desc: "Capture coverage from Indian and international news outlets, industry publications, blogs, and forums to stay informed of every media mention in real time.",
+    title: "News & Blogs",
+    desc: "We check big news sites and small local blogs to see if reporters or writers are publishing bad stories about your business.",
   },
 ];
 
@@ -129,39 +129,39 @@ const whyUs = [
 
 const faqs = [
   {
-    q: "What platforms do you monitor?",
-    a: "We monitor 50+ platforms including Google, Glassdoor, Indeed, Trustpilot, Facebook, Twitter/X, LinkedIn, Instagram, YouTube, major news outlets, industry blogs, and Indian forums. A full platform list is available on request.",
+    q: "Which websites do you track?",
+    a: "We track more than 50 sites like Google, Facebook, JustDial, YouTube, Twitter, and many Indian news websites.",
   },
   {
-    q: "How quickly will I be alerted to new mentions?",
-    a: "Our system detects most new mentions within 15–30 minutes of publication. Critical alerts (high-risk keywords, sudden spikes) trigger immediate notifications via email, SMS, or WhatsApp.",
+    q: "How fast will I get a message if there is a bad review?",
+    a: "Our system sends you an alert within 30 minutes. If it is a very big problem, we will SMS or WhatsApp you immediately.",
   },
   {
-    q: "Can I monitor competitors as well?",
-    a: "Yes. Competitive monitoring packages allow you to track competitor mentions, sentiment trends, and review activity - giving you valuable market intelligence alongside your own brand data.",
+    q: "Can you track my competitors also?",
+    a: "Yes. We can track your rival companies so you can see what their customers are complaining about and win them over.",
   },
   {
-    q: "What does the monthly report include?",
-    a: "Monthly reports cover total mention volume, sentiment breakdown, platform-by-platform analysis, key influencers and publications, trend comparisons with previous periods, and strategic recommendations.",
+    q: "What do I get in the report?",
+    a: "We give you a simple PDF report showing how many good and bad reviews you got this week, and what people are talking about.",
   },
   {
-    q: "Is reputation monitoring enough on its own?",
-    a: "Monitoring is the essential first layer. Many clients combine it with our review management, review generation, and content suppression services for a complete reputation programme.",
+    q: "Do you also remove the bad reviews?",
+    a: "Yes, tracking is the first step. If we find a fake review, our team can help you remove it permanently from Google.",
   },
 ];
 
 const testimonials = [
   {
-    name: "Rahul Mehta",
-    text: "The monitoring service gave us visibility we never had before. We spotted a negative news story within minutes and were able to respond before it gained traction. Invaluable for any serious brand.",
+    name: "Rakesh Agarwal",
+    text: "This tracking tool is amazing. I got an SMS about a fake news story and we were able to stop it before it went viral. A must-have for all companies.",
   },
   {
-    name: "Priya Nair",
-    text: "The weekly reports and sentiment dashboards have become a core part of our brand team's workflow. The level of detail and insight is exceptional - we always know exactly where we stand.",
+    name: "Sneha Reddy",
+    text: "The weekly reports are very easy to read. I now know exactly what my customers want and what they don't like. Best investment for my brand.",
   },
   {
-    name: "Deepak Verma",
-    text: "We use both the monitoring and review removal services together. The combination means we catch issues early and resolve them fast. Our overall online sentiment has improved dramatically.",
+    name: "Sanjay Gupta",
+    text: "We use their tracking and removal services together. Because they watch my brand 24/7, my Google rating has improved from 3.5 to 4.8.",
   },
 ];
 
@@ -223,10 +223,10 @@ export default function ReputationMonitoringPage() {
                 Reputation Monitoring Services
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Best Online Reputation Monitoring Company in <span className="text-gradient-gold">India</span>
+                Track Your Online Image 24/7 in <span className="text-gradient-gold">India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Know exactly what the world is saying about your brand - the moment they say it. We monitor 50+ platforms in real time so you can respond fast, protect your reputation, and stay ahead of every threat.
+                Find out exactly what people are saying about your business online. We track 50+ websites day and night so you can fix problems before they become a big crisis.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -239,7 +239,7 @@ export default function ReputationMonitoringPage() {
                 ))}
               </ul>
               <div className="flex flex-wrap gap-4">
-                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Start Monitoring My Brand</Link>
+                <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">Start Tracking Now</Link>
                 <a href="tel:+918882788412" className="btn-outline border-zinc-700 text-zinc-300 hover:text-white hover:border-white px-8 py-3.5">Call Us Now</a>
               </div>
             </RevealOnScroll>
@@ -318,15 +318,15 @@ export default function ReputationMonitoringPage() {
             <div>
               <p className="section-label mb-2">Why It Matters</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                What You Don&apos;t Know <span className="heading-script text-brand-blue">Can Hurt Your Brand</span>
+                What You Do Not Know <span className="heading-script text-brand-blue">Can Hurt You</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Your brand is being discussed right now - on review platforms, social media, news sites, and forums. Without real-time monitoring, you have no visibility into how your reputation is developing or where the next threat is coming from.
+                People are talking about your shop or company online right now. If you do not watch what they say, you will lose customers without even knowing why.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our reputation monitoring service gives India-based businesses a complete, always-on view of their online presence - so nothing slips through and you always have the intelligence to act.
+                Our tracking service gives Indian business owners a clear and simple view of their online image. Never miss a bad review again.
               </p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Monitoring Demo</Link>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Get a Free Demo</Link>
             </div>
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
@@ -356,7 +356,7 @@ export default function ReputationMonitoringPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">What We Do</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                Our Reputation <span className="heading-script text-brand-blue">Monitoring Services</span>
+                How Our <span className="heading-script text-brand-blue">Tracking Works</span>
               </h2>
             </div>
           </RevealOnScroll>
@@ -385,12 +385,12 @@ export default function ReputationMonitoringPage() {
             <RevealOnScroll>
               <p className="section-label mb-2">Our Coverage</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                Channels We <span className="heading-script text-brand-gold">Monitor For You</span>
+                Websites We <span className="heading-script text-brand-gold">Track For You</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                From review platforms to social media and breaking news, we cover every channel where your brand reputation lives - giving you a single, unified view.
+                We check all the important sites where your customers might post a complaint, giving you complete peace of mind.
               </p>
-              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">See Full Channel List</Link>
+              <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5">See All Websites</Link>
             </RevealOnScroll>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 relative">
@@ -421,7 +421,7 @@ export default function ReputationMonitoringPage() {
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">Why Us</p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                Why We Are <span className="text-gradient-gold">India&apos;s Best Reputation Monitoring Company</span>
+                Why We Are <span className="text-gradient-gold">The Best Tracking Service in India</span>
               </h2>
             </div>
           </RevealOnScroll>
@@ -445,7 +445,7 @@ export default function ReputationMonitoringPage() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label mb-2 justify-center">Client Feedback</p>
-              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Brands <span className="heading-script text-brand-blue">Across India</span></h2>
+              <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight">Trusted by Companies <span className="heading-script text-brand-blue">Across India</span></h2>
             </div>
           </RevealOnScroll>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
@@ -478,8 +478,8 @@ export default function ReputationMonitoringPage() {
             <RevealOnScroll>
               <div className="sticky top-24">
                 <p className="section-label mb-2">Common Questions</p>
-                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Reputation Monitoring <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about monitoring your brand? Get a free consultation and platform demo - no obligation.</p>
+                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Common Questions About <span className="heading-script text-brand-blue">Tracking</span></h2>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Want to know how we can track your business name? Contact us today for a free chat.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -506,9 +506,9 @@ export default function ReputationMonitoringPage() {
             <div className="premium-copy-panel-dark">
               <p className="section-label text-brand-gold mb-3">Act Now</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Start Monitoring Your Brand <span className="heading-script text-blue-400">Before the Next Crisis Hits</span>
+                Start Tracking Your Name <span className="heading-script text-blue-400">Before A Crisis Hits</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free brand monitoring consultation today. Our experts will show you exactly what&apos;s being said about your brand online - and how to stay in control.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Contact us today to learn how we can protect your business name online 24/7. Simple, fast, and secure.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+91 88827 88412", href: "tel:+918882788412", icon: "📞" },
@@ -541,9 +541,9 @@ export default function ReputationMonitoringPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How can I get alerted instantly if someone leaves a bad review?", answer: "Our advanced monitoring system provides real-time alerts the moment a new review or mention is posted, allowing for immediate response." },
-        { question: "Is it possible to monitor my brand reputation across all social media?", answer: "Yes, our tools track mentions across all major social platforms, news sites, blogs, and forums." },
-        { question: "Why is continuous reputation monitoring important for businesses?", answer: "Early detection of negative sentiment allows you to mitigate crises before they escalate and damage your search rankings or sales." }
+        { question: "How will I know if someone posts a fake video about me?", answer: "Our 24/7 tracking tool will catch the video and send you an immediate WhatsApp alert so we can take action." },
+        { question: "Do you check Indian websites like JustDial?", answer: "Yes, we track all major Indian review sites and local news blogs to make sure you are fully protected." },
+        { question: "Why should a small business track its name online?", answer: "For a small shop, even 2 bad reviews can stop customers from coming. Catching them early is very important to save your sales." }
       ]} />
       <Footer />
     </div>
