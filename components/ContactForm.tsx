@@ -128,7 +128,7 @@ const initialForm = {
   email: "",
   phone: "",
   country: "India (+91)",
-  service: "Business Solution",
+  service: "Business Reputation Management",
   message: "",
 };
 
@@ -296,8 +296,12 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         <div>
           <label className={labelCls}>Service Required</label>
           <select className={inputCls} value={form.service} onChange={e => setForm({...form, service: e.target.value})} required>
-            <option>Business Solution</option>
-            <option>Individual Solution</option>
+            <option>Business Reputation Management</option>
+            <option>Personal/Executive Reputation</option>
+            <option>Remove Negative Search Results</option>
+            <option>Remove Google/Glassdoor Reviews</option>
+            <option>Crisis Management & PR</option>
+            <option>Wikipedia & Brand Building</option>
             <option>Others</option>
           </select>
         </div>

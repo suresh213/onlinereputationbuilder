@@ -142,8 +142,8 @@ export default function HomePage() {
               ))}
             </ul>
             <div className="flex flex-wrap gap-3">
-              <Link href="/individual" className="btn-gold">Explore Individual Solutions</Link>
-              <Link href="/business" className="btn-outline">Explore Business Solutions</Link>
+              <Link href="/individual" className="btn-gold">Protect Personal Brand</Link>
+              <Link href="/business" className="btn-outline">Secure Business Reputation</Link>
             </div>
           </div>
 
