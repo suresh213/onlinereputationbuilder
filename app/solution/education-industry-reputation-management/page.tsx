@@ -271,7 +271,7 @@ export default function EducationIndustryPage() {
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-2xl">
-              In the education sector, reputation is the cornerstone of trust and enrollment success. Build Brand Better helps educational institutions showcase excellence, strengthen credibility, and build a lasting legacy online.
+              In the education sector, reputation is the cornerstone of trust and enrollment success. Online Reputation Builder helps educational institutions showcase excellence, strengthen credibility, and build a lasting legacy online.
             </p>
             <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-2xl">
               From managing reviews to improving visibility, we help schools, colleges, universities, training institutes, and education brands stand out in a competitive landscape.
@@ -351,7 +351,7 @@ export default function EducationIndustryPage() {
                   Managing Online Reputation to Secure a <span className="heading-script text-brand-blue">Brighter Educational Future</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-8 text-[0.95rem]">
-                  Build Brand Better specializes in education reputation management, tailoring strategies to showcase your institution's achievements, values, and commitment to excellence. A strong digital presence helps prospective students and parents understand why your institution is credible, safe, active, and future-ready.
+                  Online Reputation Builder specializes in education reputation management, tailoring strategies to showcase your institution's achievements, values, and commitment to excellence. A strong digital presence helps prospective students and parents understand why your institution is credible, safe, active, and future-ready.
                 </p>
                 <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-8 py-3.5">
                   Protect Your Institution
@@ -364,7 +364,7 @@ export default function EducationIndustryPage() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
   <img
-    src="https://buildbrandbetter.io/wp-content/uploads/2025/01/Strengthening-Educational-Brands.png"
+    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80"
     alt="Strengthening educational brands with reputation management"
     className="w-full h-[600px] object-cover object-top hover:scale-105 transition-transform duration-700"
   />
@@ -487,7 +487,7 @@ export default function EducationIndustryPage() {
             <div className="text-center mb-16">
               <p className="section-label mb-2 text-brand-blue">Implementation</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-5 leading-tight">
-                Why Choose Build Brand Better for <span className="heading-script text-brand-blue">Education Reputation</span>
+                Why Choose Online Reputation Builder for <span className="heading-script text-brand-blue">Education Reputation</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
                 We align reputation strategy with the unique challenges and goals of educational institutions, from admission cycles to parent sentiment and public visibility.

@@ -157,7 +157,7 @@ const testimonials = [
   },
   {
     name: "Sunita Rao",
-    text: "A coordinated fake review campaign nearly destroyed our brand. Build Brand Better removed the reviews and helped us build a genuine review base. Highly professional team.",
+    text: "A coordinated fake review campaign nearly destroyed our brand. Online Reputation Builder removed the reviews and helped us build a genuine review base. Highly professional team.",
   },
   {
     name: "Rajesh Pillai",

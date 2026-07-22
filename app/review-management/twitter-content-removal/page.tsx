@@ -160,7 +160,7 @@ export default function TwitterRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Build Brand Better helps individuals and businesses in India remove defamatory tweets, harmful threads, and damaging Twitter/X content. We act fast to contain viral damage and restore your online reputation.
+                Online Reputation Builder helps individuals and businesses in India remove defamatory tweets, harmful threads, and damaging Twitter/X content. We act fast to contain viral damage and restore your online reputation.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

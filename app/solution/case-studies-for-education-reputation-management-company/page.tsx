@@ -23,7 +23,7 @@ const faqs = [
     a: "The private college had negative news coverage, low visibility of positive content, weak SEO, and damaging reviews across platforms like Google, Yelp, and Facebook.",
   },
   {
-    q: "How did Build Brand Better start the project?",
+    q: "How did Online Reputation Builder start the project?",
     a: "We began with a detailed online audit, search ranking evaluation, negative content analysis, keyword research, and review of website and social profile SEO gaps.",
   },
   {
@@ -265,7 +265,7 @@ export default function EducationCaseStudyPage() {
                 The online reputation of an educational institution shapes perceptions among students, parents, faculty, and stakeholders. Negative search results can influence enrollment, funding opportunities, and institutional credibility.
               </p>
               <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-xl">
-                This case study focuses on Build Brand Better's intervention to suppress negative search results and repair a college's online image using strategic SEO and content marketing.
+                This case study focuses on Online Reputation Builder's intervention to suppress negative search results and repair a college's online image using strategic SEO and content marketing.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-lg">
@@ -342,7 +342,7 @@ export default function EducationCaseStudyPage() {
                 </h2>
                 <div className="bg-white border-l-4 border-red-500 rounded-r-xl p-6 md:p-8 shadow-sm">
                   <p className="text-zinc-600 leading-relaxed text-[0.95rem]">
-                    Before associating with Build Brand Better, the institution faced older allegations that had generated negative news coverage, low visibility of positive content, damaging reviews from dissatisfied students, and weak SEO across the official website and related digital assets.
+                    Before associating with Online Reputation Builder, the institution faced older allegations that had generated negative news coverage, low visibility of positive content, damaging reviews from dissatisfied students, and weak SEO across the official website and related digital assets.
                   </p>
                 </div>
               </div>

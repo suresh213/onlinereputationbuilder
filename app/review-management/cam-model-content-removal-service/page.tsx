@@ -202,7 +202,7 @@ export default function CamModelContentRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Empowering cam models to take control of their content with efficient content removal services. Build Brand Better ensures your online presence stays protected and unauthorized posts are swiftly removed.
+                Empowering cam models to take control of their content with efficient content removal services. Online Reputation Builder ensures your online presence stays protected and unauthorized posts are swiftly removed.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">
@@ -297,7 +297,7 @@ export default function CamModelContentRemovalPage() {
                   Are you tired of your <span className="heading-script text-brand-blue">content being stolen?</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-5 text-[0.95rem]">
-                  Protecting your content is no longer optional. It's essential. Build Brand Better ensures that unauthorized posts and stolen materials are swiftly taken down.
+                  Protecting your content is no longer optional. It's essential. Online Reputation Builder ensures that unauthorized posts and stolen materials are swiftly taken down.
                 </p>
                 <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
                   Let us safeguard your work while you focus on building your career with confidence. Get expert assistance today and return your credibility!

@@ -305,7 +305,7 @@ export default function ReviewManagementPage() {
                   Build Trust With a Powerful <span className="heading-script text-brand-blue">Google Review Management Service</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-6 text-[0.95rem]">
-                  Build Brand Better can help you gain trust and make your business more known. Having a powerful Google review management will provide your business with a good first impression and gain customer trust in all the points of contacts.
+                  Online Reputation Builder can help you gain trust and make your business more known. Having a powerful Google review management will provide your business with a good first impression and gain customer trust in all the points of contacts.
                 </p>
                 <p className="text-zinc-600 leading-relaxed mb-10 text-[0.95rem]">
                   We assist you in creation, handling and trimming to fight the positive fake reviews and downplay the bad stuff to ensure that your business becomes a good and reputable one.
@@ -447,7 +447,7 @@ export default function ReviewManagementPage() {
               </h2>
               <div className="space-y-6">
                 <p className="text-zinc-600 leading-relaxed text-[0.95rem]">
-                  Build Brand Better assists in making your business recognizable in a good and reliable manner. In the modern world before deciding on a purchase, potential customers will be busy searching good online reviews of businesses. Strong digital reputation is a source of confidence, credibility and assists your brand to stand out among the competition.
+                  Online Reputation Builder assists in making your business recognizable in a good and reliable manner. In the modern world before deciding on a purchase, potential customers will be busy searching good online reviews of businesses. Strong digital reputation is a source of confidence, credibility and assists your brand to stand out among the competition.
                 </p>
                 <p className="text-zinc-600 leading-relaxed text-[0.95rem]">
                   We deal with negative content that impacts on your business and tactfully settles on positive, value-based content that will enhance your web presence.
@@ -470,7 +470,7 @@ export default function ReviewManagementPage() {
           <RevealOnScroll>
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 leading-tight">
-                Build Brand Better offers advanced review management solutions for <span className="heading-script text-brand-blue">your business to grow.</span>
+                Online Reputation Builder offers advanced review management solutions for <span className="heading-script text-brand-blue">your business to grow.</span>
               </h2>
             </div>
           </RevealOnScroll>

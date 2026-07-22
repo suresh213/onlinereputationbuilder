@@ -265,7 +265,7 @@ export default function CelebrityCaseStudyPage() {
                 In today's digital age, every post, picture, interview, rumor, or social media thread can become global instantly. Celebrities need a stronger reputation system than ever before.
               </p>
               <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-xl">
-                This case study shows how Build Brand Better used personalized ORM tactics, crisis management, content strategy, and round-the-clock monitoring to restore control in the digital world.
+                This case study shows how Online Reputation Builder used personalized ORM tactics, crisis management, content strategy, and round-the-clock monitoring to restore control in the digital world.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-lg">
@@ -350,7 +350,7 @@ export default function CelebrityCaseStudyPage() {
                 </h2>
                 <div className="bg-white border-l-4 border-brand-gold rounded-r-xl p-6 md:p-8 shadow-sm">
                   <p className="text-zinc-600 leading-relaxed text-[0.95rem]">
-                    A good celebrity reputation management company provides the virtual armor public figures need to defend, conserve, and market their image. Build Brand Better helped the celebrity reduce crisis exposure, improve public sentiment, and regain confidence across search, media, and social platforms.
+                    A good celebrity reputation management company provides the virtual armor public figures need to defend, conserve, and market their image. Online Reputation Builder helped the celebrity reduce crisis exposure, improve public sentiment, and regain confidence across search, media, and social platforms.
                   </p>
                 </div>
               </div>
@@ -387,7 +387,7 @@ export default function CelebrityCaseStudyPage() {
                 <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">The Solution</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Strategic Partnership with <span className="heading-script text-brand-gold">Build Brand Better</span>
+                Strategic Partnership with <span className="heading-script text-brand-gold">Online Reputation Builder</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
                 The collaboration equipped the celebrity with individualized ORM tactics, content management, and 24/7 monitoring to reduce crisis impact and restore control.

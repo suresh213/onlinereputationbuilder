@@ -157,7 +157,7 @@ const testimonials = [
   },
   {
     name: "Priya Menon",
-    text: "A disgruntled ex-employee was leaving defamatory reviews across all our locations. Build Brand Better had them removed quickly and professionally. Highly recommend their services.",
+    text: "A disgruntled ex-employee was leaving defamatory reviews across all our locations. Online Reputation Builder had them removed quickly and professionally. Highly recommend their services.",
   },
   {
     name: "Vikram Nair",

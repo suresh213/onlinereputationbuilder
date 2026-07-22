@@ -293,7 +293,7 @@ export default function NewsArticleRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Effectively managing your online presence is essential to maintaining credibility in today's digital age. At Build Brand Better, our news article removal services are tailored to help you remove news articles and regain control of your narrative.
+                Effectively managing your online presence is essential to maintaining credibility in today's digital age. At Online Reputation Builder, our news article removal services are tailored to help you remove news articles and regain control of your narrative.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

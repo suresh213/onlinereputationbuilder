@@ -47,7 +47,7 @@ const faqs = [
     a: "No. A positive reputation is essential for politicss of every size, from independent cafes and cloud kitchens to multi-location chains.",
   },
   {
-    q: "How can I get started with Build Brand Better?",
+    q: "How can I get started with Online Reputation Builder?",
     a: "Contact us through the consultation form and our experts will tailor a reputation management plan to your politics's unique needs.",
   },
 ];
@@ -271,7 +271,7 @@ export default function PoliticsIndustryPage() {
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-2xl">
-              In the competitive culinary world, a strong reputation is your most valuable ingredient. Build Brand Better ensures your politics stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
+              In the competitive culinary world, a strong reputation is your most valuable ingredient. Online Reputation Builder ensures your politics stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
             </p>
             <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-2xl">
               We help politicss protect ratings, manage customer feedback, improve local visibility, and build a loyal community of patrons who advocate for the brand.
@@ -363,7 +363,7 @@ export default function PoliticsIndustryPage() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
                   <img
-                    src="https://buildbrandbetter.io/wp-content/uploads/2025/01/img-1-option.png"
+                    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80"
                     alt="politics reputation management services"
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
@@ -486,7 +486,7 @@ export default function PoliticsIndustryPage() {
             <div className="text-center mb-16">
               <p className="section-label mb-2 text-brand-blue">Implementation</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-5 leading-tight">
-                Streamlined Reputation Management with <span className="heading-script text-brand-blue">Build Brand Better</span>
+                Streamlined Reputation Management with <span className="heading-script text-brand-blue">Online Reputation Builder</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
                 We simplify and amplify your politics's online presence with proven strategies, fast response systems, and expert reputation support.

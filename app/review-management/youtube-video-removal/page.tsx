@@ -160,7 +160,7 @@ export default function YouTubeRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Eliminate the risks of damaging content effortlessly with our expert service. Build Brand Better ensures your brand&apos;s reputation stays untarnished with effective YouTube Video Removal services tailored to your needs.
+                Eliminate the risks of damaging content effortlessly with our expert service. Online Reputation Builder ensures your brand&apos;s reputation stays untarnished with effective YouTube Video Removal services tailored to your needs.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

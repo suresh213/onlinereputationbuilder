@@ -169,7 +169,7 @@ export default function TikTokRemovalPage() {
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Build Brand Better helps businesses and individuals manage their TikTok presence by removing harmful content, protecting brand image, and fostering audience trust. We handle TikTok content removal swiftly before it goes viral.
+                Online Reputation Builder helps businesses and individuals manage their TikTok presence by removing harmful content, protecting brand image, and fostering audience trust. We handle TikTok content removal swiftly before it goes viral.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

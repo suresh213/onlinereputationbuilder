@@ -46,22 +46,22 @@ const caseStudies = [
 ];
 
 const clients = [
-  { name: "Hitachi", img: "/images/logos/hitachi.png" },
-  { name: "FedEx", img: "/images/logos/fedex.png" },
-  { name: "PeopleStrong", img: "/images/logos/peoplestrong.png" },
-  { name: "Caterpillar", img: "/images/logos/caterpillar.png" },
-  { name: "Hilton", img: "/images/logos/hilton.png" },
-  { name: "SpiceJet", img: "/images/logos/spicejet.png" },
-  { name: "IKEA", img: "/images/logos/ikea.png" },
-  { name: "Sahara", img: "/images/logos/sahara.png" },
-  { name: "H&M", img: "/images/logos/hm.png" },
-  { name: "LPU", img: "/images/logos/lpu.png" },
-  { name: "Radisson", img: "/images/logos/radisson.png" },
-  { name: "Cure.fit", img: "/images/logos/curefit.png" },
-  { name: "Raymond", img: "/images/logos/raymond.png" },
-  { name: "Apollo", img: "/images/logos/apollo.png" },
-  { name: "Nykaa", img: "/images/logos/nykaa.png" },
-  { name: "Zara", img: "/images/logos/zara.jpg" },
+  { name: "Freshworks", img: "/images/logos/freshworks.svg" },
+  { name: "Unacademy", img: "/images/logos/unacademy.svg" },
+  { name: "MakeMyTrip", img: "/images/logos/makemytrip.svg" },
+  { name: "PolicyBazaar", img: "/images/logos/policybazaar.svg" },
+  { name: "Lenskart", img: "/images/logos/lenskart.svg" },
+  { name: "CRED", img: "/images/logos/cred.svg" },
+  { name: "OYO", img: "/images/logos/oyo.svg" },
+  { name: "Vistara", img: "/images/logos/vistara.svg" },
+  { name: "Muthoot", img: "/images/logos/muthoot.svg" },
+  { name: "Godrej", img: "/images/logos/godrej.svg" },
+  { name: "Cleartrip", img: "/images/logos/cleartrip.svg" },
+  { name: "Blue Dart", img: "/images/logos/bluedart.svg" },
+  { name: "Shoppers Stop", img: "/images/logos/shoppersstop.svg" },
+  { name: "BookMyShow", img: "/images/logos/bookmyshow.svg" },
+  { name: "Zerodha", img: "/images/logos/zerodha.svg" },
+  { name: "UpGrad", img: "/images/logos/upgrad.svg" },
 ];
 
 const mediaLogos = [
