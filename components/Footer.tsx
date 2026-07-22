@@ -349,7 +349,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/8 py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Online Reputation Builder. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Online Reputation Builder. All rights reserved. <span className="mx-2 hidden md:inline">|</span> <span className="block md:inline mt-2 md:mt-0">Built and maintained by <a href="https://www.startupbricks.in" target="_blank" rel="noopener noreferrer" className="text-brand-gold hover:text-white transition-colors">Startupbricks Pvt Ltd</a></span></p>
           <div className="flex items-center gap-4">
             <Link href="/terms-and-conditions" className="hover:text-gray-300 transition-colors">Terms & Conditions</Link>
             <span className="opacity-30">|</span>
