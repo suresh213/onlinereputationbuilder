@@ -11,9 +11,9 @@ const services = [
   { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: "Protect Your Business", desc: "We completely clean your business name online so customers trust you instantly.", href: "/reputation-monitoring" },
   { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>, title: "Review Management", desc: "Protect against unfair 1-star ratings and help your business showcase real 5-star feedback from happy customers.", href: "/review-management" },
   { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>, title: "Search Result Management", desc: "We use strategic tools to clear negative search results, unfair articles, and private photos from the internet.", href: "/business/remove-negative-results" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, title: "24/7 Name Checking", desc: "We watch the internet all day and night to catch any bad news before it harms your respect.", href: "/business/reputation-monitoring" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, title: "24/7 Name Checking", desc: "We watch the internet all day and night to catch any negative press before it impacts your brand.", href: "/business/reputation-monitoring" },
   { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>, title: "Build Personal Respect", desc: "We create a highly professional image for you so everyone respects you as a top expert.", href: "/individual/personal-branding-services" },
-  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>, title: "Emergency Help", desc: "If you face a sudden bad news attack, we stop the damage immediately and clear your name.", href: "/business/crisis-management" },
+  { icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>, title: "Emergency Help", desc: "If you face a sudden digital crisis, we respond rapidly to protect your brand identity.", href: "/business/crisis-management" },
 ];
 
 const platforms = [
@@ -82,9 +82,9 @@ const mediaLogos = [
 
 const faqs = [
   { q: "Will fixing my name online help my business grow?", a: "Yes, definitely. When people search your name and see only good things, they trust you immediately. This brings you more customers, more respect, and more money." },
-  { q: "How do you handle unfair online reviews?", a: "If a review violates policies or uses inappropriate words, our team knows exactly how to report it to the website and get it cleared permanently." },
+  { q: "How do you handle unfair online reviews?", a: "If a review violates policies or uses inappropriate words, our team knows exactly how to report it to the website and get it addressed in full compliance with platform guidelines." },
   { q: "Can you clear negative news articles from the internet?", a: "Yes. We use strong strategic tools to clear unfair news completely. We also write so many good articles about you that any negative search results get pushed down where no one can find them." },
-  { q: "Why should I hire you?", a: "Because a bad link on the internet ruins your respect and loses you money every single day. We are experts who fix these problems fast so you can live with pride." },
+  { q: "Why should I hire you?", a: "Because unverified online mentions can impact customer trust and business growth. We help you build a strong, credible digital presence." },
   { q: "How does your service work?", a: "We first check all the negative links about you. Then we use strategic requests to clear them. After that, we create beautiful articles about your good work so search engines only show positive things." },
   { q: "How much time will this take?", a: "Simple removals take just a few weeks. If the problem is very big, it can take 3 to 6 months to completely clean the first page of search engines." },
 ];
@@ -92,10 +92,10 @@ const faqs = [
 const howTos = [
   { category: "STRATEGY", time: "5 MIN READ", title: "How to Build a Trustworthy Business Profile Online", desc: "Learn simple ways to make your business look very professional online.", href: "/blog/what-is-online-reputation-management" },
   { category: "BRANDING", time: "4 MIN READ", title: "Making Your Personal Name Highly Respected", desc: "Find out how to show your best skills on the first page of search results.", href: "/blog/what-is-personal-branding" },
-  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why Doctors and CEOs Need a Clean Image", desc: "Understand why professionals lose money if they have bad links on the internet.", href: "/blog/why-celebrities-need-orm" },
+  { category: "INDIVIDUAL", time: "6 MIN READ", title: "Why Doctors and CEOs Need a Clean Image", desc: "Understand why professionals lose money if they have negative search results online.", href: "/blog/why-celebrities-need-orm" },
   { category: "REVIEWS", time: "5 MIN READ", title: "How to Protect Against Unfair 1-Star Reviews", desc: "A simple guide to finding unfair reviews and forcing websites to clear them.", href: "/blog/how-to-respond-to-negative-customer-reviews" },
-  { category: "CONTENT", time: "7 MIN READ", title: "The Legal Way to Clear Negative News Articles", desc: "Learn how we use strategic policies to permanently clear unfair news from search engines.", href: "/blog/how-to-remove-negative-news-articles-from-google" },
-  { category: "SEARCH", time: "4 MIN READ", title: "Pushing Bad Links Down on Search Engines", desc: "How we write good articles to push any bad news far down to page 10.", href: "/blog/how-to-push-down-negative-search-results" },
+  { category: "CONTENT", time: "7 MIN READ", title: "The Legal Way to Clear Negative News Articles", desc: "Learn how we use strategic policies to effectively manage unfair news from search engines.", href: "/blog/how-to-remove-negative-news-articles-from-google" },
+  { category: "SEARCH", time: "4 MIN READ", title: "Managing Search Engine Visibility", desc: "How we write good articles to enhance positive brand content across search results.", href: "/blog/how-to-push-down-negative-search-results" },
 ];
 
 export default function HomePage() {
@@ -465,7 +465,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { name: "Rajesh Kumar", role: "CEO, TechCorp India", text: "A competitor wrote unfair news about my business. This team cleared the link from the internet very fast. My business is growing again." },
-              { name: "Priya Sharma", role: "Real Estate Developer", text: "Someone was ruining my name online. They pushed all the bad links down to page 10 where no one can find them. Thank you!" },
+              { name: "Priya Sharma", role: "Real Estate Developer", text: "Our brand identity was facing unfair search results. This team built strong digital authority for us. Thank you!" },
               { name: "Amit Singh", role: "Healthcare Professional", text: "I was losing a lot of money because of one bad search result. They fixed it fast and made me look highly professional online." },
             ].map((t) => (
               <div key={t.name} className="premium-testimonial-card bg-zinc-900 rounded-xl p-7 border border-zinc-800">
@@ -514,7 +514,7 @@ export default function HomePage() {
               Fix Your Online<br className="hidden lg:block"/> <span className="heading-script text-brand-gold">Reputation Today</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-8 text-sm">
-              Do not let a bad online link destroy your respect. Call us today and we will tell you exactly how we can fix it, completely free of charge.
+              Build a strong, respected digital brand today. Contact our team for a complimentary brand consultation.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
