@@ -1,0 +1,11 @@
+Campaign,Campaign Daily Budget,Campaign Type,Ad Group,Keyword,Match Type,Max CPC
+ORM Search Campaign,1000,Search,,,,
+ORM Search Campaign,,,High-Ticket Corporate ORM,online reputation management company,Exact,150
+ORM Search Campaign,,,High-Ticket Corporate ORM,corporate reputation management,Exact,150
+ORM Search Campaign,,,High-Ticket Corporate ORM,reputation management services,Phrase,150
+ORM Search Campaign,,,High-Ticket Corporate ORM,orm agency,Phrase,150
+ORM Search Campaign,,,Google Review Removal,remove google review,Exact,150
+ORM Search Campaign,,,Google Review Removal,delete fake google review,Phrase,150
+ORM Search Campaign,,,,-free,Broad,
+ORM Search Campaign,,,,-cheap,Broad,
+ORM Search Campaign,,,,-software,Broad,

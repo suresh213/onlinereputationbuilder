@@ -540,7 +540,7 @@ export default function FakeReviewRemovalPage() {
               <div className="space-y-6 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">{item.icon}</div>

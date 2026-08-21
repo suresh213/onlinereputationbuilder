@@ -1,6 +1,6 @@
-# Build Brand Better – Next.js Clone
+# Online Reputation Builder – Next.js Clone
 
-A pixel-faithful clone of buildbrandbetter.io built with Next.js 14, TypeScript, and Tailwind CSS.
+A pixel-faithful clone of onlinereputationbuilder.io built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## Pages Included
 
@@ -23,8 +23,8 @@ A pixel-faithful clone of buildbrandbetter.io built with Next.js 14, TypeScript,
 
 ```bash
 # 1. Unzip the folder
-unzip buildbrandbetter.zip
-cd buildbrandbetter
+unzip onlinereputationbuilder.zip
+cd onlinereputationbuilder
 
 # 2. Install dependencies
 npm install
@@ -46,7 +46,7 @@ npm start
 ## Project Structure
 
 ```
-buildbrandbetter/
+onlinereputationbuilder/
 ├── app/
 │   ├── globals.css              # All custom styles + Tailwind
 │   ├── layout.tsx               # Root layout
@@ -69,7 +69,7 @@ buildbrandbetter/
 
 ## Notes
 
-- Images are loaded directly from buildbrandbetter.io CDN
+- Images are loaded directly from onlinereputationbuilder.io CDN
 - All sections match the original site's layout and content
 - Fully responsive (mobile, tablet, desktop)
 - Built-in FAQ accordion, mobile nav, marquee animations

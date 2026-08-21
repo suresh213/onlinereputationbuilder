@@ -10,7 +10,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://onlinereputationbuilder.in";
+const siteUrl = "https://onlinereputationbuilders.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "review management",
     "ORM agency India",
   ],
-  alternates: { canonical: "https://onlinereputationbuilder.in/" },
+  alternates: { canonical: "https://onlinereputationbuilders.in/" },
   openGraph: {
     title: "Online Reputation Builder – Top ORM Company in India",
     description:
@@ -96,7 +96,7 @@ export default function RootLayout({
                 "url": siteUrl,
                 "logo": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",
-                "email": "contact@onlinereputationbuilder.in",
+                "email": "contact@onlinereputationbuilders.in",
                 "sameAs": [
                   "https://www.facebook.com/onlinereputationbuilder",
                   "https://x.com/onlinereputationbuilder",
@@ -131,7 +131,7 @@ export default function RootLayout({
                 "name": "Online Reputation Builder",
                 "image": `${siteUrl}/logo-orm.webp`,
                 "telephone": "+918882788412",
-                "email": "contact@onlinereputationbuilder.in",
+                "email": "contact@onlinereputationbuilders.in",
                 "url": siteUrl,
                 "priceRange": "$$",
                 "address": {

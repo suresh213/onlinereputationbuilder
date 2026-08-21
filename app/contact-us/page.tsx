@@ -92,7 +92,7 @@ export default function ContactPage() {
 
               {/* Email Card */}
               <RevealOnScroll delay={200} className="sm:col-span-2">
-                <a href="mailto:contact@onlinereputationbuilder.in" className="glass-panel border border-zinc-800/80 rounded-2xl p-6 flex flex-col sm:flex-row items-start gap-5 hover:border-brand-gold/40 hover:bg-white/5 transition-all duration-400 card-premium-hover h-full">
+                <a href="mailto:contact@onlinereputationbuilders.in" className="glass-panel border border-zinc-800/80 rounded-2xl p-6 flex flex-col sm:flex-row items-start gap-5 hover:border-brand-gold/40 hover:bg-white/5 transition-all duration-400 card-premium-hover h-full">
                   <div className="w-12 h-12 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center flex-shrink-0 text-brand-gold shadow-inner">
                     <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -100,7 +100,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1.5">Email Us Anytime</p>
-                    <p className="text-white font-heading font-bold text-lg truncate mb-1">contact@onlinereputationbuilder.in</p>
+                    <p className="text-white font-heading font-bold text-lg truncate mb-1">contact@onlinereputationbuilders.in</p>
                     <p className="text-zinc-400 text-xs italic mt-2">Expect a reply in 24 hours or less. Pinky promise!</p>
                   </div>
                 </a>

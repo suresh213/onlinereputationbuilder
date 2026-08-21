@@ -136,7 +136,7 @@
 //               </svg>
 //               <div>
 //                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Email</p>
-//                 <a href="mailto:contact@onlinereputationbuilder.in" className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilder.in</a>
+//                 <a href="mailto:contact@onlinereputationbuilders.in" className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilders.in</a>
 //               </div>
 //             </div>
 //             <div className="flex items-start gap-3">
@@ -330,7 +330,7 @@ export default function Footer() {
               </svg>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Email</p>
-                <a href="mailto:contact@onlinereputationbuilder.in" onClick={trackEmailClick} className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilder.in</a>
+                <a href="mailto:contact@onlinereputationbuilders.in" onClick={trackEmailClick} className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilders.in</a>
               </div>
             </div>
             <div className="flex items-start gap-3">

@@ -294,7 +294,7 @@ export default function BusinessAndIndividualSolutionsPage() {
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Hotline", value: "+91 88827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
                   { label: "Location", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">

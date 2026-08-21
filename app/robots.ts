@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://onlinereputationbuilder.in/sitemap.xml",
+    sitemap: "https://onlinereputationbuilders.in/sitemap.xml",
   };
 }

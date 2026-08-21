@@ -1,0 +1,29 @@
+Campaign,Ad group,Keyword,Match type,Status
+ORM Search Campaign,High-Ticket Corporate ORM,online reputation management company,Exact match,Paused
+ORM Search Campaign,High-Ticket Corporate ORM,corporate reputation management,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,online reputation management,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,online reputation management services,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,orm services,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,orm company india,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,best orm company india,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,reputation management company india,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,reputation management agency india,Exact match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,online reputation management company,Phrase match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,orm services india,Phrase match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,reputation management company,Phrase match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,corporate reputation management,Phrase match,Enabled
+ORM Search Campaign,High-Ticket Corporate ORM,orm agency,Broad match,Paused
+ORM Search Campaign,High-Ticket Corporate ORM,corporate reputation management,Broad match,Paused
+ORM Search Campaign,High-Ticket Corporate ORM,online reputation management company,Broad match,Paused
+ORM Search Campaign,Google Review Removal,delete fake google review,Phrase match,Enabled
+ORM Search Campaign,Google Review Removal,remove fake google review,Exact match,Enabled
+ORM Search Campaign,Google Review Removal,delete google review,Exact match,Enabled
+ORM Search Campaign,Google Review Removal,google review removal service,Phrase match,Enabled
+ORM Search Campaign,Google Review Removal,fake review removal service,Phrase match,Enabled
+ORM Search Campaign,Google Review Removal,remove bad google reviews,Exact match,Enabled
+ORM Search Campaign,Google Review Removal,google review removal,Exact match,Enabled
+ORM Search Campaign,Google Review Removal,remove fake reviews google,Phrase match,Enabled
+ORM Search Campaign,Google Review Removal,delete negative google review,Phrase match,Enabled
+ORM Search Campaign,Google Review Removal,remove google review,Broad match,Paused
+ORM Search Campaign,Google Review Removal,remove bad google reviews,Broad match,Paused
+ORM Search Campaign,Google Review Removal,delete fake google review,Broad match,Paused

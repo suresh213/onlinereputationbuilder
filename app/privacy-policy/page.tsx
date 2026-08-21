@@ -37,7 +37,7 @@ export default function PrivacyPolicy() {
 
               <h2 className="text-2xl font-semibold text-brand-blue mt-8 mb-4">5. Contact Us</h2>
               <p className="mb-4">If you have any questions about this Privacy Policy, please contact us at:</p>
-              <p className="font-semibold text-brand-blue">contact@onlinereputationbuilder.in</p>
+              <p className="font-semibold text-brand-blue">contact@onlinereputationbuilders.in</p>
             </div>
           </div>
         </div>

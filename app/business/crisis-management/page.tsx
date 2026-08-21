@@ -377,7 +377,7 @@ export default function CrisisManagementPage() {
                 </div>
               </a>
               
-              <a href="mailto:contact@onlinereputationbuilder.in" className="flex items-center gap-5 text-white hover:text-brand-blue transition-colors group">
+              <a href="mailto:contact@onlinereputationbuilders.in" className="flex items-center gap-5 text-white hover:text-brand-blue transition-colors group">
                 <span className="w-14 h-14 glass-panel border border-white/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
                   <svg width="24" height="24" className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
@@ -386,7 +386,7 @@ export default function CrisisManagementPage() {
                 </span>
                 <div>
                   <p className="text-[0.65rem] text-zinc-500 uppercase tracking-widest font-bold mb-1">Direct Email</p>
-                  <p className="font-heading font-bold text-lg">contact@onlinereputationbuilder.in</p>
+                  <p className="font-heading font-bold text-lg">contact@onlinereputationbuilders.in</p>
                 </div>
               </a>
             </div>

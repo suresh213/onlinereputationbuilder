@@ -711,8 +711,8 @@ export default function ChangeGoogleAutocompletePage() {
                   },
                   {
                     label: "Secure Email",
-                    value: "contact@onlinereputationbuilder.in",
-                    href: "mailto:contact@onlinereputationbuilder.in",
+                    value: "contact@onlinereputationbuilders.in",
+                    href: "mailto:contact@onlinereputationbuilders.in",
                     icon: "✉️"
                   },
                   {

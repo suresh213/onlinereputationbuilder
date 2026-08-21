@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    domains: ['onlinereputationbuilder.in']
+    domains: ['onlinereputationbuilders.in']
   },
   experimental: {
     optimizeCss: true

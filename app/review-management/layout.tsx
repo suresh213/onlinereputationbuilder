@@ -39,7 +39,7 @@ const serviceSchema = {
   "@type": "ProfessionalService",
   "name": "Review Management Services",
   "description": "Remove fake negative reviews and strategically manage your brand's presence on Google Maps, Trustpilot, Glassdoor, and Indeed.",
-  "url": "https://onlinereputationbuilder.in/review-management",
+  "url": "https://onlinereputationbuilders.in/review-management",
   "provider": {
     "@type": "Organization",
     "name": "Online Reputation Builder"

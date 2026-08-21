@@ -1,0 +1,45 @@
+Row Type,Action,Campaign status,Ad group status,Ad status,Keyword status,Campaign ID,Campaign,Campaign type,Budget,Delivery method,Bid strategy type,Language,Location,EU political ads,Ad group ID,Ad group,Default max. CPC,Ad group type,Ad rotation,Keyword ID,Keyword,Type,Ad ID,Ad type,Headline 1,Headline 2,Headline 3,Headline 4,Headline 5,Headline 6,Headline 7,Headline 8,Headline 9,Headline 10,Description 1,Description 2,Description 3,Description 4,Final URL,Level,Negative keyword
+Campaign,Add,Enabled,,,,,ORM Search Campaign,Search,500,Standard,Maximize clicks,en,India,No,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ad group,Add,,Enabled,,,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,150,Standard,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,,,,,online reputation management company,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,,,,,corporate reputation management,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,,,,,reputation management services,Phrase match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,,,,,orm agency,Phrase match,,,,,,,,,,,,,,,,,,,
+Ad,Add,,,Enabled,,,ORM Search Campaign,,,,,,,,,High-Ticket Corporate ORM,,,,,,,,Responsive search ad,Corporate Reputation Mgt,India's #1 ORM Agency,Protect Your Brand Today,Expert Reputation Repair,Trusted By 1200+ Clients,Control Your Search Results,ORM Services India,Book A Free Strategy Call,Discreet & Confidential,Fix Negative Search Results,Unfair reviews destroying your sales? We legally remove fake reviews fast.,1200+ clients trust us. Get a free consultation to fix your reputation now.,Don't let one bad article define you. Proven ethical ORM strategies since 2010.,Take control of your search results. Speak to a senior reputation expert today.,https://onlinereputationbuilder.in/business,,
+Ad group,Add,,Enabled,,,,ORM Search Campaign,,,,,,,,,Google Review Removal,150,Standard,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Google Review Removal,,,,,remove google review,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Google Review Removal,,,,,delete fake google review,Phrase match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Google Review Removal,,,,,remove bad google reviews,Exact match,,,,,,,,,,,,,,,,,,,
+Ad,Add,,,Enabled,,,ORM Search Campaign,,,,,,,,,Google Review Removal,,,,,,,,Responsive search ad,Remove Fake Google Reviews,Fast & Permanent Removal,Protect Your Business Now,Delete 1-Star Google Reviews,Stop Competitor Sabotage,Boost Your Star Rating,100% Legal Review Takedown,Free Removal Audit Today,Trusted Google Specialists,Improve Your Local Ranking,Fake 1-star reviews destroying your local business? We legally escalate and remove them.,We use Google's own policies to delete defamatory reviews. Fast results. Free audit.,Reclaim your 5-star rating. We remove fake competitor sabotage reviews permanently.,Stop losing local customers. Contact our Google review removal experts immediately.,https://onlinereputationbuilder.in/business/remove-google-business-review,,
+Ad group,Add,,Enabled,,,,ORM Search Campaign,,,,,,,,,Glassdoor & Employer ORM,150,Standard,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Glassdoor & Employer ORM,,,,,remove glassdoor review,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Glassdoor & Employer ORM,,,,,delete glassdoor review,Phrase match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Glassdoor & Employer ORM,,,,,glassdoor reputation management,Exact match,,,,,,,,,,,,,,,,,,,
+Ad,Add,,,Enabled,,,ORM Search Campaign,,,,,,,,,Glassdoor & Employer ORM,,,,,,,,Responsive search ad,Remove Glassdoor Reviews,Fix Your Employer Brand,Attract Top Talent Again,Delete Fake Employee Reviews,Improve AmbitionBox Rating,Protect Your Company Image,Legal Review Takedown,Lower Your Hiring Costs,Remove Ex-Staff Reviews,Confidential Consultation,Ex-employees posting fake Glassdoor reviews? We remove them legally and permanently.,Protect your employer brand. Our takedown strategies get results fast. Free audit.,Don't let anonymous trolls cost you top talent. We escalate Glassdoor policy violations.,Boost your rating and attract better candidates. Talk to our employer brand team today.,https://onlinereputationbuilder.in/review-management/remove-glassdoor-review,,
+Ad group,Add,,Enabled,,,,ORM Search Campaign,,,,,,,,,Personal & Executive Reputation,150,Standard,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Personal & Executive Reputation,,,,,personal reputation management,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Personal & Executive Reputation,,,,,executive branding services,Phrase match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,Personal & Executive Reputation,,,,,repair my online reputation,Exact match,,,,,,,,,,,,,,,,,,,
+Ad,Add,,,Enabled,,,ORM Search Campaign,,,,,,,,,Personal & Executive Reputation,,,,,,,,Responsive search ad,Personal Reputation Repair,Control Your Name Online,Discreet & Professional,Executive Branding Services,Remove Negative Results,Protect Your Privacy Online,Build A Pristine Image,Trusted By Executives,Fix Your Digital Footprint,Private Consultation Today,Negative search results appearing when people Google your name? We suppress them fast.,"Build a pristine personal brand. Trusted by executives, politicians and public figures.",We suppress negative news and build a powerful positive online legacy for you.,Your reputation matters. Contact our elite discreet team today for a private assessment.,https://onlinereputationbuilder.in/individual/personal-branding-services,,
+Ad group,Add,,Enabled,,,,ORM Search Campaign,,,,,,,,,PR & Crisis Management,150,Standard,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,PR & Crisis Management,,,,,pr crisis management,Exact match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,PR & Crisis Management,,,,,corporate crisis response,Phrase match,,,,,,,,,,,,,,,,,,,
+Keyword,Add,,,,Enabled,,ORM Search Campaign,,,,,,,,,PR & Crisis Management,,,,,online reputation crisis,Exact match,,,,,,,,,,,,,,,,,,,
+Ad,Add,,,Enabled,,,ORM Search Campaign,,,,,,,,,PR & Crisis Management,,,,,,,,Responsive search ad,Elite PR Crisis Management,Suppress Negative News Fast,Confidential & Secure,24/7 Emergency PR Response,Stop Negative Media Now,Protect Your Brand Value,Rapid Reputation Repair,Defend Your Brand Legacy,India's Top Crisis Firm,Get Immediate PR Help,Facing a digital PR crisis? Our expert team suppresses negative search results rapidly.,Take back control of your brand's narrative. 24/7 emergency response team available.,Our combined legal and SEO team works together to bury negative press coverage fast.,Immediate action required. Contact our senior crisis management directors right now.,https://onlinereputationbuilder.in/business/crisis-management,,
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,free
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,cheap
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,software
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,tool
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,app
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,jobs
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,salary
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,hiring
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,career
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,diy
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,course
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,training
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,template
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,generator
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,what is
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,definition
+Negative keyword,Add,,,,,,ORM Search Campaign,,,,,,,,,,,,,,,Broad match,,,,,,,,,,,,,,,,,,Campaign,how to do it myself

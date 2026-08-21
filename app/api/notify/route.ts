@@ -87,7 +87,7 @@ export async function POST(request: Request) {
     `;
 
     const mailOptions = {
-      from: `"Lead Alert" <contact@onlinereputationbuilder.in>`,
+      from: `"Lead Alert" <contact@onlinereputationbuilders.in>`,
       to: notificationEmail,
       subject: `New Lead: ${name || 'Unknown'} - ${service || 'Contact Form'}`,
       html: htmlContent,

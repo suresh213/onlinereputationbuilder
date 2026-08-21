@@ -453,7 +453,7 @@ export default function InstagramRemovalPage() {
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "contact@onlinereputationbuilder.in", href: "mailto:contact@onlinereputationbuilder.in", icon: "✉️" },
+                  { label: "Secure Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
                   { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">

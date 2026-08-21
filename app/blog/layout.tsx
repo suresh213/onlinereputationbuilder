@@ -32,13 +32,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@type": "Blog",
             "name": "Online Reputation Builder Blog",
             "description": "Expert guides on online reputation management, removing negative reviews, and crisis management",
-            "url": "https://onlinereputationbuilder.in/blog",
+            "url": "https://onlinereputationbuilders.in/blog",
             "publisher": {
               "@type": "Organization",
               "name": "Online Reputation Builder",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://onlinereputationbuilder.in/logo-orm.webp"
+                "url": "https://onlinereputationbuilders.in/logo-orm.webp"
               }
             }
           })
