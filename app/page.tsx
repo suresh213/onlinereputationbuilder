@@ -81,12 +81,12 @@ const mediaLogos = [
 ];
 
 const faqs = [
-  { q: "Will fixing my name online help my business grow?", a: "Yes, definitely. When people search your name and see only good things, they trust you immediately. This brings you more customers, more respect, and more money." },
-  { q: "How do you handle unfair online reviews?", a: "If a review violates policies or uses inappropriate words, our team knows exactly how to report it to the website and get it addressed in full compliance with platform guidelines." },
-  { q: "Can you clear negative news articles from the internet?", a: "Yes. We use strong strategic tools to clear unfair news completely. We also write so many good articles about you that any negative search results get pushed down where no one can find them." },
-  { q: "Why should I hire you?", a: "Because unverified online mentions can impact customer trust and business growth. We help you build a strong, credible digital presence." },
-  { q: "How does your service work?", a: "We first check all the negative links about you. Then we use strategic requests to clear them. After that, we create beautiful articles about your good work so search engines only show positive things." },
-  { q: "How much time will this take?", a: "Simple removals take just a few weeks. If the problem is very big, it can take 3 to 6 months to completely clean the first page of search engines." },
+  { q: "Will fixing my name online help my business grow?", a: "Fixing your name online helps your business grow by instantly building trust with new customers who search for you. When potential clients see a highly professional and positive digital presence on the first page of search results, they are significantly more likely to choose your services, leading to increased revenue and brand respect." }, 
+  { q: "How do you handle unfair online reviews?", a: "We handle unfair online reviews by identifying policy violations, such as inappropriate language or fake accounts, and submitting strategic removal requests directly to platforms like Google and Trustpilot. For reviews that cannot be legally removed, we implement robust review management campaigns to naturally amplify positive 5-star feedback from your real customers." }, 
+  { q: "Can you clear negative news articles from the internet?", a: "Yes, you can clear negative news articles from the internet using strategic legal requests, terms of service violations, and editorial negotiations. When permanent removal is not possible, we utilize advanced search engine suppression techniques. We publish high-authority, positive content about your brand that naturally outranks and pushes down the negative search results." },
+  { q: "Why should I hire an online reputation management agency?", a: "You should hire an online reputation management agency because unverified online mentions, fake reviews, and negative news can permanently damage your customer trust and business growth. A professional ORM team provides the legal, technical, and content expertise required to permanently clear negative links and build a highly credible digital presence." }, 
+  { q: "How does your reputation management service work?", a: "Our reputation management service works in three clear steps: first, we conduct a comprehensive audit of all negative links and brand mentions. Second, we execute targeted removal strategies for unfair content. Finally, we proactively publish high-quality PR articles and positive content to ensure search engines only display your absolute best professional side." }, 
+  { q: "How much time does online reputation management take?", a: "Online reputation management typically takes a few weeks for simple content removals and standard review management. However, if the digital crisis is severe and involves highly authoritative news sites, it can take 3 to 6 months of sustained suppression campaigns to completely clean and replace the first page of search engine results." },
 ];
 
 const howTos = [
@@ -119,7 +119,7 @@ export default function HomePage() {
               🏆 India's Most Trusted Online Reputation Experts
             </div>
             <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
-              Fix and Improve Your <span className="text-gradient-gold">Online Reputation</span> With a Top-Rated Agency
+              India's Premier <span className="text-gradient-gold">Online Reputation</span> Management Agency
             </h1>
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
               Manage how people see you on the internet. We help you clear negative links, protect against unfair reviews, and build a strong, positive image.
