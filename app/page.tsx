@@ -17,21 +17,20 @@ const services = [
 ];
 
 const platforms = [
-  { name: "Google", icon: "https://cdn.simpleicons.org/google/white" },
-  { name: "Glassdoor", icon: "https://cdn.simpleicons.org/glassdoor/white" },
-  { name: "Product Reviews", icon: "https://ui-avatars.com/api/?name=Product+Reviews&background=2563eb&color=fff&bold=true&format=svg" },
-  { name: "Twitter", icon: "https://cdn.simpleicons.org/x/white" },
-  // { name: "Ripoff Report", icon: "https://ui-avatars.com/api/?name=Ripoff+Report&background=c2940a&color=fff&bold=true&format=svg" },
-  { name: "Ripoff Report", icon: "https://ui-avatars.com/api/?name=Ripoff+Report&background=c2940a&color=fff&bold=true&format=svg" },
-  { name: "Facebook", icon: "https://cdn.simpleicons.org/facebook/white" },
-  { name: "Tripadvisor", icon: "https://cdn.simpleicons.org/tripadvisor/white" },
-  { name: "RateMDs", icon: "https://ui-avatars.com/api/?name=RateMDs&background=090f1c&color=fff&bold=true&format=svg" },
-  { name: "Trustpilot", icon: "https://cdn.simpleicons.org/trustpilot/white" },
-  { name: "Indeed", icon: "https://cdn.simpleicons.org/indeed/white" },
-  { name: "Yelp", icon: "https://cdn.simpleicons.org/yelp/white" },
-  { name: "BBB", icon: "https://ui-avatars.com/api/?name=BBB&background=2563eb&color=fff&bold=true&format=svg" },
-  { name: "G2", icon: "https://cdn.simpleicons.org/g2/white" },
-  { name: "Clutch", icon: "https://static.cdnlogo.com/logos/c/22/clutch-co_800.png" }
+  { name: "Google", icon: "https://cdn.simpleicons.org/google/white", href: "/review-management/fake-review-removal" },
+  { name: "Glassdoor", icon: "https://cdn.simpleicons.org/glassdoor/white", href: "/review-management/remove-glassdoor-review" },
+  { name: "Product Reviews", icon: "https://ui-avatars.com/api/?name=Product+Reviews&background=2563eb&color=fff&bold=true&format=svg", href: "/review-management/product-review-management" },
+  { name: "Twitter", icon: "https://cdn.simpleicons.org/x/white", href: "/review-management/twitter-content-removal" },
+  { name: "Ripoff Report", icon: "https://ui-avatars.com/api/?name=Ripoff+Report&background=c2940a&color=fff&bold=true&format=svg", href: "/review-management/complaint-removal-and-management-services" },
+  { name: "Facebook", icon: "https://cdn.simpleicons.org/facebook/white", href: "/review-management/facebook-content-removal" },
+  { name: "Tripadvisor", icon: "https://cdn.simpleicons.org/tripadvisor/white", href: "/business/review-management" },
+  { name: "RateMDs", icon: "https://ui-avatars.com/api/?name=RateMDs&background=090f1c&color=fff&bold=true&format=svg", href: "/solution/healthcare-reputation-management" },
+  { name: "Trustpilot", icon: "https://cdn.simpleicons.org/trustpilot/white", href: "/review-management/trustpilot-reputation-management" },
+  { name: "Indeed", icon: "https://cdn.simpleicons.org/indeed/white", href: "/review-management/indeed-reputation-management" },
+  { name: "Yelp", icon: "https://cdn.simpleicons.org/yelp/white", href: "/review-management/yelp-review-management" },
+  { name: "BBB", icon: "https://ui-avatars.com/api/?name=BBB&background=2563eb&color=fff&bold=true&format=svg", href: "/review-management/complaint-removal-and-management-services" },
+  { name: "G2", icon: "https://cdn.simpleicons.org/g2/white", href: "/business/review-management" },
+  { name: "Clutch", icon: "https://static.cdnlogo.com/logos/c/22/clutch-co_800.png", href: "/business/review-management" }
 ];
 
 const caseStudies = [
@@ -116,7 +115,7 @@ export default function HomePage() {
           {/* Left */}
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-5 uppercase tracking-wider">
-              🏆 India's Most Trusted Online Reputation Experts
+              🏆 Ranked #1 Online Reputation Agency in Delhi NCR & India
             </div>
             <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
               India's Premier <span className="text-gradient-gold">Online Reputation</span> Management Agency
@@ -293,17 +292,15 @@ export default function HomePage() {
                     {s.desc}
                   </p>
                   
-                  {/* <Link href={s.href} className="mt-auto text-brand-blue font-bold text-sm hover:text-brand-dark transition-colors inline-flex items-center gap-3 group/link w-fit">
+                  <Link href={s.href} className="mt-auto text-brand-blue font-bold text-sm hover:text-brand-dark transition-colors inline-flex items-center gap-3 group/link w-fit">
                     <span className="relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-brand-blue group-hover/link:after:w-full after:transition-all after:duration-300">
                       Explore Service
-                    </span> */}
-                    {/* Link icon circle is now visible by default with a soft background */}
-                    {/* <span className="w-8 h-8 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center group-hover/link:bg-brand-blue group-hover/link:text-white transition-all duration-300 overflow-hidden relative">
-                      <svg className="w-4 h-4 transform group-hover/link:translate-x-0 -translate-x-6 absolute opacity-0 group-hover/link:opacity-100 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg> */}
-                      {/* Default arrow visible, slides out on hover */}
-                      {/* <svg className="w-4 h-4 transform group-hover/link:translate-x-6 group-hover/link:opacity-0 transition-all duration-300 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                     </span>
-                  </Link> */}
+                    <span className="w-8 h-8 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center group-hover/link:bg-brand-blue group-hover/link:text-white transition-all duration-300 overflow-hidden relative">
+                      <svg className="w-4 h-4 transform group-hover/link:translate-x-0 -translate-x-6 absolute opacity-0 group-hover/link:opacity-100 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                      <svg className="w-4 h-4 transform group-hover/link:translate-x-6 group-hover/link:opacity-0 transition-all duration-300 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                    </span>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -385,28 +382,28 @@ export default function HomePage() {
           </div>
           <div className="premium-platform-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
             {platforms.map((p) => (
-              <div key={p.name} className="group platform-tile bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[92px] cursor-pointer transition-colors">
+              <Link key={p.name} href={p.href} className="group platform-tile bg-zinc-900 border border-zinc-800 hover:border-brand-blue rounded-lg p-3 flex flex-col items-center justify-center min-h-[92px] cursor-pointer transition-colors">
                 <img
-  src={p.icon}
-  alt={p.name}
-  className={`mb-2 opacity-85 platform-icon ${
-    p.name === "Clutch"
-      ? "w-16 h-16 -mt-4"
-      : "w-8 h-8"
-  }`}
-/>
+                  src={p.icon}
+                  alt={p.name}
+                  className={`mb-2 opacity-85 platform-icon ${
+                    p.name === "Clutch"
+                      ? "w-16 h-16 -mt-4"
+                      : "w-8 h-8"
+                  }`}
+                />
                 <p
-  className={`text-zinc-300 text-[0.62rem] font-bold uppercase tracking-wider text-center leading-tight ${
-    p.name === "Clutch" ? "-mt-5" : ""
-  }`}
->
-  {p.name}
-</p>
-              </div>
+                  className={`text-zinc-300 text-[0.62rem] font-bold uppercase tracking-wider text-center leading-tight group-hover:text-brand-gold transition-colors ${
+                    p.name === "Clutch" ? "-mt-5" : ""
+                  }`}
+                >
+                  {p.name}
+                </p>
+              </Link>
             ))}
-            <div className="platform-tile bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[92px] cursor-pointer transition-colors">
+            <Link href="/review-management" className="platform-tile bg-brand-gold/10 border border-brand-gold/30 hover:bg-brand-gold/20 rounded-lg p-3 flex items-center justify-center min-h-[92px] cursor-pointer transition-colors">
               <p className="text-brand-gold text-xs font-bold text-center">50+ More</p>
-            </div>
+            </Link>
           </div>
 
           <div className="mt-10 text-center">

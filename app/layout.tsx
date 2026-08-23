@@ -122,7 +122,10 @@ export default function RootLayout({
                   "postalCode": "700060",
                   "addressCountry": "IN"
                 },
-                "areaServed": "IN",
+                "areaServed": [
+                  { "@type": "City", "name": "Delhi NCR" },
+                  { "@type": "Country", "name": "IN" }
+                ],
                 "serviceType": "Online Reputation Management"
               },
               {
