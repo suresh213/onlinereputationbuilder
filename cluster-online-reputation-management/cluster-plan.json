@@ -1,0 +1,191 @@
+{
+  "seed_keyword": "online reputation management",
+  "generated_at": "2026-08-23T18:12:00Z",
+  "pillar": {
+    "id": "P",
+    "title": "The Ultimate Guide to Online Reputation Management in 2026",
+    "primary_keyword": "online reputation management",
+    "secondary_keywords": [
+      "orm services",
+      "reputation management strategy"
+    ],
+    "search_volume_estimate": "high",
+    "template": "pillar-page",
+    "word_count_target": 3500,
+    "cluster": "pillar"
+  },
+  "clusters": [
+    {
+      "name": "Review Removal (High Intent/Leads)",
+      "intent": "transactional",
+      "color": "#e11d48",
+      "posts": [
+        {
+          "id": "R1",
+          "title": "How to Remove Fake Google Reviews: Legal and Platform Solutions",
+          "primary_keyword": "remove fake google reviews",
+          "secondary_keywords": [
+            "delete google review",
+            "report fake review google"
+          ],
+          "search_volume_estimate": "high",
+          "template": "how-to-guide",
+          "word_count_target": 1800,
+          "links_to": [
+            "P",
+            "R2",
+            "R3"
+          ],
+          "links_from": [
+            "P",
+            "R2",
+            "R3"
+          ]
+        },
+        {
+          "id": "R2",
+          "title": "Removing Defamatory Glassdoor Reviews (Employer Guide)",
+          "primary_keyword": "remove glassdoor review",
+          "secondary_keywords": [
+            "sue glassdoor for defamation",
+            "delete glassdoor review"
+          ],
+          "search_volume_estimate": "high",
+          "template": "how-to-guide",
+          "word_count_target": 1600,
+          "links_to": [
+            "P",
+            "R1",
+            "C1"
+          ],
+          "links_from": [
+            "P",
+            "R1"
+          ]
+        },
+        {
+          "id": "R3",
+          "title": "Ripoff Report Removal & De-indexing Strategies",
+          "primary_keyword": "remove ripoff report",
+          "secondary_keywords": [
+            "deindex ripoff report",
+            "delete ripoff report google"
+          ],
+          "search_volume_estimate": "medium",
+          "template": "how-to-guide",
+          "word_count_target": 1500,
+          "links_to": [
+            "P",
+            "R1"
+          ],
+          "links_from": [
+            "P",
+            "R1",
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corporate PR & Crisis (Enterprise Leads)",
+      "intent": "commercial",
+      "color": "#2563eb",
+      "posts": [
+        {
+          "id": "C1",
+          "title": "Corporate Crisis Management: 10 Steps to Stop a PR Disaster",
+          "primary_keyword": "corporate crisis management",
+          "secondary_keywords": [
+            "pr crisis response",
+            "brand crisis management"
+          ],
+          "search_volume_estimate": "high",
+          "template": "thought-leadership",
+          "word_count_target": 2000,
+          "links_to": [
+            "P",
+            "C2",
+            "R2"
+          ],
+          "links_from": [
+            "P",
+            "C2"
+          ]
+        },
+        {
+          "id": "C2",
+          "title": "How to Push Down Negative Search Results in Google",
+          "primary_keyword": "push down negative search results",
+          "secondary_keywords": [
+            "suppress negative articles",
+            "bury negative google results"
+          ],
+          "search_volume_estimate": "high",
+          "template": "how-to-guide",
+          "word_count_target": 2200,
+          "links_to": [
+            "P",
+            "C1",
+            "S2"
+          ],
+          "links_from": [
+            "P",
+            "C1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal Branding (Executives)",
+      "intent": "informational",
+      "color": "#16a34a",
+      "posts": [
+        {
+          "id": "S1",
+          "title": "Personal Reputation Management for CEOs and Executives",
+          "primary_keyword": "executive reputation management",
+          "secondary_keywords": [
+            "ceo reputation",
+            "personal brand management"
+          ],
+          "search_volume_estimate": "medium",
+          "template": "listicle",
+          "word_count_target": 1500,
+          "links_to": [
+            "P",
+            "S2",
+            "R3"
+          ],
+          "links_from": [
+            "P",
+            "S2"
+          ]
+        },
+        {
+          "id": "S2",
+          "title": "AI Citation SEO: Controlling Your Brand on ChatGPT and Perplexity",
+          "primary_keyword": "ai citation seo",
+          "secondary_keywords": [
+            "generative engine optimization",
+            "chatgpt brand mentions"
+          ],
+          "search_volume_estimate": "medium",
+          "template": "thought-leadership",
+          "word_count_target": 1800,
+          "links_to": [
+            "P",
+            "S1",
+            "C2"
+          ],
+          "links_from": [
+            "P",
+            "S1"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_posts": 8,
+  "total_interlinks": 26,
+  "estimated_total_words": 15900
+}

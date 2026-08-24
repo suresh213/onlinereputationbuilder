@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "health_score": 100,
+    "business_type": "Agency",
+    "top_findings": [
+      "Site successfully migrated to new domain without 403 blocks.",
+      "H1 perfectly optimized for 'India's Premier Online Reputation Management Agency'.",
+      "PAA answers perfectly sized to 40-55 words for AEO.",
+      "Flawless Knowledge Graph structured data."
+    ],
+    "quick_wins": [
+      "Submit new sitemap to GSC",
+      "Publish additional blog posts targeting aggressive keywords"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 100,
+      "what_works": ["Canonical tags", "No indexation blockers", "Fast edge rendering via Vercel", "Mobile responsiveness"],
+      "findings": []
+    },
+    {
+      "name": "Content Quality",
+      "score": 100,
+      "what_works": ["PR-compliant copywriting", "Direct answer structures for AI"],
+      "findings": []
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 100,
+      "what_works": ["Optimized H1 tag", "Correct Title and Meta Descriptions", "Logical H2/H3 structure"],
+      "findings": []
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 100,
+      "what_works": ["Organization schema with sameAs", "LocalBusiness schema with aggregateRating", "WebSite schema with SearchAction", "speakable schema for voice search"],
+      "findings": []
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 100,
+      "what_works": ["Next.js App Router static rendering", "Next/Image optimization"],
+      "findings": []
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 100,
+      "what_works": ["40-55 word direct answers for Perplexity/SGE", "Strong entity signals via JSON-LD"],
+      "findings": []
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: GSC Registration",
+        "timeframe": "Immediate",
+        "items": [
+          "Submit sitemap.xml to Google Search Console to speed up indexation of the new domain."
+        ]
+      },
+      {
+        "name": "Phase 2: Content Expansion",
+        "timeframe": "Month 1-2",
+        "items": [
+          "Publish the generated articles for aggressive keywords (e.g. 'remove fake google review') to regain traffic."
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

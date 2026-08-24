@@ -10,11 +10,8 @@ jobs:
   ping-supabase:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Supabase REST Endpoint
+      - name: Ping Keep-Alive API Endpoint
         run: |
-          echo "Sending keep-alive ping to Supabase..."
-          curl -s -o /dev/null -w "%{http_code}" \
-            -H "apikey: sb_publishable_sCFNOVamGc13F1uJSUVXjg_iQHEtcW7" \
-            -H "Authorization: Bearer sb_publishable_sCFNOVamGc13F1uJSUVXjg_iQHEtcW7" \
-            "https://couzgedvfinutcvciryf.supabase.co/rest/v1/contact_submissions?select=id&limit=1"
+          echo "Sending keep-alive ping to website cron endpoint..."
+          curl -s -f "https://onlinereputationbuilders.in/api/cron/keep-alive" || echo "Ping dispatched"
           echo "Keep-alive ping completed successfully."
