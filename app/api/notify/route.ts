@@ -46,7 +46,7 @@ export async function POST(request: Request) {
     }
 
     // 1. SLACK NOTIFICATION DISPATCH
-    const slackWebhookUrl = process.env.SLACK_WEBHOOK_URL;
+    const slackWebhookUrl = process.env.NEXT_PUBLIC_SLACK_WEBHOOK_URL || process.env.SLACK_WEBHOOK_URL;
     if (slackWebhookUrl) {
       try {
         const formattedDate = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
