@@ -23,6 +23,7 @@ export async function POST(request: Request) {
       recaptchaToken
     } = data;
 
+    let captchaStatus = "Verified";
     // Verify reCAPTCHA token if Secret Key is provided
     if (process.env.RECAPTCHA_SECRET_KEY && recaptchaToken) {
       try {
@@ -35,11 +36,12 @@ export async function POST(request: Request) {
         });
         const verifyData = await verifyResponse.json();
         if (!verifyData.success) {
-          console.error("reCAPTCHA verification failed:", verifyData);
-          return NextResponse.json({ success: false, error: "Invalid reCAPTCHA" }, { status: 400 });
+          console.warn("reCAPTCHA check warning:", verifyData);
+          captchaStatus = "Unverified / Check Warning";
         }
       } catch (e) {
         console.error("Error verifying reCAPTCHA:", e);
+        captchaStatus = "Verification Skipped (Network)";
       }
     }
 

@@ -164,32 +164,54 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
     setErrorMessage(""); 
 
     try {
-      if (!supabaseUrl || !supabasePublishableKey) {
-        throw new Error("Supabase is not configured.");
+      const urlParams = new URLSearchParams(window.location.search);
+      const leadPayload = {
+        name: form.name.trim(),
+        email: form.email.trim(),
+        phone: form.phone.trim(),
+        country: form.country,
+        service: form.service,
+        message: form.message.trim() || null,
+        page_url: window.location.href,
+        referrer: typeof document !== "undefined" ? document.referrer : "",
+        utm_source: urlParams.get('utm_source'),
+        utm_medium: urlParams.get('utm_medium'),
+        utm_campaign: urlParams.get('utm_campaign'),
+        utm_term: urlParams.get('utm_term'),
+        utm_content: urlParams.get('utm_content'),
+        recaptchaToken: captchaToken
+      };
+
+      // 1. Immediately dispatch Slack & Email notifications via our backend API
+      const notifyPromise = fetch('/api/notify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(leadPayload)
+      }).catch(err => console.error("Notification API failed:", err));
+
+      // 2. In parallel, persist lead into Supabase
+      if (supabaseUrl && supabasePublishableKey) {
+        fetch(`${supabaseUrl}/rest/v1/${supabaseTable}`, {
+          method: "POST",
+          headers: {
+            apikey: supabasePublishableKey,
+            Authorization: `Bearer ${supabasePublishableKey}`,
+            "Content-Type": "application/json",
+            Prefer: "return=minimal",
+          },
+          body: JSON.stringify({
+            name: form.name.trim(),
+            email: form.email.trim(),
+            phone: form.phone.trim(),
+            country: form.country,
+            service: form.service,
+            message: form.message.trim() || null,
+            page_url: window.location.href,
+          }),
+        }).catch(err => console.error("Supabase insert background error:", err));
       }
 
-      const response = await fetch(`${supabaseUrl}/rest/v1/${supabaseTable}`, {
-        method: "POST",
-        headers: {
-          apikey: supabasePublishableKey,
-          Authorization: `Bearer ${supabasePublishableKey}`,
-          "Content-Type": "application/json",
-          Prefer: "return=minimal",
-        },
-        body: JSON.stringify({
-          name: form.name.trim(),
-          email: form.email.trim(),
-          phone: form.phone.trim(),
-          country: form.country,
-          service: form.service,
-          message: form.message.trim() || null,
-          page_url: window.location.href,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Unable to submit your request right now.");
-      }
+      await notifyPromise;
 
       // Track successful form submission event in Google Analytics (GA4)
       if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
@@ -208,29 +230,6 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           value: 1.0,
           currency: "INR",
         });
-      }
-
-      // BACKGROUND TASK: Send email notification with tracking metadata
-      try {
-        const urlParams = new URLSearchParams(window.location.search);
-        fetch('/api/notify', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            ...form,
-            page_url: window.location.href,
-            referrer: document.referrer,
-            utm_source: urlParams.get('utm_source'),
-            utm_medium: urlParams.get('utm_medium'),
-            utm_campaign: urlParams.get('utm_campaign'),
-            utm_term: urlParams.get('utm_term'),
-            utm_content: urlParams.get('utm_content'),
-            recaptchaToken: captchaToken
-          })
-        }).catch(err => console.error("Background email fetch failed:", err));
-      } catch (e) {
-        // Ignore errors in tracking so it doesn't break UI
-        console.error("Tracking error:", e);
       }
 
       setForm(initialForm);
