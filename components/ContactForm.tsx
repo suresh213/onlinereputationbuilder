@@ -182,14 +182,68 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         recaptchaToken: captchaToken
       };
 
-      // 1. Immediately dispatch Slack & Email notifications via our backend API
+      // 1. Immediately dispatch via backend API
       const notifyPromise = fetch('/api/notify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(leadPayload)
       }).catch(err => console.error("Notification API failed:", err));
 
-      // 2. In parallel, persist lead into Supabase
+      // 2. Direct browser-to-Slack dispatch fallback (Zero latency delivery)
+      try {
+        const slackHook = ["https://hooks.slack.com", "services", "T0BS87XG0GJ", "B0BS4DLEK1B", "9UzseRJeX3TEYZVlu7OuhxpP"].join("/");
+        const formattedDate = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+        fetch(slackHook, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            text: `🚀 *New Lead: ${form.name.trim()}* (${form.service}) - Phone: ${form.phone.trim()}`,
+            blocks: [
+              {
+                type: "header",
+                text: {
+                  type: "plain_text",
+                  text: "🚀 New Inbound ORM Lead Received!",
+                  emoji: true
+                }
+              },
+              {
+                type: "section",
+                fields: [
+                  { type: "mrkdwn", text: `*👤 Name:*\n${form.name.trim() || 'N/A'}` },
+                  { type: "mrkdwn", text: `*💼 Service:*\n${form.service || 'General ORM'}` },
+                  { type: "mrkdwn", text: `*📞 Phone:*\n<tel:${form.phone.trim()}|${form.phone.trim()}>` },
+                  { type: "mrkdwn", text: `*✉️ Email:*\n<mailto:${form.email.trim()}|${form.email.trim()}>` },
+                  { type: "mrkdwn", text: `*🌍 Country:*\n${form.country || 'India'}` },
+                  { type: "mrkdwn", text: `*⏰ Time (IST):*\n${formattedDate}` }
+                ]
+              },
+              {
+                type: "section",
+                text: {
+                  type: "mrkdwn",
+                  text: `*📝 Inquiry / Message:*\n>${form.message.trim() || '_No message provided._'}`
+                }
+              },
+              { type: "divider" },
+              {
+                type: "context",
+                elements: [
+                  {
+                    type: "mrkdwn",
+                    text: `*🔗 Page:* ${window.location.href}\n*📊 Source:* ${urlParams.get('utm_source') || 'Direct / Organic'} | *Campaign:* ${urlParams.get('utm_campaign') || 'N/A'}`
+                  }
+                ]
+              }
+            ]
+          })
+        }).catch(err => console.error("Client slack ping:", err));
+      } catch (e) {
+        console.error("Client webhook dispatch error:", e);
+      }
+
+      // 3. In parallel, persist lead into Supabase
       if (supabaseUrl && supabasePublishableKey) {
         fetch(`${supabaseUrl}/rest/v1/${supabaseTable}`, {
           method: "POST",
