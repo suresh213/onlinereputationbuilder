@@ -362,6 +362,36 @@ export default function BlogDetailPage({ params }: Props) {
       }
     : null;
 
+  // Extract FAQ items for Google FAQPage Rich Snippet Schema
+  const faqItems: { question: string; answer: string }[] = [];
+  for (let i = 0; i < post.content.length; i++) {
+    const block = post.content[i];
+    if (block.type === "heading" && block.text && block.text.toLowerCase().includes("frequently asked")) {
+      const nextBlock = post.content[i + 1];
+      if (nextBlock && nextBlock.type === "list" && Array.isArray(nextBlock.items)) {
+        for (const item of nextBlock.items) {
+          const match = item.match(/^Q:\s*(.*?)\s*A:\s*(.*)$/);
+          if (match) {
+            faqItems.push({ question: match[1].trim(), answer: match[2].trim() });
+          }
+        }
+      }
+    }
+  }
+
+  const faqSchema = faqItems.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <div className="font-body text-zinc-800 bg-white min-h-screen flex flex-col premium-home">
       {/* Schema Injection */}
@@ -377,6 +407,12 @@ export default function BlogDetailPage({ params }: Props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
 

@@ -346,6 +346,38 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Strategic SEO Pillars & Direct Authority Links */}
+      <div className="border-t border-white/8 py-6 px-4 bg-zinc-950/40">
+        <div className="max-w-7xl mx-auto">
+          <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Trending ORM Strategic Guides</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-400">
+            <Link href="/blog/how-much-does-reputation-management-cost" className="hover:text-brand-gold-light transition-colors">
+              💰 Cost of ORM in 2026 (Pricing Breakdown)
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/blog/best-orm-agency-in-india-2026" className="hover:text-brand-gold-light transition-colors">
+              🏆 Best ORM Agency in India
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/blog/how-to-remove-copyright-strike-from-aiplex-software" className="hover:text-brand-gold-light transition-colors">
+              🚨 Remove Aiplex Copyright Strike
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/blog/b2b-reputation-management" className="hover:text-brand-gold-light transition-colors">
+              💼 B2B Reputation Management
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/blog/franchise-reputation-management" className="hover:text-brand-gold-light transition-colors">
+              🏢 Franchise ORM Strategy
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/blog/remove-defamatory-online-reviews" className="hover:text-brand-gold-light transition-colors">
+              ⭐ Remove Fake Reviews
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-white/8 py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">

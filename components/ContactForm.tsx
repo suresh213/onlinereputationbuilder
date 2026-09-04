@@ -348,6 +348,29 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         </div>
         <div>
           <label className={labelCls}>Service Required</label>
+          <div className="flex flex-wrap gap-2 mb-2">
+            {[
+              { label: "🛡️ Fake Review Removal", val: "Remove Google/Glassdoor Reviews" },
+              { label: "📉 Suppress Search Results", val: "Remove Negative Search Results" },
+              { label: "🚨 Crisis & Defamation", val: "Crisis Management & PR" },
+              { label: "💼 Corporate & B2B ORM", val: "Business Reputation Management" }
+            ].map(chip => (
+              <button
+                key={chip.val}
+                type="button"
+                onClick={() => setForm({ ...form, service: chip.val })}
+                className={`text-xs px-2.5 py-1.5 rounded-lg border transition-all ${
+                  form.service === chip.val
+                    ? "bg-brand-gold text-white border-brand-gold font-semibold shadow-sm"
+                    : dark
+                    ? "bg-white/5 border-white/15 text-white/80 hover:bg-white/10"
+                    : "bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100"
+                }`}
+              >
+                {chip.label}
+              </button>
+            ))}
+          </div>
           <select className={inputCls} value={form.service} onChange={e => setForm({...form, service: e.target.value})} required>
             <option>Business Reputation Management</option>
             <option>Personal/Executive Reputation</option>
@@ -375,6 +398,22 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         <button type="submit" className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100" disabled={isSubmitting || !captchaToken}>
           {isSubmitting ? "Submitting..." : "Get Free Consultation →"}
         </button>
+
+        <div className="relative flex py-1 items-center">
+          <div className={`flex-grow border-t ${dark ? "border-white/10" : "border-gray-200"}`}></div>
+          <span className={`flex-shrink mx-3 text-[11px] uppercase tracking-wider font-semibold ${dark ? "text-white/40" : "text-gray-400"}`}>Or Direct WhatsApp</span>
+          <div className={`flex-grow border-t ${dark ? "border-white/10" : "border-gray-200"}`}></div>
+        </div>
+
+        <a
+          href="https://wa.me/918882788412?text=Hi,%20I%20need%20urgent%20confidential%20help%20with%20online%20reputation%20management."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-semibold text-xs transition-all shadow-sm"
+        >
+          <span>💬 Chat on WhatsApp (Instant Confidential Response)</span>
+        </a>
+
         <p className={`text-center text-xs ${dark ? "text-white/50" : "text-gray-400"}`}>
           🔒 Your information is 100% secure & confidential
         </p>
