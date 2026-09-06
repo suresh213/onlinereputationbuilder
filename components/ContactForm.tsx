@@ -149,7 +149,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const inputCls = `form-input ${dark ? "bg-white/10 border-white/20 text-white placeholder-white/50 focus:border-yellow-400" : ""}`;
-  const labelCls = `block text-xs font-semibold mb-1 uppercase tracking-wider ${dark ? "text-white/70" : "text-gray-500"}`;
+  const labelCls = `block text-[11px] font-semibold mb-0.5 uppercase tracking-wider ${dark ? "text-white/70" : "text-gray-500"}`;
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -267,8 +267,8 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         </div>
       )}
 
-      <form className="space-y-3" onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <form className="space-y-2.5" onSubmit={handleSubmit}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
           <div>
             <label className={labelCls}>Full Name</label>
             <input type="text" placeholder="Your name" className={inputCls} value={form.name} onChange={e => setForm({...form, name: e.target.value})} required/>
@@ -278,7 +278,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
             <input type="email" placeholder="your@email.com" className={inputCls} value={form.email} onChange={e => setForm({...form, email: e.target.value})} required/>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
           <div>
             <label className={labelCls}>Country</label>
             <select className={inputCls} value={form.country} onChange={e => setForm({...form, country: e.target.value})} required>
@@ -305,20 +305,22 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           </select>
         </div>
         <div>
-          <label className={labelCls}>Message (optional)</label>
-          <textarea rows={2} placeholder="Describe your situation..." className={inputCls} value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
+          <label className={labelCls}>Message / Case Details (optional)</label>
+          <input type="text" placeholder="Brief details (e.g. negative link removal, reviews...)" className={inputCls} value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
         </div>
         
-        <div className="flex justify-center my-2.5">
-          <ReCAPTCHA
-            ref={recaptchaRef}
-            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-            onChange={(token) => setCaptchaToken(token)}
-            theme={dark ? "dark" : "light"}
-          />
+        <div className="flex justify-center my-1 overflow-hidden">
+          <div className="transform scale-[0.82] origin-center -my-1.5">
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+              onChange={(token) => setCaptchaToken(token)}
+              theme={dark ? "dark" : "light"}
+            />
+          </div>
         </div>
 
-        <button type="submit" className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 py-3" disabled={isSubmitting || !captchaToken}>
+        <button type="submit" className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 py-2.5 text-sm font-semibold" disabled={isSubmitting || !captchaToken}>
           {isSubmitting ? "Submitting..." : "Get Free Consultation →"}
         </button>
 
@@ -326,12 +328,12 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           href="https://wa.me/918882788412?text=Hi,%20I%20need%20urgent%20confidential%20help%20with%20online%20reputation%20management."
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-semibold text-xs transition-all shadow-sm mt-2"
+          className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-semibold text-xs transition-all shadow-sm mt-1.5"
         >
-          <span>💬 Chat on WhatsApp (Instant Confidential Response)</span>
+          <span>💬 Chat on WhatsApp (Instant Response)</span>
         </a>
 
-        <p className={`text-center text-xs pt-1 ${dark ? "text-white/50" : "text-gray-400"}`}>
+        <p className={`text-center text-[11px] pt-0.5 ${dark ? "text-white/50" : "text-gray-400"}`}>
           🔒 Your information is 100% secure & confidential
         </p>
       </form>

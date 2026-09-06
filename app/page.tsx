@@ -147,10 +147,10 @@ export default function HomePage() {
           </div>
 
           {/* Right: Contact Form */}
-          <div className="premium-form-card bg-white border border-zinc-200 rounded-xl p-6 md:p-8">
+          <div className="premium-form-card bg-white border border-zinc-200 rounded-xl p-5 md:p-6 shadow-xl">
             <div className="form-card-orbit" />
-            <p className="section-label mb-2">Get Free Consultation</p>
-            <h2 className="font-heading text-xl font-bold text-brand-dark mb-5">Take Control of Your Online Reputation Today</h2>
+            <p className="section-label mb-1 text-[11px]">Get Free Consultation</p>
+            <h2 className="font-heading text-lg sm:text-xl font-bold text-brand-dark mb-3 leading-snug">Take Control of Your Online Reputation Today</h2>
             <ContactForm />
           </div>
         </div>
