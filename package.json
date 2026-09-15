@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "submit-indexnow": "node scripts/submit-indexnow.js"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.9",
