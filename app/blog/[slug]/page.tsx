@@ -149,8 +149,9 @@ export async function generateMetadata({ params }: Props) {
 }
 
 // Helper function to render text containing markdown-style links [text](url)
-function renderFormattedText(text: string) {
-  if (!text || !text.includes("[")) return text;
+function renderFormattedText(text?: string): React.ReactNode {
+  if (!text) return null;
+  if (!text.includes("[")) return text;
   const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
   const parts: (string | React.ReactNode)[] = [];
   let lastIndex = 0;
