@@ -89,8 +89,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/blog/celebrity-influencer-reputation-management",
         "/blog/personal-branding-corporate-executives",
         "/blog/healthcare-doctor-reputation-management",
+        "/blog/build-brand-better-review-alternatives-orm-india-2026",
+        "/blog/how-to-remove-negative-links-from-google-search-2026",
       ];
-      priority = highValueSlugs.includes(route) ? 0.8 : 0.7;
+      priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
       changefreq = "weekly";
     } else if (route === "/contact-us") {
       priority = 0.5;
