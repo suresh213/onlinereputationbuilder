@@ -276,7 +276,7 @@ export default function Footer() {
               { label: "Negative Review Removal", href: "/review-management/fake-review-removal" },
               { label: "Negative Video Removal", href: "/review-management/video-removal" },
               { label: "Negative Article Removal", href: "/review-management/news-article-removal-from-the-internet" },
-              { label: "Negative Link Removal", href: "/individual/remove-individual-negative-results" },
+              { label: "Negative Link Removal", href: "/review-management/negative-link-removal" },
               { label: "Business Solutions", href: "/business" },
               { label: "Individual Solutions", href: "/individual" },
               { label: "Crisis Management", href: "/business/crisis-management" },

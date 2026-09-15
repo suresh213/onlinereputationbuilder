@@ -110,6 +110,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/review-management/remove-glassdoor-review" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
             Glassdoor Review Removal
           </Link>
+          <Link href="/review-management/negative-link-removal" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
+            Negative Link Removal
+          </Link>
           <Link href="/blog/remove-defamatory-online-reviews" className="hover:text-brand-blue transition-colors underline underline-offset-2">
             How to Handle &amp; Remove Defamatory Reviews
           </Link>

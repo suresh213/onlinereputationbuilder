@@ -99,7 +99,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/review-management/fake-news-removal" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
             Fake News Removal
           </Link>
-          <Link href="/individual/remove-individual-negative-results" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
+          <Link href="/review-management/negative-link-removal" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
             Negative Link Removal
           </Link>
           <Link href="/blog/remove-fake-news-articles-google-search" className="hover:text-brand-blue transition-colors underline underline-offset-2">

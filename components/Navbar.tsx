@@ -684,6 +684,7 @@ const navItems = [
         title: "Content Removal",
         bgColor: "bg-brand-blue/5",
         links: [
+          { label: "Negative Link Removal", href: "/review-management/negative-link-removal" },
           { label: "Quora Content Removal", href: "/review-management/quora-content-removal" },
           { label: "Reddit Post Removal", href: "/review-management/reddit-post-removal" },
           { label: "Fake News Removal", href: "/review-management/fake-news-removal" },

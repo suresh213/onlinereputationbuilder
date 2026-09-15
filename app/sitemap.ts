@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/review-management/product-review-management",
     "/review-management/quora-content-removal",
     "/review-management/reddit-post-removal",
+    "/review-management/negative-link-removal",
     "/review-management/remove-glassdoor-review",
     "/review-management/reputation-monitoring",
     "/review-management/tiktok-video-and-post-removal",
