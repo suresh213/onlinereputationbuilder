@@ -193,18 +193,23 @@ export default function VideoRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center relative z-10">
           <div className="hero-copy mt-4">
             <RevealOnScroll>
+              <div className="mb-4 text-xs font-semibold text-zinc-400">
+                <Link href="/business/remove-negative-results" className="hover:text-brand-gold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2">
+                  ← Back to Master Negative Content Removal Hub
+                </Link>
+              </div>
               <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.67rem] font-bold mb-6 uppercase tracking-[0.15em] border-brand-gold/30 bg-brand-gold/10 text-brand-gold shadow-[0_0_15px_rgba(194,148,10,0.15)]">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
                 </span>
-                Video Removal Service
+                Negative Video Removal Services
               </div>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Remove Harmful Videos <span className="text-gradient-gold">Fast, Legally &amp; Permanently</span>
+                Negative Video Removal <span className="text-gradient-gold">from YouTube &amp; Google</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialist team removes defamatory, private, and damaging videos from YouTube, social media, and Google search - using proven legal methods and platform policy expertise.
+                Our specialist team executes negative video removal from YouTube, TikTok, Instagram, and Google search—using proven legal DMCA methods, privacy law violations, and platform policy enforcement.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (

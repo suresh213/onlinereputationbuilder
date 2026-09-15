@@ -272,11 +272,13 @@ export default function Footer() {
           <h3 className="text-white font-bold text-xs uppercase tracking-widest mb-5">Services</h3>
           <ul className="space-y-2.5">
             {[
+              { label: "Negative Content Removal", href: "/business/remove-negative-results" },
+              { label: "Negative Review Removal", href: "/review-management/fake-review-removal" },
+              { label: "Negative Video Removal", href: "/review-management/video-removal" },
+              { label: "Negative Article Removal", href: "/review-management/news-article-removal-from-the-internet" },
+              { label: "Negative Link Removal", href: "/individual/remove-individual-negative-results" },
               { label: "Business Solutions", href: "/business" },
               { label: "Individual Solutions", href: "/individual" },
-              { label: "Remove Content", href: "/business/remove-negative-results" },
-              { label: "Public Relation", href: "/public-relation" },
-              { label: "Review Management", href: "/review-management" },
               { label: "Crisis Management", href: "/business/crisis-management" },
               { label: "Reputation Audit", href: "/business/reputation-audit" },
             ].map((l) => (
@@ -349,6 +351,29 @@ export default function Footer() {
       {/* Strategic SEO Pillars & Direct Authority Links */}
       <div className="border-t border-white/8 py-6 px-4 bg-zinc-950/40">
         <div className="max-w-7xl mx-auto">
+          <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Negative Removal Solutions</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-300 mb-5">
+            <Link href="/business/remove-negative-results" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🛡️ Negative Content Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/fake-review-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              ⭐ Negative Review Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/video-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              📹 Negative Video Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/news-article-removal-from-the-internet" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              📰 Negative Article Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/individual/remove-individual-negative-results" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🔗 Negative Link Removal
+            </Link>
+          </div>
+
           <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Trending ORM Strategic Guides</p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-400">
             <Link href="/blog/how-much-does-reputation-management-cost" className="hover:text-brand-gold-light transition-colors">

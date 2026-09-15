@@ -148,26 +148,83 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
+// Helper function to render text containing markdown-style links [text](url)
+function renderFormattedText(text: string) {
+  if (!text || !text.includes("[")) return text;
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts: (string | React.ReactNode)[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const [_, linkText, url] = match;
+    parts.push(
+      <Link
+        key={`${match.index}-${url}`}
+        href={url}
+        className="text-brand-blue font-semibold underline underline-offset-2 hover:text-blue-700 transition-colors"
+      >
+        {linkText}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 // Maps each blog slug to a relevant service page for internal linking
 const serviceLinks: Record<string, { url: string; title: string; cta: string }> = {
+  "how-to-remove-copyright-strike-from-aiplex-software": {
+    url: "/review-management/video-removal",
+    title: "Negative Video & Copyright Removal Services",
+    cta: "Resolve Video Strike Now",
+  },
   "remove-fake-news-articles-google-search": {
-    url: "/review-management/fake-news-removal",
-    title: "Fake News & Defamatory Article Removal Service",
-    cta: "Get Professional Removal Help",
+    url: "/review-management/news-article-removal-from-the-internet",
+    title: "Negative News Article Removal Service",
+    cta: "Get Defamation Removal Help",
+  },
+  "removing-fake-news-articles-google": {
+    url: "/review-management/news-article-removal-from-the-internet",
+    title: "Negative News Article Removal Service",
+    cta: "Erase Fake News from Google",
   },
   "remove-negative-glassdoor-reviews-employers": {
     url: "/review-management/remove-glassdoor-review",
     title: "Glassdoor Review Removal & Repair Service",
     cta: "Restore Your Glassdoor Rating",
   },
+  "removing-defamatory-glassdoor-reviews": {
+    url: "/review-management/remove-glassdoor-review",
+    title: "Negative Glassdoor Review Removal (Employer Guide)",
+    cta: "Remove Defamatory Reviews",
+  },
   "google-play-app-store-review-management": {
     url: "/review-management/fake-review-removal",
-    title: "Fake Review Removal Service",
+    title: "Negative Review Removal Service",
     cta: "Remove Fake App Reviews Now",
+  },
+  "remove-fake-google-reviews-legal-solutions": {
+    url: "/review-management/fake-review-removal",
+    title: "Negative Google Review Removal Service",
+    cta: "Delete Fake Google Reviews",
+  },
+  "remove-negative-yelp-reviews-without-paying": {
+    url: "/review-management/fake-review-removal",
+    title: "Negative Yelp Review Removal Service",
+    cta: "Dispute Yelp Reviews Today",
   },
   "real-estate-developer-reputation-management": {
     url: "/business/remove-negative-results",
-    title: "Remove Negative Search Results",
+    title: "Negative Content Removal for Developers",
     cta: "Protect Your Developer Reputation",
   },
   "healthcare-doctor-reputation-management": {
@@ -175,9 +232,14 @@ const serviceLinks: Record<string, { url: string; title: string; cta: string }> 
     title: "Personal Branding Services for Doctors & Professionals",
     cta: "Build Your Medical Authority Online",
   },
+  "impact-negative-reviews-healthcare": {
+    url: "/review-management/fake-review-removal",
+    title: "Healthcare Negative Review Removal Service",
+    cta: "Protect Clinic Reputation",
+  },
   "law-firm-reputation-management": {
     url: "/business/remove-negative-results",
-    title: "Remove Negative Search Results for Law Firms",
+    title: "Negative Content Removal for Law Firms",
     cta: "Protect Your Legal Practice Reputation",
   },
   "financial-services-orm-fintech": {
@@ -210,20 +272,55 @@ const serviceLinks: Record<string, { url: string; title: string; cta: string }> 
     title: "Corporate Reputation Crisis Management Service",
     cta: "Get Emergency Crisis Management Help",
   },
+  "corporate-crisis-management-10-steps": {
+    url: "/business/crisis-management",
+    title: "Corporate Crisis Management & Containment",
+    cta: "Stop PR Disaster Now",
+  },
   "suppress-negative-search-results": {
     url: "/business/remove-negative-results",
-    title: "Remove & Suppress Negative Search Results",
-    cta: "Start Suppressing Negative Results Today",
+    title: "Negative Content Removal & Search Suppression",
+    cta: "Start Removing Negative Results Today",
+  },
+  "push-down-negative-search-results-google": {
+    url: "/individual/remove-individual-negative-results",
+    title: "Negative Link Removal & Search Suppression",
+    cta: "Push Down Negative Search Results",
   },
   "remove-defamatory-online-reviews": {
     url: "/review-management/fake-review-removal",
-    title: "Fake & Defamatory Review Removal Service",
+    title: "Negative Review Removal Service",
     cta: "Remove Defamatory Reviews Professionally",
   },
   "personal-branding-search-proof-image": {
     url: "/individual/personal-branding-services",
     title: "Personal Branding & Digital Authority Services",
     cta: "Build Your Search-Proof Personal Brand",
+  },
+  "ultimate-guide-online-reputation-management-2026": {
+    url: "/business/remove-negative-results",
+    title: "Negative Content Removal & Corporate ORM",
+    cta: "Clean Your Search Results",
+  },
+  "ripoff-report-removal-deindexing": {
+    url: "/business/remove-negative-results",
+    title: "Negative Content & Ripoff Report De-indexing",
+    cta: "De-index Ripoff Report Now",
+  },
+  "cost-online-reputation-management-services-india": {
+    url: "/business/remove-negative-results",
+    title: "Affordable Negative Content Removal Services",
+    cta: "Get Guaranteed Removal Pricing",
+  },
+  "removing-stolen-images-copyright-infringements": {
+    url: "/review-management/image-removal",
+    title: "Copyright Infringement & Stolen Image Removal",
+    cta: "Take Down Stolen Images",
+  },
+  "suppress-unwanted-arrest-records": {
+    url: "/individual/remove-private-info",
+    title: "Arrest Record & Private Information Removal",
+    cta: "Erase Personal Records from Google",
   },
 };
 
@@ -475,7 +572,7 @@ export default function BlogDetailPage({ params }: Props) {
                   case "paragraph":
                     return (
                       <p key={idx} className="text-zinc-600 leading-relaxed mb-6 text-base sm:text-lg">
-                        {block.text}
+                        {renderFormattedText(block.text)}
                       </p>
                     );
                   case "heading":
@@ -501,10 +598,10 @@ export default function BlogDetailPage({ params }: Props) {
                               <div>
                                 {normalText ? (
                                   <>
-                                    <strong className="text-zinc-900 font-semibold">{boldText}:</strong> {normalText}
+                                    <strong className="text-zinc-900 font-semibold">{boldText}:</strong> {renderFormattedText(normalText)}
                                   </>
                                 ) : (
-                                  item
+                                  renderFormattedText(item)
                                 )}
                               </div>
                             </li>
@@ -522,7 +619,7 @@ export default function BlogDetailPage({ params }: Props) {
                     return (
                       <div key={idx} className="bg-brand-blue/[0.03] border-l-4 border-brand-blue rounded-r-2xl p-6 my-8 text-sm sm:text-base text-zinc-700 leading-relaxed">
                         <strong className="text-brand-blue font-bold block mb-1">Important Highlight</strong>
-                        {block.text}
+                        {renderFormattedText(block.text)}
                       </div>
                     );
                   case "table":

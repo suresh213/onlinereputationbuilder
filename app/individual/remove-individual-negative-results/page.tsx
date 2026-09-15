@@ -185,22 +185,27 @@ export default function RemoveIndividualNegativeResultsPage() {
 
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center relative z-10">
           <div className="hero-copy mt-4">
+            <div className="mb-4 text-xs font-semibold text-zinc-400">
+              <Link href="/business/remove-negative-results" className="hover:text-brand-gold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2">
+                ← Back to Master Negative Content Removal Hub
+              </Link>
+            </div>
+
             <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.67rem] font-bold mb-6 uppercase tracking-[0.15em] border-brand-blue/30 bg-brand-blue/10 text-brand-blue shadow-[0_0_15px_rgba(37,99,235,0.15)]">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-blue opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-blue" />
               </span>
-              Protect Your Personal Name
+              Negative Link Removal Specialists
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Protect Your Online Reputation with Professional{" "}
-              <span className="text-gradient-gold">Negative Content</span>{" "}
-              Removal Services
+              Negative Link Removal Services:{" "}
+              <span className="text-gradient-gold">De-Index &amp; Push Down Bad Links</span>
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-              Are fake news articles or bad reviews ruining your life? We use legal and expert methods to delete bad links from Google so you can get your respect back.
+              Are damaging Google search links or negative URLs destroying your name? Our negative link removal services combine Google Outdated Content de-indexing with authoritative Reverse SEO suppression to permanently wipe harmful links from Google Page 1.
             </p>
 
             <ul className="space-y-3 mb-10 max-w-xl">

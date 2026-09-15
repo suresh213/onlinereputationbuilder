@@ -268,20 +268,25 @@ export default function NewsArticleRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center relative z-10">
           <div className="hero-copy mt-4">
             <RevealOnScroll>
+              <div className="mb-4 text-xs font-semibold text-zinc-400">
+                <Link href="/business/remove-negative-results" className="hover:text-brand-gold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2">
+                  ← Back to Master Negative Content Removal Hub
+                </Link>
+              </div>
               <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.67rem] font-bold mb-6 uppercase tracking-[0.15em] border-brand-gold/30 bg-brand-gold/10 text-brand-gold shadow-[0_0_15px_rgba(194,148,10,0.15)]">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
                 </span>
-                News Article Removal
+                Negative Article Removal Specialists
               </div>
 
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Take Down News Articles Quickly with <span className="text-gradient-gold">Trusted Experts</span>
+                Negative Article Removal <span className="text-gradient-gold">from Google &amp; News Sites</span>
               </h1>
 
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Effectively managing your online presence is essential to maintaining credibility in today's digital age. At Online Reputation Builder, our news article removal services are tailored to help you remove news articles and regain control of your narrative.
+                Negative news articles and defamatory press coverage can severely damage your credibility, fundraising, and career. Our negative article removal services negotiate editorial retractions, execute legal de-indexing, and deploy reverse SEO suppression to wipe damaging press from Google search.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

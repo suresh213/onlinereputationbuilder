@@ -183,20 +183,25 @@ export default function FakeReviewRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center relative z-10">
           <div className="hero-copy mt-4">
             <RevealOnScroll>
+              <div className="mb-4 text-xs font-semibold text-zinc-400">
+                <Link href="/business/remove-negative-results" className="hover:text-brand-gold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2">
+                  ← Back to Master Negative Content Removal Hub
+                </Link>
+              </div>
               <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.67rem] font-bold mb-6 uppercase tracking-[0.15em] border-red-500/30 bg-red-500/10 text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.15)]">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
                 </span>
-                Targeted Fake Review Removal
+                Negative Review Removal Specialists
               </div>
               
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-                Erase Malicious <span className="text-gradient-gold">Fake Reviews</span> Destroying Your Brand
+                Negative Review Removal <span className="text-gradient-gold">from Google &amp; Glassdoor</span>
               </h1>
               
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Competitors, disgruntled ex-employees, and internet trolls use fake reviews to sabotage your hard-earned reputation. We specialize in legally and technically forcing the removal of fraudulent ratings across Google, Trustpilot, Glassdoor, and Yelp to restore your true brand score.
+                Competitors, disgruntled ex-employees, and internet trolls use negative reviews to sabotage your hard-earned reputation. We specialize in legally and technically forcing negative review removal across Google Maps, Trustpilot, Glassdoor, and Yelp to restore your true brand score.
               </p>
 
               <ul className="space-y-3 mb-10 max-w-xl">

@@ -3060,7 +3060,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         "type": "paragraph",
-        "text": "Suppressing negative Google search results is one of the most impactful investments a business or individual can make in their long-term success. The process requires patience, consistency, and a multi-pronged approach that combines profile optimization, high-quality content creation, strategic media placements, and where applicable, direct legal removal. The businesses and individuals who reclaim their search presence are those who commit to the strategy for the long haul and treat their online reputation as an ongoing business function rather than a one-time fix. If you are ready to take control of what Google says about you, start with a thorough reputation audit today, claim every major platform profile, and begin publishing authoritative content that deserves to rank. Your reputation - and the revenue that depends on it - is worth defending."
+        "text": "Suppressing negative Google search results is one of the most impactful investments a business or individual can make in their long-term success. Depending on the type of damaging content affecting your search visibility, explore our dedicated solutions: [Negative Content Removal](/business/remove-negative-results) for comprehensive enterprise protection, [Negative Link Removal Services](/individual/remove-individual-negative-results) for suppressing harmful Google URLs, [Negative Review Removal](/review-management/fake-review-removal) for Google and Glassdoor scores, [Negative Article Removal](/review-management/news-article-removal-from-the-internet) for news media retractions, and [Negative Video Removal](/review-management/video-removal) for YouTube takedowns. The businesses and individuals who reclaim their search presence are those who commit to the strategy for the long haul. Your reputation—and the revenue that depends on it—is worth defending."
     }
 ],
   },
@@ -68393,7 +68393,11 @@ export const blogPosts: BlogPost[] = [
     },
     {
       "type": "paragraph",
-      "text": "For enterprise brands, media channels, and high-earning creators, managing malicious or repeated strikes requires experienced ORM specialists and cyber legal support. Online Reputation Builder provides expert copyright strike resolution, counter-notice drafting, and channel protection services to restore your digital assets rapidly."
+      "text": "For enterprise brands, media channels, and high-earning creators, managing malicious or repeated strikes requires experienced ORM specialists and cyber legal support. Online Reputation Builder provides expert [Negative Video Removal Services](/review-management/video-removal), dedicated [YouTube Video Removal](/review-management/youtube-video-removal), and comprehensive [Negative Content Removal](/business/remove-negative-results) to protect your brand and restore your digital assets rapidly."
+    },
+    {
+      "type": "callout",
+      "text": "Need urgent assistance with an unauthorized video takedown or copyright crisis? Explore our [Negative Video Removal Services](/review-management/video-removal) for confidential 24-48 hour intervention, or visit our [Negative Content Removal Hub](/business/remove-negative-results) to clean your Google search results permanently."
     }
   ]
 },

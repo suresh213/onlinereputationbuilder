@@ -233,15 +233,15 @@ export default function RemoveNegativeResultsPage() {
           <div className="hero-copy">
             <div className="hero-badge inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[0.7rem] font-bold mb-6 uppercase tracking-widest bg-brand-blue/10 border-brand-blue/30 text-brand-blue shadow-[0_0_15px_rgba(37,99,235,0.15)]">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse"></span>
-              🛡️ Negative Content Removal Experts
+              🛡️ Negative Content Removal Services
             </div>
             
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Clean Your Image on <span className="text-gradient-gold">Google Search</span>
+              Negative Content Removal <span className="text-gradient-gold">from Google Search</span>
             </h1>
             
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              Protect your business name. We quickly delete or hide bad search results, fake complaints, and negative articles.
+              Protect your personal and business brand. We permanently delete or suppress negative content, defamatory articles, fake reviews, slanderous videos, and damaging search links.
             </p>
 
             {/* Premium Info Panel */}
@@ -361,6 +361,69 @@ export default function RemoveNegativeResultsPage() {
                 <span className="font-bold text-xs text-zinc-800 text-center uppercase tracking-wider group-hover:text-brand-blue transition-colors relative z-10">{c.label}</span>
               </div>
             ))}
+          </div>
+
+          {/* Specialized Negative Removal Hubs Grid */}
+          <div className="mt-16 pt-16 border-t border-zinc-200">
+            <div className="text-center mb-12">
+              <p className="section-label text-brand-blue mb-2">Dedicated Removal Solutions</p>
+              <h3 className="font-heading text-2xl lg:text-3xl font-bold text-zinc-900">
+                Explore Our Specialized <span className="heading-script text-brand-gold">Removal Hubs</span>
+              </h3>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {[
+                {
+                  title: "Negative Review Removal",
+                  desc: "Delete fake 1-star ratings and defamatory reviews on Google Maps, Glassdoor, and Trustpilot with 100% legal policy enforcement.",
+                  link: "/review-management/fake-review-removal",
+                  badge: "Reviews & Ratings",
+                  cta: "Remove Bad Reviews"
+                },
+                {
+                  title: "Negative Video Removal",
+                  desc: "Take down defamatory YouTube videos, leaked clips, copyright strikes, and slanderous uploads with fast-track DMCA notices.",
+                  link: "/review-management/video-removal",
+                  badge: "YouTube & Media",
+                  cta: "Takedown Bad Videos"
+                },
+                {
+                  title: "Negative Article Removal",
+                  desc: "Remove negative news articles, press mentions, court records, and defamatory blogs from Google search permanently.",
+                  link: "/review-management/news-article-removal-from-the-internet",
+                  badge: "News & Press",
+                  cta: "Erase News Articles"
+                },
+                {
+                  title: "Negative Link Removal",
+                  desc: "De-index outdated URLs or push down damaging search results off Google Page 1 with authoritative Reverse SEO suppression.",
+                  link: "/individual/remove-individual-negative-results",
+                  badge: "Search De-indexing",
+                  cta: "Bury Negative Links"
+                },
+              ].map((hub) => (
+                <div key={hub.title} className="bg-zinc-50 border border-zinc-200 rounded-2xl p-6 flex flex-col justify-between hover:border-brand-blue hover:shadow-xl transition-all duration-300 group">
+                  <div>
+                    <span className="inline-block text-[0.65rem] font-bold uppercase tracking-widest text-brand-blue bg-brand-blue/10 px-2.5 py-1 rounded-md mb-3">
+                      {hub.badge}
+                    </span>
+                    <h4 className="font-heading font-bold text-lg text-zinc-900 mb-2 group-hover:text-brand-blue transition-colors">
+                      {hub.title}
+                    </h4>
+                    <p className="text-zinc-600 text-xs leading-relaxed mb-6">
+                      {hub.desc}
+                    </p>
+                  </div>
+                  <Link
+                    href={hub.link}
+                    className="text-xs font-bold text-brand-blue flex items-center gap-1.5 group-hover:gap-2.5 transition-all underline underline-offset-4"
+                  >
+                    {hub.cta} →
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
