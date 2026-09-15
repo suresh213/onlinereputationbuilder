@@ -136,14 +136,6 @@ export async function generateMetadata({ params }: Props) {
       "crisis communication strategy",
       "corporate reputation recovery"
     ],
-    "build-brand-better-review-alternatives-orm-india-2026": [
-      "build brand better reviews",
-      "build brand better complaints",
-      "buildbrandbetter alternative",
-      "buildbrandbetter io review",
-      "best ORM agency India",
-      "top reputation management companies India"
-    ],
     "how-to-remove-negative-links-from-google-search-2026": [
       "remove negative links from google",
       "delete search results google",

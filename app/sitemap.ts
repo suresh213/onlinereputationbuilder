@@ -89,7 +89,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/blog/celebrity-influencer-reputation-management",
         "/blog/personal-branding-corporate-executives",
         "/blog/healthcare-doctor-reputation-management",
-        "/blog/build-brand-better-review-alternatives-orm-india-2026",
         "/blog/how-to-remove-negative-links-from-google-search-2026",
       ];
       priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
