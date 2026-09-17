@@ -329,6 +329,19 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-semibold text-xs transition-all shadow-sm mt-1.5"
+          onClick={() => {
+            if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+              (window as any).gtag("event", "whatsapp_click", {
+                event_category: "Lead",
+                event_label: "Contact Form WhatsApp Click",
+              });
+              (window as any).gtag("event", "conversion", {
+                send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                value: 1.0,
+                currency: "INR",
+              });
+            }
+          }}
         >
           <span>💬 Chat on WhatsApp (Instant Response)</span>
         </a>

@@ -213,9 +213,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://images.unsplash.com" />
       </head>
       <body>
-        {/* Google Analytics (gtag.js) */}
+        {/* Google Analytics & Google Ads (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3HQP074NNT"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-406461196"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Online Reputation Management & Removal Services | Free Confidential Audit",
@@ -21,5 +22,22 @@ export default function ReputationManagementLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      {/* Google Ads Tag for direct PPC conversion tracking and enhanced attribution */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-406461196"
+        strategy="beforeInteractive"
+      />
+      <Script id="google-ads-ppc-init" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-406461196');
+        `}
+      </Script>
+      {children}
+    </>
+  );
 }

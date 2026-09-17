@@ -56,6 +56,11 @@ function StickyWA() {
               event_category: "Lead",
               event_label: "Sticky Mobile WhatsApp",
             });
+            (window as any).gtag("event", "conversion", {
+              send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+              value: 1.0,
+              currency: "INR",
+            });
           }
         }}
       >
@@ -141,6 +146,19 @@ export default function ReputationManagementPage() {
             <a
               href="tel:+918882788412"
               className="text-xs sm:text-sm font-bold text-white bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-3.5 py-1.5 rounded-xl transition-all flex items-center gap-2 shadow-sm"
+              onClick={() => {
+                if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                  (window as any).gtag("event", "click_call", {
+                    event_category: "Lead",
+                    event_label: "Header Phone Call",
+                  });
+                  (window as any).gtag("event", "conversion", {
+                    send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                    value: 1.0,
+                    currency: "INR",
+                  });
+                }
+              }}
             >
               <span className="text-yellow-400">📞</span>
               <span>+91 88827 88412</span>
@@ -230,6 +248,11 @@ export default function ReputationManagementPage() {
                         (window as any).gtag("event", "whatsapp_click", {
                           event_category: "Lead",
                           event_label: "Hero Desktop WhatsApp",
+                        });
+                        (window as any).gtag("event", "conversion", {
+                          send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                          value: 1.0,
+                          currency: "INR",
                         });
                       }
                     }}
@@ -645,6 +668,11 @@ export default function ReputationManagementPage() {
                   (window as any).gtag("event", "whatsapp_click", {
                     event_category: "Lead",
                     event_label: "Footer Strip WhatsApp",
+                  });
+                  (window as any).gtag("event", "conversion", {
+                    send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                    value: 1.0,
+                    currency: "INR",
                   });
                 }
               }}
