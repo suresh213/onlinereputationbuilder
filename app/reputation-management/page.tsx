@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 /* ── Animated stats counter ────────────────────────── */
@@ -95,35 +96,47 @@ export default function ReputationManagementPage() {
   return (
     <main className="min-h-screen bg-zinc-950 font-sans selection:bg-yellow-400/30 text-zinc-100">
 
-      {/* ── MINIMAL CONVERSION HEADER ──────────────────────────── */}
+      {/* ── CLEAN, ALIGNED NAVBAR WITH OFFICIAL LOGO ──────────── */}
       <header className="sticky top-0 z-40 border-b border-zinc-800/80 bg-zinc-950/95 backdrop-blur-md">
-        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="https://onlinereputationbuilders.in" className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-400 via-amber-500 to-yellow-600 flex items-center justify-center shadow-lg shadow-amber-500/20">
-              <span className="text-zinc-950 font-black text-xs tracking-wider">ORB</span>
+        <div className="max-w-6xl mx-auto px-4 h-16 sm:h-20 flex items-center justify-between">
+          
+          {/* Official Site Logo & Clean Typography */}
+          <a href="https://onlinereputationbuilders.in" className="flex items-center gap-2.5 sm:gap-3 group">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
+              <Image 
+                src="/logo-orm.webp"
+                alt="Online Reputation Builder Logo"
+                width={48}
+                height={48}
+                className="object-contain w-full h-full"
+                priority
+              />
             </div>
-            <div>
-              <span className="font-heading font-extrabold text-white text-base tracking-tight block leading-none">
-                Online Reputation Builder
+            <div className="leading-tight">
+              <span className="font-heading font-black text-white text-[0.85rem] sm:text-[1rem] block tracking-tight group-hover:text-yellow-400 transition-colors">
+                Online Reputation
               </span>
-              <span className="text-[10px] text-zinc-400 uppercase tracking-widest hidden sm:block">
-                Corporate Reputation & Search Defense
+              <span className="font-heading font-bold text-yellow-400 text-[0.7rem] sm:text-[0.8rem] block tracking-widest uppercase">
+                Builder
               </span>
             </div>
           </a>
 
+          {/* Right Header Controls */}
           <div className="flex items-center gap-3">
-            <div className="hidden sm:flex items-center gap-2 text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-3 py-1">
+            <div className="hidden sm:flex items-center gap-2 text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-3.5 py-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              Strict Confidentiality &amp; NDA
+              100% Strict NDA Protection
             </div>
             <a
               href="tel:+918882788412"
-              className="text-xs font-bold text-white bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 px-3.5 py-1.5 rounded-lg transition-all hidden md:flex items-center gap-1.5"
+              className="text-xs sm:text-sm font-bold text-white bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-4 py-2 rounded-xl transition-all flex items-center gap-2 shadow-sm"
             >
-              <span>📞 +91 88827 88412</span>
+              <span className="text-yellow-400">📞</span>
+              <span>+91 88827 88412</span>
             </a>
           </div>
+
         </div>
       </header>
 
@@ -141,14 +154,13 @@ export default function ReputationManagementPage() {
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-yellow-400/10 border border-yellow-400/30 mb-5">
                 <span className="w-2 h-2 rounded-full bg-yellow-400 animate-ping" />
                 <span className="text-yellow-400 font-bold text-[11px] uppercase tracking-wider">
-                  India's Top-Tier ORM Agency
+                  India's Top Rated ORM Agency
                 </span>
               </div>
 
-              {/* Exact Google Ads Match Headline */}
+              {/* Exact Google Ads Match Headline (No Em Dash) */}
               <h1 className="font-heading text-3xl sm:text-4xl lg:text-[2.75rem] font-black text-white leading-[1.12] mb-5 tracking-tight">
-                Online Reputation Management —{" "}
-                <span className="text-gradient-gold">Remove Damaging Results</span> &amp; Control Your Digital Narrative
+                Online Reputation Management: <span className="text-gradient-gold">Remove Damaging Results</span> &amp; Control Your Digital Narrative
               </h1>
 
               <p className="text-zinc-300 text-base sm:text-lg mb-7 leading-relaxed font-normal">
@@ -158,9 +170,9 @@ export default function ReputationManagementPage() {
               {/* Core Deliverables Checklist */}
               <ul className="space-y-3.5 mb-8">
                 {[
-                  "Permanent Removal of Fake Google, Glassdoor & AmbitionBox Reviews",
-                  "De-Indexing of Defamatory News Articles, Blogs & Outdated Legal Links",
-                  "Suppression & Removal of Slanderous YouTube Videos, Reddit & Quora Threads",
+                  "Permanent Removal of Fake Google, Glassdoor and AmbitionBox Reviews",
+                  "De-Indexing of Defamatory News Articles, Blogs and Outdated Legal Links",
+                  "Suppression and Removal of Slanderous YouTube Videos, Reddit and Quora Threads",
                   "Complete Brand Immunity with 24/7 Digital Narrative Monitoring",
                   "100% Client Discretion Guaranteed Under Strict Bilateral NDA",
                 ].map((point) => (
@@ -286,7 +298,7 @@ export default function ReputationManagementPage() {
               {
                 icon: "🛡️",
                 title: "Google Autocomplete Defense",
-                desc: "Displace damaging suggested search predictions (e.g. 'Brand Name Scam' or 'Fraud') with positive, authoritative search phrases.",
+                desc: "Displace damaging suggested search predictions (such as brand name scams or fraud) with positive, authoritative search phrases.",
               },
               {
                 icon: "📈",
@@ -329,7 +341,7 @@ export default function ReputationManagementPage() {
               {
                 step: "01",
                 title: "Search Forensic Audit",
-                desc: "We analyze all Page 1–5 search results, sentiment scores, and identify specific platform policy violations on negative assets.",
+                desc: "We analyze all Page 1 to 5 search results, sentiment scores, and identify specific platform policy violations on negative assets.",
               },
               {
                 step: "02",
@@ -430,14 +442,14 @@ export default function ReputationManagementPage() {
           <div className="space-y-3">
             <FAQItem
               q="How fast can negative Google reviews or links be removed?"
-              a="Timelines depend on the platform and nature of the content. Fake Google reviews are typically challenged and resolved within 7–21 business days. News article de-indexing or legal takedowns typically take 2–6 weeks. During our free audit, we provide an accurate timeline for your specific case."
+              a="Timelines depend on the platform and nature of the content. Fake Google reviews are typically challenged and resolved within 7 to 21 business days. News article de-indexing or legal takedowns typically take 2 to 6 weeks. During our free audit, we provide an accurate timeline for your specific case."
             />
             <FAQItem
               q="Is the removal permanent?"
               a="Yes. When content is removed via platform policy violations or legal de-indexing, it is permanently deleted from the source or removed from search engine indexes. We also implement ongoing monitoring to alert you if any new negative content emerges."
             />
             <FAQItem
-              q="Is our engagement kept confidential? (NDA)"
+              q="Is our engagement kept confidential under NDA?"
               a="Absolutely. Discretion is the cornerstone of our service. We sign strict non-disclosure agreements (NDAs) prior to commencing any work. We never disclose client names, case studies without express permission, or that an ORM firm was engaged."
             />
             <FAQItem
