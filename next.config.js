@@ -6,7 +6,16 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/free-consultation',
+        destination: '/reputation-management',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
