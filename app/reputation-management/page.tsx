@@ -178,13 +178,17 @@ export default function ReputationManagementPage() {
                 Negative Google reviews, defamatory articles, and unfair links destroy revenue. We forensically audit, de-index, and permanently suppress damaging digital content with <strong className="text-white font-semibold">100% legal confidentiality</strong>.
               </p>
 
-              {/* High-Impact Checklist */}
+              {/* High-Impact Checklist (8 Pointers) */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-6">
                 {[
                   "Remove Fake Google & Glassdoor Reviews",
                   "De-Index Defamatory News & Legal Articles",
                   "Takedown Slanderous YouTube & Reddit Posts",
-                  "Bilateral NDA & Complete Client Discretion",
+                  "Displace Negative Google Autocomplete Searches",
+                  "Suppress Damaging Forum & Consumer Complaints",
+                  "Push Down Unwanted Links Past Page 3",
+                  "24/7 Digital Narrative Monitoring & Alerts",
+                  "Bilateral NDA & 100% Legal Discretion",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2 text-xs sm:text-sm text-zinc-200 font-medium">
                     <span className="flex-shrink-0 w-4 h-4 rounded-full bg-yellow-400/15 border border-yellow-400/40 flex items-center justify-center">
@@ -213,29 +217,38 @@ export default function ReputationManagementPage() {
                 ))}
               </div>
 
-              {/* Direct WhatsApp Callout */}
-              <div className="hidden sm:flex items-center gap-3">
-                <a
-                  href="https://wa.me/918882788412?text=Hi%2C%20I%20need%20a%20confidential%20reputation%20audit%20and%20removal%20strategy%20for%20my%20business."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm transition-all shadow-md shadow-emerald-600/20 border border-emerald-400/30"
-                  onClick={() => {
-                    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-                      (window as any).gtag("event", "whatsapp_click", {
-                        event_category: "Lead",
-                        event_label: "Hero Desktop WhatsApp",
-                      });
-                    }
-                  }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 flex-shrink-0">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-                    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.116 1.525 5.843L.057 23.882a.5.5 0 00.61.65l6.238-1.637A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.001-1.354l-.36-.213-3.722.977.995-3.63-.234-.374A9.866 9.866 0 012.1 12C2.1 6.533 6.533 2.1 12 2.1S21.9 6.533 21.9 12 17.467 21.9 12 21.9z" />
-                  </svg>
-                  <span>Chat on WhatsApp (Instant Reply)</span>
-                </a>
-                <span className="text-xs text-zinc-400">Average response: under 15 mins</span>
+              {/* Direct WhatsApp Callout & Trust Row */}
+              <div className="hidden sm:block mt-6 pt-1">
+                <div className="flex items-center gap-3 mb-3">
+                  <a
+                    href="https://wa.me/918882788412?text=Hi%2C%20I%20need%20a%20confidential%20reputation%20audit%20and%20removal%20strategy%20for%20my%20business."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm transition-all shadow-md shadow-emerald-600/20 border border-emerald-400/30 hover:scale-[1.02]"
+                    onClick={() => {
+                      if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                        (window as any).gtag("event", "whatsapp_click", {
+                          event_category: "Lead",
+                          event_label: "Hero Desktop WhatsApp",
+                        });
+                      }
+                    }}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 flex-shrink-0">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.116 1.525 5.843L.057 23.882a.5.5 0 00.61.65l6.238-1.637A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.001-1.354l-.36-.213-3.722.977.995-3.63-.234-.374A9.866 9.866 0 012.1 12C2.1 6.533 6.533 2.1 12 2.1S21.9 6.533 21.9 12 17.467 21.9 12 21.9z" />
+                    </svg>
+                    <span>Chat on WhatsApp (Instant Reply)</span>
+                  </a>
+                  <span className="text-xs text-zinc-400">Average response: under 15 mins</span>
+                </div>
+                <div className="flex items-center gap-3 text-[11px] text-zinc-400 font-medium">
+                  <span className="flex items-center gap-1">🔒 100% Strict NDA</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">⚡ Emergency 24/7 Response</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">📋 Senior Director Review</span>
+                </div>
               </div>
             </div>
 
