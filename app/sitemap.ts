@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/individual/remove-individual-negative-results",
     "/individual/remove-private-info",
     "/public-relation",
+    "/reputation-management",
     "/review-management",
     "/review-management/ambitionbox-reputation-management",
     "/review-management/amplify-reviews",
