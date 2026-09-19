@@ -101,7 +101,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/blog/suppress-negative-search-results" className="hover:text-brand-blue transition-colors underline underline-offset-2">
             Suppressing Negative Search Results Guide
           </Link>
-          <Link href="/blog/push-down-negative-search-results-google" className="hover:text-brand-blue transition-colors underline underline-offset-2">
+          <Link href="/blog/how-to-push-down-negative-search-results" className="hover:text-brand-blue transition-colors underline underline-offset-2">
             How to Push Down Bad Links
           </Link>
         </div>
