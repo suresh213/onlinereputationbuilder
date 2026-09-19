@@ -34,8 +34,8 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   const [captchaToken, setCaptchaToken] = useState<string | null>(null);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
-  const inputCls = `form-input ${dark ? "bg-white/10 border-white/20 text-white placeholder-white/50 focus:border-yellow-400" : ""}`;
-  const labelCls = `block text-[11px] font-semibold mb-0.5 uppercase tracking-wider ${dark ? "text-white/70" : "text-gray-500"}`;
+  const inputCls = `form-input h-[42px] ${dark ? "bg-white/10 border-white/20 text-white placeholder-white/50 focus:border-yellow-400" : ""}`;
+  const labelCls = `block text-[11px] font-semibold mb-1 uppercase tracking-wider leading-tight ${dark ? "text-white/70" : "text-gray-500"}`;
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -173,7 +173,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
             <input type="email" placeholder="your@email.com" className={inputCls} value={form.email} onChange={e => setForm({...form, email: e.target.value})} required/>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-2.5">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-2.5 items-start">
           <div className="md:col-span-2">
             <label className={labelCls}>Country</label>
             <CountrySelect

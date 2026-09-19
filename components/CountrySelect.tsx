@@ -71,7 +71,7 @@ export default function CountrySelect({ value, onChange, dark = false }: Country
         onClick={() => setIsOpen(!isOpen)}
         aria-haspopup="listbox"
         aria-expanded={isOpen}
-        className={`form-input w-full flex items-center justify-between text-left cursor-pointer transition-all ${
+        className={`form-input h-[42px] w-full flex items-center justify-between text-left cursor-pointer transition-all ${
           dark
             ? "bg-white/10 border-white/20 text-white hover:border-white/40 focus:border-brand-gold"
             : "bg-white border-zinc-300 text-zinc-800 hover:border-zinc-400 focus:border-brand-blue"

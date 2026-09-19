@@ -292,6 +292,9 @@ body {
   background: #ffffff;
   color: #0f172a;
 }
+.form-input:not(textarea) {
+  height: 42px;
+}
 .form-input:focus {
   border-color: var(--brand-blue);
 }
