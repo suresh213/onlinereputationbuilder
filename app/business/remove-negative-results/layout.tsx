@@ -107,6 +107,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/blog/suppress-negative-search-results" className="hover:text-brand-blue transition-colors underline underline-offset-2">
             Search Suppression Guide
           </Link>
+          <Link href="/reputation-management" className="hover:text-brand-blue transition-colors underline underline-offset-2 font-medium text-zinc-700">
+            Reputation Management
+          </Link>
         </div>
       </div>
     </>

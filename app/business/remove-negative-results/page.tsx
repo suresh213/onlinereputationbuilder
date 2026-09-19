@@ -237,11 +237,11 @@ export default function RemoveNegativeResultsPage() {
             </div>
             
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.2rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Negative Content Removal <span className="text-gradient-gold">from Google Search</span>
+              Negative Content Removal Services <span className="text-gradient-gold">for Google Search</span>
             </h1>
             
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              Protect your personal and business brand. We permanently delete or suppress negative content, defamatory articles, fake reviews, slanderous videos, and damaging search links.
+              Protect your personal and business brand with specialized negative content removal services. We permanently delete or suppress defamatory articles, fake reviews, slanderous videos, court records, and damaging search links. Explore our holistic <Link href="/reputation-management" className="text-brand-gold font-semibold underline underline-offset-4 hover:text-amber-300 transition-colors">online reputation management solutions</Link> for end-to-end brand protection.
             </p>
 
             {/* Premium Info Panel */}
@@ -319,7 +319,7 @@ export default function RemoveNegativeResultsPage() {
               Bad articles on Google can stop new customers from calling you. People look at the first page of Google to decide if they should trust you.
             </p>
             <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-              If bad links are showing up when people search your name, we can fix it. Our team talks to website owners and uses Google policies to remove or hide those bad links forever.
+              If bad links or defamatory press are showing up when people search your name, our <Link href="/reputation-management" className="text-brand-blue font-semibold underline underline-offset-2 hover:text-blue-700">online reputation management</Link> specialists can fix it. Our team negotiates directly with webmasters and leverages Google legal policies to remove or suppress harmful links permanently.
             </p>
             <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)]">Start Suppression</Link>
           </div>
