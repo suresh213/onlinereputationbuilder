@@ -77,15 +77,15 @@ export default function CountrySelect({ value, onChange, dark = false }: Country
             : "bg-white border-zinc-300 text-zinc-800 hover:border-zinc-400 focus:border-brand-blue"
         } ${isOpen ? (dark ? "border-brand-gold ring-1 ring-brand-gold/30" : "border-brand-blue ring-1 ring-brand-blue/30") : ""}`}
       >
-        <span className="flex items-center gap-2 truncate text-xs sm:text-sm font-medium">
-          <span className="text-base leading-none select-none">{value.flag}</span>
+        <span className="flex items-center gap-1.5 truncate text-xs sm:text-sm font-medium min-w-0">
+          <span className="text-base leading-none select-none flex-shrink-0">{value.flag}</span>
           <span className="truncate">{value.name}</span>
-          <span className={`text-[11px] font-semibold ${dark ? "text-brand-gold" : "text-brand-blue"}`}>
+          <span className={`text-[11px] font-semibold flex-shrink-0 ${dark ? "text-brand-gold" : "text-brand-blue"}`}>
             ({value.dialCode})
           </span>
         </span>
         <svg
-          className={`w-3.5 h-3.5 flex-shrink-0 transition-transform duration-200 ${
+          className={`w-3.5 h-3.5 flex-shrink-0 ml-1 transition-transform duration-200 ${
             isOpen ? "transform rotate-180 text-brand-gold" : dark ? "text-zinc-400" : "text-zinc-500"
           }`}
           fill="none"
@@ -99,7 +99,7 @@ export default function CountrySelect({ value, onChange, dark = false }: Country
       {/* Dropdown Menu */}
       {isOpen && (
         <div
-          className={`absolute left-0 right-0 top-full mt-1.5 z-50 rounded-xl shadow-2xl border overflow-hidden transition-all animate-in fade-in-0 zoom-in-95 duration-150 ${
+          className={`absolute left-0 top-full mt-1.5 w-[280px] sm:w-[320px] max-w-[90vw] z-50 rounded-xl shadow-2xl border overflow-hidden transition-all animate-in fade-in-0 zoom-in-95 duration-150 ${
             dark
               ? "bg-zinc-950/95 backdrop-blur-xl border-zinc-700 text-white shadow-[0_20px_60px_rgba(0,0,0,0.8)]"
               : "bg-white border-zinc-200 text-zinc-900 shadow-[0_20px_50px_rgba(0,0,0,0.15)]"

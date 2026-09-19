@@ -173,8 +173,8 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
             <input type="email" placeholder="your@email.com" className={inputCls} value={form.email} onChange={e => setForm({...form, email: e.target.value})} required/>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-2.5">
+          <div className="md:col-span-2">
             <label className={labelCls}>Country</label>
             <CountrySelect
               value={selectedCountry}
@@ -188,30 +188,18 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
               dark={dark}
             />
           </div>
-          <div>
+          <div className="md:col-span-3">
             <label className={labelCls}>
               Phone Number <span className={`text-[10px] font-normal lowercase ${dark ? "text-brand-gold" : "text-brand-blue"}`}>(add country code)</span>
             </label>
-            <div className="relative flex items-center">
-              <span
-                className={`absolute left-3 text-xs font-semibold select-none pointer-events-none ${
-                  dark ? "text-brand-gold/90" : "text-brand-blue"
-                }`}
-              >
-                {selectedCountry.dialCode}
-              </span>
-              <input
-                type="tel"
-                placeholder="Phone number"
-                className={`${inputCls} pl-14`}
-                value={form.phone}
-                onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                required
-              />
-            </div>
-            <p className={`text-[10px] mt-1 ${dark ? "text-white/50" : "text-zinc-500"}`}>
-              Please include country code (e.g. {selectedCountry.dialCode} 98765 43210)
-            </p>
+            <input
+              type="tel"
+              placeholder="Phone number"
+              className={inputCls}
+              value={form.phone}
+              onChange={(e) => setForm({ ...form, phone: e.target.value })}
+              required
+            />
           </div>
         </div>
         <div>
