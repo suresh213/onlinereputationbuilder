@@ -405,7 +405,6 @@ export default function TwitterRemovalPage() {
 
       {/* ── FAQ ────────────────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted relative overflow-hidden">
-        {/* <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-white border-l border-zinc-100 pointer-events-none hidden lg:block" /> */}
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
             <RevealOnScroll>

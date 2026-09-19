@@ -281,7 +281,6 @@ export default function TikTokRemovalPage() {
               <div className="relative w-full max-w-lg mx-auto lg:ml-auto">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10" />
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
-                  {/* <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80" alt="TikTok Harmful Content Impact" className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700" /> */}
                   <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80" alt="TikTok Harmful Content Impact" className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="absolute -bottom-6 -right-6 z-20 glass-panel-light p-4 rounded-2xl border border-white shadow-xl hidden md:flex items-center gap-4">
