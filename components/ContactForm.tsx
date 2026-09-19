@@ -189,9 +189,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
             />
           </div>
           <div className="md:col-span-3">
-            <label className={labelCls}>
-              Phone Number <span className={`text-[10px] font-normal lowercase ${dark ? "text-brand-gold" : "text-brand-blue"}`}>(add country code)</span>
-            </label>
+            <label className={labelCls}>Phone Number</label>
             <input
               type="tel"
               placeholder="Phone number"
