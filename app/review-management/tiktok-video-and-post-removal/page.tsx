@@ -77,7 +77,7 @@ const expertProcess = [
 
 const faqs = [
   { q: "What types of TikTok content can you remove?", a: "We handle removal of defamatory videos, fake news posts, harassing content, copyright-infringing material, impersonation accounts, and any content that violates TikTok's community guidelines. We also assist with suppression of content that technically complies with policies but is damaging to your reputation." },
-  { q: "How long does TikTok video removal take?", a: "Timelines vary based on the type of content and grounds for removal. Platform-policy violations can be resolved within days. More complex cases involving legal channels may take 2–4 weeks. We deploy suppression strategies in parallel to minimise impact during the removal process." },
+  { q: "How long does TikTok video removal take?", a: "Timelines vary based on the type of content and grounds for removal. Platform-policy violations can be resolved within days. More complex cases involving legal channels may take 2-4 weeks. We deploy suppression strategies in parallel to minimise impact during the removal process." },
   { q: "Can you remove a TikTok video posted by someone else?", a: "Yes - we specialise in third-party content removal. We build documented cases citing TikTok's policies, copyright law, or defamation grounds and submit formal requests on your behalf. Where platform removal is refused, we pursue legal escalation and suppression strategies." },
   { q: "What if TikTok refuses to remove the content?", a: "We escalate through legal channels and simultaneously deploy suppression strategies - creating authoritative positive content that dominates TikTok search and recommendation results for your brand name, effectively burying the harmful video. Monitoring continues to prevent re-emergence." },
   { q: "Does removing TikTok content help my overall online reputation?", a: "Yes - removing or suppressing harmful TikTok content directly improves how your brand appears across the web, since TikTok videos often rank in Google search results as well. We track before-and-after results as part of our reporting." },
@@ -508,7 +508,7 @@ export default function TikTokRemovalPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to take down a viral TikTok video spreading false rumors about my brand?", answer: "We file priority appeals directly to TikTok's Trust and Safety team citing specific Community Guidelines violations—such as harassment or misinformation—which often results in rapid removal." },
+        { question: "How to take down a viral TikTok video spreading false rumors about my brand?", answer: "We file priority appeals directly to TikTok's Trust and Safety team citing specific Community Guidelines violations - such as harassment or misinformation - which often results in rapid removal." },
         { question: "Can I remove a TikTok duet or stitch that mocks me?", answer: "Absolutely. We utilize DMCA copyright claims if your original content is being misused, or report the content for bullying and harassment to get the offending duet or stitch deleted." }
       ]} />
       <Footer />

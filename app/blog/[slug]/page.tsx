@@ -263,7 +263,7 @@ const serviceLinks: Record<string, { url: string; title: string; cta: string }> 
   },
   "orm-tools-vs-professional-services-comparison": {
     url: "/business",
-    title: "Professional ORM Services — Full-Service Reputation Management",
+    title: "Professional ORM Services  -  Full-Service Reputation Management",
     cta: "See What a Full-Service ORM Agency Can Do",
   },
   "personal-branding-corporate-executives": {
@@ -340,7 +340,7 @@ export default function BlogDetailPage({ params }: Props) {
     notFound();
   }
 
-  // Get related posts (same category first, then others — excluding current post)
+  // Get related posts (same category first, then others  -  excluding current post)
   const relatedPosts = blogPosts
     .filter((p) => p.slug !== post.slug)
     .sort((a, b) => (a.category === post!.category ? -1 : 1))
@@ -660,7 +660,7 @@ export default function BlogDetailPage({ params }: Props) {
                     return null;
                 }
               })}
-              {/* Internal Service CTA — contextual link to relevant service page */}
+              {/* Internal Service CTA  -  contextual link to relevant service page */}
               {serviceLink && (
                 <div className="mt-10 rounded-2xl bg-gradient-to-br from-brand-blue/[0.06] to-brand-gold/[0.04] border border-brand-blue/20 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5">
                   <div className="w-12 h-12 rounded-xl bg-brand-blue flex items-center justify-center shrink-0 shadow-md">

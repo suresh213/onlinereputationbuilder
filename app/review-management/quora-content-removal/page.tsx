@@ -112,7 +112,7 @@ const managementMethods = [
 const faqs = [
   { q: "Can Quora content really affect my Google search results?", a: "Yes - Quora answers frequently rank on Google's first page because the platform has extremely high domain authority. A harmful or defamatory Quora thread about your brand or name can appear in top results for months or years, directly damaging first impressions of your business." },
   { q: "Is it possible to remove a Quora answer about me without my account?", a: "Quora allows reporting of content that violates its policies, including defamation, harassment, and misinformation. Our team files properly documented reports on your behalf, escalates to Quora's trust and safety team, and pursues further legal routes if the platform does not comply." },
-  { q: "How long does Quora content removal take?", a: "Simple removals for clear policy violations can take 1–3 weeks. More complex cases involving suppression or legal escalation may take 4–12 weeks. We provide regular progress updates so you're never left in the dark." },
+  { q: "How long does Quora content removal take?", a: "Simple removals for clear policy violations can take 1-3 weeks. More complex cases involving suppression or legal escalation may take 4-12 weeks. We provide regular progress updates so you're never left in the dark." },
   { q: "What if Quora refuses to remove the content?", a: "If direct removal is not achievable, we implement SEO suppression strategies - publishing optimized positive content across high-authority platforms to push the Quora thread beyond page one of Google, significantly reducing its visibility and impact." },
   { q: "Can you manage our ongoing Quora presence, not just remove content?", a: "Absolutely. We offer full Quora account management including profile optimization, answer creation, audience engagement, and continuous monitoring - building a strong, positive presence that proactively protects your reputation." },
 ];
@@ -621,7 +621,7 @@ export default function QuoraContentRemovalPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to delete a negative Quora answer about my business?", answer: "We report answers that violate Quora policies—such as defamation, harassment, or misinformation—and escalate the request to their support team to ensure permanent removal." },
+        { question: "How to delete a negative Quora answer about my business?", answer: "We report answers that violate Quora policies - such as defamation, harassment, or misinformation - and escalate the request to their support team to ensure permanent removal." },
         { question: "Can I remove a Quora thread if I don't own the account?", answer: "Yes. Our reputation management experts file well-documented policy violation reports on your behalf, and can also utilize search engine suppression tactics if Quora refuses removal." }
       ]} />
       <Footer />

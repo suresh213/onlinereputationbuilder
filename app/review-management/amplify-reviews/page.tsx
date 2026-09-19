@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "How quickly will I see results?",
-    a: "Most clients see a meaningful increase in review volume within the first 30 days. Rating improvements typically become significant within 60–90 days as positive volume accumulates.",
+    a: "Most clients see a meaningful increase in review volume within the first 30 days. Rating improvements typically become significant within 60-90 days as positive volume accumulates.",
   },
   {
     q: "Will this work for my industry?",

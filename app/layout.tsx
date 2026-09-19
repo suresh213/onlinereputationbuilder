@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Online Reputation Builder – Top ORM Company in India",
+    title: "Online Reputation Builder - Top ORM Company in India",
     description:
       "Protect & enhance your online reputation with India's Top ORM agency. Trusted by 1200+ clients.",
     images: ["/logo-orm.webp"],
@@ -185,23 +185,6 @@ export default function RootLayout({
                     "urlTemplate": `${siteUrl}/blog?q={search_term_string}`
                   },
                   "query-input": "required name=search_term_string"
-                }
-              },
-              {
-                "@context": "https://schema.org",
-                "@type": "AboutPage",
-                "name": "About Us",
-                "description": "Learn more about Online Reputation Builder, India's leading ORM agency.",
-                "url": `${siteUrl}/about`
-              },
-              {
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "headline": "Online Reputation Builder – Top ORM Company in India",
-                "keywords": "online reputation management company, online reputation management services, ORM agency, remove negative search results, brand reputation management",
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "Online Reputation Builder"
                 }
               }
             ]),

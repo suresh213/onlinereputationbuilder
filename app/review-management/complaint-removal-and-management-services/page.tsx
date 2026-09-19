@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How long does complaint removal take?",
-    a: "Timelines vary depending on the platform and complaint type, but most cases are resolved within 7–30 days. We provide a realistic timeline during your free initial assessment.",
+    a: "Timelines vary depending on the platform and complaint type, but most cases are resolved within 7-30 days. We provide a realistic timeline during your free initial assessment.",
   },
   {
     q: "Can all complaints be permanently removed?",

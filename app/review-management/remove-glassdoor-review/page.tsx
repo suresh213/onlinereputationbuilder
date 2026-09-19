@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "How long does Glassdoor review removal take?",
-    a: "Removal requests are typically processed within 14–30 days. Cases with clear policy violations are often resolved faster. We keep you updated throughout the process.",
+    a: "Removal requests are typically processed within 14-30 days. Cases with clear policy violations are often resolved faster. We keep you updated throughout the process.",
   },
   {
     q: "Can you help even if reviews seem genuine but are damaging?",

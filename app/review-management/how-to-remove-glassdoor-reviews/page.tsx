@@ -182,7 +182,7 @@ export default function HowToRemoveGlassdoorReviewsPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to delete a defamatory Glassdoor review from a disgruntled ex-employee?", answer: "We map the review against Glassdoor's community standards—flagging internal data leaks, personal attacks, or exaggerated claims—and file structural appeals to their compliance team for removal." },
+        { question: "How to delete a defamatory Glassdoor review from a disgruntled ex-employee?", answer: "We map the review against Glassdoor's community standards - flagging internal data leaks, personal attacks, or exaggerated claims - and file structural appeals to their compliance team for removal." },
         { question: "Can you help improve our Glassdoor rating after removing fake reviews?", answer: "Yes. After cleaning up the defamatory posts, we set up secure, automated feedback loops that encourage your genuine team members to post authentic reviews, naturally rebalancing your score." }
       ]} />
       <Footer />

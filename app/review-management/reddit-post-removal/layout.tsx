@@ -37,7 +37,7 @@ const faqSchema = {
       "name": "Can a Reddit post or comment be permanently deleted?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Reddit content can be removed permanently if it violates Reddit's Content Policy—including doxxing (posting personally identifiable information), targeted harassment, defamation, copyright infringement (DMCA), or subreddit-specific rules. We submit formal compliance appeals directly to Reddit Legal and subreddit moderators."
+        "text": "Yes. Reddit content can be removed permanently if it violates Reddit's Content Policy - including doxxing (posting personally identifiable information), targeted harassment, defamation, copyright infringement (DMCA), or subreddit-specific rules. We submit formal compliance appeals directly to Reddit Legal and subreddit moderators."
       }
     },
     {
@@ -61,7 +61,7 @@ const faqSchema = {
       "name": "Can Reddit threads be suppressed if direct removal is denied?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. By executing targeted Reverse SEO—ranking authoritative, positive personal or corporate web properties, PR assets, and high-DA profiles—we push the offending Reddit thread down to page 2 or 3 of Google where 99% of searchers never look."
+        "text": "Yes. By executing targeted Reverse SEO - ranking authoritative, positive personal or corporate web properties, PR assets, and high-DA profiles - we push the offending Reddit thread down to page 2 or 3 of Google where 99% of searchers never look."
       }
     }
   ]

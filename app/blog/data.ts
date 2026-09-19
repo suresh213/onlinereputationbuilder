@@ -3064,7 +3064,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         "type": "paragraph",
-        "text": "Suppressing negative Google search results is one of the most impactful investments a business or individual can make in their long-term success. Depending on the type of damaging content affecting your search visibility, explore our dedicated solutions: [Negative Content Removal](/business/remove-negative-results) for comprehensive enterprise protection, [Negative Link Removal Services](/individual/remove-individual-negative-results) for suppressing harmful Google URLs, [Negative Review Removal](/review-management/fake-review-removal) for Google and Glassdoor scores, [Negative Article Removal](/review-management/news-article-removal-from-the-internet) for news media retractions, and [Negative Video Removal](/review-management/video-removal) for YouTube takedowns. The businesses and individuals who reclaim their search presence are those who commit to the strategy for the long haul. Your reputation—and the revenue that depends on it—is worth defending."
+        "text": "Suppressing negative Google search results is one of the most impactful investments a business or individual can make in their long-term success. Depending on the type of damaging content affecting your search visibility, explore our dedicated solutions: [Negative Content Removal](/business/remove-negative-results) for comprehensive enterprise protection, [Negative Link Removal Services](/individual/remove-individual-negative-results) for suppressing harmful Google URLs, [Negative Review Removal](/review-management/fake-review-removal) for Google and Glassdoor scores, [Negative Article Removal](/review-management/news-article-removal-from-the-internet) for news media retractions, and [Negative Video Removal](/review-management/video-removal) for YouTube takedowns. The businesses and individuals who reclaim their search presence are those who commit to the strategy for the long haul. Your reputation - and the revenue that depends on it - is worth defending."
     }
 ],
   },
@@ -5089,7 +5089,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "personal-reputation-management-build-a-strong-online-identity",
     title: "Personal Reputation Management: How to Build a Strong Online Identity in 2026",
-    excerpt: "In 2026, your online reputation is no longer just a digital business card—it is your digital currency. Whether you are an executive seeking a board po...",
+    excerpt: "In 2026, your online reputation is no longer just a digital business card - it is your digital currency. Whether you are an executive seeking a board po...",
     category: "Individual",
     readTime: "15 min read",
     date: "July 6, 2026",
@@ -6089,7 +6089,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "reputation-management-for-professionals-protecting-your-personal-brand",
     title: "Reputation Management For Professionals Protecting Your Personal Brand in 2026",
-    excerpt: "For modern professionals in 2026—whether you are a senior corporate executive, a specialized consultant, a financial advisor, or a freelance creative—...",
+    excerpt: "For modern professionals in 2026 - whether you are a senior corporate executive, a specialized consultant, a financial advisor, or a freelance creative - ...",
     category: "Individual",
     readTime: "15 min read",
     date: "July 6, 2026",
@@ -7583,7 +7583,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "reputation-management-for-small-businesses",
     title: "Reputation Management For Small Businesses in 2026",
-    excerpt: "For a small business in 2026—whether you operate a local bakery, an independent accounting firm, a landscaping service, or a boutique fitness studio—t...",
+    excerpt: "For a small business in 2026 - whether you operate a local bakery, an independent accounting firm, a landscaping service, or a boutique fitness studio - t...",
     category: "Local",
     readTime: "15 min read",
     date: "July 6, 2026",
@@ -7812,10 +7812,10 @@ export const blogPosts: BlogPost[] = [
     {
         "type": "list",
         "items": [
-            "Tier 1: Local Review Generation & Google Maps SEO — $250 to $600 / month (Rs 20,000 to Rs 50,000 / month)",
-            "Tier 2: Mid-Market Negative Search Suppression & Personal Branding — $1,500 to $5,000 / month (Rs 1,20,000 to Rs 4,00,000 / month)",
-            "Tier 3: Enterprise Crisis PR, Defamation Removal & High-Net-Worth Protection — $7,500 to $30,000+ / month (Rs 6,00,000 to Rs 25,00,000+ / month)",
-            "One-Time Pay-per-Removal (Review Takedowns / Ripoff Report De-indexing) — $1,000 to $5,000 per confirmed deletion or de-indexing"
+            "Tier 1: Local Review Generation & Google Maps SEO  -  $250 to $600 / month (Rs 20,000 to Rs 50,000 / month)",
+            "Tier 2: Mid-Market Negative Search Suppression & Personal Branding  -  $1,500 to $5,000 / month (Rs 1,20,000 to Rs 4,00,000 / month)",
+            "Tier 3: Enterprise Crisis PR, Defamation Removal & High-Net-Worth Protection  -  $7,500 to $30,000+ / month (Rs 6,00,000 to Rs 25,00,000+ / month)",
+            "One-Time Pay-per-Removal (Review Takedowns / Ripoff Report De-indexing)  -  $1,000 to $5,000 per confirmed deletion or de-indexing"
         ]
     },
     {
@@ -7851,7 +7851,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         "type": "paragraph",
-        "text": "When a Fortune 500 company, a high-net-worth individual, or a prominent politician faces a severe digital crisis—such as a front-page article in the New York Times detailing a scandal, a massive short-and-distort financial campaign, or a highly viral defamatory deepfake—they require Tier 3 intervention. This is the realm of elite, highly technical crisis management."
+        "text": "When a Fortune 500 company, a high-net-worth individual, or a prominent politician faces a severe digital crisis - such as a front-page article in the New York Times detailing a scandal, a massive short-and-distort financial campaign, or a highly viral defamatory deepfake - they require Tier 3 intervention. This is the realm of elite, highly technical crisis management."
     },
     {
         "type": "paragraph",
@@ -7906,7 +7906,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         "type": "paragraph",
-        "text": "When balking at a $5,000 monthly ORM retainer, executives frequently fail to calculate the invisible, compounding costs of a damaged reputation. These hidden costs are often far more devastating than the upfront price of the ORM service. For example, consider the impact on talent acquisition. If a company has a 2.1-star rating on Glassdoor, top-tier engineering and sales talent will refuse to accept job offers. To fill critical roles, the company is forced to pay a 'reputation tax'—offering salaries 15% to 20% higher than market average just to convince mediocre candidates to join a toxic environment. Similarly, a poor reputation elongates B2B sales cycles, requiring the sales team to spend twice as many hours overcoming trust objections to close a single deal. The true cost of reputation management is not the invoice from the agency; it is the massive, unquantified financial bleeding occurring every single day the crisis is left unresolved."
+        "text": "When balking at a $5,000 monthly ORM retainer, executives frequently fail to calculate the invisible, compounding costs of a damaged reputation. These hidden costs are often far more devastating than the upfront price of the ORM service. For example, consider the impact on talent acquisition. If a company has a 2.1-star rating on Glassdoor, top-tier engineering and sales talent will refuse to accept job offers. To fill critical roles, the company is forced to pay a 'reputation tax' - offering salaries 15% to 20% higher than market average just to convince mediocre candidates to join a toxic environment. Similarly, a poor reputation elongates B2B sales cycles, requiring the sales team to spend twice as many hours overcoming trust objections to close a single deal. The true cost of reputation management is not the invoice from the agency; it is the massive, unquantified financial bleeding occurring every single day the crisis is left unresolved."
     }
 ]
   },
@@ -9365,7 +9365,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "financial-services-reputation-management",
     title: "Financial Services Reputation Management",
-    excerpt: "In the financial services sector—encompassing wealth management, investment banking, insurance, and retail banking—trust is not merely a marketing buz...",
+    excerpt: "In the financial services sector - encompassing wealth management, investment banking, insurance, and retail banking - trust is not merely a marketing buz...",
     category: "Corporate",
     readTime: "15 min read",
     date: "July 6, 2026",
@@ -9547,7 +9547,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "b2b-reputation-management",
     title: "B2B Reputation Management Strategies",
-    excerpt: "In the Business-to-Consumer (B2C) world, reputation management is largely a volume game—amassing thousands of star ratings to influence quick, low-sta...",
+    excerpt: "In the Business-to-Consumer (B2C) world, reputation management is largely a volume game - amassing thousands of star ratings to influence quick, low-sta...",
     category: "Corporate",
     readTime: "15 min read",
     date: "July 6, 2026",
@@ -10828,7 +10828,7 @@ export const blogPosts: BlogPost[] = [
 {
     slug: "why-is-managing-your-online-reputation-essential",
     title: "Why Managing Your Online Reputation is Essential in 2026",
-    excerpt: "For over a decade, the business world treated online reputation management (ORM) as a luxury—a specialized PR function reserved for massive corporatio...",
+    excerpt: "For over a decade, the business world treated online reputation management (ORM) as a luxury - a specialized PR function reserved for massive corporatio...",
     category: "Strategy",
     readTime: "15 min read",
     date: "July 7, 2026",

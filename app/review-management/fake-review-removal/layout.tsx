@@ -31,7 +31,7 @@ const faqSchema = {
       "name": "Can negative reviews be removed from Google?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Google removes reviews that violate their Prohibited and Restricted Content policies—including fake consumer experiences, competitor conflicts of interest, defamatory allegations, offensive hate speech, and off-topic commentary. Policy-violating negative reviews are escalated through Google Business Profile support and legal request portals, typically removed within 2 to 5 business days."
+        "text": "Yes. Google removes reviews that violate their Prohibited and Restricted Content policies - including fake consumer experiences, competitor conflicts of interest, defamatory allegations, offensive hate speech, and off-topic commentary. Policy-violating negative reviews are escalated through Google Business Profile support and legal request portals, typically removed within 2 to 5 business days."
       }
     },
     {

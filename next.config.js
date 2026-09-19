@@ -2,7 +2,12 @@
 const nextConfig = {
   images: {
     unoptimized: true,
-    domains: ['onlinereputationbuilders.in']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'onlinereputationbuilders.in',
+      },
+    ],
   },
   experimental: {
     optimizeCss: true

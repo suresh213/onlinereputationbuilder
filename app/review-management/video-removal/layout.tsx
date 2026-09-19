@@ -39,7 +39,7 @@ const faqSchema = {
       "name": "Can you remove a negative YouTube video without the uploader's permission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. When a video breaches platform Terms of Service—such as defamation, harassment, copyright infringement, trademark abuse, or privacy violations—YouTube and hosting platforms will permanently delete the video directly upon receiving validated legal and compliance submissions."
+        "text": "Yes. When a video breaches platform Terms of Service - such as defamation, harassment, copyright infringement, trademark abuse, or privacy violations - YouTube and hosting platforms will permanently delete the video directly upon receiving validated legal and compliance submissions."
       }
     },
     {

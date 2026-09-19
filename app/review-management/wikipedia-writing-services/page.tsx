@@ -28,17 +28,17 @@ const stats = [
 const impacts = [
   {
     title: "Lack of Wikipedia Presence Hurts Credibility",
-    desc: "When prospects, journalists, and investors search for your brand or name, a Wikipedia page signals legitimacy at the highest level. Its absence — when competitors have one — creates an immediate credibility gap that is difficult to overcome.",
+    desc: "When prospects, journalists, and investors search for your brand or name, a Wikipedia page signals legitimacy at the highest level. Its absence  -  when competitors have one  -  creates an immediate credibility gap that is difficult to overcome.",
     icon: "🌐",
   },
   {
     title: "Wikipedia Controls How Google Describes You",
-    desc: "Google's Knowledge Panel — the information box that appears on the right of search results — is primarily drawn from Wikipedia. Without a page, you have no control over your first impression on the world's most visited search engine.",
+    desc: "Google's Knowledge Panel  -  the information box that appears on the right of search results  -  is primarily drawn from Wikipedia. Without a page, you have no control over your first impression on the world's most visited search engine.",
     icon: "🔎",
   },
   {
     title: "DIY Submissions Are Routinely Deleted",
-    desc: "Wikipedia has strict notability and neutrality requirements. Articles created without expert knowledge of its guidelines are rejected or deleted within days. Professional creation is not a luxury — it is a necessity for successful publication.",
+    desc: "Wikipedia has strict notability and neutrality requirements. Articles created without expert knowledge of its guidelines are rejected or deleted within days. Professional creation is not a luxury  -  it is a necessity for successful publication.",
     icon: "⚠️",
   },
 ];
@@ -47,7 +47,7 @@ const services = [
   {
     step: "01",
     title: "Notability Assessment",
-    desc: "Before writing a single word, we conduct a thorough notability assessment — reviewing your press coverage, citations, and public record to determine the strongest possible case for a Wikipedia article.",
+    desc: "Before writing a single word, we conduct a thorough notability assessment  -  reviewing your press coverage, citations, and public record to determine the strongest possible case for a Wikipedia article.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
     ),
@@ -55,7 +55,7 @@ const services = [
   {
     step: "02",
     title: "Expert Wikipedia Authoring",
-    desc: "Our experienced Wikipedia editors write your article in strict compliance with Wikipedia's neutral point of view, verifiability, and notability policies — maximising the probability of successful publication and retention.",
+    desc: "Our experienced Wikipedia editors write your article in strict compliance with Wikipedia's neutral point of view, verifiability, and notability policies  -  maximising the probability of successful publication and retention.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
     ),
@@ -63,7 +63,7 @@ const services = [
   {
     step: "03",
     title: "Citation & Source Building",
-    desc: "Wikipedia requires every claim to be supported by reliable, independent sources. We research, compile, and properly format all citations — from news articles and industry publications to academic references.",
+    desc: "Wikipedia requires every claim to be supported by reliable, independent sources. We research, compile, and properly format all citations  -  from news articles and industry publications to academic references.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
     ),
@@ -71,7 +71,7 @@ const services = [
   {
     step: "04",
     title: "Submission, Publishing & Monitoring",
-    desc: "We manage the full Wikipedia submission and review process, responding to editor queries on your behalf. Post-publication, we monitor for vandalism, edit wars, and deletion nominations — keeping your article live and accurate.",
+    desc: "We manage the full Wikipedia submission and review process, responding to editor queries on your behalf. Post-publication, we monitor for vandalism, edit wars, and deletion nominations  -  keeping your article live and accurate.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
     ),
@@ -81,7 +81,7 @@ const services = [
 const articleTypes = [
   {
     title: "Business & Company Articles",
-    desc: "Establish your company on Wikipedia with a professionally written article covering your history, products, leadership, and industry recognition — fully sourced and policy-compliant.",
+    desc: "Establish your company on Wikipedia with a professionally written article covering your history, products, leadership, and industry recognition  -  fully sourced and policy-compliant.",
   },
   {
     title: "Personal & Executive Profiles",
@@ -100,28 +100,28 @@ const articleTypes = [
 const whyUs = [
   {
     title: "Wikipedia Policy Experts",
-    desc: "Our team includes experienced Wikipedia editors with deep knowledge of notability guidelines, neutral point of view policy, and the Wikipedia review process — giving your article the highest chance of success.",
+    desc: "Our team includes experienced Wikipedia editors with deep knowledge of notability guidelines, neutral point of view policy, and the Wikipedia review process  -  giving your article the highest chance of success.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
   },
   {
     title: "Honest Eligibility Assessment",
-    desc: "We will always tell you honestly whether your subject meets Wikipedia's notability criteria before taking your project. We never take work we cannot deliver — protecting both your time and your money.",
+    desc: "We will always tell you honestly whether your subject meets Wikipedia's notability criteria before taking your project. We never take work we cannot deliver  -  protecting both your time and your money.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
     ),
   },
   {
     title: "Full Disclosure Compliance",
-    desc: "We operate in full compliance with Wikipedia's paid editing disclosure requirements. All work is conducted transparently and ethically — protecting you from future article challenges.",
+    desc: "We operate in full compliance with Wikipedia's paid editing disclosure requirements. All work is conducted transparently and ethically  -  protecting you from future article challenges.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
     ),
   },
   {
     title: "Post-Publication Protection",
-    desc: "Wikipedia articles require ongoing care. We provide long-term monitoring to protect against vandalism, biased edits, deletion nominations, and outdated content — keeping your article accurate and live.",
+    desc: "Wikipedia articles require ongoing care. We provide long-term monitoring to protect against vandalism, biased edits, deletion nominations, and outdated content  -  keeping your article accurate and live.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
     ),
@@ -131,15 +131,15 @@ const whyUs = [
 const faqs = [
   {
     q: "Does my business qualify for a Wikipedia article?",
-    a: "Eligibility depends on Wikipedia's notability guidelines — primarily whether your business has received significant coverage in reliable, independent sources such as major news outlets, industry publications, or academic references. We conduct a free notability assessment before any project begins.",
+    a: "Eligibility depends on Wikipedia's notability guidelines  -  primarily whether your business has received significant coverage in reliable, independent sources such as major news outlets, industry publications, or academic references. We conduct a free notability assessment before any project begins.",
   },
   {
     q: "How long does it take to get a Wikipedia article published?",
-    a: "The typical timeline from project start to publication is 4–8 weeks. This includes research, writing, citation building, submission, and responding to any Wikipedia reviewer queries. Complex subjects or limited source availability can extend this.",
+    a: "The typical timeline from project start to publication is 4-8 weeks. This includes research, writing, citation building, submission, and responding to any Wikipedia reviewer queries. Complex subjects or limited source availability can extend this.",
   },
   {
     q: "Can a Wikipedia article be deleted after it is published?",
-    a: "Yes — Wikipedia articles can be nominated for deletion if they are later deemed non-notable or poorly sourced. Our ongoing monitoring service protects against this, and we rebuild the strongest possible sourced foundation to minimise deletion risk from the outset.",
+    a: "Yes  -  Wikipedia articles can be nominated for deletion if they are later deemed non-notable or poorly sourced. Our ongoing monitoring service protects against this, and we rebuild the strongest possible sourced foundation to minimise deletion risk from the outset.",
   },
   {
     q: "Is paid Wikipedia editing allowed?",
@@ -147,7 +147,7 @@ const faqs = [
   },
   {
     q: "Can you improve or update an existing Wikipedia article?",
-    a: "Absolutely. We edit existing articles to improve sourcing, update outdated information, address deletion or neutrality notices, and expand coverage — bringing the article fully up to Wikipedia's current standards.",
+    a: "Absolutely. We edit existing articles to improve sourcing, update outdated information, address deletion or neutrality notices, and expand coverage  -  bringing the article fully up to Wikipedia's current standards.",
   },
 ];
 
@@ -204,7 +204,7 @@ export default function WikipediaWritingServicesPage() {
                 Best Wikipedia Writing Services Company in <span className="text-gradient-gold">Kolkata, India</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Establish unassailable credibility with a professionally written, policy-compliant Wikipedia article. We create, publish, and protect Wikipedia pages for businesses, brands, and executives — with a proven track record of successful publication.
+                Establish unassailable credibility with a professionally written, policy-compliant Wikipedia article. We create, publish, and protect Wikipedia pages for businesses, brands, and executives  -  with a proven track record of successful publication.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
@@ -249,10 +249,10 @@ export default function WikipediaWritingServicesPage() {
                 Wikipedia Is the World&apos;s <span className="heading-script text-brand-blue">Most Trusted Credibility Signal</span>
               </h2>
               <p className="text-zinc-500 leading-relaxed mb-6 text-[0.95rem]">
-                Wikipedia is the fifth most visited website in the world and the primary source Google draws on for its Knowledge Panel. A Wikipedia presence doesn&apos;t just build credibility — it controls the narrative that appears when anyone searches for your brand, company, or name.
+                Wikipedia is the fifth most visited website in the world and the primary source Google draws on for its Knowledge Panel. A Wikipedia presence doesn&apos;t just build credibility  -  it controls the narrative that appears when anyone searches for your brand, company, or name.
               </p>
               <p className="text-zinc-500 leading-relaxed mb-8 text-[0.95rem]">
-                Our team of expert Wikipedia editors has successfully published hundreds of articles for businesses and public figures across India and internationally — navigating Wikipedia&apos;s strict policies to deliver pages that stay live, stay accurate, and stay protected.
+                Our team of expert Wikipedia editors has successfully published hundreds of articles for businesses and public figures across India and internationally  -  navigating Wikipedia&apos;s strict policies to deliver pages that stay live, stay accurate, and stay protected.
               </p>
               <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-10 py-3.5 inline-block">Check My Eligibility Free</Link>
             </div>
@@ -407,7 +407,7 @@ export default function WikipediaWritingServicesPage() {
               <div className="sticky top-24">
                 <p className="section-label mb-2">Common Questions</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">Wikipedia Writing <span className="heading-script text-brand-blue">FAQs</span></h2>
-                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about your Wikipedia eligibility or project? Get a free notability assessment — no obligation.</p>
+                <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">Have questions about your Wikipedia eligibility or project? Get a free notability assessment  -  no obligation.</p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                   Call Us Now
@@ -436,7 +436,7 @@ export default function WikipediaWritingServicesPage() {
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
                 Establish Your Wikipedia Presence <span className="heading-script text-blue-400">and Own Your Narrative</span>
               </h2>
-              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free notability assessment today. Our Wikipedia experts will review your eligibility and present a clear publishing plan — with no obligation.</p>
+              <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">Get a free notability assessment today. Our Wikipedia experts will review your eligibility and present a clear publishing plan  -  with no obligation.</p>
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
                   { label: "Direct Hotline (24/7)", value: "+91 88827 88412", href: "tel:+918882788412", icon: "📞" },

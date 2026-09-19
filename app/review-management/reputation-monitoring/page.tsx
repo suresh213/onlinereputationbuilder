@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "How quickly will I be alerted to new mentions?",
-    a: "Our system detects most new mentions within 15–30 minutes of publication. Critical alerts (high-risk keywords, sudden spikes) trigger immediate notifications via email, SMS, or WhatsApp.",
+    a: "Our system detects most new mentions within 15-30 minutes of publication. Critical alerts (high-risk keywords, sudden spikes) trigger immediate notifications via email, SMS, or WhatsApp.",
   },
   {
     q: "Can I monitor competitors as well?",

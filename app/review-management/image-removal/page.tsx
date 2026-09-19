@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How quickly can an image be removed from Google?",
-    a: "Most deindexing requests are processed by Google within 3–7 business days. Source-level removal depends on the hosting site, but we expedite every request. Urgent cases can often be resolved within 24–48 hours.",
+    a: "Most deindexing requests are processed by Google within 3-7 business days. Source-level removal depends on the hosting site, but we expedite every request. Urgent cases can often be resolved within 24-48 hours.",
   },
   {
     q: "Can images be removed even if I don't own the copyright?",
@@ -498,7 +498,7 @@ export default function ImageRemovalPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to delete an unwanted image of myself from Google Search?", answer: "We locate the original hosting source of the image and submit legally robust takedown requests—such as DMCA or privacy violations—following up with direct Google de-indexing submissions." },
+        { question: "How to delete an unwanted image of myself from Google Search?", answer: "We locate the original hosting source of the image and submit legally robust takedown requests - such as DMCA or privacy violations - following up with direct Google de-indexing submissions." },
         { question: "Can I remove private photos posted without my consent?", answer: "Absolutely. We prioritize non-consensual image sharing cases, utilizing strict privacy laws and Right to be Forgotten policies to aggressively scrub these photos from the internet." }
       ]} />
       <Footer />

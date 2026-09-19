@@ -37,7 +37,7 @@ const faqSchema = {
       "name": "Can you legally remove fake Google Business reviews permanently?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. When a Google review breaches Google Maps Prohibited and Restricted Content policies—including conflict of interest, fake engagement, harassment, hate speech, or competitor sabotage—our legal and compliance team submits direct legal disputes, policy appeals, and escalations to get the review permanently deleted from your Google Business Profile."
+        "text": "Yes. When a Google review breaches Google Maps Prohibited and Restricted Content policies - including conflict of interest, fake engagement, harassment, hate speech, or competitor sabotage - our legal and compliance team submits direct legal disputes, policy appeals, and escalations to get the review permanently deleted from your Google Business Profile."
       }
     },
     {

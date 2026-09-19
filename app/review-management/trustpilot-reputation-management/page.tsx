@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How long does it take to remove a fake Trustpilot review?",
-    a: "Most Trustpilot review removals are processed within 7–21 business days depending on the review type and escalation required. We prioritize urgent cases for faster resolution.",
+    a: "Most Trustpilot review removals are processed within 7-21 business days depending on the review type and escalation required. We prioritize urgent cases for faster resolution.",
   },
   {
     q: "Can you remove reviews posted by someone I don't know?",

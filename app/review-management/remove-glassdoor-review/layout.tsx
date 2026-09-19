@@ -20,7 +20,7 @@ const faqSchema = {
       "name": "Can employers legally remove Glassdoor reviews?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, employers can request removal of Glassdoor reviews that violate Glassdoor's community guidelines. Reviews can be removed for: fake or spam content, conflict of interest (posted by competitors), personal attacks, unverified employment claims, and reviews containing provable false statements. Glassdoor responds to removal requests within 3–7 business days."
+        "text": "Yes, employers can request removal of Glassdoor reviews that violate Glassdoor's community guidelines. Reviews can be removed for: fake or spam content, conflict of interest (posted by competitors), personal attacks, unverified employment claims, and reviews containing provable false statements. Glassdoor responds to removal requests within 3-7 business days."
       }
     },
     {
@@ -36,7 +36,7 @@ const faqSchema = {
       "name": "How long does Glassdoor review removal take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Glassdoor typically processes removal requests within 3–10 business days. For legal defamation cases with strong documentation, removal can happen within 5 days. For reviews that require legal action, the process may take 2–4 weeks. Our team prepares comprehensive documentation to accelerate the process."
+        "text": "Glassdoor typically processes removal requests within 3-10 business days. For legal defamation cases with strong documentation, removal can happen within 5 days. For reviews that require legal action, the process may take 2-4 weeks. Our team prepares comprehensive documentation to accelerate the process."
       }
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       "name": "How do fake Glassdoor reviews impact hiring?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fake negative Glassdoor reviews significantly impact hiring. Studies show 78% of job seekers check Glassdoor before applying. A drop from 4.0 to 3.5 stars can reduce application rates by 30–40%, increase cost-per-hire, and cause top candidates to reject offers. Removing or suppressing fake reviews directly improves recruitment outcomes."
+        "text": "Fake negative Glassdoor reviews significantly impact hiring. Studies show 78% of job seekers check Glassdoor before applying. A drop from 4.0 to 3.5 stars can reduce application rates by 30-40%, increase cost-per-hire, and cause top candidates to reject offers. Removing or suppressing fake reviews directly improves recruitment outcomes."
       }
     }
   ]

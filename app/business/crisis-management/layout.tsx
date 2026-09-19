@@ -28,7 +28,7 @@ const faqSchema = {
       "name": "How fast can a reputation crisis be controlled?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The first 48 hours are critical. An effective crisis response team can issue an official statement within 4–6 hours, begin suppressing negative search rankings within 24 hours, and achieve significant narrative control within 7–14 days. Full reputation recovery typically takes 4–12 weeks depending on the severity and media coverage of the crisis."
+        "text": "The first 48 hours are critical. An effective crisis response team can issue an official statement within 4-6 hours, begin suppressing negative search rankings within 24 hours, and achieve significant narrative control within 7-14 days. Full reputation recovery typically takes 4-12 weeks depending on the severity and media coverage of the crisis."
       }
     },
     {
@@ -44,7 +44,7 @@ const faqSchema = {
       "name": "How much does crisis reputation management cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crisis management costs vary by severity. Emergency response retainers start at ₹50,000 for small businesses. For mid-size companies facing active media coverage, packages range from ₹1,00,000–₹5,00,000. Enterprise-level crisis management for large corporates is priced based on scope, media coverage scale, and duration of the crisis. We offer an emergency free consultation to assess your specific situation."
+        "text": "Crisis management costs vary by severity. Emergency response retainers start at ₹50,000 for small businesses. For mid-size companies facing active media coverage, packages range from ₹1,00,000-₹5,00,000. Enterprise-level crisis management for large corporates is priced based on scope, media coverage scale, and duration of the crisis. We offer an emergency free consultation to assess your specific situation."
       }
     }
   ]

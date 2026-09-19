@@ -182,7 +182,7 @@ const faqs = [
   },
   {
     q: "How long does it take to see PR results?",
-    a: "Initial media placements can appear within 4–8 weeks. A full PR campaign typically shows measurable brand visibility improvements within 3 months, with compounding effects over 6–12 months. Crisis PR responses are activated within hours. We provide monthly reports so you always know the status of every placement.",
+    a: "Initial media placements can appear within 4-8 weeks. A full PR campaign typically shows measurable brand visibility improvements within 3 months, with compounding effects over 6-12 months. Crisis PR responses are activated within hours. We provide monthly reports so you always know the status of every placement.",
   },
   {
     q: "Which media outlets do you work with?",

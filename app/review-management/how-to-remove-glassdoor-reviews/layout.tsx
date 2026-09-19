@@ -19,7 +19,7 @@ const faqSchema = {
       "name": "How do I remove a fake review on Glassdoor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "To remove a fake review on Glassdoor: (1) Log into your Glassdoor employer account, (2) Find the review and click 'Flag as Inappropriate', (3) Select the specific policy violation (spam, fake, conflict of interest), (4) Submit documentation supporting your claim. For reviews that require legal action, send a defamation notice directly to Glassdoor's legal team. Most valid removal requests are processed within 3–7 business days."
+        "text": "To remove a fake review on Glassdoor: (1) Log into your Glassdoor employer account, (2) Find the review and click 'Flag as Inappropriate', (3) Select the specific policy violation (spam, fake, conflict of interest), (4) Submit documentation supporting your claim. For reviews that require legal action, send a defamation notice directly to Glassdoor's legal team. Most valid removal requests are processed within 3-7 business days."
       }
     },
     {
@@ -43,7 +43,7 @@ const faqSchema = {
       "name": "How long does it take to improve a Glassdoor rating?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Improving a Glassdoor rating typically takes 4–12 weeks depending on your current rating and the number of existing reviews. The fastest strategy combines review removal (for fake reviews) with encouraging authentic positive reviews from satisfied current employees. A company with 20 reviews can see a 0.3–0.5 star improvement within 6 weeks with a structured review generation campaign."
+        "text": "Improving a Glassdoor rating typically takes 4-12 weeks depending on your current rating and the number of existing reviews. The fastest strategy combines review removal (for fake reviews) with encouraging authentic positive reviews from satisfied current employees. A company with 20 reviews can see a 0.3-0.5 star improvement within 6 weeks with a structured review generation campaign."
       }
     }
   ]

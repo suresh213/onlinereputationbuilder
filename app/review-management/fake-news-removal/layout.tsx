@@ -28,7 +28,7 @@ const faqSchema = {
       "name": "How long does it take to remove a fake news article?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DMCA takedowns are processed by Google within 24–48 hours. Legal defamation removal requests typically take 5–15 business days depending on publisher responsiveness. If direct removal fails, a suppression strategy can push the article off Google's first page within 3–6 weeks of targeted content publishing."
+        "text": "DMCA takedowns are processed by Google within 24-48 hours. Legal defamation removal requests typically take 5-15 business days depending on publisher responsiveness. If direct removal fails, a suppression strategy can push the article off Google's first page within 3-6 weeks of targeted content publishing."
       }
     },
     {

@@ -562,7 +562,7 @@ export default function PersonalBrandMonitoringPage() {
 
       <FAQSection items={[
         { question: "How to track when my name is mentioned online?", answer: "We utilize advanced tracking software that monitors search engines, social media, and news outlets 24/7, alerting you instantly to new mentions." },
-        { question: "What do I do if I find a negative post about me?", answer: "Our team will analyze the post, determine the best course of action—such as suppression or legal removal—and execute a strategy to mitigate its impact." },
+        { question: "What do I do if I find a negative post about me?", answer: "Our team will analyze the post, determine the best course of action - such as suppression or legal removal - and execute a strategy to mitigate its impact." },
         { question: "Is there a way to monitor my personal brand 24/7?", answer: "Yes, our ongoing brand monitoring service provides round-the-clock surveillance of your digital footprint, keeping your reputation secure." }
       ]} />
       <Footer />

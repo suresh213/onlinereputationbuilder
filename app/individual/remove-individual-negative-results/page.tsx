@@ -462,10 +462,10 @@ export default function RemoveIndividualNegativeResultsPage() {
               <div className="absolute left-[1.1rem] top-4 bottom-4 w-px bg-zinc-200 z-0"></div>
               
               {[
-                { range: "Few Days – 2 Weeks", label: "Simple removal requests & direct takedowns", color: "bg-emerald-500", glow: "shadow-emerald-500/30" },
-                { range: "1 – 3 Months", label: "Platform policy violations & review removals", color: "bg-brand-blue", glow: "shadow-brand-blue/30" },
-                { range: "3 – 6 Months", label: "Complex suppression campaigns & SEO recovery", color: "bg-brand-gold", glow: "shadow-brand-gold/30" },
-                { range: "6 – 12 Months", label: "Legal requests, high-domain sites & large removals", color: "bg-zinc-800", glow: "shadow-zinc-800/30" },
+                { range: "Few Days - 2 Weeks", label: "Simple removal requests & direct takedowns", color: "bg-emerald-500", glow: "shadow-emerald-500/30" },
+                { range: "1 - 3 Months", label: "Platform policy violations & review removals", color: "bg-brand-blue", glow: "shadow-brand-blue/30" },
+                { range: "3 - 6 Months", label: "Complex suppression campaigns & SEO recovery", color: "bg-brand-gold", glow: "shadow-brand-gold/30" },
+                { range: "6 - 12 Months", label: "Legal requests, high-domain sites & large removals", color: "bg-zinc-800", glow: "shadow-zinc-800/30" },
               ].map((t) => (
                 <div key={t.range} className="flex items-start gap-6 p-4 rounded-xl hover:bg-zinc-50 border border-transparent hover:border-zinc-200 transition-all duration-300 group relative z-10">
                   <div className={`w-[2.2rem] h-[2.2rem] rounded-full flex items-center justify-center bg-white shadow-sm border border-zinc-200 group-hover:scale-110 transition-transform shrink-0`}>

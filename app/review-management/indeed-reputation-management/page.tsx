@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "How long does Indeed review removal take?",
-    a: "Most removals are processed within 14–30 days. Cases with clear policy violations are often resolved faster. We update you regularly throughout the process.",
+    a: "Most removals are processed within 14-30 days. Cases with clear policy violations are often resolved faster. We update you regularly throughout the process.",
   },
   {
     q: "Do you offer ongoing Indeed management?",

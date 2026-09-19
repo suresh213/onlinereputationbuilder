@@ -117,7 +117,7 @@ const faqs = [
   { q: "What types of Reddit content can you remove?", a: "We handle removal of posts, comments, threads, and user-submitted content that is defamatory, factually incorrect, harassment-based, or in violation of Reddit's site-wide or community-level rules. We also handle suppression for content that cannot be removed outright." },
   { q: "How do you achieve a 97% success rate?", a: "Our success rate comes from thorough content analysis before any action, building compelling documentation of policy violations, leveraging relationships with platform trust and safety teams, and combining removal efforts with suppression campaigns - so even if removal is partial, the content becomes far less visible." },
   { q: "What if Reddit mods or admins refuse to remove it?", a: "If platform-level removal is refused, we pivot to suppression - creating and optimising positive content across high-authority platforms to push the Reddit thread off page one. We also pursue legal avenues for content that constitutes defamation under applicable law." },
-  { q: "How long does Reddit post removal take?", a: "Clear-cut policy violations can be addressed in 1–4 weeks. More complex removals or suppression campaigns typically take 4–12 weeks. We provide regular status updates so you always know what's happening with your case." },
+  { q: "How long does Reddit post removal take?", a: "Clear-cut policy violations can be addressed in 1-4 weeks. More complex removals or suppression campaigns typically take 4-12 weeks. We provide regular status updates so you always know what's happening with your case." },
 ];
 
 const testimonials = [

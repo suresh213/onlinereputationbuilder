@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How long does it take to remove a fake Yelp review?",
-    a: "Most Yelp review removals are processed within 5–14 business days depending on the type of review and escalation required. We prioritize urgent cases for faster resolution.",
+    a: "Most Yelp review removals are processed within 5-14 business days depending on the type of review and escalation required. We prioritize urgent cases for faster resolution.",
   },
   {
     q: "Can you remove reviews from accounts you don't own?",

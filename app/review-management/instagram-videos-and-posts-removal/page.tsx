@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How long does it take to remove Instagram content?",
-    a: "Most Instagram removals are processed within 3–10 business days depending on content type and escalation required. High-urgency cases are prioritized and can often be resolved faster.",
+    a: "Most Instagram removals are processed within 3-10 business days depending on content type and escalation required. High-urgency cases are prioritized and can often be resolved faster.",
   },
   {
     q: "Can you remove posts from accounts you don't own?",

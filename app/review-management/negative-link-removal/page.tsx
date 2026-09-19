@@ -129,7 +129,7 @@ const faqs = [
   },
   {
     q: "What is the difference between link de-indexing and link removal at source?",
-    a: "Link removal at source occurs when the hosting webmaster completely deletes the web page, making it return a 404 error. De-indexing occurs when Google removes the link from search results entirely—making it impossible for anyone to find when searching your name or business on Google.",
+    a: "Link removal at source occurs when the hosting webmaster completely deletes the web page, making it return a 404 error. De-indexing occurs when Google removes the link from search results entirely - making it impossible for anyone to find when searching your name or business on Google.",
   },
   {
     q: "How long does negative link removal take?",

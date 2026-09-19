@@ -130,7 +130,7 @@ const whyUs = [
 const faqs = [
   {
     q: "How long does video removal take?",
-    a: "YouTube and major platform removals typically process within 3–10 business days. Urgent or high-severity cases can be escalated and resolved faster. We keep you updated throughout.",
+    a: "YouTube and major platform removals typically process within 3-10 business days. Urgent or high-severity cases can be escalated and resolved faster. We keep you updated throughout.",
   },
   {
     q: "Can you remove videos I don't own the copyright to?",
@@ -209,7 +209,7 @@ export default function VideoRemovalPage() {
                 Negative Video Removal <span className="text-gradient-gold">from YouTube &amp; Google</span>
               </h1>
               <p className="text-white/70 text-base lg:text-lg mb-8 leading-relaxed max-w-2xl">
-                Our specialist team executes negative video removal from YouTube, TikTok, Instagram, and Google search—using proven legal DMCA methods, privacy law violations, and platform policy enforcement.
+                Our specialist team executes negative video removal from YouTube, TikTok, Instagram, and Google search - using proven legal DMCA methods, privacy law violations, and platform policy enforcement.
               </p>
               <ul className="space-y-3 mb-10">
                 {heroBullets.map((b) => (
