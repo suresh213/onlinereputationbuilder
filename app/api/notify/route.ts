@@ -300,9 +300,24 @@ export async function POST(request: Request) {
     if (slackWebhookUrl) {
       try {
         const formattedDate = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+
+        const cleanSlackText = (str: string, maxLen = 2500) => {
+          if (!str) return "N/A";
+          const cleaned = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+          return cleaned.length > maxLen ? `${cleaned.slice(0, maxLen)}...` : cleaned;
+        };
+
+        const safeName = cleanSlackText(name || "Prospective Client", 100);
+        const safeService = cleanSlackText(service || "General ORM", 150);
+        const safePhone = phone ? phone.trim().slice(0, 30) : "N/A";
+        const safeEmail = email ? email.trim().slice(0, 80) : "N/A";
+        const safeCountry = cleanSlackText(country || "India", 80);
+        const safeMessage = message ? cleanSlackText(message, 2400) : "";
+        const safePage = page_url ? page_url.slice(0, 300) : "Home";
+        const safeReferrer = referrer ? referrer.slice(0, 300) : "";
         
         const slackPayload = {
-          text: `🚀 *New Lead: ${name || 'Prospective Client'}* (${detectedSource})`,
+          text: `🚀 *New Lead: ${safeName}* (${detectedSource})`,
           blocks: [
             {
               type: "header",
@@ -317,23 +332,23 @@ export async function POST(request: Request) {
               fields: [
                 {
                   type: "mrkdwn",
-                  text: `*👤 Name:*\n${name || 'N/A'}`
+                  text: `*👤 Name:*\n${safeName}`
                 },
                 {
                   type: "mrkdwn",
-                  text: `*💼 Service Requested:*\n${service || 'General ORM'}`
+                  text: `*💼 Service Requested:*\n${safeService}`
                 },
                 {
                   type: "mrkdwn",
-                  text: `*📞 Phone:*\n${phone ? `<tel:${phone}|${phone}>` : 'N/A'}`
+                  text: `*📞 Phone:*\n${safePhone !== 'N/A' ? `<tel:${safePhone}|${safePhone}>` : 'N/A'}`
                 },
                 {
                   type: "mrkdwn",
-                  text: `*✉️ Email:*\n${email ? `<mailto:${email}|${email}>` : 'N/A'}`
+                  text: `*✉️ Email:*\n${safeEmail !== 'N/A' ? `<mailto:${safeEmail}|${safeEmail}>` : 'N/A'}`
                 },
                 {
                   type: "mrkdwn",
-                  text: `*🌍 Country:*\n${country || 'India'}`
+                  text: `*🌍 Country:*\n${safeCountry}`
                 },
                 {
                   type: "mrkdwn",
@@ -345,7 +360,7 @@ export async function POST(request: Request) {
               type: "section",
               text: {
                 type: "mrkdwn",
-                text: `*📝 Inquiry / Message:*\n>${message ? message.replace(/\n/g, '\n>') : '_No additional message provided._'}`
+                text: `*📝 Inquiry / Message:*\n>${safeMessage ? safeMessage.replace(/\n/g, '\n>') : '_No additional message provided._'}`
               }
             },
             {
@@ -356,19 +371,24 @@ export async function POST(request: Request) {
               elements: [
                 {
                   type: "mrkdwn",
-                  text: `*🔗 Page:* ${page_url || 'Home'}\n*📊 Source:* *${detectedSource}* | *Medium:* ${detectedMedium}\n*🎯 Campaign:* ${detectedCampaign}${utm_term ? ` | *Keyword:* ${utm_term}` : ''}${referrer ? `\n*🌐 Referrer:* ${referrer}` : ''}${isGoogleAd ? '\n*🚀 Ad Tracking:* Google Click ID (GCLID) Verified' : ''}`
+                  text: `*🔗 Page:* ${safePage}\n*📊 Source:* *${detectedSource}* | *Medium:* ${detectedMedium}\n*🎯 Campaign:* ${detectedCampaign}${utm_term ? ` | *Keyword:* ${utm_term.slice(0, 100)}` : ''}${safeReferrer ? `\n*🌐 Referrer:* ${safeReferrer}` : ''}${isGoogleAd ? '\n*🚀 Ad Tracking:* Google Click ID (GCLID) Verified' : ''}`
                 }
               ]
             }
           ]
         };
 
-        await fetch(slackWebhookUrl, {
+        const slackRes = await fetch(slackWebhookUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(slackPayload),
           signal: AbortSignal.timeout ? AbortSignal.timeout(5000) : undefined,
         });
+
+        if (!slackRes.ok) {
+          const errText = await slackRes.text();
+          console.warn("Slack webhook returned non-200:", slackRes.status, errText);
+        }
       } catch (slackError) {
         console.error("Error sending Slack notification:", slackError);
       }
@@ -387,6 +407,9 @@ export async function POST(request: Request) {
             user: process.env.SMTP_USER,
             pass: process.env.SMTP_PASS,
           },
+          connectionTimeout: 5000,
+          greetingTimeout: 5000,
+          socketTimeout: 5000,
         });
 
         const notificationEmail = process.env.NOTIFICATION_EMAIL || process.env.SMTP_USER;
