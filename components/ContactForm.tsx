@@ -59,8 +59,8 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
 
       if (document.referrer && !sessionStorage.getItem("orb_initial_referrer")) {
         try {
-          const refHost = new URL(document.referrer).hostname;
-          if (!refHost.includes(window.location.hostname)) {
+          const refHost = new URL(document.referrer).hostname.toLowerCase();
+          if (!refHost.includes(window.location.hostname) && !refHost.includes("onlinereputationbuilder")) {
             sessionStorage.setItem("orb_initial_referrer", document.referrer);
           }
         } catch (_) {
@@ -119,7 +119,17 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           utm_campaign = urlParams.get("utm_campaign") || sessionStorage.getItem("orb_utm_campaign");
           utm_term = urlParams.get("utm_term") || sessionStorage.getItem("orb_utm_term");
           utm_content = urlParams.get("utm_content") || sessionStorage.getItem("orb_utm_content");
-          referrerStr = sessionStorage.getItem("orb_initial_referrer") || document.referrer || "";
+          const storedRef = sessionStorage.getItem("orb_initial_referrer");
+          if (storedRef) {
+            referrerStr = storedRef;
+          } else if (typeof document !== "undefined" && document.referrer) {
+            try {
+              const dHost = new URL(document.referrer).hostname.toLowerCase();
+              if (!dHost.includes(window.location.hostname) && !dHost.includes("onlinereputationbuilder")) {
+                referrerStr = document.referrer;
+              }
+            } catch (_) {}
+          }
           landingPageStr = sessionStorage.getItem("orb_landing_page") || window.location.href;
         }
       } catch (_) {}
@@ -133,7 +143,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         message: form.message.trim() || null,
         page_url: window.location.href,
         landing_page_url: landingPageStr || window.location.href,
-        referrer: referrerStr || (typeof document !== "undefined" ? document.referrer : ""),
+        referrer: referrerStr,
         utm_source,
         utm_medium,
         utm_campaign,

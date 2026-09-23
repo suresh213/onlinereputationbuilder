@@ -2,22 +2,30 @@
 
 // Helper functions for Google Analytics tracking
 const trackPhoneClick = () => {
-  if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-    (window as any).gtag("event", "click_call", {
-      event_category: "Lead Generation",
-      event_label: "Topbar Phone Click",
-      value: 1,
-    });
+  try {
+    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+      (window as any).gtag("event", "click_call", {
+        event_category: "Lead Generation",
+        event_label: "Topbar Phone Click",
+        value: 1,
+      });
+    }
+  } catch (e) {
+    console.warn("Tracking error:", e);
   }
 };
 
 const trackEmailClick = () => {
-  if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-    (window as any).gtag("event", "click_email", {
-      event_category: "Lead Generation",
-      event_label: "Topbar Email Click",
-      value: 1,
-    });
+  try {
+    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+      (window as any).gtag("event", "click_email", {
+        event_category: "Lead Generation",
+        event_label: "Topbar Email Click",
+        value: 1,
+      });
+    }
+  } catch (e) {
+    console.warn("Tracking error:", e);
   }
 };
 

@@ -51,54 +51,220 @@ export async function POST(request: Request) {
         detectedCampaign = utm_campaign || "Google Ads Search Campaign";
       }
     } else if (utm_source) {
-      detectedSource = `${utm_source} (Campaign)`;
-      detectedMedium = utm_medium || "campaign";
+      const uLower = utm_source.toLowerCase();
+      if (uLower.includes("chatgpt") || uLower.includes("openai")) {
+        detectedSource = "ChatGPT (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("claude") || uLower.includes("anthropic")) {
+        detectedSource = "Claude (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("perplexity") || uLower.includes("pplx")) {
+        detectedSource = "Perplexity (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("gemini") || uLower.includes("bard")) {
+        detectedSource = "Google Gemini (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("copilot")) {
+        detectedSource = "Microsoft Copilot (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("deepseek")) {
+        detectedSource = "DeepSeek (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("grok") || uLower.includes("xai")) {
+        detectedSource = "Grok / xAI (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("meta.ai") || uLower.includes("meta_ai")) {
+        detectedSource = "Meta AI (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("poe")) {
+        detectedSource = "Poe AI (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("mistral") || uLower.includes("lechat")) {
+        detectedSource = "Mistral / Le Chat (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else if (uLower.includes("you.com")) {
+        detectedSource = "You.com (AI Referral) 🤖";
+        detectedMedium = "ai-referral";
+      } else {
+        detectedSource = `${utm_source} (Campaign)`;
+        detectedMedium = utm_medium || "campaign";
+      }
       detectedCampaign = utm_campaign || "N/A";
     } else if (referrer) {
       const refLower = referrer.toLowerCase();
       try {
         const refUrl = new URL(referrer);
         const host = refUrl.hostname.toLowerCase();
-        if (host.includes("chatgpt.com") || host.includes("openai.com")) {
+        const cleanHost = host.replace(/^www\./, "");
+
+        // Ignore internal navigation
+        if (cleanHost.includes("onlinereputationbuilder") || cleanHost.includes("localhost") || !cleanHost) {
+          detectedSource = "Direct Traffic";
+          detectedMedium = "none";
+        // Top AI Search & Chat Platforms
+        } else if (host.includes("chatgpt.com") || host.includes("openai.com")) {
           detectedSource = "ChatGPT (AI Referral) 🤖";
           detectedMedium = "ai-referral";
         } else if (host.includes("claude.ai") || host.includes("anthropic.com")) {
           detectedSource = "Claude (AI Referral) 🤖";
           detectedMedium = "ai-referral";
-        } else if (host.includes("perplexity.ai")) {
+        } else if (host.includes("perplexity.ai") || host.includes("pplx.ai")) {
           detectedSource = "Perplexity (AI Referral) 🤖";
           detectedMedium = "ai-referral";
+        } else if (host.includes("gemini.google.com") || host.includes("bard.google.com")) {
+          detectedSource = "Google Gemini (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("copilot.microsoft.com") || host.includes("copilot.com") || host.includes("edgeservices.bing.com")) {
+          detectedSource = "Microsoft Copilot (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("deepseek.com")) {
+          detectedSource = "DeepSeek (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("grok.com") || host.includes("x.ai")) {
+          detectedSource = "Grok / xAI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("meta.ai")) {
+          detectedSource = "Meta AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("poe.com")) {
+          detectedSource = "Poe AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("mistral.ai")) {
+          detectedSource = "Mistral / Le Chat (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("you.com")) {
+          detectedSource = "You.com (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("phind.com")) {
+          detectedSource = "Phind (AI Search) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("genspark.ai")) {
+          detectedSource = "Genspark (AI Search) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("kimi.ai") || host.includes("moonshot.cn")) {
+          detectedSource = "Kimi AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("consensus.app")) {
+          detectedSource = "Consensus AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("elicit.com") || host.includes("elicit.org")) {
+          detectedSource = "Elicit AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("huggingface.co")) {
+          detectedSource = "HuggingChat (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        // Search Engines (Organic)
         } else if (host.includes("google.co") || host.includes("google.com")) {
           detectedSource = "Google Organic (SEO Search) 🔍";
           detectedMedium = "organic";
         } else if (host.includes("bing.com")) {
           detectedSource = "Bing Organic (SEO Search) 🔍";
           detectedMedium = "organic";
-        } else if (host.includes("linkedin.com")) {
+        } else if (host.includes("duckduckgo.com")) {
+          detectedSource = "DuckDuckGo (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("yahoo.com")) {
+          detectedSource = "Yahoo (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("brave.com")) {
+          detectedSource = "Brave Search (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("ecosia.org")) {
+          detectedSource = "Ecosia (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("baidu.com")) {
+          detectedSource = "Baidu (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("yandex.com") || host.includes("yandex.ru")) {
+          detectedSource = "Yandex (Organic Search) 🔍";
+          detectedMedium = "organic";
+        // Social Platforms
+        } else if (host.includes("linkedin.com") || host.includes("lnkd.in")) {
           detectedSource = "LinkedIn (Social)";
           detectedMedium = "social";
-        } else if (host.includes("x.com") || host.includes("twitter.com")) {
+        } else if (host.includes("x.com") || host.includes("twitter.com") || host.includes("t.co")) {
           detectedSource = "X / Twitter (Social)";
           detectedMedium = "social";
-        } else if (host.includes("facebook.com") || host.includes("instagram.com")) {
+        } else if (host.includes("facebook.com") || host.includes("instagram.com") || host.includes("fb.com") || host.includes("threads.net")) {
           detectedSource = "Meta (Social)";
           detectedMedium = "social";
-        } else if (host.includes("youtube.com")) {
+        } else if (host.includes("reddit.com")) {
+          detectedSource = "Reddit (Referral)";
+          detectedMedium = "social";
+        } else if (host.includes("youtube.com") || host.includes("youtu.be")) {
           detectedSource = "YouTube (Referral)";
           detectedMedium = "referral";
+        } else if (host.includes("quora.com")) {
+          detectedSource = "Quora (Referral)";
+          detectedMedium = "referral";
+        } else if (host.includes("pinterest.com")) {
+          detectedSource = "Pinterest (Social)";
+          detectedMedium = "social";
+        } else if (host.includes("whatsapp.com") || host.includes("wa.me")) {
+          detectedSource = "WhatsApp (Referral)";
+          detectedMedium = "social";
+        // Fallback for any other external domain: show clean domain directly
         } else {
-          detectedSource = `Referral (${host})`;
+          detectedSource = `Referral (${cleanHost})`;
           detectedMedium = "referral";
         }
       } catch (_) {
         if (refLower.includes("chatgpt") || refLower.includes("openai")) {
           detectedSource = "ChatGPT (AI Referral) 🤖";
           detectedMedium = "ai-referral";
+        } else if (refLower.includes("claude") || refLower.includes("anthropic")) {
+          detectedSource = "Claude (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("perplexity") || refLower.includes("pplx")) {
+          detectedSource = "Perplexity (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("gemini") || refLower.includes("bard")) {
+          detectedSource = "Google Gemini (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("copilot")) {
+          detectedSource = "Microsoft Copilot (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("deepseek")) {
+          detectedSource = "DeepSeek (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("grok") || refLower.includes("xai")) {
+          detectedSource = "Grok / xAI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("meta.ai")) {
+          detectedSource = "Meta AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("poe")) {
+          detectedSource = "Poe AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("mistral")) {
+          detectedSource = "Mistral / Le Chat (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("you.com")) {
+          detectedSource = "You.com (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("phind")) {
+          detectedSource = "Phind (AI Search) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("genspark")) {
+          detectedSource = "Genspark (AI Search) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("kimi")) {
+          detectedSource = "Kimi AI (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
         } else if (refLower.includes("google")) {
           detectedSource = "Google Organic (SEO Search) 🔍";
           detectedMedium = "organic";
+        } else if (refLower.includes("bing")) {
+          detectedSource = "Bing Organic (SEO Search) 🔍";
+          detectedMedium = "organic";
+        } else if (refLower.includes("duckduckgo")) {
+          detectedSource = "DuckDuckGo (Organic Search) 🔍";
+          detectedMedium = "organic";
+        } else if (refLower.includes("onlinereputationbuilder") || refLower.includes("localhost")) {
+          detectedSource = "Direct Traffic";
+          detectedMedium = "none";
         } else {
-          detectedSource = `Referral (${referrer.slice(0, 30)})`;
+          detectedSource = `Referral (${referrer.slice(0, 40)})`;
           detectedMedium = "referral";
         }
       }

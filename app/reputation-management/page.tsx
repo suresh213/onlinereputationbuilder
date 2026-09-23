@@ -51,16 +51,20 @@ function StickyWA() {
         rel="noopener noreferrer"
         className="w-full max-w-sm flex items-center justify-center gap-2.5 py-3 px-4 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-[0_4px_25px_rgba(16,185,129,0.5)] border border-emerald-400/30 transition-all active:scale-95"
         onClick={() => {
-          if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-            (window as any).gtag("event", "whatsapp_click", {
-              event_category: "Lead",
-              event_label: "Sticky Mobile WhatsApp",
-            });
-            (window as any).gtag("event", "conversion", {
-              send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-              value: 1.0,
-              currency: "INR",
-            });
+          try {
+            if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+              (window as any).gtag("event", "whatsapp_click", {
+                event_category: "Lead",
+                event_label: "Sticky Mobile WhatsApp",
+              });
+              (window as any).gtag("event", "conversion", {
+                send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                value: 1.0,
+                currency: "INR",
+              });
+            }
+          } catch (e) {
+            console.warn("Tracking error:", e);
           }
         }}
       >
@@ -147,16 +151,20 @@ export default function ReputationManagementPage() {
               href="tel:+918882788412"
               className="text-xs sm:text-sm font-bold text-white bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-3.5 py-1.5 rounded-xl transition-all flex items-center gap-2 shadow-sm"
               onClick={() => {
-                if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-                  (window as any).gtag("event", "click_call", {
-                    event_category: "Lead",
-                    event_label: "Header Phone Call",
-                  });
-                  (window as any).gtag("event", "conversion", {
-                    send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-                    value: 1.0,
-                    currency: "INR",
-                  });
+                try {
+                  if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                    (window as any).gtag("event", "click_call", {
+                      event_category: "Lead",
+                      event_label: "Header Phone Call",
+                    });
+                    (window as any).gtag("event", "conversion", {
+                      send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                      value: 1.0,
+                      currency: "INR",
+                    });
+                  }
+                } catch (e) {
+                  console.warn("Tracking error:", e);
                 }
               }}
             >
@@ -244,16 +252,20 @@ export default function ReputationManagementPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm transition-all shadow-md shadow-emerald-600/20 border border-emerald-400/30 hover:scale-[1.02]"
                     onClick={() => {
-                      if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-                        (window as any).gtag("event", "whatsapp_click", {
-                          event_category: "Lead",
-                          event_label: "Hero Desktop WhatsApp",
-                        });
-                        (window as any).gtag("event", "conversion", {
-                          send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-                          value: 1.0,
-                          currency: "INR",
-                        });
+                      try {
+                        if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                          (window as any).gtag("event", "whatsapp_click", {
+                            event_category: "Lead",
+                            event_label: "Hero Desktop WhatsApp",
+                          });
+                          (window as any).gtag("event", "conversion", {
+                            send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                            value: 1.0,
+                            currency: "INR",
+                          });
+                        }
+                      } catch (e) {
+                        console.warn("Tracking error:", e);
                       }
                     }}
                   >
@@ -664,16 +676,20 @@ export default function ReputationManagementPage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-emerald-600/15 border border-emerald-500/40 text-emerald-400 font-bold text-xs sm:text-sm hover:bg-emerald-600/25 transition-all"
               onClick={() => {
-                if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-                  (window as any).gtag("event", "whatsapp_click", {
-                    event_category: "Lead",
-                    event_label: "Footer Strip WhatsApp",
-                  });
-                  (window as any).gtag("event", "conversion", {
-                    send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-                    value: 1.0,
-                    currency: "INR",
-                  });
+                try {
+                  if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                    (window as any).gtag("event", "whatsapp_click", {
+                      event_category: "Lead",
+                      event_label: "Footer Strip WhatsApp",
+                    });
+                    (window as any).gtag("event", "conversion", {
+                      send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                      value: 1.0,
+                      currency: "INR",
+                    });
+                  }
+                } catch (e) {
+                  console.warn("Tracking error:", e);
                 }
               }}
             >
