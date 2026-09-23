@@ -24,7 +24,11 @@ export default function ReputationManagementLayout({
 }) {
   return (
     <>
-      {/* Google Ads Tag for direct PPC conversion tracking and enhanced attribution */}
+      {/* Google Analytics GA4 & Google Ads Tag for direct PPC and organic conversion tracking */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-3HQP074NNT"
+        strategy="beforeInteractive"
+      />
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-406461196"
         strategy="beforeInteractive"
@@ -34,6 +38,7 @@ export default function ReputationManagementLayout({
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
+          gtag('config', 'G-3HQP074NNT');
           gtag('config', 'AW-406461196');
         `}
       </Script>

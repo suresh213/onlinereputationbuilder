@@ -14,14 +14,95 @@ export async function POST(request: Request) {
       service, 
       message, 
       page_url,
+      landing_page_url,
       referrer,
       utm_source,
       utm_medium,
       utm_campaign,
       utm_term,
       utm_content,
+      gclid,
+      gad_source,
+      gad_campaignid,
       recaptchaToken
     } = data;
+
+    // Intelligent Source Attribution Resolution
+    let detectedSource = "Direct Traffic";
+    let detectedMedium = "none";
+    let detectedCampaign = "N/A";
+    let isGoogleAd = false;
+
+    // Check Google Ads identifiers (gclid, gad_source, gad_campaignid in payload or URL)
+    const combinedUrls = [page_url, landing_page_url].filter(Boolean).join(" ");
+    const hasGclid = Boolean(gclid || combinedUrls.includes("gclid="));
+    const hasGadSource = Boolean(gad_source === "1" || combinedUrls.includes("gad_source=1"));
+    const campaignIdMatch = gad_campaignid || (combinedUrls.match(/gad_campaignid=(\d+)/) || [])[1];
+
+    if (hasGclid || hasGadSource || campaignIdMatch) {
+      isGoogleAd = true;
+      detectedSource = "Google Ads (Paid Search) 🚀";
+      detectedMedium = "cpc";
+      if (campaignIdMatch === "24034679919" || utm_campaign === "24034679919") {
+        detectedCampaign = "ORM Search Campaign (24034679919)";
+      } else if (campaignIdMatch) {
+        detectedCampaign = `Campaign ID: ${campaignIdMatch}`;
+      } else {
+        detectedCampaign = utm_campaign || "Google Ads Search Campaign";
+      }
+    } else if (utm_source) {
+      detectedSource = `${utm_source} (Campaign)`;
+      detectedMedium = utm_medium || "campaign";
+      detectedCampaign = utm_campaign || "N/A";
+    } else if (referrer) {
+      const refLower = referrer.toLowerCase();
+      try {
+        const refUrl = new URL(referrer);
+        const host = refUrl.hostname.toLowerCase();
+        if (host.includes("chatgpt.com") || host.includes("openai.com")) {
+          detectedSource = "ChatGPT (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("claude.ai") || host.includes("anthropic.com")) {
+          detectedSource = "Claude (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("perplexity.ai")) {
+          detectedSource = "Perplexity (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (host.includes("google.co") || host.includes("google.com")) {
+          detectedSource = "Google Organic (SEO Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("bing.com")) {
+          detectedSource = "Bing Organic (SEO Search) 🔍";
+          detectedMedium = "organic";
+        } else if (host.includes("linkedin.com")) {
+          detectedSource = "LinkedIn (Social)";
+          detectedMedium = "social";
+        } else if (host.includes("x.com") || host.includes("twitter.com")) {
+          detectedSource = "X / Twitter (Social)";
+          detectedMedium = "social";
+        } else if (host.includes("facebook.com") || host.includes("instagram.com")) {
+          detectedSource = "Meta (Social)";
+          detectedMedium = "social";
+        } else if (host.includes("youtube.com")) {
+          detectedSource = "YouTube (Referral)";
+          detectedMedium = "referral";
+        } else {
+          detectedSource = `Referral (${host})`;
+          detectedMedium = "referral";
+        }
+      } catch (_) {
+        if (refLower.includes("chatgpt") || refLower.includes("openai")) {
+          detectedSource = "ChatGPT (AI Referral) 🤖";
+          detectedMedium = "ai-referral";
+        } else if (refLower.includes("google")) {
+          detectedSource = "Google Organic (SEO Search) 🔍";
+          detectedMedium = "organic";
+        } else {
+          detectedSource = `Referral (${referrer.slice(0, 30)})`;
+          detectedMedium = "referral";
+        }
+      }
+    }
 
     let captchaStatus = "Verified";
     // Verify reCAPTCHA token if Secret Key is provided
@@ -52,7 +133,7 @@ export async function POST(request: Request) {
         const formattedDate = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
         
         const slackPayload = {
-          text: `🚀 *New Lead: ${name || 'Prospective Client'}* interested in *${service || 'ORM Services'}*`,
+          text: `🚀 *New Lead: ${name || 'Prospective Client'}* (${detectedSource})`,
           blocks: [
             {
               type: "header",
@@ -106,7 +187,7 @@ export async function POST(request: Request) {
               elements: [
                 {
                   type: "mrkdwn",
-                  text: `*🔗 Page:* ${page_url || 'Home'}\n*📊 Source:* ${utm_source || 'Direct / Organic'} | *Campaign:* ${utm_campaign || 'N/A'} | *Medium:* ${utm_medium || 'N/A'}`
+                  text: `*🔗 Page:* ${page_url || 'Home'}\n*📊 Source:* *${detectedSource}* | *Medium:* ${detectedMedium}\n*🎯 Campaign:* ${detectedCampaign}${utm_term ? ` | *Keyword:* ${utm_term}` : ''}${referrer ? `\n*🌐 Referrer:* ${referrer}` : ''}${isGoogleAd ? '\n*🚀 Ad Tracking:* Google Click ID (GCLID) Verified' : ''}`
                 }
               ]
             }
@@ -150,11 +231,12 @@ export async function POST(request: Request) {
           <p><strong>Message:</strong> ${message || 'N/A'}</p>
           <hr />
           <h3>Attribution & Tracking</h3>
+          <p><strong>Detected Source:</strong> ${detectedSource} (${detectedMedium})</p>
+          <p><strong>Campaign:</strong> ${detectedCampaign}</p>
           <p><strong>Submitted Page:</strong> ${page_url || 'N/A'}</p>
-          <p><strong>Referrer:</strong> ${referrer || 'N/A'}</p>
-          <p><strong>UTM Source:</strong> ${utm_source || 'N/A'}</p>
-          <p><strong>UTM Medium:</strong> ${utm_medium || 'N/A'}</p>
-          <p><strong>UTM Campaign:</strong> ${utm_campaign || 'N/A'}</p>
+          <p><strong>Landing Page:</strong> ${landing_page_url || page_url || 'N/A'}</p>
+          <p><strong>Referrer:</strong> ${referrer || 'Direct / None'}</p>
+          <p><strong>Google Ad Click (GCLID):</strong> ${isGoogleAd ? 'Verified' : 'No'}</p>
         `;
 
         await transporter.sendMail({

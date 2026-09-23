@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import CountrySelect from "./CountrySelect";
 import { Country, DEFAULT_COUNTRY } from "./countryData";
@@ -34,6 +34,45 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   const [captchaToken, setCaptchaToken] = useState<string | null>(null);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
+  // Persist incoming campaign and referrer data into sessionStorage
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const gclid = urlParams.get("gclid");
+      const gadSource = urlParams.get("gad_source");
+      const gadCampaignId = urlParams.get("gad_campaignid");
+      const utmSource = urlParams.get("utm_source");
+      const utmMedium = urlParams.get("utm_medium");
+      const utmCampaign = urlParams.get("utm_campaign");
+      const utmTerm = urlParams.get("utm_term");
+      const utmContent = urlParams.get("utm_content");
+
+      if (gclid) sessionStorage.setItem("orb_gclid", gclid);
+      if (gadSource) sessionStorage.setItem("orb_gad_source", gadSource);
+      if (gadCampaignId) sessionStorage.setItem("orb_gad_campaignid", gadCampaignId);
+      if (utmSource) sessionStorage.setItem("orb_utm_source", utmSource);
+      if (utmMedium) sessionStorage.setItem("orb_utm_medium", utmMedium);
+      if (utmCampaign) sessionStorage.setItem("orb_utm_campaign", utmCampaign);
+      if (utmTerm) sessionStorage.setItem("orb_utm_term", utmTerm);
+      if (utmContent) sessionStorage.setItem("orb_utm_content", utmContent);
+
+      if (document.referrer && !sessionStorage.getItem("orb_initial_referrer")) {
+        try {
+          const refHost = new URL(document.referrer).hostname;
+          if (!refHost.includes(window.location.hostname)) {
+            sessionStorage.setItem("orb_initial_referrer", document.referrer);
+          }
+        } catch (_) {
+          sessionStorage.setItem("orb_initial_referrer", document.referrer);
+        }
+      }
+      if (!sessionStorage.getItem("orb_landing_page")) {
+        sessionStorage.setItem("orb_landing_page", window.location.href);
+      }
+    } catch (_) {}
+  }, []);
+
   const inputCls = `form-input h-[42px] ${dark ? "bg-white/10 border-white/20 text-white placeholder-white/50 focus:border-yellow-400" : ""}`;
   const labelCls = `block text-[11px] font-semibold mb-1 uppercase tracking-wider leading-tight ${dark ? "text-white/70" : "text-gray-500"}`;
 
@@ -58,7 +97,33 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
 
       const formattedCountry = `${selectedCountry.name} (${selectedCountry.dialCode})`;
 
-      const urlParams = new URLSearchParams(window.location.search);
+      let gclid: string | null = null;
+      let gad_source: string | null = null;
+      let gad_campaignid: string | null = null;
+      let utm_source: string | null = null;
+      let utm_medium: string | null = null;
+      let utm_campaign: string | null = null;
+      let utm_term: string | null = null;
+      let utm_content: string | null = null;
+      let referrerStr = "";
+      let landingPageStr = "";
+
+      try {
+        if (typeof window !== "undefined") {
+          const urlParams = new URLSearchParams(window.location.search);
+          gclid = urlParams.get("gclid") || sessionStorage.getItem("orb_gclid");
+          gad_source = urlParams.get("gad_source") || sessionStorage.getItem("orb_gad_source");
+          gad_campaignid = urlParams.get("gad_campaignid") || sessionStorage.getItem("orb_gad_campaignid");
+          utm_source = urlParams.get("utm_source") || sessionStorage.getItem("orb_utm_source");
+          utm_medium = urlParams.get("utm_medium") || sessionStorage.getItem("orb_utm_medium");
+          utm_campaign = urlParams.get("utm_campaign") || sessionStorage.getItem("orb_utm_campaign");
+          utm_term = urlParams.get("utm_term") || sessionStorage.getItem("orb_utm_term");
+          utm_content = urlParams.get("utm_content") || sessionStorage.getItem("orb_utm_content");
+          referrerStr = sessionStorage.getItem("orb_initial_referrer") || document.referrer || "";
+          landingPageStr = sessionStorage.getItem("orb_landing_page") || window.location.href;
+        }
+      } catch (_) {}
+
       const leadPayload = {
         name: form.name.trim(),
         email: form.email.trim(),
@@ -67,12 +132,16 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         service: form.service,
         message: form.message.trim() || null,
         page_url: window.location.href,
-        referrer: typeof document !== "undefined" ? document.referrer : "",
-        utm_source: urlParams.get('utm_source'),
-        utm_medium: urlParams.get('utm_medium'),
-        utm_campaign: urlParams.get('utm_campaign'),
-        utm_term: urlParams.get('utm_term'),
-        utm_content: urlParams.get('utm_content'),
+        landing_page_url: landingPageStr || window.location.href,
+        referrer: referrerStr || (typeof document !== "undefined" ? document.referrer : ""),
+        utm_source,
+        utm_medium,
+        utm_campaign,
+        utm_term,
+        utm_content,
+        gclid,
+        gad_source,
+        gad_campaignid,
         recaptchaToken: captchaToken
       };
 
@@ -107,23 +176,27 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
 
       await notifyPromise;
 
-      // Track successful form submission event in Google Analytics (GA4)
+      // Track successful form submission event in Google Analytics (GA4) & Google Ads
       if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-        (window as any).gtag("event", "generate_lead", {
-          event_category: "Lead Generation",
-          event_label: `Contact Form Submission from: ${window.location.pathname}`,
-          value: 1,
-          lead_service: form.service,
-          lead_country: formattedCountry,
-          page_url: window.location.href,
-        });
+        try {
+          (window as any).gtag("event", "generate_lead", {
+            event_category: "Lead Generation",
+            event_label: `Contact Form Submission from: ${window.location.pathname}`,
+            value: 1,
+            lead_service: form.service,
+            lead_country: formattedCountry,
+            page_url: window.location.href,
+          });
 
-        // Track Google Ads conversion (AW-406461196) - Submit lead form (2) - FINAL
-        (window as any).gtag("event", "conversion", {
-          send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-          value: 1.0,
-          currency: "INR",
-        });
+          // Track Google Ads conversion (AW-406461196) - Submit lead form (2) - FINAL
+          (window as any).gtag("event", "conversion", {
+            send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+            value: 1.0,
+            currency: "INR",
+          });
+        } catch (gtagErr) {
+          console.warn("gtag tracking warning:", gtagErr);
+        }
       }
 
       setForm(initialForm);
