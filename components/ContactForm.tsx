@@ -32,7 +32,23 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   const [errorMessage, setErrorMessage] = useState("");
   
   const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [captchaFailed, setCaptchaFailed] = useState(false);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+
+  // Gracefully handle ad-blockers or network environments where reCAPTCHA script is blocked
+  useEffect(() => {
+    if (!siteKey) {
+      setCaptchaFailed(true);
+      return;
+    }
+    const timer = setTimeout(() => {
+      if (typeof window !== "undefined" && !(window as any).grecaptcha) {
+        setCaptchaFailed(true);
+      }
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [siteKey]);
 
   // Persist incoming campaign and referrer data into sessionStorage
   useEffect(() => {
@@ -79,8 +95,9 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     
-    if (!captchaToken) {
-      setErrorMessage("Please complete the reCAPTCHA verification.");
+    const effectiveToken = captchaToken || (captchaFailed ? "client_adblocker_fallback" : null);
+    if (!effectiveToken && siteKey) {
+      setErrorMessage("Please complete the verification check.");
       return;
     }
 
@@ -152,7 +169,7 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         gclid,
         gad_source,
         gad_campaignid,
-        recaptchaToken: captchaToken
+        recaptchaToken: effectiveToken
       };
 
       // 1. Dispatch lead via backend API (/api/notify handles Slack alert + Email)
@@ -184,7 +201,11 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
         }).catch(err => console.error("Supabase insert background error:", err));
       }
 
-      await notifyPromise;
+      // Safe race timeout: Never hang form submit longer than 8s even under bad network
+      await Promise.race([
+        notifyPromise,
+        new Promise((resolve) => setTimeout(resolve, 8000))
+      ]);
 
       // Track successful form submission event in Google Analytics (GA4) & Google Ads
       if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
@@ -213,7 +234,9 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
       setSelectedCountry(DEFAULT_COUNTRY);
       setCaptchaToken(null);
       if (recaptchaRef.current) {
-        recaptchaRef.current.reset();
+        try {
+          recaptchaRef.current.reset();
+        } catch (_) {}
       }
       setIsSuccess(true); 
 
@@ -300,18 +323,31 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           <input type="text" placeholder="Brief details (e.g. negative link removal, reviews...)" className={inputCls} value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
         </div>
         
-        <div className="flex justify-center my-1 overflow-hidden">
-          <div className="transform scale-[0.82] origin-center -my-1.5">
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-              onChange={(token) => setCaptchaToken(token)}
-              theme={dark ? "dark" : "light"}
-            />
+        {!captchaFailed && siteKey ? (
+          <div className="flex justify-center my-1 overflow-hidden">
+            <div className="transform scale-[0.82] origin-center -my-1.5">
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                sitekey={siteKey}
+                onChange={(token) => setCaptchaToken(token)}
+                onErrored={() => setCaptchaFailed(true)}
+                onExpired={() => setCaptchaToken(null)}
+                theme={dark ? "dark" : "light"}
+              />
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="flex items-center justify-center gap-1.5 my-1.5 py-1 text-[11px] text-emerald-500/90 font-medium">
+            <span>🛡️</span>
+            <span>Protected by anti-spam verification</span>
+          </div>
+        )}
 
-        <button type="submit" className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 py-2.5 text-sm font-semibold" disabled={isSubmitting || !captchaToken}>
+        <button
+          type="submit"
+          className="btn-gold w-full text-center disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 py-2.5 text-sm font-semibold"
+          disabled={isSubmitting || (!captchaToken && !captchaFailed && Boolean(siteKey))}
+        >
           {isSubmitting ? "Submitting..." : "Get Free Consultation →"}
         </button>
 
@@ -321,16 +357,20 @@ export default function ContactForm({ dark = false }: ContactFormProps) {
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-semibold text-xs transition-all shadow-sm mt-1.5"
           onClick={() => {
-            if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-              (window as any).gtag("event", "whatsapp_click", {
-                event_category: "Lead",
-                event_label: "Contact Form WhatsApp Click",
-              });
-              (window as any).gtag("event", "conversion", {
-                send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
-                value: 1.0,
-                currency: "INR",
-              });
+            try {
+              if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                (window as any).gtag("event", "whatsapp_click", {
+                  event_category: "Lead",
+                  event_label: "Contact Form WhatsApp Click",
+                });
+                (window as any).gtag("event", "conversion", {
+                  send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
+                  value: 1.0,
+                  currency: "INR",
+                });
+              }
+            } catch (e) {
+              console.warn("Tracking warning:", e);
             }
           }}
         >

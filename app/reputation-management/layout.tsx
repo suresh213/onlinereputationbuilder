@@ -27,13 +27,13 @@ export default function ReputationManagementLayout({
       {/* Google Analytics GA4 & Google Ads Tag for direct PPC and organic conversion tracking */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-3HQP074NNT"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       />
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-406461196"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       />
-      <Script id="google-ads-ppc-init" strategy="beforeInteractive">
+      <Script id="google-ads-ppc-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

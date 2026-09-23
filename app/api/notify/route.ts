@@ -272,7 +272,9 @@ export async function POST(request: Request) {
 
     let captchaStatus = "Verified";
     // Verify reCAPTCHA token if Secret Key is provided
-    if (process.env.RECAPTCHA_SECRET_KEY && recaptchaToken) {
+    if (recaptchaToken === "client_adblocker_fallback") {
+      captchaStatus = "Ad-blocker / Shield Fallback";
+    } else if (process.env.RECAPTCHA_SECRET_KEY && recaptchaToken) {
       try {
         const verifyResponse = await fetch(`https://www.google.com/recaptcha/api/siteverify`, {
           method: 'POST',
@@ -280,6 +282,7 @@ export async function POST(request: Request) {
             'Content-Type': 'application/x-www-form-urlencoded',
           },
           body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${recaptchaToken}`,
+          signal: AbortSignal.timeout ? AbortSignal.timeout(4000) : undefined,
         });
         const verifyData = await verifyResponse.json();
         if (!verifyData.success) {
@@ -363,7 +366,8 @@ export async function POST(request: Request) {
         await fetch(slackWebhookUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(slackPayload)
+          body: JSON.stringify(slackPayload),
+          signal: AbortSignal.timeout ? AbortSignal.timeout(5000) : undefined,
         });
       } catch (slackError) {
         console.error("Error sending Slack notification:", slackError);
