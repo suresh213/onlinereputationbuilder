@@ -118,10 +118,10 @@ export default function HomePage() {
               🏆 Ranked #1 Online Reputation Agency in Delhi NCR & India
             </div>
             <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white leading-[1.04] mb-4 tracking-tight max-w-3xl">
-              India's Premier <span className="text-gradient-gold">Online Reputation</span> Management Agency
+              Reputation Builders: India's Premier <span className="text-gradient-gold">Online Reputation</span> Management Agency
             </h1>
             <p className="text-white/70 text-base lg:text-lg mb-6 leading-relaxed max-w-2xl">
-              Manage how people see you on the internet. We help you clear negative links, protect against unfair reviews, and build a strong, positive image.
+              Manage how people see you on the internet. As one of the top ORM companies and an enterprise ORM service provider, we help you clear negative links, protect against unfair reviews, and build a strong, positive image.
             </p>
             <ul className="hero-proof-grid mb-8">
               {[

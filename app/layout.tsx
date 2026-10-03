@@ -15,14 +15,18 @@ const siteUrl = "https://onlinereputationbuilders.in";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Best ORM Agency in India | Top Online Reputation Management Company",
-    template: "%s | Online Reputation Builder",
+    default: "Reputation Builders | Best ORM Agency in India & Top ORM Companies",
+    template: "%s | Reputation Builders",
   },
   description:
     "Online Reputation Builder is India's No.1 Online Reputation Management Company. We protect, repair & enhance your online reputation. Trusted by 1200+ clients across the globe.",
   keywords: [
+    "reputation builders",
     "ORM agency in India",
     "best ORM agency in India",
+    "online reputation management companies",
+    "ORM companies",
+    "ORM service provider",
     "online reputation management company",
     "ORM services India",
     "ORM agency meaning",
