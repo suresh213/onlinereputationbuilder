@@ -30,16 +30,16 @@ const data = industries.map(ind => {
     painPointDesc: `For ${ind.toLowerCase()}, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.`,
     faqs: [
       {
-        question: `How long does it take to improve the online reputation of ${ind.toLowerCase()}?`,
-        answer: "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        q: `How long does it take to improve the online reputation of ${ind.toLowerCase()}?`,
+        a: "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        question: `Can you remove fake reviews or defamatory articles about ${ind.toLowerCase()}?`,
-        answer: "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        q: `Can you remove fake reviews or defamatory articles about ${ind.toLowerCase()}?`,
+        a: "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        question: `Is your reputation management service confidential?`,
-        answer: "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        q: `Is your reputation management service confidential?`,
+        a: "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   };
@@ -52,7 +52,7 @@ const fileContent = `export interface IndustryData {
   heroSubtitle: string;
   painPointTitle: string;
   painPointDesc: string;
-  faqs: { question: string; answer: string }[];
+  faqs: { q: string; a: string }[];
 }
 
 export const industries: IndustryData[] = ${JSON.stringify(data, null, 2)};

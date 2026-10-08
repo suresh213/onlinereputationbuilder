@@ -24,10 +24,10 @@ export async function generateMetadata({ params }: { params: { industry_slug: st
   }
 
   return {
-    title: \`\${industry.title} | Online Reputation Management\`,
+    title: `${industry.title} | Online Reputation Management`,
     description: industry.heroSubtitle,
     alternates: {
-      canonical: \`https://onlinereputationbuilders.in/industry/\${industry.slug}\`
+      canonical: `https://onlinereputationbuilders.in/industry/${industry.slug}`
     }
   };
 }
@@ -57,10 +57,10 @@ export default function IndustryPage({ params }: { params: { industry_slug: stri
     "@type": "FAQPage",
     "mainEntity": industry.faqs.map(faq => ({
       "@type": "Question",
-      "name": faq.question,
+      "name": faq.q,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.answer
+        "text": faq.a
       }
     }))
   };

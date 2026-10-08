@@ -5,7 +5,7 @@ export interface IndustryData {
   heroSubtitle: string;
   painPointTitle: string;
   painPointDesc: string;
-  faqs: { question: string; answer: string }[];
+  faqs: { q: string; a: string }[];
 }
 
 export const industries: IndustryData[] = [
@@ -18,16 +18,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For doctors, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of doctors?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of doctors?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about doctors?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about doctors?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -40,16 +40,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For surgeons, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of surgeons?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of surgeons?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about surgeons?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about surgeons?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -62,16 +62,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For dentists, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of dentists?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of dentists?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about dentists?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about dentists?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -84,16 +84,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For politicians, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of politicians?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of politicians?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about politicians?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about politicians?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -106,16 +106,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For lawyers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of lawyers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of lawyers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about lawyers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about lawyers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -128,16 +128,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For law firms, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of law firms?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of law firms?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about law firms?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about law firms?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -150,16 +150,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For real estate developers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of real estate developers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of real estate developers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about real estate developers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about real estate developers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -172,16 +172,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For real estate agents, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of real estate agents?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of real estate agents?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about real estate agents?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about real estate agents?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -194,16 +194,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For crypto founders, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of crypto founders?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of crypto founders?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about crypto founders?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about crypto founders?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -216,16 +216,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For web3 projects, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of web3 projects?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of web3 projects?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about web3 projects?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about web3 projects?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -238,16 +238,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For hotels, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of hotels?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of hotels?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about hotels?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about hotels?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -260,16 +260,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For resorts, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of resorts?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of resorts?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about resorts?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about resorts?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -282,16 +282,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For ceos, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of ceos?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of ceos?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about ceos?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about ceos?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -304,16 +304,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For c-suite executives, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of c-suite executives?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of c-suite executives?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about c-suite executives?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about c-suite executives?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -326,16 +326,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For financial advisors, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of financial advisors?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of financial advisors?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about financial advisors?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about financial advisors?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -348,16 +348,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For wealth managers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of wealth managers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of wealth managers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about wealth managers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about wealth managers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -370,16 +370,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For hospitals, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of hospitals?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of hospitals?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about hospitals?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about hospitals?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -392,16 +392,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For clinics, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of clinics?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of clinics?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about clinics?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about clinics?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -414,16 +414,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For plastic surgeons, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of plastic surgeons?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of plastic surgeons?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about plastic surgeons?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about plastic surgeons?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -436,16 +436,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For startups, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of startups?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of startups?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about startups?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about startups?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -458,16 +458,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For tech founders, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of tech founders?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of tech founders?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about tech founders?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about tech founders?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -480,16 +480,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For saas companies, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of saas companies?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of saas companies?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about saas companies?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about saas companies?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -502,16 +502,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For e-commerce brands, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of e-commerce brands?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of e-commerce brands?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about e-commerce brands?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about e-commerce brands?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -524,16 +524,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For retail chains, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of retail chains?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of retail chains?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about retail chains?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about retail chains?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -546,16 +546,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For automotive dealerships, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of automotive dealerships?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of automotive dealerships?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about automotive dealerships?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about automotive dealerships?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -568,16 +568,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For airlines, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of airlines?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of airlines?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about airlines?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about airlines?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -590,16 +590,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For logistics companies, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of logistics companies?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of logistics companies?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about logistics companies?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about logistics companies?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -612,16 +612,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For construction firms, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of construction firms?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of construction firms?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about construction firms?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about construction firms?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -634,16 +634,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For architects, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of architects?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of architects?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about architects?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about architects?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -656,16 +656,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For accountants, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of accountants?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of accountants?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about accountants?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about accountants?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -678,16 +678,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For cpa firms, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of cpa firms?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of cpa firms?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about cpa firms?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about cpa firms?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -700,16 +700,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For insurance agents, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of insurance agents?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of insurance agents?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about insurance agents?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about insurance agents?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -722,16 +722,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For private equity firms, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of private equity firms?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of private equity firms?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about private equity firms?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about private equity firms?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -744,16 +744,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For venture capitalists, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of venture capitalists?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of venture capitalists?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about venture capitalists?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about venture capitalists?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -766,16 +766,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For investment bankers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of investment bankers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of investment bankers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about investment bankers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about investment bankers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -788,16 +788,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For public companies, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of public companies?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of public companies?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about public companies?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about public companies?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -810,16 +810,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For board members, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of board members?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of board members?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about board members?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about board members?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -832,16 +832,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For influencers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of influencers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of influencers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about influencers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about influencers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -854,16 +854,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For athletes, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of athletes?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of athletes?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about athletes?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about athletes?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -876,16 +876,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For musicians, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of musicians?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of musicians?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about musicians?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about musicians?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -898,16 +898,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For actors, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of actors?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of actors?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about actors?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about actors?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -920,16 +920,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For authors, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of authors?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of authors?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about authors?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about authors?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -942,16 +942,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For public speakers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of public speakers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of public speakers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about public speakers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about public speakers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -964,16 +964,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For franchises, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of franchises?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of franchises?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about franchises?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about franchises?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -986,16 +986,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For gyms & fitness centers, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of gyms & fitness centers?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of gyms & fitness centers?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about gyms & fitness centers?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about gyms & fitness centers?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -1008,16 +1008,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For universities, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of universities?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of universities?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about universities?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about universities?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -1030,16 +1030,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For private schools, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of private schools?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of private schools?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about private schools?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about private schools?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -1052,16 +1052,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For non-profits, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of non-profits?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of non-profits?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about non-profits?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about non-profits?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -1074,16 +1074,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For charities, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of charities?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of charities?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about charities?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about charities?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   },
@@ -1096,16 +1096,16 @@ export const industries: IndustryData[] = [
     "painPointDesc": "For government contractors, a single negative article, fake review, or coordinated defamation campaign can destroy years of hard work. We use legal and SEO strategies to ensure your digital footprint reflects your true expertise.",
     "faqs": [
       {
-        "question": "How long does it take to improve the online reputation of government contractors?",
-        "answer": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
+        "q": "How long does it take to improve the online reputation of government contractors?",
+        "a": "Depending on the severity of the negative content, our suppression and removal campaigns typically show significant results within 4 to 12 weeks."
       },
       {
-        "question": "Can you remove fake reviews or defamatory articles about government contractors?",
-        "answer": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
+        "q": "Can you remove fake reviews or defamatory articles about government contractors?",
+        "a": "Yes. Our legal and compliance teams work directly with platforms and publishers to remove content that violates Terms of Service or constitutes defamation."
       },
       {
-        "question": "Is your reputation management service confidential?",
-        "answer": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
+        "q": "Is your reputation management service confidential?",
+        "a": "Absolutely. We operate under strict Non-Disclosure Agreements (NDAs). Your privacy and the integrity of your brand are our top priorities."
       }
     ]
   }
