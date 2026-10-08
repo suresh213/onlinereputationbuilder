@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { blogPosts } from "./blog/data";
+import { industries } from "./industry/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://onlinereputationbuilders.in";
@@ -66,7 +67,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Dynamically append blog article routes
   const blogRoutes = blogPosts.map((post) => `/blog/${post.slug}`);
-  const routes = [...staticRoutes, ...blogRoutes];
+  const industryRoutes = industries.map((ind) => `/industry/${ind.slug}`);
+  const routes = [...staticRoutes, ...blogRoutes, ...industryRoutes];
 
   return routes.map((route) => {
     let priority = 0.7;
@@ -94,6 +96,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/blog/how-to-remove-negative-links-from-google-search-2026",
       ];
       priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
+      changefreq = "weekly";
+    } else if (route.startsWith("/industry/")) {
+      priority = 0.9;
       changefreq = "weekly";
     } else if (route === "/contact-us") {
       priority = 0.5;
