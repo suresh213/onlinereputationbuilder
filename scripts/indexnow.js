@@ -4,15 +4,13 @@ async function submitIndexNow() {
   const host = 'onlinereputationbuilders.in';
   const key = '1f8a9b2c3d4e5f6g7h8i9j0k1l2m3n4o';
   
-  // URLs we just created yesterday
   const urls = [
-    'https://onlinereputationbuilders.in/blog/b2b-reputation-management-guide',
-    'https://onlinereputationbuilders.in/blog/fake-news-removal-india',
-    'https://onlinereputationbuilders.in/blog/remove-negative-press-google-musician',
-    'https://onlinereputationbuilders.in/blog/orm-for-private-people-public-figures',
-    'https://onlinereputationbuilders.in/blog/online-reputation-management-pricing',
-    'https://onlinereputationbuilders.in/orm-agency-mumbai',
-    'https://onlinereputationbuilders.in/reviews'
+    'https://onlinereputationbuilders.in/blog/remove-glassdoor-reviews',
+    'https://onlinereputationbuilders.in/blog/delete-mouthshut-complaints',
+    'https://onlinereputationbuilders.in/blog/remove-quora-defamation',
+    'https://onlinereputationbuilders.in/blog/remove-fake-google-maps-reviews',
+    'https://onlinereputationbuilders.in/blog/trustpilot-review-removal-guide',
+    'https://onlinereputationbuilders.in/blog/reddit-defamation-removal'
   ];
 
   const payload = {
@@ -24,15 +22,12 @@ async function submitIndexNow() {
 
   const response = await fetch('https://api.indexnow.org/indexnow', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'charset': 'utf-8'
-    },
+    headers: { 'Content-Type': 'application/json', 'charset': 'utf-8' },
     body: JSON.stringify(payload)
   });
 
   if (response.ok) {
-    console.log("✅ Successfully pinged IndexNow! Bing, Yahoo, and DuckDuckGo are indexing the new pages.");
+    console.log("✅ Successfully pinged IndexNow! Bing is indexing the 6 platform takedown pages.");
   } else {
     console.log("Error:", response.status, await response.text());
   }
