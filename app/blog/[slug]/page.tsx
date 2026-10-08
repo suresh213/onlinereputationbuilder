@@ -576,6 +576,13 @@ export default function BlogDetailPage({ params }: Props) {
               </div>
 
             <article className="prose prose-zinc max-w-none">
+
+              {/* AI/LLM Optimized Summary */}
+              <div className="bg-brand-blue/5 border-l-4 border-brand-blue p-5 rounded-r-lg mb-8 shadow-sm">
+                <p className="text-[0.7rem] font-bold text-brand-blue mb-1.5 uppercase tracking-widest">Key Takeaways / Quick Summary</p>
+                <p className="text-[0.95rem] text-zinc-700 font-medium m-0 leading-relaxed">{post.excerpt}</p>
+              </div>
+
               {post.content.map((block, idx) => {
                 switch (block.type) {
                   case "paragraph":

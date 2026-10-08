@@ -31,10 +31,13 @@ export async function GET(request: Request, { params }: { params: { slug: string
     }
   });
 
+  md += `\n---\n*Original Canonical Source: [https://onlinereputationbuilders.in/blog/${post.slug}](https://onlinereputationbuilders.in/blog/${post.slug})*\n`;
+
   return new NextResponse(md, {
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
-      'Cache-Control': 'public, max-age=31536000, immutable'
+      'Cache-Control': 'public, max-age=31536000, immutable',
+      'Link': `<https://onlinereputationbuilders.in/blog/${post.slug}>; rel="canonical"`
     }
   });
 }
