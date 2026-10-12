@@ -85,7 +85,7 @@ export default function IndustryPage({ params }: { params: { industry_slug: stri
         '@type': 'ListItem',
         position: 2,
         name: 'Industries',
-        item: 'https://onlinereputationbuilders.in/industry/doctors',
+        item: 'https://onlinereputationbuilders.in/industry',
       },
       {
         '@type': 'ListItem',
@@ -120,7 +120,7 @@ export default function IndustryPage({ params }: { params: { industry_slug: stri
           <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-xs text-zinc-400">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            <span className="text-zinc-500">Industry ORM</span>
+            <Link href="/industry" className="text-zinc-400 hover:text-white transition-colors">Industries</Link>
             <span>/</span>
             <span className="text-brand-gold font-medium">{industry.name}</span>
           </nav>

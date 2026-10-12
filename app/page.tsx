@@ -483,6 +483,106 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* INDUSTRIES WE PROTECT */}
+      <section className="py-20 lg:py-24 px-4 bg-zinc-900 text-white border-b border-zinc-800 relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none" />
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-14">
+            <span className="text-xs font-bold text-brand-gold uppercase tracking-widest bg-brand-gold/15 px-3 py-1 rounded-full border border-brand-gold/30 mb-4 inline-block">
+              Sector Specialization
+            </span>
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold mb-4">
+              Specialized Reputation Management for <span className="text-brand-gold">50+ Industries</span>
+            </h2>
+            <p className="text-zinc-400 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+              Different professions operate under unique legal guidelines and discovery platforms. We engineer specialized defense protocols customized to the regulatory and search dynamics of your sector.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+            {[
+              {
+                icon: "🩺",
+                name: "Doctors & Healthcare",
+                href: "/industry/doctors",
+                desc: "Confidential Practo and Google Maps review dispute protocols under strict medical ethics.",
+              },
+              {
+                icon: "👔",
+                name: "CEOs & Executives",
+                href: "/industry/ceos",
+                desc: "Personal Google Page 1 ownership, thought leadership, and corporate search protection.",
+              },
+              {
+                icon: "⚖️",
+                name: "Lawyers & Law Firms",
+                href: "/industry/lawyers",
+                desc: "Bar council compliant brand protection, client acquisition defense, and forum removal.",
+              },
+              {
+                icon: "🪙",
+                name: "Crypto & Web3 Founders",
+                href: "/industry/crypto-founders",
+                desc: "Rapid Reddit, Twitter, and forum FUD suppression for token launches and investor trust.",
+              },
+              {
+                icon: "🏨",
+                name: "Hotels & Hospitality",
+                href: "/industry/hotels",
+                desc: "TripAdvisor, Google Maps, and booking platform review velocity repair and dispute handling.",
+              },
+              {
+                icon: "🎓",
+                name: "Universities & Schools",
+                href: "/industry/universities",
+                desc: "Campus controversy suppression, student admission trust defense, and forum remediation.",
+              },
+              {
+                icon: "🚀",
+                name: "Startups & Tech",
+                href: "/industry/startups",
+                desc: "Glassdoor employer brand restoration, early-stage investor diligence protection, and PR defense.",
+              },
+              {
+                icon: "🏛️",
+                name: "Public Companies",
+                href: "/industry/public-companies",
+                desc: "Enterprise crisis quarantine, stock market sentiment defense, and tier-1 press syndication.",
+              },
+            ].map((ind) => (
+              <Link
+                key={ind.name}
+                href={ind.href}
+                className="group p-6 rounded-2xl bg-zinc-950/80 border border-zinc-800 hover:border-brand-gold hover:shadow-xl transition-all flex flex-col justify-between"
+              >
+                <div>
+                  <span className="text-2xl mb-3 block">{ind.icon}</span>
+                  <h3 className="font-heading font-bold text-base text-white group-hover:text-brand-gold transition-colors mb-2">
+                    {ind.name}
+                  </h3>
+                  <p className="text-xs text-zinc-400 leading-relaxed">
+                    {ind.desc}
+                  </p>
+                </div>
+                <div className="pt-4 mt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs font-semibold text-brand-gold">
+                  <span>View Protocol</span>
+                  <span className="transition-transform group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/industry"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-brand-gold text-zinc-950 font-bold text-sm hover:bg-brand-gold/90 transition-all shadow-lg"
+            >
+              Explore All 50 Protected Industry Sectors →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 lg:py-24 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted">
         <div className="max-w-4xl mx-auto">

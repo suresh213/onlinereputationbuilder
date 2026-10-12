@@ -62,6 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/solution/politics-reputation-management",
     "/solution/real-estate-reputation-management",
     "/solution/spiritual-reputation-management",
+    "/industry",
     "/blog"
   ];
 
@@ -97,7 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ];
       priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
       changefreq = "weekly";
-    } else if (route.startsWith("/industry/")) {
+    } else if (route === "/industry" || route.startsWith("/industry/")) {
       priority = 0.9;
       changefreq = "weekly";
     } else if (route === "/contact-us") {

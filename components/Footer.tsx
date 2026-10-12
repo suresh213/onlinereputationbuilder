@@ -213,6 +213,41 @@ export default function Footer() {
             </Link>
           </div>
 
+          <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Industry Reputation Solutions</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-300 mb-5">
+            <Link href="/industry" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
+              🏛️ All 50 Industry Hubs
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/doctors" className="hover:text-brand-gold-light transition-colors">
+              🩺 Doctors & Healthcare
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/ceos" className="hover:text-brand-gold-light transition-colors">
+              👔 CEOs & C-Suite
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/lawyers" className="hover:text-brand-gold-light transition-colors">
+              ⚖️ Lawyers & Law Firms
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/crypto-founders" className="hover:text-brand-gold-light transition-colors">
+              🪙 Crypto & Web3
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/hotels" className="hover:text-brand-gold-light transition-colors">
+              🏨 Hotels & Resorts
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/universities" className="hover:text-brand-gold-light transition-colors">
+              🎓 Universities & Schools
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/startups" className="hover:text-brand-gold-light transition-colors">
+              🚀 Tech Startups
+            </Link>
+          </div>
+
           <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Trending ORM Strategic Guides</p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-400">
             <Link href="/blog/how-much-does-reputation-management-cost" className="hover:text-brand-gold-light transition-colors">

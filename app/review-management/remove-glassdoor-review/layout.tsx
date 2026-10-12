@@ -17,42 +17,66 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Can employers legally remove Glassdoor reviews?",
+      "name": "How do employers remove negative reviews from Glassdoor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, employers can request removal of Glassdoor reviews that violate Glassdoor's community guidelines. Reviews can be removed for: fake or spam content, conflict of interest (posted by competitors), personal attacks, unverified employment claims, and reviews containing provable false statements. Glassdoor responds to removal requests within 3-7 business days."
+        "text": "Employers can remove negative Glassdoor reviews by identifying specific platform policy violations and filing structured dispute appeals with Glassdoor Trust and Safety. Eligible violations include revealing confidential company data, naming non-executive staff members, profanity, conflict of interest, or demonstrably false factual allegations. When documentation proves a breach of Community Guidelines, Glassdoor permanently deletes the review within 7 to 14 business days."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I identify a fake Glassdoor review?",
+      "name": "Can an employer delete or dispute reviews on Glassdoor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fake Glassdoor reviews typically show these patterns: posted by accounts with no history, generic complaints with no specific details, multiple reviews posted within a short timeframe, identical or very similar wording to other negative reviews, and reviews posted during periods of competitor activity. These patterns can be flagged as coordinated spam."
+        "text": "Yes, employers can dispute any review through the Glassdoor Employer Center by submitting an official Content Dispute notice. While employers cannot unilaterally delete reviews with a single click, Glassdoor must remove content that breaches Terms of Service, employee NDAs, or defamation statutes. If moderation declines initial removal, our team submits formal legal remediation dossiers."
       }
     },
     {
       "@type": "Question",
-      "name": "How long does Glassdoor review removal take?",
+      "name": "Does Glassdoor remove negative reviews from former or unverified employees?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Glassdoor typically processes removal requests within 3-10 business days. For legal defamation cases with strong documentation, removal can happen within 5 days. For reviews that require legal action, the process may take 2-4 weeks. Our team prepares comprehensive documentation to accelerate the process."
+        "text": "Yes, Glassdoor removes reviews if evidence indicates the author was never employed by the company or is an active competitor seeking commercial sabotage. Under Glassdoor Fraud Detection policies, accounts showing velocity anomalies, geographic mismatches, or duplicate submissions are flagged and scrubbed during automated and manual moderation audits."
       }
     },
     {
       "@type": "Question",
-      "name": "What if Glassdoor won't remove a fake review?",
+      "name": "How long does a Glassdoor review dispute take to resolve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If Glassdoor declines removal, we use a three-part strategy: (1) file an escalated legal defamation notice, (2) encourage verified current employees to post authentic reviews to improve your overall rating, and (3) launch a suppression strategy to push the negative review lower in search results."
+        "text": "Standard Glassdoor review disputes take 5 to 14 business days from the initial filing date. Complex cases involving severe defamation or legal notices typically resolve in 2 to 4 weeks. Throughout the process, we monitor profile rating movements and provide complete status tracking."
       }
     },
     {
       "@type": "Question",
-      "name": "How do fake Glassdoor reviews impact hiring?",
+      "name": "What can companies do if Glassdoor refuses to remove a bad review?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fake negative Glassdoor reviews significantly impact hiring. Studies show 78% of job seekers check Glassdoor before applying. A drop from 4.0 to 3.5 stars can reduce application rates by 30-40%, increase cost-per-hire, and cause top candidates to reject offers. Removing or suppressing fake reviews directly improves recruitment outcomes."
+        "text": "If Glassdoor refuses direct deletion under safe harbor protections, we deploy a three-stage mitigation strategy: first, we issue legal notices citing defamation laws and trade secret breaches; second, we launch verified internal employee sentiment programs to generate authentic 5-star ratings; and third, we use reverse SEO suppression to push Glassdoor search rankings below owned digital assets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do negative Glassdoor reviews impact hiring and recruitment costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Negative Glassdoor reviews increase corporate cost per hire by over 30 percent and lead up to 70 percent of qualified candidates to decline job offers. A 1-star reduction in employer rating directly impairs talent acquisition, especially for senior engineering and executive roles. Removing toxic reviews and improving employer ratings to 4.2 stars or higher restores applicant volume immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Glassdoor reviews naming specific managers or colleagues be removed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Glassdoor Community Guidelines strictly prohibit naming individual employees below the executive level (C-suite or board directors). Any review that identifies mid-level managers, HR staff, or project leads by full name or identifiable job title qualifies for mandatory removal upon flagging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Glassdoor review removal 100 percent confidential under an NDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All employer review removal campaigns are executed under binding Non-Disclosure Agreements. We never contact the reviewer publicly, and employees, job candidates, and competitor firms will never know an external agency managed the dispute process."
       }
     }
   ]

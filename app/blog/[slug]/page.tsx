@@ -31,6 +31,13 @@ export async function generateMetadata({ params }: Props) {
 
   // Keywords mapping for dynamic articles
   const keywordsMap: Record<string, string[]> = {
+    "how-to-remove-copyright-strike-from-aiplex-software": [
+      "how to remove copyright strike from aiplex software private limited",
+      "aiplex software private limited copyright strike",
+      "remove aiplex copyright strike youtube",
+      "aiplex dmca takedown notice counter notification",
+      "youtube copyright strike removal india"
+    ],
     "suppress-negative-search-results": [
       "suppress negative google search results",
       "how to hide search results",
@@ -358,6 +365,17 @@ export default function BlogDetailPage({ params }: Props) {
 
   // HowTo schema data for step-based posts
   const howToData: Record<string, { name: string; description: string; steps: { name: string; text: string }[] }> = {
+    "how-to-remove-copyright-strike-from-aiplex-software": {
+      name: "How to Remove Copyright Strike from AiPlex Software Private Limited",
+      description: "Step-by-step legal and platform dispute framework to resolve and remove copyright strikes from AiPlex Software Private Limited on YouTube, Google, and web hosts.",
+      steps: [
+        { name: "Verify Claimant Identity & Video URL", text: "Confirm the claimant is AiPlex Software Private Limited acting on behalf of a production house. Identify the exact copyrighted material cited." },
+        { name: "Assess Fair Use or Ownership Rights", text: "Determine whether your content qualifies under fair use, critique, parody, educational commentary, or licensed creative commons attribution." },
+        { name: "Submit a YouTube Counter-Notification", text: "If the copyright claim is erroneous or misidentified, submit a formal DMCA counter-notification directly through YouTube Studio." },
+        { name: "Initiate Direct Editorial Retraction", text: "Contact AiPlex legal desk with your dispute dossier and licensing proof requesting voluntary retraction of the strike within 48 to 72 hours." },
+        { name: "Consult Cyber IP Legal Counsel", text: "For persistent commercial disputes or channel-threatening strikes, engage intellectual property legal counsel under the Indian Copyright Act 1957." },
+      ],
+    },
     "remove-fake-news-articles-google-search": {
       name: "How to Remove Fake News Articles from Google Search",
       description: "Step-by-step guide to remove defamatory articles and fake news from Google using DMCA takedowns, legal requests, and suppression strategies.",
