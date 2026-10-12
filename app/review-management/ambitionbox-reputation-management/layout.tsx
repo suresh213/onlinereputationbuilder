@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management India"
   ],
   alternates: {
-    canonical: "/review-management/ambitionbox-reputation-management",
+    canonical: "https://onlinereputationbuilders.in/review-management/ambitionbox-reputation-management",
   },
   openGraph: {
     title: "AmbitionBox Review Removal & Employer Brand Repair [100% Legal]",

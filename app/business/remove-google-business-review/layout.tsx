@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management google reviews"
   ],
   alternates: {
-    canonical: "/business/remove-google-business-review",
+    canonical: "https://onlinereputationbuilders.in/business/remove-google-business-review",
   },
   openGraph: {
     title: "Remove Fake Google Reviews [98% Deletion Success Rate]",

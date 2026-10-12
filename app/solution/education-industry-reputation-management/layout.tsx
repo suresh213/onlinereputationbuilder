@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Protect your school or university from fake student reviews and negative news reports. Drive admissions by showing positive campus achievements.",
   keywords: ["school reputation management", "university ORM services", "education brand protection", "manage college reviews", "online reputation management company in india", "orm company in india", "orm services india"],
   alternates: {
-    canonical: "/solution/education-industry-reputation-management",
+    canonical: "https://onlinereputationbuilders.in/solution/education-industry-reputation-management",
   },
 };
 

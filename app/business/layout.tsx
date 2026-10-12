@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Protect and repair your company's online image. Specialized B2B and B2C reputation management services in India to remove bad reviews and boost brand trust.",
   keywords: ["business online reputation management", "corporate ORM company", "brand reputation management", "ORM company India", "reputation repair India", "online reputation management", "business reputation management", "reputation management company"],
   alternates: {
-    canonical: "/business",
+    canonical: "https://onlinereputationbuilders.in/business",
   },
 };
 

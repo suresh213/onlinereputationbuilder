@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Protect your personal brand, career, and digital footprint. Suppress negative content, mugshots, court records, and private information from search results.",
   keywords: ["personal reputation management", "reputation repair for individuals", "clean personal google search", "delete mugshots google", "private link removal", "personal branding agency", "best reputation management"],
   alternates: {
-    canonical: "/individual",
+    canonical: "https://onlinereputationbuilders.in/individual",
   },
 };
 

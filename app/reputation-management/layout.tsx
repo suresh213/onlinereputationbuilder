@@ -1,27 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Online Reputation Management & Removal Services | Free Confidential Audit | Online Reputation Builder",
-  description:
-    "India's leading Online Reputation Management (ORM) agency. We legally remove negative Google reviews, de-index defamatory articles, and protect your brand identity under strict NDA. Request your confidential audit today.",
-  robots: {
-    index: false,
-    follow: false,
-  },
-  openGraph: {
-    title: "Online Reputation Management & Removal Services | Online Reputation Builder",
-    description:
-      "Legally remove negative reviews, de-index damaging search results, and build an untouchable brand reputation. 1,200+ clients protected globally.",
-    type: "website",
+  title: "Online Reputation Management Services | Best ORM Company India",
+  description: "Complete online reputation repair, negative link suppression, and review management for high-net-worth individuals and businesses.",
+  alternates: {
+    canonical: "https://onlinereputationbuilders.in/reputation-management",
   },
 };
 
-export default function ReputationManagementLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  // NOTE: GA4 (G-3HQP074NNT) and Google Ads (AW-406461196) are already loaded
-  // globally via app/layout.tsx — no duplicate scripts needed here.
+export default function Layout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/business/remove-negative-results",
+    canonical: "https://onlinereputationbuilders.in/business/remove-negative-results",
   },
 };
 

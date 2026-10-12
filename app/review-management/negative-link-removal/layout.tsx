@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/negative-link-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/negative-link-removal",
   },
   openGraph: {
     title: "Negative Link Removal Services | Delete & De-index URLs from Google",

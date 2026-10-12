@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Establish your digital authority and personal brand. We build websites, write articles, publish press releases, and manage social profiles to rank you high.",
   keywords: ["personal branding services", "executive branding India", "build celebrity brand", "thought leadership branding", "personal reputation management", "personal branding agency", "best reputation management"],
   alternates: {
-    canonical: "/individual/personal-branding-services",
+    canonical: "https://onlinereputationbuilders.in/individual/personal-branding-services",
   },
 };
 

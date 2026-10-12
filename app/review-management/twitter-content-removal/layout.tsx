@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Take down negative tweets, defamatory threads, copyright infringements, and fake impersonation profiles from X. Clean your search profile.",
   keywords: ["remove tweet", "delete twitter post", "twitter copycat report", "x post defamation removal", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/twitter-content-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/twitter-content-removal",
   },
 };
 

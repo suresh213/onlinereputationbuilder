@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Track mentions of your name across search engines, social media platforms, public directories, and forums with our personal brand alert systems.",
   keywords: ["personal brand monitoring", "track my name google", "reputation alert for individuals", "personal mention monitor", "personal reputation management", "personal branding agency", "best reputation management"],
   alternates: {
-    canonical: "/individual/personal-brand-monitoring",
+    canonical: "https://onlinereputationbuilders.in/individual/personal-brand-monitoring",
   },
 };
 

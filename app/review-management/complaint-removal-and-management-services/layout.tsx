@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/complaint-removal-and-management-services",
+    canonical: "https://onlinereputationbuilders.in/review-management/complaint-removal-and-management-services",
   },
   openGraph: {
     title: "Complaint Removal Services [Ripoff Report, Consumer Boards De-indexing]",

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Delete defamatory Facebook posts, reports, reviews, pages, or groups. Protect your business or personal name from online social media bullying.",
   keywords: ["remove facebook post", "delete defamatory facebook page", "facebook review removal", "take down facebook group", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/facebook-content-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/facebook-content-removal",
   },
 };
 

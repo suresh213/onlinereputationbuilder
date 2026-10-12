@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Eliminate fake news posts, online defamation, and unverified allegations from search indexes. DMCA takedowns and legal tools for fast removal.",
   keywords: ["remove fake news", "delete defamatory article", "fake news report retraction", "media slander removal", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/fake-news-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/fake-news-removal",
   },
 };
 

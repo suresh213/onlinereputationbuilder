@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Monitor and manage reviews across Google, Glassdoor, Indeed, Trustpilot, and Yelp. Generate positive customer reviews to build online trust.",
   keywords: ["review management services", "corporate review monitoring", "generate positive reviews", "manage yelp reviews", "improve business rating", "online reputation management", "business reputation management", "reputation management company"],
   alternates: {
-    canonical: "/business/review-management",
+    canonical: "https://onlinereputationbuilders.in/business/review-management",
   },
 };
 

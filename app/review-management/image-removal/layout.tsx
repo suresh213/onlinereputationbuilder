@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Erase copyrighted photos, non-consensual images, leaks, and unwanted photos from Google Images and host servers. Take down image leaks.",
   keywords: ["remove images from google", "delete private photo search", "DMCA image takedown", "remove leaked pictures", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/image-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/image-removal",
   },
 };
 

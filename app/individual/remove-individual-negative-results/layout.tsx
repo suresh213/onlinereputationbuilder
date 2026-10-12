@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/individual/remove-individual-negative-results",
+    canonical: "https://onlinereputationbuilders.in/individual/remove-individual-negative-results",
   },
 };
 

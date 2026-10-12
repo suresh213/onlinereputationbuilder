@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/individual/change-google-autocomplete",
+    canonical: "https://onlinereputationbuilders.in/individual/change-google-autocomplete",
   },
   openGraph: {
     title: "Change Google Autocomplete Predictions & Search Suggestions",

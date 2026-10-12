@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/trustpilot-reputation-management",
+    canonical: "https://onlinereputationbuilders.in/review-management/trustpilot-reputation-management",
   },
   openGraph: {
     title: "Trustpilot Review Removal & Rating Repair [100% Policy-Compliant]",

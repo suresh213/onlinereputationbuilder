@@ -151,7 +151,7 @@ export async function generateMetadata({ params }: Props) {
     description: post.excerpt,
     keywords: keywordsMap[post.slug] || ["online reputation management blog", "ORM strategy guides"],
     alternates: {
-      canonical: `/blog/${post.slug}`,
+      canonical: `https://onlinereputationbuilders.in/blog/${post.slug}`,
     },
   };
 }

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Erase phone numbers, home addresses, emails, and sensitive personal information from search engines, data brokers, and public databases.",
   keywords: ["remove private info from google", "delete personal address search", "remove phone number websites", "erase privacy data", "personal reputation management", "personal branding agency", "best reputation management"],
   alternates: {
-    canonical: "/individual/remove-private-info",
+    canonical: "https://onlinereputationbuilders.in/individual/remove-private-info",
   },
 };
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Increase product sales by managing e-commerce reviews across Amazon, Flipkart, Shopify, and local directories. Drive ratings and customer trust.",
   keywords: ["product review management", "amazon review repair", "ecommerce rating boost", "flipkart review monitoring", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/product-review-management",
+    canonical: "https://onlinereputationbuilders.in/review-management/product-review-management",
   },
 };
 

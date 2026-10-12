@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Restore your company's rating on Glassdoor. We flag fraudulent reviews and policy violations to improve your employer brand score and attract top talent.",
   keywords: ["remove glassdoor reviews", "glassdoor reputation repair", "employer score cleanup", "glassdoor rating repair", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/remove-glassdoor-review",
+    canonical: "https://onlinereputationbuilders.in/review-management/remove-glassdoor-review",
   },
 };
 

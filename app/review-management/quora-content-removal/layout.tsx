@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/quora-content-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/quora-content-removal",
   },
   openGraph: {
     title: "Remove Quora Answers & Questions [Defamation Takedown]",

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "business review management"
   ],
   alternates: {
-    canonical: "/blog",
+    canonical: "https://onlinereputationbuilders.in/blog",
   },
 };
 

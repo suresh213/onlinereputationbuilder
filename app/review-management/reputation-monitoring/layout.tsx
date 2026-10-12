@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Stay updated on what is said about your business or name. Set up proactive alerts for review sites, blogs, and news platforms.",
   keywords: ["reputation monitoring", "mention alerts", "review alert systems", "online brand tracking", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/reputation-monitoring",
+    canonical: "https://onlinereputationbuilders.in/review-management/reputation-monitoring",
   },
 };
 

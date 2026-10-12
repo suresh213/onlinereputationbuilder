@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Automatically gather and showcase 5-star customer reviews across critical platforms. Turn happy clients into brand advocates and drive sales.",
   keywords: ["amplify reviews", "positive review generator", "5 star review automation", "gather client reviews", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/amplify-reviews",
+    canonical: "https://onlinereputationbuilders.in/review-management/amplify-reviews",
   },
 };
 

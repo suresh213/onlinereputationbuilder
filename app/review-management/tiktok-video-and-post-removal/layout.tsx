@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Erase unauthorized TikTok uploads, defamatory comments, and copycat accounts. Maintain your digital privacy and brand identity.",
   keywords: ["remove tiktok video", "delete leaked tiktok", "tiktok impersonation account", "remove tiktok comment", "reputation management service", "online reputation management agency", "best reputation management companies"],
   alternates: {
-    canonical: "/review-management/tiktok-video-and-post-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/tiktok-video-and-post-removal",
   },
 };
 

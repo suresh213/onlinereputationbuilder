@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "reddit thread suppression"
   ],
   alternates: {
-    canonical: "/review-management/reddit-post-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/reddit-post-removal",
   },
   openGraph: {
     title: "Remove Reddit Posts & Threads [Defamation & Privacy Takedown]",

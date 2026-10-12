@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/yelp-review-management",
+    canonical: "https://onlinereputationbuilders.in/review-management/yelp-review-management",
   },
   openGraph: {
     title: "Yelp Review Removal & Rating Repair Services",

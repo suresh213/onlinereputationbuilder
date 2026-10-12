@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "online reputation management"
   ],
   alternates: {
-    canonical: "/review-management/fake-review-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/fake-review-removal",
   },
 };
 

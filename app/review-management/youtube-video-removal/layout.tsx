@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "video takedown service"
   ],
   alternates: {
-    canonical: "/review-management/youtube-video-removal",
+    canonical: "https://onlinereputationbuilders.in/review-management/youtube-video-removal",
   },
   openGraph: {
     title: "YouTube Video Removal Services [DMCA & Defamation Takedowns]",

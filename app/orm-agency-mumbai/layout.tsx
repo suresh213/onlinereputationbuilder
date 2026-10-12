@@ -1,25 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ORM Agency in Mumbai | Top Online Reputation Management Company",
-  description:
-    "Looking for the best ORM agency in Mumbai? We legally remove negative Google reviews, de-index defamatory articles, and protect your brand identity. Request a confidential audit.",
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: {
-    title: "ORM Agency in Mumbai | Online Reputation Builder",
-    description:
-      "Mumbai's leading Online Reputation Management agency. Legally remove negative reviews and de-index damaging search results.",
-    type: "website",
+  title: "Best ORM Agency in Mumbai | Top Reputation Management Company",
+  description: "Top-rated online reputation management company in Mumbai. Remove negative search results, glassdoor reviews, and protect corporate leadership.",
+  alternates: {
+    canonical: "https://onlinereputationbuilders.in/orm-agency-mumbai",
   },
 };
 
-export default function MumbaiLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
