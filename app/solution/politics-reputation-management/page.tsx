@@ -8,95 +8,95 @@ import FAQ from "@/components/FAQ";
 import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
-/* ─── Original Data Preserved ─────────────────────────────────────────────── */
+/* ─── Political Data ─────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "Increase customer trust with stellar online reviews",
-  "Improve search engine visibility with consistent brand management",
-  "Build a community of loyal patrons who advocate for your brand",
-  "Loved by more than 250+ politics brands",
+  "Neutralize opposition smear campaigns and coordinated digital attacks",
+  "Protect Wikipedia biography pages, Google Knowledge Panels, and official profiles",
+  "Suppress out-of-context video clips, defamatory news links, and viral rumors",
+  "Trusted by more than 250+ political candidates, public figures, and party leaders",
 ];
 
 const faqs = [
   {
-    q: "Why is reputation management important for politicss?",
-    a: "Reputation management helps your politics maintain a positive public image, attract more customers, build trust, and improve customer retention and revenue.",
+    q: "Why is online reputation management vital for political candidates and leaders?",
+    a: "Voters and journalists form perceptions within seconds through Google search results and trending social media clips. Unchecked defamatory rumors, edited video clips, or biased search suggestions can undermine years of public service and swing election outcomes.",
   },
   {
-    q: "How do you handle negative reviews?",
-    a: "We respond professionally and empathetically, address concerns, provide resolution guidance, and turn negative experiences into opportunities for customer satisfaction.",
+    q: "Can you remove defamatory or misleading news articles and YouTube videos?",
+    a: "Yes. When content breaches publisher terms, involves copyright violations, uses fabricated quotes, or qualifies as civil defamation under applicable laws, our legal team issues formal notices and platform escalation appeals for prompt removal.",
   },
   {
-    q: "Can reputation management help increase bookings?",
-    a: "Yes. Strong ratings and positive reviews act as trust signals for clients, leading to more reservations, walk-ins, delivery orders, and repeat visits.",
+    q: "How do you protect political figures against Wikipedia vandalism and bias?",
+    a: "We continuously monitor Wikipedia biography pages, submit verified primary source citations, dispute unreferenced allegations according to Neutral Point of View guidelines, and protect pages from coordinated editing attacks.",
   },
   {
-    q: "What platforms do you monitor for reviews?",
-    a: "We monitor Google, Yelp, TripAdvisor, Facebook, food discovery platforms, local listings, and other niche sites relevant to your politics category.",
+    q: "What digital platforms do you monitor during election campaigns?",
+    a: "We monitor Google Search Page 1, Google Autocomplete, Twitter / X trending hashtags, YouTube video rankings, Reddit discussions, Facebook groups, and regional vernacular news portals around the clock.",
   },
   {
-    q: "How can social media affect my politics's reputation?",
-    a: "Social media shapes customer perception through photos, comments, messages, influencer posts, and response speed. Engaging content and timely replies improve trust and visibility.",
+    q: "How do you handle viral social media smear campaigns and fake news?",
+    a: "Our rapid-response war room deploys factual rebuttal assets, initiates platform safety escalations for bot network takedowns, and secures high-ranking search positions with verified press releases.",
   },
   {
-    q: "What if my politics has a crisis situation?",
-    a: "Our crisis management team acts swiftly to mitigate damage, address concerns transparently, and restore your politics's reputation through strategic communication.",
+    q: "Can you fix negative or biased Google Autocomplete search predictions?",
+    a: "Yes. Google search predictions are algorithmically driven by query volume and sentiment. We utilize authoritative digital PR and positive search volume campaigns to displace negative autocomplete suggestions.",
   },
   {
-    q: "Is reputation management only for large politicss?",
-    a: "No. A positive reputation is essential for politicss of every size, from independent cafes and cloud kitchens to multi-location chains.",
+    q: "Is political reputation management handled with strict confidentiality?",
+    a: "Yes. Every campaign operates under a comprehensive bilateral NDA. Our team maintains zero public footprint regarding political client identities, guaranteeing total discretion.",
   },
   {
-    q: "How can I get started with Online Reputation Builder?",
-    a: "Contact us through the consultation form and our experts will tailor a reputation management plan to your politics's unique needs.",
+    q: "How does political ORM assist candidates in Kolkata, West Bengal, and national elections?",
+    a: "From high-stakes legislative constituencies in West Bengal to parliamentary campaigns across India, we monitor vernacular sentiment, neutralize local smear narratives, and amplify positive public service achievements.",
   },
 ];
 
 const services = [
   {
-    label: "Reviews",
-    title: "Review Monitoring and Management",
-    desc: "We track online reviews across Google, Yelp, TripAdvisor, Facebook, and relevant industry platforms, responding to both positive and negative feedback professionally.",
+    label: "Search",
+    title: "Negative Search Result Suppression",
+    desc: "We displace partisan smear blogs, unverified news articles, and hostile discussion threads off Google Page 1, replacing them with verified policy positions and public achievements.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
   },
   {
-    label: "Social",
-    title: "Social Media Management",
-    desc: "We create engaging content, respond to customer inquiries, and maintain a consistent presence that builds a strong connection with clients.",
+    label: "Wikipedia",
+    title: "Wikipedia Page Monitoring & Defense",
+    desc: "We guard biographical Wikipedia articles against hostile edits, unverified allegations, and partisan bias by enforcing strict citation standards and platform dispute protocols.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
-    label: "Local SEO",
-    title: "politics Listing Optimization",
-    desc: "We optimize your online listings with accurate information, keywords, menus, and high-quality photos so potential clients can find and trust you quickly.",
+    label: "Knowledge",
+    title: "Google Knowledge Panel Claim & Curation",
+    desc: "We claim and verify Google Knowledge Panels for political leaders, ensuring accurate designations, constituency details, official social links, and verified photographs.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Crisis",
-    title: "politics Crisis Management",
-    desc: "A single negative review or viral post can harm your brand. We handle crisis situations promptly and effectively to minimize reputation impact.",
+    title: "24/7 Election War Room & PR Response",
+    desc: "During critical campaign periods, our 24/7 crisis monitoring team tracks viral smear trends, submits takedowns for manipulated media, and coordinates strategic PR rebuttals.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
     ),
   },
   {
-    label: "Growth",
-    title: "Positive Review Generation",
-    desc: "We encourage satisfied customers to leave reviews and promote your politics's strengths across the platforms that influence industry decisions.",
+    label: "Autocomplete",
+    title: "Google Autocomplete Cleaning",
+    desc: "We eliminate defamatory, misleading, or sensational search query suggestions associated with a political leader's name across Google, YouTube, and Bing.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
     ),
   },
   {
-    label: "Insights",
-    title: "Customer Sentiment Insights",
-    desc: "We analyze recurring feedback themes so your team can improve operations, service quality, and customer experience.",
+    label: "Social",
+    title: "Social Sentiment & Threat Intelligence",
+    desc: "We analyze coordinated hashtag campaigns, bot armies, and viral narrative shifts across Twitter / X, YouTube, and Reddit to forecast and dismantle digital threats.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     ),
@@ -105,70 +105,68 @@ const services = [
 
 const impacts = [
   {
-    label: "Traffic",
-    title: "Increased Foot Traffic",
-    desc: "Positive reviews and ratings encourage new customers to choose your politics over competitors.",
-    icon: "🚶‍♂️",
+    label: "Trust",
+    title: "Voter Perception & Confidence",
+    desc: "A clean digital search presence ensures voters evaluate your proven legislative track record rather than smear campaigns.",
+    icon: "🗳️",
   },
   {
-    label: "Revenue",
-    title: "Higher Revenue",
-    desc: "A trusted reputation allows you to command premium prices and increase average check sizes.",
-    icon: "📈",
+    label: "Authority",
+    title: "Digital Authority & Narrative Control",
+    desc: "Taking control of Google Page 1 ensures your official policy positions and community impact dominate search results.",
+    icon: "🏛️",
   },
   {
-    label: "Brand",
-    title: "Enhanced Brand Perception",
-    desc: "A well-managed reputation helps customers see your politics as a trusted, high-quality choice.",
+    label: "Defense",
+    title: "Immunity to Viral Smears",
+    desc: "Deep digital defense structures prevent last-minute opposition controversies from gaining algorithmic traction before voting day.",
+    icon: "🛡️",
+  },
+  {
+    label: "Legacy",
+    title: "Long-Term Public Service Legacy",
+    desc: "Accurate Wikipedia entries, verified profiles, and positive media coverage preserve an enduring public service legacy.",
     icon: "🌟",
-  },
-  {
-    label: "Retention",
-    title: "Customer Retention",
-    desc: "Engaging with your audience builds loyalty and turns first-time clients into regular patrons.",
-    icon: "🤝",
   },
 ];
 
 const processes = [
   {
     label: "Audit",
-    title: "Map Reviews and Customer Sentiment",
-    desc: "We review your current ratings, review history, platform listings, social mentions, local search visibility, and competitor reputation.",
+    title: "Comprehensive Political Digital Audit",
+    desc: "We analyze all Google search queries, news archives, Wikipedia revision histories, and social discussions associated with the leader to identify vulnerabilities.",
   },
   {
     label: "Strategy",
-    title: "Create a Tailored politics Plan",
-    desc: "Each politics has unique needs. We build strategies that align with your brand, location, cuisine, customer profile, and growth goals.",
+    title: "Custom Political Narrative Roadmap",
+    desc: "We develop a tailored narrative defense strategy aligned with your constituency, campaign timeline, and long-term political objectives.",
   },
   {
-    label: "Engage",
-    title: "Respond and Build Positive Signals",
-    desc: "We handle review responses, promote satisfied customers, improve listing strength, and support consistent social engagement.",
+    label: "Action",
+    title: "Takedowns, Disputes & Digital PR",
+    desc: "Our legal and digital specialists submit formal takedowns for policy-violating media while publishing authoritative positive assets.",
   },
   {
-    label: "Protect",
-    title: "Monitor Risks and Crisis Triggers",
-    desc: "We keep watch for damaging trends, sudden review spikes, false feedback, and public issues that require quick response.",
+    label: "Shield",
+    title: "24/7 Threat Monitoring & War Room",
+    desc: "We operate continuous monitoring to identify emerging smears and intervene before algorithmic propagation takes place.",
   },
 ];
 
-// Mapped original trustStrip data to online image URLs via Favicon API
 const touchpointLogos = [
-  { name: "Google Reviews", img: "https://www.google.com/s2/favicons?domain=google.com&sz=128" },
-  { name: "TripAdvisor", img: "https://www.google.com/s2/favicons?domain=tripadvisor.com&sz=128" },
-  { name: "Yelp", img: "https://www.google.com/s2/favicons?domain=yelp.com&sz=128" },
-  { name: "Facebook", img: "https://www.google.com/s2/favicons?domain=facebook.com&sz=128" },
-  { name: "Instagram", img: "https://www.google.com/s2/favicons?domain=instagram.com&sz=128" },
-  { name: "Local SEO", img: "https://www.google.com/s2/favicons?domain=maps.google.com&sz=128" },
-  { name: "Food Discovery", img: "https://www.google.com/s2/favicons?domain=zomato.com&sz=128" },
-  { name: "Customer Feedback", img: "https://www.google.com/s2/favicons?domain=trustpilot.com&sz=128" },
+  { name: "Google Page 1", img: "https://www.google.com/s2/favicons?domain=google.com&sz=128" },
+  { name: "Wikipedia", img: "https://www.google.com/s2/favicons?domain=wikipedia.org&sz=128" },
+  { name: "Twitter / X", img: "https://www.google.com/s2/favicons?domain=twitter.com&sz=128" },
+  { name: "YouTube", img: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128" },
+  { name: "Google Knowledge Panel", img: "https://www.google.com/s2/favicons?domain=google.com&sz=128" },
+  { name: "Reddit", img: "https://www.google.com/s2/favicons?domain=reddit.com&sz=128" },
+  { name: "News Portals", img: "https://www.google.com/s2/favicons?domain=indiatimes.com&sz=128" },
+  { name: "Facebook Public Figure", img: "https://www.google.com/s2/favicons?domain=facebook.com&sz=128" },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */
 
-// Custom Scroll Reveal Hook 
-function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) {
+function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -198,8 +196,7 @@ function RevealOnScroll({ children, delay = 0, className = "" }: { children: Rea
   );
 }
 
-// Smooth Animated Counter Component
-function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: { end: number, duration?: number, suffix?: string, decimals?: number }) {
+function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: { end: number; duration?: number; suffix?: string; decimals?: number }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   const [inView, setInView] = useState(false);
@@ -249,7 +246,7 @@ export default function PoliticsIndustryPage() {
       <Topbar />
       <Navbar />
 
-      {/* ── HERO - High-End Culinary Dark Layout ─────────────────────────────────────────────── */}
+      {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="hero-bg relative overflow-hidden bg-zinc-950 premium-section-dark border-b border-zinc-800/50">
         <div className="hero-ambient hero-ambient-blue opacity-50 top-[-10%] right-[-5%]" />
         <div className="hero-ambient hero-ambient-gold opacity-30 bottom-[-10%] left-[-10%]" />
@@ -262,19 +259,19 @@ export default function PoliticsIndustryPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
               </span>
-              Politics ORM - Politics Businesses and Professionals
+              Political ORM: Candidates, Public Figures &amp; Leaders
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.6rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
-              Politics Reputation Management for{" "}
-              <span className="text-gradient-gold">More Bookings</span>
+              Political Reputation Management for{" "}
+              <span className="text-gradient-gold">Voter Trust</span>
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-2xl">
-              In the competitive culinary world, a strong reputation is your most valuable ingredient. Online Reputation Builder ensures your politics stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
+              In public life, your digital narrative shapes voter perception and policy credibility. Online Reputation Builder protects political candidates and leaders from coordinated smear campaigns, out-of-context video clips, and defamatory search results.
             </p>
             <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-2xl">
-              We help politicss protect ratings, manage customer feedback, improve local visibility, and build a loyal community of patrons who advocate for the brand.
+              We help political figures protect Wikipedia biographies, eliminate malicious Google Autocomplete predictions, and establish high-authority digital presence with 100% strict bilateral NDA confidentiality.
             </p>
 
             <ul className="space-y-3 mb-10 max-w-xl">
@@ -286,9 +283,12 @@ export default function PoliticsIndustryPage() {
               ))}
             </ul>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 items-center">
               <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">
-                Boost Your Bookings Now
+                Protect Your Public Narrative
+              </Link>
+              <Link href="/orm-agency-kolkata" className="text-xs text-zinc-400 hover:text-brand-gold transition-colors underline underline-offset-4">
+                Kolkata Strategic Headquarters
               </Link>
             </div>
           </div>
@@ -300,9 +300,9 @@ export default function PoliticsIndustryPage() {
               <div className="form-card-orbit opacity-50" />
               <div className="flex items-center justify-between mb-6 border-b border-zinc-800/80 pb-5 relative z-10">
                 <div>
-                  <p className="section-label text-brand-gold mb-1">Free Consultation</p>
+                  <p className="section-label text-brand-gold mb-1">Confidential Consultation</p>
                   <h2 className="font-heading text-xl font-bold text-white leading-tight">
-                    Upgrade Your industry Reputation
+                    Upgrade Your Public Profile
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
@@ -317,12 +317,11 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── REPUTATION TOUCHPOINTS - Image Marquee ─────────────────────────────────────── */}
+      {/* ── REPUTATION TOUCHPOINTS ─────────────────────────────────────── */}
       <div className="logo-marquee-shell bg-white py-10 border-b border-zinc-200 overflow-hidden relative shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)] z-20">
-        <p className="text-center text-[0.65rem] font-bold text-zinc-400 uppercase tracking-widest mb-6">Reputation touchpoints we manage</p>
+        <p className="text-center text-[0.65rem] font-bold text-zinc-400 uppercase tracking-widest mb-6">High-Impact Media and Search Platforms We Manage</p>
         <div className="max-w-7xl mx-auto px-4 overflow-hidden">
           <div className="marquee-track flex items-center gap-12 md:gap-16 whitespace-nowrap w-max">
-            {/* Duplicated array for seamless CSS marquee scroll */}
             {[...touchpointLogos, ...touchpointLogos].map((m, i) => (
               <div key={i} className="flex items-center gap-3 group">
                 <img 
@@ -337,6 +336,22 @@ export default function PoliticsIndustryPage() {
         </div>
       </div>
 
+      {/* ── RELATED SECTOR HUBS ─────────────────────────────────────── */}
+      <div className="bg-zinc-100 py-3 border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-4 text-xs text-zinc-600">
+          <span className="font-semibold text-zinc-800">Public Leadership Sectors:</span>
+          <Link href="/industry/politicians" className="hover:text-brand-blue hover:underline">Politicians &amp; Candidates</Link>
+          <span>•</span>
+          <Link href="/industry/public-figures" className="hover:text-brand-blue hover:underline">Public Figures</Link>
+          <span>•</span>
+          <Link href="/industry/advocates" className="hover:text-brand-blue hover:underline">Advocates &amp; Legal Counsel</Link>
+          <span>•</span>
+          <Link href="/industry/authors" className="hover:text-brand-blue hover:underline">Authors &amp; Thought Leaders</Link>
+          <span>•</span>
+          <Link href="/orm-agency-kolkata" className="hover:text-brand-gold font-medium">Kolkata Political Intelligence Desk</Link>
+        </div>
+      </div>
+
       {/* ── OVERVIEW & FLOATING STATS ─────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted overflow-hidden z-0">
         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
@@ -347,13 +362,13 @@ export default function PoliticsIndustryPage() {
               <div className="premium-copy-panel pr-0 lg:pr-8">
                 <p className="section-label mb-2 text-brand-gold">Overview</p>
                 <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                  The Role of Reputation Management in <span className="heading-script text-brand-blue">Customer Retention</span>
+                  The Role of Reputation Management in <span className="heading-script text-brand-blue">Public Perception</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-8 text-[0.95rem]">
-                  Happy customers are your best marketers. Reputation management helps ensure clients leave satisfied, feedback is addressed promptly, and your politics's image remains impeccable. It is not just damage control; it is about building lasting relationships and turning clients into loyal advocates.
+                  Modern elections and policy debates are won or lost in search algorithms. Political reputation management ensures your actual legislative achievements, civic initiatives, and vision lead public discourse, while unverified smears and manipulated clips are suppressed under strict platform compliance standards.
                 </p>
                 <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-8 py-3.5">
-                  Protect Your politics
+                  Protect Your Public Record
                 </Link>
               </div>
             </RevealOnScroll>
@@ -363,32 +378,31 @@ export default function PoliticsIndustryPage() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
                   <img
-                    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80"
-                    alt="politics reputation management services"
+                    src="https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&q=80"
+                    alt="political reputation management services for public figures and leaders"
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
                 
-                {/* Floating Metric Card leveraging data stats */}
                 <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[90%] z-20 glass-panel-light p-3 rounded-2xl border border-white shadow-xl hidden md:block">
                   <div className="grid grid-cols-3 gap-2 divide-x divide-zinc-200/60">
                     <div className="text-center px-2">
                       <p className="font-heading text-xl font-black text-brand-blue mb-0.5">
                         <AnimatedCounter end={250} suffix="+" duration={2500} />
                       </p>
-                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Politics Brands</p>
+                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Public Leaders</p>
                     </div>
                     <div className="text-center px-2">
                       <p className="font-heading text-xl font-black text-brand-gold mb-0.5">
-                        <AnimatedCounter end={5} suffix=" star" duration={2500} />
+                        <AnimatedCounter end={100} suffix="%" duration={2500} />
                       </p>
-                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Review Focus</p>
+                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">NDA Discretion</p>
                     </div>
                     <div className="text-center px-2">
                       <p className="font-heading text-xl font-black text-zinc-800 mb-0.5">
                         <AnimatedCounter end={24} suffix="/7" duration={2500} />
                       </p>
-                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">Crisis Watch</p>
+                      <p className="text-[0.55rem] text-zinc-500 font-bold uppercase tracking-widest">War Room</p>
                     </div>
                   </div>
                 </div>
@@ -399,20 +413,20 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── SERVICES GRID - Elevated Staggered Design ─────────────────────────────────── */}
+      {/* ── SERVICES GRID ─────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light relative overflow-hidden z-0">
         <div className="max-w-7xl mx-auto relative z-10">
           <RevealOnScroll>
             <div className="text-center max-w-2xl mx-auto mb-16">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full bg-zinc-50 border border-zinc-200 shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse"></span>
-                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Expertise</p>
+                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Strategic Capabilities</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Comprehensive politics Reputation <span className="heading-script text-brand-gold">Management Services</span>
+                Comprehensive Political Reputation <span className="heading-script text-brand-gold">Management Services</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
-                We provide a full spectrum of services designed to boost your politics's reputation and attract more customers.
+                We deploy specialized search suppression, Wikipedia oversight, and rapid crisis war rooms to safeguard public trust.
               </p>
             </div>
           </RevealOnScroll>
@@ -441,7 +455,7 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── IMPACT SECTION - Premium Dark Layout ────────────────────────────────────── */}
+      {/* ── IMPACT SECTION ────────────────────────────────────── */}
       <section className="py-24 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden premium-section-dark">
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none translate-x-1/3 -translate-y-1/3" />
@@ -452,13 +466,13 @@ export default function PoliticsIndustryPage() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label text-brand-gold mb-3 justify-center">
-                Financial Impact
+                Public Impact
               </p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                How Politics Reputation Management Impacts <span className="text-gradient-gold">Your Bottom Line</span>
+                How Political Reputation Management Secures <span className="text-gradient-gold">Public Goodwill</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] max-w-2xl mx-auto leading-relaxed">
-                A well-maintained online reputation attracts more customers and drives loyalty, word-of-mouth marketing, repeat business, and stronger revenue.
+                A verified public leadership profile dispels baseless controversies, builds voter trust, and cements an enduring governance legacy.
               </p>
             </div>
           </RevealOnScroll>
@@ -479,17 +493,17 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── PROCESS TIMELINE - Vertical Connection Layout ───────────────────────────────────── */}
+      {/* ── PROCESS TIMELINE ───────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted overflow-hidden z-0">
         <div className="max-w-4xl mx-auto relative z-10">
           <RevealOnScroll>
             <div className="text-center mb-16">
               <p className="section-label mb-2 text-brand-blue">Implementation</p>
               <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-5 leading-tight">
-                Streamlined Reputation Management with <span className="heading-script text-brand-blue">Online Reputation Builder</span>
+                Streamlined Political Reputation Management with <span className="heading-script text-brand-blue">Online Reputation Builder</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
-                We simplify and amplify your politics's online presence with proven strategies, fast response systems, and expert reputation support.
+                We safeguard political leadership narratives with rapid legal intervention, search displacement, and high-authority PR distribution.
               </p>
             </div>
           </RevealOnScroll>
@@ -517,7 +531,7 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── FAQ - Asymmetrical Layout ──────────────────────────────────────────────── */}
+      {/* ── FAQ ──────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
@@ -525,15 +539,15 @@ export default function PoliticsIndustryPage() {
               <div className="sticky top-24">
                 <p className="section-label mb-2">Knowledge Base</p>
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 mb-6 leading-tight">
-                  Politics Reputation Management <span className="heading-script text-brand-blue">FAQs</span>
+                  Political Reputation Management <span className="heading-script text-brand-blue">FAQs</span>
                 </h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
-                  Have a specific question about our culinary ORM services? Our experts offer a free,
-                  no-obligation consultation to assess your industry brand.
+                  Have a specific question about our political ORM services? Our senior directors offer a free,
+                  strictly confidential consultation under bilateral NDA.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  Call Us Now
+                  Call Political Strategy Desk
                 </a>
               </div>
             </RevealOnScroll>
@@ -547,7 +561,7 @@ export default function PoliticsIndustryPage() {
         </div>
       </section>
 
-      {/* ── CONTACT CTA - Premium Grand Finish ──────────────────────────────────────── */}
+      {/* ── CONTACT CTA ──────────────────────────────────────── */}
       <section id="contact" className="py-24 lg:py-32 px-4 bg-zinc-950 relative overflow-hidden premium-section-dark border-t-4 border-brand-gold">
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="absolute top-10 left-1/3 w-96 h-96 bg-brand-gold/10 rounded-full blur-[100px] pointer-events-none" />
@@ -557,20 +571,19 @@ export default function PoliticsIndustryPage() {
         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <RevealOnScroll>
             <div className="premium-copy-panel-dark">
-              <p className="section-label text-brand-gold mb-3">Let&apos;s Elevate Your Brand</p>
+              <p className="section-label text-brand-gold mb-3">Strictly Confidential Consultation</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Attract More clients with <span className="heading-script text-brand-gold">Stellar Reviews?</span>
+                Ready to Protect Your Public Narrative and <span className="heading-script text-brand-gold">Leadership Legacy?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our politics reputation experts will assess your brand&apos;s
-                digital footprint, identify review gaps, and present a clear strategy - with no obligation.
+                Schedule a confidential consultation today. Our political reputation directors will audit your search presence, map opposition smear vectors, and present an assertive defense roadmap under full bilateral NDA.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
-                  { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
+                  { label: "Emergency Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
+                  { label: "Confidential Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
+                  { label: "Kolkata Registered Headquarters", value: "32 Chowringhee Rd, Om Tower, Park Street, Kolkata - 700071", href: "/orm-agency-kolkata", icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">
@@ -595,8 +608,8 @@ export default function PoliticsIndustryPage() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-gold/10 to-brand-blue/10 rounded-3xl blur-2xl pointer-events-none opacity-50" />
               <div className="relative glass-panel bg-zinc-950/90 backdrop-blur-md border border-zinc-800 rounded-3xl p-8 lg:p-10 shadow-2xl">
                 <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-brand-gold/50 via-brand-blue/50 to-transparent" />
-                <p className="text-white font-heading font-bold text-xl mb-2">Send Us a Secure Message</p>
-                <p className="text-zinc-500 text-sm mb-6">We respond within 24 hours on business days.</p>
+                <p className="text-white font-heading font-bold text-xl mb-2">Request Confidential Political Audit</p>
+                <p className="text-zinc-500 text-sm mb-6">100% confidential. Senior Director response within 2 hours.</p>
                 <ContactForm dark />
               </div>
             </div>
@@ -605,9 +618,9 @@ export default function PoliticsIndustryPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to suppress a smear campaign launched by my political opponent?", answer: "We deploy advanced SEO tactics to push defamatory content off the first page of Google, replacing it with high-authority PR and positive campaign messaging." },
-        { question: "Can you remove defamatory news articles about me from Google search?", answer: "While direct removal is difficult for news, our aggressive suppression strategies ensure that positive, verified content ranks higher, burying the negative articles where voters won't see them." },
-        { question: "How do I rebuild trust with voters after a social media controversy?", answer: "Our crisis management team crafts strategic responses, promotes positive community impact stories, and actively monitors sentiment to shift the public narrative back in your favor." }
+        { question: "How to dispute Wikipedia vandalism on a political leader's page?", answer: "We enforce Wikipedia core sourcing policies, submitting verified reliable citations to remove unsourced smears and requesting page lock protection." },
+        { question: "Can you eliminate negative autocomplete suggestions on Google?", answer: "Yes. We execute coordinated digital PR and search volume campaigns to replace negative predictions with positive, verified policy queries." },
+        { question: "How do you respond to coordinated bot smear attacks on Twitter / X?", answer: "We document artificial inorganic activity, file priority platform abuse complaints to suspend bot networks, and release authoritative counter-narratives." }
       ]} />
       <Footer />
     </div>

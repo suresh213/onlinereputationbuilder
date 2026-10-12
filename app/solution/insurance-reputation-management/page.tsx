@@ -8,95 +8,95 @@ import FAQ from "@/components/FAQ";
 import FAQSection from "@/components/FAQSection";
 import Link from "next/link";
 
-/* ─── Original Data Preserved ─────────────────────────────────────────────── */
+/* ─── Insurance Data ─────────────────────────────────────────────────────── */
 
 const heroBullets = [
-  "Increase customer trust with stellar online reviews",
-  "Improve search engine visibility with consistent brand management",
-  "Build a community of loyal patrons who advocate for your brand",
-  "Loved by more than 250+ insurance brands",
+  "Resolve unfair claim settlement disputes and consumer forum complaints",
+  "Protect insurance brokerage and agent profiles across Google Maps and Trustpilot",
+  "Suppress unverified grievance allegations and defamatory financial search results",
+  "Trusted by more than 250+ insurance agencies, brokers, and insurtech firms across India",
 ];
 
 const faqs = [
   {
-    q: "Why is reputation management important for insurances?",
-    a: "Reputation management helps your insurance maintain a positive public image, attract more customers, build trust, and improve customer retention and revenue.",
+    q: "Why is reputation management essential for insurance agencies and brokers?",
+    a: "Insurance is built entirely on consumer trust and solvency confidence. When prospective policyholders search for health, life, or commercial coverage, negative reviews regarding claim rejection or poor service immediately lead to abandoned inquiries.",
   },
   {
-    q: "How do you handle negative reviews?",
-    a: "We respond professionally and empathetically, address concerns, provide resolution guidance, and turn negative experiences into opportunities for customer satisfaction.",
+    q: "Can you remove false or defamatory policyholder reviews from Google and consumer forums?",
+    a: "Yes. When a review violates platform guidelines, contains abusive personal attacks, stems from competitor sabotage, or misrepresents policy contract terms, our legal compliance team submits documented appeals for permanent removal.",
   },
   {
-    q: "Can reputation management help increase bookings?",
-    a: "Yes. Strong ratings and positive reviews act as trust signals for clients, leading to more reservations, walk-ins, delivery orders, and repeat visits.",
+    q: "How do you handle complaints related to claim settlement disputes?",
+    a: "We craft professional, empathetic responses that de-escalate customer frustration while directing the policyholder to official grievance channels. Concurrently, defamatory or malicious allegations are escalated for platform deletion.",
   },
   {
-    q: "What platforms do you monitor for reviews?",
-    a: "We monitor Google, Yelp, TripAdvisor, Facebook, food discovery platforms, local listings, and other niche sites relevant to your insurance category.",
+    q: "What insurance platforms and review portals do you monitor?",
+    a: "We continuously track Google Business Profiles, MouthShut, Consumer Complaints Court, Trustpilot, PolicyBazaar feedback, LinkedIn, Facebook, and financial discussion forums to catch emerging issues immediately.",
   },
   {
-    q: "How can social media affect my insurance's reputation?",
-    a: "Social media shapes customer perception through photos, comments, messages, influencer posts, and response speed. Engaging content and timely replies improve trust and visibility.",
+    q: "Can reputation management increase insurance policy sales and renewals?",
+    a: "Yes. A 4.5+ star rating on Google Maps and clean search results significantly boost lead conversion rates from digital advertising and increase annual policy renewal retention.",
   },
   {
-    q: "What if my insurance has a crisis situation?",
-    a: "Our crisis management team acts swiftly to mitigate damage, address concerns transparently, and restore your insurance's reputation through strategic communication.",
+    q: "How do you protect insurance brands during media or regulatory scrutiny?",
+    a: "Our crisis management team deploys rapid search suppression and high-authority corporate communications to displace sensational headlines and ensure verified corporate facts dominate Google Page 1.",
   },
   {
-    q: "Is reputation management only for large insurances?",
-    a: "No. A positive reputation is essential for insurances of every size, from independent cafes and cloud kitchens to multi-location chains.",
+    q: "Is insurance ORM suitable for individual insurance agents as well as corporate brokerages?",
+    a: "Yes. We manage digital reputation portfolios for independent financial advisors, licensed insurance brokers, third-party administrators (TPAs), and nationwide general and life insurance underwriters.",
   },
   {
-    q: "How can I get started with Online Reputation Builder?",
-    a: "Contact us through the consultation form and our experts will tailor a reputation management plan to your insurance's unique needs.",
+    q: "How does ORM help insurance firms rank higher on local Google searches?",
+    a: "We optimize your Google Business Profiles with accurate regional branch details, license credentials, and consistent 5-star customer ratings that satisfy Google local ranking algorithms.",
   },
 ];
 
 const services = [
   {
     label: "Reviews",
-    title: "Review Monitoring and Management",
-    desc: "We track online reviews across Google, Yelp, TripAdvisor, Facebook, and relevant industry platforms, responding to both positive and negative feedback professionally.",
+    title: "Review Deletion & Policy Dispute",
+    desc: "We track and dispute defamatory, misleading, and fake reviews across Google Business Profile, MouthShut, and consumer forums, protecting your firm's underwriting credibility.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
   },
   {
-    label: "Social",
-    title: "Social Media Management",
-    desc: "We create engaging content, respond to customer inquiries, and maintain a consistent presence that builds a strong connection with clients.",
+    label: "Search",
+    title: "Negative Search Suppression for Insurers",
+    desc: "We push down unfair consumer court posts, sensationalist blog articles, and competitor smear campaigns past Google Page 2, replacing them with authoritative financial assets.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Local SEO",
-    title: "insurance Listing Optimization",
-    desc: "We optimize your online listings with accurate information, keywords, menus, and high-quality photos so potential clients can find and trust you quickly.",
+    title: "Agency Branch Listing Optimization",
+    desc: "We optimize multi-branch Google Business Profiles with verified address records, insurance advisory categories, and high-converting local citation authority.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     ),
   },
   {
     label: "Crisis",
-    title: "insurance Crisis Management",
-    desc: "A single negative review or viral post can harm your brand. We handle crisis situations promptly and effectively to minimize reputation impact.",
+    title: "Insurance Crisis Management & PR",
+    desc: "When viral claims rejection complaints or regulatory inquiries risk brand valuation, our crisis team acts swiftly with calibrated public statements and search de-indexing.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
     ),
   },
   {
-    label: "Growth",
-    title: "Positive Review Generation",
-    desc: "We encourage satisfied customers to leave reviews and promote your insurance's strengths across the platforms that influence industry decisions.",
+    label: "Trust",
+    title: "Verified Policyholder Feedback Generation",
+    desc: "We deploy compliant automated feedback workflows that capture positive testimonials from policyholders who experienced seamless claim settlements.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
     ),
   },
   {
     label: "Insights",
-    title: "Customer Sentiment Insights",
-    desc: "We analyze recurring feedback themes so your team can improve operations, service quality, and customer experience.",
+    title: "Customer Sentiment & Grievance Intelligence",
+    desc: "We analyze recurring customer grievance themes across onboarding, claim documentation, and renewals so management can improve operational clarity.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     ),
@@ -105,27 +105,27 @@ const services = [
 
 const impacts = [
   {
-    label: "Traffic",
-    title: "Increased Foot Traffic",
-    desc: "Positive reviews and ratings encourage new customers to choose your insurance over competitors.",
-    icon: "🚶‍♂️",
-  },
-  {
-    label: "Revenue",
-    title: "Higher Revenue",
-    desc: "A trusted reputation allows you to command premium prices and increase average check sizes.",
-    icon: "📈",
-  },
-  {
-    label: "Brand",
-    title: "Enhanced Brand Perception",
-    desc: "A well-managed reputation helps customers see your insurance as a trusted, high-quality choice.",
-    icon: "🌟",
+    label: "Conversions",
+    title: "Higher Policy Purchase Intent",
+    desc: "Positive reviews and transparent trust scores convert high-intent insurance shoppers comparing quotes online.",
+    icon: "💼",
   },
   {
     label: "Retention",
-    title: "Customer Retention",
-    desc: "Engaging with your audience builds loyalty and turns first-time clients into regular patrons.",
+    title: "Stronger Policy Renewal Rates",
+    desc: "Policyholders who observe responsive, professional online support are far more likely to renew their coverage.",
+    icon: "📈",
+  },
+  {
+    label: "Authority",
+    title: "Enhanced Institutional Brand Authority",
+    desc: "A clean digital search footprint reinforces solvency trust among underwriters, corporate partners, and retail clients.",
+    icon: "🛡️",
+  },
+  {
+    label: "Lead Cost",
+    title: "Lower Customer Acquisition Costs",
+    desc: "High organic review ratings lift conversion rates across all Google Ads and aggregator campaigns, lowering ad spend.",
     icon: "🤝",
   },
 ];
@@ -133,42 +133,40 @@ const impacts = [
 const processes = [
   {
     label: "Audit",
-    title: "Map Reviews and Customer Sentiment",
-    desc: "We review your current ratings, review history, platform listings, social mentions, local search visibility, and competitor reputation.",
+    title: "Insurance Digital Footprint Audit",
+    desc: "We assess your ratings across Google, MouthShut, consumer complaint forums, agent review portals, and news archives to identify vulnerabilities.",
   },
   {
     label: "Strategy",
-    title: "Create a Tailored insurance Plan",
-    desc: "Each insurance has unique needs. We build strategies that align with your brand, location, cuisine, customer profile, and growth goals.",
+    title: "Tailored Insurance Brand Strategy",
+    desc: "Every agency and brokerage has distinct target lines. We build strategies aligned with your product portfolio, regulatory standards, and growth targets.",
   },
   {
-    label: "Engage",
-    title: "Respond and Build Positive Signals",
-    desc: "We handle review responses, promote satisfied customers, improve listing strength, and support consistent social engagement.",
+    label: "Resolution",
+    title: "Dispute, De-index and Build Trust Signals",
+    desc: "We execute policy disputes to remove defamatory claims, optimize local branch listings, and systematically collect verified positive feedback.",
   },
   {
-    label: "Protect",
-    title: "Monitor Risks and Crisis Triggers",
-    desc: "We keep watch for damaging trends, sudden review spikes, false feedback, and public issues that require quick response.",
+    label: "Shield",
+    title: "24/7 Grievance Monitoring & Crisis Defense",
+    desc: "We keep constant watch for viral claim disputes, malicious smear campaigns, and coordinated review bombing to intervene before damage occurs.",
   },
 ];
 
-// Mapped original trustStrip data to online image URLs via Favicon API
 const touchpointLogos = [
   { name: "Google Reviews", img: "https://www.google.com/s2/favicons?domain=google.com&sz=128" },
-  { name: "TripAdvisor", img: "https://www.google.com/s2/favicons?domain=tripadvisor.com&sz=128" },
-  { name: "Yelp", img: "https://www.google.com/s2/favicons?domain=yelp.com&sz=128" },
-  { name: "Facebook", img: "https://www.google.com/s2/favicons?domain=facebook.com&sz=128" },
-  { name: "Instagram", img: "https://www.google.com/s2/favicons?domain=instagram.com&sz=128" },
-  { name: "Local SEO", img: "https://www.google.com/s2/favicons?domain=maps.google.com&sz=128" },
-  { name: "Food Discovery", img: "https://www.google.com/s2/favicons?domain=zomato.com&sz=128" },
-  { name: "Customer Feedback", img: "https://www.google.com/s2/favicons?domain=trustpilot.com&sz=128" },
+  { name: "PolicyBazaar", img: "https://www.google.com/s2/favicons?domain=policybazaar.com&sz=128" },
+  { name: "MouthShut", img: "https://www.google.com/s2/favicons?domain=mouthshut.com&sz=128" },
+  { name: "Trustpilot", img: "https://www.google.com/s2/favicons?domain=trustpilot.com&sz=128" },
+  { name: "LinkedIn Finance", img: "https://www.google.com/s2/favicons?domain=linkedin.com&sz=128" },
+  { name: "Branch Maps SEO", img: "https://www.google.com/s2/favicons?domain=maps.google.com&sz=128" },
+  { name: "Consumer Forums", img: "https://www.google.com/s2/favicons?domain=consumercomplaints.in&sz=128" },
+  { name: "Facebook Business", img: "https://www.google.com/s2/favicons?domain=facebook.com&sz=128" },
 ];
 
 /* ─── Animation Components ───────────────────────────────────────── */
 
-// Custom Scroll Reveal Hook 
-function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) {
+function RevealOnScroll({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -198,8 +196,7 @@ function RevealOnScroll({ children, delay = 0, className = "" }: { children: Rea
   );
 }
 
-// Smooth Animated Counter Component
-function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: { end: number, duration?: number, suffix?: string, decimals?: number }) {
+function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: { end: number; duration?: number; suffix?: string; decimals?: number }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   const [inView, setInView] = useState(false);
@@ -249,7 +246,7 @@ export default function InsuranceIndustryPage() {
       <Topbar />
       <Navbar />
 
-      {/* ── HERO - High-End Culinary Dark Layout ─────────────────────────────────────────────── */}
+      {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="hero-bg relative overflow-hidden bg-zinc-950 premium-section-dark border-b border-zinc-800/50">
         <div className="hero-ambient hero-ambient-blue opacity-50 top-[-10%] right-[-5%]" />
         <div className="hero-ambient hero-ambient-gold opacity-30 bottom-[-10%] left-[-10%]" />
@@ -262,19 +259,19 @@ export default function InsuranceIndustryPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-gold" />
               </span>
-              Insurance ORM - Insurance Businesses and Professionals
+              Insurance ORM: Agencies, Brokers and Insurtech
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.6rem] font-black text-white leading-[1.08] mb-6 tracking-tight">
               Insurance Reputation Management for{" "}
-              <span className="text-gradient-gold">More Bookings</span>
+              <span className="text-gradient-gold">Client Trust</span>
             </h1>
 
             <p className="text-white/70 text-base lg:text-lg mb-4 leading-relaxed max-w-2xl">
-              In the competitive culinary world, a strong reputation is your most valuable ingredient. Online Reputation Builder ensures your insurance stands out with glowing reviews, satisfied customers, and a trustworthy online presence.
+              In insurance, policyholder trust is your primary business asset. Online Reputation Builder protects your brokerage, agency, or insurtech firm from unfair claim disputes, defamatory reviews, and negative search rankings.
             </p>
             <p className="text-zinc-400 text-sm mb-8 leading-relaxed max-w-2xl">
-              We help insurances protect ratings, manage customer feedback, improve local visibility, and build a loyal community of patrons who advocate for the brand.
+              We help insurance firms protect branch ratings, manage customer grievances with empathy, optimize local Google Maps profiles, and establish unwavering financial credibility.
             </p>
 
             <ul className="space-y-3 mb-10 max-w-xl">
@@ -286,9 +283,12 @@ export default function InsuranceIndustryPage() {
               ))}
             </ul>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 items-center">
               <Link href="#contact" className="btn-gold shadow-lg shadow-brand-gold/20 px-8 py-3.5">
-                Boost Your Bookings Now
+                Protect Your Insurance Brand
+              </Link>
+              <Link href="/orm-agency-kolkata" className="text-xs text-zinc-400 hover:text-brand-gold transition-colors underline underline-offset-4">
+                Corporate Kolkata Headquarters
               </Link>
             </div>
           </div>
@@ -300,9 +300,9 @@ export default function InsuranceIndustryPage() {
               <div className="form-card-orbit opacity-50" />
               <div className="flex items-center justify-between mb-6 border-b border-zinc-800/80 pb-5 relative z-10">
                 <div>
-                  <p className="section-label text-brand-gold mb-1">Free Consultation</p>
+                  <p className="section-label text-brand-gold mb-1">Confidential Consultation</p>
                   <h2 className="font-heading text-xl font-bold text-white leading-tight">
-                    Upgrade Your industry Reputation
+                    Upgrade Your Insurance Reputation
                   </h2>
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-brand-blue/10 border border-brand-blue/20 flex items-center justify-center flex-shrink-0 shadow-inner">
@@ -317,12 +317,11 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── REPUTATION TOUCHPOINTS - Image Marquee ─────────────────────────────────────── */}
+      {/* ── REPUTATION TOUCHPOINTS ─────────────────────────────────────── */}
       <div className="logo-marquee-shell bg-white py-10 border-b border-zinc-200 overflow-hidden relative shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)] z-20">
-        <p className="text-center text-[0.65rem] font-bold text-zinc-400 uppercase tracking-widest mb-6">Reputation touchpoints we manage</p>
+        <p className="text-center text-[0.65rem] font-bold text-zinc-400 uppercase tracking-widest mb-6">Financial and Insurance Portals We Manage</p>
         <div className="max-w-7xl mx-auto px-4 overflow-hidden">
           <div className="marquee-track flex items-center gap-12 md:gap-16 whitespace-nowrap w-max">
-            {/* Duplicated array for seamless CSS marquee scroll */}
             {[...touchpointLogos, ...touchpointLogos].map((m, i) => (
               <div key={i} className="flex items-center gap-3 group">
                 <img 
@@ -337,6 +336,22 @@ export default function InsuranceIndustryPage() {
         </div>
       </div>
 
+      {/* ── RELATED SECTOR HUBS ─────────────────────────────────────── */}
+      <div className="bg-zinc-100 py-3 border-b border-zinc-200">
+        <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-4 text-xs text-zinc-600">
+          <span className="font-semibold text-zinc-800">Related Financial Sectors:</span>
+          <Link href="/industry/insurance-agents" className="hover:text-brand-blue hover:underline">Insurance Agents &amp; Brokers</Link>
+          <span>•</span>
+          <Link href="/industry/financial-services" className="hover:text-brand-blue hover:underline">Financial Services</Link>
+          <span>•</span>
+          <Link href="/industry/chartered-accountants" className="hover:text-brand-blue hover:underline">Chartered Accountants</Link>
+          <span>•</span>
+          <Link href="/industry/law-firms" className="hover:text-brand-blue hover:underline">Law Firms &amp; Legal Counsel</Link>
+          <span>•</span>
+          <Link href="/orm-agency-kolkata" className="hover:text-brand-gold font-medium">Kolkata Corporate Office</Link>
+        </div>
+      </div>
+
       {/* ── OVERVIEW & FLOATING STATS ─────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted overflow-hidden z-0">
         <div className="absolute inset-0 bg-dot-pattern opacity-40 pointer-events-none" />
@@ -347,13 +362,13 @@ export default function InsuranceIndustryPage() {
               <div className="premium-copy-panel pr-0 lg:pr-8">
                 <p className="section-label mb-2 text-brand-gold">Overview</p>
                 <h2 className="font-heading text-3xl lg:text-[2.5rem] font-bold text-zinc-900 mb-6 leading-tight">
-                  The Role of Reputation Management in <span className="heading-script text-brand-blue">Customer Retention</span>
+                  The Role of Reputation Management in <span className="heading-script text-brand-blue">Policyholder Trust</span>
                 </h2>
                 <p className="text-zinc-600 leading-relaxed mb-8 text-[0.95rem]">
-                  Happy customers are your best marketers. Reputation management helps ensure clients leave satisfied, feedback is addressed promptly, and your insurance's image remains impeccable. It is not just damage control; it is about building lasting relationships and turning clients into loyal advocates.
+                  Policyholders purchase insurance for peace of mind. Online reputation management ensures prospective clients see verified claim settlement credentials, clear customer communication, and positive policyholder reviews. It protects your agency from competitor defamation and turns satisfied policyholders into loyal referral advocates.
                 </p>
                 <Link href="#contact" className="btn-blue shadow-[0_10px_30px_rgba(37,99,235,0.2)] px-8 py-3.5">
-                  Protect Your insurance
+                  Protect Your Insurance Agency
                 </Link>
               </div>
             </RevealOnScroll>
@@ -363,13 +378,12 @@ export default function InsuranceIndustryPage() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-blue/10 rounded-full blur-[80px] -z-10"></div>
                 <div className="premium-image-frame rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 relative z-10">
                   <img
-                    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80"
-                    alt="insurance reputation management services"
+                    src="https://images.unsplash.com/photo-1450133064473-71024230f91b?w=800&q=80"
+                    alt="insurance reputation management services for brokers and underwriters"
                     className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
                 
-                {/* Floating Metric Card leveraging data stats */}
                 <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[90%] z-20 glass-panel-light p-3 rounded-2xl border border-white shadow-xl hidden md:block">
                   <div className="grid grid-cols-3 gap-2 divide-x divide-zinc-200/60">
                     <div className="text-center px-2">
@@ -399,20 +413,20 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── SERVICES GRID - Elevated Staggered Design ─────────────────────────────────── */}
+      {/* ── SERVICES GRID ─────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light relative overflow-hidden z-0">
         <div className="max-w-7xl mx-auto relative z-10">
           <RevealOnScroll>
             <div className="text-center max-w-2xl mx-auto mb-16">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full bg-zinc-50 border border-zinc-200 shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-blue animate-pulse"></span>
-                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Expertise</p>
+                <p className="section-label text-[0.65rem] font-bold tracking-wider uppercase text-zinc-600 m-0">Our Advisory Expertise</p>
               </div>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight leading-tight">
-                Comprehensive insurance Reputation <span className="heading-script text-brand-gold">Management Services</span>
+                Comprehensive Insurance Reputation <span className="heading-script text-brand-gold">Management Services</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] mt-5 max-w-xl mx-auto leading-relaxed">
-                We provide a full spectrum of services designed to boost your insurance's reputation and attract more customers.
+                We provide end-to-end reputation strategies tailored for insurance brokers, agencies, insurtech platforms, and underwriting firms.
               </p>
             </div>
           </RevealOnScroll>
@@ -441,7 +455,7 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── IMPACT SECTION - Premium Dark Layout ────────────────────────────────────── */}
+      {/* ── IMPACT SECTION ────────────────────────────────────── */}
       <section className="py-24 px-4 bg-zinc-950 border-b border-zinc-900 relative overflow-hidden premium-section-dark">
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none translate-x-1/3 -translate-y-1/3" />
@@ -455,10 +469,10 @@ export default function InsuranceIndustryPage() {
                 Financial Impact
               </p>
               <h2 className="font-heading text-3xl lg:text-4xl font-bold text-white mb-5 tracking-tight">
-                How Insurance Reputation Management Impacts <span className="text-gradient-gold">Your Bottom Line</span>
+                How Insurance Reputation Management Impacts <span className="text-gradient-gold">Your Portfolio</span>
               </h2>
               <p className="text-zinc-400 text-[0.95rem] max-w-2xl mx-auto leading-relaxed">
-                A well-maintained online reputation attracts more customers and drives loyalty, word-of-mouth marketing, repeat business, and stronger revenue.
+                A pristine digital profile commands trust from corporate policyholders and retail clients, increasing policy conversions and retention.
               </p>
             </div>
           </RevealOnScroll>
@@ -479,7 +493,7 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── PROCESS TIMELINE - Vertical Connection Layout ───────────────────────────────────── */}
+      {/* ── PROCESS TIMELINE ───────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-zinc-50 border-b border-zinc-200 premium-section-muted overflow-hidden z-0">
         <div className="max-w-4xl mx-auto relative z-10">
           <RevealOnScroll>
@@ -489,7 +503,7 @@ export default function InsuranceIndustryPage() {
                 Streamlined Reputation Management with <span className="heading-script text-brand-blue">Online Reputation Builder</span>
               </h2>
               <p className="text-zinc-500 text-[0.95rem] leading-relaxed max-w-2xl mx-auto">
-                We simplify and amplify your insurance's online presence with proven strategies, fast response systems, and expert reputation support.
+                We safeguard your insurance brand with policy disputes, prompt grievance handling, and strategic search suppression.
               </p>
             </div>
           </RevealOnScroll>
@@ -517,7 +531,7 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── FAQ - Asymmetrical Layout ──────────────────────────────────────────────── */}
+      {/* ── FAQ ──────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28 px-4 bg-white border-b border-zinc-200 premium-section-light relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-20 items-start">
@@ -528,12 +542,12 @@ export default function InsuranceIndustryPage() {
                   Insurance Reputation Management <span className="heading-script text-brand-blue">FAQs</span>
                 </h2>
                 <p className="text-zinc-500 text-[0.95rem] leading-relaxed mb-8">
-                  Have a specific question about our culinary ORM services? Our experts offer a free,
-                  no-obligation consultation to assess your industry brand.
+                  Have a specific question about our insurance ORM services? Our senior directors offer a free,
+                  confidential consultation under bilateral NDA.
                 </p>
                 <a href="tel:+918882788412" className="btn-gold shadow-lg shadow-brand-gold/20 inline-flex items-center gap-2 px-8 py-3.5">
                   <svg width="16" height="16" className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  Call Us Now
+                  Call Insurance Specialists
                 </a>
               </div>
             </RevealOnScroll>
@@ -547,7 +561,7 @@ export default function InsuranceIndustryPage() {
         </div>
       </section>
 
-      {/* ── CONTACT CTA - Premium Grand Finish ──────────────────────────────────────── */}
+      {/* ── CONTACT CTA ──────────────────────────────────────── */}
       <section id="contact" className="py-24 lg:py-32 px-4 bg-zinc-950 relative overflow-hidden premium-section-dark border-t-4 border-brand-gold">
         <div className="absolute inset-0 bg-grid-pattern-dark opacity-30 pointer-events-none" />
         <div className="absolute top-10 left-1/3 w-96 h-96 bg-brand-gold/10 rounded-full blur-[100px] pointer-events-none" />
@@ -557,20 +571,19 @@ export default function InsuranceIndustryPage() {
         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <RevealOnScroll>
             <div className="premium-copy-panel-dark">
-              <p className="section-label text-brand-gold mb-3">Let&apos;s Elevate Your Brand</p>
+              <p className="section-label text-brand-gold mb-3">Strictly Confidential Consultation</p>
               <h2 className="font-heading text-3xl lg:text-[2.75rem] font-bold text-white mb-6 leading-tight tracking-tight">
-                Ready to Attract More clients with <span className="heading-script text-brand-gold">Stellar Reviews?</span>
+                Ready to Secure Your Insurance <span className="heading-script text-brand-gold">Brand Goodwill?</span>
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-10 text-[0.95rem] max-w-lg">
-                Schedule a free consultation today. Our insurance reputation experts will assess your brand&apos;s
-                digital footprint, identify review gaps, and present a clear strategy - with no obligation.
+                Schedule a consultation today. Our insurance reputation directors will review your digital footprint across Google Maps and consumer forums, identify unfair complaints, and formulate a clear resolution strategy.
               </p>
               
               <div className="space-y-6 mb-10 border-t border-zinc-800/80 pt-8">
                 {[
-                  { label: "Direct Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
-                  { label: "Secure Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
-                  { label: "Headquarters", value: "Shantipally, Behala, Kolkata - 700060", href: null, icon: "🏢" },
+                  { label: "Emergency Hotline (24/7)", value: "+9188827 88412", href: "tel:+918882788412", icon: "📞" },
+                  { label: "Confidential Email", value: "contact@onlinereputationbuilders.in", href: "mailto:contact@onlinereputationbuilders.in", icon: "✉️" },
+                  { label: "Kolkata Registered Headquarters", value: "32 Chowringhee Rd, Om Tower, Park Street, Kolkata - 700071", href: "/orm-agency-kolkata", icon: "🏢" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-5">
                     <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-lg shadow-inner shrink-0 text-brand-gold">
@@ -595,8 +608,8 @@ export default function InsuranceIndustryPage() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-gold/10 to-brand-blue/10 rounded-3xl blur-2xl pointer-events-none opacity-50" />
               <div className="relative glass-panel bg-zinc-950/90 backdrop-blur-md border border-zinc-800 rounded-3xl p-8 lg:p-10 shadow-2xl">
                 <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-brand-gold/50 via-brand-blue/50 to-transparent" />
-                <p className="text-white font-heading font-bold text-xl mb-2">Send Us a Secure Message</p>
-                <p className="text-zinc-500 text-sm mb-6">We respond within 24 hours on business days.</p>
+                <p className="text-white font-heading font-bold text-xl mb-2">Request Insurance Audit</p>
+                <p className="text-zinc-500 text-sm mb-6">100% confidential. Senior Director response within 2 hours.</p>
                 <ContactForm dark />
               </div>
             </div>
@@ -605,9 +618,9 @@ export default function InsuranceIndustryPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to delete an unfair 1-star review from a disgruntled policyholder?", answer: "We flag policy-violating reviews to Google for removal, and expertly respond to the rest to show potential clients you handle disputes professionally." },
-        { question: "Why does my insurance agency look like a scam on Google Maps and how to fix it?", answer: "We optimize your local SEO, correct inconsistent contact info, and flood your profile with authentic client reviews so you look established and trusted." },
-        { question: "How to get more 5-star reviews for my local insurance firm?", answer: "We implement automated SMS and email campaigns that make it incredibly easy for your happy clients to leave positive reviews right after a successful claim." }
+        { question: "How to resolve false claim settlement allegations on Google reviews?", answer: "We investigate policy terms and submit evidence-backed dispute requests to Google and consumer platforms to delete misleading or defamatory reviews." },
+        { question: "Can you suppress negative MouthShut threads about insurance policies?", answer: "Yes. We deploy legal dispute frameworks and search engine suppression to displace unverified complaints off Google Page 1." },
+        { question: "How do you protect insurance brokers during public grievance disputes?", answer: "We craft calibrated public responses, provide direct resolution links, and launch positive brand assets to uphold institutional credibility." }
       ]} />
       <Footer />
     </div>

@@ -34,42 +34,66 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Can you legally remove fake Google Business reviews permanently?",
+      "name": "How to remove fake Google reviews from your business profile?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. When a Google review breaches Google Maps Prohibited and Restricted Content policies - including conflict of interest, fake engagement, harassment, hate speech, or competitor sabotage - our legal and compliance team submits direct legal disputes, policy appeals, and escalations to get the review permanently deleted from your Google Business Profile."
+        "text": "To remove fake Google reviews, flag the review via Google Business Profile manager under Prohibited and Restricted Content such as Fake Engagement, Off-topic, or Conflict of Interest. If automated filters reject the flag, our legal and compliance specialists submit documented evidence dockets directly to Google Trust and Safety supervisors to secure permanent deletion."
       }
     },
     {
       "@type": "Question",
-      "name": "How long does it take to remove a bad review from Google?",
+      "name": "How to delete Google reviews posted by others that are defamatory?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Standard policy escalation reviews take 7 to 15 business days. Obvious spam or hate speech violations can be expunged within 48 to 72 hours, while complex competitor defamation disputes may take up to 21 days."
+        "text": "Business owners cannot delete reviews left by third parties with a single click. However, defamatory reviews posted by competitors, disgruntled ex-employees, bots, or unverified customers can be permanently removed by submitting substantiated policy appeals and formal legal defamation notices directly to Google legal support."
       }
     },
     {
       "@type": "Question",
-      "name": "What is your success rate for Google review deletion?",
+      "name": "Can you delete bad Google reviews on your business profile permanently?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We maintain a verified 98% success rate for eligible policy-violating reviews. We perform a confidential feasibility assessment on every review before accepting the case to ensure compliance grounds are established."
+        "text": "Yes. When a review violates Google Maps policies including spam, personal harassment, conflict of interest, non-customer extortion, or competitor sabotage, we achieve permanent deletion. Once removed by Google, your aggregate rating recalculates and the negative review is permanently expunged."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if a negative review cannot be removed by Google?",
+      "name": "How long does Google take to remove a flagged review?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For genuine customer grievances that Google deems within policy guidelines, we deploy strategic brand recovery: crafting high-conversion public owner responses and executing automated review generation workflows to elevate your overall rating to 4.8+ stars."
+        "text": "Standard policy escalation reviews take 7 to 15 business days. Severe policy violations like hate speech or obvious bot attacks can be expunged within 48 to 72 hours, while complex competitor defamation disputes typically resolve within 14 to 21 days."
       }
     },
     {
       "@type": "Question",
-      "name": "Is the Google review removal process confidential?",
+      "name": "What can you do if Google refuses to remove a fake 1-star review?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, 100%. All client engagements are protected by a legally binding Non-Disclosure Agreement (NDA). The reviewer is never notified of who initiated the dispute."
+        "text": "If automated filters mistakenly reject an initial removal request, our team compiles forensic evidence such as reviewer location anomalies, zero transaction history, or competitor IP correlations, escalating directly to senior platform supervisors. Concurrently, we deploy verified review acquisition campaigns to bury the isolated rating."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a professional Google review removal service cost in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional Google review removal costs vary depending on case complexity, evidence requirements, and whether legal escalation is required. We evaluate every case through a free, confidential feasibility review so you understand the exact timeline and scope before beginning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can competitors post fake 1-star reviews on Google Maps without consequences?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google terms strictly forbid conflict-of-interest reviews and competitor manipulation. When competitor sabotage is proven through digital forensics and evidence dockets, Google not only permanently removes the fake reviews but may also penalize the offending competitor profile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Google review removal process 100% confidential under NDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 100%. All client engagements operate under a legally binding Non-Disclosure Agreement (NDA). The reviewer is never notified of who initiated the dispute, ensuring complete confidentiality."
       }
     }
   ]

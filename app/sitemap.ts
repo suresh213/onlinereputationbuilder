@@ -62,6 +62,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/solution/politics-reputation-management",
     "/solution/real-estate-reputation-management",
     "/solution/spiritual-reputation-management",
+    "/orm-agency-kolkata",
+    "/orm-agency-mumbai",
     "/industry",
     "/blog"
   ];
@@ -98,9 +100,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ];
       priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
       changefreq = "weekly";
-    } else if (route === "/industry" || route.startsWith("/industry/")) {
+    } else if (route === "/industry" || route.startsWith("/industry/") || route.startsWith("/orm-agency-")) {
       priority = 0.9;
-      changefreq = "weekly";
+      changefreq = "daily";
     } else if (route === "/contact-us") {
       priority = 0.5;
       changefreq = "monthly";

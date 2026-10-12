@@ -137,6 +137,8 @@ export default function Footer() {
           <ul className="space-y-2.5">
             {[
               { label: "About Us", href: "#" },
+              { label: "Kolkata HQ Office", href: "/orm-agency-kolkata" },
+              { label: "Mumbai Office", href: "/orm-agency-mumbai" },
               { label: "Blog", href: "/blog" },
               { label: "Case Studies", href: "/solution" },
               { label: "Contact Us", href: "/contact-us" },
@@ -180,7 +182,9 @@ export default function Footer() {
               </svg>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Location</p>
-                <p className="text-white text-sm">32, Chowringee Rd, 7th Floor, Om Tower, Park Street , Kolkata, West Bengal 700071</p>
+                <Link href="/orm-agency-kolkata" className="text-white text-sm hover:text-brand-gold-light transition-colors block">
+                  32, Chowringee Rd, 7th Floor, Om Tower, Park Street, Kolkata, West Bengal 700071
+                </Link>
               </div>
             </div>
           </div>
@@ -272,6 +276,17 @@ export default function Footer() {
             <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/blog/remove-defamatory-online-reviews" className="hover:text-brand-gold-light transition-colors">
               ⭐ Remove Fake Reviews
+            </Link>
+          </div>
+
+          <p className="text-white font-bold text-xs uppercase tracking-widest mt-5 mb-3">Regional Agency Hubs</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-300">
+            <Link href="/orm-agency-kolkata" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
+              🏢 Kolkata Registered Headquarters (Park Street)
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-agency-mumbai" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🏢 Mumbai Regional Office
             </Link>
           </div>
         </div>

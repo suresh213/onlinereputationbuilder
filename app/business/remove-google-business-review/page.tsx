@@ -46,7 +46,7 @@ const services = [
   {
     step: "01",
     title: "Fake Review Removal",
-    desc: "We identify reviews that violate Google's policies - including fake, spammy, defamatory, and competitor-placed reviews - and submit targeted flagging and legal requests for permanent removal.",
+    desc: "We identify reviews that violate Google policies, including fake engagement, spam, defamatory claims, and competitor-placed reviews, and submit targeted flagging and legal requests for permanent removal.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
     ),
@@ -54,7 +54,7 @@ const services = [
   {
     step: "02",
     title: "Review Response Strategy",
-    desc: "We craft professional, brand-aligned responses to negative reviews that demonstrate accountability and rebuild trust - turning a public complaint into a showcase of your customer service.",
+    desc: "We craft professional, brand-aligned responses to negative reviews that demonstrate accountability and rebuild trust, turning a public complaint into a showcase of your customer service.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
     ),
@@ -62,7 +62,7 @@ const services = [
   {
     step: "03",
     title: "Positive Review Generation",
-    desc: "We implement ethical, Google-compliant strategies to encourage satisfied customers to leave genuine positive reviews - steadily improving your rating and overall profile strength.",
+    desc: "We implement ethical, Google-compliant strategies to encourage satisfied customers to leave genuine positive reviews, steadily improving your rating and overall profile strength.",
     icon: (
       <svg width="24" height="24" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
     ),
@@ -99,7 +99,7 @@ const reviewTypes = [
 const whyUs = [
   {
     title: "98% Success Rate",
-    desc: "Our Google-specific removal methodology delivers a 98% success rate - the highest in the industry for Google Business Profile review management.",
+    desc: "Our Google-specific removal methodology delivers a 98% success rate, the highest in the industry for Google Business Profile review management.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
     ),
@@ -113,7 +113,7 @@ const whyUs = [
   },
   {
     title: "Fully Transparent Process",
-    desc: "You are kept informed at every step - from initial audit to final removal confirmation - with clear reporting on what was done and why.",
+    desc: "You are kept informed at every step, from initial audit to final removal confirmation, with clear reporting on what was done and why.",
     icon: (
       <svg width="20" height="20" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
     ),
@@ -129,24 +129,36 @@ const whyUs = [
 
 const faqs = [
   {
-    q: "Can you really delete bad Google Business reviews?",
-    a: "Yes. If a review is fake, spam, or breaks Google's rules, we can remove it. We know exactly how to report these to Google for fast removal.",
+    q: "How to remove fake Google reviews from your business profile?",
+    a: "To remove fake Google reviews, flag the review via Google Business Profile manager under Prohibited and Restricted Content such as Fake Engagement, Off-topic, or Conflict of Interest. If automated filters reject the flag, our legal and compliance specialists submit documented evidence dockets directly to Google Trust and Safety supervisors to secure permanent deletion.",
   },
   {
-    q: "How many days does it take to remove a bad review?",
-    a: "Most bad reviews are deleted within 7 to 15 days. Sometimes, if the review is very abusive, it can be removed even faster.",
+    q: "How to delete Google reviews posted by others that are defamatory?",
+    a: "Business owners cannot delete reviews left by third parties with a single click. However, defamatory reviews posted by competitors, disgruntled ex-employees, bots, or unverified customers can be permanently removed by submitting substantiated policy appeals and formal legal defamation notices directly to Google legal support.",
   },
   {
-    q: "Can you delete a real negative review?",
-    a: "We only delete fake or abusive reviews. If a real customer is unhappy, we help you write a good reply and get more positive reviews to hide the bad one.",
+    q: "Can you delete bad Google reviews on your business profile permanently?",
+    a: "Yes. When a review violates Google Maps policies including spam, personal harassment, conflict of interest, non-customer extortion, or competitor sabotage, we achieve permanent deletion. Once removed by Google, your aggregate rating recalculates and the negative review is permanently expunged.",
   },
   {
-    q: "Will my business ranking improve after you remove bad reviews?",
-    a: "Yes! When we remove fake 1-star reviews, your overall star rating goes up. This helps your business show up higher on Google Maps.",
+    q: "How long does Google take to remove a flagged review?",
+    a: "Standard policy escalation reviews take 7 to 15 business days. Severe policy violations like hate speech or obvious bot attacks can be expunged within 48 to 72 hours, while complex competitor defamation disputes typically resolve within 14 to 21 days.",
   },
   {
-    q: "Do you also help in getting more 5-star reviews?",
-    a: "Yes. We offer complete packages where we not only remove bad reviews but also help you get real 5-star reviews from your happy customers.",
+    q: "What can you do if Google refuses to remove a fake 1-star review?",
+    a: "If automated filters mistakenly reject an initial removal request, our team compiles forensic evidence such as reviewer location anomalies, zero transaction history, or competitor IP correlations, escalating directly to senior platform supervisors. Concurrently, we deploy verified review acquisition campaigns to bury the isolated rating.",
+  },
+  {
+    q: "How much does a professional Google review removal service cost in India?",
+    a: "Professional Google review removal costs vary depending on case complexity, evidence requirements, and whether legal escalation is required. We evaluate every case through a free, confidential feasibility review so you understand the exact timeline and scope before beginning.",
+  },
+  {
+    q: "Can competitors post fake 1-star reviews on Google Maps without consequences?",
+    a: "Google terms strictly forbid conflict-of-interest reviews and competitor manipulation. When competitor sabotage is proven through digital forensics and evidence dockets, Google not only permanently removes the fake reviews but may also penalize the offending competitor profile.",
+  },
+  {
+    q: "Is the Google review removal process 100% confidential under NDA?",
+    a: "Yes, 100%. All client engagements operate under a legally binding Non-Disclosure Agreement (NDA). The reviewer is never notified of who initiated the dispute, ensuring complete confidentiality.",
   },
 ];
 
