@@ -349,9 +349,38 @@ export default function IndividualSolutionsPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How can you fix my damaged name on Google?", answer: "We use strong legal tools to delete bad links, or we write many good articles to push the bad news down where no one can find it." },
-        { question: "Can you hide news articles from the first page?", answer: "Yes, we create very powerful positive news that takes over the first page, hiding any bad articles completely." },
-        { question: "How long does it take to clean my name?", answer: "Sometimes it takes just a few weeks. For very difficult cases, it takes 3 to 6 months to make your first page perfectly clean." }
+        {
+          question: "How can individuals remove negative search results from Google when their name is searched?",
+          answer: "Individuals can remove negative search results through legal content takedowns, privacy de-indexing requests, and algorithmic suppression. If the content contains unverified defamation, copyright infringement, or personal privacy violations, we submit removal notices to hosting providers and Google. If the webmaster refuses deletion, we build authoritative personal digital assets to push the negative URLs off Page 1."
+        },
+        {
+          question: "Can private personal information, phone numbers, and addresses be removed from Google?",
+          answer: "Yes, Google has strict Personal Identifiable Information (PII) removal policies. Under Google explicit removal guidelines, we submit direct removal requests for phone numbers, residential addresses, personal email IDs, financial data, and unauthorized photographs to have them de-indexed from search results within 48 to 72 hours."
+        },
+        {
+          question: "How do executives and CEOs build a search-proof personal brand?",
+          answer: "Executives build search-proof personal brands by owning and actively optimizing the top 10 positions on Google Page 1. This includes creating a verified personal website, securing branded social media handles across LinkedIn, Twitter, and Crunchbase, publishing thought leadership articles on tier-1 business portals, and managing active Knowledge Panel data."
+        },
+        {
+          question: "Can past legal disputes, court orders, or arrest records be removed from search engines?",
+          answer: "Yes, past court orders and legal news can often be removed or suppressed from Google. In India, individuals who have been acquitted or had charges quashed can seek de-indexing under Right to Privacy protections under Article 21. Where legal portals cannot delete the underlying filing, we utilize reverse SEO to push the search results off the first page."
+        },
+        {
+          question: "How do you fix negative autocomplete suggestions when typing a personal name in Google?",
+          answer: "Negative autocomplete predictions (such as a name associated with controversy or fraud) are corrected by influencing Google query volume and natural language associations. We publish high-quality content targeting positive professional attributes and coordinate natural search queries, causing negative autocomplete terms to drop off within 60 to 90 days."
+        },
+        {
+          question: "Is it possible to remove unverified blog posts or complaints mentioning an individual?",
+          answer: "Yes, unverified blog posts on platforms like WordPress, Blogger, or complaint forums can be removed by demonstrating Terms of Service violations, harassment, or defamation. We work directly with hosting abuse teams and platform registrars to secure voluntary deletion or server-level de-indexing."
+        },
+        {
+          question: "How long does personal reputation suppression take for an executive or doctor?",
+          answer: "Personal reputation repair typically requires 30 to 90 days. Basic review disputes and privacy removals can resolve in 1 to 2 weeks, while outranking entrenched news articles and national media coverage requires 2 to 3 months of sustained digital authority building."
+        },
+        {
+          question: "Do you sign a non-disclosure agreement (NDA) for personal reputation repair?",
+          answer: "Yes, 100 percent of our client engagements are protected under strict, legally binding Non-Disclosure Agreements (NDAs). Your identity, case details, and engagement specifics remain completely confidential and are never disclosed to third parties or public case studies."
+        }
       ]} />
       <Footer />
     </div>

@@ -330,9 +330,38 @@ export default function BusinessAndIndividualSolutionsPage() {
       </section>
 
       <FAQSection items={[
-        { question: "How to protect my business reputation online?", answer: "We offer comprehensive reputation monitoring, review management, and negative content suppression to safeguard your business's image." },
-        { question: "Can I fix my damaged personal reputation?", answer: "Yes, our individual reputation solutions can help repair and build a positive online presence through strategic content creation and suppression of negative results." },
-        { question: "What is the best way to handle negative reviews for my business?", answer: "The most effective approach involves a combination of removing defamatory reviews, suppressing negative search results, and aggressively generating positive verified reviews." }
+        {
+          question: "How do you protect corporate brand reputation against competitor smear campaigns?",
+          answer: "We protect corporate brands by deploying real-time digital monitoring, legal takedown notices, and authoritative search suppression. When competitors sponsor negative smear articles or coordinated review attacks, we identify the origination vectors, file platform policy violation complaints, and execute counter-PR syndication to ensure corporate search results reflect authentic company achievements."
+        },
+        {
+          question: "Can fake reviews on Google Business Profile, AmbitionBox, and Glassdoor be removed for businesses?",
+          answer: "Yes, fake and defamatory reviews on Google Business Profile, AmbitionBox, and Glassdoor can be removed if they breach platform terms of service. Violations include employee impersonation, commercial extortion, hate speech, and unverified allegations of criminal wrongdoing. We build legal evidence dossiers to appeal directly to platform compliance teams for permanent deletion."
+        },
+        {
+          question: "What is the fastest way to respond to an active corporate PR crisis online?",
+          answer: "The fastest response to an online PR crisis involves activating a 24-hour quarantine protocol: establishing a single verified company communication channel, releasing factual holding statements, suppressing inflammatory search keywords, and pausing scheduled marketing campaigns to prevent misaligned public perception."
+        },
+        {
+          question: "How do executive and CEO search results impact B2B client acquisition and fundraising?",
+          answer: "Executive search results directly impact enterprise sales and investor due diligence. Venture capital firms, banking partners, and B2B buyers conduct extensive background checks on executive leadership before signing contracts. Positive leadership coverage reinforces corporate stability, while unresolved negative links frequently stall transactions."
+        },
+        {
+          question: "Can defamatory forum posts on Reddit and Quora about a company be taken down?",
+          answer: "Defamatory forum threads on Reddit and Quora can be removed through formal Terms of Service flags, legal notices, and community moderation appeals. When moderators refuse direct deletion, we utilize reverse SEO suppression to push the forum discussions off Page 1 of Google."
+        },
+        {
+          question: "How does reverse SEO suppress negative search results for enterprise brands?",
+          answer: "Reverse SEO suppresses negative search results by developing and ranking multiple high-authority branded properties above the negative content. By deploying verified corporate microsites, authoritative PR releases, executive thought leadership articles, and industry profiles, we occupy positions 1 through 10 on Page 1, pushing negative results to Page 2 where search visibility drops by over 95 percent."
+        },
+        {
+          question: "What legal recourse exists in India for online corporate defamation?",
+          answer: "In India, corporate defamation can be challenged under Section 79 of the Information Technology Act 2000, intermediary liability rules, and civil or criminal defamation under Sections 499 and 500 of the Indian Penal Code. We coordinate with cyber legal counsel to issue formal cease-and-desist notices and intermediary takedown orders to host platforms."
+        },
+        {
+          question: "How do you monitor brand mentions across Google and social media in real time?",
+          answer: "We monitor corporate brand mentions using enterprise sentiment tracking systems that continuously scan Google search indexes, news publications, Twitter, LinkedIn, Reddit, YouTube, and consumer complaint forums. Alerts trigger instantly upon negative sentiment spikes, enabling proactive remediation within minutes."
+        }
       ]} />
       <Footer />
     </div>

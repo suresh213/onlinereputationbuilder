@@ -80,12 +80,54 @@ const mediaLogos = [
 ];
 
 const faqs = [
-  { q: "Will fixing my name online help my business grow?", a: "Fixing your name online helps your business grow by instantly building trust with new customers who search for you. When potential clients see a highly professional and positive digital presence on the first page of search results, they are significantly more likely to choose your services, leading to increased revenue and brand respect." }, 
-  { q: "How do you handle unfair online reviews?", a: "We handle unfair online reviews by identifying policy violations, such as inappropriate language or fake accounts, and submitting strategic removal requests directly to platforms like Google and Trustpilot. For reviews that cannot be legally removed, we implement robust review management campaigns to naturally amplify positive 5-star feedback from your real customers." }, 
-  { q: "Can you clear negative news articles from the internet?", a: "Yes, you can clear negative news articles from the internet using strategic legal requests, terms of service violations, and editorial negotiations. When permanent removal is not possible, we utilize advanced search engine suppression techniques. We publish high-authority, positive content about your brand that naturally outranks and pushes down the negative search results." },
-  { q: "Why should I hire an online reputation management agency?", a: "You should hire an online reputation management agency because unverified online mentions, fake reviews, and negative news can permanently damage your customer trust and business growth. A professional ORM team provides the legal, technical, and content expertise required to permanently clear negative links and build a highly credible digital presence." }, 
-  { q: "How does your reputation management service work?", a: "Our reputation management service works in three clear steps: first, we conduct a comprehensive audit of all negative links and brand mentions. Second, we execute targeted removal strategies for unfair content. Finally, we proactively publish high-quality PR articles and positive content to ensure search engines only display your absolute best professional side." }, 
-  { q: "How much time does online reputation management take?", a: "Online reputation management typically takes a few weeks for simple content removals and standard review management. However, if the digital crisis is severe and involves highly authoritative news sites, it can take 3 to 6 months of sustained suppression campaigns to completely clean and replace the first page of search engine results." },
+  {
+    q: "How do you remove negative links from Google search results?",
+    a: "Negative links are removed from Google through two primary methods: direct content de-indexing and search engine suppression. If a webpage contains defamatory statements, copyright infringement, or violates platform policies, we submit formal legal takedown notices under the Information Technology Act and Google Terms of Service to remove the URL entirely. When webmasters refuse removal, we deploy high-authority reverse SEO to outrank and push the negative links past Page 2 where less than 1 percent of searchers ever look."
+  },
+  {
+    q: "Can fake Google reviews be permanently removed from Google Maps and Search?",
+    a: "Yes, fake Google reviews can be permanently removed if they violate Google Prohibited and Restricted Content policies. Violations include conflict of interest, spam, fake engagement, harassment, and off-topic rants. We submit structured evidence dossiers directly through Google Business Profile support channels and legal remediation workflows. Reviews that breach policy are typically removed within 7 to 14 business days."
+  },
+  {
+    q: "How much does online reputation management cost in India?",
+    a: "The cost of online reputation management in India typically ranges from 25,000 INR to 1,50,000 INR per month for standard campaigns, and from 1,50,000 INR to 5,00,000 INR for severe corporate crisis management. Pricing depends on the authority of the offending websites (such as major national newspapers versus local blogs), the number of negative search results targeted, and whether the strategy requires legal takedown notices or multi-asset suppression campaigns."
+  },
+  {
+    q: "How do you push down or bury negative search results in Google?",
+    a: "Pushing down negative search results, known as reverse SEO, involves creating and optimizing an ecosystem of high-authority web assets that naturally outrank the offending URLs. We construct optimized professional profiles, verified social platforms, published press releases, high-DA blog publications, and owned domain properties. By optimizing these assets for your exact brand search queries, we occupy positions 1 through 10 on Google Page 1, pushing negative results to Page 2 and beyond."
+  },
+  {
+    q: "Can defamatory news articles and media publications be removed from Google?",
+    a: "Defamatory news articles can be removed or de-indexed through editorial retractions, legal notices, and Google de-indexing requests. If a news publication published unverified allegations, outdated reporting, or factual falsehoods, our legal team submits formal retraction requests to editors. If the publisher refuses removal, we pursue de-indexing requests with Google search legal consoles or execute intensive suppression campaigns so the article disappears from first-page search visibility."
+  },
+  {
+    q: "How do you delete or dispute negative reviews on Glassdoor and Indeed?",
+    a: "Negative reviews on Glassdoor and Indeed can be removed if they violate platform Community Guidelines. Common violations include revealing confidential company data, naming non-executive employees, profanity, or defamatory accusations of illegal activity without proof. We flag and file formal employer dispute appeals detailing specific guideline breaches to have the reviews permanently scrubbed from employer profiles."
+  },
+  {
+    q: "How do you fix negative Google Autocomplete search predictions?",
+    a: "Negative Google Autocomplete suggestions (such as your name followed by scam, fraud, or lawsuit) are fixed by recalibrating Google search volume algorithms. Google Autocomplete is driven by search frequency and algorithmic association. We flood the search ecosystem with high-intent positive search queries and publish authoritative digital content that shifts Google NLP associations, causing the negative search suggestions to drop out of autocomplete predictions within 45 to 90 days."
+  },
+  {
+    q: "Is online reputation management legal in India and under the IT Act?",
+    a: "Yes, online reputation management is 100 percent legal in India and internationally. Legitimate ORM agencies operate under established legal frameworks, including Section 79 of the Information Technology Act 2000, intermediary guidelines, defamation laws under Sections 499 and 500 of the Indian Penal Code, copyright regulations, and platform Terms of Service. Every action taken protects your lawful right to privacy and defense against cyber defamation."
+  },
+  {
+    q: "Can police FIR reports, court records, or arrest news be removed from Google?",
+    a: "Yes, past police FIR reports and court records can often be removed or suppressed from Google search. Under Indian jurisprudence and developing Right to be Forgotten precedents under Article 21 of the Constitution, individuals who have been acquitted, discharged, or had cases quashed can seek de-indexing of historical legal documents. When public record databases cannot be modified directly, we utilize algorithmic suppression to push legal portals off Page 1."
+  },
+  {
+    q: "How long does it take to repair a damaged online reputation?",
+    a: "The duration of online reputation repair depends on the complexity of the case. Direct review removals and policy-violating content takedowns typically take 7 to 21 business days. In contrast, comprehensive reverse SEO suppression of high-authority news publications and forum threads typically requires 60 to 120 days of consistent content syndication and link building to permanently secure Google Page 1."
+  },
+  {
+    q: "What is the difference between SEO and Online Reputation Management (ORM)?",
+    a: "Standard SEO focuses on ranking one website for commercial keywords to drive traffic and leads. Online Reputation Management (ORM) focuses on controlling the entire first page of Google (all 10 search results) for your branded and personal queries. While SEO promotes a single domain, ORM manages multiple distinct web properties simultaneously to ensure no negative content can enter Page 1."
+  },
+  {
+    q: "How do you protect a corporate brand against a viral PR crisis?",
+    a: "Protecting a corporate brand during a viral PR crisis requires immediate 24/7 narrative control, search result quarantine, and positive asset amplification. We publish official verified statements across corporate channels, secure authoritative media placements with tier-1 news outlets, suppress sensationalist forum discussions on Reddit and Quora, and implement real-time sentiment monitoring to neutralize reputational fallout before it impacts enterprise revenue."
+  }
 ];
 
 const howTos = [
