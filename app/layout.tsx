@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import Script from "next/script";
+import GlobalTrackingListener from "@/components/GlobalTrackingListener";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -218,6 +219,7 @@ export default function RootLayout({
             gtag('config', 'AW-406461196');
           `}
         </Script>
+        <GlobalTrackingListener />
         {children}
       </body>
     </html>

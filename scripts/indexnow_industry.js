@@ -22,12 +22,12 @@ async function submitIndexNow() {
     return name.toLowerCase().replace(/ & /g, '-').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
-  const urls = industries.map(ind => \`https://\${host}/industry/\${generateSlug(ind)}\`);
+  const urls = industries.map(ind => `https://${host}/industry/${generateSlug(ind)}`);
 
   const payload = {
     host: host,
     key: key,
-    keyLocation: \`https://\${host}/\${key}.txt\`,
+    keyLocation: `https://${host}/${key}.txt`,
     urlList: urls
   };
 
