@@ -1,4 +1,4 @@
-# Online Reputation Builder – Next.js Clone
+# Online Reputation Builder: Next.js Clone
 
 A pixel-faithful clone of onlinereputationbuilder.io built with Next.js 14, TypeScript, and Tailwind CSS.
 
@@ -17,7 +17,7 @@ A pixel-faithful clone of onlinereputationbuilder.io built with Next.js 14, Type
 - **Next.js 14** (App Router)
 - **TypeScript**
 - **Tailwind CSS**
-- **Google Fonts** – Playfair Display + DM Sans
+- **Google Fonts**: Playfair Display + DM Sans
 
 ## Getting Started
 

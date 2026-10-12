@@ -483,8 +483,8 @@ export default function ReputationManagementPage() {
             </h2>
             <p className="text-zinc-400 text-sm mt-3 leading-relaxed">
               Our negative content removal service legally de-indexes, suppresses, and permanently
-              removes damaging digital content — from defamatory articles and fake reviews to
-              slanderous videos and harmful forum posts — protecting your brand across all search engines.
+              removes damaging digital content, from defamatory articles and fake reviews to
+              slanderous videos and harmful forum posts, protecting your brand across all search engines.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

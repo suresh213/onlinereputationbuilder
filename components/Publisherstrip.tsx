@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * PublisherStrip — infinite sliding marquee with inline SVG logos.
+ * PublisherStrip: infinite sliding marquee with inline SVG logos.
  * No external image requests. Pauses on hover.
  */
 
