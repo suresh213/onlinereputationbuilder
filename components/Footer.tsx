@@ -111,6 +111,7 @@ export default function Footer() {
           <h3 className="text-white font-bold text-xs uppercase tracking-widest mb-5">Services</h3>
           <ul className="space-y-2.5">
             {[
+              { label: "Online Reputation Management", href: "/reputation-management" },
               { label: "Negative Content Removal", href: "/business/remove-negative-results" },
               { label: "Negative Review Removal", href: "/review-management/fake-review-removal" },
               { label: "Negative Video Removal", href: "/review-management/video-removal" },
@@ -194,8 +195,12 @@ export default function Footer() {
       {/* Strategic SEO Pillars & Direct Authority Links */}
       <div className="border-t border-white/8 py-6 px-4 bg-zinc-950/40">
         <div className="max-w-7xl mx-auto">
-          <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Negative Removal Solutions</p>
+          <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Core ORM & Content Removal Solutions</p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-300 mb-5">
+            <Link href="/reputation-management" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
+              🌟 Online Reputation Management
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/business/remove-negative-results" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
               🛡️ Negative Content Removal
             </Link>

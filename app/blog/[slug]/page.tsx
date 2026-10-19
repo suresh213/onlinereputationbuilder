@@ -115,6 +115,14 @@ export async function generateMetadata({ params }: Props) {
       "best reputation management services",
       "ORM agency reviews"
     ],
+    "10-most-trusted-online-reputation-management-companies": [
+      "best online reputation management companies",
+      "top online reputation management company",
+      "best reputation management companies",
+      "online reputation companies",
+      "best internet reputation company",
+      "top 10 reputation management companies"
+    ],
     "orm-tools-vs-professional-services-comparison": [
       "ORM tools vs agencies",
       "brand monitoring tools",

@@ -8,6 +8,7 @@ const navItems = [
     label: "BUSINESS",
     href: "/business",
     children: [
+      { label: "Online Reputation Management", href: "/reputation-management" },
       { label: "Remove Business Negative Google Results", href: "/business/remove-negative-results" },
       { label: "Review Management", href: "/business/review-management" },
       { label: "Online Reputation Audit", href: "/business/reputation-audit" },
