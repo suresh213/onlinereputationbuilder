@@ -3,8 +3,8 @@ import Script from "next/script";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Negative Video Removal Services | Remove YouTube & Slander Videos",
-  description: "Professional negative video removal services. We take down defamatory, copyrighted, or leaked videos from YouTube, Google Search, and video platforms. 100% confidential legal resolution.",
+  title: "Negative Video Removal Services (YouTube, Vimeo & Google Search Takedown)",
+  description: "Professional negative video removal services. Permanently delete or de-index defamatory YouTube videos, copyright violations, and leaked clips. 100% confidential under NDA.",
   keywords: [
     "negative video removal",
     "negative video removal services",

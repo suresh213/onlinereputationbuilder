@@ -1638,8 +1638,8 @@ export const blogPosts: BlogPost[] = [
   },
 {
     slug: "top-10-orm-companies-india-2026",
-    title: "10 Most Trusted Online Reputation Management Companies in India [2026 Edition]",
-    excerpt: "Comprehensive review of India's top ORM agencies. Compare services, pricing models, and performance guarantees. Find the best ORM company for your business.",
+    title: "Top 10 Best ORM Companies in India (2026 Comparison & Pricing)",
+    excerpt: "Compare the top 10 online reputation management (ORM) companies in India for 2026. Detailed reviews of removal success rates, pricing, crisis PR, and client ratings.",
     category: "Comparison",
     readTime: "13 min read",
     date: "June 3, 2026",
