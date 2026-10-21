@@ -340,11 +340,11 @@ export default function SpiritualIndustryPage() {
       <div className="bg-zinc-100 py-3 border-b border-zinc-200">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-4 text-xs text-zinc-600">
           <span className="font-semibold text-zinc-800">Related Social &amp; Spiritual Sectors:</span>
-          <Link href="/industry/spiritual-leaders" className="hover:text-brand-blue hover:underline">Spiritual Leaders</Link>
+          <Link href="/industry/public-speakers" className="hover:text-brand-blue hover:underline">Spiritual Leaders &amp; Speakers</Link>
           <span>•</span>
-          <Link href="/industry/ngos" className="hover:text-brand-blue hover:underline">NGOs &amp; Charitable Trusts</Link>
+          <Link href="/industry/non-profits" className="hover:text-brand-blue hover:underline">NGOs &amp; Charitable Trusts</Link>
           <span>•</span>
-          <Link href="/industry/yoga-studios" className="hover:text-brand-blue hover:underline">Yoga &amp; Meditation Studios</Link>
+          <Link href="/industry/gyms-fitness-centers" className="hover:text-brand-blue hover:underline">Yoga &amp; Wellness Centers</Link>
           <span>•</span>
           <Link href="/industry/authors" className="hover:text-brand-blue hover:underline">Spiritual Authors</Link>
           <span>•</span>

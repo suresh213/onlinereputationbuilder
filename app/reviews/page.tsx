@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Online Reputation Builder Reviews | Top ORM Agency in India",
   description:
     "Read reviews and case studies from clients who have used India's best ORM agency to remove negative content, fake reviews, and repair their digital reputation.",
+  alternates: {
+    canonical: "https://onlinereputationbuilders.in/reviews",
+  },
   robots: {
     index: true,
     follow: true,
@@ -13,7 +18,9 @@ export const metadata: Metadata = {
 
 export default function ReviewsPage() {
   return (
-    <main className="min-h-screen pt-24 pb-16 px-4 bg-zinc-950">
+    <main className="min-h-screen bg-zinc-950 font-sans text-white">
+      <Navbar />
+      <div className="pt-32 pb-16 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-yellow-400 text-xs font-bold uppercase tracking-widest mb-2">
@@ -78,11 +85,13 @@ export default function ReviewsPage() {
         </div>
         
         <div className="text-center">
-          <Link href="/contact" className="inline-flex items-center justify-center h-12 px-8 rounded-full bg-brand-gold text-zinc-950 font-bold text-sm hover:scale-105 transition-transform">
+          <Link href="/contact-us" className="inline-flex items-center justify-center h-12 px-8 rounded-full bg-brand-gold text-zinc-950 font-bold text-sm hover:scale-105 transition-transform">
             Request Your Free Confidential Audit
           </Link>
         </div>
       </div>
+      </div>
+      <Footer />
     </main>
   );
 }

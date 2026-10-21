@@ -342,9 +342,9 @@ export default function InsuranceIndustryPage() {
           <span className="font-semibold text-zinc-800">Related Financial Sectors:</span>
           <Link href="/industry/insurance-agents" className="hover:text-brand-blue hover:underline">Insurance Agents &amp; Brokers</Link>
           <span>•</span>
-          <Link href="/industry/financial-services" className="hover:text-brand-blue hover:underline">Financial Services</Link>
+          <Link href="/industry/financial-advisors" className="hover:text-brand-blue hover:underline">Financial Services</Link>
           <span>•</span>
-          <Link href="/industry/chartered-accountants" className="hover:text-brand-blue hover:underline">Chartered Accountants</Link>
+          <Link href="/industry/accountants" className="hover:text-brand-blue hover:underline">Chartered Accountants</Link>
           <span>•</span>
           <Link href="/industry/law-firms" className="hover:text-brand-blue hover:underline">Law Firms &amp; Legal Counsel</Link>
           <span>•</span>

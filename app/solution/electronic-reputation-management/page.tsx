@@ -340,11 +340,11 @@ export default function ElectronicIndustryPage() {
       <div className="bg-zinc-100 py-3 border-b border-zinc-200">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-4 text-xs text-zinc-600">
           <span className="font-semibold text-zinc-800">Related Commerce &amp; Tech Sectors:</span>
-          <Link href="/industry/ecommerce-brands" className="hover:text-brand-blue hover:underline">E-Commerce Brands</Link>
+          <Link href="/industry/e-commerce-brands" className="hover:text-brand-blue hover:underline">E-Commerce Brands</Link>
           <span>•</span>
           <Link href="/industry/startups" className="hover:text-brand-blue hover:underline">Tech Startups</Link>
           <span>•</span>
-          <Link href="/industry/retail-stores" className="hover:text-brand-blue hover:underline">Retail Electronics Stores</Link>
+          <Link href="/industry/retail-chains" className="hover:text-brand-blue hover:underline">Retail Electronics Stores</Link>
           <span>•</span>
           <Link href="/industry/automotive-dealerships" className="hover:text-brand-blue hover:underline">Automotive Electronics</Link>
           <span>•</span>

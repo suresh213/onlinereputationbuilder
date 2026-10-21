@@ -342,9 +342,9 @@ export default function PoliticsIndustryPage() {
           <span className="font-semibold text-zinc-800">Public Leadership Sectors:</span>
           <Link href="/industry/politicians" className="hover:text-brand-blue hover:underline">Politicians &amp; Candidates</Link>
           <span>•</span>
-          <Link href="/industry/public-figures" className="hover:text-brand-blue hover:underline">Public Figures</Link>
+          <Link href="/industry/public-speakers" className="hover:text-brand-blue hover:underline">Public Figures &amp; Speakers</Link>
           <span>•</span>
-          <Link href="/industry/advocates" className="hover:text-brand-blue hover:underline">Advocates &amp; Legal Counsel</Link>
+          <Link href="/industry/lawyers" className="hover:text-brand-blue hover:underline">Advocates &amp; Legal Counsel</Link>
           <span>•</span>
           <Link href="/industry/authors" className="hover:text-brand-blue hover:underline">Authors &amp; Thought Leaders</Link>
           <span>•</span>

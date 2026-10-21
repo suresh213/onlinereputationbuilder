@@ -14,6 +14,8 @@ export default function HtmlSitemapPage() {
     { title: "Reputation Monitoring", href: "/business/reputation-monitoring", desc: "Real-time surveillance across Google, reviews, and social media." },
     { title: "Business Review Management", href: "/business/review-management", desc: "Strategic review generation and ratings fortification." },
     { title: "Public Relations Strategy", href: "/public-relation", desc: "Authority building and Tier-1 press placement." },
+    { title: "Corporate Brand Management Campaign", href: "/campaign/brand-management", desc: "Executive PR and strategic digital presence for corporations and founders." },
+    { title: "Client Reviews & Testimonials", href: "/reviews", desc: "Verified client case studies and 5-star performance records." },
     { title: "Reputation Risk Calculator", href: "/reputation-calculator", desc: "Interactive tool to calculate brand risk and financial vulnerability." },
     { title: "ORM Cost in India (2026 Guide)", href: "/orm-cost-in-india", desc: "Complete industry pricing transparency and campaign cost models." },
   ];

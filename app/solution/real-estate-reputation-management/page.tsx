@@ -344,9 +344,9 @@ export default function RealEstateIndustryPage() {
           <span>•</span>
           <Link href="/industry/architects" className="hover:text-brand-blue hover:underline">Architects &amp; Master Planners</Link>
           <span>•</span>
-          <Link href="/industry/interior-designers" className="hover:text-brand-blue hover:underline">Interior Designers</Link>
+          <Link href="/industry/real-estate-agents" className="hover:text-brand-blue hover:underline">Real Estate Agents &amp; Brokers</Link>
           <span>•</span>
-          <Link href="/industry/construction-companies" className="hover:text-brand-blue hover:underline">Construction Contractors</Link>
+          <Link href="/industry/construction-firms" className="hover:text-brand-blue hover:underline">Construction Contractors</Link>
           <span>•</span>
           <Link href="/orm-agency-kolkata" className="hover:text-brand-gold font-medium">Kolkata Real Estate Desk</Link>
         </div>
