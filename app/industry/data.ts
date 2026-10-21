@@ -763,49 +763,49 @@ export const industries: IndustryData[] = [
     "metaDescription": "Confidential online reputation management for c-suite executives. Permanently remove fake reviews, suppress negative news, and protect Google search presence under strict NDA.",
     "heroTitle": "Online Reputation Management for C-Suite Executives",
     "heroSubtitle": "Protect your career, enterprise credibility, and revenue. We legally remove defamatory reviews, suppress damaging search links, and fortify your digital footprint under strict NDA.",
-    "executiveSummary": "Senior corporate executives are increasingly targeted by digital smear campaigns that can derail career mobility and board appointments. Whether it involves departmental restructuring blame, data security controversies, or corporate accounting disputes, negative digital links cause immense friction during institutional background checks. We deploy discreet executive brand protection to suppress unverified claims and build authoritative professional profiles.",
+    "executiveSummary": "Non-CEO executive officers including Chief Financial Officers (CFO), Chief Technology Officers (CTO), Chief Operating Officers (COO), and Chief Marketing Officers (CMO) face targeted digital threats unique to their corporate functions. While CEOs battle public brand crises, functional C-Suite leaders are frequently targeted by whistleblower leaks, internal organizational scapegoating, cybersecurity incident personalization, and regulatory inquiry disclosures on Glassdoor, AmbitionBox, and business forums. We deploy discreet executive firewall protocols under strict NDA to insulate personal careers from corporate turbulence.",
     "threats": [
       {
-        "title": "Organizational Layoff Blame Defamation",
-        "desc": "Executives personally scapegoated on employer review boards for corporate cost reductions or corporate restructuring.",
-        "impact": "Blocked lateral executive transitions and board appointment scrutiny."
+        "title": "CFO Audit & Financial Query Speculation",
+        "desc": "Financial blogs and stock forums misrepresenting routine audit queries or accounting disclosures as personal financial impropriety.",
+        "impact": "Complicated institutional debt covenants, equity raises, and lateral CFO appointments."
       },
       {
-        "title": "Technical Incident Personalization",
-        "desc": "Technology leaders held personally culpable on public forums for industry-wide security events or system outages.",
-        "impact": "Erosion of standing in corporate advisory boards and technology councils."
+        "title": "CTO & CISO Breach Scapegoating",
+        "desc": "Technology and security officers blamed personally on social media and Reddit for zero-day infrastructure outages or third-party vendor leaks.",
+        "impact": "Damage to advisory credentials, venture board seats, and enterprise cybersecurity standing."
       },
       {
-        "title": "Financial Audit Qualification Misrepresentation",
-        "desc": "Speculative financial blogs mischaracterizing standard corporate audit notes as executive mismanagement.",
-        "impact": "Institutional shareholder distrust and credit rating complications."
+        "title": "COO Restructuring & Supply Chain Fallout",
+        "desc": "Operating executives personally defamed on employer portals following operational cost rationalization and vendor contract renegotiations.",
+        "impact": "Disrupted partner relationships and friction during executive background checks."
       },
       {
-        "title": "Personal PII Scraping on Public Registries",
-        "desc": "Corporate scraper websites indexing personal home addresses and direct phone numbers in Google Search snippets.",
-        "impact": "Privacy violations and personal security concerns for executive families."
+        "title": "CHRO & People Leader Retaliation Reviews",
+        "desc": "Anonymous, policy-violating reviews targeting HR leadership with fabricated harassment or bias accusations following performance reviews.",
+        "impact": "Personal distress, reputational stain on LinkedIn, and institutional risk."
       }
     ],
     "methodology": [
       {
         "step": "Phase 01",
-        "title": "Forensic Digital Footprint Audit",
-        "desc": "We analyze every indexed URL across Page 1 to Page 5 of Google Search for c-suite executives, identifying negative links, sentiment velocity, competitor interference, and search autocomplete triggers."
+        "title": "Corporate Entity vs Executive Separation Audit",
+        "desc": "We map every search query linking the executive's personal name with past employer controversies, separating personal career integrity from corporate litigation records."
       },
       {
         "step": "Phase 02",
-        "title": "Platform Compliance & Legal Takedowns",
-        "desc": "Our compliance team drafts targeted legal takedown petitions under platform Terms of Service, defamation statutes, copyright violations, and the Indian IT Act to seek complete deletion at the source."
+        "title": "Platform Terms of Service & Legal Takedowns",
+        "desc": "Our legal team files targeted takedowns across Glassdoor, AmbitionBox, ZaubaCorp scraper networks, and Google Legal under defamation statutes and the Indian IT Act."
       },
       {
         "step": "Phase 03",
-        "title": "Algorithmic Reverse SEO Suppression",
-        "desc": "For stubborn links that cannot be deleted directly, we engineer and rank an impenetrable fortress of high-authority Tier-1 digital assets that push negative links down to Page 3 and Page 4."
+        "title": "C-Suite Thought Leadership Fortress",
+        "desc": "We build and optimize high-authority, verifiable Tier-1 profiles (Crunchbase, Forbes Council, Bloomberg, executive bios, and keynote features) that dominate Page 1 search results."
       },
       {
         "step": "Phase 04",
-        "title": "Continuous 24/7 Digital Sentinel Monitoring",
-        "desc": "We deploy real-time monitoring algorithms across search results, review forums, and social communities, immediately alerting our crisis directors to neutralize new threats before they gain search visibility."
+        "title": "Real-Time Executive Sentinel & Autocomplete Defense",
+        "desc": "We actively monitor search suggestions, press releases, and forum discussions 24/7 to neutralize emerging negative associations before they trigger autocomplete shifts."
       }
     ],
     "protectedPlatforms": [

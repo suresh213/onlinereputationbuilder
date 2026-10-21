@@ -249,6 +249,30 @@ export default function Footer() {
             <Link href="/reputation-calculator" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
               🧮 Reputation Risk Calculator
             </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/business/crisis-management" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🚨 Crisis Management
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/individual/personal-branding-services" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              👤 Personal Branding
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/individual/change-google-autocomplete" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🔍 Autocomplete Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/how-to-remove-glassdoor-reviews" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              💼 Glassdoor Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/fake-news-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              📰 Fake News Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/reddit-post-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              💬 Reddit Defamation Removal
+            </Link>
           </div>
 
           <p className="text-white font-bold text-xs uppercase tracking-widest mb-3">Industry Reputation Solutions</p>
@@ -263,6 +287,10 @@ export default function Footer() {
             <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/industry/ceos" className="hover:text-brand-gold-light transition-colors">
               👔 CEOs & C-Suite
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/industry/c-suite-executives" className="hover:text-brand-gold-light transition-colors">
+              💼 C-Suite Officers
             </Link>
             <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/industry/lawyers" className="hover:text-brand-gold-light transition-colors">
@@ -316,11 +344,27 @@ export default function Footer() {
           <p className="text-white font-bold text-xs uppercase tracking-widest mt-5 mb-3">Regional Agency Hubs</p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-gray-300">
             <Link href="/orm-agency-kolkata" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
-              🏢 Kolkata Registered Headquarters (Park Street)
+              🏢 Kolkata Registered HQ
             </Link>
             <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/orm-agency-mumbai" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
-              🏢 Mumbai Regional Office
+              🏢 Mumbai Office
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-agency-delhi" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🏢 Delhi NCR Regional Hub
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-agency-bangalore" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🏢 Bangalore Tech Hub
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-agency-gurgaon" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🏢 Gurgaon Corporate Hub
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-agency-hyderabad" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🏢 Hyderabad Regional Hub
             </Link>
           </div>
         </div>
@@ -331,6 +375,8 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} Online Reputation Builder. All rights reserved. <span className="mx-2 hidden md:inline">|</span> <span className="block md:inline mt-2 md:mt-0">Built and maintained by <a href="https://www.startupbricks.in" target="_blank" rel="noopener noreferrer" className="text-brand-gold hover:text-white transition-colors">Startupbricks Pvt Ltd</a></span></p>
           <div className="flex items-center gap-4">
+            <Link href="/html-sitemap" className="hover:text-brand-gold-light transition-colors font-semibold text-gray-400">HTML Sitemap</Link>
+            <span className="opacity-30">|</span>
             <Link href="/terms-and-conditions" className="hover:text-gray-300 transition-colors">Terms & Conditions</Link>
             <span className="opacity-30">|</span>
             <Link href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>

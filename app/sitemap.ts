@@ -75,7 +75,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/orm-cost-in-india",
     "/reputation-calculator",
     "/industry",
-    "/blog"
+    "/blog",
+    "/html-sitemap"
   ];
 
   // Dynamically append blog article routes
