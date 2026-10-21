@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "submit-indexnow": "node scripts/submit-indexnow.js"
+    "submit-indexnow": "node scripts/submit-indexnow.js",
+    "fast-index": "node scripts/fast_index_all.js"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.9",
