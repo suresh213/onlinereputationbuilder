@@ -132,15 +132,20 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Company */}
+        {/* Company & Regional Hubs */}
         <div>
-          <h3 className="text-white font-bold text-xs uppercase tracking-widest mb-5">Company</h3>
+          <h3 className="text-white font-bold text-xs uppercase tracking-widest mb-5">Company & Regional Hubs</h3>
           <ul className="space-y-2.5">
             {[
-              { label: "About Us", href: "#" },
               { label: "Kolkata HQ Office", href: "/orm-agency-kolkata" },
-              { label: "Mumbai Office", href: "/orm-agency-mumbai" },
-              { label: "Blog", href: "/blog" },
+              { label: "Delhi NCR Regional Hub", href: "/orm-agency-delhi" },
+              { label: "Bangalore Tech Hub", href: "/orm-agency-bangalore" },
+              { label: "Gurgaon Corporate Hub", href: "/orm-agency-gurgaon" },
+              { label: "Hyderabad Regional Hub", href: "/orm-agency-hyderabad" },
+              { label: "Mumbai Regional Hub", href: "/orm-agency-mumbai" },
+              { label: "ORM Cost in India (2026 Guide)", href: "/orm-cost-in-india" },
+              { label: "Reputation Risk Calculator", href: "/reputation-calculator" },
+              { label: "Blog & Intelligence", href: "/blog" },
               { label: "Case Studies", href: "/solution" },
               { label: "Contact Us", href: "/contact-us" },
             ].map((l) => (
@@ -209,6 +214,22 @@ export default function Footer() {
               ⭐ Negative Review Removal
             </Link>
             <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/mouthshut-review-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              💬 MouthShut Review Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/court-record-and-fir-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              ⚖️ Court Record & FIR Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/practo-review-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              🩺 Practo Doctor Review Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/review-management/justdial-review-management" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+              📞 Justdial Review Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
             <Link href="/review-management/video-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
               📹 Negative Video Removal
             </Link>
@@ -217,8 +238,16 @@ export default function Footer() {
               📰 Negative Article Removal
             </Link>
             <span className="text-white/20 hidden sm:inline">•</span>
-            <Link href="/individual/remove-individual-negative-results" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
+            <Link href="/review-management/negative-link-removal" className="hover:text-brand-gold-light transition-colors font-semibold text-white">
               🔗 Negative Link Removal
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/orm-cost-in-india" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
+              💰 ORM Cost Guide 2026
+            </Link>
+            <span className="text-white/20 hidden sm:inline">•</span>
+            <Link href="/reputation-calculator" className="hover:text-brand-gold-light transition-colors font-semibold text-brand-gold">
+              🧮 Reputation Risk Calculator
             </Link>
           </div>
 

@@ -2,24 +2,40 @@
 import { useState } from "react";
 
 export interface FAQItem {
-  question: string;
-  answer: string;
+  question?: string;
+  answer?: string;
+  q?: string;
+  a?: string;
 }
 
 export interface FAQSectionProps {
-  items: FAQItem[];
+  items?: FAQItem[];
+  faqs?: { q: string; a: string; question?: string; answer?: string }[];
+  title?: string;
+  subtitle?: string;
 }
 
-export default function FAQSection({ items }: FAQSectionProps) {
+export default function FAQSection({
+  items,
+  faqs,
+  title = "Frequently Asked Questions",
+  subtitle = "Everything you need to know about our removal and reputation management process."
+}: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  if (!items || items.length === 0) return null;
+  const rawList = items || faqs || [];
+  if (rawList.length === 0) return null;
+
+  const normalized = rawList.map((item) => ({
+    question: item.question || item.q || "",
+    answer: item.answer || item.a || "",
+  }));
 
   // Generate FAQPage JSON-LD Schema for AI and Google Rich Snippets
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: items.map((item) => ({
+    mainEntity: normalized.map((item) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: {
@@ -39,14 +55,14 @@ export default function FAQSection({ items }: FAQSectionProps) {
 
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-4">Frequently Asked Questions</h2>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
-            Everything you need to know about our removal and reputation management process.
+          <h2 className="text-3xl md:text-4xl font-black text-white mb-4 font-heading">{title}</h2>
+          <p className="text-zinc-400 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+            {subtitle}
           </p>
         </div>
 
         <div className="space-y-4">
-          {items.map((item, index) => {
+          {normalized.map((item, index) => {
             const isOpen = openIndex === index;
             return (
               <div 
@@ -57,7 +73,7 @@ export default function FAQSection({ items }: FAQSectionProps) {
                   className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none"
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                 >
-                  <h3 className={`text-lg font-bold pr-8 ${isOpen ? "text-brand-gold" : "text-white"}`}>
+                  <h3 className={`text-base sm:text-lg font-bold pr-8 ${isOpen ? "text-brand-gold" : "text-white"}`}>
                     {item.question}
                   </h3>
                   <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 ${isOpen ? "bg-brand-gold text-[#050A15] rotate-180" : "bg-white/5 text-zinc-400"}`}>
@@ -67,9 +83,9 @@ export default function FAQSection({ items }: FAQSectionProps) {
                   </div>
                 </button>
                 <div 
-                  className={`px-6 overflow-hidden transition-all duration-300 ${isOpen ? "max-h-[500px] pb-6 opacity-100" : "max-h-0 opacity-0"}`}
+                  className={`px-6 overflow-hidden transition-all duration-300 ${isOpen ? "max-h-[600px] pb-6 opacity-100" : "max-h-0 opacity-0"}`}
                 >
-                  <p className="text-zinc-400 leading-relaxed text-sm">
+                  <p className="text-zinc-400 leading-relaxed text-xs sm:text-sm">
                     {item.answer}
                   </p>
                 </div>

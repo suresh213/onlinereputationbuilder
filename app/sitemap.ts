@@ -62,8 +62,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/solution/politics-reputation-management",
     "/solution/real-estate-reputation-management",
     "/solution/spiritual-reputation-management",
+    "/review-management/mouthshut-review-removal",
+    "/review-management/court-record-and-fir-removal",
+    "/review-management/practo-review-removal",
+    "/review-management/justdial-review-management",
+    "/orm-agency-delhi",
+    "/orm-agency-bangalore",
+    "/orm-agency-gurgaon",
+    "/orm-agency-hyderabad",
     "/orm-agency-kolkata",
     "/orm-agency-mumbai",
+    "/orm-cost-in-india",
+    "/reputation-calculator",
     "/industry",
     "/blog"
   ];
@@ -100,7 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ];
       priority = highValueSlugs.includes(route) ? 0.9 : 0.7;
       changefreq = "weekly";
-    } else if (route === "/industry" || route.startsWith("/industry/") || route.startsWith("/orm-agency-")) {
+    } else if (route === "/industry" || route.startsWith("/industry/") || route.startsWith("/orm-agency-") || route === "/orm-cost-in-india" || route === "/reputation-calculator") {
       priority = 0.9;
       changefreq = "daily";
     } else if (route === "/contact-us") {
