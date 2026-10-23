@@ -2,35 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-// Helper functions for Google Analytics tracking
-const trackPhoneClick = () => {
-  try {
-    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-      (window as any).gtag("event", "click_call", {
-        event_category: "Lead Generation",
-        event_label: "Footer Phone Click",
-        value: 1,
-      });
-    }
-  } catch (e) {
-    console.warn("Tracking error:", e);
-  }
-};
-
-const trackEmailClick = () => {
-  try {
-    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-      (window as any).gtag("event", "click_email", {
-        event_category: "Lead Generation",
-        event_label: "Footer Email Click",
-        value: 1,
-      });
-    }
-  } catch (e) {
-    console.warn("Tracking error:", e);
-  }
-};
-
 export default function Footer() {
   return (
     <footer className="footer-bg text-gray-300">
@@ -41,7 +12,7 @@ export default function Footer() {
             <p className="font-heading text-xl font-bold text-white">Ready to Protect Your Reputation?</p>
             <p className="text-white/70 text-sm mt-1">Get a free consultation with India&apos;s #1 ORM experts today.</p>
           </div>
-          <a href="tel:+918882788412" onClick={trackPhoneClick} className="btn-gold whitespace-nowrap flex-shrink-0">
+          <a href="tel:+918882788412" className="btn-gold whitespace-nowrap flex-shrink-0">
             Call: +9188827 88412
           </a>
         </div>
@@ -169,7 +140,7 @@ export default function Footer() {
               </svg>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Hotline</p>
-                <a href="tel:+918882788412" onClick={trackPhoneClick} className="text-white font-semibold hover:text-brand-gold-light transition-colors text-sm">+9188827 88412</a>
+                <a href="tel:+918882788412" className="text-white font-semibold hover:text-brand-gold-light transition-colors text-sm">+9188827 88412</a>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -179,7 +150,7 @@ export default function Footer() {
               </svg>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Email</p>
-                <a href="mailto:contact@onlinereputationbuilders.in" onClick={trackEmailClick} className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilders.in</a>
+                <a href="mailto:contact@onlinereputationbuilders.in" className="text-white text-sm hover:text-brand-gold-light transition-colors">contact@onlinereputationbuilders.in</a>
               </div>
             </div>
             <div className="flex items-start gap-3">

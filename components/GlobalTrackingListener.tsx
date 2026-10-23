@@ -48,8 +48,6 @@ export default function GlobalTrackingListener() {
     const handleDocumentClick = (e: MouseEvent) => {
       try {
         if ((e as any).__orb_tracked) return;
-        const now = Date.now();
-        if (now - lastTracked < 800) return;
 
         const target = e.target as HTMLElement | null;
         if (!target) return;
@@ -64,11 +62,18 @@ export default function GlobalTrackingListener() {
 
         // Phone call click
         if (href.startsWith("tel:")) {
+          const now = Date.now();
+          if (now - lastTracked < 1000) return;
+          lastTracked = now;
+          (e as any).__orb_tracked = true;
+
           if (isGtagAvailable) {
             (window as any).gtag("event", "click_call", {
               event_category: "Lead Generation",
               event_label: href,
               page_url: window.location.href,
+              page_path: window.location.pathname,
+              link_text: anchor.innerText?.trim() || "Call",
               value: 1,
             });
 
@@ -83,11 +88,18 @@ export default function GlobalTrackingListener() {
 
         // WhatsApp click
         else if (href.includes("wa.me") || href.includes("whatsapp.com")) {
+          const now = Date.now();
+          if (now - lastTracked < 1000) return;
+          lastTracked = now;
+          (e as any).__orb_tracked = true;
+
           if (isGtagAvailable) {
             (window as any).gtag("event", "whatsapp_click", {
               event_category: "Lead Generation",
               event_label: href,
               page_url: window.location.href,
+              page_path: window.location.pathname,
+              link_text: anchor.innerText?.trim() || "WhatsApp",
               value: 1,
             });
 
@@ -102,11 +114,18 @@ export default function GlobalTrackingListener() {
 
         // Email click
         else if (href.startsWith("mailto:")) {
+          const now = Date.now();
+          if (now - lastTracked < 1000) return;
+          lastTracked = now;
+          (e as any).__orb_tracked = true;
+
           if (isGtagAvailable) {
             (window as any).gtag("event", "click_email", {
               event_category: "Lead Generation",
               event_label: href,
               page_url: window.location.href,
+              page_path: window.location.pathname,
+              link_text: anchor.innerText?.trim() || "Email",
               value: 1,
             });
           }

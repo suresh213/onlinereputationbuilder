@@ -160,6 +160,14 @@ export default function ReputationHealthCalculator() {
       }
 
       if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+        (window as any).gtag("event", "generate_lead", {
+          event_category: "Lead Generation",
+          event_label: `Calculator Audit: ${targetName || name} (Score: ${score}/100)`,
+          lead_service: "Calculator Audit",
+          page_url: window.location.href,
+          value: 1,
+        });
+
         (window as any).gtag("event", "conversion", {
           send_to: "AW-406461196/IX6PCLXExtEcEIy26MEB",
           value: 1.0,
